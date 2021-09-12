@@ -1,0 +1,843 @@
+
+         ____            _           _      _   _      _
+        |  _ \ _ __ ___ (_) ___  ___| |_   | \ | | ___| |_ ___
+        | |_) | '__/ _ \| |/ _ \/ __| __|  |  \| |/ _ \ __/ _ \ 
+        |  __/| | | (_) | |  __/ (__| |_   | |\  |  __/ || (_) |
+        |_|   |_|  \___// |\___|\___|\__|  |_| \_|\___|\__\___/
+                      |__/
+
+                                    Developed by @ElevenPaths
+                                    Version: 0.6.2
+
+
+[*] 1/1	(2021-08-16 16:28:30.629737) Processing: fceblikkhnkbdimejiaapjnijnfegnii.crx
+[*]	Data collected:
+
+Name:               Give as you Live Donation Reminder
+-----
+
+Version:            6.0.15.0
+--------
+
+SHA256:             353a6e34a5c78e6427ca82ee4de1929c61e347d1
+-------
+
+Author:             Give as you Live Ltd
+-------
+
+Permissions:
+------------
+	- storage
+	- activeTab
+	- webNavigation
+	- webRequest
+	- http://*/*
+	- https://*/*
+
+Content scripts:
+----------------
+[
+  {
+    "matches": [
+      "*://*.giveasyoulive.com/*"
+    ],
+    "js": [
+      "./installedContent.bundle.js"
+    ],
+    "run_at": "document_start"
+  },
+  {
+    "css": [
+      "./styles/css/searchEngineContent.css"
+    ],
+    "js": [
+      "./searchEngineContent.bundle.js"
+    ],
+    "matches": [
+      "*://*.google.com/*",
+      "*://*.google.co.uk/*",
+      "*://*.bing.com/*",
+      "*://uk.search.yahoo.com/*"
+    ],
+    "run_at": "document_end"
+  },
+  {
+    "css": [
+      "./styles/css/retailerContent.css"
+    ],
+    "js": [
+      "./retailerContent.bundle.js"
+    ],
+    "matches": [
+      "<all_urls>"
+    ],
+    "run_at": "document_start"
+  }
+]
+
+Background:
+-----------
+{
+  "persistent": true,
+  "scripts": [
+    "./background.bundle.js"
+  ]
+}
+
+Entities:
+---------
+{
+  "url": [
+    {
+      "value": "https://use.typekit.net/dxe0zrh.css",
+      "path": "styles/css/popup.css"
+    },
+    {
+      "value": "https://fontawesome.com",
+      "path": "styles/css/popup.css"
+    },
+    {
+      "value": "https://fontawesome.com/license",
+      "path": "styles/css/popup.css"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "views/popup.html"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "views/popup.html"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "views/popup.html"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "views/popup.html"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "views/popup.html"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "views/popup.html"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "views/popup.html"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "views/popup.html"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "views/popup.html"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "views/popup.html"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com/api/v1/",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com/api/v2/",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "https://help.giveasyoulive.com/hc/en-us/articles/360017448352-New-Chrome-update-Donation-Reminder",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "https://7a19d517524a4954bb10e4bc21e4a4a9",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "https://r1.dotmailer-surveys.com/7e21zb6c-623a1ufe",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "https://mths.be/punycode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "https://facebook.com/sharer/sharer.php",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "https://instagram.com",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "https://twitter.com/intent/tweet",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com/api/v1/",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com/api/v2/",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "https://help.giveasyoulive.com/hc/en-us/articles/360017448352-New-Chrome-update-Donation-Reminder",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "https://7a19d517524a4954bb10e4bc21e4a4a9",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "https://r1.dotmailer-surveys.com/7e21zb6c-623a1ufe",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com/api/v1/",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com/api/v2/",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "https://help.giveasyoulive.com/hc/en-us/articles/360017448352-New-Chrome-update-Donation-Reminder",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "https://7a19d517524a4954bb10e4bc21e4a4a9",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "https://r1.dotmailer-surveys.com/7e21zb6c-623a1ufe",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "http://www.w3.org/2000/svg",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com/api/v1/",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com/api/v2/",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "https://www.giveasyoulive.com",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "https://help.giveasyoulive.com/hc/en-us/articles/360017448352-New-Chrome-update-Donation-Reminder",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "https://7a19d517524a4954bb10e4bc21e4a4a9",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "https://r1.dotmailer-surveys.com/7e21zb6c-623a1ufe",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://medialize.github.io/URI.js/",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "http://www.opensource.org/licenses/mit-license",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "https://mths.be/punycode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "https://cdn.ravenjs.com/3.26.4/raven.min.js",
+      "path": "background.bundle.js"
+    }
+  ],
+  "email": [
+    {
+      "value": "your@email.com",
+      "path": "views/popup.html"
+    },
+    {
+      "value": "help@everyclick.com",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "7a19d517524a4954bb10e4bc21e4a4a9@sentry.io",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "help@everyclick.com",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "7a19d517524a4954bb10e4bc21e4a4a9@sentry.io",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "help@everyclick.com",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "7a19d517524a4954bb10e4bc21e4a4a9@sentry.io",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "help@everyclick.com",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "7a19d517524a4954bb10e4bc21e4a4a9@sentry.io",
+      "path": "background.bundle.js"
+    }
+  ],
+  "ipv4": [],
+  "bitcoin_address": [],
+  "litecoin_address": [],
+  "data_blob": [],
+  "cc_visa": [],
+  "cc_mastercard": [],
+  "cc_american_express": [],
+  "cc_dinners_club": []
+}
+
+Suspicious strings:
+-------------------
+{
+  "possible_obfuscation": [
+    {
+      "value": "base64",
+      "path": "styles/css/searchEngineContent.css"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "encode",
+      "path": "background.bundle.js"
+    }
+  ],
+  "possible_payments": [
+    {
+      "value": "paypal",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "paypal",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "paypal",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "paypal",
+      "path": "background.bundle.js"
+    }
+  ],
+  "pattern_recognition": [],
+  "external_connections": [
+    {
+      "value": "XMLHttpRequest",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "XMLHttpRequest",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "POST",
+      "path": "popup.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "retailerContent.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "searchEngineContent.bundle.js"
+    },
+    {
+      "value": "XMLHttpRequest",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "XMLHttpRequest",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "GET",
+      "path": "background.bundle.js"
+    },
+    {
+      "value": "POST",
+      "path": "background.bundle.js"
+    }
+  ]
+}
+
+Assesments:
+-----------
+
+	- virustotal: N/F
+
+
+[*]	Additional information about the extension can be found as a JSON at /home/maria/.config/ElevenPaths/Neto/data/analysis/3980afab6a849ac05fe150e0f50f4a71.json…
+[*]	Temporal files remain at '/tmp/neto/temporal'…
