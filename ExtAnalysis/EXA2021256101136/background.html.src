@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+
+	<body>
+		<script src="scripts/jquery-2.2.4.min.js"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+
+</html>
