@@ -1,1 +1,0 @@
-const ProtectionContainerItem=e=>{const t=e.imageSrc,a=e.title,c=e.text;return React.createElement("div",{className:"optin-item-container"},React.createElement("img",{src:t,className:"optin-image"}),React.createElement("div",{className:"optin-item-title"},a),React.createElement("div",{className:"optin-item-text"},c))};

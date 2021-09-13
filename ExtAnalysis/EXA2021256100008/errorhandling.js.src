@@ -1,9 +1,0 @@
-$.Class("infaw.shell.common.Utils",
-{
-    showError:function(msg){
-        console.log("Presence : "+msg)
-    }
-},{
-    
-
-});
