@@ -1,0 +1,440 @@
+{
+    "EXTAF1": {
+        "file_name": "manifest.json",
+        "file_size": "1 KB",
+        "id": "EXTAF1",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/manifest.json.src",
+        "relative_path": "manifest.json"
+    },
+    "EXTAF10": {
+        "file_name": "options.html",
+        "file_size": "3 KB",
+        "id": "EXTAF10",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/options.html.src",
+        "relative_path": "chrome/pages/options.html"
+    },
+    "EXTAF11": {
+        "file_name": "options-redirect.js",
+        "file_size": "4 KB",
+        "id": "EXTAF11",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/options-redirect.js.src",
+        "relative_path": "chrome/pages/js/options-redirect.js",
+        "retirejs_result": []
+    },
+    "EXTAF12": {
+        "file_name": "popup.js",
+        "file_size": "4 KB",
+        "id": "EXTAF12",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/popup.js.src",
+        "relative_path": "chrome/pages/js/popup.js",
+        "retirejs_result": []
+    },
+    "EXTAF13": {
+        "file_name": "jquery-2.1.4.min.js",
+        "file_size": "82 KB",
+        "id": "EXTAF13",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/jquery-2.1.4.min.js.src",
+        "relative_path": "chrome/pages/js/jquery-2.1.4.min.js",
+        "retirejs_result": [
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "2.1.4",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "2432",
+                            "summary": "3rd party CORS request may execute"
+                        },
+                        "info": [
+                            "https://github.com/jquery/jquery/issues/2432",
+                            "http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "11974",
+                            "summary": "parseHTML() executes scripts in event handlers"
+                        },
+                        "info": [
+                            "https://bugs.jquery.com/ticket/11974",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-11358"
+                            ],
+                            "summary": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution"
+                        },
+                        "info": [
+                            "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+                            "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+                        ],
+                        "severity": "low"
+                    }
+                ]
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "2.1.4",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "2432",
+                            "summary": "3rd party CORS request may execute"
+                        },
+                        "info": [
+                            "https://github.com/jquery/jquery/issues/2432",
+                            "http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "11974",
+                            "summary": "parseHTML() executes scripts in event handlers"
+                        },
+                        "info": [
+                            "https://bugs.jquery.com/ticket/11974",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-11358"
+                            ],
+                            "summary": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution"
+                        },
+                        "info": [
+                            "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+                            "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+                        ],
+                        "severity": "low"
+                    }
+                ]
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "2.1.4",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "2432",
+                            "summary": "3rd party CORS request may execute"
+                        },
+                        "info": [
+                            "https://github.com/jquery/jquery/issues/2432",
+                            "http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "11974",
+                            "summary": "parseHTML() executes scripts in event handlers"
+                        },
+                        "info": [
+                            "https://bugs.jquery.com/ticket/11974",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-11358"
+                            ],
+                            "summary": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution"
+                        },
+                        "info": [
+                            "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+                            "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+                        ],
+                        "severity": "low"
+                    }
+                ]
+            }
+        ]
+    },
+    "EXTAF14": {
+        "file_name": "bootstrap-3.3.5.min.js",
+        "file_size": "35 KB",
+        "id": "EXTAF14",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/bootstrap-3.3.5.min.js.src",
+        "relative_path": "chrome/pages/js/bootstrap-3.3.5.min.js",
+        "retirejs_result": [
+            {
+                "component": "bootstrap",
+                "detection": "filecontent",
+                "version": "3.3.5",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-8331"
+                            ],
+                            "issue": "28236",
+                            "summary": "XSS in data-template, data-content and data-title properties of tooltip/popover"
+                        },
+                        "info": [
+                            "https://github.com/twbs/bootstrap/issues/28236"
+                        ],
+                        "severity": "high"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2018-14041"
+                            ],
+                            "issue": "20184",
+                            "summary": "XSS in data-target property of scrollspy"
+                        },
+                        "info": [
+                            "https://github.com/twbs/bootstrap/issues/20184"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2018-14040"
+                            ],
+                            "issue": "20184",
+                            "summary": "XSS in collapse data-parent attribute"
+                        },
+                        "info": [
+                            "https://github.com/twbs/bootstrap/issues/20184"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2018-14042"
+                            ],
+                            "issue": "20184",
+                            "summary": "XSS in data-container property of tooltip"
+                        },
+                        "info": [
+                            "https://github.com/twbs/bootstrap/issues/20184"
+                        ],
+                        "severity": "medium"
+                    }
+                ]
+            }
+        ]
+    },
+    "EXTAF15": {
+        "file_name": "options-proxy.js",
+        "file_size": "7 KB",
+        "id": "EXTAF15",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/options-proxy.js.src",
+        "relative_path": "chrome/pages/js/options-proxy.js",
+        "retirejs_result": []
+    },
+    "EXTAF16": {
+        "file_name": "analytics.js",
+        "file_size": "2 KB",
+        "id": "EXTAF16",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/analytics.js.src",
+        "relative_path": "chrome/pages/js/analytics.js",
+        "retirejs_result": []
+    },
+    "EXTAF19": {
+        "file_name": "popup.css",
+        "file_size": "1 KB",
+        "id": "EXTAF19",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/popup.css.src",
+        "relative_path": "chrome/pages/css/popup.css"
+    },
+    "EXTAF2": {
+        "file_name": "header.js",
+        "file_size": "2 KB",
+        "id": "EXTAF2",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/header.js.src",
+        "relative_path": "chrome/header.js",
+        "retirejs_result": []
+    },
+    "EXTAF20": {
+        "file_name": "font-awesome-4.4.0.min.css",
+        "file_size": "26 KB",
+        "id": "EXTAF20",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/font-awesome-4.4.0.min.css.src",
+        "relative_path": "chrome/pages/css/font-awesome-4.4.0.min.css"
+    },
+    "EXTAF21": {
+        "file_name": "bootstrap-3.3.5.min.css",
+        "file_size": "119 KB",
+        "id": "EXTAF21",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/bootstrap-3.3.5.min.css.src",
+        "relative_path": "chrome/pages/css/bootstrap-3.3.5.min.css"
+    },
+    "EXTAF22": {
+        "file_name": "music.163.js",
+        "file_size": "0 KB",
+        "id": "EXTAF22",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/music.163.js.src",
+        "relative_path": "chrome/content/music.163.js",
+        "retirejs_result": []
+    },
+    "EXTAF23": {
+        "file_name": "tudou.js",
+        "file_size": "1 KB",
+        "id": "EXTAF23",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/tudou.js.src",
+        "relative_path": "chrome/content/tudou.js",
+        "retirejs_result": []
+    },
+    "EXTAF24": {
+        "file_name": "play.baidu.css",
+        "file_size": "0 KB",
+        "id": "EXTAF24",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/play.baidu.css.src",
+        "relative_path": "chrome/content/play.baidu.css"
+    },
+    "EXTAF25": {
+        "file_name": "unblockcn.js",
+        "file_size": "1 KB",
+        "id": "EXTAF25",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/unblockcn.js.src",
+        "relative_path": "chrome/content/unblockcn.js",
+        "retirejs_result": []
+    },
+    "EXTAF26": {
+        "file_name": "play.baidu.js",
+        "file_size": "1 KB",
+        "id": "EXTAF26",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/play.baidu.js.src",
+        "relative_path": "chrome/content/play.baidu.js",
+        "retirejs_result": []
+    },
+    "EXTAF3": {
+        "file_name": "redirect.js",
+        "file_size": "6 KB",
+        "id": "EXTAF3",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/redirect.js.src",
+        "relative_path": "chrome/redirect.js",
+        "retirejs_result": []
+    },
+    "EXTAF35": {
+        "file_name": "verified_contents.json",
+        "file_size": "6 KB",
+        "id": "EXTAF35",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/verified_contents.json.src",
+        "relative_path": "_metadata/verified_contents.json"
+    },
+    "EXTAF36": {
+        "file_name": "tools.js",
+        "file_size": "9 KB",
+        "id": "EXTAF36",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/tools.js.src",
+        "relative_path": "shared/tools.js",
+        "retirejs_result": []
+    },
+    "EXTAF37": {
+        "file_name": "urls.js",
+        "file_size": "22 KB",
+        "id": "EXTAF37",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/urls.js.src",
+        "relative_path": "shared/urls.js",
+        "retirejs_result": []
+    },
+    "EXTAF38": {
+        "file_name": "messages.json",
+        "file_size": "1 KB",
+        "id": "EXTAF38",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/messages.json.src",
+        "relative_path": "_locales/en/messages.json"
+    },
+    "EXTAF39": {
+        "file_name": "messages.json",
+        "file_size": "1 KB",
+        "id": "EXTAF39",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/messages.json.src",
+        "relative_path": "_locales/zh_TW/messages.json"
+    },
+    "EXTAF4": {
+        "file_name": "proxy.js",
+        "file_size": "3 KB",
+        "id": "EXTAF4",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/proxy.js.src",
+        "relative_path": "chrome/proxy.js",
+        "retirejs_result": []
+    },
+    "EXTAF40": {
+        "file_name": "messages.json",
+        "file_size": "1 KB",
+        "id": "EXTAF40",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/messages.json.src",
+        "relative_path": "_locales/zh_CN/messages.json"
+    },
+    "EXTAF5": {
+        "file_name": "donation.js",
+        "file_size": "1 KB",
+        "id": "EXTAF5",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/donation.js.src",
+        "relative_path": "chrome/donation.js",
+        "retirejs_result": []
+    },
+    "EXTAF6": {
+        "file_name": "config.js",
+        "file_size": "10 KB",
+        "id": "EXTAF6",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/config.js.src",
+        "relative_path": "chrome/config.js",
+        "retirejs_result": []
+    },
+    "EXTAF7": {
+        "file_name": "storage.js",
+        "file_size": "1 KB",
+        "id": "EXTAF7",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/storage.js.src",
+        "relative_path": "chrome/storage.js",
+        "retirejs_result": []
+    },
+    "EXTAF9": {
+        "file_name": "popup.html",
+        "file_size": "4 KB",
+        "id": "EXTAF9",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256101052/popup.html.src",
+        "relative_path": "chrome/pages/popup.html"
+    }
+}
