@@ -1,0 +1,109 @@
+{
+    "reports": [
+        {
+            "id": "EXA2021256095651",
+            "name": "Avast Online Security",
+            "report_directory": "<reports_path>/EXA2021256095651",
+            "time": "2021-09-13 09:56:53",
+            "version": "20.3.10"
+        },
+        {
+            "id": "EXA2021256095718",
+            "name": "Bark for Chrome",
+            "report_directory": "<reports_path>/EXA2021256095718",
+            "time": "2021-09-13 09:57:18",
+            "version": "1.3.3"
+        },
+        {
+            "id": "EXA2021256095748",
+            "name": "Blocksi Web Filter",
+            "report_directory": "<reports_path>/EXA2021256095748",
+            "time": "2021-09-13 09:57:49",
+            "version": "1.0.168"
+        },
+        {
+            "id": "EXA2021256100008",
+            "name": "Enterprise Data Catalog Plug-in",
+            "report_directory": "<reports_path>/EXA2021256100008",
+            "time": "2021-09-13 10:00:11",
+            "version": "1.2.2.33"
+        },
+        {
+            "id": "EXA2021256100146",
+            "name": "Give as you Live Donation Reminder",
+            "report_directory": "<reports_path>/EXA2021256100146",
+            "time": "2021-09-13 10:01:47",
+            "version": "6.0.15.0"
+        },
+        {
+            "id": "EXA2021256100232",
+            "name": "LRT Power*Trust \u2013 PageRank Replacement",
+            "report_directory": "<reports_path>/EXA2021256100232",
+            "time": "2021-09-13 10:02:33",
+            "version": "1.4.0"
+        },
+        {
+            "id": "EXA2021256100341",
+            "name": "An\u00e1lisis SEO de MetricSpot",
+            "report_directory": "<reports_path>/EXA2021256100341",
+            "time": "2021-09-13 10:03:41",
+            "version": "1.8"
+        },
+        {
+            "id": "EXA2021256100517",
+            "name": "Notifier for Gmail\u2122",
+            "report_directory": "<reports_path>/EXA2021256100517",
+            "time": "2021-09-13 10:05:18",
+            "version": "1.0.3"
+        },
+        {
+            "id": "EXA2021256100552",
+            "name": "Protopage Start Page",
+            "report_directory": "<reports_path>/EXA2021256100552",
+            "time": "2021-09-13 10:05:52",
+            "version": "1.32"
+        },
+        {
+            "id": "EXA2021256101052",
+            "name": "Unblock Youku",
+            "report_directory": "<reports_path>/EXA2021256101052",
+            "time": "2021-09-13 10:10:53",
+            "version": "3.8.12"
+        },
+        {
+            "id": "EXA2021256101136",
+            "name": "\u041e\u043f\u0443\u0431\u043b\u0438\u043a\u043e\u0432\u0430\u0442\u044c \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435 (vk.com)",
+            "report_directory": "<reports_path>/EXA2021256101136",
+            "time": "2021-09-13 10:11:37",
+            "version": "1.3.5"
+        },
+        {
+            "id": "EXA2021256101421",
+            "name": "Web Developer",
+            "report_directory": "<reports_path>/EXA2021256101421",
+            "time": "2021-09-13 10:14:26",
+            "version": "0.5.4"
+        },
+        {
+            "id": "EXA2021256101616",
+            "name": "Web Filter for Chrome",
+            "report_directory": "<reports_path>/EXA2021256101616",
+            "time": "2021-09-13 10:16:16",
+            "version": "1.10"
+        },
+        {
+            "id": "EXA2021256101648",
+            "name": "Wermz Enhanced News",
+            "report_directory": "<reports_path>/EXA2021256101648",
+            "time": "2021-09-13 10:16:49",
+            "version": "1.0"
+        },
+        {
+            "id": "EXA2021256102836",
+            "name": "WOT Website Security & Browsing Protection",
+            "report_directory": "<reports_path>/EXA2021256102836",
+            "time": "2021-09-13 10:28:44",
+            "version": "4.0.13.19"
+        }
+    ]
+}
