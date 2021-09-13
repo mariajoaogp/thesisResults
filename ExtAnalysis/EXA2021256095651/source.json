@@ -1,0 +1,432 @@
+{
+    "EXTAF0": {
+        "file_name": "manifest.json",
+        "file_size": "1 KB",
+        "id": "EXTAF0",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/manifest.json.src",
+        "relative_path": "manifest.json"
+    },
+    "EXTAF1": {
+        "file_name": "contentInject.js",
+        "file_size": "944 KB",
+        "id": "EXTAF1",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/contentInject.js.src",
+        "relative_path": "scripts/contentInject.js",
+        "retirejs_result": []
+    },
+    "EXTAF100": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF100",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/sv/messages.json"
+    },
+    "EXTAF101": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF101",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/lt/messages.json"
+    },
+    "EXTAF102": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF102",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/nb/messages.json"
+    },
+    "EXTAF103": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF103",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/bg/messages.json"
+    },
+    "EXTAF104": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF104",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/pl/messages.json"
+    },
+    "EXTAF105": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF105",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/sl/messages.json"
+    },
+    "EXTAF106": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF106",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/th/messages.json"
+    },
+    "EXTAF107": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF107",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/hu/messages.json"
+    },
+    "EXTAF108": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF108",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/fi/messages.json"
+    },
+    "EXTAF109": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF109",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/fr/messages.json"
+    },
+    "EXTAF110": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF110",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/pt_BR/messages.json"
+    },
+    "EXTAF111": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF111",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/zh_CN/messages.json"
+    },
+    "EXTAF112": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF112",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/de/messages.json"
+    },
+    "EXTAF113": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF113",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/sr/messages.json"
+    },
+    "EXTAF114": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF114",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/it/messages.json"
+    },
+    "EXTAF115": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF115",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/id/messages.json"
+    },
+    "EXTAF116": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF116",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/ca/messages.json"
+    },
+    "EXTAF117": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF117",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/sk/messages.json"
+    },
+    "EXTAF118": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF118",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/et/messages.json"
+    },
+    "EXTAF12": {
+        "file_name": "style.css",
+        "file_size": "29 KB",
+        "id": "EXTAF12",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/style.css.src",
+        "relative_path": "common/ui/css/style.css"
+    },
+    "EXTAF2": {
+        "file_name": "contentAvast.js",
+        "file_size": "1 KB",
+        "id": "EXTAF2",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/contentAvast.js.src",
+        "relative_path": "scripts/contentAvast.js",
+        "retirejs_result": []
+    },
+    "EXTAF3": {
+        "file_name": "contentAdvertisers.js",
+        "file_size": "17 KB",
+        "id": "EXTAF3",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/contentAdvertisers.js.src",
+        "relative_path": "scripts/contentAdvertisers.js",
+        "retirejs_result": []
+    },
+    "EXTAF4": {
+        "file_name": "topee-iframe-resources.js",
+        "file_size": "0 KB",
+        "id": "EXTAF4",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/topee-iframe-resources.js.src",
+        "relative_path": "scripts/topee-iframe-resources.js",
+        "retirejs_result": []
+    },
+    "EXTAF5": {
+        "file_name": "background.js",
+        "file_size": "683 KB",
+        "id": "EXTAF5",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/background.js.src",
+        "relative_path": "scripts/background.js",
+        "retirejs_result": []
+    },
+    "EXTAF6": {
+        "file_name": "contentAdvertisersScraper.js",
+        "file_size": "87 KB",
+        "id": "EXTAF6",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/contentAdvertisersScraper.js.src",
+        "relative_path": "scripts/contentAdvertisersScraper.js",
+        "retirejs_result": []
+    },
+    "EXTAF7": {
+        "file_name": "verified_contents.json",
+        "file_size": "16 KB",
+        "id": "EXTAF7",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/verified_contents.json.src",
+        "relative_path": "_metadata/verified_contents.json"
+    },
+    "EXTAF70": {
+        "file_name": "ga.js",
+        "file_size": "0 KB",
+        "id": "EXTAF70",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/ga.js.src",
+        "relative_path": "common/mocks/ga.js",
+        "retirejs_result": []
+    },
+    "EXTAF71": {
+        "file_name": "omniture.js",
+        "file_size": "0 KB",
+        "id": "EXTAF71",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/omniture.js.src",
+        "relative_path": "common/mocks/omniture.js",
+        "retirejs_result": []
+    },
+    "EXTAF72": {
+        "file_name": "gpt.js",
+        "file_size": "0 KB",
+        "id": "EXTAF72",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/gpt.js.src",
+        "relative_path": "common/mocks/gpt.js",
+        "retirejs_result": []
+    },
+    "EXTAF73": {
+        "file_name": "empty.js",
+        "file_size": "0 KB",
+        "id": "EXTAF73",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/empty.js.src",
+        "relative_path": "common/mocks/empty.js",
+        "retirejs_result": []
+    },
+    "EXTAF74": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF74",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/ru/messages.json"
+    },
+    "EXTAF75": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF75",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/ja/messages.json"
+    },
+    "EXTAF76": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF76",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/fa/messages.json"
+    },
+    "EXTAF77": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF77",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/cs/messages.json"
+    },
+    "EXTAF78": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF78",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/nl/messages.json"
+    },
+    "EXTAF79": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF79",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/ms/messages.json"
+    },
+    "EXTAF8": {
+        "file_name": "webshieldLogs.html",
+        "file_size": "0 KB",
+        "id": "EXTAF8",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/webshieldLogs.html.src",
+        "relative_path": "common/webshieldLogs.html"
+    },
+    "EXTAF80": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF80",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/es/messages.json"
+    },
+    "EXTAF81": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF81",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/da/messages.json"
+    },
+    "EXTAF82": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF82",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/vi/messages.json"
+    },
+    "EXTAF83": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF83",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/ko/messages.json"
+    },
+    "EXTAF84": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF84",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/ro/messages.json"
+    },
+    "EXTAF85": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF85",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/en/messages.json"
+    },
+    "EXTAF86": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF86",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/pt_PT/messages.json"
+    },
+    "EXTAF87": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF87",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/hi/messages.json"
+    },
+    "EXTAF88": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF88",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/bn/messages.json"
+    },
+    "EXTAF89": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF89",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/be/messages.json"
+    },
+    "EXTAF9": {
+        "file_name": "messagebox.html",
+        "file_size": "0 KB",
+        "id": "EXTAF9",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messagebox.html.src",
+        "relative_path": "common/messagebox.html"
+    },
+    "EXTAF90": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF90",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/ar/messages.json"
+    },
+    "EXTAF91": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF91",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/el/messages.json"
+    },
+    "EXTAF92": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF92",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/uk/messages.json"
+    },
+    "EXTAF93": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF93",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/en_GB/messages.json"
+    },
+    "EXTAF94": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF94",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/he/messages.json"
+    },
+    "EXTAF95": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF95",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/zh_TW/messages.json"
+    },
+    "EXTAF96": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF96",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/lv/messages.json"
+    },
+    "EXTAF97": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF97",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/ur/messages.json"
+    },
+    "EXTAF98": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF98",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/hr/messages.json"
+    },
+    "EXTAF99": {
+        "file_name": "messages.json",
+        "file_size": "0 KB",
+        "id": "EXTAF99",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095651/messages.json.src",
+        "relative_path": "_locales/tr/messages.json"
+    }
+}
