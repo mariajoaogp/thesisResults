@@ -1,0 +1,19 @@
+
+<html>
+<head>
+  <style>
+	html,body {
+		margin:0px;
+		height:100%;
+	}
+  </style>
+  <script src="jquery.min.js"></script>
+  <script src="popup.js"></script>
+</head>
+<body style="width:350px;height:400px;">
+	<div id="loading" style="z-index:100;position:absolute;top:0;left:0;background:url('https://s3.amazonaws.com/wermznews/static/email/wermz-logo-email.png') center center no-repeat;width:350px;height:400px;">	
+	</div>
+</body>
+</html>
+
+
