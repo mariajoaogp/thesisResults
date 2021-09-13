@@ -1,0 +1,191 @@
+const DefaultApiKey = "oz2erssx768cHfzDMOO1PsyIz2EaJsyDppqrwmHckoHsrGBOJ2tPkA==";
+const ExamineUrlDomain = "https://www.vionika.com/services/examine/domain";
+const SpinBrowseDomain = "spinbrowse.com";
+const LocalhostDomain = "localhost";
+const ProhibitedCategories = [1011, 1062, 10002, 10007, 1031, 1058];
+
+const GoogleSearchRegex = /^(https?:\/\/)?(w{3}.)?(images.)?google./i;
+const BingSearchRegex = /^(https?:\/\/)?(w{3}.)?([^?=]+.)?bing./i;
+const YahooSearchRegex = /^(https?:\/\/)?(w{3}.)?([^?=]+.)?yahoo./i;
+const DuckDuckGoSearchRegex = /^(https?:\/\/)?(w{3}.)?([^?=]+.)?duckduckgo./i;
+const YoutubeRegex = /^(https?:\/\/)?(w{3}.)?([^?=]+.)?youtube?(.+.)com/i;
+
+const CachedCategoriesLocalStorageKey = "cachedCategories";
+
+var cachedCategories;
+
+chrome.webNavigation.onBeforeNavigate.addListener(
+    function(details) {
+        if(details.frameId !== 0){
+            // Only process url's on main frame
+            return;
+        }
+
+        let urlString = details.url;
+        let tabId = details.tabId;
+
+        if (tabId >= 0 && urlString !== undefined) {
+            let safeSearchUrl = applySafeSearch(urlString);
+            if (safeSearchUrl != urlString) {
+                chrome.tabs.update(tabId, {url: safeSearchUrl});
+                return null;
+            }
+
+
+            let url = new URL(urlString);
+            let domainName = url.hostname;
+
+            // Remove www from the hostname
+            if (domainName.indexOf('www.') === 0) {
+                domainName = domainName.replace('www.','');
+            }
+
+            if (domainName.length > 0 && (domainName.indexOf(SpinBrowseDomain) == -1) && !domainName.startsWith(LocalhostDomain)) {
+                let requestDomains = [];
+                requestDomains.push(domainName);
+
+                // Check params for urls
+                let urlParams = url.searchParams;
+                for (let paramKey of urlParams.keys()) {
+                    let paramValue = urlParams.get(paramKey);
+                    if (isValidURL(paramValue)) {
+                        requestDomains.push(paramValue);
+                    }
+                }
+
+                for (let requestDomain of requestDomains) {
+                    let cachedDomainCategories = getDomainCategories(requestDomain);
+                    if (cachedDomainCategories !== undefined) {
+                        for (var category of cachedDomainCategories) {
+                            if (ProhibitedCategories.includes(category)) {
+                                blockTab(tabId, url, requestDomain, category);
+                                break;
+                            }
+                        }
+                    } else {
+                        let xhr = new XMLHttpRequest();
+                        xhr.open('POST', ExamineUrlDomain, true);
+                        xhr.setRequestHeader('Content-type', 'application/json');
+                        xhr.setRequestHeader('Accept', 'application/json');
+
+                        xhr.onload = function () {
+                            let result = JSON.parse(xhr.response);
+                            let categories = result["categories"];
+
+                            saveDomainCategories(requestDomain, categories);
+
+                            for (let category of categories) {
+                                if (ProhibitedCategories.includes(category)) {
+                                    blockTab(tabId, url, requestDomain, category);
+                                    break;
+                                }
+                            }
+                        };
+
+                        xhr.send(JSON.stringify({domainName: requestDomain, key: DefaultApiKey, v: "1"}));
+                    }
+                }
+            }
+        }
+
+        return {cancel: false};
+    },
+    { urls: ["<all_urls>"], types: ['main_frame'] },
+    ["blocking"]
+);
+
+chrome.webRequest.onBeforeSendHeaders.addListener(
+    function(details) {
+        if (YoutubeRegex.test(details.url)) {
+            console.log(details.url);
+            details.requestHeaders.push({name:"YouTube-Restrict",value:"Strict"});
+        }
+        return { requestHeaders: details.requestHeaders };
+    },
+    {urls: ['<all_urls>']},
+    [ 'blocking', 'requestHeaders']
+);
+
+function blockTab(tabId, url, domainName, category) {
+    let blockUrl = "https://www.spinbrowse.com/blocked/?url=" + url
+        + "&domain=" + domainName
+        + "&category=" + category
+        + "&managed=false&os=web";
+
+    chrome.tabs.update(tabId, {url: blockUrl}, _=>{
+        let e = chrome.runtime.lastError;
+        if(e !== undefined){
+            console.log(tabId, _, e);
+        }
+    });
+}
+
+function applySafeSearch(url) {
+    if (GoogleSearchRegex.test(url)) { // Google
+        if (!url.includes("safe=strict") && !url.includes("/maps/") && !url.includes("/gmail") && !url.includes("/amp/") && !url.includes("/recaptcha/") && !url.endsWith("#")) {
+            if (url.includes("?") || url.includes("#")) {
+                return url + "&safe=strict";
+            } else {
+                return url + "?safe=strict";
+            }
+        }
+    } else if (BingSearchRegex.test(url)) { // Bing
+        if (!url.includes("adlt=strict") && !url.includes(".js") && !url.includes("/secure/")) {
+            if (url.includes("?")) {
+                return url + "&adlt=strict";
+            } else {
+                return url + "?adlt=strict";
+            }
+        }
+    } else if (YahooSearchRegex.test(url)) { // Yahoo
+        if (!url.includes("vm=r") && !url.includes("frame.html?")) {
+            if (url.includes("?")) {
+                return url + "&vm=r";
+            } else {
+                return url + "?vm=r";
+            }
+        }
+    } else if (DuckDuckGoSearchRegex.test(url)) { // DuckDuckGo
+        if (!url.includes("kp=1")) {
+            if (url.includes("?")) {
+                return url + "&kp=1";
+            } else {
+                return url + "?kp=1";
+            }
+        }
+    }
+
+    return url;
+}
+
+function getDomainCategories(domain) {
+    if (cachedCategories === undefined) {
+        chrome.storage.local.get([CachedCategoriesLocalStorageKey], function(result) {
+            var items = result[CachedCategoriesLocalStorageKey];
+            if (items === undefined) {
+                cachedCategories = {};
+            }
+            else {
+                cachedCategories = items;
+            }
+        });
+    } else {
+        return cachedCategories[domain];
+    }
+}
+
+function saveDomainCategories(domain, categories) {
+    if (cachedCategories !== undefined) {
+        cachedCategories[domain] = categories;
+
+        chrome.storage.local.set({CachedCategoriesLocalStorageKey: cachedCategories}, function() {});
+    }
+}
+
+function isValidURL(string) {
+    let res = string.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g);
+    if (res == null)
+        return false;
+    else
+        return true;
+};
