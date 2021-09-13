@@ -1,0 +1,238 @@
+/**
+ * LRT API class
+ */
+var LRT = (function(){
+
+  var exports = {};
+  var API_URL = '';
+
+  var _username,
+      _password,
+      _apiKey,
+      _lang = 'en';
+
+
+  var init = function( apiUrl ){
+    API_URL = apiUrl;
+  };
+
+
+  var setKey = function( key ){
+    _apiKey = key;
+  };
+
+
+  var setUsername = function( username ){
+    _username = username;
+  };
+
+
+  var setLang = function( lang ){
+    _lang = lang || _lang;
+  };
+
+  /**
+   * Gets form from server
+   * @param  {string} type        signin|registration
+   * @param  {function} onSuccess callback
+   * @param  {function} onError   callback
+   */
+  var getForm = function(type, onSuccess, onError){
+    request({
+      action: 'get',
+      item: 'userform',
+      formtype: type,
+      language: _lang,
+    }, null, onSuccess, onError);
+  };
+
+
+  var signin = function( username, password, onSuccess, onError){
+    request({
+      action: 'set',
+      item: 'usersignin',
+      user: username,
+      password: password
+    },
+    null,
+    function( response ){
+      if (response.data && response.data.key) {
+        _username = username;
+        _password = password;
+        _apiKey = response.data.key;
+        $(document).trigger('LRT:onKeyReceived');
+      }
+      if (typeof onSuccess === 'function') onSuccess(response);
+    }, onError);
+  };
+
+
+  var registration = function( userData, onSuccess, onError){
+    var data = $.extend(userData, {
+      action: 'set',
+      item: 'userregistration'
+    });
+    request(data, null, function( response ){
+      if (response.data && response.data.key) {
+        _username = userData.username;
+        _password = userData.password;
+        _apiKey = response.data.key;
+        $(document).trigger('LRT:onKeyReceived');
+      }
+      if (typeof onSuccess === 'function') onSuccess(response);
+    }, onError);
+  };
+
+
+  var getPowerTrust = function( url, onSuccess, onError ){
+    if (!_apiKey) {
+      onError('API key is not specified');
+      return;
+    }
+    request({
+        action: 'get',
+        item: 'powertrust_and_estimated_bl_count',
+        key: _apiKey,
+        url: url,
+      },
+      {
+        continueOnError: true,
+        cache: true
+      },
+      onSuccess, onError);
+  };
+
+
+  var getPlanSuggestion = function(url, onSuccess, onError){
+    if (!_apiKey) {
+      onError('API key is not specified');
+      return;
+    }
+    request({
+        action: 'get',
+        item: 'plansuggestion',
+        key: _apiKey,
+        url: url,
+      },
+      {
+        continueOnError: true,
+        cache: true
+      },
+      onSuccess, onError);
+  };
+
+
+  /**
+   * If there was an error, api returns object with property "messagecode"
+   * There is only one callback - onError, because in both cases it's
+   * error processing and has to be shown to user.
+   * @param  {object} response  - any api response
+   * @param  {function} onError  - callback, what to do with message
+   * @return {boolean}          has error
+   */
+  var checkError = function( response, onError ){
+    if (response.messagecode) {
+      getMessageText( response.messagecode, _lang, function(response){
+        if (response.data && response.data.messagetext) {
+          onError( response.data.messagetext );
+        }
+      }, onError);
+      return true;
+    }
+    return false;
+  };
+
+
+  /**
+   * Get message text by code
+   * @param  {integer} code      message code
+   * @param  {string} lang      en|de
+   */
+  var getMessageText = function( code, lang, onSuccess, onError){
+    request({
+      action: 'get',
+      item: 'messagetext',
+      messagecode: parseInt(code),
+      language: lang
+    }, null, onSuccess, onError);
+  };
+
+
+  /**
+   * Send request
+   * @param  {obj} params    request params
+   * @param  {obj} extra     extra flags
+   * @param  {function} onSuccess
+   * @param  {function} onError
+   */
+  var request = function( params, extra, onSuccess, onError){
+    $(document).trigger('LRT:onBeforeRequestSent');
+    var defer;
+    var Cache = Cache;
+    try {
+      if (!Cache) Cache = chrome.extension.getBackgroundPage().Cache;
+    } catch (e) {
+      Cache = undefined;
+    }
+    if (Cache && extra && extra.cache) {
+      var cachedResponse = Cache.get( params.item + '_' + params.url );
+      if (cachedResponse) {
+        try {
+          if (cachedResponse.data) {
+            defer = $.Deferred();
+            defer.resolve( cachedResponse );
+          }
+        } catch(e) {
+          // try/catch for the handling Dead object in Firefox
+        }
+      }
+    }
+    if (!defer) {
+      defer = $.getJSON(API_URL, params);
+    }
+
+    $.when( defer )
+      .done(function(json){
+        if (checkError( json, onError )) {
+          if (!extra && !extra.continueOnError) return;
+        }
+        else {
+          if (Cache && extra && extra.cache) Cache.set( params.item + '_' + params.url, json);
+        }
+        if (typeof onSuccess === 'function') onSuccess(json);
+      })
+      .fail(function( xhr,  textStatus, errorThrown){
+        console.log(textStatus, errorThrown, xhr);
+        if (typeof onError === 'function') onError( 'Please try again later', xhr );
+      })
+      .always(function(){
+        $(document).trigger('LRT:onRequestComplete');
+      });
+  };
+
+
+  var getUserData = function(){
+    return {
+      username: _username,
+      apiKey: _apiKey
+    };
+  };
+
+
+  // Public
+  exports = {
+    init: init,
+    setKey: setKey,
+    setUsername: setUsername,
+    setLang: setLang,
+    signin: signin,
+    registration: registration,
+    getForm: getForm,
+    getPowerTrust: getPowerTrust,
+    getPlanSuggestion: getPlanSuggestion,
+    getMessageText: getMessageText,
+    getUserData: getUserData
+  };
+
+  return exports;
+})();

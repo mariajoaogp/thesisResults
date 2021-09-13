@@ -1,0 +1,65 @@
+{
+  "extName": {
+    "message": "LRT Power*Trust",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "",
+    "description": "Extension description"
+  },
+  "sign_in": {
+    "message": "Anmelden"
+  },
+  "create_new_account": {
+    "message": "Neuen User anlegen"
+  },
+  "terms_and_conditions": {
+    "message": "Nutzungsbedingungen"
+  },
+  "accept": {
+    "message": "Akzeptieren"
+  },
+  "remaining_requests": {
+    "message": "LRT Power*Trust credits:"
+  },
+  "remaining_dom_requests": {
+    "message": "LRT Power*Trust Domain credits:"
+  },
+  "upgrade": {
+    "message": "Jetzt Upgraden!"
+  },
+  "help": {
+    "message": "Hilfe"
+  },
+  "log_out": {
+    "message": "Ausloggen"
+  },
+  "metricsURLLabel": {
+    "message": "LRT Power*Trust für die Unterseite (URL)"
+  },
+  "metricsDOMLabel": {
+    "message": "LRT Power*Trust für die Domain"
+  },
+  "lrt_equal": {
+    "message": "LRT Power*Trust gleich"
+  },
+  "show_in_icon": {
+    "message": "Metrik auswählen"
+  },
+  "quota_refresh": {
+    "message": "Neue Credits am:"
+  },
+  "language": {
+    "message": "Sprache"
+  },
+  "limit_exceeded": {
+    "message": "Limit erreicht"
+  },
+  "an_error_occurred": {
+    "message": "Es ist ein Fehler aufgetreten"
+  },
+  "date_format": {
+    "message": "YYYY-MM-DD"
+  }
+}
+
