@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/fonts.css">
+
+  <script type="text/javascript" src="/lib/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/lib/google-analytics-bundle.js"></script>
+
+  <script type="text/javascript" src="/js/Conf.js"></script>
+  <script type="text/javascript" src="/js/Language.js"></script>
+  <script type="text/javascript" src="/js/i18n.js"></script>
+  <script type="text/javascript" src="/js/ChromePlatformAnalytics.js"></script>
+  <script type="text/javascript" src="/js/Status.js"></script>
+  <script type="text/javascript" src="/js/Cache.js"></script>
+  <script type="text/javascript" src="/js/LRT.js"></script>
+  <script type="text/javascript" src="/js/Metrics.js"></script>
+  <script type="text/javascript" src="/js/Icon.js"></script>
+  <script type="text/javascript" src="/js/LRTIcon.js"></script>
+  <script type="text/javascript" src="/js/Url.js"></script>
+  <script type="text/javascript" src="/js/background.js"></script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/popup.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="container pos-rel">
+      <a id="main-logo" href="" data-confId="ptLogoURL" target="_blank"></a>
+      <a id="lrt-logo-bg" href="" data-confid="lrtLogoURL" target="_blank">
+        <span id="lrt-logo"></span>
+      </a>
+      <a id="btn-options" href="options.html"></a>
+    </div>
+  </div>
+
+  <div class="body">
+
+    <div class="ib-root">
+      <div class="ib-content">
+
+        <a class="rate-it-container" href="" data-confId="rateItSettingsURL" data-track="rate-it" target="_blank">
+          <span class="">RATE IT</span>
+          <span class="stars"></span>
+        </a>
+        <h2 class="">Options</h2>
+        <div class="row">
+          <input id="input-highlightNoFollow" type="checkbox"/><label for="input-highlightNoFollow">Highlight No-Follow links on the page</label>
+        </div>
+        <div class="row">
+          <input id="input-useRelCan" type="checkbox"/><label for="input-useRelCan">Show metrics for the page that gets the link juice (rel-canonical target of the URL)</label>
+        </div>
+        <div class="row">
+          <input id="input-stripTrackingParams" type="checkbox"/><label for="input-stripTrackingParams">Strip common URL tracking parameters for more accuracy</label>
+        </div>
+        <div class="row analytics-row hidden">
+          <input id="analytics" type="checkbox"/><label for="analytics">Allow Google Analytics tracking</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-buttons">
+      <a href="#" class="btn btn-blue btn-ok" id="btn-settings-ok">OK</a>
+    </div>
+
+
+  </div>
+
+  <div class="banner">
+    <div class="ad"></div>
+  </div>
+
+  <div class="fonts-loader" style="height: 0px; overflow: hidden">
+    <span style="font: normal 0px Dosis">&nbsp;</span>
+    <span style="font: bold 0px Dosis">&nbsp;</span>
+    <span style="font: normal 0px Source Sans Pro">&nbsp;</span>
+    <span style="font: bold 0px Source Sans Pro">&nbsp;</span>
+    <span style="font: normal 0px Open Sans">&nbsp;</span>
+    <span style="font: bold 0px Open Sans">&nbsp;</span>
+  </div>
+
+
+  <!-- ############ SCRIPTS ########### -->
+  <script type="text/javascript" src="/lib/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/lib/jquery.serializejson.js"></script>
+  <script type="text/javascript" src="/lib/mustache-0.8.1.min.js"></script>
+  <script type="text/javascript" src="/lib/google-analytics-bundle.js"></script>
+
+  <script type="text/javascript" src="/js/Conf.js"></script>
+  <script type="text/javascript" src="/js/Language.js"></script>
+  <script type="text/javascript" src="/js/i18n.js"></script>
+  <script type="text/javascript" src="/js/Status.js"></script>
+  <script type="text/javascript" src="/js/LRT.js"></script>
+  <script type="text/javascript" src="/js/Metrics.js"></script>
+  <script type="text/javascript" src="/js/Icon.js"></script>
+  <script type="text/javascript" src="/js/LRTIcon.js"></script>
+  <script type="text/javascript" src="/js/Url.js"></script>
+  <script type="text/javascript" src="/js/options.js"></script>
+
+</body>
+</html>

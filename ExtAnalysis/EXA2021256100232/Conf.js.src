@@ -1,0 +1,41 @@
+window.Conf = {
+  apiUrl: 'https://plugin.linkresearchtools.com/api/api.php',
+  cacheTime: 60*60*24,
+  termsUrl: 'http://www.linkresearchtools.com/browser-extensions-privacy-policy/',
+  welcomeUrl: 'http://lrt.li/ptsuccesschrome',
+  helpUrl: 'http://lrt.li/ptchrhlp',
+  ptLogoURL: 'http://lrt.li/lrtptlogochrome',
+  lrtLogoURL: 'http://lrt.li/ptchrlrt',
+  rateItLogoURL: 'http://lrt.li/lrtptratingtopleftch',
+  rateItSettingsURL: 'http://lrt.li/lrtptsettingsratingch',
+  seeOtherURL: 'http://lrt.li/lrtptseealsoch',
+  moreAboutPTURL: 'http://lrt.li/lrtptmoreaboutptch',
+  tryLRTURL: 'http://lrt.li/lrtpttrylrtch',
+  accountUrl: 'http://lrt.li/ptchrup',
+  errorImgSrc: '/img/error.png',
+  cartImgSrc: '/img/cart.png',
+  storeAnchor: 'Give us 5 stars on Chrome Web Store'
+};
+
+
+if (navigator.userAgent.match(/Firefox/)) {
+  window.Conf.welcomeUrl = 'http://lrt.li/ptsuccessfirefox';
+  window.Conf.ptLogoURL = 'http://lrt.li/lrtptlogofirefox';
+  window.Conf.lrtLogoURL = 'http://lrt.li/lrtptlrtlogo';
+  window.Conf.rateItLogoURL = 'http://lrt.li/lrtptratingtopleftff';
+  window.Conf.rateItSettingsURL = 'http://lrt.li/lrtptsettingsratingff';
+  window.Conf.seeOtherURL = 'http://lrt.li/lrtptseealsoff';
+  window.Conf.moreAboutPTURL = 'http://lrt.li/lrtptmoreaboutptff';
+  window.Conf.tryLRTURL = 'http://lrt.li/lrtpttrylrtff';
+  window.Conf.helpUrl = 'http://lrt.li/ptffhelp';
+  window.Conf.accountUrl = 'http://lrt.li/ptchrup';
+  window.Conf.storeAnchor = 'Give us 5 stars on Mozilla Marketplace';
+}
+
+
+window.Conf.termsHtml = [
+  '<p>Welcome!</p>',
+  '<p>This is your brand new LRT Extension.</p>',
+  '<p>For the LRT features to work, the extensions collects information about the websites you visit and helps LRT measure the Web. In some cases, the information collected by the Extension may contain personal data. We take privacy obligations seriously. Please note that LinkResearchTools does not analyze in any way Web behavior for the purpose of user identification.</p>',
+  '<p>Read the <a href="' + window.Conf.termsUrl + '" target="_blank">Terms and conditions</a></p>'
+].join('');

@@ -1,0 +1,218 @@
+/**
+ * File contains logic for metrics processing:
+ * retrieving metrics, template popuplating, adding event listeners
+ */
+
+var Metrics = (function(){
+  var exports = {};
+
+  var status = null,
+      _lang = 'en';
+
+
+  var init = function( initObj ){
+    status = initObj.status;
+    _lang = initObj.lang;
+  };
+
+
+  var getRelCan = function(tabId){
+    return new Promise(function(resolve, reject){
+      var check = function(cbContinue){
+        chrome.tabs.sendMessage(tabId, {cmd: 'getRelCan'}, cbContinue);
+      };
+      var processRelCan = function(response){
+        if (!response || !response.length) {
+          resolve('');
+          return;
+        }
+        var item = response[response.length - 1];
+        resolve(item.url);
+      };
+      check(function(response){
+        if (response) processRelCan(response);
+        else {
+          var timer = setInterval(function(){
+            check(function(response){
+              if (response) {
+                processRelCan(response);
+                clearInterval(timer);
+              }
+            });
+          }, 50);
+        }
+      });
+    });
+  };
+
+
+  var get = function( url, onSuccess, onError ){
+    LRT.getPowerTrust(
+      url,
+      function( response ){
+        var res = processPowerTrustResponse( response );
+        if (typeof onSuccess === 'function') {
+          onSuccess(res);
+        }
+      },
+      function( response, xhr ){
+        status.error(response);
+        if (typeof onError === 'function') onError(response, xhr);
+      });
+  };
+
+
+  var processPowerTrustResponse = function( json ){
+    if (!json.data) {
+      status.error( _('an_error_occured') );
+      return;
+    }
+    var key = Object.keys(json.data)[0];
+    var metrics = json.data[key];
+    if (typeof json.data[key] === 'string') metrics = {powertrust: 'n/a'};
+
+    var res = {};
+    res.url = decodeURIComponent(key);
+    res.metrics =  metrics;
+    res.pageCount = localStorage.pageCount = json.pagecount;
+    res.domainCount = localStorage.domainCount = json.domaincount;
+    res.quotaresetdate = localStorage.quotaresetdate = json.quotaresetdate;
+    res.usertype = json.usertype;
+    if (localStorage.usertype !== res.usertype) {
+      chrome.extension.getBackgroundPage().Cache.clear();
+    }
+    localStorage.usertype = res.usertype;
+    if (json.messagecode) res.messageCode = json.messagecode;
+    return res;
+  };
+
+
+  var addEventHandlers = function( $root, data, tabId ){
+    $root.find('#langSelect')
+      .change(function(){
+        var lang = this.value;
+        localStorage.lang = lang;
+        chrome.runtime.sendMessage({cmd: 'processAllTabs'}, function(){});
+        document.location.reload();
+      })
+      .find('option[value=' + _lang + ']').attr('selected', true);
+
+    $root.find('.metrics-title').click(function(e){
+      localStorage.defaultMetric = this.dataset.value;
+      var metrics = this.dataset.value === 'page' ? data.metricsURL : data.metricsDOM;
+      var imageData = LRTIcon.getImageData( metrics );
+      Icon.setTab(tabId, {
+        imageData: imageData,
+        title: LRTIcon.getTitle( metrics, 'icon' )
+      });
+    });
+  };
+
+
+  var render = function( data ){
+    var template = $('#metrics-template').html();
+    var defaultMetric = localStorage.defaultMetric ? localStorage.defaultMetric : 'dom';
+    var userdata = LRT.getUserData();
+    var logout = _('log_out');
+    if (userdata.username) logout += ' (' + userdata.username + ')';
+    var dataURL = data.metricsURL || {};
+    var dataDOM = data.metricsDOM || {};
+
+
+    var templateData = {
+      remaining: {
+        label: _('remaining_requests'),
+        value: data.pageCount
+      },
+      remainingDom: {
+        label: _('remaining_dom_requests'),
+        value: data.domainCount
+      },
+      quotaLabel: _('quota_refresh'),
+      // quota: moment( parseInt(data.quotaresetdate)*1000 ).format(_('date_format')),
+      url: data.url,
+
+      metricsURL: dataURL,
+      metricsURLIcon: data.loadingURL ? '' : LRTIcon.getSVG( dataURL, 64 ),
+      metricsURLTitle: LRTIcon.getTitle( dataURL, 'page' ),
+      metricsURLLabel: _('metricsURLLabel'),
+      metricsURLChecked: defaultMetric === 'page',
+      metricsURLDisabled: data.usertype === 'free',
+      metricsDOM: dataDOM,
+      metricsDOMIcon: data.loadingDOM ? '' : LRTIcon.getSVG( dataDOM, 64 ),
+      metricsDOMTitle: LRTIcon.getTitle( dataDOM, 'dom' ),
+      metricsDOMLabel: _('metricsDOMLabel'),
+      metricsDOMChecked: defaultMetric === 'dom',
+
+      metricsPowerLabel: _('metricsPowerLabel'),
+      metricsTrustLabel: _('metricsTrustLabel'),
+      metricsURLPower: data.usertype === 'free' ? 'n/a' : (getValue(dataURL, 'power')),
+      metricsURLTrust: data.usertype === 'free' ? 'n/a' : (getValue(dataURL, 'trust')),
+      metricsURLPowerTrust: getValue(dataURL, 'powertrust'),
+      metricsDOMPower: getValue(dataDOM, 'power'),
+      metricsDOMTrust: getValue(dataDOM, 'trust'),
+      metricsDOMPowerTrust: getValue(dataDOM, 'powertrust'),
+
+      metricsDOMBacklinks: getNrString(dataDOM.est_bl),
+      metricsURLBacklinks: getNrString(dataURL.est_bl),
+      metricsDOMRefDomains: getNrString(dataDOM.est_dompop),
+      metricsURLRefDomains: getNrString(dataURL.est_dompop),
+
+      showInIcon: _('show_in_icon'),
+      version: getExtensionVersion(),
+      lang: {
+        label: _('language'),
+        value: _lang
+      },
+      langOptions: i18n.getLangs(),
+      account: {
+        url: Conf.accountUrl,
+        label: _('upgrade')
+      },
+      help: {
+        url: Conf.helpUrl,
+        label: _('help')
+      },
+      logout: logout
+    };
+    var html = Mustache.to_html(
+      template,
+      templateData
+    );
+    return html;
+  };
+
+
+  var getValue = function(data, key){
+    if (typeof data[key] === 'undefined') return '...';
+    else return data[key];
+  }
+
+
+  var getNrString = function ( n ) {
+    var sizes = ['', 'K', 'M', 'G', 'T'];
+    if (typeof n !== 'number') return n;
+    if (n === 0) return n + '';
+    var i = parseInt(Math.floor(Math.log(n) / Math.log(1000)));
+    return Math.round(n / Math.pow(1000, i), 2) + sizes[i];
+  };
+
+
+  var getExtensionVersion = function(){
+    var manifest = chrome.runtime.getManifest();
+    return manifest.version;
+  };
+
+
+  exports = {
+    init: init,
+    get: get,
+    getRelCan: getRelCan,
+    render: render,
+    getNrString: getNrString,
+    addEventHandlers: addEventHandlers
+  };
+
+  return exports;
+
+})();

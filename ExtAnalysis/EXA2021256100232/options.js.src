@@ -1,0 +1,91 @@
+var Options = (function(){
+
+  var vendor = (navigator.userAgent.match(/(Chrome|Firefox)/) || [])[1];
+
+
+  var init = function(){
+    chrome.runtime.sendMessage({
+      cmd: 'settings.get',
+      data: {}
+    }, function( settings ){
+      initSettings(settings);
+      // console.log(settings);
+      initUI();
+    });
+  };
+
+
+  var initSettings = function( settings ){
+    for (var key in settings) {
+      var id = '#input-' + key;
+      $(id).prop('checked', settings[key]);
+    }
+  };
+
+
+  var initUI = function(){
+    if (vendor === 'Firefox') {
+    }
+    else {
+      $('.analytics-row').removeClass('hidden');
+      initAnalytics();
+    }
+
+    $('input[type=checkbox').change(function(e){
+      if (this.id.indexOf('input-') !== 0) return;
+      var key = this.id.replace('input-', '');
+      setSetting( key, this.checked);
+    });
+    $('.btn-ok').click(function(e){
+      e.preventDefault();
+      document.location.href = '/html/popup.html';
+    });
+    $('[data-confid]').click(function(e){
+      e.preventDefault();
+      var url = window.Conf[this.dataset.confid];
+      chrome.tabs.create({
+        url: url
+      });
+    });
+    $('body').on('click', '[data-track]', function(e){
+      var action = this.dataset.track;
+      chrome.runtime.sendMessage({
+        cmd: 'track_event',
+        data: action
+      });
+    });
+    initAnalytics();
+  };
+
+
+  var initAnalytics = function(){
+    analytics.getService().getConfig().addCallback(function(config){
+      var state = config.isTrackingPermitted();
+      $('#analytics')
+        .prop('checked', state)
+        .change(function(e){
+          config.setTrackingPermitted(this.checked);
+        });
+    });
+  };
+
+
+  var setSetting = function(key, value){
+    chrome.runtime.sendMessage({
+      cmd: 'settings.set',
+      data: {
+        key: key,
+        value: value
+      }
+    });
+  };
+
+
+  return {
+    init: init
+  };
+
+})();
+
+
+Options.init();

@@ -1,0 +1,580 @@
+(function(){
+
+  var settings = {};
+  var status;
+  var $loader = $("#loader");
+
+  var views = {
+    'default': [],
+    'terms': ['.viewTerms'],
+    'incognito': ['.viewIncognito'],
+    'signin': ['.viewSignin'],
+    'registration': ['.viewRegistration'],
+    'welcome': ['.viewWelcome'],
+    'metrics': ['.viewMetrics']
+  };
+
+  var vendor = (navigator.userAgent.match(/(Chrome|Firefox)/) || [])[1];
+
+
+  /**
+   * Initialization
+   */
+  var init = function(){
+    fontPreload();
+    $(function(){
+      Language.init(function(lang){
+        initWindowMessaging();
+        initUI();
+
+        LRT.init( Conf.apiUrl );
+        LRT.setLang( lang );
+
+        Metrics.init({
+          status: status,
+          lang: lang
+        });
+
+        chrome.runtime.sendMessage({
+          cmd: 'settings.get',
+          data: {}
+        }, function( _settings ){
+          settings = _settings;
+          initView();
+        });
+      });
+    });
+  };
+
+
+  var fontPreload = function(){
+    var canvas = document.createElement("canvas");
+    canvas.width = 19;
+    canvas.height = 19;
+    var context = canvas.getContext("2d");
+    context.font = "bold 10px Dosis";
+    context.fillText('x', 0, 0);
+  };
+
+
+  var isPopup = function(){
+    if (document.location.search.match(/tab=true/)) return false;
+    else return true;
+  };
+
+
+  /**
+   * Show view depends on user state: first time|logged in|metrics
+   */
+  var initView = function(){
+    if (vendor === 'Firefox' && chrome.extension.inIncognitoContext) {
+      showIncognitoWarning();
+      return;
+    }
+    // if (!localStorage.termsAccepted) {
+    //   showTerms();
+    //   return;
+    // }
+    if (!localStorage.apiKey) {
+      return;
+    }
+    else {
+      LRT.setKey( localStorage.apiKey );
+      LRT.setUsername( localStorage.username );
+      showMetrics();
+    }
+  };
+
+
+  var initWindowMessaging = function(){
+    window.addEventListener('message', function( event ){
+      var message = event.data;
+      if (message && message.data){
+        /*if (message.cmd === 'resizePopup') {
+          var data = message.data;
+          var iframe = $('iframe')[0];
+          if (data.width) iframe.style.width = data.width + 'px';
+          if (data.height) iframe.style.height = data.height + 'px';
+        }*/
+      }
+    });
+  };
+
+
+  /**
+   * Hide all ".view". Show only those that listed in the "views" object
+   * by selectors.
+   */
+  var setView = function(viewId){
+    $('.view').hide();
+    status.clear();
+    var selectors = views[viewId];
+    for (var i = 0, len = selectors.length; i < len; i++) {
+      var selector = selectors[i];
+      $(selector).show();
+    }
+  };
+
+
+  /**
+   * Adds event listeners for UI elements in popup window
+   */
+  var initUI = function(){
+    initLRTevents();
+
+    status = new Helpers.Status( $('#status'), {
+      show: {method: 'slideDown', params: []},
+      hide: {method: 'slideUp', params: []}
+    });
+
+    $('#acceptTerms').click(function(){
+      localStorage.termsAccepted = true;
+      initView();
+      chrome.runtime.sendMessage({cmd: 'processAllTabs'}, function(){});
+      // initSignInForm();
+    });
+
+    $('#continue').click(function(){
+      if (isPopup()) showMetrics();
+      else {
+        chrome.runtime.sendMessage({
+          cmd: 'tab.remove'
+        });
+      }
+    });
+
+    if ( Math.floor(Math.random()*2) == 1 ) $('#rate-container').removeClass('hidden');
+    else $('#see-also').removeClass('hidden');
+
+    $('[data-track]').click(function(e){
+      var action = this.dataset.track;
+      chrome.runtime.sendMessage({
+        cmd: 'track_event',
+        data: action
+      });
+    });
+
+    $('#rate-body')
+      .hide()
+      .find('a')
+        .text(Conf.storeAnchor);
+    $('#rate-title').click(function(){
+      $('#rate-body').slideDown();
+    });
+    $('body').on('click', '[data-confid]', function(e){
+      e.preventDefault();
+      var url = window.Conf[this.dataset.confid];
+      chrome.tabs.create({
+        url: url
+      });
+    });
+
+
+    $('body').on('click', '.logout', function(){
+      localStorage.apiKey = '';
+      localStorage.username = '';
+      localStorage.usertype = '';
+      localStorage.termsAccepted = '';
+      localStorage.pageCount = '';
+      localStorage.domainCount = '';
+      localStorage.quotaresetdate = '';
+      chrome.extension.getBackgroundPage().Cache.clear();
+      document.location.reload();
+    });
+    $('body').on('click', '.btn-expand', function(e){
+      e.stopPropagation();
+      e.preventDefault();
+      $(this).parent().css({
+        'white-space': 'normal',
+        'max-height': 'none'
+      });
+      $(this).remove();
+    });
+    $('body').on('mouseenter', '.metrics-title input, .label-relcan', function(e){
+      $(this).parent().find('.tooltip').show();
+    });
+    $('body').on('mouseleave', '.metrics-title input, .label-relcan', function(e){
+      $(this).parent().find('.tooltip').hide();
+    });
+    $('body').on('click', '.metrics-title', function(e){
+      $(this).find('input[type=radio]').prop('checked', true);
+      var target = this.dataset.value;
+      target = target === 'dom' ? 'Domain' : 'Page';
+      status.set({
+        html: '<i class="icon-info"></i> Toolbar icon changed to ' + target + ' Power*Trust',
+        type: 'info'
+      });
+    });
+    $('body').on('click', '.promo-line', function(e){
+      var $expander = $(this).find('.expand');
+      var $target = $($expander[0].dataset.target);
+      var state = $expander[0].dataset.state;
+      if (state === 'collapsed') {
+        getPlanSuggestion();
+        $expander[0].dataset.state = 'expanded';
+        $target.fadeIn();
+      }
+      else {
+        $expander[0].dataset.state = 'collapsed';
+        $target.hide();
+      }
+    });
+    $('body').on('click', '#btn-relcan-enable', function(e){
+      e.preventDefault();
+      $('.relcan-warn').remove();
+      chrome.runtime.sendMessage({
+        cmd: 'settings.set',
+        data: {key: 'useRelCan', value: true}
+      });
+      chrome.runtime.sendMessage({
+        cmd: 'settings.set',
+        data: {key: 'relcanManuallySet', value: true}
+      });
+    });
+    $('body').on('click', '#btn-relcan-no', function(e){
+      e.preventDefault();
+      $('.relcan-warn').remove();
+      chrome.runtime.sendMessage({
+        cmd: 'settings.set',
+        data: {key: 'useRelCan', value: false}
+      });
+      chrome.runtime.sendMessage({
+        cmd: 'settings.set',
+        data: {key: 'relcanManuallySet', value: true}
+      });
+    });
+  };
+
+
+  /**
+   * LRT API class sends events while processing requests.
+   * Based on this events extension shows/hides loader
+   */
+  var initLRTevents = function(){
+    $(document).on('LRT:onBeforeRequestSent', function(e){
+    });
+    $(document).on('LRT:onRequestComplete', function(e){
+    });
+    $(document).on('LRT:onKeyReceived', function(e){
+      var userData = LRT.getUserData();
+      localStorage.username = userData.username;
+      localStorage.apiKey = userData.apiKey;
+    });
+  };
+
+
+  /**
+   * Shows Terms to user:
+   * loads template from popup.html, popuplates it and sets view
+   * Terms text is in Conf.js
+   */
+  var showTerms = function(){
+    var html = Mustache.to_html(
+      $('#terms-template').html(),
+      {html: Conf.termsHtml}
+    );
+    $('.terms-text').html( html );
+    setView('terms');
+  };
+
+
+  var showIncognitoWarning = function(){
+    setView('incognito');
+  };
+
+
+  /**
+   * Forms
+   */
+
+
+
+  /**
+   * Loads signin form from server, creates iframe with received url
+   * waits for message api-key from iframe
+   */
+  var initSignInForm = function(){
+
+    if (isPopup()) {
+      chrome.tabs.create({url: '/html/popup.html?tab=true'});
+      window.close();
+    }
+
+    window.addEventListener('message', function( event ){
+      var message = event.data;
+      if (message && message.data){
+        if (message.data.key) {
+          console.log(message.data);
+          LRT.setKey( message.data.key );
+          LRT.setUsername( message.data.username );
+          localStorage.apiKey = message.data.key;
+          localStorage.username = message.data.username;
+          localStorage.usertype = message.data.usertype;
+          showWelcomeMessage( message.data.action, message.data.usertype );
+          chrome.runtime.sendMessage({cmd: 'processAllTabs'}, function(){});
+        }
+      }
+    });
+
+    LRT.getForm(
+      'signin',
+      function( json ){
+        if (!json.data || !json.data.formURL) {
+          status.error("Cann't load form");
+          return;
+        }
+        $('.viewSignin').html(
+          $('<iframe/>').attr('src', json.data.formURL)
+        );
+      },
+      function(error){
+        status.error(error, 5000);
+      });
+  };
+
+
+
+  var showWelcomeMessage = function( action, usertype ){
+    var key = 'welcome' + (action === 'signin'? 'Signin' : 'Signup');
+    if (action === 'signin') key += usertype === 'free' ? 'Free' : 'Paid';
+    var html = Mustache.to_html(_(key), {
+      accountUrl: Conf.accountUrl
+    });
+    html = Mustache.to_html(
+      $('#welcome-template').html(),
+      {html: html}
+    );
+    $('.welcome-text').html( html );
+    setView('welcome');
+  };
+
+
+  /**
+   * Metrics
+   */
+
+
+  /**
+   * Gets current tab url, gets metrics for this,
+   * appends result html to the view and adds event listeners
+   */
+  var showMetrics = function(){
+    setView('metrics');
+    if (!settings.relcanManuallySet) $('.relcan-warn').removeClass('hidden');
+
+    var html = Metrics.render({
+      loadingURL: true,
+      loadingDOM: true,
+      metricsURL: {},
+      metricsDOM: {}
+    });
+    $('.viewMetrics').html( html );
+
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+      var tab = tabs[0];
+      if (tab && tab.url && tab.url.match(/^https?/)) {
+        var url = tab.url;
+        if (settings.stripTrackingParams) {
+          url = Url.stripTrackingParams(url);
+        }
+        var domain = Url.getDomain( tab.url );
+        var origin = Url.getOrigin( tab.url );
+
+        $('#url-link').text(url).attr('href', url);
+        $('#promo')[0].dataset.domain = domain;
+        $('#promo')[0].dataset.origin = origin;
+
+        var deferURL = $.Deferred();
+        var deferDOM = $.Deferred();
+
+        var relCanPromise = Promise.resolve(url);
+        if (settings.useRelCan) relCanPromise = Metrics.getRelCan(tab.id);
+
+        relCanPromise.then(function(relCanURL){
+          if (!relCanURL) {
+            relCanURL = url;
+          }
+          else if (relCanURL !== url) {
+            $('#url-link').text(url).attr('href', relCanURL);
+            $('.url-line')
+              .append('<span class="label-relcan"></span>')
+              .append('<span id="tooltip-relcan" class="tooltip tooltip-arrow-right" style="display: none;">Page canonicaled to another page ' + relCanURL + ' so we are showing page parameters for that URL</span>')
+              .addClass('url-line-relcan');
+          }
+          Metrics.get( relCanURL, function( data ){
+            deferURL.resolve( data );
+          }, function(){
+            deferURL.reject({});
+          });
+        });
+
+        Metrics.get( domain, function( data ){
+          deferDOM.resolve( data );
+        }, function(){
+          deferDOM.reject({});
+        });
+
+        var data = {
+          loadingDOM: true,
+          loadingURL: true
+        };
+        $.when(deferURL).done(function(dataURL){
+          delete data.loadingURL;
+          $.extend(data, dataURL, {
+            metricsURL: dataURL.metrics
+          });
+          var html = Metrics.render( data );
+          $('.viewMetrics').html( html );
+          metricsPostRenderHook(data, tab);
+        });
+        $.when(deferDOM).done(function(dataDOM){
+          delete data.loadingDOM;
+          $.extend(data, dataDOM, {
+            metricsDOM: dataDOM.metrics
+          });
+          var html = Metrics.render( data );
+          $('.viewMetrics').html( html );
+          metricsPostRenderHook(data, tab);
+        });
+      }
+      else {
+        status.error("Unsupported url");
+        var data = {
+          metricsURL: {
+            powertrust: 'n/a',
+          },
+          metricsDOM: {
+            powertrust: 'n/a',
+          },
+          pageCount: localStorage.pageCount,
+          domainCount: localStorage.domainCount,
+          quotaresetdate: localStorage.quotaresetdate
+        };
+        var html = Metrics.render(data);
+        $('.viewMetrics').html( html );
+        metricsPostRenderHook(data, tab);
+      }
+    });
+  };
+
+
+  var metricsPostRenderHook = function(data, tab){
+    if (vendor === 'Firefox') {
+      $('.btn-try-lrt').attr('href', 'http://lrt.li/ptfftrial');
+    }
+    Metrics.addEventHandlers( $('.viewMetrics'), data, tab.id );
+    appendExpanders('.hop-url a');
+  };
+
+
+  var appendExpanders = function( selectorStr ){
+    var links = $(selectorStr);
+    for (var i = 0, len = links.length; i < len; i++) {
+      var link = links[i];
+      if ($(link).hasClass('expandable')) continue;
+      if (isEllipsisActive(link)) {
+        $(link).append('<span class="btn-expand">...</span>');
+        $(link).addClass('expandable');
+      }
+    }
+  };
+
+
+  var isEllipsisActive = function(e) {
+    var res = false;
+    if (e.offsetWidth + 2 < e.scrollWidth) res = true;
+    if (e.offsetHeight < e.scrollHeight) res = true;
+    return res;
+  };
+
+
+  var getPlanSuggestion = function(){
+    var domain = $('#promo').data('domain');
+    var origin = $('#promo').data('origin');
+    $('.promo-content').html('<img src="/img/lrt-loading.gif">');
+
+    var onError = function(error){
+      if (!error) error = 'Try again later';
+      $('.promo-content').html(error);
+    }
+    LRT.getPlanSuggestion(domain, function(json){
+      try {
+        var data = json.data;
+        if (!data.success) onError();
+        var moreLinkURL = getMoreLinkURL(data, false);
+        var moreLinkURLArchived = getMoreLinkURL(data, 'archived');
+        var templateData = $.extend({}, data, {
+          domain: domain,
+          origin: origin,
+          moreLinkURL: moreLinkURL,
+          moreLinkURLArchived: moreLinkURLArchived,
+          moreLinkParams: getMoreLinkParams(data),
+          suggestedProductNameShort: (data.suggestedProductName || '').replace(/LRT /, ''),
+          suggestedProductLimitsNr: Metrics.getNrString(data.suggestedProductLimits)
+        });
+        var suggestedProductCode = data.suggestedProductCode;
+        var suggestedProductCodeIncludingArchivedLinks = data.suggestedProductCodeIncludingArchivedLinks;
+        if (data.contactUs || data.customPlan) {
+          templateData.recommendCustom = true;
+        }
+        else if (data.customPlanIncludingArchivedLinks) {
+          templateData.recommendEcoPlusCustom = true;
+        }
+        else if (suggestedProductCode === suggestedProductCodeIncludingArchivedLinks) {
+          templateData.recommendSamePlan = true;
+        }
+        else if (suggestedProductCodeIncludingArchivedLinks !== suggestedProductCode) {
+          templateData.recommendDifferent = true;
+        }
+        else {
+          console.log('something went wrong: supposed to be unreachable');
+        }
+        console.log(templateData);
+
+        var html = Mustache.to_html( $('#promo-text').text(), templateData );
+        $('.promo-content').html(html);
+      }
+      catch (e) {
+        console.log(e);
+        onError();
+      }
+    }, function(error, xhr){
+      console.log(error, xhr);
+      if (xhr.status === 603) showNoBLmessage();
+      else onError(error);
+    });
+  };
+
+
+  var showNoBLmessage = function(){
+    var html = Mustache.to_html( $('#promo-text').text(), {noBLerror: true
+    } );
+    $('.promo-content').html(html);
+    $('.promo-title').hide();
+  };
+
+
+  var getMoreLinkURL = function(data, suggestArchived){
+    var url = 'http://lrt.li/ptquotelp?';
+    if (data.contactUs || data.customPlan || suggestArchived && data.customPlanIncludingArchivedLinks) url = 'http://lrt.li/ptquotecustom?';
+    url += getMoreLinkParams(data, suggestArchived);
+    return url;
+  };
+
+
+  var getMoreLinkParams = function(data, suggestArchived){
+    var res = 'analyzedDomain=' + data.domainName + '&backlinksCount=' + data.backlinksCountIncludingArchivedLinks + '&backlinksCountFull=' + data.backlinksCountIncludingArchivedLinksFull + '&backlinksCountEco=' + data.backlinksCount + '&backlinksCountEcoFull=' + data.backlinksCountFull;
+    var suggested = data.suggestedProductCode;
+    if (suggestArchived) suggested = data.suggestedProductCodeIncludingArchivedLinks;
+    if (suggested) res += '&plansuggested=' + suggested;
+    console.log(suggestArchived, suggested);
+    return res;
+  };
+
+
+  return {
+    init: init
+  };
+
+
+})().init();
