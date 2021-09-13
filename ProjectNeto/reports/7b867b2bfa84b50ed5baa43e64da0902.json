@@ -1,0 +1,3180 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:07:40.137213 UTC",
+  "_filename": "pdnfnkhpgegpcingjbfihlkjeighnddk.crx",
+  "_files": {
+    "manifest.json": {
+      "md5": "51a7d6a188aeaa9f14a4e0dfb7bc8262",
+      "sha1": "60f5be36cff8da5968dfd39fd91953f412b09ad9",
+      "sha256": "60f5be36cff8da5968dfd39fd91953f412b09ad9"
+    },
+    "chrome/proxy.js": {
+      "md5": "00e246054f891d09162edfe3ae389a63",
+      "sha1": "1fa89d07b9b08f58f6641f1e2957bd50e572dc1a",
+      "sha256": "1fa89d07b9b08f58f6641f1e2957bd50e572dc1a"
+    },
+    "chrome/redirect.js": {
+      "md5": "59add3ed4732230bcd0168c47646dbed",
+      "sha1": "0fd07e3ea392549c2c7afcea473838b6241d37a3",
+      "sha256": "0fd07e3ea392549c2c7afcea473838b6241d37a3"
+    },
+    "chrome/content/unblockcn.js": {
+      "md5": "dfd3a611c985fe108166a03f880f684f",
+      "sha1": "1811b5252e7f5a1b1db14735a8851bc8c975f525",
+      "sha256": "1811b5252e7f5a1b1db14735a8851bc8c975f525"
+    },
+    "chrome/content/music.163.js": {
+      "md5": "fb08e90e157ba31fa50c666adbc7d553",
+      "sha1": "277bef1708a4be7be985eebcc4421000690b1a7d",
+      "sha256": "277bef1708a4be7be985eebcc4421000690b1a7d"
+    },
+    "chrome/content/play.baidu.css": {
+      "md5": "08c9a2bb67073161708524b6e1af93ea",
+      "sha1": "7c16a0da1a62c161948d685fd22803c4f51eab38",
+      "sha256": "7c16a0da1a62c161948d685fd22803c4f51eab38"
+    },
+    "chrome/content/play.baidu.js": {
+      "md5": "45f189dd91a278295c460df8bca467cb",
+      "sha1": "d937cfdad6c2504e7e1edd316e9e2e1023525350",
+      "sha256": "d937cfdad6c2504e7e1edd316e9e2e1023525350"
+    },
+    "chrome/content/tudou.js": {
+      "md5": "ae9c44956a87939f0a60e47eb2308406",
+      "sha1": "0c705fee7585d0fbf9d86f9d1a1f009bead4c0ff",
+      "sha256": "0c705fee7585d0fbf9d86f9d1a1f009bead4c0ff"
+    },
+    "chrome/header.js": {
+      "md5": "8bc2a376c79e6f5f0c5f64bc37dbc226",
+      "sha1": "fb066faab98516411e8c234821831efd27b24601",
+      "sha256": "fb066faab98516411e8c234821831efd27b24601"
+    },
+    "chrome/config.js": {
+      "md5": "b45b8a0e9de7952b42864571acd7da87",
+      "sha1": "9706b8c8c1774a79fdbcf5acce041a5e847f296b",
+      "sha256": "9706b8c8c1774a79fdbcf5acce041a5e847f296b"
+    },
+    "chrome/icons/icon16.png": {
+      "md5": "7921a6d9cc24d454d7fd9e013f6957b2",
+      "sha1": "58f8643b66836ac8653a976bb6c09f90166aaea6",
+      "sha256": "58f8643b66836ac8653a976bb6c09f90166aaea6"
+    },
+    "chrome/icons/icon19spring.png": {
+      "md5": "04ba3fd7ec0151582ddeed80b754a148",
+      "sha1": "66927951fa407c25e738924e5cf1f9dd3aa8ac9e",
+      "sha256": "66927951fa407c25e738924e5cf1f9dd3aa8ac9e"
+    },
+    "chrome/icons/icon48.png": {
+      "md5": "1cbe1eb65289c7e4ff73868957d421d2",
+      "sha1": "2e7b37ca3f6138f1ec58d3d1ed114dcd1d1bc34e",
+      "sha256": "2e7b37ca3f6138f1ec58d3d1ed114dcd1d1bc34e"
+    },
+    "chrome/icons/icon128.png": {
+      "md5": "9a99d9dfda2cf0e9efd8d3f3e96050e5",
+      "sha1": "da12e9b500f5bb86a509d0663ef3658093bb4f84",
+      "sha256": "da12e9b500f5bb86a509d0663ef3658093bb4f84"
+    },
+    "chrome/icons/icon19xmas.png": {
+      "md5": "98daaab4aba28562154d94b9fe3af201",
+      "sha1": "8c7c2643f5ebd03671ba017e51e22e9447b3b3ed",
+      "sha256": "8c7c2643f5ebd03671ba017e51e22e9447b3b3ed"
+    },
+    "chrome/icons/icon19heart.png": {
+      "md5": "68e90f5580b97579c6ee77ced57b6a06",
+      "sha1": "48bdddeb8b43eacf11226dfcd93b7a00e9bfffb7",
+      "sha256": "48bdddeb8b43eacf11226dfcd93b7a00e9bfffb7"
+    },
+    "chrome/icons/icon19gray.png": {
+      "md5": "309c79865a606c416562ae8c51715e8e",
+      "sha1": "812c89d9e63fea97219a338c3e5d60e63067fe68",
+      "sha256": "812c89d9e63fea97219a338c3e5d60e63067fe68"
+    },
+    "chrome/icons/icon19.png": {
+      "md5": "46058bbbfb6cc3c0fec620f48fd87ae9",
+      "sha1": "7b4ddded1f81ae209fef001a1bd66a9c85f88987",
+      "sha256": "7b4ddded1f81ae209fef001a1bd66a9c85f88987"
+    },
+    "chrome/pages/css/bootstrap-3.3.5.min.css": {
+      "md5": "d892c52729429c2e4b534447eec3d725",
+      "sha1": "5db3412165297dca5e3a05e68a975e1c80940354",
+      "sha256": "5db3412165297dca5e3a05e68a975e1c80940354"
+    },
+    "chrome/pages/css/popup.css": {
+      "md5": "61429626519581dac2dc0240492407a2",
+      "sha1": "8bb2caace7e34a814dc9bcfd23ced8be0350fbc8",
+      "sha256": "8bb2caace7e34a814dc9bcfd23ced8be0350fbc8"
+    },
+    "chrome/pages/css/font-awesome-4.4.0.min.css": {
+      "md5": "e5309ce69d3838cbce1859f5946c5c2e",
+      "sha1": "202469b39c5ef9c99da9169efe94d6bde3fd50b5",
+      "sha256": "202469b39c5ef9c99da9169efe94d6bde3fd50b5"
+    },
+    "chrome/pages/js/popup.js": {
+      "md5": "38a3b5921d17d7821aa8519fcd237ebc",
+      "sha1": "450d158080a915b02724c2b6a9dcb240545a8bf5",
+      "sha256": "450d158080a915b02724c2b6a9dcb240545a8bf5"
+    },
+    "chrome/pages/js/bootstrap-3.3.5.min.js": {
+      "md5": "276768c50104b9945f5b0bbb385baf1c",
+      "sha1": "8a23662c124ff71d25c6305b90d780621424a1ca",
+      "sha256": "8a23662c124ff71d25c6305b90d780621424a1ca"
+    },
+    "chrome/pages/js/options-redirect.js": {
+      "md5": "d44d766e8ff775e877171ba935763fc7",
+      "sha1": "522d946b053a970086ac33e54a575acd99d0928d",
+      "sha256": "522d946b053a970086ac33e54a575acd99d0928d"
+    },
+    "chrome/pages/js/options-proxy.js": {
+      "md5": "88a1b720c0f8eab68947d16a6129f4ca",
+      "sha1": "590434fc450a842cc7fedbd0d4f6668593d619c5",
+      "sha256": "590434fc450a842cc7fedbd0d4f6668593d619c5"
+    },
+    "chrome/pages/js/analytics.js": {
+      "md5": "86f2af2088676ae413a8f548e421fa9a",
+      "sha1": "7c67bc140913f6e2e668d33630a814d8053c780b",
+      "sha256": "7c67bc140913f6e2e668d33630a814d8053c780b"
+    },
+    "chrome/pages/js/jquery-2.1.4.min.js": {
+      "md5": "bba0775d6b323cebbebc86a61db33f7f",
+      "sha1": "1a79f8cb4414f868b33b0545f2e2fbdbbcc5af44",
+      "sha256": "1a79f8cb4414f868b33b0545f2e2fbdbbcc5af44"
+    },
+    "chrome/pages/popup.html": {
+      "md5": "318a6effa2a0bcbad32fa0eec5a06db7",
+      "sha1": "2bbb647f35285eea6c0bd26c8fb3ef6e636a4b9f",
+      "sha256": "2bbb647f35285eea6c0bd26c8fb3ef6e636a4b9f"
+    },
+    "chrome/pages/options.html": {
+      "md5": "06e9c98e41e27e27d874206ae7afb2fc",
+      "sha1": "c91f62703c2edec662aa34c025cb1cbf6ec79113",
+      "sha256": "c91f62703c2edec662aa34c025cb1cbf6ec79113"
+    },
+    "chrome/pages/LICENSE.txt": {
+      "md5": "b57ca3d5bf9097ae203ef132b67e6e99",
+      "sha1": "a9ea8f7e8cf481af66cc94c396e4a781b7c0720f",
+      "sha256": "a9ea8f7e8cf481af66cc94c396e4a781b7c0720f"
+    },
+    "chrome/pages/fonts/glyphicons-halflings-regular.woff2": {
+      "md5": "d69c8d476da9172a402e6ff30fd02ecc",
+      "sha1": "01226b061b077f43d5aec7c4d20b569dea7c821d",
+      "sha256": "01226b061b077f43d5aec7c4d20b569dea7c821d"
+    },
+    "chrome/pages/fonts/fontawesome-webfont.woff2": {
+      "md5": "25acd3e5bc963f373b0afb3b2abf9812",
+      "sha1": "5379063f99774a5a1a40326dd224e329bf78b5fb",
+      "sha256": "5379063f99774a5a1a40326dd224e329bf78b5fb"
+    },
+    "chrome/storage.js": {
+      "md5": "5b6d5a6c2f45e26d94d81fb1520ecb2d",
+      "sha1": "169c97964b5d797a3ddf3cc6166ce6b2e3639cf1",
+      "sha256": "169c97964b5d797a3ddf3cc6166ce6b2e3639cf1"
+    },
+    "chrome/donation.js": {
+      "md5": "db03c7b452a38bdd41b629e8f4d2aa19",
+      "sha1": "33c2860542ddfb65d609ebb1ce1eeb344428730b",
+      "sha256": "33c2860542ddfb65d609ebb1ce1eeb344428730b"
+    },
+    "shared/tools.js": {
+      "md5": "5e9268358eaa6fd4fdb26d6d7a9d54fa",
+      "sha1": "1cb5def5b248abc101220d30eca14b0910748d7a",
+      "sha256": "1cb5def5b248abc101220d30eca14b0910748d7a"
+    },
+    "shared/urls.js": {
+      "md5": "ad87e3282aaab9602f630334ff4ac5bc",
+      "sha1": "caa604349f69b3a5ec58f5bb752757e080f022fa",
+      "sha256": "caa604349f69b3a5ec58f5bb752757e080f022fa"
+    },
+    "_locales/zh_TW/messages.json": {
+      "md5": "745e77cc5ad6a9334ea84011eb510c1d",
+      "sha1": "9cd8a3cb384a36631cbb6b0bc173fdd4a6c2d3c4",
+      "sha256": "9cd8a3cb384a36631cbb6b0bc173fdd4a6c2d3c4"
+    },
+    "_locales/zh_CN/messages.json": {
+      "md5": "d21658afa5d8374f758d096d5613ca53",
+      "sha1": "911973dd71d9b1a9893ed81091d8dc64ce8b5be1",
+      "sha256": "911973dd71d9b1a9893ed81091d8dc64ce8b5be1"
+    },
+    "_locales/en/messages.json": {
+      "md5": "ba5187d66c45fde1a2fcef0f5ea7a191",
+      "sha1": "9b2f78b22e788e6b362ad1005b9b8b55920a50d0",
+      "sha256": "9b2f78b22e788e6b362ad1005b9b8b55920a50d0"
+    },
+    "COPYING.txt": {
+      "md5": "4b1531221a977afd1585f04cd0e9ce4d",
+      "sha1": "5f253b2b4138e48c7a1588cbb112dc7c748bf52b",
+      "sha256": "5f253b2b4138e48c7a1588cbb112dc7c748bf52b"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "6e6c868d804d29991e7c371c406d1aa8",
+      "sha1": "8103c37959ebd2d3dbd05cfc801b27d46eda7c79",
+      "sha256": "8103c37959ebd2d3dbd05cfc801b27d46eda7c79"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "name": "Unblock Youku",
+    "version": "3.8.12",
+    "manifest_version": 2,
+    "minimum_chrome_version": "25.0",
+    "description": "__MSG_description__",
+    "icons": {
+      "16": "chrome/icons/icon16.png",
+      "48": "chrome/icons/icon48.png",
+      "128": "chrome/icons/icon128.png"
+    },
+    "permissions": [
+      "proxy",
+      "webRequest",
+      "webRequestBlocking",
+      "storage",
+      "tabs",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "background": {
+      "scripts": [
+        "shared/urls.js",
+        "shared/tools.js",
+        "chrome/pages/js/analytics.js",
+        "chrome/storage.js",
+        "chrome/header.js",
+        "chrome/proxy.js",
+        "chrome/redirect.js",
+        "chrome/config.js",
+        "chrome/donation.js"
+      ]
+    },
+    "browser_action": {
+      "default_title": "Unblock Youku isn't working properly! Visit http://uku.im/faq for solutions.",
+      "default_icon": "chrome/icons/icon19gray.png",
+      "default_popup": "chrome/pages/popup.html"
+    },
+    "options_page": "chrome/pages/options.html",
+    "content_scripts": [
+      {
+        "matches": [
+          "http://www.tudou.com/*"
+        ],
+        "js": [
+          "chrome/content/tudou.js"
+        ],
+        "run_at": "document_end",
+        "all_frames": true
+      },
+      {
+        "matches": [
+          "http://play.baidu.com/*"
+        ],
+        "css": [
+          "chrome/content/play.baidu.css"
+        ],
+        "all_frames": true
+      },
+      {
+        "matches": [
+          "http://music.163.com/*"
+        ],
+        "js": [
+          "chrome/content/music.163.js"
+        ],
+        "run_at": "document_end",
+        "all_frames": true
+      },
+      {
+        "matches": [
+          "http://unblockcn.com/*",
+          "http://*.unblockcn.com/*",
+          "http://unblockyouku.cn/*",
+          "http://*.unblockyouku.cn/*",
+          "http://724sky.com/*",
+          "http://*.724sky.com/*",
+          "http://tieba.baidu.com/f?kw=unblockcn*",
+          "http://*.tieba.baidu.com/f?kw=unblockcn*"
+        ],
+        "js": [
+          "chrome/content/unblockcn.js"
+        ],
+        "run_at": "document_end",
+        "all_frames": true
+      }
+    ],
+    "default_locale": "en"
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "7b867b2bfa84b50ed5baa43e64da0902",
+    "sha1": "68ba0714833e0ea93b29e72ec618f8f4e55c4cd3",
+    "sha256": "68ba0714833e0ea93b29e72ec618f8f4e55c4cd3"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "\n * Copyright (C) 2012 - 2016  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/proxy.js"
+      },
+      {
+        "value": "jshint devel:true, globalstrict: true",
+        "path": "chrome/proxy.js"
+      },
+      {
+        "value": "global chrome: false, unblock_youku: false, new_sogou_proxy_addr: false, urls2pac: false, get_mode_name: false",
+        "path": "chrome/proxy.js"
+      },
+      {
+        "value": "global ga_report_timeout: false, ga_report_error: false, ga_report_event: false, localStorage: false",
+        "path": "chrome/proxy.js"
+      },
+      {
+        "value": "DEBUG -- BEGIN",
+        "path": "chrome/proxy.js"
+      },
+      {
+        "value": "DEBUG -- END",
+        "path": "chrome/proxy.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2016  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/redirect.js"
+      },
+      {
+        "value": "jslint browser: true",
+        "path": "chrome/redirect.js"
+      },
+      {
+        "value": "global chrome: false, unblock_youku: false, btoa: false",
+        "path": "chrome/redirect.js"
+      },
+      {
+        "value": "global ga_report_error: false, string_starts_with: false",
+        "path": "chrome/redirect.js"
+      },
+      {
+        "value": "\n * Protect our users from a malicious software called UnblockCN. See more info at\n * - https://github.com/Unblocker/Unblock-Youku/issues/468\n * - https://github.com/typcn/bilibili-mac-client/issues/195\n * - https://github.com/Unblocker/Unblock-Youku/issues/452\n * - https://github.com/Unblocker/Unblock-Youku/issues/589\n * - https://github.com/Unblocker/malicious-unblockcn\n",
+        "path": "chrome/content/unblockcn.js"
+      },
+      {
+        "value": "jslint browser: true",
+        "path": "chrome/content/unblockcn.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2014  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/content/music.163.js"
+      },
+      {
+        "value": "jslint browser: true",
+        "path": "chrome/content/music.163.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2014  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/content/play.baidu.css"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2014  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/content/play.baidu.js"
+      },
+      {
+        "value": "jslint browser: true",
+        "path": "chrome/content/play.baidu.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2014  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/content/tudou.js"
+      },
+      {
+        "value": "jslint browser: true",
+        "path": "chrome/content/tudou.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2016  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/header.js"
+      },
+      {
+        "value": "global chrome: false, unblock_youku: false",
+        "path": "chrome/header.js"
+      },
+      {
+        "value": "global ga_report_error: false",
+        "path": "chrome/header.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2016  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/config.js"
+      },
+      {
+        "value": "jslint browser: true",
+        "path": "chrome/config.js"
+      },
+      {
+        "value": "global chrome: false, get_storage: false, set_storage: false, new_random_ip: false",
+        "path": "chrome/config.js"
+      },
+      {
+        "value": "global setup_redirect: false, setup_header: false, setup_proxy: false, setup_timezone: false, setup_extra_header: false",
+        "path": "chrome/config.js"
+      },
+      {
+        "value": "global clear_redirect: false, clear_header: false, clear_proxy: false, clear_timezone: false",
+        "path": "chrome/config.js"
+      },
+      {
+        "value": "global ga_report_event: false, ga_report_ratio: false, ga_report_error: false",
+        "path": "chrome/config.js"
+      },
+      {
+        "value": "!\n * Bootstrap v3.3.5 (http://getbootstrap.com)\n * Copyright 2011-2015 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n",
+        "path": "chrome/pages/css/bootstrap-3.3.5.min.css"
+      },
+      {
+        "value": "! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css",
+        "path": "chrome/pages/css/bootstrap-3.3.5.min.css"
+      },
+      {
+        "value": "! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+        "path": "chrome/pages/css/bootstrap-3.3.5.min.css"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2014  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/pages/css/popup.css"
+      },
+      {
+        "value": "donation",
+        "path": "chrome/pages/css/popup.css"
+      },
+      {
+        "value": "social networks",
+        "path": "chrome/pages/css/popup.css"
+      },
+      {
+        "value": "mode setting section",
+        "path": "chrome/pages/css/popup.css"
+      },
+      {
+        "value": "extra info and links",
+        "path": "chrome/pages/css/popup.css"
+      },
+      {
+        "value": "!\n *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome\n *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)\n",
+        "path": "chrome/pages/css/font-awesome-4.4.0.min.css"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2016  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/pages/js/popup.js"
+      },
+      {
+        "value": "jslint browser: true",
+        "path": "chrome/pages/js/popup.js"
+      },
+      {
+        "value": "global $: false, chrome: false, ga_report_event: false",
+        "path": "chrome/pages/js/popup.js"
+      },
+      {
+        "value": "!\n * Bootstrap v3.3.5 (http://getbootstrap.com)\n * Copyright 2011-2015 Twitter, Inc.\n * Licensed under the MIT license\n",
+        "path": "chrome/pages/js/bootstrap-3.3.5.min.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2016  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/pages/js/options-redirect.js"
+      },
+      {
+        "value": "global $: false, btoa: false",
+        "path": "chrome/pages/js/options-redirect.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2016  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/pages/js/options-proxy.js"
+      },
+      {
+        "value": "global chrome: false, $: false, localStorage: false",
+        "path": "chrome/pages/js/options-proxy.js"
+      },
+      {
+        "value": "custom_enabled=",
+        "path": "chrome/pages/js/options-proxy.js"
+      },
+      {
+        "value": "custom_enabled=",
+        "path": "chrome/pages/js/options-proxy.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2014  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/pages/js/analytics.js"
+      },
+      {
+        "value": "jslint browser: true",
+        "path": "chrome/pages/js/analytics.js"
+      },
+      {
+        "value": "! jQuery v2.1.4 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license",
+        "path": "chrome/pages/js/jquery-2.1.4.min.js"
+      },
+      {
+        "value": "<div class=\"text_block\" id=\"help_text\"></div>",
+        "path": "chrome/pages/popup.html"
+      },
+      {
+        "value": "setting",
+        "path": "chrome/pages/popup.html"
+      },
+      {
+        "value": "wrapper",
+        "path": "chrome/pages/popup.html"
+      },
+      {
+        "value": "container",
+        "path": "chrome/pages/options.html"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2016  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/storage.js"
+      },
+      {
+        "value": "global chrome: false",
+        "path": "chrome/storage.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2016  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "chrome/donation.js"
+      },
+      {
+        "value": "global chrome: false, localStorage: false",
+        "path": "chrome/donation.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2016  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "shared/tools.js"
+      },
+      {
+        "value": "\n * Copyright (C) 2012 - 2016  Bo Zhu  http://zhuzhu.org\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n",
+        "path": "shared/urls.js"
+      },
+      {
+        "value": "\n PLEASE READ THIS FIRST!\n\n This file contains several lists of URLs, which are used in different unblock modes:\n\n - The (non-proxy) lite mode of our Chrome extension will use:\n   - header_urls, and\n   - redirect_urls.\n - The (default) standard mode will use:\n   - header_urls,\n   - redirect_urls, and\n   - chrome_proxy_urls.\n - The PAC service (for iOS/Android) will use all lists:\n   - header_urls,\n   - redirect_urls,\n   - chrome_proxy_urls, and\n   - pac_proxy_urls.\n",
+        "path": "shared/urls.js"
+      },
+      {
+        "value": "\n * Note that the HTTPS URLs must NOT have any path portions.\n *\n * For example:\n * - Wrong: https://example.com/abc/*\n * - Right: https://example.com/*\n",
+        "path": "shared/urls.js"
+      },
+      {
+        "value": "for PAC service",
+        "path": "shared/urls.js"
+      },
+      {
+        "value": "for Chrome proxy",
+        "path": "shared/urls.js"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/proxy.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/proxy.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "http://play.baidu.com/data/music/songlink",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "http://play.baidu.com/data/cloud/songlink",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "http://v.youku.com",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "http://hot.vrs.sohu.com",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "http://hot.vrs.letv.com",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "http://127.0.0.1.xip.io:8080/?url=",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "http://117.27.241.117",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "https://github.com/Unblocker/Unblock-Youku/issues/468",
+          "path": "chrome/content/unblockcn.js"
+        },
+        {
+          "value": "https://github.com/typcn/bilibili-mac-client/issues/195",
+          "path": "chrome/content/unblockcn.js"
+        },
+        {
+          "value": "https://github.com/Unblocker/Unblock-Youku/issues/452",
+          "path": "chrome/content/unblockcn.js"
+        },
+        {
+          "value": "https://github.com/Unblocker/Unblock-Youku/issues/589",
+          "path": "chrome/content/unblockcn.js"
+        },
+        {
+          "value": "https://github.com/Unblocker/malicious-unblockcn",
+          "path": "chrome/content/unblockcn.js"
+        },
+        {
+          "value": "https://git.io/vgXeh",
+          "path": "chrome/content/unblockcn.js"
+        },
+        {
+          "value": "https://git.io/vgVtc",
+          "path": "chrome/content/unblockcn.js"
+        },
+        {
+          "value": "https://github.com/Unblocker/Unblock-Youku/issues/468",
+          "path": "chrome/content/unblockcn.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/content/music.163.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/content/music.163.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/content/play.baidu.css"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/content/play.baidu.css"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/content/play.baidu.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/content/play.baidu.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/content/tudou.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/content/tudou.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/header.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/header.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/config.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/config.js"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "chrome/pages/css/bootstrap-3.3.5.min.css"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "chrome/pages/css/bootstrap-3.3.5.min.css"
+        },
+        {
+          "value": "https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+          "path": "chrome/pages/css/bootstrap-3.3.5.min.css"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/pages/css/popup.css"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/pages/css/popup.css"
+        },
+        {
+          "value": "http://fontawesome.io",
+          "path": "chrome/pages/css/font-awesome-4.4.0.min.css"
+        },
+        {
+          "value": "http://fontawesome.io/license",
+          "path": "chrome/pages/css/font-awesome-4.4.0.min.css"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/pages/js/popup.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/pages/js/popup.js"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "chrome/pages/js/bootstrap-3.3.5.min.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/pages/js/options-redirect.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/pages/js/options-redirect.js"
+        },
+        {
+          "value": "http://ipservice.163.com/isFromMainland",
+          "path": "chrome/pages/js/options-redirect.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/pages/js/options-proxy.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/pages/js/options-proxy.js"
+        },
+        {
+          "value": "http://ipservice.163.com/isFromMainland",
+          "path": "chrome/pages/js/options-proxy.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "http://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid-in-javascript",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "https://www.google-analytics.com/collect",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "http://goo.gl/QLJu6",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "http://goo.gl/aNH3H",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "https://www.uku.im/index.html",
+          "path": "chrome/pages/popup.html"
+        },
+        {
+          "value": "http://weibo.com/ubuku",
+          "path": "chrome/pages/popup.html"
+        },
+        {
+          "value": "https://twitter.com/Unblock_Youku",
+          "path": "chrome/pages/popup.html"
+        },
+        {
+          "value": "https://fb.com/uku.im",
+          "path": "chrome/pages/popup.html"
+        },
+        {
+          "value": "https://fb.com/uku.im",
+          "path": "chrome/pages/popup.html"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/storage.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/storage.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "chrome/donation.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "chrome/donation.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "http://test.com",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "http://test.com:123",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "http://test.com/path",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "http://test.com:123/path",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "http://goo.gl/IGhfR",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "http://zhuzhu.org",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://example.com/abc/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://example.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v.api.hunantv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://live.gslb.letv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ac.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ssports.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ssports.smgbb.cn",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://interface.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://bangumi.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://pstream.api.mgtv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://kandian.com/player/getEpgInfo",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://u.y.qq.com/cgi-bin/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://u.y.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://dmd-fifajs-h5-ikuweb.youku.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://dmd-fifa-h5-ikuweb.youku.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://acs.youku.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://acs.youku.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v.youku.com/player/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://pl-ali.youku.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://list.youku.com/category/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.youku.com/player/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://play.youku.com/play/get.json",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://play-dxk.youku.com/play/get.json",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://play-ali.youku.com/play/get.json",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://list.youku.com/show/module?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://list.youku.com/show/point?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://list.youku.com/show/episode?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v.youku.com/page/playlist",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ups.youku.com/ups/get.json",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://ups.youku.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://ac.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://player.aplus.pptv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.aixifan.com/plays/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.acfun.cn/video/getVideo",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://www.acfun.cn",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://v.youku.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v2.tudou.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://video.tudou.com/v/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.tudou.com/a/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.tudou.com/v/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.tudou.com/outplay/goto/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.tudou.com/tvp/alist.action",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://s.plcloud.music.qq.com/fcgi-bin/p.fcg",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://i.y.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://i.y.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://c.y.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://c.y.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://c.y.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.unipay.qq.com/cgi-bin/get_pay_info.fcg?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://api.unipay.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://hot.vrs.sohu.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://hot.vrs.sohu.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://live.tv.sohu.com/live/player",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://pad.tv.sohu.com/playinfo",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://my.tv.sohu.com/play/m3u8version.do",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://hot.vrs.letv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.le.com/mms/out/video/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://player.pc.le.com/mms/out/video/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://player-pc.le.com/mms/out/video/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://g3.letv.cn",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://data.video.qiyi.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://data.video.iqiyi.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://data.video.qiyi.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://data.video.iqiyi.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://nl.rcd.iqiyi.com/apis/urc/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://cache.vip.qiyi.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://cache.video.qiyi.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://cache.vip.iqiyi.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://cache.video.iqiyi.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://cache.video.iqiyi.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://iplocation.geo.qiyi.com/cityjson",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://iplocation.geo.iqiyi.com/cityjson",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v.api.hunantv.com/player/video",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://mobile.api.hunantv.com/v5/video/getSource",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v.api.mgtv.com/player/video",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://v.api.mgtv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://pcweb.api.mgtv.com/player/video",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://pcweb.api.mgtv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://acc.music.qq.com/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://182.254.116.117",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.appsdk.soku.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://app.bilibili.com/bangumi/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://bangumi.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://122.72.82.31",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://211.151.158.155",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://tt.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ice.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://tjsa.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://a10.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://xyy.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vcq.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vsh.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vbj.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://bobo.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://flvs.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://bkvv.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://h5vv.video.qq.com/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://info.zb.qq.com/?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://info.zb.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://info.zb.video.qq.com/?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://info.zb.video.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://qzs.qq.com/tencentvideo_v1/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://qzs.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vd.l.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://vd.l.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vi.l.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://vi.l.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://dispatcher.video.sina.com.cn",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://geo.js.kankan.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://web-play.pptv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v.pptv.com/show/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://ppi.api.pptv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://web-play.pplive.cn",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://tools.aplusapi.pptv.com/get_ppi?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://live.pptv.com/api/subject_list?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://c1.pptv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://dyn.ugc.pps.tv",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v.pps.tv/ugc/ajax/aj_html5_url.php",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://inner.kandian.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ipservice.163.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://so.open.163.com/open/info.htm",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://zb.s.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://zb.s.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ip.kankan.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vxml.56.com/json/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.sina.com.cn/yueku/intro/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ting.baidu.com/data/music/songlink",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ting.baidu.com/data/music/songinfo",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ting.baidu.com/song/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.sina.com.cn/radio/port/webFeatureRadioLimitList.php",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://play.baidu.com/data/music/songlink",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v.iask.com/v_play.php",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v.iask.com/v_play_ipad.cx.php",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://tv.weibo.com/player/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://wtv.v.iask.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://wtv.v.iask.com/mcdn.php",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://video.sina.com.cn/interface/l/u/getFocusStatus.php",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://wtv.v.iask.com/player/ovs1_idc_list.php",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://kandian.com/player/getEpgInfo",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://cdn.kandian.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.yinyuetai.com/insite/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.yinyuetai.com/main/get-",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.kugou.com/interface/geoip/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.kuwo.cn/yy/PlayCheckIp?callback=checkIpCallback&_=",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://antiserver.kuwo.cn/anti.s?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ipcheck.kuwo.cn/ip_check.kuwo",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.letv.com/streamblock",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.letv.com/mms/out/video/play",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.www.letv.com/mms/out/video/playJson?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.letv.com/mms/out/common/geturl",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.letv.com/geturl",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.letv.com/api/geturl",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://st.live.letv.com/live/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://live.gslb.letv.com/gslb?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://live.g3proxy.lecloud.com/gslb?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.live.letv.com/crossdomain.xml",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://static.itv.letv.com/api",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ip.apps.cntv.cn/js/player.do",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vdn.apps.cntv.cn/api/get",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vdn.live.cntv.cn/api2/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://cctv1.vtime.cntv.cloudcdn.net/cache/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://cctv5.vtime.cntv.cloudcdn.net/cache/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://cctv5plus.vtime.cntv.cloudcdn.net/cache/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://cctv13.vtime.cntv.cloudcdn.net/cache/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://sports1pull.live.wscdns.com/live/aoyun2",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vip.sports.cntv.cn/check.do",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vip.sports.cntv.cn/play.do",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vip.sports.cntv.cn/servlets/encryptvideopath.do",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://211.151.157.15",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.tudou.com/programs/view/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.tudou.com/albumplay/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.tudou.com/listplay/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.youku.com/show_page/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v.youku.com/v_show/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.soku.com/search_video/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://search.api.3g.youku.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://search.api.3g.tudou.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.tv.sohu.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ac.qq.com/Comic",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ac.qq.com/Jump",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://live.api.hunantv.com/pc/getSourceById",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://mobile.api.hunantv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.qie.tv",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.bilibili.com/video/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://www.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://api.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://interface.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://interface.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://bangumi.bilibili.com/api/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://bangumi.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://live-play.acgvideo.com/live/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://m10.music.126.net",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://douban.fm",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://douban.fm",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.xiami.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://lixian.xunlei.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://lixian.vip.xunlei.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://dynamic.cloud.vip.xunlei.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://cloud.vip.xunlei.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vod.lixian.xunlei.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.iqiyi.com/dongman/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://www.iqiyi.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://github.com/Unblocker/Unblock-Youku/issues/590",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://36.110.222.105",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://36.110.222.119",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://36.110.222.146",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://36.110.222.156",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://123.125.89.6",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://123.125.89.101",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://123.125.89.102",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://123.125.89.103",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://123.125.89.157",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://123.125.89.159",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://123.126.32.134",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://123.59.122.75",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://123.59.122.76",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://123.59.122.77",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://123.59.122.104",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.208.36",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.208.37",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.208.38",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.208.61",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.208.62",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.208.163",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.208.164",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.208.166",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.211.145",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.211.146",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.211.147",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.211.148",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.211.129",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.211.130",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://111.206.211.131",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://220.181.153.113",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://14.152.77.32",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://14.152.77.26",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://14.152.77.25",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://14.152.77.22",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://183.232.229.22",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://183.232.229.21",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://183.232.229.25",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://183.232.229.32",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://115.182.200.51",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://115.182.200.50",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://115.182.200.54",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://115.182.200.53",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://115.182.200.52",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://115.182.63.51",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://115.182.63.93",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ark.letv.com/s",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://search.lekan.letv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://live.video.sina.com.cn/room/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://edge.v.iask.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://pay.youku.com/buy/redirect.html",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://pay.tudou.com/buy/redirect.html",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://aid.video.qq.com/fcgi-bin/userip?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://aidbak.video.qq.com/fcgi-bin/userip?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://pay.video.qq.com/fcgi-bin/paylimit",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://paybak.video.qq.com/fcgi-bin/paylimit",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://chrome.2345.com/dianhua/index.php?m=call&f=check&",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.163.com/eapi/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://play.baidu.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://zhangmenshiting.baidu.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.baidu.com/box",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.baidu.com/data/service/sum",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.baidu.com/data/music/songlink",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.baidu.com/data/music/songinfo",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.baidu.com/data/music/fmlink",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.baidu.com/song/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://fm.baidu.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.kugou.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.baidu.com/data/user/collect",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://d.dxy.cn",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ac.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v.pptv.com/show/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.songtaste.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://songtaste.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.yyets.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://mainv2.img.duomi.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://imanhua.com/comic/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.imanhua.com/comic/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://imanhua.com/v2",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.imanhua.com/v2",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://bangumi.bilibili.com/index/ding-count.json",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://a.play.api.3g.youku.com/common/v3/play?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://i.play.api.3g.youku.com/common/v3/play?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://i.play.api.3g.youku.com/common/v3/hasadv/play?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.3g.youku.com/layout",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.3g.youku.com/v3/play/address",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.3g.youku.com/openapi-wireless/videos/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.3g.youku.com/videos/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.3g.youku.com/common/v3/play",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://tv.api.3g.youku.com/openapi-wireless/v3/play/address",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://tv.api.3g.youku.com/common/v3/hasadv/play",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://tv.api.3g.youku.com/common/v3/play",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://play.api.3g.youku.com/common/v3/hasadv/play",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://play.api.3g.youku.com/common/v3/play",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://play.api.3g.youku.com/v3/play/address",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://i-play.mobile.youku.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://play.api.3g.tudou.com/v",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://tv.api.3g.tudou.com/tv/play?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.3g.tudou.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.tv.sohu.com/mobile_user/device/clientconf.json?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://access.tv.sohu.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://iface.iqiyi.com/api/searchIface?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://iface.iqiyi.com/api/ip2area?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://iface2.iqiyi.com/php/xyz/iface/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://iface2.iqiyi.com/php/xyz/entry/galaxy.php?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://iface2.iqiyi.com/php/xyz/entry/nebula.php?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://cache.m.iqiyi.com/jp/tmts/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://dynamic.app.m.letv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://dynamic.meizi.app.m.letv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://dynamic.search.app.m.letv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://dynamic.live.app.m.letv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://listso.m.areainfo.ppstream.com/ip/q.php",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://epg.api.pptv.com/detail.api?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://play.api.pptv.com/boxplay.api?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.letv.com/getipgeo",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://m.letv.com/api/geturl?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.mob.app.letv.com/play",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://static.api.sports.letv.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://api.itv.letv.com/iptv/api/new/video/play/get.json?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vdn.apps.cntv.cn/api/getLiveUrlCommonApi.do?pa",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vdn.apps.cntv.cn/api/getLiveUrlCommonApi.do?pa",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vdn.apps.cntv.cn/api/getLiveUrlCommonApi.do?pa",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vdn.apps.cntv.cn/api/getLiveUrlCommonApi.do?pa",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vdn.live.cntv.cn/api2/live.do?channel=pa",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vdn.live.cntv.cn/api2/live.do?channel=pa",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vdn.live.cntv.cn/api2/live.do?channel=pa",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vdn.live.cntv.cn/api2/live.do?channel=pa",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://vdn.live.cntv.cn",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://app.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://app.bilibili.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://bangumi.bilibili.com/api/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://3g.music.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://mqqplayer.3g.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://proxy.music.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://proxymc.qq.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://220.249.243.70/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://117.185.116.152/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://101.227.139.217/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://59.37.96.220/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://140.207.69.99/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://103.7.31.186/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://103.7.30.89/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://182.254.34.151/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://223.167.82.139/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://101.227.169.200/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://182.254.11.174/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://183.192.192.139/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://163.177.90.61/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://14.18.245.250/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://183.232.126.23/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://183.232.119.198/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://182.254.4.234/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://203.205.151.23/base/fcgi-bin/getsession",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ip2.kugou.com/check/isCn/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://ip.kugou.com/check/iscn",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://client.api.ttpod.com/global",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://mobi.kuwo.cn",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://nmobi.kuwo.cn",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://mobilefeedback.kugou.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://tingapi.ting.baidu.com/v1/restserver/ting?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.baidu.com/data/music/links?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://serviceinfo.sdk.duomi.com/api/serviceinfo/getserverlist",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.163.com/api/copyright/restrict/?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://music.163.com/api/batch",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.xiami.com/web/spark",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://www.xiami.com/web/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://spark.api.xiami.com/api?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://spark.api.xiami.com/api?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://spark.api.xiami.com/api?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://spark.api.xiami.com/api?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://iplocation.geo.qiyi.com/cityjson",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://sns.video.qq.com/tunnel/fcgi-bin/tunnel",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://v5.pc.duomi.com/single-ajaxsingle-isban",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://openapi.youku.com",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://61.135.196.99",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://220.181.185.150",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://111.13.127.46",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://211.151.50.10",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://123.126.99.57",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://123.126.99.39",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://220.181.154.137",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://tms.is.ysten.com:8080/yst-tms/login.action?",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://chrome.2345.com/dianhua/mobileApi/check.php",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://internal.check.duokanbox.com/check.json",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://180.153.225.136",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://118.244.244.124",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://210.129.145.150",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://182.16.230.98",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://103.65.41.126/eapi/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://103.65.41.125/eapi/",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "https://bbs.uku.im/t/43",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://stackoverflow.com/a/6969486/1766096",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://developer.chrome.com/extensions/match_patterns.html",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://stackoverflow.com/a/5197219",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://stackoverflow.com/a/6398335",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "http://fsf.org",
+          "path": "COPYING.txt"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "COPYING.txt"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "COPYING.txt"
+        }
+      ],
+      "email": [],
+      "ipv4": [
+        {
+          "value": "127.0.0.1",
+          "path": "chrome/proxy.js"
+        },
+        {
+          "value": "127.0.0.1",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "117.27.241.117",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "127.0.0.1",
+          "path": "chrome/config.js"
+        },
+        {
+          "value": "127.0.0.1",
+          "path": "chrome/config.js"
+        },
+        {
+          "value": "127.0.0.1",
+          "path": "chrome/config.js"
+        },
+        {
+          "value": "3.0.0.1",
+          "path": "chrome/config.js"
+        },
+        {
+          "value": "182.254.116.117",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "122.72.82.31",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "211.151.158.155",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "211.151.157.15",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "36.110.222.105",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "36.110.222.119",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "36.110.222.146",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "36.110.222.156",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.125.89.6",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.125.89.101",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.125.89.102",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.125.89.103",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.125.89.157",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.125.89.159",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.126.32.134",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.59.122.75",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.59.122.76",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.59.122.77",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.59.122.104",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.208.36",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.208.37",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.208.38",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.208.61",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.208.62",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.208.163",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.208.164",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.208.166",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.211.145",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.211.146",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.211.147",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.211.148",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.211.129",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.211.130",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.206.211.131",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "220.181.153.113",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "14.152.77.32",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "14.152.77.26",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "14.152.77.25",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "14.152.77.22",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "183.232.229.22",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "183.232.229.21",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "183.232.229.25",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "183.232.229.32",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "115.182.200.51",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "115.182.200.50",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "115.182.200.54",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "115.182.200.53",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "115.182.200.52",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "115.182.63.51",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "115.182.63.93",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "220.249.243.70",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "117.185.116.152",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "101.227.139.217",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "59.37.96.220",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "140.207.69.99",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "103.7.31.186",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "103.7.30.89",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "182.254.34.151",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "223.167.82.139",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "101.227.169.200",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "182.254.11.174",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "183.192.192.139",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "163.177.90.61",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "14.18.245.250",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "183.232.126.23",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "183.232.119.198",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "182.254.4.234",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "203.205.151.23",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "61.135.196.99",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "220.181.185.150",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "111.13.127.46",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "211.151.50.10",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.126.99.57",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "123.126.99.39",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "220.181.154.137",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "180.153.225.136",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "118.244.244.124",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "210.129.145.150",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "182.16.230.98",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "103.65.41.126",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "103.65.41.125",
+          "path": "shared/urls.js"
+        }
+      ],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {
+      "zh_tw": {},
+      "zh_cn": {},
+      "en": {}
+    },
+    "metadata": {
+      "chrome/icons/icon16.png": {},
+      "chrome/icons/icon19spring.png": {},
+      "chrome/icons/icon48.png": {},
+      "chrome/icons/icon128.png": {},
+      "chrome/icons/icon19xmas.png": {},
+      "chrome/icons/icon19heart.png": {},
+      "chrome/icons/icon19gray.png": {},
+      "chrome/icons/icon19.png": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "encode",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "encode",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "encode",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "encode",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "encode",
+          "path": "chrome/pages/js/jquery-2.1.4.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "chrome/pages/js/jquery-2.1.4.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "chrome/pages/js/jquery-2.1.4.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "chrome/pages/js/jquery-2.1.4.min.js"
+        }
+      ],
+      "possible_payments": [
+        {
+          "value": "visa",
+          "path": "chrome/pages/css/font-awesome-4.4.0.min.css"
+        },
+        {
+          "value": "mastercard",
+          "path": "chrome/pages/css/font-awesome-4.4.0.min.css"
+        },
+        {
+          "value": "paypal",
+          "path": "chrome/pages/css/font-awesome-4.4.0.min.css"
+        },
+        {
+          "value": "paypal",
+          "path": "chrome/pages/css/font-awesome-4.4.0.min.css"
+        }
+      ],
+      "pattern_recognition": [
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/tools.js"
+        },
+        {
+          "value": "pattern",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        },
+        {
+          "value": "regex",
+          "path": "shared/urls.js"
+        }
+      ],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "GET",
+          "path": "chrome/redirect.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "POST",
+          "path": "chrome/pages/js/analytics.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "chrome/pages/js/jquery-2.1.4.min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "chrome/pages/js/jquery-2.1.4.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "chrome/pages/js/jquery-2.1.4.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "chrome/pages/js/jquery-2.1.4.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "chrome/pages/js/jquery-2.1.4.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "chrome/pages/js/jquery-2.1.4.min.js"
+        },
+        {
+          "value": "POST",
+          "path": "chrome/pages/js/jquery-2.1.4.min.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:07:40.855320"
+      }
+    }
+  }
+}

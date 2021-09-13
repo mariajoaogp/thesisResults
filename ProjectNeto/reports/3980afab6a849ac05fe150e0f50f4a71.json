@@ -1,0 +1,1323 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:05:45.332569 UTC",
+  "_filename": "fceblikkhnkbdimejiaapjnijnfegnii.crx",
+  "_files": {
+    "installedContent.bundle.js.map": {
+      "md5": "e7fcea6e4fb08ca679d38fa3c9470a93",
+      "sha1": "b07c75bcc78ebc741af811f017c2c70e1670f947",
+      "sha256": "b07c75bcc78ebc741af811f017c2c70e1670f947"
+    },
+    "styles/css/popup.css": {
+      "md5": "9912327c2851b638798393aa854b8268",
+      "sha1": "67debeb977daf33c7d3521876fb62e60380c2507",
+      "sha256": "67debeb977daf33c7d3521876fb62e60380c2507"
+    },
+    "styles/css/retailerContent.css.map": {
+      "md5": "8824c180b983f2062b1017ef91454da1",
+      "sha1": "2746f58a9a920abad4b43afc67bc3b4c6c4fa5ff",
+      "sha256": "2746f58a9a920abad4b43afc67bc3b4c6c4fa5ff"
+    },
+    "styles/css/searchEngineContent.css": {
+      "md5": "81e771fa99823c7f5e6bb38b4b31cdce",
+      "sha1": "75ba6574a7425e72bb19d1970e816ab4a19cc919",
+      "sha256": "75ba6574a7425e72bb19d1970e816ab4a19cc919"
+    },
+    "styles/css/popup.css.map": {
+      "md5": "3b778b2935ae1f76be41bacee1c45c1b",
+      "sha1": "4640dde36694fc15febf4e98fa05d17e54787db7",
+      "sha256": "4640dde36694fc15febf4e98fa05d17e54787db7"
+    },
+    "styles/css/retailerContent.css": {
+      "md5": "0a7f10e52dc0fcde930711680cf766ef",
+      "sha1": "4ad3e13f5da66c67999f12073b00221f92015790",
+      "sha256": "4ad3e13f5da66c67999f12073b00221f92015790"
+    },
+    "styles/css/searchEngineContent.css.map": {
+      "md5": "52cdbdb89b337f8c7f7e2f12cb74232c",
+      "sha1": "fd4a52fabe44a01fc020a724518de981fe9c056f",
+      "sha256": "fd4a52fabe44a01fc020a724518de981fe9c056f"
+    },
+    "popup.bundle.js.map": {
+      "md5": "0cfd70d461c1dfd26933d82b099b091d",
+      "sha1": "82f2a3bcd1abd805a248a7676b9f87c4453a574a",
+      "sha256": "82f2a3bcd1abd805a248a7676b9f87c4453a574a"
+    },
+    "background.bundle.js.map": {
+      "md5": "e80c1c32bab42b0ff29a6b5fe75264b6",
+      "sha1": "97a7f388cf427340b2a29213f0898108e081aa69",
+      "sha256": "97a7f388cf427340b2a29213f0898108e081aa69"
+    },
+    "retailerContent.bundle.js.map": {
+      "md5": "8ab2c45b77d21db0bc292abaa0d54789",
+      "sha1": "b341cf6d4b36eeee1dce61b5054dfabb981902f4",
+      "sha256": "b341cf6d4b36eeee1dce61b5054dfabb981902f4"
+    },
+    "installedContent.bundle.js": {
+      "md5": "8c26c58c37f6922f0c0597d1cbef6fbb",
+      "sha1": "57b884c99604a9b7fa44295d76068f4530b16acd",
+      "sha256": "57b884c99604a9b7fa44295d76068f4530b16acd"
+    },
+    "views/popup.html": {
+      "md5": "1274076e6dc55fa9b97475f19e563185",
+      "sha1": "bda4a05ffbde2a6a56c87d9ad149bf15173af292",
+      "sha256": "bda4a05ffbde2a6a56c87d9ad149bf15173af292"
+    },
+    "views/global.html": {
+      "md5": "cc378260ad3f6381d0791d2b7dc5fc91",
+      "sha1": "0b69261f00913aa57e721126e00d0ded8dbbb32f",
+      "sha256": "0b69261f00913aa57e721126e00d0ded8dbbb32f"
+    },
+    "images/inactive_25.png": {
+      "md5": "208998e6a614d8682b919427895bddec",
+      "sha1": "bdaff6ee8e0e82ecfaa71683c13b183ba39ac6d3",
+      "sha256": "bdaff6ee8e0e82ecfaa71683c13b183ba39ac6d3"
+    },
+    "images/inactive_40.png": {
+      "md5": "44b097bc7d1d982c7c14be3a11597381",
+      "sha1": "5696522a745fdce8873f5b119cb74c15c30ae1a2",
+      "sha256": "5696522a745fdce8873f5b119cb74c15c30ae1a2"
+    },
+    "images/active_128.png": {
+      "md5": "4531a777d613682e48206de7c35e553d",
+      "sha1": "9c7d9bbf34c554fbf6ef8bc320b0e7b81721b80f",
+      "sha256": "9c7d9bbf34c554fbf6ef8bc320b0e7b81721b80f"
+    },
+    "images/active_safari_16.png": {
+      "md5": "7d6e38dcb47f4501afd9477d5d51e818",
+      "sha1": "f9747ebed792112c632770c0bfe1e0a0597601c0",
+      "sha256": "f9747ebed792112c632770c0bfe1e0a0597601c0"
+    },
+    "images/icon_96.png": {
+      "md5": "8c7cc67fc5bcc37ffffa4ce098e70bee",
+      "sha1": "bbce8fac9fc623d61c5bdfbe7cee7e918f208d42",
+      "sha256": "bbce8fac9fc623d61c5bdfbe7cee7e918f208d42"
+    },
+    "images/active_16.png": {
+      "md5": "797538c63fd3c384dfcd3d7f2706d5e2",
+      "sha1": "5752deaefb83ec9bfbf1e69e51775a1e64ec8d4c",
+      "sha256": "5752deaefb83ec9bfbf1e69e51775a1e64ec8d4c"
+    },
+    "images/inactive_128.png": {
+      "md5": "2a4f71bef1e7473a67ecfe75443e6345",
+      "sha1": "1e1830dcb40b6ebac702f389a776f097189ab6c0",
+      "sha256": "1e1830dcb40b6ebac702f389a776f097189ab6c0"
+    },
+    "images/inactive_16.png": {
+      "md5": "9255b283eb6ed31acc187b12a531358b",
+      "sha1": "6261f319fd35d798485501ab9b4782bb1bd059ff",
+      "sha256": "6261f319fd35d798485501ab9b4782bb1bd059ff"
+    },
+    "images/icon_16.png": {
+      "md5": "95fe4cc90fafbfc09b87423a32bd3b0f",
+      "sha1": "3faeaed28662215edd7c10d5d28a1fb17672e497",
+      "sha256": "3faeaed28662215edd7c10d5d28a1fb17672e497"
+    },
+    "images/icon_32.png": {
+      "md5": "a7e7aece70935001b2ce290b4eb79038",
+      "sha1": "76e6aa17ee70935b4fcb9ea503b6ae87e95048af",
+      "sha256": "76e6aa17ee70935b4fcb9ea503b6ae87e95048af"
+    },
+    "images/active_20.png": {
+      "md5": "2295de87b18baeed89ce8f522265d75a",
+      "sha1": "154a2ecc54e9759f8dae7c91acec3f1ad07dede9",
+      "sha256": "154a2ecc54e9759f8dae7c91acec3f1ad07dede9"
+    },
+    "images/loading.gif": {
+      "md5": "a270e168b2286f9aab64eab7234103ab",
+      "sha1": "e1395e6a6c0186389288ee154621862e4eea6244",
+      "sha256": "e1395e6a6c0186389288ee154621862e4eea6244"
+    },
+    "images/inactive_safari_16.png": {
+      "md5": "b182030df841bfb1f94f9f0b4ebd3778",
+      "sha1": "b962cbfaefcd6797e9fa11ede01021f70b174acb",
+      "sha256": "b962cbfaefcd6797e9fa11ede01021f70b174acb"
+    },
+    "images/active_40.png": {
+      "md5": "b6938b226dadcdd7dd7531cd84c3a298",
+      "sha1": "b9d520bfa9914cb453119512fd9f2b3cd852df39",
+      "sha256": "b9d520bfa9914cb453119512fd9f2b3cd852df39"
+    },
+    "images/icon_128.png": {
+      "md5": "2785837f7a8d0974aaba6492f68903ed",
+      "sha1": "d47bdffea36ae4f0cd9a671df149283b0d3e9729",
+      "sha256": "d47bdffea36ae4f0cd9a671df149283b0d3e9729"
+    },
+    "images/close-icon.svg": {
+      "md5": "aa90c3aebd8d93fb81380dbe669e34f1",
+      "sha1": "001dadb5a1c901e030faca1f4895b2209b1f4a01",
+      "sha256": "001dadb5a1c901e030faca1f4895b2209b1f4a01"
+    },
+    "images/active_64.png": {
+      "md5": "9542de4547a6c1b59a7a4a1c3c79ef83",
+      "sha1": "017fc5b7635ae0691bb4a6b623460a04b09ec9b7",
+      "sha256": "017fc5b7635ae0691bb4a6b623460a04b09ec9b7"
+    },
+    "images/active_48.png": {
+      "md5": "9209ce0c66fd69908671a695a9224ef1",
+      "sha1": "d94593ec95665c54e92863b3cbb30df1f07e2bf4",
+      "sha256": "d94593ec95665c54e92863b3cbb30df1f07e2bf4"
+    },
+    "images/inactive_30.png": {
+      "md5": "f07ddffb5ae409f88e903d70a4ff3080",
+      "sha1": "bb76205ce229eff7e2b1d6d51bb60493ecf11ace",
+      "sha256": "bb76205ce229eff7e2b1d6d51bb60493ecf11ace"
+    },
+    "images/icon_150.png": {
+      "md5": "b9435624cfcfd59b3b3fb2d4a42dd743",
+      "sha1": "752b04fc49ab4064c2bcb93be1686944daccb1dd",
+      "sha256": "752b04fc49ab4064c2bcb93be1686944daccb1dd"
+    },
+    "images/icon_44.png": {
+      "md5": "9f3d835bae3545478645ba16822eb4c5",
+      "sha1": "7d882406184251fdc401e0912bd9ebcd24c1483c",
+      "sha256": "7d882406184251fdc401e0912bd9ebcd24c1483c"
+    },
+    "images/active_30.png": {
+      "md5": "d4ef40374aa2da66d58a422af93d45c2",
+      "sha1": "fc64da33b8cc8845fd3df6f5f10df83c27975a89",
+      "sha256": "fc64da33b8cc8845fd3df6f5f10df83c27975a89"
+    },
+    "images/icon_48.png": {
+      "md5": "e1a8ca2cf042d87c85e75da30b96c8ad",
+      "sha1": "5115763a6d8bb085031d39dcb60b1dfdba960b34",
+      "sha256": "5115763a6d8bb085031d39dcb60b1dfdba960b34"
+    },
+    "images/inactive_20.png": {
+      "md5": "6df8da5ce3f5f39986a6ab865fd966fb",
+      "sha1": "844d70a24f3c8d046ccb10a8d6f453ef3e61231c",
+      "sha256": "844d70a24f3c8d046ccb10a8d6f453ef3e61231c"
+    },
+    "images/brand-logo.png": {
+      "md5": "c83f6a49a296a4526cb4da4ed0aacbae",
+      "sha1": "6d2ea11c4cba9475fced00f6f58861ddcfe8ac43",
+      "sha256": "6d2ea11c4cba9475fced00f6f58861ddcfe8ac43"
+    },
+    "images/active_32.png": {
+      "md5": "bdaa8266ee22e7421eb4b9785414f3fb",
+      "sha1": "ace645a6ed0c32a420ffccaec3664aa9bba90d85",
+      "sha256": "ace645a6ed0c32a420ffccaec3664aa9bba90d85"
+    },
+    "images/online.svg": {
+      "md5": "e9a1af59f3aefd1be9d7187772d5532c",
+      "sha1": "5bd077440bd1b5ed09f865454419d22131bfb290",
+      "sha256": "5bd077440bd1b5ed09f865454419d22131bfb290"
+    },
+    "images/inactive_32.png": {
+      "md5": "4420b595a9cb22664469634ae7aa998c",
+      "sha1": "682adaf1733e0550683b1d0d471124196c9cb1c7",
+      "sha256": "682adaf1733e0550683b1d0d471124196c9cb1c7"
+    },
+    "images/icon_64.png": {
+      "md5": "b77b33e0413808c99b94803b3a491099",
+      "sha1": "932926b18481097fbee2625873dc6ed1a6f2c1af",
+      "sha256": "932926b18481097fbee2625873dc6ed1a6f2c1af"
+    },
+    "images/active_25.png": {
+      "md5": "93ed8273b18ed05bbe92e7e791c8e9f4",
+      "sha1": "1d01625c9bc7b2d6c7d46e95c75da4664325e589",
+      "sha256": "1d01625c9bc7b2d6c7d46e95c75da4664325e589"
+    },
+    "images/inactive_48.png": {
+      "md5": "76d7e5bbff1464b336f5a2f610956229",
+      "sha1": "a9d4e7d81a834b4e73f3550c82738a95d62ba388",
+      "sha256": "a9d4e7d81a834b4e73f3550c82738a95d62ba388"
+    },
+    "images/inactive_64.png": {
+      "md5": "6ddb86ed3c9d4c14b7c2ea8c2670fdb3",
+      "sha1": "7bda8dde31da0a42c855921bf13a197faca02a3b",
+      "sha256": "7bda8dde31da0a42c855921bf13a197faca02a3b"
+    },
+    "images/icon_50.png": {
+      "md5": "09c33b7fc0ae63aee5df2f8ace4003c5",
+      "sha1": "e5c59eceb788feb4cbc3ca48cc73263ba07fd94c",
+      "sha256": "e5c59eceb788feb4cbc3ca48cc73263ba07fd94c"
+    },
+    "version": {
+      "md5": "f02b8afe1d622bdad6e1604e58e11e35",
+      "sha1": "65004beb38e776fb7593e7768a9d9d960283b5c4",
+      "sha256": "65004beb38e776fb7593e7768a9d9d960283b5c4"
+    },
+    "manifest.json": {
+      "md5": "8d15b56ecbb018cf4b7039b1f789d2c6",
+      "sha1": "1bcf2c0458cd1d3131642cfa6978ede2138393ff",
+      "sha256": "1bcf2c0458cd1d3131642cfa6978ede2138393ff"
+    },
+    "popup.bundle.js": {
+      "md5": "6f6bf3e3972f33d323f485e6a1c1033d",
+      "sha1": "ff3035ac50437a8ff1e9a48a23632b90f95814f7",
+      "sha256": "ff3035ac50437a8ff1e9a48a23632b90f95814f7"
+    },
+    "retailerContent.bundle.js": {
+      "md5": "f9ddf896cc9c54737d45b79aa09fe5d2",
+      "sha1": "aa6789e574d3ff8e78f125b5ab2a18b45a394864",
+      "sha256": "aa6789e574d3ff8e78f125b5ab2a18b45a394864"
+    },
+    "searchEngineContent.bundle.js": {
+      "md5": "55e19e9502da7602c85f3875f708b9f9",
+      "sha1": "13e7125ac5db7c976e87642f095c6e9132a997cf",
+      "sha256": "13e7125ac5db7c976e87642f095c6e9132a997cf"
+    },
+    "background.bundle.js": {
+      "md5": "6cda6f13bfab1ff5045b360c17247713",
+      "sha1": "c724ada4fc06f9d25d812969e1eb44e6b5d59c83",
+      "sha256": "c724ada4fc06f9d25d812969e1eb44e6b5d59c83"
+    },
+    "searchEngineContent.bundle.js.map": {
+      "md5": "1713f9efefe69db61382bd86de8a99fc",
+      "sha1": "547c7d1435fc2eebf47fa7211379f2c25019cda9",
+      "sha256": "547c7d1435fc2eebf47fa7211379f2c25019cda9"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "efb5063c63e038f3ecf8140b8a47e1f6",
+      "sha1": "d5251affe1212c4f0bd4a1cd726626d1b3d7d2a4",
+      "sha256": "d5251affe1212c4f0bd4a1cd726626d1b3d7d2a4"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "author": "Give as you Live Ltd",
+    "name": "Give as you Live Donation Reminder",
+    "version": "6.0.15.0",
+    "description": "Give as you Live is a way to raise free funds for charity, just by shopping online at over 4,000 stores.",
+    "manifest_version": 2,
+    "homepage_url": "https://www.giveasyoulive.com",
+    "background": {
+      "persistent": true,
+      "scripts": [
+        "./background.bundle.js"
+      ]
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "*://*.giveasyoulive.com/*"
+        ],
+        "js": [
+          "./installedContent.bundle.js"
+        ],
+        "run_at": "document_start"
+      },
+      {
+        "css": [
+          "./styles/css/searchEngineContent.css"
+        ],
+        "js": [
+          "./searchEngineContent.bundle.js"
+        ],
+        "matches": [
+          "*://*.google.com/*",
+          "*://*.google.co.uk/*",
+          "*://*.bing.com/*",
+          "*://uk.search.yahoo.com/*"
+        ],
+        "run_at": "document_end"
+      },
+      {
+        "css": [
+          "./styles/css/retailerContent.css"
+        ],
+        "js": [
+          "./retailerContent.bundle.js"
+        ],
+        "matches": [
+          "<all_urls>"
+        ],
+        "run_at": "document_start"
+      }
+    ],
+    "permissions": [
+      "storage",
+      "activeTab",
+      "webNavigation",
+      "webRequest",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "browser_action": {
+      "default_popup": "./views/popup.html",
+      "default_icon": {
+        "16": "images/inactive_16.png",
+        "20": "images/inactive_20.png",
+        "25": "images/inactive_25.png",
+        "30": "images/inactive_30.png",
+        "32": "images/inactive_32.png",
+        "40": "images/inactive_40.png",
+        "48": "images/inactive_48.png",
+        "64": "images/inactive_64.png",
+        "128": "images/inactive_128.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon_16.png",
+      "44": "images/icon_44.png",
+      "48": "images/icon_48.png",
+      "50": "images/icon_50.png",
+      "96": "images/icon_96.png",
+      "128": "images/icon_128.png",
+      "150": "images/icon_150.png"
+    },
+    "content_security_policy": "script-src https://cdn.ravenjs.com 'self' blob: filesystem:; object-src 'none'",
+    "web_accessible_resources": [
+      "images/*.png",
+      "images/*.svg"
+    ]
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "3980afab6a849ac05fe150e0f50f4a71",
+    "sha1": "353a6e34a5c78e6427ca82ee4de1929c61e347d1",
+    "sha256": "353a6e34a5c78e6427ca82ee4de1929c61e347d1"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "!\n * Font Awesome Free 5.0.13 by @fontawesome - https://fontawesome.com\n * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)\n",
+        "path": "styles/css/popup.css"
+      },
+      {
+        "value": "# sourceMappingURL=popup.css.map",
+        "path": "styles/css/popup.css"
+      },
+      {
+        "value": "# sourceMappingURL=searchEngineContent.css.map",
+        "path": "styles/css/searchEngineContent.css"
+      },
+      {
+        "value": "# sourceMappingURL=retailerContent.css.map",
+        "path": "styles/css/retailerContent.css"
+      },
+      {
+        "value": "\n\tTemplate for the popup window.\n\n\tNote: Scripts / CSS gets injected automatically when the extension is built, so there is no need\n\tto include JS / CSS here, include them (using require) in popup.js and they will appear here.\n\n\t@author Daniel Moffat\n",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Global loading state",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Global error state",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Permissions page - Shown to users who haven't given us sufficient permissions",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Login page - Only shown to anonymous users",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Login form loading state",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Logged in page",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Header",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Tabs + content",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "\n\t\t\t\tStores panel, contains 2 sub-views:\n\t\t\t\t- 'similar', The current store and similar stores\n\t\t\t\t- 'popular', Popular store and store search\n\n\t\t\t\tEach contains their own store search with slightly different behaviour.\n\t\t\t",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "'popular' subview",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Store search for this sub-view",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Store search results for this subview",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "'similar' subview",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Store search for this sub-view",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Back button, lets user navigation back to store details",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Store search results for this subview",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Current store",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Similar stores",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Loading state for all subviews",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Account panel",
+        "path": "views/popup.html"
+      },
+      {
+        "value": "Note: This is the global page for Safari only, the other browsers automatically generate this page",
+        "path": "views/global.html"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "popup.bundle.js"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "popup.bundle.js"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n * Second Level Domain (SLD) Support\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "popup.bundle.js"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n * Second Level Domain (SLD) Support\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "popup.bundle.js"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n * IPv6 Support\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "popup.bundle.js"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n * IPv6 Support\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "popup.bundle.js"
+      },
+      {
+        "value": "! https://mths.be/punycode v1.4.0 by @mathias",
+        "path": "popup.bundle.js"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "background.bundle.js"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "background.bundle.js"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n * Second Level Domain (SLD) Support\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "background.bundle.js"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n * Second Level Domain (SLD) Support\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "background.bundle.js"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n * IPv6 Support\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "background.bundle.js"
+      },
+      {
+        "value": "!\n * URI.js - Mutating URLs\n * IPv6 Support\n *\n * Version: 1.19.1\n *\n * Author: Rodney Rehm\n * Web: http://medialize.github.io/URI.js/\n *\n * Licensed under\n *   MIT License http://www.opensource.org/licenses/mit-license\n *\n",
+        "path": "background.bundle.js"
+      },
+      {
+        "value": "! https://mths.be/punycode v1.4.0 by @mathias",
+        "path": "background.bundle.js"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "https://use.typekit.net/dxe0zrh.css",
+          "path": "styles/css/popup.css"
+        },
+        {
+          "value": "https://fontawesome.com",
+          "path": "styles/css/popup.css"
+        },
+        {
+          "value": "https://fontawesome.com/license",
+          "path": "styles/css/popup.css"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "views/popup.html"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "views/popup.html"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "views/popup.html"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "views/popup.html"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "views/popup.html"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "views/popup.html"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "views/popup.html"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "views/popup.html"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "views/popup.html"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "views/popup.html"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com/api/v1/",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com/api/v2/",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "https://help.giveasyoulive.com/hc/en-us/articles/360017448352-New-Chrome-update-Donation-Reminder",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "https://7a19d517524a4954bb10e4bc21e4a4a9",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "https://r1.dotmailer-surveys.com/7e21zb6c-623a1ufe",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "https://mths.be/punycode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "https://facebook.com/sharer/sharer.php",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "https://instagram.com",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "https://twitter.com/intent/tweet",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com/api/v1/",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com/api/v2/",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "https://help.giveasyoulive.com/hc/en-us/articles/360017448352-New-Chrome-update-Donation-Reminder",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "https://7a19d517524a4954bb10e4bc21e4a4a9",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "https://r1.dotmailer-surveys.com/7e21zb6c-623a1ufe",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com/api/v1/",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com/api/v2/",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "https://help.giveasyoulive.com/hc/en-us/articles/360017448352-New-Chrome-update-Donation-Reminder",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "https://7a19d517524a4954bb10e4bc21e4a4a9",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "https://r1.dotmailer-surveys.com/7e21zb6c-623a1ufe",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com/api/v1/",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com/api/v2/",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "https://www.giveasyoulive.com",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "https://help.giveasyoulive.com/hc/en-us/articles/360017448352-New-Chrome-update-Donation-Reminder",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "https://7a19d517524a4954bb10e4bc21e4a4a9",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "https://r1.dotmailer-surveys.com/7e21zb6c-623a1ufe",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://medialize.github.io/URI.js/",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "https://mths.be/punycode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "https://cdn.ravenjs.com/3.26.4/raven.min.js",
+          "path": "background.bundle.js"
+        }
+      ],
+      "email": [
+        {
+          "value": "your@email.com",
+          "path": "views/popup.html"
+        },
+        {
+          "value": "help@everyclick.com",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "7a19d517524a4954bb10e4bc21e4a4a9@sentry.io",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "help@everyclick.com",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "7a19d517524a4954bb10e4bc21e4a4a9@sentry.io",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "help@everyclick.com",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "7a19d517524a4954bb10e4bc21e4a4a9@sentry.io",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "help@everyclick.com",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "7a19d517524a4954bb10e4bc21e4a4a9@sentry.io",
+          "path": "background.bundle.js"
+        }
+      ],
+      "ipv4": [],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {},
+    "metadata": {
+      "images/inactive_25.png": {},
+      "images/inactive_40.png": {},
+      "images/active_128.png": {},
+      "images/active_safari_16.png": {},
+      "images/icon_96.png": {},
+      "images/active_16.png": {},
+      "images/inactive_128.png": {},
+      "images/inactive_16.png": {},
+      "images/icon_16.png": {},
+      "images/icon_32.png": {},
+      "images/active_20.png": {},
+      "images/inactive_safari_16.png": {},
+      "images/active_40.png": {},
+      "images/icon_128.png": {},
+      "images/close-icon.svg": {},
+      "images/active_64.png": {},
+      "images/active_48.png": {},
+      "images/inactive_30.png": {},
+      "images/icon_150.png": {},
+      "images/icon_44.png": {},
+      "images/active_30.png": {},
+      "images/icon_48.png": {},
+      "images/inactive_20.png": {},
+      "images/brand-logo.png": {},
+      "images/active_32.png": {},
+      "images/online.svg": {},
+      "images/inactive_32.png": {},
+      "images/icon_64.png": {},
+      "images/active_25.png": {},
+      "images/inactive_48.png": {},
+      "images/inactive_64.png": {},
+      "images/icon_50.png": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "base64",
+          "path": "styles/css/searchEngineContent.css"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "background.bundle.js"
+        }
+      ],
+      "possible_payments": [
+        {
+          "value": "paypal",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "paypal",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "paypal",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "paypal",
+          "path": "background.bundle.js"
+        }
+      ],
+      "pattern_recognition": [],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "POST",
+          "path": "popup.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "retailerContent.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "searchEngineContent.bundle.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "background.bundle.js"
+        },
+        {
+          "value": "POST",
+          "path": "background.bundle.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:05:45.919297"
+      }
+    }
+  }
+}

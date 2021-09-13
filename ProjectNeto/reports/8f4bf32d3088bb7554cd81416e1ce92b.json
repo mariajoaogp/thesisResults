@@ -1,0 +1,2440 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:08:27.109165 UTC",
+  "_filename": "bfbameneiokkgbdmiekhjnmfkcnldhhm.crx",
+  "_files": {
+    "manifest.json": {
+      "md5": "01ef6942b8e87176c31f622b14453bf7",
+      "sha1": "7eb91a310c5c71b0638e0c0decec1172922948de",
+      "sha256": "7eb91a310c5c71b0638e0c0decec1172922948de"
+    },
+    "about/about.css": {
+      "md5": "11266eb64bf6577134c114649b4d3852",
+      "sha1": "629d1173115b9b5bfb52073a72487822a819a705",
+      "sha256": "629d1173115b9b5bfb52073a72487822a819a705"
+    },
+    "about/about.html": {
+      "md5": "96074ebec174486c657bd302537e643a",
+      "sha1": "61d8b33c40c4db6abf849c32dff8b88d0ff24bc0",
+      "sha256": "61d8b33c40c4db6abf849c32dff8b88d0ff24bc0"
+    },
+    "background/background.html": {
+      "md5": "0b7bc0e4ff6764f01deab41b12623173",
+      "sha1": "eadcf808b4df3e4b764afba7110f2a1a5400f9cb",
+      "sha256": "eadcf808b4df3e4b764afba7110f2a1a5400f9cb"
+    },
+    "content/content.js": {
+      "md5": "73684f96365f5f1ca46511b88922637d",
+      "sha1": "cf23cce29d7f471aa18eb65792878ca566dc7a52",
+      "sha256": "cf23cce29d7f471aa18eb65792878ca566dc7a52"
+    },
+    "cookies/cookies.js": {
+      "md5": "a7b08d9237bf8e566b085a9e0a1488e7",
+      "sha1": "2f2286e87a5f5db16f2a3ef7e09a1df9b3604de3",
+      "sha256": "2f2286e87a5f5db16f2a3ef7e09a1df9b3604de3"
+    },
+    "locales/locales.js": {
+      "md5": "dd73b0ce7f77ff4d8882eda6d2e7ed88",
+      "sha1": "cfe9491561b74385a6a5c6dc2309a585e769f751",
+      "sha256": "cfe9491561b74385a6a5c6dc2309a585e769f751"
+    },
+    "generated/find-broken-images.html": {
+      "md5": "c1c55fd85a6d953050a71cb34b0578ee",
+      "sha1": "808846c9d3c6236a32abf58aacdd1ae30a4a363b",
+      "sha256": "808846c9d3c6236a32abf58aacdd1ae30a4a363b"
+    },
+    "generated/find-duplicate-ids.html": {
+      "md5": "161f5b5326c0f1827b472a977f9d9b99",
+      "sha1": "d1acf6bfbae3a02c4b979bf0aa679f3fd688bc4d",
+      "sha256": "d1acf6bfbae3a02c4b979bf0aa679f3fd688bc4d"
+    },
+    "generated/view-anchor-information.html": {
+      "md5": "567f2a3b83702a0439de1887da16ce42",
+      "sha1": "c066ea61878a2f1fde058fbd875a2ae0c500928e",
+      "sha256": "c066ea61878a2f1fde058fbd875a2ae0c500928e"
+    },
+    "generated/view-color-information.css": {
+      "md5": "836802cf545a7f32ba4ebb2fa0bfaae6",
+      "sha1": "3b4e0f9bb85ade28eeb1a70bc2ba6028f91cd48f",
+      "sha256": "3b4e0f9bb85ade28eeb1a70bc2ba6028f91cd48f"
+    },
+    "generated/view-color-information.html": {
+      "md5": "c43e3f9194097c6c115188d1b353707d",
+      "sha1": "40fd7428e9e285b89a7401ab6f557f81caae1479",
+      "sha256": "40fd7428e9e285b89a7401ab6f557f81caae1479"
+    },
+    "generated/view-cookie-information.css": {
+      "md5": "0dd4f4a38fdd57f2b52c664d362be9b2",
+      "sha1": "a25ed65e7329e319600b52b4fa74f633cca5d084",
+      "sha256": "a25ed65e7329e319600b52b4fa74f633cca5d084"
+    },
+    "generated/view-cookie-information.html": {
+      "md5": "41da8061ace6c5c082f13327294bb8c6",
+      "sha1": "59d6846bb7501836f5624a5e89655ae441421bbe",
+      "sha256": "59d6846bb7501836f5624a5e89655ae441421bbe"
+    },
+    "generated/view-css.html": {
+      "md5": "ef99ecca474027487ebc4f7c24c28075",
+      "sha1": "37e0a18446bda9bcde91abcdd6139bb16cb952a2",
+      "sha256": "37e0a18446bda9bcde91abcdd6139bb16cb952a2"
+    },
+    "generated/view-document-outline.css": {
+      "md5": "a20e19db68fcd06cb89923b8b1c0ec90",
+      "sha1": "53b807d9e1f55e8a3e93d8f3c6fc620ade6afc43",
+      "sha256": "53b807d9e1f55e8a3e93d8f3c6fc620ade6afc43"
+    },
+    "generated/view-document-outline.html": {
+      "md5": "06311d3395845eacc75bbfe0785ded48",
+      "sha1": "4864779da6b8172af14a3dc10d7025af01f6aff9",
+      "sha256": "4864779da6b8172af14a3dc10d7025af01f6aff9"
+    },
+    "generated/view-form-information.css": {
+      "md5": "1db937b5e95f3a132a85e3f39bf3541b",
+      "sha1": "e2b2e0f9c1134ed9d6135dab175a16257692829b",
+      "sha256": "e2b2e0f9c1134ed9d6135dab175a16257692829b"
+    },
+    "generated/view-form-information.html": {
+      "md5": "d087a1ca433dbe0ffc35143413ef71c9",
+      "sha1": "f2aad1943f4ec8f768486fb41903f13c8f047984",
+      "sha256": "f2aad1943f4ec8f768486fb41903f13c8f047984"
+    },
+    "generated/view-image-information.css": {
+      "md5": "5f108dff19daa37796ed2e22abd00d2a",
+      "sha1": "62ec2c644abf1d4ea0f5824cae6d03f242e74f53",
+      "sha256": "62ec2c644abf1d4ea0f5824cae6d03f242e74f53"
+    },
+    "generated/view-image-information.html": {
+      "md5": "386b6e93881fe94e1be91c6fa3e659e5",
+      "sha1": "8327fdf7569666ab4062441837b049d339625c6c",
+      "sha256": "8327fdf7569666ab4062441837b049d339625c6c"
+    },
+    "generated/view-javascript.css": {
+      "md5": "5d18daf986328598d7c000e2a49c0f97",
+      "sha1": "08e33740db1ea25b71f257d78d32caff2acced69",
+      "sha256": "08e33740db1ea25b71f257d78d32caff2acced69"
+    },
+    "generated/view-javascript.html": {
+      "md5": "e79ed55f7fc3f281e91248080412d9be",
+      "sha1": "8d85f6c9bdd41e1bfe082851827604e0c84e2958",
+      "sha256": "8d85f6c9bdd41e1bfe082851827604e0c84e2958"
+    },
+    "generated/view-link-information.html": {
+      "md5": "13c94f3646b87fdb6afed85c6bf9152f",
+      "sha1": "bf3d199a6a3c9796dc0ae33c70df5ebbdd206e19",
+      "sha256": "bf3d199a6a3c9796dc0ae33c70df5ebbdd206e19"
+    },
+    "generated/view-meta-tag-information.html": {
+      "md5": "bcd4eef6a4d8469eb097af0065eb9c88",
+      "sha1": "01bee7a64907409dffd97b5709cc836c1ca2ff8f",
+      "sha256": "01bee7a64907409dffd97b5709cc836c1ca2ff8f"
+    },
+    "generated/view-response-headers.html": {
+      "md5": "202e0b402deffcae83b154ec0a3f155e",
+      "sha1": "729cafb0c519f6d69065a6e174e00d35e65a2fcc",
+      "sha256": "729cafb0c519f6d69065a6e174e00d35e65a2fcc"
+    },
+    "generated/view-responsive-layouts.css": {
+      "md5": "8d22c4c39135962ca4c6c8627668a598",
+      "sha1": "ec3f6fdbcecaa7c145b769b585f0d5d27b26cf92",
+      "sha256": "ec3f6fdbcecaa7c145b769b585f0d5d27b26cf92"
+    },
+    "generated/view-responsive-layouts.html": {
+      "md5": "3e9ed3d2e7d67c926fd4486852002c01",
+      "sha1": "ce8711324b1a9122818aae0f3e258962e6be5505",
+      "sha256": "ce8711324b1a9122818aae0f3e258962e6be5505"
+    },
+    "options/options.css": {
+      "md5": "6e8d642276e7b79a80dd9e4291f23920",
+      "sha1": "2f1bd91aca15ed712ca039be57338a0700d2559f",
+      "sha256": "2f1bd91aca15ed712ca039be57338a0700d2559f"
+    },
+    "options/options.html": {
+      "md5": "c850e969a78cf49cd7a9304f8b4f9fda",
+      "sha1": "0d11aa6c6712f21a5c73e339b80756ecd03587f2",
+      "sha256": "0d11aa6c6712f21a5c73e339b80756ecd03587f2"
+    },
+    "options/syntax-highlight.css": {
+      "md5": "9a4f4ce0dc7a17aea93266759006a2c4",
+      "sha1": "5b992c72fcd35ef0464b6a0753365f8b78e1d25d",
+      "sha256": "5b992c72fcd35ef0464b6a0753365f8b78e1d25d"
+    },
+    "options/syntax-highlight.html": {
+      "md5": "f1a59121bf6ec7db077b146c86fdf611",
+      "sha1": "f0c4a0ee26be8bf03cd6f8b6d4ecfd146a3d66ad",
+      "sha256": "f0c4a0ee26be8bf03cd6f8b6d4ecfd146a3d66ad"
+    },
+    "overlay/overlay.css": {
+      "md5": "28a6ae8676050fe135dd56def21e0f58",
+      "sha1": "94454093ff8b2fb89351d4d918d1a1bddf78714c",
+      "sha256": "94454093ff8b2fb89351d4d918d1a1bddf78714c"
+    },
+    "overlay/overlay.html": {
+      "md5": "cc354b75889df8970de2d1dbe243cab5",
+      "sha1": "7b24acca3e85df1c66059cc4e0b937dd30d7d0ad",
+      "sha256": "7b24acca3e85df1c66059cc4e0b937dd30d7d0ad"
+    },
+    "storage/storage.js": {
+      "md5": "4a0b73f0911ce03ad061e2a30ce13ef1",
+      "sha1": "7bc9f43c305220ed9a90492ee1a496fa4a4a1e4f",
+      "sha256": "7bc9f43c305220ed9a90492ee1a496fa4a4a1e4f"
+    },
+    "toolbar/color-picker-toolbar.css": {
+      "md5": "fce9a5f0c2aba85444cb645aa5f2ffb5",
+      "sha1": "fe329c2be8997f6ba72985ccfbad3cde5e7afa67",
+      "sha256": "fe329c2be8997f6ba72985ccfbad3cde5e7afa67"
+    },
+    "toolbar/color-picker.css": {
+      "md5": "3dbe68bfea8eeccd2106b4389d7c372c",
+      "sha1": "fa8077f6b4818010800f7b8127d512a1df375a4e",
+      "sha256": "fa8077f6b4818010800f7b8127d512a1df375a4e"
+    },
+    "toolbar/element-ancestors.css": {
+      "md5": "3c49019a691ec5080e121ba0688b535f",
+      "sha1": "55145213511d57fa9fcf920d4e17e6e6a829478a",
+      "sha256": "55145213511d57fa9fcf920d4e17e6e6a829478a"
+    },
+    "toolbar/element-information.css": {
+      "md5": "234608aa4711f3e7a3f4b196cdec6351",
+      "sha1": "825a7a5bacbb2fd054adc4fa69167343baceca45",
+      "sha256": "825a7a5bacbb2fd054adc4fa69167343baceca45"
+    },
+    "toolbar/line-guides-toolbar.css": {
+      "md5": "dc21bd1bcc683957d652e0cc0d05ab93",
+      "sha1": "27f622aaada65e13953d5dbd57aacf28722f6893",
+      "sha256": "27f622aaada65e13953d5dbd57aacf28722f6893"
+    },
+    "toolbar/line-guides.css": {
+      "md5": "4f4665bb783cd69405caf8501241682e",
+      "sha1": "0149bbe754ac29a19a38b17ac7aee81e2a6acd1a",
+      "sha256": "0149bbe754ac29a19a38b17ac7aee81e2a6acd1a"
+    },
+    "toolbar/ruler-toolbar.css": {
+      "md5": "91f9c2036787d9b7385c1aa3512fddba",
+      "sha1": "f7bba2ba80917f58c90e462608a3e3bfb323ac73",
+      "sha256": "f7bba2ba80917f58c90e462608a3e3bfb323ac73"
+    },
+    "toolbar/ruler.css": {
+      "md5": "9e194fbb0968e8252647c46ccb557d10",
+      "sha1": "62d6b884d000eb7bc39fae85338220855e5e35b6",
+      "sha256": "62d6b884d000eb7bc39fae85338220855e5e35b6"
+    },
+    "upgrade/upgrade.js": {
+      "md5": "26d014a33ad4967d0f900a0fb4a98d57",
+      "sha1": "597e647ec6db97f1434748149dc5b86df3e1c6d3",
+      "sha256": "597e647ec6db97f1434748149dc5b86df3e1c6d3"
+    },
+    "validation/css.html": {
+      "md5": "af85d50aa3eaa0b43571ab4d2dd32c36",
+      "sha1": "1f000173c89ddc3c2440221688049ad6185fb162",
+      "sha256": "1f000173c89ddc3c2440221688049ad6185fb162"
+    },
+    "validation/html.html": {
+      "md5": "faa2fc0e2595b617bd1019c04c07b170",
+      "sha1": "005c8bab4eb662eba008d5ae87c3934a3e0f67ed",
+      "sha256": "005c8bab4eb662eba008d5ae87c3934a3e0f67ed"
+    },
+    "_locales/en_US/messages.json": {
+      "md5": "e01d085dfd89673c76f3398cb80626ce",
+      "sha1": "1fd0c8a1a9608a970323a41fad22e3ae46bb2445",
+      "sha256": "1fd0c8a1a9608a970323a41fad22e3ae46bb2445"
+    },
+    "about/javascript/about.js": {
+      "md5": "b2dabdaca3edc09576c9f11438fb7efa",
+      "sha1": "c3a61d6d9eaae72bbf76407fee7970de2d7bc338",
+      "sha256": "c3a61d6d9eaae72bbf76407fee7970de2d7bc338"
+    },
+    "background/javascript/background.js": {
+      "md5": "138fa297fb6e9db4d9e430c5df7c646d",
+      "sha1": "c36cd64563236f7e2700a8c68cfa4f1f4174d98e",
+      "sha256": "c36cd64563236f7e2700a8c68cfa4f1f4174d98e"
+    },
+    "common/fonts/fontawesome-webfont.eot": {
+      "md5": "9452b14b15c4d2957beb090c38dc8d30",
+      "sha1": "f973bd5203e10d0475e4281c8db5fa32bd43f7d8",
+      "sha256": "f973bd5203e10d0475e4281c8db5fa32bd43f7d8"
+    },
+    "common/fonts/fontawesome-webfont.svg": {
+      "md5": "2e7cda5ef1ae9329468a65e6eec4282b",
+      "sha1": "ae3bc92d468cb41338eb641e28e82a398079cbed",
+      "sha256": "ae3bc92d468cb41338eb641e28e82a398079cbed"
+    },
+    "common/fonts/fontawesome-webfont.ttf": {
+      "md5": "155dec011a8ceb248336d42355f65559",
+      "sha1": "c35e19177c64e53ca0c306d436391a8c3a0abecb",
+      "sha256": "c35e19177c64e53ca0c306d436391a8c3a0abecb"
+    },
+    "common/fonts/fontawesome-webfont.woff": {
+      "md5": "47199f8eea12b476a903bb70731c68e1",
+      "sha1": "241d3a8ca98dbb19cf88c6b3109dce75ce9fc4f3",
+      "sha256": "241d3a8ca98dbb19cf88c6b3109dce75ce9fc4f3"
+    },
+    "common/javascript/common.js": {
+      "md5": "eb98d96bcb81979f99d1d6d29a4a0396",
+      "sha1": "d1f36f95efdf556fdef1d11909847c8349394c37",
+      "sha256": "d1f36f95efdf556fdef1d11909847c8349394c37"
+    },
+    "common/javascript/css.js": {
+      "md5": "a0a95f60615db7384a2742a87cfaee23",
+      "sha1": "48c259a65e56f2502050485af27951a2d6cb4099",
+      "sha256": "48c259a65e56f2502050485af27951a2d6cb4099"
+    },
+    "common/javascript/mustache.js": {
+      "md5": "846b0d884e5bb26cce5478e68c87a562",
+      "sha1": "ff155c4b94fad3c5b5bdd06e3cc0e43549dbf2ae",
+      "sha256": "ff155c4b94fad3c5b5bdd06e3cc0e43549dbf2ae"
+    },
+    "common/style-sheets/bootstrap.css": {
+      "md5": "452dcd7fdcef36ad4412ece65718f04e",
+      "sha1": "6264f29c64261db48c1278a6d0b3191ce88f4c32",
+      "sha256": "6264f29c64261db48c1278a6d0b3191ce88f4c32"
+    },
+    "common/style-sheets/bootstrap.css.map": {
+      "md5": "413eb3e86735338742c47d5d4d1606fb",
+      "sha1": "719fce129f3c7168144a48fd5376e21d47731212",
+      "sha256": "719fce129f3c7168144a48fd5376e21d47731212"
+    },
+    "common/style-sheets/generated.css": {
+      "md5": "0c9ed7a96e22423da0a2bafcdd84e608",
+      "sha1": "77e7c4fd02845052ed84f19505cdf705915dcc8a",
+      "sha256": "77e7c4fd02845052ed84f19505cdf705915dcc8a"
+    },
+    "common/style-sheets/syntax-highlight.css": {
+      "md5": "5f76b3b781b56ee5b80dec1f36de9bc3",
+      "sha1": "b3e147db2c110293739029a7cb5f4e752bb60086",
+      "sha256": "b3e147db2c110293739029a7cb5f4e752bb60086"
+    },
+    "dashboard/images/logo.png": {
+      "md5": "acc8c1a668b9994d51069bec4323399e",
+      "sha1": "53c80164cf80ef0cfa4ce9f9853d9703769c3f43",
+      "sha256": "53c80164cf80ef0cfa4ce9f9853d9703769c3f43"
+    },
+    "dashboard/javascript/dashboard.js": {
+      "md5": "11843abc2d4932bb4b885451895341e8",
+      "sha1": "6d044788f8f449ca013ce004ad1c232b783adf61",
+      "sha256": "6d044788f8f449ca013ce004ad1c232b783adf61"
+    },
+    "dashboard/style-sheets/common.css": {
+      "md5": "56b5d6133d7a3f0568578aca0a727106",
+      "sha1": "3247df9d0e71a0e02788afbbba0daecdcb15d55f",
+      "sha256": "3247df9d0e71a0e02788afbbba0daecdcb15d55f"
+    },
+    "dashboard/style-sheets/dashboard.css": {
+      "md5": "9eda38b27cbfd604c25d31854bdce8a9",
+      "sha1": "39e23e05631e9e2534d4a1b53da9b6fe75380b2d",
+      "sha256": "39e23e05631e9e2534d4a1b53da9b6fe75380b2d"
+    },
+    "features/javascript/css.js": {
+      "md5": "3f41d1a8eec8219ebcb39990eef5f84c",
+      "sha1": "995395e82d7341f5494ed44c0a2e817c9293fb6f",
+      "sha256": "995395e82d7341f5494ed44c0a2e817c9293fb6f"
+    },
+    "features/javascript/forms.js": {
+      "md5": "1e2fbba6e1a401595e9eb121bf10a761",
+      "sha1": "090b3ef36e4388317cba757660c4130929db5791",
+      "sha256": "090b3ef36e4388317cba757660c4130929db5791"
+    },
+    "features/javascript/images.js": {
+      "md5": "8881706028b28cb4a358da89687d2222",
+      "sha1": "c89ea07603a1e38144fc088b964faa9f6df465c5",
+      "sha256": "c89ea07603a1e38144fc088b964faa9f6df465c5"
+    },
+    "features/javascript/information.js": {
+      "md5": "9dd2995556d151d8d498a033b6c2c1b6",
+      "sha1": "f3953e3115464e20d254aabd82d2df1acc833dcd",
+      "sha256": "f3953e3115464e20d254aabd82d2df1acc833dcd"
+    },
+    "features/javascript/miscellaneous.js": {
+      "md5": "10ac6bed699bbab3973b62587bf57ee5",
+      "sha1": "d9a80afa581be712469dec695819927efd92e91c",
+      "sha256": "d9a80afa581be712469dec695819927efd92e91c"
+    },
+    "features/javascript/outline.js": {
+      "md5": "e49f584cad8f1e56be78ba1ef9cd1cfe",
+      "sha1": "9b9d54c6669b408830f3603394b25d2d3e758493",
+      "sha256": "9b9d54c6669b408830f3603394b25d2d3e758493"
+    },
+    "features/style-sheets/before.css": {
+      "md5": "9d2d8f21bb44def94b74d9e96ed4a56a",
+      "sha1": "18c24b5845a8c714cd813042f111509b8c1d42f0",
+      "sha256": "18c24b5845a8c714cd813042f111509b8c1d42f0"
+    },
+    "generated/javascript/common.js": {
+      "md5": "bb520abf7876535208ea5ffa3ad02a7f",
+      "sha1": "afb9151337dbb91f6c0003bcef020f8c5690e0e3",
+      "sha256": "afb9151337dbb91f6c0003bcef020f8c5690e0e3"
+    },
+    "generated/javascript/find-broken-images.js": {
+      "md5": "2df8a6d5a3338570e8e40f0d0b766a97",
+      "sha1": "4cfda1664d3ebeaed8bea32eca1d848d327ee50b",
+      "sha256": "4cfda1664d3ebeaed8bea32eca1d848d327ee50b"
+    },
+    "generated/javascript/find-duplicate-ids.js": {
+      "md5": "c2b31b45810c8ebdbda56fc4c2c20e47",
+      "sha1": "4c1f424a12592f40cb925584b49f076536169b85",
+      "sha256": "4c1f424a12592f40cb925584b49f076536169b85"
+    },
+    "generated/javascript/view-anchor-information.js": {
+      "md5": "406ef8aeb8711c07d746d253d4902817",
+      "sha1": "fba8afe5bccef70db577617e10cc4b8548c38af1",
+      "sha256": "fba8afe5bccef70db577617e10cc4b8548c38af1"
+    },
+    "generated/javascript/view-color-information.js": {
+      "md5": "5a8896e0b75d00dfbf9611277dfd8185",
+      "sha1": "b00baeeadb1bb8f8f8665d8b6360799c5bdb0706",
+      "sha256": "b00baeeadb1bb8f8f8665d8b6360799c5bdb0706"
+    },
+    "generated/javascript/view-cookie-information.js": {
+      "md5": "5e1d11921f5be3c01420ec7c593049ea",
+      "sha1": "b0a05fe53bf59a1b5c4884fcc1b02896999378bc",
+      "sha256": "b0a05fe53bf59a1b5c4884fcc1b02896999378bc"
+    },
+    "generated/javascript/view-css.js": {
+      "md5": "589a3c64ffb6ec3884a729c3f96ded38",
+      "sha1": "57c610459de55f206a68739276e931fdb89cde9a",
+      "sha256": "57c610459de55f206a68739276e931fdb89cde9a"
+    },
+    "generated/javascript/view-document-outline.js": {
+      "md5": "99204149da4dac686af00689d216285e",
+      "sha1": "da3f582e180774fe376e10ea30c44163b04db9ce",
+      "sha256": "da3f582e180774fe376e10ea30c44163b04db9ce"
+    },
+    "generated/javascript/view-form-information.js": {
+      "md5": "e7881121a704651041d787f55a146e56",
+      "sha1": "13d3f0d8172d992f7ee6324537b8512fc9090531",
+      "sha256": "13d3f0d8172d992f7ee6324537b8512fc9090531"
+    },
+    "generated/javascript/view-image-information.js": {
+      "md5": "77a2b396449257e3a57d36bbca7c60bd",
+      "sha1": "91e5876e64fa059d74613b52287fc0c0f45f729a",
+      "sha256": "91e5876e64fa059d74613b52287fc0c0f45f729a"
+    },
+    "generated/javascript/view-javascript.js": {
+      "md5": "a35262cecfbbde810816e87a9a800995",
+      "sha1": "9fabe3c63b6ec1ea2e0be17cace58c0d69a06738",
+      "sha256": "9fabe3c63b6ec1ea2e0be17cace58c0d69a06738"
+    },
+    "generated/javascript/view-link-information.js": {
+      "md5": "5a18b4171ec0d4fd09c4311479f58d4f",
+      "sha1": "65165377fefed187154ae034e1baf8cf22cd230d",
+      "sha256": "65165377fefed187154ae034e1baf8cf22cd230d"
+    },
+    "generated/javascript/view-meta-tag-information.js": {
+      "md5": "6f58a5b9f76e3473ef91187709ac1334",
+      "sha1": "4d13ec2d6ce9cc6752d75d0d23fdcc740caf2165",
+      "sha256": "4d13ec2d6ce9cc6752d75d0d23fdcc740caf2165"
+    },
+    "generated/javascript/view-response-headers.js": {
+      "md5": "8185c756c40549e1e07e21351b08966b",
+      "sha1": "c6515cc4bfef5d59835dc32899730d79da619947",
+      "sha256": "c6515cc4bfef5d59835dc32899730d79da619947"
+    },
+    "generated/javascript/view-responsive-layouts.js": {
+      "md5": "e8944c49844ab9df643a9de2af77d917",
+      "sha1": "1f4fab842d4ac8723585c49f0e4a13a91366f130",
+      "sha256": "1f4fab842d4ac8723585c49f0e4a13a91366f130"
+    },
+    "options/images/options-2x.png": {
+      "md5": "755c3b27f89c5685dc7353df214fb11b",
+      "sha1": "b638050d7d12a93ddaf41e8da2292cf98eae41b1",
+      "sha256": "b638050d7d12a93ddaf41e8da2292cf98eae41b1"
+    },
+    "options/images/options.png": {
+      "md5": "d54a7b0ce60acec996dd994fff07ae07",
+      "sha1": "1ac6fb285471aea1d827178d67717ce8e07f7ff6",
+      "sha256": "1ac6fb285471aea1d827178d67717ce8e07f7ff6"
+    },
+    "options/javascript/options.js": {
+      "md5": "ae08591af947e232ec03a2270b79d879",
+      "sha1": "4f0ac14cf249be8cebebf78c88fc27543c02ea79",
+      "sha256": "4f0ac14cf249be8cebebf78c88fc27543c02ea79"
+    },
+    "options/javascript/syntax-highlight.js": {
+      "md5": "f6841b14aff4909f1c6981c00a4cbea2",
+      "sha1": "bd42502ba9faea9baf5f3742a88dd25559352083",
+      "sha256": "bd42502ba9faea9baf5f3742a88dd25559352083"
+    },
+    "overlay/images/feature-2x.png": {
+      "md5": "939b9e6c1add1ced9fb716b368a226c6",
+      "sha1": "3f344c12e4a6c9d690dc13b06b4a79f41314ce8d",
+      "sha256": "3f344c12e4a6c9d690dc13b06b4a79f41314ce8d"
+    },
+    "overlay/images/feature.png": {
+      "md5": "4c4248f17d068ca740fbc8c26d7cf2dc",
+      "sha1": "6035f7ec6f90c40fd04fa96bf182a7e044d45e6a",
+      "sha256": "6035f7ec6f90c40fd04fa96bf182a7e044d45e6a"
+    },
+    "overlay/images/toolbar-2x.png": {
+      "md5": "7f543301251d087179d2c89aec8afc98",
+      "sha1": "89c127e8a71c15da878d06ecb616e9d691760219",
+      "sha256": "89c127e8a71c15da878d06ecb616e9d691760219"
+    },
+    "overlay/images/toolbar.png": {
+      "md5": "4194e11515ad96ea0ada6b97cd40e651",
+      "sha1": "b03851c5f2d935f10871f95710ac94b277a8f4a8",
+      "sha256": "b03851c5f2d935f10871f95710ac94b277a8f4a8"
+    },
+    "overlay/javascript/overlay.js": {
+      "md5": "8b2068a9d5fd8aba22a05232a1194434",
+      "sha1": "2a904cb415f43402f2f03702a894a9fbd6d95c95",
+      "sha256": "2a904cb415f43402f2f03702a894a9fbd6d95c95"
+    },
+    "toolbar/images/logo.png": {
+      "md5": "4a9a140223dc29d9b4f79a84e870c09c",
+      "sha1": "b5cc5e38c6a6e6ccb211a17f055b8565a3337529",
+      "sha256": "b5cc5e38c6a6e6ccb211a17f055b8565a3337529"
+    },
+    "toolbar/javascript/color-picker.js": {
+      "md5": "fb6811d7fd29b82c03db4f487fdd0949",
+      "sha1": "c7fb7fe1d9f1f780343f1e8e6a88cfc8c064713f",
+      "sha256": "c7fb7fe1d9f1f780343f1e8e6a88cfc8c064713f"
+    },
+    "toolbar/javascript/line-guides.js": {
+      "md5": "be7352df14ebc395910f1ff5967bfcc8",
+      "sha1": "d9c6926e87372b6b62d3a75f9ebfbd27173a563c",
+      "sha256": "d9c6926e87372b6b62d3a75f9ebfbd27173a563c"
+    },
+    "toolbar/javascript/ruler.js": {
+      "md5": "7f719176c41dfb6b35cd04319a7e22f1",
+      "sha1": "3379a14c1c116bc48068d0717da3ac82317670ad",
+      "sha256": "3379a14c1c116bc48068d0717da3ac82317670ad"
+    },
+    "validation/javascript/css.js": {
+      "md5": "3df2379a513a8a751e3c331e115292c2",
+      "sha1": "7e34a0636f5ad1a51ced5b656b87e68736cfd9ff",
+      "sha256": "7e34a0636f5ad1a51ced5b656b87e68736cfd9ff"
+    },
+    "validation/javascript/html.js": {
+      "md5": "d2f0f6aba5d19d50ff428195914efb31",
+      "sha1": "f59844a3af57f3774f73877f7a843357bb432f14",
+      "sha256": "f59844a3af57f3774f73877f7a843357bb432f14"
+    },
+    "common/images/logos/128.png": {
+      "md5": "c0db1e5a057c29b141ae0f670259bc5f",
+      "sha1": "698b3b2c6b149f1d44bbb35867afa88c96bfc8aa",
+      "sha256": "698b3b2c6b149f1d44bbb35867afa88c96bfc8aa"
+    },
+    "common/images/logos/16.png": {
+      "md5": "6030670bc674809f87c4750f1054058d",
+      "sha1": "233215b9f4882790ce93f460b196f1949a2dcf94",
+      "sha256": "233215b9f4882790ce93f460b196f1949a2dcf94"
+    },
+    "common/images/logos/24.png": {
+      "md5": "629ec2ab4d4a36990e5671e0ffe46e43",
+      "sha1": "d1cf199f0f0a293c857b21561490162181e869a4",
+      "sha256": "d1cf199f0f0a293c857b21561490162181e869a4"
+    },
+    "common/images/logos/256.png": {
+      "md5": "229dd25d743ed41190c02226261e25bb",
+      "sha1": "73ffbec66b76105a91b9031043528461b7b0d388",
+      "sha256": "73ffbec66b76105a91b9031043528461b7b0d388"
+    },
+    "common/images/logos/32.png": {
+      "md5": "57d780b5f81ac985f8f1cf9b394996d3",
+      "sha1": "89d6512d1866af1dc573aaf4842269373a98ac12",
+      "sha256": "89d6512d1866af1dc573aaf4842269373a98ac12"
+    },
+    "common/images/logos/48.png": {
+      "md5": "6664bfd0a06852f4cb751d857b38bb61",
+      "sha1": "d49158f124c6a72d28fa6905ce83e43960ec6b45",
+      "sha256": "d49158f124c6a72d28fa6905ce83e43960ec6b45"
+    },
+    "common/images/logos/512.png": {
+      "md5": "e6be2d18ebe8e6f5b45c320d8c19e003",
+      "sha1": "b1fee1034cb6fad476979c3463e86c53839a7d8c",
+      "sha256": "b1fee1034cb6fad476979c3463e86c53839a7d8c"
+    },
+    "common/images/logos/64.png": {
+      "md5": "96deecfa2108c59b28b7ceec38bf0376",
+      "sha1": "bec432018fc1e0e3a81095a605d58fc41bf79cb7",
+      "sha256": "bec432018fc1e0e3a81095a605d58fc41bf79cb7"
+    },
+    "common/images/logos/favicon.ico": {
+      "md5": "6c1b28bad50455b1d3f67853e037f5a9",
+      "sha1": "84eb664842e0d496ddba613408d9a0494ba1b179",
+      "sha256": "84eb664842e0d496ddba613408d9a0494ba1b179"
+    },
+    "common/javascript/bootstrap/collapse.js": {
+      "md5": "a6792add4621b70de1a16aa37079c74d",
+      "sha1": "62edfc197474075e5ab9ccd0cf0cf1ec5cfe83eb",
+      "sha256": "62edfc197474075e5ab9ccd0cf0cf1ec5cfe83eb"
+    },
+    "common/javascript/bootstrap/dropdown.js": {
+      "md5": "0fd5146fcda2976dba4977457af5b15b",
+      "sha1": "644b881b56cbd8ea704c481790aa687d3bd05ac7",
+      "sha256": "644b881b56cbd8ea704c481790aa687d3bd05ac7"
+    },
+    "common/javascript/bootstrap/modal.js": {
+      "md5": "aa3af51c1a671c2150f764f78a0d0042",
+      "sha1": "cc120f8bbda70cb7aef22adfc2517b0ae9543c91",
+      "sha256": "cc120f8bbda70cb7aef22adfc2517b0ae9543c91"
+    },
+    "common/javascript/bootstrap/popover.js": {
+      "md5": "5d34163892163ffa500b153fa25530c3",
+      "sha1": "4e7a335ed4de9bbe4ffff9ef669aa2fbb1667a15",
+      "sha256": "4e7a335ed4de9bbe4ffff9ef669aa2fbb1667a15"
+    },
+    "common/javascript/bootstrap/tab.js": {
+      "md5": "7dcb36a7de6fbb87dd0bd8b49fe048fd",
+      "sha1": "f39f3e4a9c5db6a849890a089e2d31b7aa3f2b2a",
+      "sha256": "f39f3e4a9c5db6a849890a089e2d31b7aa3f2b2a"
+    },
+    "common/javascript/bootstrap/tooltip.js": {
+      "md5": "96a2971eb192a43338f5a9dcd7ea8a8c",
+      "sha1": "c9ab3a815c34a05b7a1d58de439457ffea612f50",
+      "sha256": "c9ab3a815c34a05b7a1d58de439457ffea612f50"
+    },
+    "common/javascript/bootstrap/transition.js": {
+      "md5": "11120897c19b4bf9bee43c670f41694f",
+      "sha1": "854ff59668b95fe6d6f03fd3ba943f0d2864ae4b",
+      "sha256": "854ff59668b95fe6d6f03fd3ba943f0d2864ae4b"
+    },
+    "common/javascript/codemirror/codemirror.js": {
+      "md5": "63e14d8b7eb75659645c629e6240e820",
+      "sha1": "e16333b9c0c5f800dfe64dc29a535d3976a41d4c",
+      "sha256": "e16333b9c0c5f800dfe64dc29a535d3976a41d4c"
+    },
+    "common/javascript/codemirror/css.js": {
+      "md5": "eb1bf93822805cef34b6418277d59ac8",
+      "sha1": "73bb9bb24c3e4ce109e9c03fdd87ef93d1ffee4c",
+      "sha256": "73bb9bb24c3e4ce109e9c03fdd87ef93d1ffee4c"
+    },
+    "common/javascript/codemirror/htmlmixed.js": {
+      "md5": "60b07d237b3029b0850c7570cbd9bffc",
+      "sha1": "9e53d46a2144a8f464714c1e4bdedadbfde693ac",
+      "sha256": "9e53d46a2144a8f464714c1e4bdedadbfde693ac"
+    },
+    "common/javascript/codemirror/javascript.js": {
+      "md5": "9c313181828cc5d289f89889efacb4c6",
+      "sha1": "6e4b9612b5d2c63c36bb32a8ec132fe86209e142",
+      "sha256": "6e4b9612b5d2c63c36bb32a8ec132fe86209e142"
+    },
+    "common/javascript/codemirror/searchcursor.js": {
+      "md5": "f250cd23ca52eef2e80c45937f421530",
+      "sha1": "af10a3ebd975fb673531dbf0fec54183266dd3a5",
+      "sha256": "af10a3ebd975fb673531dbf0fec54183266dd3a5"
+    },
+    "common/javascript/codemirror/xml.js": {
+      "md5": "008bd1655babae231d37d40969ad1459",
+      "sha1": "46efec088554daa001b8793b4bd2d9830500e339",
+      "sha256": "46efec088554daa001b8793b4bd2d9830500e339"
+    },
+    "common/javascript/jquery/jquery.js": {
+      "md5": "9f95f7843878d94d37fb3dba6af01bf4",
+      "sha1": "59852014f597dddd295f4763c5bc016a21321d3c",
+      "sha256": "59852014f597dddd295f4763c5bc016a21321d3c"
+    },
+    "common/javascript/jquery/tablednd.js": {
+      "md5": "815f3c12f873b486fd3bd74cda18f199",
+      "sha1": "2ba57c061080d6d362a65f78c707fcb8c4e2e00d",
+      "sha256": "2ba57c061080d6d362a65f78c707fcb8c4e2e00d"
+    },
+    "dashboard/javascript/html/dashboard.js": {
+      "md5": "20d64df4a207668a0db6b0ba3718444e",
+      "sha1": "935732aad5979ae356e5444f7c850bc38ef67dfd",
+      "sha256": "935732aad5979ae356e5444f7c850bc38ef67dfd"
+    },
+    "features/style-sheets/css/disable-browser-default-styles.css": {
+      "md5": "d1e2f82e298576ab0406be159f67aa88",
+      "sha1": "6ce891920a5c5c9fbd0358d583979c2778da3db2",
+      "sha256": "6ce891920a5c5c9fbd0358d583979c2778da3db2"
+    },
+    "features/style-sheets/css/use-border-box-model.css": {
+      "md5": "0981b80c92da1cb03119679344af2fcc",
+      "sha1": "ccd6150ec54b08b4fe133d986ae40d6efd9c369f",
+      "sha256": "ccd6150ec54b08b4fe133d986ae40d6efd9c369f"
+    },
+    "features/style-sheets/forms/display-form-details.css": {
+      "md5": "ffa5075b6182f26993052abfa95159eb",
+      "sha1": "140b1cdd97dee5c536940fb5af7f4815e11d1102",
+      "sha256": "140b1cdd97dee5c536940fb5af7f4815e11d1102"
+    },
+    "features/style-sheets/forms/outline-form-fields-without-labels.css": {
+      "md5": "d7366b728f968218ba10d09aabd8b100",
+      "sha1": "da2fef4d6154f7dd8266212ad27135b8a7699797",
+      "sha256": "da2fef4d6154f7dd8266212ad27135b8a7699797"
+    },
+    "features/style-sheets/images/display-image-dimensions.css": {
+      "md5": "cf52b3d049357bac6c23c211abfb943e",
+      "sha1": "15800bac2a4f56518115c423a955014bfade9d66",
+      "sha256": "15800bac2a4f56518115c423a955014bfade9d66"
+    },
+    "features/style-sheets/images/hide-background-images.css": {
+      "md5": "34b6d08d4e76dc3e738302159505620a",
+      "sha1": "d36cadc7f75f850cc508c3ccfd867a33d4d8b191",
+      "sha256": "d36cadc7f75f850cc508c3ccfd867a33d4d8b191"
+    },
+    "features/style-sheets/images/hide-images.css": {
+      "md5": "3cde61dd39d3d2c1ff532064cb2a8c2b",
+      "sha1": "4c923699f7f7adb5c568c6b0b275edf8ce008b2a",
+      "sha256": "4c923699f7f7adb5c568c6b0b275edf8ce008b2a"
+    },
+    "features/style-sheets/images/make-images-invisible.css": {
+      "md5": "f73eb8269e3647199a6bd2979d81985c",
+      "sha1": "32db8bdef58bc5f5436c545a5a9bdda478325a8b",
+      "sha256": "32db8bdef58bc5f5436c545a5a9bdda478325a8b"
+    },
+    "features/style-sheets/images/outline-all-images.css": {
+      "md5": "2590e64a157fc694ab8ee08c8bafb745",
+      "sha1": "ad417c5b1d84dda2f45b1b694783e83b80cea9b7",
+      "sha256": "ad417c5b1d84dda2f45b1b694783e83b80cea9b7"
+    },
+    "features/style-sheets/images/outline-background-images.css": {
+      "md5": "314c0f68a2eeadf472c265288c89590c",
+      "sha1": "608d6998a6c9f1e0ae6694ae743ec2219c8b0a16",
+      "sha256": "608d6998a6c9f1e0ae6694ae743ec2219c8b0a16"
+    },
+    "features/style-sheets/images/outline-images-with-adjusted-dimensions.css": {
+      "md5": "be224f2223a4e0db55dfa4e0a5ea7358",
+      "sha1": "4b362665f991ec7fd42dbed387c5ddde309b009f",
+      "sha256": "4b362665f991ec7fd42dbed387c5ddde309b009f"
+    },
+    "features/style-sheets/images/outline-images-with-empty-alt-attributes.css": {
+      "md5": "f79438b16e7221ca15ad391776c02c28",
+      "sha1": "14eba7741a191a4d53ea9bb86c6c2b0231d07f21",
+      "sha256": "14eba7741a191a4d53ea9bb86c6c2b0231d07f21"
+    },
+    "features/style-sheets/images/outline-images-with-oversized-dimensions.css": {
+      "md5": "c65580a93feacdc50ed6577ccc5a4355",
+      "sha1": "f2dfd1df973429f6203bcb048c8e894d2a735bc5",
+      "sha256": "f2dfd1df973429f6203bcb048c8e894d2a735bc5"
+    },
+    "features/style-sheets/images/outline-images-without-alt-attributes.css": {
+      "md5": "055938f5719a2535153671767eba169a",
+      "sha1": "298c85a9e7e1fa1f7ce4be619769884ea3e6df21",
+      "sha256": "298c85a9e7e1fa1f7ce4be619769884ea3e6df21"
+    },
+    "features/style-sheets/images/outline-images-without-dimensions.css": {
+      "md5": "8d98f21fb71c0c5e9f76d91a6376d108",
+      "sha1": "8e54b768454f50622abc85279671d047bb5e7430",
+      "sha256": "8e54b768454f50622abc85279671d047bb5e7430"
+    },
+    "features/style-sheets/images/transparent.png": {
+      "md5": "0031047f212865840779a4b260cc1f76",
+      "sha1": "2f4900c6b281b7bf5401a343b9cf3fb2904193ec",
+      "sha256": "2f4900c6b281b7bf5401a343b9cf3fb2904193ec"
+    },
+    "features/style-sheets/information/display-abbreviations.css": {
+      "md5": "f3a0de5a5b3bebc9e776e46b8368f61f",
+      "sha1": "c8275eb6f9c6b4a45885d865ebcdbf07ebd1b1d9",
+      "sha256": "c8275eb6f9c6b4a45885d865ebcdbf07ebd1b1d9"
+    },
+    "features/style-sheets/information/display-aria-roles.css": {
+      "md5": "34d77bf233f8de603bf10dc82cc57679",
+      "sha1": "3c5c7134424b3e22ccc89333d3405f3cd68a2e17",
+      "sha256": "3c5c7134424b3e22ccc89333d3405f3cd68a2e17"
+    },
+    "features/style-sheets/information/display-div-dimensions.css": {
+      "md5": "3fd93c8d374e2e833e7bf72f07b2622a",
+      "sha1": "6d2831583906fcb76a4e7c65e8721d1053638f8c",
+      "sha256": "6d2831583906fcb76a4e7c65e8721d1053638f8c"
+    },
+    "features/style-sheets/information/display-div-order.css": {
+      "md5": "def0915f93314658e37694b428beb954",
+      "sha1": "4b592b4e9f1f85136d4b90d9dc79e227893b5677",
+      "sha256": "4b592b4e9f1f85136d4b90d9dc79e227893b5677"
+    },
+    "features/style-sheets/information/display-link-details.css": {
+      "md5": "882c0665769f514058b2cda08c0a2cca",
+      "sha1": "d34178b8e3107dac8a012fba1440add893b573b9",
+      "sha256": "d34178b8e3107dac8a012fba1440add893b573b9"
+    },
+    "features/style-sheets/information/display-object-information.css": {
+      "md5": "eb719183c275f35b79f997d6cc237b10",
+      "sha1": "fa1c5d3fefc465286dd5c4da88d3e5441d2569bc",
+      "sha256": "fa1c5d3fefc465286dd5c4da88d3e5441d2569bc"
+    },
+    "features/style-sheets/information/display-table-information.css": {
+      "md5": "4950d691cb7c9084062a065de08d24a9",
+      "sha1": "68074c9b8c667fbda837347f0b55d60eb38c0aa9",
+      "sha256": "68074c9b8c667fbda837347f0b55d60eb38c0aa9"
+    },
+    "features/style-sheets/information/display-topographic-information.css": {
+      "md5": "1b4a59750678cbf9618f74501493d84c",
+      "sha1": "93cee0127a58b38bf5942194e2eca90a7eb53ba6",
+      "sha256": "93cee0127a58b38bf5942194e2eca90a7eb53ba6"
+    },
+    "features/style-sheets/miscellaneous/linearize-page.css": {
+      "md5": "44c1ba87e2eb691b6ed17befbd9358f5",
+      "sha1": "de499ffc9650aae4679058f4563de50f2b83d18f",
+      "sha256": "de499ffc9650aae4679058f4563de50f2b83d18f"
+    },
+    "features/style-sheets/outline/outline-block-level-elements-before.css": {
+      "md5": "4b25b82be3accc419c1728193ae2784f",
+      "sha1": "8430bc28db9a38b1127f34d942cf73ab2fd28d82",
+      "sha256": "8430bc28db9a38b1127f34d942cf73ab2fd28d82"
+    },
+    "features/style-sheets/outline/outline-block-level-elements.css": {
+      "md5": "92e0d5ff2306a368e8e3d4ef7fbd2d8e",
+      "sha1": "8d040ec7fda7b729f81519ef3eed18b9062961e6",
+      "sha256": "8d040ec7fda7b729f81519ef3eed18b9062961e6"
+    },
+    "features/style-sheets/outline/outline-deprecated-elements-before.css": {
+      "md5": "474b4b33113710b985b19983dfc87d4d",
+      "sha1": "2d927e323cb650d0c001dbdcd598d916ee7989d6",
+      "sha256": "2d927e323cb650d0c001dbdcd598d916ee7989d6"
+    },
+    "features/style-sheets/outline/outline-deprecated-elements.css": {
+      "md5": "2fc8a0d9c401554b21bf00d8002179db",
+      "sha1": "50d84b745be5ba7988855550cd892c3e51a953a5",
+      "sha256": "50d84b745be5ba7988855550cd892c3e51a953a5"
+    },
+    "features/style-sheets/outline/outline-floated-elements.css": {
+      "md5": "d5273be79dab87ec568b281a32a8d051",
+      "sha1": "0e46b94dd9f63012dd8a7a646d67c78dae46841a",
+      "sha256": "0e46b94dd9f63012dd8a7a646d67c78dae46841a"
+    },
+    "features/style-sheets/outline/outline-frames.css": {
+      "md5": "816774a607bdc402c2553ed322df673e",
+      "sha1": "887dd5cf45d1db23cb3cfaf9961912cf2fd9018c",
+      "sha256": "887dd5cf45d1db23cb3cfaf9961912cf2fd9018c"
+    },
+    "features/style-sheets/outline/outline-headings-before.css": {
+      "md5": "1572eb70e7c03631860304e719ea79ac",
+      "sha1": "e7d7d69eada9d101bfea3b857fd6f60bfb45270f",
+      "sha256": "e7d7d69eada9d101bfea3b857fd6f60bfb45270f"
+    },
+    "features/style-sheets/outline/outline-headings.css": {
+      "md5": "ee969bb5dc21bd70623ca098457068f3",
+      "sha1": "db936fa6dc17f26df66975f0b096cdbb5cb0832a",
+      "sha256": "db936fa6dc17f26df66975f0b096cdbb5cb0832a"
+    },
+    "features/style-sheets/outline/outline-non-secure-elements.css": {
+      "md5": "fe69b0702255d091500d014265d1a74d",
+      "sha1": "dbb427280d7d459718e3bc59c8b08a039c4d7a39",
+      "sha256": "dbb427280d7d459718e3bc59c8b08a039c4d7a39"
+    },
+    "features/style-sheets/outline/outline-positioned-elements.css": {
+      "md5": "7ece0c345895faa1897d92104b130923",
+      "sha1": "bd94bd676f4bfa893503b5aea6ce73ee4ad8fb77",
+      "sha256": "bd94bd676f4bfa893503b5aea6ce73ee4ad8fb77"
+    },
+    "features/style-sheets/outline/outline-table-captions.css": {
+      "md5": "2f4b653fefc05323a1c516aa0148338b",
+      "sha1": "0c0afff42068599fff06e35a5624e753afdf4eb4",
+      "sha256": "0c0afff42068599fff06e35a5624e753afdf4eb4"
+    },
+    "features/style-sheets/outline/outline-table-cells-before.css": {
+      "md5": "a48b086450cde094e63dfede6af691b9",
+      "sha1": "27a7b9ed9a304c772f43e1df69693719630b3818",
+      "sha256": "27a7b9ed9a304c772f43e1df69693719630b3818"
+    },
+    "features/style-sheets/outline/outline-table-cells.css": {
+      "md5": "c754e3348ff90a28b826302685cbc278",
+      "sha1": "0d37b515828cb9568da2726ae48ee73afd42fd2c",
+      "sha256": "0d37b515828cb9568da2726ae48ee73afd42fd2c"
+    },
+    "features/style-sheets/outline/outline-tables.css": {
+      "md5": "ee22d71365f21eca948826452d6a5637",
+      "sha1": "4626df539b25e0fe290025a902744f1cda63e100",
+      "sha256": "4626df539b25e0fe290025a902744f1cda63e100"
+    },
+    "generated/javascript/beautify/beautify.js": {
+      "md5": "a3aeb8aaa9d886d280c246725cd1680e",
+      "sha1": "1c0c893e572724559e2b63bdd168ec290393fe56",
+      "sha256": "1c0c893e572724559e2b63bdd168ec290393fe56"
+    },
+    "common/images/logos/monochrome/128.png": {
+      "md5": "535cd97e9a3f93c5a4ce501f526fa572",
+      "sha1": "c67d53775d7b1d7207acfe1ee03042df0f83ff57",
+      "sha256": "c67d53775d7b1d7207acfe1ee03042df0f83ff57"
+    },
+    "common/images/logos/monochrome/16.png": {
+      "md5": "412250bb6f3e2c3277f58341c5f70ebb",
+      "sha1": "f297d4b5c2bce567aa1dff9acafcb577002cc4bc",
+      "sha256": "f297d4b5c2bce567aa1dff9acafcb577002cc4bc"
+    },
+    "common/images/logos/monochrome/24.png": {
+      "md5": "df8fad803e5cb256d286dde6aca8c1fd",
+      "sha1": "da72fee6013b0fcedfe6b4d50894bd1148568961",
+      "sha256": "da72fee6013b0fcedfe6b4d50894bd1148568961"
+    },
+    "common/images/logos/monochrome/256.png": {
+      "md5": "5ff623ff54f0f77686ac74189991148d",
+      "sha1": "f12392f03ad3e0003567a2bdd5fd08136b1afc59",
+      "sha256": "f12392f03ad3e0003567a2bdd5fd08136b1afc59"
+    },
+    "common/images/logos/monochrome/32.png": {
+      "md5": "baa3a49c23a23484c5093c433c0059ec",
+      "sha1": "3a7c38b7dd799d4a070614b2229583d2c849ce8a",
+      "sha256": "3a7c38b7dd799d4a070614b2229583d2c849ce8a"
+    },
+    "common/images/logos/monochrome/48.png": {
+      "md5": "43964ba9611ecdcd5ec3f273387005e6",
+      "sha1": "50a0e4d7f6762ffab313e88226bb32881bb2ab28",
+      "sha256": "50a0e4d7f6762ffab313e88226bb32881bb2ab28"
+    },
+    "common/images/logos/monochrome/512.png": {
+      "md5": "09f9dc66c3d64ed995fc9ce2a57ed596",
+      "sha1": "256748ce1f6729b6387db73d872fe83533293f35",
+      "sha256": "256748ce1f6729b6387db73d872fe83533293f35"
+    },
+    "common/images/logos/monochrome/64.png": {
+      "md5": "aa4319363b0b5fa5654a6a1e6367d371",
+      "sha1": "9ba10193e6bd8259204bea0f41f5863707140c48",
+      "sha256": "9ba10193e6bd8259204bea0f41f5863707140c48"
+    },
+    "license.txt": {
+      "md5": "7453ccec95da70305520671c4add12d3",
+      "sha1": "616ad54d014fe85bd135f5e3b50ee69ecd05ef7a",
+      "sha256": "616ad54d014fe85bd135f5e3b50ee69ecd05ef7a"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "d3d0141c37d106c9379824cf392e95e3",
+      "sha1": "212e126e7579cf119e1b97a284926060d419e973",
+      "sha256": "212e126e7579cf119e1b97a284926060d419e973"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "background": {
+      "page": "/background/background.html"
+    },
+    "content_scripts": [
+      {
+        "js": [
+          "/content/content.js"
+        ],
+        "matches": [
+          "<all_urls>"
+        ]
+      }
+    ],
+    "default_locale": "en_US",
+    "description": "__MSG_extensionDescription__",
+    "homepage_url": "http://chrispederick.com/work/web-developer/",
+    "icons": {
+      "16": "/common/images/logos/16.png",
+      "24": "/common/images/logos/24.png",
+      "32": "/common/images/logos/32.png",
+      "48": "/common/images/logos/48.png",
+      "64": "/common/images/logos/64.png",
+      "128": "/common/images/logos/128.png",
+      "256": "/common/images/logos/256.png",
+      "512": "/common/images/logos/512.png"
+    },
+    "manifest_version": 2,
+    "name": "__MSG_extensionName__",
+    "options_ui": {
+      "page": "/options/options.html"
+    },
+    "version": "0.5.4",
+    "browser_action": {
+      "default_icon": {
+        "16": "/common/images/logos/16.png",
+        "24": "/common/images/logos/24.png",
+        "32": "/common/images/logos/32.png",
+        "48": "/common/images/logos/48.png",
+        "64": "/common/images/logos/64.png",
+        "128": "/common/images/logos/128.png",
+        "256": "/common/images/logos/256.png",
+        "512": "/common/images/logos/512.png"
+      },
+      "default_popup": "/overlay/overlay.html",
+      "default_title": "__MSG_extensionName__"
+    },
+    "permissions": [
+      "browsingData",
+      "clipboardWrite",
+      "contentSettings",
+      "cookies",
+      "history",
+      "storage",
+      "tabs",
+      "<all_urls>"
+    ],
+    "web_accessible_resources": [
+      "*"
+    ]
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "8f4bf32d3088bb7554cd81416e1ce92b",
+    "sha1": "46bae94b086bf85352acced33ce669c7afd8e261",
+    "sha256": "46bae94b086bf85352acced33ce669c7afd8e261"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "Popover must be loaded after tooltip",
+        "path": "generated/view-cookie-information.html"
+      },
+      {
+        "value": "Options styles",
+        "path": "options/options.css"
+      },
+      {
+        "value": "Tab styles",
+        "path": "options/options.css"
+      },
+      {
+        "value": "Color styles",
+        "path": "options/options.css"
+      },
+      {
+        "value": "Resize styles",
+        "path": "options/options.css"
+      },
+      {
+        "value": "Responsive layout styles",
+        "path": "options/options.css"
+      },
+      {
+        "value": "Tool styles",
+        "path": "options/options.css"
+      },
+      {
+        "value": "HTML",
+        "path": "options/syntax-highlight.html"
+      },
+      {
+        "value": "Overlay styles",
+        "path": "overlay/overlay.css"
+      },
+      {
+        "value": "Toolbar styles",
+        "path": "overlay/overlay.css"
+      },
+      {
+        "value": "Menu styles",
+        "path": "overlay/overlay.css"
+      },
+      {
+        "value": "Confirmation and notification styles",
+        "path": "overlay/overlay.css"
+      },
+      {
+        "value": "Add cookie styles",
+        "path": "overlay/overlay.css"
+      },
+      {
+        "value": "Resize window styles",
+        "path": "overlay/overlay.css"
+      },
+      {
+        "value": "!\n * Bootstrap v3.3.7 (http://getbootstrap.com)\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n",
+        "path": "toolbar/color-picker-toolbar.css"
+      },
+      {
+        "value": "! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css",
+        "path": "toolbar/color-picker-toolbar.css"
+      },
+      {
+        "value": "! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+        "path": "toolbar/color-picker-toolbar.css"
+      },
+      {
+        "value": "# sourceMappingURL=bootstrap.css.map",
+        "path": "toolbar/color-picker-toolbar.css"
+      },
+      {
+        "value": "!\n * Bootstrap v3.3.7 (http://getbootstrap.com)\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n",
+        "path": "toolbar/line-guides-toolbar.css"
+      },
+      {
+        "value": "! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css",
+        "path": "toolbar/line-guides-toolbar.css"
+      },
+      {
+        "value": "! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+        "path": "toolbar/line-guides-toolbar.css"
+      },
+      {
+        "value": "# sourceMappingURL=bootstrap.css.map",
+        "path": "toolbar/line-guides-toolbar.css"
+      },
+      {
+        "value": "!\n * Bootstrap v3.3.7 (http://getbootstrap.com)\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n",
+        "path": "toolbar/ruler-toolbar.css"
+      },
+      {
+        "value": "! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css",
+        "path": "toolbar/ruler-toolbar.css"
+      },
+      {
+        "value": "! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+        "path": "toolbar/ruler-toolbar.css"
+      },
+      {
+        "value": "# sourceMappingURL=bootstrap.css.map",
+        "path": "toolbar/ruler-toolbar.css"
+      },
+      {
+        "value": "!\n * mustache.js - Logic-less {{mustache}} templates with JavaScript\n * http://github.com/janl/mustache.js\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "global define: false Mustache: true",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Null safe way of checking whether or not an object,\n   * including its prototype, has a given property\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Safe way of detecting whether or not the given thing is a primitive and\n   * whether it has the given property\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Combines the values of consecutive text tokens in the given `tokens` array\n   * to a single token.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Forms the given array of `tokens` into a nested tree structure where\n   * tokens that represent a section have two additional items: 1) an array of\n   * all tokens that appear in that section and 2) the index in the original\n   * template that represents the end of that section.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * A simple string scanner that is used by the template parser to find\n   * tokens in template strings.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Returns `true` if the tail is empty (end of string).\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Tries to match the given regular expression at the current position.\n   * Returns the matched text if it can match, the empty string otherwise.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Skips all text until the given regular expression can be matched. Returns\n   * the skipped string, which is the entire tail if no match can be made.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Represents a rendering context by wrapping a view object and\n   * maintaining a reference to the parent context.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Creates a new context using the given view with this context\n   * as the parent.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * A Writer knows how to take a stream of tokens and render them to a\n   * string, given a context. It also maintains a cache of templates to\n   * avoid the need to parse the same template twice.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Clears all cached templates in this writer.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Parses and caches the given `template` according to the given `tags` or\n   * `mustache.tags` if `tags` is omitted,  and returns the array of tokens\n   * that is generated from the parse.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Clears all cached templates in the default writer.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "*\n   * Parses and caches the given template in the default writer and returns the\n   * array of tokens it contains. Doing this ahead of time avoids the need to\n   * parse templates on the fly as they are rendered.\n",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "eslint-disable",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "eslint-enable",
+        "path": "common/javascript/mustache.js"
+      },
+      {
+        "value": "!\n * Bootstrap v3.3.7 (http://getbootstrap.com)\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "# sourceMappingURL=bootstrap.css.map",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "FONT PATH\n * --------------------------",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "FONT AWESOME CORE\n * --------------------------",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "makes the font 33% larger relative to the icon container",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "makes sure icons active on rollover in links",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "increased font size for icon-large",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "BOOTSTRAP SPECIFIC CLASSES\n * --------------------------",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "Bootstrap 2.0 sprites.less reset",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "more sprites.less reset",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "keeps Bootstrap styles with and without icons the same",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "Fixes alignment in nav lists",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "EXTRAS\n * --------------------------",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "Stacked and layered icon",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "Animated rotating icon",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "Prevent stack and spinners from being taken inline when inside a link",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "Icon rotations and mirroring",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "ensure rotation occurs inside anchor tags",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen\n   readers do not read off random characters that represent icons",
+        "path": "common/style-sheets/bootstrap.css"
+      },
+      {
+        "value": "Necessary so the scrollbar can be absolutely positioned within the wrapper on Lion.",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "This prevents unwanted scrollbars from showing up on the body and wrapper in IE.",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "This is needed to prevent an IE[67] bug where the scrolled content\n     is visible outside of the scrolling box.",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "Vertical scrollbar",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "This needs to have a nonzero width in order for the scrollbar to appear\n     in Firefox and IE9.",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "Ensure that the scrollbar appears in Lion, and that it overlaps the content\n     rather than sitting to the right of it.",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "Kludge to turn off filter in ie9+, which also accepts rgba",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "Default theme",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "Hide the cursor when printing",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "Code theme styles",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "Dark colors",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "Light colors",
+        "path": "common/style-sheets/syntax-highlight.css"
+      },
+      {
+        "value": "!\n * Bootstrap v3.3.7 (http://getbootstrap.com)\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n",
+        "path": "dashboard/style-sheets/common.css"
+      },
+      {
+        "value": "! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css",
+        "path": "dashboard/style-sheets/common.css"
+      },
+      {
+        "value": "! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+        "path": "dashboard/style-sheets/common.css"
+      },
+      {
+        "value": "# sourceMappingURL=bootstrap.css.map",
+        "path": "dashboard/style-sheets/common.css"
+      },
+      {
+        "value": "Dashboard styles",
+        "path": "dashboard/style-sheets/common.css"
+      },
+      {
+        "value": "Edit CSS styles",
+        "path": "dashboard/style-sheets/common.css"
+      },
+      {
+        "value": "Element information styles",
+        "path": "dashboard/style-sheets/common.css"
+      },
+      {
+        "value": "Element ancestors styles",
+        "path": "dashboard/style-sheets/common.css"
+      },
+      {
+        "value": "eslint-disable indent",
+        "path": "generated/javascript/common.js"
+      },
+      {
+        "value": "eslint-enable indent",
+        "path": "generated/javascript/common.js"
+      },
+      {
+        "value": "eslint-disable indent",
+        "path": "options/javascript/syntax-highlight.js"
+      },
+      {
+        "value": "eslint-enable indent",
+        "path": "options/javascript/syntax-highlight.js"
+      },
+      {
+        "value": "========================================================================\n * Bootstrap: collapse.js v3.3.7\n * http://getbootstrap.com/javascript/#collapse\n * ========================================================================\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n * ========================================================================",
+        "path": "common/javascript/bootstrap/collapse.js"
+      },
+      {
+        "value": "jshint latedef: false",
+        "path": "common/javascript/bootstrap/collapse.js"
+      },
+      {
+        "value": "========================================================================\n * Bootstrap: dropdown.js v3.3.7\n * http://getbootstrap.com/javascript/#dropdowns\n * ========================================================================\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n * ========================================================================",
+        "path": "common/javascript/bootstrap/dropdown.js"
+      },
+      {
+        "value": "========================================================================\n * Bootstrap: modal.js v3.3.7\n * http://getbootstrap.com/javascript/#modals\n * ========================================================================\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n * ========================================================================",
+        "path": "common/javascript/bootstrap/modal.js"
+      },
+      {
+        "value": "========================================================================\n * Bootstrap: popover.js v3.3.7\n * http://getbootstrap.com/javascript/#popovers\n * ========================================================================\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n * ========================================================================",
+        "path": "common/javascript/bootstrap/popover.js"
+      },
+      {
+        "value": "========================================================================\n * Bootstrap: tab.js v3.3.7\n * http://getbootstrap.com/javascript/#tabs\n * ========================================================================\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n * ========================================================================",
+        "path": "common/javascript/bootstrap/tab.js"
+      },
+      {
+        "value": "========================================================================\n * Bootstrap: tooltip.js v3.3.7\n * http://getbootstrap.com/javascript/#tooltip\n * Inspired by the original jQuery.tipsy by Jason Frame\n * ========================================================================\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n * ========================================================================",
+        "path": "common/javascript/bootstrap/tooltip.js"
+      },
+      {
+        "value": "========================================================================\n * Bootstrap: transition.js v3.3.7\n * http://getbootstrap.com/javascript/#transitions\n * ========================================================================\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n * ========================================================================",
+        "path": "common/javascript/bootstrap/transition.js"
+      },
+      {
+        "value": "!\n * jQuery JavaScript Library v3.4.1\n * https://jquery.com/\n *\n * Includes Sizzle.js\n * https://sizzlejs.com/\n *\n * Copyright JS Foundation and other contributors\n * Released under the MIT license\n * https://jquery.org/license\n *\n * Date: 2019-05-01T21:04Z\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "global Symbol",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "!\n * Sizzle CSS Selector Engine v2.3.4\n * https://sizzlejs.com/\n *\n * Copyright JS Foundation and other contributors\n * Released under the MIT license\n * https://js.foundation/\n *\n * Date: 2019-04-08\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Create key-value caches of limited size\n * @returns {function(string, object)} Returns the Object data after storing it on itself with\n *\tproperty name the (space-suffixed) string and (if the cache is larger than Expr.cacheLength)\n *\tdeleting the oldest entry\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Mark a function for special use by Sizzle\n * @param {Function} fn The function to mark\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Support testing using an element\n * @param {Function} fn Passed the created element and returns a boolean result\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Adds the same handler for all of the specified attrs\n * @param {String} attrs Pipe-separated list of attributes\n * @param {Function} handler The method that will be applied\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Checks document order of two siblings\n * @param {Element} a\n * @param {Element} b\n * @returns {Number} Returns less than 0 if a precedes b, greater than 0 if a follows b\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Returns a function to use in pseudos for input types\n * @param {String} type\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Returns a function to use in pseudos for buttons\n * @param {String} type\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Returns a function to use in pseudos for :enabled/:disabled\n * @param {Boolean} disabled true for :disabled; false for :enabled\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "jshint -W018",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Returns a function to use in pseudos for positionals\n * @param {Function} fn\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Checks a node for validity as a Sizzle context\n * @param {Element|Object=} context\n * @returns {Element|Object|Boolean} The input node if acceptable, otherwise a falsy value\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Detects XML nodes\n * @param {Element|Object} elem An element or a document\n * @returns {Boolean} True iff elem is a non-HTML XML node\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Sets document-related variables once based on the current document\n * @param {Element|Object} [doc] An element or document object to use to set the document\n * @returns {Object} Returns the current document\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "Attributes\n\t----------------------------------------------------------------------",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "getElement(s)By*\n\t----------------------------------------------------------------------",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "QSA/matchesSelector\n\t----------------------------------------------------------------------",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "Contains\n\t----------------------------------------------------------------------",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "Sorting\n\t----------------------------------------------------------------------",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Document sorting and removing duplicates\n * @param {ArrayLike} results\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Utility function for retrieving the text value of an array of DOM nodes\n * @param {Array|Element} elem\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "Internal Use Only",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "fnDone, fnFail, fnProgress",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "eslint-disable max-len",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "eslint-enable",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "eslint-disable no-loop-func",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "eslint-enable no-loop-func",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "eslint-disable no-cond-assign",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "eslint-enable no-cond-assign",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "Handles responses to an ajax request:\n * - finds the right dataType (mediates between content-type and expected dataType)\n * - returns the corresponding response\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "Chain conversions given the request and the original response\n * Also sets the responseXXX fields on the jqXHR instance\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "\n\t\ttimeout: 0,\n\t\tdata: null,\n\t\tdataType: null,\n\t\tusername: null,\n\t\tpassword: null,\n\t\tcache: null,\n\t\tthrows: false,\n\t\ttraditional: false,\n\t\theaders: {},\n\t\t",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "*\n * Load a url into a page\n",
+        "path": "common/javascript/jquery/jquery.js"
+      },
+      {
+        "value": "* Keep hold of the current table being dragged",
+        "path": "common/javascript/jquery/tablednd.js"
+      },
+      {
+        "value": "* Keep hold of the current drag object if any",
+        "path": "common/javascript/jquery/tablednd.js"
+      },
+      {
+        "value": "* The current mouse offset",
+        "path": "common/javascript/jquery/tablednd.js"
+      },
+      {
+        "value": "* Actually build the structure",
+        "path": "common/javascript/jquery/tablednd.js"
+      },
+      {
+        "value": "* Get the mouse coordinates from the event (allowing for browser differences)",
+        "path": "common/javascript/jquery/tablednd.js"
+      },
+      {
+        "value": "* Get the position of an element by going up the DOM tree and adding up all the offsets",
+        "path": "common/javascript/jquery/tablednd.js"
+      },
+      {
+        "value": "* Safari fix -- thanks to Luis Chato for this!",
+        "path": "common/javascript/jquery/tablednd.js"
+      },
+      {
+        "value": "http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n",
+        "path": "features/style-sheets/css/disable-browser-default-styles.css"
+      },
+      {
+        "value": "HTML5 display-role reset for older browsers",
+        "path": "features/style-sheets/css/disable-browser-default-styles.css"
+      },
+      {
+        "value": "jslint onevar: false, plusplus: false",
+        "path": "generated/javascript/beautify/beautify.js"
+      },
+      {
+        "value": "jshint curly:true, eqeqeq:true, laxbreak:true, noempty:false",
+        "path": "generated/javascript/beautify/beautify.js"
+      },
+      {
+        "value": "...",
+        "path": "generated/javascript/beautify/beautify.js"
+      },
+      {
+        "value": "comment",
+        "path": "generated/javascript/beautify/beautify.js"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "http://chrispederick.com/about/",
+          "path": "about/about.html"
+        },
+        {
+          "value": "http://chrispederick.com/work/web-developer/chrome/",
+          "path": "about/about.html"
+        },
+        {
+          "value": "http://chrispederick.com/work/web-developer/chrome/",
+          "path": "about/about.html"
+        },
+        {
+          "value": "http://twitter.com/chrispederick/",
+          "path": "about/about.html"
+        },
+        {
+          "value": "http://chrispederick.com/work/web-developer/chrome/help/",
+          "path": "overlay/overlay.html"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "toolbar/color-picker-toolbar.css"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "toolbar/color-picker-toolbar.css"
+        },
+        {
+          "value": "https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+          "path": "toolbar/color-picker-toolbar.css"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "toolbar/line-guides-toolbar.css"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "toolbar/line-guides-toolbar.css"
+        },
+        {
+          "value": "https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+          "path": "toolbar/line-guides-toolbar.css"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "toolbar/ruler-toolbar.css"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "toolbar/ruler-toolbar.css"
+        },
+        {
+          "value": "https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+          "path": "toolbar/ruler-toolbar.css"
+        },
+        {
+          "value": "http://www.cynthiasays.com/mynewtester/cynthia.exe?rptmode=-1&url1=",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "http://www.cynthiasays.com/mynewtester/cynthia.exe?rptmode=2&url1=",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "http://wave.webaim.org/report",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "http://validator.w3.org/checklink?check=Check&hide_type=all&summary=on&uri=",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "http://chrispederick.com/work/web-developer/chrome/installed/",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "http://jigsaw.w3.org/css-validator/validator?profile=css3&warning=0&uri=",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "http://validator.w3.org/feed/check.cgi?url=",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "http://validator.w3.org/check?verbose=1&uri=",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "http://wave.webaim.org/report",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "http://validator.w3.org/checklink?check=Check&hide_type=all&summary=on&uri=",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "https://search.google.com/structured-data/testing-tool/u/0/",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "https://jigsaw.w3.org/css-validator/validator",
+          "path": "validation/css.html"
+        },
+        {
+          "value": "https://validator.w3.org/check",
+          "path": "validation/html.html"
+        },
+        {
+          "value": "http://github.com/janl/mustache.js",
+          "path": "common/javascript/mustache.js"
+        },
+        {
+          "value": "https://issues.apache.org/jira/browse/COUCHDB-577",
+          "path": "common/javascript/mustache.js"
+        },
+        {
+          "value": "https://github.com/janl/mustache.js/issues/189",
+          "path": "common/javascript/mustache.js"
+        },
+        {
+          "value": "https://github.com/janl/mustache.js/issues/186",
+          "path": "common/javascript/mustache.js"
+        },
+        {
+          "value": "https://github.com/janl/mustache.js/issues/244",
+          "path": "common/javascript/mustache.js"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "http://fontawesome.io.",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "http://twitter.com/fontawesome.",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "http://scripts.sil.org/OFL",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "http://opensource.org/licenses/mit-license.html",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "http://creativecommons.org/licenses/by/3.0/",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "http://fontawesome.io",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "http://twitter.com/davegandy",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "http://kyruus.com",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "dashboard/style-sheets/common.css"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "dashboard/style-sheets/common.css"
+        },
+        {
+          "value": "https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+          "path": "dashboard/style-sheets/common.css"
+        },
+        {
+          "value": "http://localhost",
+          "path": "features/javascript/forms.js"
+        },
+        {
+          "value": "https://addons.mozilla.org",
+          "path": "overlay/javascript/overlay.js"
+        },
+        {
+          "value": "https://chrome.google.com/extensions/",
+          "path": "overlay/javascript/overlay.js"
+        },
+        {
+          "value": "https://chrome.google.com/webstore/",
+          "path": "overlay/javascript/overlay.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "common/javascript/bootstrap/collapse.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "common/javascript/bootstrap/collapse.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "common/javascript/bootstrap/dropdown.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "common/javascript/bootstrap/dropdown.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "common/javascript/bootstrap/modal.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "common/javascript/bootstrap/modal.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "common/javascript/bootstrap/popover.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "common/javascript/bootstrap/popover.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "common/javascript/bootstrap/tab.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "common/javascript/bootstrap/tab.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "common/javascript/bootstrap/tooltip.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "common/javascript/bootstrap/tooltip.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/issues/14093",
+          "path": "common/javascript/bootstrap/tooltip.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/issues/20280",
+          "path": "common/javascript/bootstrap/tooltip.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "common/javascript/bootstrap/transition.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "common/javascript/bootstrap/transition.js"
+        },
+        {
+          "value": "http://www.modernizr.com",
+          "path": "common/javascript/bootstrap/transition.js"
+        },
+        {
+          "value": "http://blog.alexmaccaw.com/css-transitions",
+          "path": "common/javascript/bootstrap/transition.js"
+        },
+        {
+          "value": "http://www.xanthir.com/blog/b4E50",
+          "path": "common/javascript/codemirror/css.js"
+        },
+        {
+          "value": "https://jquery.com",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://sizzlejs.com",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://jquery.org/license",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://github.com/whatwg/html/issues/2369",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://html.spec.whatwg.org",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://sizzlejs.com",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://js.foundation",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://jsperf.com/thor-indexof-vs-for/5",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/css3-selectors/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/CSS21/syndata.html",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/selectors/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/CSS21/syndata.html",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://drafts.csswg.org/cssom/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://html.spec.whatwg.org/multipage/scripting.html",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://html.spec.whatwg.org/multipage/scripting.html",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://html.spec.whatwg.org/multipage/forms.html",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://html.spec.whatwg.org/multipage/forms.html",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://html.spec.whatwg.org/multipage/forms.html",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugs.jquery.com/ticket/4833",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugs.jquery.com/ticket/13378",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugs.jquery.com/ticket/12359",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://msdn.microsoft.com/en-us/library/ie/hh465388.aspx",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/2011/REC-css3-selectors-20110929/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugs.webkit.org/show_bug.cgi?id=136851",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://github.com/jquery/sizzle/pull/225",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/selectors/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/selectors/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/2011/REC-css3-selectors-20110929/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/selectors/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://msdn.microsoft.com/en-us/library/ms536429",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://promisesaplus.com",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://promisesaplus.com",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://promisesaplus.com",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://promisesaplus.com",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://promisesaplus.com",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://promisesaplus.com",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://promisesaplus.com",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugs.chromium.org/p/chromium/issues/detail?id=378607",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugs.jquery.com/ticket/13393",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://www.w3.org/TR/DOM-Level-3-Events/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugs.chromium.org/p/chromium/issues/detail?id=470258",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://github.com/eslint/eslint/issues/3229",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://connect.microsoft.com/IE/feedback/details/1736512/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://jsperf.com/getall-vs-sizzle/2",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://drafts.csswg.org/cssom/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://developer.mozilla.org/en-US/docs/CSS/display",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://web.archive.org/web/20100324014747/http",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://html.spec.whatwg.org/multipage/syntax.html",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://web.archive.org/web/20141116233347/http",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://infra.spec.whatwg.org",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://html.spec.whatwg.org",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=687787",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/DOM-Level-3-Events/",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugs.chromium.org/p/chromium/issues/detail?id=449857",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://example.com:80",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugs.webkit.org/show_bug.cgi?id=137337",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugs.webkit.org/show_bug.cgi?id=29084",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://bugs.chromium.org/p/chromium/issues/detail?id=589347",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://github.com/jrburke/requirejs/wiki/Updating-existing-libraries",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "https://github.com/jquery/jquery/pull/557",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "http://docs.jquery.com/License.",
+          "path": "common/javascript/jquery/tablednd.js"
+        },
+        {
+          "value": "http://jacob.peargrove.com/blog/2006/technical/table-row-offsettop-bug-in-safari/",
+          "path": "common/javascript/jquery/tablednd.js"
+        },
+        {
+          "value": "http://meyerweb.com/eric/tools/css/reset/",
+          "path": "features/style-sheets/css/disable-browser-default-styles.css"
+        },
+        {
+          "value": "http://jsbeautifier.org",
+          "path": "generated/javascript/beautify/beautify.js"
+        },
+        {
+          "value": "https://developer.mozilla.org/En/Sharp_variables_in_JavaScript",
+          "path": "generated/javascript/beautify/beautify.js"
+        },
+        {
+          "value": "http://mxr.mozilla.org/mozilla-central/source/js/src/jsscan.cpp",
+          "path": "generated/javascript/beautify/beautify.js"
+        },
+        {
+          "value": "http://fsf.org",
+          "path": "license.txt"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "license.txt"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/",
+          "path": "license.txt"
+        },
+        {
+          "value": "http://www.gnu.org/philosophy/why-not-lgpl.html",
+          "path": "license.txt"
+        }
+      ],
+      "email": [
+        {
+          "value": "example@example.com",
+          "path": "upgrade/upgrade.js"
+        },
+        {
+          "value": "dave@fontawesome.io",
+          "path": "common/style-sheets/bootstrap.css"
+        },
+        {
+          "value": "denish@isocra.com",
+          "path": "common/javascript/jquery/tablednd.js"
+        },
+        {
+          "value": "einar@jsbeautifier.org",
+          "path": "generated/javascript/beautify/beautify.js"
+        },
+        {
+          "value": "vital76@gmail.com",
+          "path": "generated/javascript/beautify/beautify.js"
+        },
+        {
+          "value": "chrisjshull@gmail.com",
+          "path": "generated/javascript/beautify/beautify.js"
+        }
+      ],
+      "ipv4": [
+        {
+          "value": "2.3.3.3",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "2.3.3.1",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "2.3.3.3",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "2.3.3.3",
+          "path": "common/javascript/jquery/jquery.js"
+        }
+      ],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {
+      "en_us": {}
+    },
+    "metadata": {
+      "common/fonts/fontawesome-webfont.svg": {},
+      "dashboard/images/logo.png": {},
+      "options/images/options-2x.png": {},
+      "options/images/options.png": {},
+      "overlay/images/feature-2x.png": {},
+      "overlay/images/feature.png": {},
+      "overlay/images/toolbar-2x.png": {},
+      "overlay/images/toolbar.png": {},
+      "toolbar/images/logo.png": {},
+      "common/images/logos/128.png": {},
+      "common/images/logos/16.png": {},
+      "common/images/logos/24.png": {},
+      "common/images/logos/256.png": {},
+      "common/images/logos/32.png": {},
+      "common/images/logos/48.png": {},
+      "common/images/logos/512.png": {},
+      "common/images/logos/64.png": {},
+      "common/images/logos/favicon.ico": {},
+      "features/style-sheets/images/transparent.png": {},
+      "common/images/logos/monochrome/128.png": {},
+      "common/images/logos/monochrome/16.png": {},
+      "common/images/logos/monochrome/24.png": {},
+      "common/images/logos/monochrome/256.png": {},
+      "common/images/logos/monochrome/32.png": {},
+      "common/images/logos/monochrome/48.png": {},
+      "common/images/logos/monochrome/512.png": {},
+      "common/images/logos/monochrome/64.png": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "overlay/javascript/overlay.js"
+        },
+        {
+          "value": "eval(",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "encode",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "encode",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "encode",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "encode",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "encode",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "encode",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "encode",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "encode",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "encode",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "encode",
+          "path": "generated/javascript/beautify/beautify.js"
+        }
+      ],
+      "possible_payments": [],
+      "pattern_recognition": [
+        {
+          "value": "pattern",
+          "path": "features/javascript/forms.js"
+        },
+        {
+          "value": "pattern",
+          "path": "features/javascript/forms.js"
+        },
+        {
+          "value": "pattern",
+          "path": "features/javascript/forms.js"
+        },
+        {
+          "value": "pattern",
+          "path": "features/javascript/forms.js"
+        },
+        {
+          "value": "pattern",
+          "path": "common/javascript/codemirror/codemirror.js"
+        },
+        {
+          "value": "pattern",
+          "path": "common/javascript/codemirror/codemirror.js"
+        },
+        {
+          "value": "pattern",
+          "path": "common/javascript/codemirror/codemirror.js"
+        },
+        {
+          "value": "pattern",
+          "path": "common/javascript/codemirror/codemirror.js"
+        },
+        {
+          "value": "pattern",
+          "path": "common/javascript/codemirror/codemirror.js"
+        },
+        {
+          "value": "regex",
+          "path": "common/javascript/codemirror/codemirror.js"
+        },
+        {
+          "value": "regex",
+          "path": "common/javascript/codemirror/javascript.js"
+        },
+        {
+          "value": "regex",
+          "path": "common/javascript/codemirror/javascript.js"
+        },
+        {
+          "value": "pattern",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "pattern",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "pattern",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "pattern",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "regex",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "regex",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "regex",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "regex",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "regex",
+          "path": "generated/javascript/beautify/beautify.js"
+        },
+        {
+          "value": "regex",
+          "path": "generated/javascript/beautify/beautify.js"
+        },
+        {
+          "value": "regex",
+          "path": "generated/javascript/beautify/beautify.js"
+        },
+        {
+          "value": "regex",
+          "path": "generated/javascript/beautify/beautify.js"
+        },
+        {
+          "value": "pattern",
+          "path": "license.txt"
+        }
+      ],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "content/content.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "background/javascript/background.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "common/javascript/common.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dashboard/javascript/dashboard.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "features/javascript/css.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "features/javascript/forms.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "features/javascript/images.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "features/javascript/information.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "features/javascript/miscellaneous.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "features/javascript/outline.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "generated/javascript/view-response-headers.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "GET",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "GET",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "GET",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "GET",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "GET",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "GET",
+          "path": "common/javascript/jquery/jquery.js"
+        },
+        {
+          "value": "POST",
+          "path": "common/javascript/jquery/jquery.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:08:30.913373"
+      }
+    }
+  }
+}

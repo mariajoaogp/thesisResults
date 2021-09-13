@@ -1,0 +1,145 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:08:52.376481 UTC",
+  "_filename": "elebdopnkeckgfhkeeefmpmjjglandmi.crx",
+  "_files": {
+    "background.js": {
+      "md5": "efa71de06b54b1731790476aef9cc722",
+      "sha1": "2562f566e0a5a0e8fab62e91381b8354d9269568",
+      "sha256": "2562f566e0a5a0e8fab62e91381b8354d9269568"
+    },
+    "images/icon-16.png": {
+      "md5": "9a7688711a6862e8ac8f8232467e7648",
+      "sha1": "8e44fdb0679a404b05d074d5bb7bb26d089c7f39",
+      "sha256": "8e44fdb0679a404b05d074d5bb7bb26d089c7f39"
+    },
+    "images/icon-38.png": {
+      "md5": "ee6aed4741b6c62abbfae5369f67308e",
+      "sha1": "872bc5595bdd1db369ffc36936fe12f4663a3bfb",
+      "sha256": "872bc5595bdd1db369ffc36936fe12f4663a3bfb"
+    },
+    "images/icon-48.png": {
+      "md5": "8ef68715211b37e023234abc1a467306",
+      "sha1": "9637d925ca086334c3ad067022189405aff7a3a7",
+      "sha256": "9637d925ca086334c3ad067022189405aff7a3a7"
+    },
+    "images/icon-128.png": {
+      "md5": "a7856da150f55c19f3c4f8d4306aae4f",
+      "sha1": "b63199fe80bc134f6db8c387463ab7aa6285e10b",
+      "sha256": "b63199fe80bc134f6db8c387463ab7aa6285e10b"
+    },
+    "images/icon-19.png": {
+      "md5": "5fac8eb5a606352841570f2e7a2a4476",
+      "sha1": "0b455ee86093cbf5d5e634fc643c15fef5c7a273",
+      "sha256": "0b455ee86093cbf5d5e634fc643c15fef5c7a273"
+    },
+    "manifest.json": {
+      "md5": "0139dfed996d4f8156e88b3bd32c879b",
+      "sha1": "7d4fc916e412e178735b3df7a1cbf6131cc46c9f",
+      "sha256": "7d4fc916e412e178735b3df7a1cbf6131cc46c9f"
+    },
+    "README.md": {
+      "md5": "bad1e000744c07fe791080b2231c3ead",
+      "sha1": "24239c627a5bcf61c4a68abdd2939384ad16a7dc",
+      "sha256": "24239c627a5bcf61c4a68abdd2939384ad16a7dc"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "e6e82074dd2e23a28537ff0fd80f5f5d",
+      "sha1": "e031d4b4fcfe6f0d792d10cf3416d95d63290fee",
+      "sha256": "e031d4b4fcfe6f0d792d10cf3416d95d63290fee"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "manifest_version": 2,
+    "name": "Web Filter for Chrome",
+    "version": "1.10",
+    "description": "Web Filter for Chrome extension enables safe web filtering and Google safe search in Chrome.",
+    "permissions": [
+      "storage",
+      "webRequest",
+      "webRequestBlocking",
+      "webNavigation",
+      "*://*/"
+    ],
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": true
+    },
+    "browser_action": {
+      "default_icon": {
+        "19": "images/icon-19.png",
+        "38": "images/icon-38.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    }
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "5a16db8000bf8fbc67cbb95bb94716c9",
+    "sha1": "65d42ca503bcf4462f96a02ae47d23177d5a6a42",
+    "sha256": "65d42ca503bcf4462f96a02ae47d23177d5a6a42"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "https://www.vionika.com/services/examine/domain",
+          "path": "background.js"
+        },
+        {
+          "value": "https://www.spinbrowse.com/blocked/?url=",
+          "path": "background.js"
+        }
+      ],
+      "email": [],
+      "ipv4": [],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {},
+    "metadata": {
+      "images/icon-16.png": {},
+      "images/icon-38.png": {},
+      "images/icon-48.png": {},
+      "images/icon-128.png": {},
+      "images/icon-19.png": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [],
+      "possible_payments": [],
+      "pattern_recognition": [],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "background.js"
+        },
+        {
+          "value": "POST",
+          "path": "background.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:08:52.453962"
+      }
+    }
+  }
+}

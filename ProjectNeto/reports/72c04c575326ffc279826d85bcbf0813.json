@@ -1,0 +1,3370 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:04:57.919956 UTC",
+  "_filename": "ehmlceddjeepgfiimoofdnkblnkhojbh.crx",
+  "_files": {
+    "assembly.xml": {
+      "md5": "ceeb662f1680235b33c8c2cc92665fa2",
+      "sha1": "8331cb21ee4069391f7caf6d5ee707bac2a95c49",
+      "sha256": "8331cb21ee4069391f7caf6d5ee707bac2a95c49"
+    },
+    "background.js": {
+      "md5": "0a12d39cf6d9f17d747541d62015e250",
+      "sha1": "065ad9d344495bda0dff24130cc758771ce8ed9f",
+      "sha256": "065ad9d344495bda0dff24130cc758771ce8ed9f"
+    },
+    "index.html": {
+      "md5": "d60ce036d91b646f30a96c801bc1c961",
+      "sha1": "b7cf722f9895bd959ed110e806b83316b25557f5",
+      "sha256": "b7cf722f9895bd959ed110e806b83316b25557f5"
+    },
+    "ldmLogo.png": {
+      "md5": "cecc02697e8f6eb369cbd33f00793c95",
+      "sha1": "da23354b650acb3f955c501a3aba90d57069fcda",
+      "sha256": "da23354b650acb3f955c501a3aba90d57069fcda"
+    },
+    "manifest.json": {
+      "md5": "72e0a894182aef15113eb65b750e0db9",
+      "sha1": "55309134c1f406a47c117105c38ceff6c97eec89",
+      "sha256": "55309134c1f406a47c117105c38ceff6c97eec89"
+    },
+    "options.html": {
+      "md5": "f572dabfd7720af9787cd0a6a6b6901d",
+      "sha1": "5c06b6d6496e74ab6a28b268c7dd86f9ab79b216",
+      "sha256": "5c06b6d6496e74ab6a28b268c7dd86f9ab79b216"
+    },
+    "options.js": {
+      "md5": "fbddc94ba870021dd7f9145c4605ad6c",
+      "sha1": "a6da8709c178ec38fe3826fbe8cd2225e0181c2f",
+      "sha256": "a6da8709c178ec38fe3826fbe8cd2225e0181c2f"
+    },
+    "pom.template.xml": {
+      "md5": "b902e84de75d73657b7fcad4c6014a5a",
+      "sha1": "15545f3b3b6ea47e2298def19623f37174e94557",
+      "sha256": "15545f3b3b6ea47e2298def19623f37174e94557"
+    },
+    "popup.html": {
+      "md5": "051f096d49e20e8c4fb690d9a4a88099",
+      "sha1": "37c1b4ca8d9186135aceab7ccbf358d74d40ac60",
+      "sha256": "37c1b4ca8d9186135aceab7ccbf358d74d40ac60"
+    },
+    "popup.js": {
+      "md5": "af869a77298f067c1f057b18fa435db6",
+      "sha1": "2df29b619be6552b0b4dfdffc1d01d39899b28d3",
+      "sha256": "2df29b619be6552b0b4dfdffc1d01d39899b28d3"
+    },
+    "Readme.txt": {
+      "md5": "3a33c20a89c3892746592f6cbcd5d941",
+      "sha1": "b05cb63e08598f52dd4b57fd1d1c928803b02d0a",
+      "sha256": "b05cb63e08598f52dd4b57fd1d1c928803b02d0a"
+    },
+    "res/app1/css/app.css": {
+      "md5": "659608a57380b0651e59db6c91842cd9",
+      "sha1": "68d6af759ebaff5cb5ff6b635542d24cf2abcf61",
+      "sha256": "68d6af759ebaff5cb5ff6b635542d24cf2abcf61"
+    },
+    "res/app1/css/app.css.map": {
+      "md5": "f03a73c3f55fb235fdae5ab1cf3287cf",
+      "sha1": "fc9c16840bd26f74a3c2d9dbe82a5aa35bf38d03",
+      "sha256": "fc9c16840bd26f74a3c2d9dbe82a5aa35bf38d03"
+    },
+    "res/app1/css/app.scss": {
+      "md5": "c6ae2db439cda7021a06e9bd6fd9aa89",
+      "sha1": "846d764e4c2bdd547cca3620fe52d34f07e5ac8d",
+      "sha256": "846d764e4c2bdd547cca3620fe52d34f07e5ac8d"
+    },
+    "res/app1/css/lib.css": {
+      "md5": "70e8f4fbd5b334183fcb07dc974da880",
+      "sha1": "737ef00b466baec15de83fd0d4e338159645879e",
+      "sha256": "737ef00b466baec15de83fd0d4e338159645879e"
+    },
+    "res/app1/css/lib.css.map": {
+      "md5": "2685728a370b797dea82bb20e078c83e",
+      "sha1": "1fc842c3ad701585ac67461bd0f3c03dbfc6a39f",
+      "sha256": "1fc842c3ad701585ac67461bd0f3c03dbfc6a39f"
+    },
+    "res/app1/css/lib.scss": {
+      "md5": "f1332d660c0cd9c8dc693a87c78a88c4",
+      "sha1": "441b83e81e987bb46ac7196fa4dcc1440bcd9eff",
+      "sha256": "441b83e81e987bb46ac7196fa4dcc1440bcd9eff"
+    },
+    "res/app1/favicon.ico": {
+      "md5": "e79032565c4be5197ec424bc296aecae",
+      "sha1": "42793ffe2b562c99c079720df0998dc776b7195c",
+      "sha256": "42793ffe2b562c99c079720df0998dc776b7195c"
+    },
+    "res/app1/js/360/model/ThreeSixtyObject.js": {
+      "md5": "be724ef95ad991d19551cc45a09ce8c8",
+      "sha1": "deeb8ebb2365d983980a2f57e065c953325060de",
+      "sha256": "deeb8ebb2365d983980a2f57e065c953325060de"
+    },
+    "res/app1/js/AppConfigLoader.js": {
+      "md5": "faa2091999b1cf4fe6e061ce1d85b8d3",
+      "sha1": "3af8c5fb236360099323c0611fda3cdff8a8805c",
+      "sha256": "3af8c5fb236360099323c0611fda3cdff8a8805c"
+    },
+    "res/app1/js/AppConfigProvider.js": {
+      "md5": "b7d237ac6702d6abd5b7fe12fd775f9d",
+      "sha1": "84ec7da7fafe620a3f003ee1a9bd9e62d95cb3ba",
+      "sha256": "84ec7da7fafe620a3f003ee1a9bd9e62d95cb3ba"
+    },
+    "res/app1/js/appConfiguration/AppConfig.js": {
+      "md5": "b34fc60c3def64a68bee8f2936c09683",
+      "sha1": "570ff9fedce39b57b50d1e37698fa28b68ae1131",
+      "sha256": "570ff9fedce39b57b50d1e37698fa28b68ae1131"
+    },
+    "res/app1/js/appConfiguration/AppConfigActionButtons.js": {
+      "md5": "2904d0c90942f410a12e9ba27656e659",
+      "sha1": "9e64b3994cb67d80b6a433903246477f0f2fbda8",
+      "sha256": "9e64b3994cb67d80b6a433903246477f0f2fbda8"
+    },
+    "res/app1/js/appConfiguration/AppConfigCommand.js": {
+      "md5": "370183ba5cd4cd1a29dd95a67a8a41f5",
+      "sha1": "b6aa7ed6899098d0470e5030f7125f2df2a93a13",
+      "sha256": "b6aa7ed6899098d0470e5030f7125f2df2a93a13"
+    },
+    "res/app1/js/appConfiguration/AppConfigData.js": {
+      "md5": "cb8b0bba1c4ade69da18dfd96f4c512e",
+      "sha1": "987b7ab20c99992104442e0937217d428f0db423",
+      "sha256": "987b7ab20c99992104442e0937217d428f0db423"
+    },
+    "res/app1/js/core/LDMObject.js": {
+      "md5": "b78add5e3fb7276d86285afccb7f3b7a",
+      "sha1": "91027fdbbd2d18c00bf121ba91ecfe97d8588808",
+      "sha256": "91027fdbbd2d18c00bf121ba91ecfe97d8588808"
+    },
+    "res/app1/js/search/model/SearchObject.js": {
+      "md5": "19372469f795865e8b3b037317f34650",
+      "sha1": "991320f5cdfa98d2f164293465af74321d39111f",
+      "sha256": "991320f5cdfa98d2f164293465af74321d39111f"
+    },
+    "res/app1/js/threeSixty/EventHandlerUtils.js": {
+      "md5": "e39eb7f850f3e878cba15c14565ec739",
+      "sha1": "2738a3379dc287cb7ff2fbb88fa72a4532c6d81e",
+      "sha256": "2738a3379dc287cb7ff2fbb88fa72a4532c6d81e"
+    },
+    "res/app1/js/threeSixty/index.html": {
+      "md5": "eec263c4b1a2b185a97cb6d0e57adb8e",
+      "sha1": "2aece1afa6ca056bf43ab4d3b58f7292ddfc9bf2",
+      "sha256": "2aece1afa6ca056bf43ab4d3b58f7292ddfc9bf2"
+    },
+    "res/app1/js/threeSixty/ObjectOverview.js": {
+      "md5": "36c306461155590b47eb3000d652fe0f",
+      "sha1": "8941f69bbdd0cb3e4574f9556e081ce04a461e82",
+      "sha256": "8941f69bbdd0cb3e4574f9556e081ce04a461e82"
+    },
+    "res/app1/js/threeSixty/ObjectView.js": {
+      "md5": "c790aa500705b9a92eada05d4c35ab31",
+      "sha1": "e5c221ecae369a78883c6017d0d7cb8a34eac2e9",
+      "sha256": "e5c221ecae369a78883c6017d0d7cb8a34eac2e9"
+    },
+    "res/app1/js/threeSixty/ObjectViewHeader.js": {
+      "md5": "81204c34afcd5d38261d4b2299aca623",
+      "sha1": "60e22f93e7eb7f1d8b4636e549ce291296bb3a8e",
+      "sha256": "60e22f93e7eb7f1d8b4636e549ce291296bb3a8e"
+    },
+    "res/app1/js/threeSixty/ObjectWorkspace.js": {
+      "md5": "64249de5d8ec2425b95b33085a45e989",
+      "sha1": "6d87bb829468487db6515d11ce6cfcf5d41afc9c",
+      "sha256": "6d87bb829468487db6515d11ce6cfcf5d41afc9c"
+    },
+    "res/app1/js/threeSixty/OverviewPanelGroup.js": {
+      "md5": "b91c4be921d574c66513eb8b307580c5",
+      "sha1": "016e431cf1e46dd7c74b84e419864184825fbfa7",
+      "sha256": "016e431cf1e46dd7c74b84e419864184825fbfa7"
+    },
+    "res/app1/js/threeSixty/panels/AbstractPanel.js": {
+      "md5": "78914aa4275ea473a9642bb355bf7fc9",
+      "sha1": "a6c9932fccac71dfa603274f713a1424667980b1",
+      "sha256": "a6c9932fccac71dfa603274f713a1424667980b1"
+    },
+    "res/app1/js/threeSixty/panels/ClassifiersPanel.js": {
+      "md5": "a75749574ed901fae6f33f225d275d55",
+      "sha1": "5e5ee985de13ce97a190c33f797255819474ca73",
+      "sha256": "5e5ee985de13ce97a190c33f797255819474ca73"
+    },
+    "res/app1/js/threeSixty/panels/ColumnsPanel.js": {
+      "md5": "bf2d9fd57f04a534f8d461eec5eb6a36",
+      "sha1": "dc3deb814eefcecef1d1a9224a8f0c76f52c7fe1",
+      "sha256": "dc3deb814eefcecef1d1a9224a8f0c76f52c7fe1"
+    },
+    "res/app1/js/threeSixty/panels/CustomPropPanel.js": {
+      "md5": "1daea67f1157c1fb4ff6b90f4b312330",
+      "sha1": "fd1323269244b46ccd273b86aa7ffee0cdbbdd52",
+      "sha256": "fd1323269244b46ccd273b86aa7ffee0cdbbdd52"
+    },
+    "res/app1/js/threeSixty/panels/DataDomainPanel.js": {
+      "md5": "56ef3a79e0778dd26ec0e8a2aead8dbd",
+      "sha1": "9b2962827f82477bbf9c7c6d93c4a5c7020a54a7",
+      "sha256": "9b2962827f82477bbf9c7c6d93c4a5c7020a54a7"
+    },
+    "res/app1/js/threeSixty/panels/DescriptionPanel.js": {
+      "md5": "08ddd30a4d0d59ba0793ac040d130295",
+      "sha1": "ac3bd8eb2e167e2dccb32f5d80dae51fa0a87573",
+      "sha256": "ac3bd8eb2e167e2dccb32f5d80dae51fa0a87573"
+    },
+    "res/app1/js/threeSixty/panels/GeneralPropPanel.js": {
+      "md5": "8d5a67e1f19ce7aaf6c7e795adbaea84",
+      "sha1": "9692ed8cdc65870f18c3244f7bce57fcdef2ffdd",
+      "sha256": "9692ed8cdc65870f18c3244f7bce57fcdef2ffdd"
+    },
+    "res/app1/js/threeSixty/panels/HeaderPanel.js": {
+      "md5": "2476ae76fb7179716a80b23a64c97a20",
+      "sha1": "3afd5d70b13e5fa50a866ff30d2d938c144638ce",
+      "sha256": "3afd5d70b13e5fa50a866ff30d2d938c144638ce"
+    },
+    "res/app1/js/threeSixty/panels/PropertiesPanel.js": {
+      "md5": "5a5d3eff94cee388f3dc4d3bd85e9448",
+      "sha1": "fb7ef0cc16260d4f6fcea0bb46c58606275ca82d",
+      "sha256": "fb7ef0cc16260d4f6fcea0bb46c58606275ca82d"
+    },
+    "res/app1/js/threeSixty/panels/RTFContentPanel.js": {
+      "md5": "56064218bedc4c7a2d1ac2eedddc9cc8",
+      "sha1": "e8c2c5b6d8dc0bb5c917bc56723c05e45304dc21",
+      "sha256": "e8c2c5b6d8dc0bb5c917bc56723c05e45304dc21"
+    },
+    "res/app1/js/threeSixty/panels/RTFPropPanel.js": {
+      "md5": "2b9e79504dfb57bfdfcbfdc20f458a1a",
+      "sha1": "7b74ca1315ae88805ae9aad694042d8e11f9b4c4",
+      "sha256": "7b74ca1315ae88805ae9aad694042d8e11f9b4c4"
+    },
+    "res/app1/js/threeSixty/panels/UserPanel.js": {
+      "md5": "df5bf72bf43881fb2b235636ebde4adb",
+      "sha1": "1ba450448a7e26ddaf18feb86338a23d78182f71",
+      "sha256": "1ba450448a7e26ddaf18feb86338a23d78182f71"
+    },
+    "res/app1/js/threeSixty/widgets/CustomFormField.js": {
+      "md5": "263e853ac5a9f9a0aaea6149fface5b7",
+      "sha1": "bdc5f2c80482db005486d4ad63547d09d84c9680",
+      "sha256": "bdc5f2c80482db005486d4ad63547d09d84c9680"
+    },
+    "res/app1/js/threeSixty/widgets/PropertiesView.js": {
+      "md5": "0247f1033fc96a8653f1251815abd4bf",
+      "sha1": "eca6b249eddc29eb36c94bb17402ff9ccf041116",
+      "sha256": "eca6b249eddc29eb36c94bb17402ff9ccf041116"
+    },
+    "res/app1/js/threeSixty/widgets/RtfEditor.js": {
+      "md5": "1b7afb645b41f65260ebe80a10b55d8e",
+      "sha1": "fddcc71b2c8d6f6e480b9ecb04614d52ed1aec50",
+      "sha256": "fddcc71b2c8d6f6e480b9ecb04614d52ed1aec50"
+    },
+    "res/app1/js/threeSixty/widgets/ValueSelectionDialog.js": {
+      "md5": "29fb99eb1e70e3e653e47436c872344c",
+      "sha1": "274d1222428a76e0c7e39f29d51a47fe3607b6e3",
+      "sha256": "274d1222428a76e0c7e39f29d51a47fe3607b6e3"
+    },
+    "res/app1/lib/config/chromeExtension/360OverviewTabConfiguration.json": {
+      "md5": "9c4136451bbfdb6312446e1c09eabc53",
+      "sha1": "a7aa234dcd92a471f7dc9d7b94ba783d95dbe65f",
+      "sha256": "a7aa234dcd92a471f7dc9d7b94ba783d95dbe65f"
+    },
+    "res/app1/lib/config/chromeExtension/360PresenceConfig.json": {
+      "md5": "955c12a0aa33c3823ffd19dba02d380e",
+      "sha1": "f29f5705a2841033e2217f26e3e6543a0e002cd2",
+      "sha256": "f29f5705a2841033e2217f26e3e6543a0e002cd2"
+    },
+    "res/app1/lib/config/chromeExtension/facetsConfig.json": {
+      "md5": "72a86e8f29ade4ec6cca149bee6efe81",
+      "sha1": "29c5d7f6c92d23832452ee7677bb5e08ee26433c",
+      "sha256": "29c5d7f6c92d23832452ee7677bb5e08ee26433c"
+    },
+    "res/app1/lib/config/default/360OverviewTabConfiguration.json": {
+      "md5": "f4b385502fdc51e05fe02c2a38f33b16",
+      "sha1": "f37e5d08427717705095e36985cf4a59cba9c567",
+      "sha256": "f37e5d08427717705095e36985cf4a59cba9c567"
+    },
+    "res/app1/lib/config/default/360ViewConfiguration.json": {
+      "md5": "0fc941ed255a3caa3edcf4671097dce6",
+      "sha1": "c8c6b77617045d1473df783fae6398a6fcd93a3c",
+      "sha256": "c8c6b77617045d1473df783fae6398a6fcd93a3c"
+    },
+    "res/app1/lib/config/default/overviewDemo.json": {
+      "md5": "45314e135fe49040e1c1470bc027758d",
+      "sha1": "42fcbbae04f6ad6f06c6a83e62d114f2e7b0d5d9",
+      "sha256": "42fcbbae04f6ad6f06c6a83e62d114f2e7b0d5d9"
+    },
+    "res/css/bootstrap.min.css": {
+      "md5": "2ac389a5044da52bb4386dd35bc9f172",
+      "sha1": "7065bd2a9e1416f028ffcea11c67d4f072174a1a",
+      "sha256": "7065bd2a9e1416f028ffcea11c67d4f072174a1a"
+    },
+    "res/css/content_script.css": {
+      "md5": "164981cccf1a6483033d56b756d20f03",
+      "sha1": "29bc0974bdb75d9eef2ecf1d4c8acf95d6ac820c",
+      "sha256": "29bc0974bdb75d9eef2ecf1d4c8acf95d6ac820c"
+    },
+    "res/css/cus.css": {
+      "md5": "b3223ce28c088025bd44f3cf13c8c360",
+      "sha1": "b24760bbc978c279171bcb0e6c3c5826cf1dc4ba",
+      "sha256": "b24760bbc978c279171bcb0e6c3c5826cf1dc4ba"
+    },
+    "res/css/eicStyle.css": {
+      "md5": "28e2ca25219f3423fe1db92be7f896cf",
+      "sha1": "e1648df34a7c9bd54dd11f55caef91dd916d1d08",
+      "sha256": "e1648df34a7c9bd54dd11f55caef91dd916d1d08"
+    },
+    "res/css/index.css": {
+      "md5": "fff2fdc66a5f28749244a0f42ef202a4",
+      "sha1": "49aae934c422de91064570335ff497854a2adb2d",
+      "sha256": "49aae934c422de91064570335ff497854a2adb2d"
+    },
+    "res/css/index_backup.css": {
+      "md5": "dc3e61da772dfa0d5cd1ecc882604b98",
+      "sha1": "3ef65fa1536f60496b0669c406fba7618df0df7e",
+      "sha256": "3ef65fa1536f60496b0669c406fba7618df0df7e"
+    },
+    "res/css/jquery-ui.css": {
+      "md5": "31b3583301e4559b44ce2d995454d61e",
+      "sha1": "24a2f4a77217ae33d911fa65c26acbdea0a905dc",
+      "sha256": "24a2f4a77217ae33d911fa65c26acbdea0a905dc"
+    },
+    "res/css/jquery-ui.min.css": {
+      "md5": "f65a071335faf90c820a1dadd0c32bb6",
+      "sha1": "a935f01c1a28dc807f3e7a555a6c75f46c7677ac",
+      "sha256": "a935f01c1a28dc807f3e7a555a6c75f46c7677ac"
+    },
+    "res/css/jquery-ui.structure.css": {
+      "md5": "55415c5ded08d6834614370afeebd5f3",
+      "sha1": "4a081a2526358ea1983edfe665078de33dc15893",
+      "sha256": "4a081a2526358ea1983edfe665078de33dc15893"
+    },
+    "res/css/jquery-ui.structure.min.css": {
+      "md5": "6666e6306d6ce546be2078bd777955a4",
+      "sha1": "9d6aa7fb05e5e33b7d9e3d6d3c49260a33c42886",
+      "sha256": "9d6aa7fb05e5e33b7d9e3d6d3c49260a33c42886"
+    },
+    "res/css/jquery-ui.theme.css": {
+      "md5": "bb47846158502430a9fe52f4124abd10",
+      "sha1": "19f2eb61d01a704af821a5aebdb7fbd6e4fbc86a",
+      "sha256": "19f2eb61d01a704af821a5aebdb7fbd6e4fbc86a"
+    },
+    "res/css/jquery-ui.theme.min.css": {
+      "md5": "fd3f32ebcd8cbc428586dada7d3e7c17",
+      "sha1": "bf1d348f968c6997dc980471a62346fd6b929559",
+      "sha256": "bf1d348f968c6997dc980471a62346fd6b929559"
+    },
+    "res/css/login.css": {
+      "md5": "7d28df70dcf3b2abe3c53f4683edd7ae",
+      "sha1": "be57fa43ba681183edb40ee2e32bf918bff9c177",
+      "sha256": "be57fa43ba681183edb40ee2e32bf918bff9c177"
+    },
+    "res/css/popup.css": {
+      "md5": "e587edb983ee2b01e404e95eb44bf514",
+      "sha1": "942e60ff3d1d2bb52be07d843d7f649cc279306d",
+      "sha256": "942e60ff3d1d2bb52be07d843d7f649cc279306d"
+    },
+    "res/css/symphony-core-3.3.0.css": {
+      "md5": "6593e64545172e5f1d68d549e2788494",
+      "sha1": "9ceb90fa10e59c0d047f0f1cc76133e68edbabe1",
+      "sha256": "9ceb90fa10e59c0d047f0f1cc76133e68edbabe1"
+    },
+    "res/css/symphony-dataPreview-3.3.0.css": {
+      "md5": "db5597b802d68ffb453ab8f846095d9f",
+      "sha1": "eb46484e54dc0d1234b9086f5b2e8d5c88828345",
+      "sha256": "eb46484e54dc0d1234b9086f5b2e8d5c88828345"
+    },
+    "res/css/symphony-imf-3.3.0.css": {
+      "md5": "be1adef34d2697f94034e3a7bf8cc9a1",
+      "sha1": "02afd9b7aa634ab7d427af143cfc8ecbf1021a87",
+      "sha256": "02afd9b7aa634ab7d427af143cfc8ecbf1021a87"
+    },
+    "res/css/symphony-inbox-3.3.0.css": {
+      "md5": "e18350897a9d4de9588d8d063f70af47",
+      "sha1": "49488ddaee49ddf97ee6fde3379a6499d54ff542",
+      "sha256": "49488ddaee49ddf97ee6fde3379a6499d54ff542"
+    },
+    "res/css/symphony-library-3.3.0.css": {
+      "md5": "b2ddc39faac1736cd70b948f13f73ae8",
+      "sha1": "b9db7a600bbf7a9e8b8ecdb51f17ae6ab5067556",
+      "sha256": "b9db7a600bbf7a9e8b8ecdb51f17ae6ab5067556"
+    },
+    "res/css/symphony-search-3.3.0.css": {
+      "md5": "1831b8e46aef7172c7bb099d7862a565",
+      "sha1": "5b220649c5d82f80cad4781ecb00b0eb88b3cfbb",
+      "sha256": "5b220649c5d82f80cad4781ecb00b0eb88b3cfbb"
+    },
+    "res/css/symphony-services-isp-3.3.0.css": {
+      "md5": "637d080a147c2b73e0b47a90ec547eee",
+      "sha1": "753ec9903b22d2344724080f379193dd320c90ff",
+      "sha256": "753ec9903b22d2344724080f379193dd320c90ff"
+    },
+    "res/css/symphony-webShell-3.3.0.css": {
+      "md5": "fa8f2c5f83b8eeaaeb3e437e148a196c",
+      "sha1": "648cee612d5ff8904144f3cd4bcbdfee67d762c3",
+      "sha256": "648cee612d5ff8904144f3cd4bcbdfee67d762c3"
+    },
+    "res/css/symphony-widgets-3.3.0.css": {
+      "md5": "c78110e18505e672d8a594770a5c29a6",
+      "sha1": "318f6e5ba22bbc6a5d50c1b033bbb2d58f455c47",
+      "sha256": "318f6e5ba22bbc6a5d50c1b033bbb2d58f455c47"
+    },
+    "res/fonts/FontAwesome.otf": {
+      "md5": "22f57d72094de338f835448308575396",
+      "sha1": "f7ea7e48601d0af417c86febdaf508274e67b5a7",
+      "sha256": "f7ea7e48601d0af417c86febdaf508274e67b5a7"
+    },
+    "res/fonts/fontawesome-webfont.eot": {
+      "md5": "f27486311b4e1a0f626e6e1373c99431",
+      "sha1": "224a5d7e6d19effde364bb58201f2585084091f5",
+      "sha256": "224a5d7e6d19effde364bb58201f2585084091f5"
+    },
+    "res/fonts/fontawesome-webfont.svg": {
+      "md5": "9a036d8584496ca9e3f59b108379c83c",
+      "sha1": "f59411412625dba7d7961ac0cdcd1312438e3b90",
+      "sha256": "f59411412625dba7d7961ac0cdcd1312438e3b90"
+    },
+    "res/fonts/fontawesome-webfont.ttf": {
+      "md5": "023c5dfb12c002dcb4ea3e4afd2e123e",
+      "sha1": "f210844990054e32149d191ed5aec2d98fbfa310",
+      "sha256": "f210844990054e32149d191ed5aec2d98fbfa310"
+    },
+    "res/fonts/fontawesome-webfont.woff": {
+      "md5": "4d4ea582886c32f4e64648cb36cdd355",
+      "sha1": "9013d6d259148ce1634d3d1e7eaf65340c846057",
+      "sha256": "9013d6d259148ce1634d3d1e7eaf65340c846057"
+    },
+    "res/fonts/fontawesome-webfont.woff2": {
+      "md5": "2cf93848aafa0a9fde52709725ed0037",
+      "sha1": "4cf8605725db88363ce138c93c0ef54b85b9e5bf",
+      "sha256": "4cf8605725db88363ce138c93c0ef54b85b9e5bf"
+    },
+    "res/fonts/FTN45.otf": {
+      "md5": "1b72eccb1dcd51be58472c60901a15b1",
+      "sha1": "b5d9be26f395cdfbc8d9515eb0d488f4771b8c69",
+      "sha256": "b5d9be26f395cdfbc8d9515eb0d488f4771b8c69"
+    },
+    "res/fonts/FTN46.otf": {
+      "md5": "6398c94931b01543740586ae1061d578",
+      "sha1": "7cbbc4d877ec22fb3d79eb776aebec5fbef01d00",
+      "sha256": "7cbbc4d877ec22fb3d79eb776aebec5fbef01d00"
+    },
+    "res/fonts/FTN55.otf": {
+      "md5": "9f8bb0f4bd824196423b7d8327e54510",
+      "sha1": "ae03d1434c2f54080ffc02cce9c26eaf7758ea98",
+      "sha256": "ae03d1434c2f54080ffc02cce9c26eaf7758ea98"
+    },
+    "res/fonts/FTN56.otf": {
+      "md5": "d643d73d0279318c624ce5cd8cac776c",
+      "sha1": "5974ad0a29da54ac5e618a420b582a06fe15e40b",
+      "sha256": "5974ad0a29da54ac5e618a420b582a06fe15e40b"
+    },
+    "res/fonts/FTN85.otf": {
+      "md5": "0d8a63ba5c19f8d4efcc789683461941",
+      "sha1": "e03ee90ec7296d289356f5b53eca32ed39b4c5d2",
+      "sha256": "e03ee90ec7296d289356f5b53eca32ed39b4c5d2"
+    },
+    "res/fonts/FTN86.otf": {
+      "md5": "13ecce44a7d848946124cb875a650795",
+      "sha1": "efa77ede542bb43245d6ea8cf3191d5a8b45da33",
+      "sha256": "efa77ede542bb43245d6ea8cf3191d5a8b45da33"
+    },
+    "res/fonts/Roboto-Thin.otf": {
+      "md5": "5aa2487c66b13aaec5fad43a48bb6085",
+      "sha1": "a1ad1cd876a33065c63ba57aa5795ca689092ca3",
+      "sha256": "a1ad1cd876a33065c63ba57aa5795ca689092ca3"
+    },
+    "res/fonts/Roboto-Thin.ttf": {
+      "md5": "cd8824cd80635cce185563594105f380",
+      "sha1": "679023f9d2fcda25e18da8176f655d53db58d4e7",
+      "sha256": "679023f9d2fcda25e18da8176f655d53db58d4e7"
+    },
+    "res/images/AxonGlossary.svg": {
+      "md5": "ae132bb9b3dfdfbbf05af879cbeea06e",
+      "sha1": "253006f8504591ce975819b85aa5fb00a65656ef",
+      "sha256": "253006f8504591ce975819b85aa5fb00a65656ef"
+    },
+    "res/images/BGTerm.svg": {
+      "md5": "9fc346ff690789a0e0afdee928b14817",
+      "sha1": "c5013f9ac973b97b56d4a44920df4fa457bf5f99",
+      "sha256": "c5013f9ac973b97b56d4a44920df4fa457bf5f99"
+    },
+    "res/images/clearFilter.svg": {
+      "md5": "97d739411091bf1a69b95ba40b60c720",
+      "sha1": "75309ad1e23ca2d8d99ded57d38f2a4788bd6787",
+      "sha256": "75309ad1e23ca2d8d99ded57d38f2a4788bd6787"
+    },
+    "res/images/close.esvg": {
+      "md5": "48b54e393ae8fd09d105f5e22ba4484a",
+      "sha1": "b7f0caca491ec57961d93dd3ab5d36812b4e5689",
+      "sha256": "b7f0caca491ec57961d93dd3ab5d36812b4e5689"
+    },
+    "res/images/close.svg": {
+      "md5": "9dcc1e2fed80e3f822c99d3147eaf27e",
+      "sha1": "44e6bcabbf0f889d62d943a298dfd839cd436376",
+      "sha256": "44e6bcabbf0f889d62d943a298dfd839cd436376"
+    },
+    "res/images/Column.svg": {
+      "md5": "15cce2475f867904e9031540ba206b4b",
+      "sha1": "42dc5a54bbed11a8770339c44d443a7fe1670c3f",
+      "sha256": "42dc5a54bbed11a8770339c44d443a7fe1670c3f"
+    },
+    "res/images/CompositeDomain.svg": {
+      "md5": "7c321faa7752bf3548044a042c2a3797",
+      "sha1": "95512a2b05542177c9e75fc704b6b74142047d56",
+      "sha256": "95512a2b05542177c9e75fc704b6b74142047d56"
+    },
+    "res/images/description.svg": {
+      "md5": "e878475c68d8b7c92ec0c9d73a854798",
+      "sha1": "0bdc2be39ba71bcd6a7345c102603e5d68badf18",
+      "sha256": "0bdc2be39ba71bcd6a7345c102603e5d68badf18"
+    },
+    "res/images/downvote.svg": {
+      "md5": "fd26626e7ee641a721b859b10bea3769",
+      "sha1": "3d31ee0ad578d9ebaf63c4bdef84806c04216fde",
+      "sha256": "3d31ee0ad578d9ebaf63c4bdef84806c04216fde"
+    },
+    "res/images/favicon.ico": {
+      "md5": "26bb5df6a12ed71efbd8b3e3d1642530",
+      "sha1": "e1df349cf975df0214b2d01d687eb815ea9a1c97",
+      "sha256": "e1df349cf975df0214b2d01d687eb815ea9a1c97"
+    },
+    "res/images/filter.svg": {
+      "md5": "18816c8dbe6eb7bb96ff534a920c4faa",
+      "sha1": "e35834c5e1790029926de3b18e48f676cf28cae0",
+      "sha256": "e35834c5e1790029926de3b18e48f676cf28cae0"
+    },
+    "res/images/Generic.svg": {
+      "md5": "eae06dc8f63b1b4f721f0d5de46814e2",
+      "sha1": "1a08897a8554c1b5590f3aad8a046975071fa54b",
+      "sha256": "1a08897a8554c1b5590f3aad8a046975071fa54b"
+    },
+    "res/images/header.png": {
+      "md5": "14ed8f3d3318ccff182fe2bbecb40733",
+      "sha1": "350ffac468db610837f8ec9fa8146008e3623174",
+      "sha256": "350ffac468db610837f8ec9fa8146008e3623174"
+    },
+    "res/images/ldmLogo.svg": {
+      "md5": "7e6f08002aab9cbedfd24736d40b6d26",
+      "sha1": "738a59c979eb08c8b3fced531c6b167f6ff21cd9",
+      "sha256": "738a59c979eb08c8b3fced531c6b167f6ff21cd9"
+    },
+    "res/images/lineage.svg": {
+      "md5": "eaee31ea95748d1c8f43b63926db7b75",
+      "sha1": "115e265cae5fbecd202b01f839966240aaad484c",
+      "sha256": "115e265cae5fbecd202b01f839966240aaad484c"
+    },
+    "res/images/openNewWindow.png": {
+      "md5": "507f4dcdcf98e04a4bbca79d44899fe4",
+      "sha1": "bd6eebee27f29b3a2ca4a94a025fbaedc5c21516",
+      "sha256": "bd6eebee27f29b3a2ca4a94a025fbaedc5c21516"
+    },
+    "res/images/preloader.gif": {
+      "md5": "419d60eeafeb5e84362d49e0b5676b2a",
+      "sha1": "2c8a9af441d5aa174d2a87268c9ad61cfd32078a",
+      "sha256": "2c8a9af441d5aa174d2a87268c9ad61cfd32078a"
+    },
+    "res/images/relationship.svg": {
+      "md5": "4aa41802a530e6995a899f5ed8d30962",
+      "sha1": "147906d7be3481773d5decc59ffd5dedf764135d",
+      "sha256": "147906d7be3481773d5decc59ffd5dedf764135d"
+    },
+    "res/images/Report.svg": {
+      "md5": "2809c4046031a7fd80cd220022d058d3",
+      "sha1": "2f67834e9d9c81a4b80e9baabd1a703b7b7f3861",
+      "sha256": "2f67834e9d9c81a4b80e9baabd1a703b7b7f3861"
+    },
+    "res/images/search.svg": {
+      "md5": "31c0f03372c064cd12480fdda0cc56d5",
+      "sha1": "2d8715927f1e450a8a7910d5284f85a1f00763c5",
+      "sha256": "2d8715927f1e450a8a7910d5284f85a1f00763c5"
+    },
+    "res/images/searchBackground.png": {
+      "md5": "b57a967ba2e9d01968a47e96e1bfbaa1",
+      "sha1": "5132e72e6be2495b090dd928b363ff7e74b33e38",
+      "sha256": "5132e72e6be2495b090dd928b363ff7e74b33e38"
+    },
+    "res/images/settings.svg": {
+      "md5": "cd8f76cb0b45bb741bb98eecf25a4781",
+      "sha1": "0fb6b15cc8bc10158eb6d293a80d6410a142af4d",
+      "sha256": "0fb6b15cc8bc10158eb6d293a80d6410a142af4d"
+    },
+    "res/images/small_check.svg": {
+      "md5": "6769a1b97de4d449c2eb1525a9e441bb",
+      "sha1": "836217dae09caba55c6903a911d2c3509c55ec7d",
+      "sha256": "836217dae09caba55c6903a911d2c3509c55ec7d"
+    },
+    "res/images/small_go.svg": {
+      "md5": "c28718b6bb77ccf1409951d47efc453a",
+      "sha1": "b72a033694451811eb7cfad75e9e5f94956027d3",
+      "sha256": "b72a033694451811eb7cfad75e9e5f94956027d3"
+    },
+    "res/images/sort.svg": {
+      "md5": "c1c5854c8d8d64ff6da4c8719984bce1",
+      "sha1": "80643ada2e5e9cf0a6e54f835744f0b9665727f8",
+      "sha256": "80643ada2e5e9cf0a6e54f835744f0b9665727f8"
+    },
+    "res/images/Table.svg": {
+      "md5": "ec86e378d8607e4c023a921491f6fc52",
+      "sha1": "8b95c6c39b1a1f1e45f8127027385c2f881229e3",
+      "sha256": "8b95c6c39b1a1f1e45f8127027385c2f881229e3"
+    },
+    "res/images/upvote.svg": {
+      "md5": "99707fabda9cb77bafce9954918fdda3",
+      "sha1": "c1f9fc1581e892a35c79f99d07ab839954efa9f4",
+      "sha256": "c1f9fc1581e892a35c79f99d07ab839954efa9f4"
+    },
+    "res/images/user.svg": {
+      "md5": "6dfb1e77ead68cce23207998d1221065",
+      "sha1": "bdeb002d3a65a1dd4eb0e2330add4fb586fb2259",
+      "sha256": "bdeb002d3a65a1dd4eb0e2330add4fb586fb2259"
+    },
+    "res/js/ajaxUtils.js": {
+      "md5": "78baae10430fb24af753de49991d873a",
+      "sha1": "4ca30aac4eb52c6a8e2a9e50d4f03245ea3a7298",
+      "sha256": "4ca30aac4eb52c6a8e2a9e50d4f03245ea3a7298"
+    },
+    "res/js/bootstrap.js": {
+      "md5": "561a6142c384748c93985be219ae51b4",
+      "sha1": "88b4075c17aa1032c85e7f585503c26642bf9fda",
+      "sha256": "88b4075c17aa1032c85e7f585503c26642bf9fda"
+    },
+    "res/js/content_script.js": {
+      "md5": "43130a5bc14ffa21331b812300ebdf89",
+      "sha1": "28c778ee320ea835a2a3301d11911568e8c214d6",
+      "sha256": "28c778ee320ea835a2a3301d11911568e8c214d6"
+    },
+    "res/js/core/ExtensionEICObject.js": {
+      "md5": "e036f04231506308a82f187d42f00c15",
+      "sha1": "964545254b3544d2b0f257a1d5aff973b68b95cf",
+      "sha256": "964545254b3544d2b0f257a1d5aff973b68b95cf"
+    },
+    "res/js/core/LazyAppConfigData.js": {
+      "md5": "2b4b3940c8a3d1ed509ff19627e05603",
+      "sha1": "a0ee7e72da418680eb88876cd6b4d506f8642840",
+      "sha256": "a0ee7e72da418680eb88876cd6b4d506f8642840"
+    },
+    "res/js/eicConfiguration.js": {
+      "md5": "43ff729ea1acbb15921bdab09b6fbc35",
+      "sha1": "ee9e154a7660d3589ab9542d57a4bd6f8f3e1139",
+      "sha256": "ee9e154a7660d3589ab9542d57a4bd6f8f3e1139"
+    },
+    "res/js/EICsession.js": {
+      "md5": "6103a9acfd058d9e01903158542d4d20",
+      "sha1": "42f3bf0090425691f03eca795d3c7f51bfde7ba1",
+      "sha256": "42f3bf0090425691f03eca795d3c7f51bfde7ba1"
+    },
+    "res/js/errorhandling.js": {
+      "md5": "8f114327dd193d072b2dc255014a7ac6",
+      "sha1": "d6884a13180b41446305d88300c89096185730c1",
+      "sha256": "d6884a13180b41446305d88300c89096185730c1"
+    },
+    "res/js/extensionContainer.js": {
+      "md5": "05a95db6f5e58011df490b80be3d404f",
+      "sha1": "12d0eaeb108d914dd3f533384a1ca270c28a1a1f",
+      "sha256": "12d0eaeb108d914dd3f533384a1ca270c28a1a1f"
+    },
+    "res/js/extensionContainerView.js": {
+      "md5": "702b1e0f534c724f8ab575999f9bf19b",
+      "sha1": "627f618980b151075b4b87cb6db0c3106427a3d4",
+      "sha256": "627f618980b151075b4b87cb6db0c3106427a3d4"
+    },
+    "res/js/extensionView.js": {
+      "md5": "74887a66fa4f5278072df3d2d820a2dc",
+      "sha1": "70d024b696e31c2bb64369dd41ce4e19f421d56b",
+      "sha256": "70d024b696e31c2bb64369dd41ce4e19f421d56b"
+    },
+    "res/js/jquery/jquery.class.js": {
+      "md5": "9cbeaf5348ead4cd13ded081ae6c337b",
+      "sha1": "582e506eb9f3bd4baf22a33c943afb2ef40aaff1",
+      "sha256": "582e506eb9f3bd4baf22a33c943afb2ef40aaff1"
+    },
+    "res/js/jquery/jquery.cookie.js": {
+      "md5": "443129e51f84f6b1d42249c07971767b",
+      "sha1": "aefd442f78c677f9664a84a1b8264eb2e5e65bb3",
+      "sha256": "aefd442f78c677f9664a84a1b8264eb2e5e65bb3"
+    },
+    "res/js/jquery/jquery.lang.string.js": {
+      "md5": "7afd3c3b1a62a3843ea46c746d87f141",
+      "sha1": "e0460e1d219b04273c81b2ad5b87b64396ea147f",
+      "sha256": "e0460e1d219b04273c81b2ad5b87b64396ea147f"
+    },
+    "res/js/jquery/jquery.reflection.js": {
+      "md5": "492b6482e764b09c26726b6a2bbc34b5",
+      "sha1": "8d64c9767981ffa152e81bd7f084f2f931aa2787",
+      "sha256": "8d64c9767981ffa152e81bd7f084f2f931aa2787"
+    },
+    "res/js/jquery/jquery-3.2.1.min.js": {
+      "md5": "cc0b4279a19947aac5b1142dc0ff2a25",
+      "sha1": "a216ed9b61370b605bbbb7d9692fff91491dcebb",
+      "sha256": "a216ed9b61370b605bbbb7d9692fff91491dcebb"
+    },
+    "res/js/jquery/jquery-tmpl.js": {
+      "md5": "c3ae129194c604c54417dbad64bb2906",
+      "sha1": "5a2a9f6c172748476645de444bf5610a9e41b232",
+      "sha256": "5a2a9f6c172748476645de444bf5610a9e41b232"
+    },
+    "res/js/jquery/jquery-ui.min.js": {
+      "md5": "ec1feddc288d7bd8de2a55db6b54161e",
+      "sha1": "e7ddf0bfa67ef306c20fd042f986ed7da3d9d300",
+      "sha256": "e7ddf0bfa67ef306c20fd042f986ed7da3d9d300"
+    },
+    "res/js/panels/BGDetailsPanel.js": {
+      "md5": "30249a14bc7f7c4e1f24302919896697",
+      "sha1": "5aab91cf8e83b0362f17b3f491f3c92ff161b936",
+      "sha256": "5aab91cf8e83b0362f17b3f491f3c92ff161b936"
+    },
+    "res/js/panels/BGPanel.js": {
+      "md5": "05416c6084535cb98516067c3d442be1",
+      "sha1": "fe11b4f7b570dfdad76b58370958ceb38c921ade",
+      "sha256": "fe11b4f7b570dfdad76b58370958ceb38c921ade"
+    },
+    "res/js/panels/BusinessTermsPanel.js": {
+      "md5": "1a70fc5e5cb38e5fa371d9a18111fe94",
+      "sha1": "3877910cf76cd3b7fbff5467b5caa0941d505086",
+      "sha256": "3877910cf76cd3b7fbff5467b5caa0941d505086"
+    },
+    "res/js/panels/ColumnsPanel.js": {
+      "md5": "e25f9cb2caee168528af73333929f87d",
+      "sha1": "0d7ded1a15ce135f7306c6935b5039201667c7cb",
+      "sha256": "0d7ded1a15ce135f7306c6935b5039201667c7cb"
+    },
+    "res/js/panels/CommentsPanel.js": {
+      "md5": "03e8e80b9d03a8386503a2211b4a72be",
+      "sha1": "daa5f26b1728114c2afacebad5a6928fcc9438f1",
+      "sha256": "daa5f26b1728114c2afacebad5a6928fcc9438f1"
+    },
+    "res/js/panels/CompositeDDPanel.js": {
+      "md5": "b6a93c30be7cdf3c553b3a2efba72004",
+      "sha1": "9d1edb8d349a3b40009180ef25def55c18e03cd1",
+      "sha256": "9d1edb8d349a3b40009180ef25def55c18e03cd1"
+    },
+    "res/js/panels/DescriptionPanel.js": {
+      "md5": "884f04716e8215521f5b1dfcb8371218",
+      "sha1": "5ef178d02287e57d2fb004175f4bf78d7ad8fa1a",
+      "sha256": "5ef178d02287e57d2fb004175f4bf78d7ad8fa1a"
+    },
+    "res/js/panels/ExtensionPanel.js": {
+      "md5": "8ae9c117d5e57e88fd2ed66ca6efd8fe",
+      "sha1": "49b96e54ff89651dd281b8f70d26c4d8d62917db",
+      "sha256": "49b96e54ff89651dd281b8f70d26c4d8d62917db"
+    },
+    "res/js/panels/FacetsPanel.js": {
+      "md5": "b4061df044f55cc32aadd9625b63eaeb",
+      "sha1": "50481902f4991439ffb7d12dedc6ccb6e1ad4660",
+      "sha256": "50481902f4991439ffb7d12dedc6ccb6e1ad4660"
+    },
+    "res/js/panels/HeaderPanel.js": {
+      "md5": "86d0b545afae40b7beebe300b2f05dae",
+      "sha1": "9386234e0bf0170b1cbaf1f4b93dc57ce0a323a7",
+      "sha256": "9386234e0bf0170b1cbaf1f4b93dc57ce0a323a7"
+    },
+    "res/js/panels/IconListPanel.js": {
+      "md5": "856e99babb6aedd0afb94caeb091559a",
+      "sha1": "40f7b0a5d2d83c4fcc331850e317df3b02985840",
+      "sha256": "40f7b0a5d2d83c4fcc331850e317df3b02985840"
+    },
+    "res/js/panels/LineagePanel.js": {
+      "md5": "94fcb58038d811d75b6fbdf16b2eb848",
+      "sha1": "6a7578b0d9c352cb132fc6f7f54e6a0c87426754",
+      "sha256": "6a7578b0d9c352cb132fc6f7f54e6a0c87426754"
+    },
+    "res/js/panels/PluginAbstractPanel.js": {
+      "md5": "5c3b6772cbe5635a42b4a5af7fa4c023",
+      "sha1": "830855a2b3342a1d173c821a301578d193a1eb27",
+      "sha256": "830855a2b3342a1d173c821a301578d193a1eb27"
+    },
+    "res/js/panels/RatingsPanel.js": {
+      "md5": "564f777ca3a42fcbb4737000b0971aa2",
+      "sha1": "842c94bf7f24f895161d712ce663f9c6a50f198a",
+      "sha256": "842c94bf7f24f895161d712ce663f9c6a50f198a"
+    },
+    "res/js/panels/RelationshipsPanel.js": {
+      "md5": "30a25120f0a4145a224f886eab545a13",
+      "sha1": "6159af4c124b6e229e852722b3404c0625e274dd",
+      "sha256": "6159af4c124b6e229e852722b3404c0625e274dd"
+    },
+    "res/js/panels/TablesPanel.js": {
+      "md5": "4ac752ed9794db1751077be74ebd71b2",
+      "sha1": "e1cfde5f793740e894405fc2b2eac83c6a9620d9",
+      "sha256": "e1cfde5f793740e894405fc2b2eac83c6a9620d9"
+    },
+    "res/js/panels/UsersPanel.js": {
+      "md5": "c1c0c79ad8fe1b4665edd6d9dda2256f",
+      "sha1": "dba7ee9ccd00f935bfb79bb6b564463e10837910",
+      "sha256": "dba7ee9ccd00f935bfb79bb6b564463e10837910"
+    },
+    "res/js/RelationshipSection.js": {
+      "md5": "58fa2c6ef7a5fbed9edaf324a82b75a6",
+      "sha1": "dd940d0901bfbc0de10fc82bb0cbdcadd043b184",
+      "sha256": "dd940d0901bfbc0de10fc82bb0cbdcadd043b184"
+    },
+    "res/js/ReportBookmarklet.js": {
+      "md5": "dbce63896b710afc018cb77e441100a9",
+      "sha1": "0e9da187349c122d5f74af95f03e4c2e6193c1b3",
+      "sha256": "0e9da187349c122d5f74af95f03e4c2e6193c1b3"
+    },
+    "res/js/rison.js": {
+      "md5": "ded5ac617a9a07d73779cc6fabfea3b8",
+      "sha1": "cd1ac7c6576f216ca1e955ff6af07ed28734d142",
+      "sha256": "cd1ac7c6576f216ca1e955ff6af07ed28734d142"
+    },
+    "res/js/threeSixty/ExtensionObjectOverView.js": {
+      "md5": "fa733f6b805cc05c6bb807d14a56bbfd",
+      "sha1": "83e799e2279545f83d73221241e8abc3031bc1f4",
+      "sha256": "83e799e2279545f83d73221241e8abc3031bc1f4"
+    },
+    "res/js/typeahead.bundle.js": {
+      "md5": "91e0e0be0c477806e167c12b06fab98f",
+      "sha1": "e1bdb3b6b7e95572e3cac95425995beca0330b49",
+      "sha256": "e1bdb3b6b7e95572e3cac95425995beca0330b49"
+    },
+    "res/js/underscore-min.js": {
+      "md5": "bfdb8361c13847fce24693be91037a9d",
+      "sha1": "96553930050ecb0deac93185a5db3625afbe13de",
+      "sha256": "96553930050ecb0deac93185a5db3625afbe13de"
+    },
+    "res/js/util.js": {
+      "md5": "d3b13581b9830a8ff48eca063be5a8e5",
+      "sha1": "a741b2eb65b5ceb05482a343c05c21d5e4c2856c",
+      "sha256": "a741b2eb65b5ceb05482a343c05c21d5e4c2856c"
+    },
+    "res/js/utils/ExtensionAppConfigLoader.js": {
+      "md5": "7c02bb18453644ee7901a1df20e9dc3c",
+      "sha1": "53ffe0368cf69d715ef7a0a7a8a07c18b3b79b87",
+      "sha256": "53ffe0368cf69d715ef7a0a7a8a07c18b3b79b87"
+    },
+    "res/js/utils/RelationshipUtil.js": {
+      "md5": "bf22859af87e18f493d3093a3be66551",
+      "sha1": "3082908f5b7edc79edb8a00ce8f7b4b482e067f6",
+      "sha256": "3082908f5b7edc79edb8a00ce8f7b4b482e067f6"
+    },
+    "res/js/utils/Utils.js": {
+      "md5": "cc9922776f7f11213475dc03babc44a4",
+      "sha1": "3c1e54e49d19028d2d0964ef28b5a28036a4cb79",
+      "sha256": "3c1e54e49d19028d2d0964ef28b5a28036a4cb79"
+    },
+    "res/js/views/Configuration.js": {
+      "md5": "9bb4ad86c3e9d95a290de6b35b783bf0",
+      "sha1": "fb533613be19a2f12378b618f56f7cb4e3b01215",
+      "sha256": "fb533613be19a2f12378b618f56f7cb4e3b01215"
+    },
+    "res/js/views/configurationTemplate.js": {
+      "md5": "79f5f18e6591eea12216e56e28b8fc44",
+      "sha1": "9f89e0c30bc47c39ffe3fd76909d222fe1c8043c",
+      "sha256": "9f89e0c30bc47c39ffe3fd76909d222fe1c8043c"
+    },
+    "res/js/views/Object360.js": {
+      "md5": "db4379dc4d472b60c1324f9bcfa6d46e",
+      "sha1": "54ed1590a9ecf9c84613e9399b6a99f7404c0374",
+      "sha256": "54ed1590a9ecf9c84613e9399b6a99f7404c0374"
+    },
+    "res/js/views/pagination.js": {
+      "md5": "1f9a2581ac1d1170d2d3a76baab49bf0",
+      "sha1": "9155d2db16b3dc984a360f87087057e54e5a9841",
+      "sha256": "9155d2db16b3dc984a360f87087057e54e5a9841"
+    },
+    "res/js/views/SearchHome.js": {
+      "md5": "5394046d47e9c059540400ca7aeb7f59",
+      "sha1": "634a8a2eedc348a845e53a709208921a5e210a6c",
+      "sha256": "634a8a2eedc348a845e53a709208921a5e210a6c"
+    },
+    "res/js/views/SearchListView.js": {
+      "md5": "5f7dfdae11da81847e820d58c733fe24",
+      "sha1": "7fb11e2dcefaaa0cf76743841eae83029982fee4",
+      "sha256": "7fb11e2dcefaaa0cf76743841eae83029982fee4"
+    },
+    "res/js/views/SearchResults.js": {
+      "md5": "f2b1bb86ffafc1c07bb9d658fbd755ce",
+      "sha1": "fb6055fc8fdf4c2e3a2dccd3190c3cea9beb5520",
+      "sha256": "fb6055fc8fdf4c2e3a2dccd3190c3cea9beb5520"
+    },
+    "res/lib/config/chromeExtension/360OverviewTabConfiguration.json": {
+      "md5": "c646e7545fce80214a62bda4eb50f57d",
+      "sha1": "57a6f5b1c309e04caed6824f5f5a643cfbb52b4c",
+      "sha256": "57a6f5b1c309e04caed6824f5f5a643cfbb52b4c"
+    },
+    "res/lib/config/chromeExtension/360PresenceConfig.json": {
+      "md5": "7f8121a417560eb1cc315724d5cedda5",
+      "sha1": "53a8edae5363f10e2591578d029fe50a1cf4bab6",
+      "sha256": "53a8edae5363f10e2591578d029fe50a1cf4bab6"
+    },
+    "res/lib/config/chromeExtension/facetsConfig.json": {
+      "md5": "08e0b3e6f8a06d8a550bc6eb73312dbd",
+      "sha1": "670030154a1746be6c46c6861caab2b256f76683",
+      "sha256": "670030154a1746be6c46c6861caab2b256f76683"
+    },
+    "res/tmpl/login.htm": {
+      "md5": "32d6f6313cccf7e045e9ecf8c05f6fd7",
+      "sha1": "9081f83ef1d141731f9efcc9673b9c99f0584c98",
+      "sha256": "9081f83ef1d141731f9efcc9673b9c99f0584c98"
+    },
+    "Version.txt": {
+      "md5": "798d22ab6dea79285c6b8ceb6b93202f",
+      "sha1": "d9386d4342b9b14117fdc5fc906efd0bcbe95fd6",
+      "sha256": "d9386d4342b9b14117fdc5fc906efd0bcbe95fd6"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "90926a20d9239f3d5b2a6fec16cff3ca",
+      "sha1": "ea2fdd18b8bee7bf6d320a7516160308d53ca040",
+      "sha256": "ea2fdd18b8bee7bf6d320a7516160308d53ca040"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "manifest_version": 2,
+    "name": "Enterprise Data Catalog Plug-in",
+    "description": "Enterprise Data Catalog Plug-in is a quick way to access detailed metadata information about data assets.",
+    "version": "1.2.2.33",
+    "incognito": "split",
+    "browser_action": {
+      "default_icon": "ldmLogo.png",
+      "default_title": "Enterprise Data Catalog Plug-in"
+    },
+    "icons": {
+      "128": "ldmLogo.png"
+    },
+    "content_scripts": [
+      {
+        "run_at": "document_end",
+        "matches": [
+          "http://*/*",
+          "https://*/*"
+        ],
+        "css": [
+          "res/css/content_script.css",
+          "res/css/login.css"
+        ],
+        "js": [
+          "res/js/jquery/jquery-3.2.1.min.js",
+          "res/js/jquery/jquery-ui.min.js",
+          "res/js/jquery/jquery.lang.string.js",
+          "res/js/jquery/jquery.class.js",
+          "res/js/jquery/jquery.cookie.js",
+          "res/js/jquery/jquery.reflection.js",
+          "res/js/jquery/jquery-tmpl.js",
+          "res/js/eicConfiguration.js",
+          "res/js/util.js",
+          "res/js/ajaxUtils.js",
+          "res/js/util.js",
+          "res/js/EICsession.js",
+          "res/js/extensionView.js",
+          "res/js/ReportBookmarklet.js",
+          "res/js/content_script.js"
+        ],
+        "all_frames": false
+      }
+    ],
+    "options_page": "options.html",
+    "background": {
+      "scripts": [
+        "res/js/jquery/jquery-3.2.1.min.js",
+        "background.js"
+      ],
+      "persistent": true
+    },
+    "permissions": [
+      "tabs",
+      "storage",
+      "http://*/",
+      "https://*/",
+      "webRequest",
+      "webRequestBlocking"
+    ],
+    "web_accessible_resources": [
+      "res/*",
+      "images/*",
+      "index.html"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "72c04c575326ffc279826d85bcbf0813",
+    "sha1": "322b6294d753e75bd9c12fdcf77ccd58c41a57a1",
+    "sha256": "322b6294d753e75bd9c12fdcf77ccd58c41a57a1"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "<div style=\" background: #ccc; position: absolute; overflow-y: auto;\" id=\"_temp\">wasssssup</div>",
+        "path": "index.html"
+      },
+      {
+        "value": "<script src = \"res/js/util.js\"></script>",
+        "path": "index.html"
+      },
+      {
+        "value": "<script src = \"res/js/content_script.js\"></script>",
+        "path": "index.html"
+      },
+      {
+        "value": "<option value=\"Native\">Native</option>",
+        "path": "options.html"
+      },
+      {
+        "value": "# sourceMappingURL=app.css.map",
+        "path": "res/app1/css/app.css"
+      },
+      {
+        "value": "!\r\n * Bootstrap v3.3.7 (http://getbootstrap.com)\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n",
+        "path": "res/app1/css/lib.css"
+      },
+      {
+        "value": "! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css",
+        "path": "res/app1/css/lib.css"
+      },
+      {
+        "value": "! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+        "path": "res/app1/css/lib.css"
+      },
+      {
+        "value": "!\r\n *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome\r\n *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)\r\n",
+        "path": "res/app1/css/lib.css"
+      },
+      {
+        "value": "# sourceMappingURL=lib.css.map",
+        "path": "res/app1/css/lib.css"
+      },
+      {
+        "value": "*\r\n * Created by gkahadan on 7/28/2016.\r\n",
+        "path": "res/app1/js/AppConfigProvider.js"
+      },
+      {
+        "value": "*\r\n         * Grabs all the necessary datatypes for the application\r\n",
+        "path": "res/app1/js/appConfiguration/AppConfigData.js"
+      },
+      {
+        "value": "*\r\n         * This goes in a loop and continues until it is done\r\n         * We need to loop because if response is bigger than 8KB we will get an error\r\n         * @param pagesize - size of the page of query we currently set it to be 200\r\n         * because each item is ~32b so total of 200 results is 6.4KB (We keep a buffer in case items have more info)\r\n",
+        "path": "res/app1/js/appConfiguration/AppConfigData.js"
+      },
+      {
+        "value": "*\r\n\t\t * Get all custom attributes id from the specified type\r\n\t\t",
+        "path": "res/app1/js/appConfiguration/AppConfigData.js"
+      },
+      {
+        "value": "*\r\n * Model for LDM Objects\r\n",
+        "path": "res/app1/js/core/LDMObject.js"
+      },
+      {
+        "value": "*\r\n\t * Returns the formated fact\r\n\t",
+        "path": "res/app1/js/core/LDMObject.js"
+      },
+      {
+        "value": "*\r\n\t * Returns the formated fact after encoding the special characters\r\n\t",
+        "path": "res/app1/js/core/LDMObject.js"
+      },
+      {
+        "value": "*\r\n\t * Returns the value\r\n\t",
+        "path": "res/app1/js/core/LDMObject.js"
+      },
+      {
+        "value": "*\r\n\t * Returns XPATH if exists \r\n\t",
+        "path": "res/app1/js/core/LDMObject.js"
+      },
+      {
+        "value": "*\r\n\t * Returns Data Domain if exists \r\n\t",
+        "path": "res/app1/js/core/LDMObject.js"
+      },
+      {
+        "value": "bower:css",
+        "path": "res/app1/js/threeSixty/index.html"
+      },
+      {
+        "value": "endbower",
+        "path": "res/app1/js/threeSixty/index.html"
+      },
+      {
+        "value": "inject:css",
+        "path": "res/app1/js/threeSixty/index.html"
+      },
+      {
+        "value": "endinject",
+        "path": "res/app1/js/threeSixty/index.html"
+      },
+      {
+        "value": "bower:js",
+        "path": "res/app1/js/threeSixty/index.html"
+      },
+      {
+        "value": "endbower",
+        "path": "res/app1/js/threeSixty/index.html"
+      },
+      {
+        "value": "set symphony path before injecting symphony resource",
+        "path": "res/app1/js/threeSixty/index.html"
+      },
+      {
+        "value": "inject:js",
+        "path": "res/app1/js/threeSixty/index.html"
+      },
+      {
+        "value": "endinject",
+        "path": "res/app1/js/threeSixty/index.html"
+      },
+      {
+        "value": "*\r\n * @author Gopakumar V\r\n * This class is used to render overview page panel group. Each panel in the overview page will\r\n * be associated with group in the layout.\r\n",
+        "path": "res/app1/js/threeSixty/OverviewPanelGroup.js"
+      },
+      {
+        "value": "*\r\n     * Returns panel configuration required to render a panel.\r\n",
+        "path": "res/app1/js/threeSixty/OverviewPanelGroup.js"
+      },
+      {
+        "value": "*\r\n     * @private\r\n     * Used to render each panel.\r\n",
+        "path": "res/app1/js/threeSixty/OverviewPanelGroup.js"
+      },
+      {
+        "value": "*\r\n     * @private\r\n     * This function will be called when hide action is trigger on any panel in the group.\r\n     * In case when all the panels are hidden the group will also be hidden.\r\n",
+        "path": "res/app1/js/threeSixty/OverviewPanelGroup.js"
+      },
+      {
+        "value": "for(var panelId in this._panels) {\r\n            var eachPanel = this._panels[panelId];\r\n            if(!eachPanel.isHidden()){\r\n               isAllPanelHidden = false;\r\n               break;\r\n            }\r\n        }",
+        "path": "res/app1/js/threeSixty/OverviewPanelGroup.js"
+      },
+      {
+        "value": "*\r\n     * Method to hide panel group.\r\n",
+        "path": "res/app1/js/threeSixty/OverviewPanelGroup.js"
+      },
+      {
+        "value": "*\r\n     * Method to show panel group.\r\n",
+        "path": "res/app1/js/threeSixty/OverviewPanelGroup.js"
+      },
+      {
+        "value": "*\r\n     * Method to refresh content with in the group.\r\n",
+        "path": "res/app1/js/threeSixty/OverviewPanelGroup.js"
+      },
+      {
+        "value": "*\r\n * @author Gopakumar V\r\n * Abstract class used for overiew page panel.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Used to specify if the panel should to be visible or not.\r\n     * @return {boolean|Promise}\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Initializes instance specific variables.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Returns true if the panel is readonly mode.\r\n     * @returns {Boolean}\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Creates error template and renders it in the container.\r\n     * @param  {jQuery DOM Element} cntr Container were error message is to be rendered.\r\n     * @param  {String} error Error message to be printed when panel is empty.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Prints no data message in the panel.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * This method is used to do any preprocessing if required before rendering panel content.\r\n     * @returns {Promise}\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Used to refresh the LDM Object.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Returns if the panel has editable content.\r\n     * @returns {Boolean}\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Returns if the panel is hidden or not.\r\n     * @returns {Boolean}\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Method to hide the panel.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Method to show the panel.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Returns LDMObjects associated with the panel.\r\n     * @returns {LDMObject}\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Tells if the panel has header bar.\r\n     * @returns {Boolean}\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * This method is used to create buttons in the action tag of header bar.\r\n     * @private\r\n     * @param  {object} config configuration for button.\r\n     * @property {jQuery DOM Object} renderTo Were to render the button.\r\n     * @property {String} icon icon path.\r\n     * @property {String} tooltip Tooltip for the button.\r\n     *\r\n     * @returns {Object}\r\n     * @property {String} elem Dom of buttom element created.\r\n     * @property {InfaButton} widget InfaButton widget object.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n             * Add styles and handler for collapsible panel.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n                 * If inital state is collapsed.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Creates all the buttons required to handle edit of a panel.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * used to set title.\r\n     * @param  {jQuery DOM Object} cntr jquery dom object.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * used to set panel header action area content.\r\n     * @param  {jQuery DOM Object} actionsCntr jquery dom object.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * hide edit action button in panel header.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * hide edit action button in panel header.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Used to render content of the panel.\r\n     * @param {jQuery DOM Object} cntr  jquery dom object.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * specifies if the panel can be refresed or not.\r\n     * @returns {Boolean}\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * specifies if the panel can be collapsed or not.\r\n     * @returns {Boolean}\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * This method will be called when edit button on is clicked on the panel.\r\n     * Default implementions changes the state of the panel from readonly to edit mode.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * This method will be called when submit button is clicked in panel edit mode.\r\n     * @returns {*|Promise}\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * enable submit action button on the panel header.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * disable submit action button on the panel header.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * This method is used to toggle state of the panel btw readonly and edit.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Used to change state of the panel.\r\n     *\r\n     * @param  {String} state Constants from infaw.ldm.threeSixty.abstractPanel.PANEL_STATE\r\n     * @param  {Object} info other information related to the state change.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Show loading within the panel when it is busy.\r\n     * @param  {Boolean} loading if true loading state will be shown.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * @param  {Object} stateChangeObj This contains infomation of the state change.\r\n     * @property {String} current Constants from infaw.ldm.threeSixty.abstractPanel.PANEL_STATE\r\n     * @property {String} prev Constants from infaw.ldm.threeSixty.abstractPanel.PANEL_STATE\r\n     * @property {Object} details Contains details of the state change.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Method to refresh the panel.\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Called when panel is collapsed.\r\n     * @callback\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Incase we need to refresh content on expand of panel.\r\n     * use-case: charts are not rendered properly in collpased state and so we need to rerender on expand.\r\n     * @return {Boolean}\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * Called when panel is expanded.\r\n     * @callback\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*\r\n     * @returns {object}\r\n     * @property {string} tooltip  Tooltip to be shown on hover of help;\r\n     * @property {string} url Doc link to be open on click;\r\n",
+        "path": "res/app1/js/threeSixty/panels/AbstractPanel.js"
+      },
+      {
+        "value": "*non-summernote options",
+        "path": "res/app1/js/threeSixty/widgets/RtfEditor.js"
+      },
+      {
+        "value": "*\r\n             * DOM Object where the dialog has to be rendered.\r\n             * @type {String}\r\n",
+        "path": "res/app1/js/threeSixty/widgets/ValueSelectionDialog.js"
+      },
+      {
+        "value": "*\r\n             * InfaDialog configuration.\r\n             * @type {Object}\r\n",
+        "path": "res/app1/js/threeSixty/widgets/ValueSelectionDialog.js"
+      },
+      {
+        "value": "*\r\n             * Array of section object to added to the dialog\r\n             * @type {Array}\r\n",
+        "path": "res/app1/js/threeSixty/widgets/ValueSelectionDialog.js"
+      },
+      {
+        "value": "*\r\n         * Method used to get widget within a dialog using widgetID.\r\n         * @param  {String} wId [wId ID of the widget]\r\n",
+        "path": "res/app1/js/threeSixty/widgets/ValueSelectionDialog.js"
+      },
+      {
+        "value": "*\r\n         * Method is used to get the widget container.\r\n         * @param  {String} wId [wId ID of the widget]\r\n",
+        "path": "res/app1/js/threeSixty/widgets/ValueSelectionDialog.js"
+      },
+      {
+        "value": "*\r\n         * Method used to destroy widget within the dialog.\r\n         * @param  {String} wId [ID of the widget].\r\n",
+        "path": "res/app1/js/threeSixty/widgets/ValueSelectionDialog.js"
+      },
+      {
+        "value": "*\r\n         * [getDialogWidget description]\r\n         * @param  {String} wId [ID of the widget]\r\n         * @return {Object}     [Dialog widget]\r\n",
+        "path": "res/app1/js/threeSixty/widgets/ValueSelectionDialog.js"
+      },
+      {
+        "value": "*\r\n         * Method used to open the dialog.\r\n",
+        "path": "res/app1/js/threeSixty/widgets/ValueSelectionDialog.js"
+      },
+      {
+        "value": "*\r\n         * Method used to close dialog.\r\n",
+        "path": "res/app1/js/threeSixty/widgets/ValueSelectionDialog.js"
+      },
+      {
+        "value": "*\r\n         * Method used to destroy LDM dialog.\r\n",
+        "path": "res/app1/js/threeSixty/widgets/ValueSelectionDialog.js"
+      },
+      {
+        "value": "!\r\n * Bootstrap v3.3.7 (http://getbootstrap.com)\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n",
+        "path": "res/css/bootstrap.min.css"
+      },
+      {
+        "value": "! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css",
+        "path": "res/css/bootstrap.min.css"
+      },
+      {
+        "value": "! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+        "path": "res/css/bootstrap.min.css"
+      },
+      {
+        "value": "# sourceMappingURL=bootstrap.min.css.map",
+        "path": "res/css/bootstrap.min.css"
+      },
+      {
+        "value": "top: 5px;",
+        "path": "res/css/content_script.css"
+      },
+      {
+        "value": "padding: 0 10px 10px 10px;",
+        "path": "res/css/content_script.css"
+      },
+      {
+        "value": "margin-top: 10px;",
+        "path": "res/css/content_script.css"
+      },
+      {
+        "value": ".extensionSlidingWindow l{\r\n\tcolor: black !important;\r\n    float: left;\r\n    overflow: hidden;\r\n    width: 80%;\r\n    text-overflow: ellipsis;\r\n    padding-left: 5px;\r\n\tline-height:25px;\r\n}",
+        "path": "res/css/content_script.css"
+      },
+      {
+        "value": ".containerContent{\r\n    display:none;\r\n}",
+        "path": "res/css/index.css"
+      },
+      {
+        "value": "l{\r\n\tcolor: black !important;\r\n    float: left;\r\n    overflow: hidden;\r\n    width: 80%;\r\n    text-overflow: ellipsis;\r\n    padding-left: 5px;\r\n\tline-height:25px;\r\n}",
+        "path": "res/css/index.css"
+      },
+      {
+        "value": "border-bottom: 2px solid black;",
+        "path": "res/css/index.css"
+      },
+      {
+        "value": "opacity: 0.5;",
+        "path": "res/css/index.css"
+      },
+      {
+        "value": ".parentDiv{\r\n    position: absolute;\r\n    top: 116px;\r\n    right: 10px;\r\n    background: #4d90fe;\r\n\tz-index: 1000000;\r\n\twidth: 200px;\r\n    height: 500px;\r\n}",
+        "path": "res/css/index_backup.css"
+      },
+      {
+        "value": "! jQuery UI - v1.12.1 - 2016-09-14\r\n* http://jqueryui.com\r\n* Includes: core.css, accordion.css, autocomplete.css, menu.css, button.css, controlgroup.css, checkboxradio.css, datepicker.css, dialog.css, draggable.css, resizable.css, progressbar.css, selectable.css, selectmenu.css, slider.css, sortable.css, spinner.css, tabs.css, tooltip.css, theme.css\r\n* To view and modify this theme, visit http://jqueryui.com/themeroller/?bgShadowXPos=&bgOverlayXPos=&bgErrorXPos=&bgHighlightXPos=&bgContentXPos=&bgHeaderXPos=&bgActiveXPos=&bgHoverXPos=&bgDefaultXPos=&bgShadowYPos=&bgOverlayYPos=&bgErrorYPos=&bgHighlightYPos=&bgContentYPos=&bgHeaderYPos=&bgActiveYPos=&bgHoverYPos=&bgDefaultYPos=&bgShadowRepeat=&bgOverlayRepeat=&bgErrorRepeat=&bgHighlightRepeat=&bgContentRepeat=&bgHeaderRepeat=&bgActiveRepeat=&bgHoverRepeat=&bgDefaultRepeat=&iconsHover=url(%22images%2Fui-icons_555555_256x240.png%22)&iconsHighlight=url(%22images%2Fui-icons_777620_256x240.png%22)&iconsHeader=url(%22images%2Fui-icons_444444_256x240.png%22)&iconsError=url(%22images%2Fui-icons_cc0000_256x240.png%22)&iconsDefault=url(%22images%2Fui-icons_777777_256x240.png%22)&iconsContent=url(%22images%2Fui-icons_444444_256x240.png%22)&iconsActive=url(%22images%2Fui-icons_ffffff_256x240.png%22)&bgImgUrlShadow=&bgImgUrlOverlay=&bgImgUrlHover=&bgImgUrlHighlight=&bgImgUrlHeader=&bgImgUrlError=&bgImgUrlDefault=&bgImgUrlContent=&bgImgUrlActive=&opacityFilterShadow=Alpha(Opacity%3D30)&opacityFilterOverlay=Alpha(Opacity%3D30)&opacityShadowPerc=30&opacityOverlayPerc=30&iconColorHover=%23555555&iconColorHighlight=%23777620&iconColorHeader=%23444444&iconColorError=%23cc0000&iconColorDefault=%23777777&iconColorContent=%23444444&iconColorActive=%23ffffff&bgImgOpacityShadow=0&bgImgOpacityOverlay=0&bgImgOpacityError=95&bgImgOpacityHighlight=55&bgImgOpacityContent=75&bgImgOpacityHeader=75&bgImgOpacityActive=65&bgImgOpacityHover=75&bgImgOpacityDefault=75&bgTextureShadow=flat&bgTextureOverlay=flat&bgTextureError=flat&bgTextureHighlight=flat&bgTextureContent=flat&bgTextureHeader=flat&bgTextureActive=flat&bgTextureHover=flat&bgTextureDefault=flat&cornerRadius=3px&fwDefault=normal&ffDefault=Arial%2CHelvetica%2Csans-serif&fsDefault=1em&cornerRadiusShadow=8px&thicknessShadow=5px&offsetLeftShadow=0px&offsetTopShadow=0px&opacityShadow=.3&bgColorShadow=%23666666&opacityOverlay=.3&bgColorOverlay=%23aaaaaa&fcError=%235f3f3f&borderColorError=%23f1a899&bgColorError=%23fddfdf&fcHighlight=%23777620&borderColorHighlight=%23dad55e&bgColorHighlight=%23fffa90&fcContent=%23333333&borderColorContent=%23dddddd&bgColorContent=%23ffffff&fcHeader=%23333333&borderColorHeader=%23dddddd&bgColorHeader=%23e9e9e9&fcActive=%23ffffff&borderColorActive=%23003eff&bgColorActive=%23007fff&fcHover=%232b2b2b&borderColorHover=%23cccccc&bgColorHover=%23ededed&fcDefault=%23454545&borderColorDefault=%23c5c5c5&bgColorDefault=%23f6f6f6\r\n* Copyright jQuery Foundation and other contributors; Licensed MIT",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Layout helpers\r\n----------------------------------",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "support: IE8",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Interaction Cues\r\n----------------------------------",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Icons\r\n----------------------------------",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Misc visuals\r\n----------------------------------",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Overlays",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "support: IE10, see #8844",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "icon support",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "left-aligned",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "right-aligned",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Support: IE <= 11",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "to make room for the icon, a width needs to be set here",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "no icon support for input elements",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "button icon element(s)",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "workarounds",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Support: Firefox 5 - 40",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Spinner specific style fixes",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Support: IE8 only, Android < 4.4 only",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "with multiple calendars",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "RTL support",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Icons",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "support: IE8",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "support: IE8 - See #6727",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "more specificity required here to override default borders",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Component containers\r\n----------------------------------",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Interaction states\r\n----------------------------------",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "We use html here because we need a greater specificity to make sure disabled\r\nworks properly when clicked or hovered",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Interaction Cues\r\n----------------------------------",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "support: IE8",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "support: IE8",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "support: IE8 - See #6059",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Icons\r\n----------------------------------",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "states and images",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "positioning",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "ui-icon-seek-first is deprecated, use ui-icon-seek-start instead",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Misc visuals\r\n----------------------------------",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Corner radius",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "Overlays",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "support: IE8",
+        "path": "res/css/jquery-ui.css"
+      },
+      {
+        "value": "! jQuery UI - v1.12.1 - 2016-09-14\r\n* http://jqueryui.com\r\n* Includes: core.css, accordion.css, autocomplete.css, menu.css, button.css, controlgroup.css, checkboxradio.css, datepicker.css, dialog.css, draggable.css, resizable.css, progressbar.css, selectable.css, selectmenu.css, slider.css, sortable.css, spinner.css, tabs.css, tooltip.css, theme.css\r\n* To view and modify this theme, visit http://jqueryui.com/themeroller/?bgShadowXPos=&bgOverlayXPos=&bgErrorXPos=&bgHighlightXPos=&bgContentXPos=&bgHeaderXPos=&bgActiveXPos=&bgHoverXPos=&bgDefaultXPos=&bgShadowYPos=&bgOverlayYPos=&bgErrorYPos=&bgHighlightYPos=&bgContentYPos=&bgHeaderYPos=&bgActiveYPos=&bgHoverYPos=&bgDefaultYPos=&bgShadowRepeat=&bgOverlayRepeat=&bgErrorRepeat=&bgHighlightRepeat=&bgContentRepeat=&bgHeaderRepeat=&bgActiveRepeat=&bgHoverRepeat=&bgDefaultRepeat=&iconsHover=url(%22images%2Fui-icons_555555_256x240.png%22)&iconsHighlight=url(%22images%2Fui-icons_777620_256x240.png%22)&iconsHeader=url(%22images%2Fui-icons_444444_256x240.png%22)&iconsError=url(%22images%2Fui-icons_cc0000_256x240.png%22)&iconsDefault=url(%22images%2Fui-icons_777777_256x240.png%22)&iconsContent=url(%22images%2Fui-icons_444444_256x240.png%22)&iconsActive=url(%22images%2Fui-icons_ffffff_256x240.png%22)&bgImgUrlShadow=&bgImgUrlOverlay=&bgImgUrlHover=&bgImgUrlHighlight=&bgImgUrlHeader=&bgImgUrlError=&bgImgUrlDefault=&bgImgUrlContent=&bgImgUrlActive=&opacityFilterShadow=Alpha(Opacity%3D30)&opacityFilterOverlay=Alpha(Opacity%3D30)&opacityShadowPerc=30&opacityOverlayPerc=30&iconColorHover=%23555555&iconColorHighlight=%23777620&iconColorHeader=%23444444&iconColorError=%23cc0000&iconColorDefault=%23777777&iconColorContent=%23444444&iconColorActive=%23ffffff&bgImgOpacityShadow=0&bgImgOpacityOverlay=0&bgImgOpacityError=95&bgImgOpacityHighlight=55&bgImgOpacityContent=75&bgImgOpacityHeader=75&bgImgOpacityActive=65&bgImgOpacityHover=75&bgImgOpacityDefault=75&bgTextureShadow=flat&bgTextureOverlay=flat&bgTextureError=flat&bgTextureHighlight=flat&bgTextureContent=flat&bgTextureHeader=flat&bgTextureActive=flat&bgTextureHover=flat&bgTextureDefault=flat&cornerRadius=3px&fwDefault=normal&ffDefault=Arial%2CHelvetica%2Csans-serif&fsDefault=1em&cornerRadiusShadow=8px&thicknessShadow=5px&offsetLeftShadow=0px&offsetTopShadow=0px&opacityShadow=.3&bgColorShadow=%23666666&opacityOverlay=.3&bgColorOverlay=%23aaaaaa&fcError=%235f3f3f&borderColorError=%23f1a899&bgColorError=%23fddfdf&fcHighlight=%23777620&borderColorHighlight=%23dad55e&bgColorHighlight=%23fffa90&fcContent=%23333333&borderColorContent=%23dddddd&bgColorContent=%23ffffff&fcHeader=%23333333&borderColorHeader=%23dddddd&bgColorHeader=%23e9e9e9&fcActive=%23ffffff&borderColorActive=%23003eff&bgColorActive=%23007fff&fcHover=%232b2b2b&borderColorHover=%23cccccc&bgColorHover=%23ededed&fcDefault=%23454545&borderColorDefault=%23c5c5c5&bgColorDefault=%23f6f6f6\r\n* Copyright jQuery Foundation and other contributors; Licensed MIT",
+        "path": "res/css/jquery-ui.min.css"
+      },
+      {
+        "value": "!\r\n * jQuery UI CSS Framework 1.12.1\r\n * http://jqueryui.com\r\n *\r\n * Copyright jQuery Foundation and other contributors\r\n * Released under the MIT license.\r\n * http://jquery.org/license\r\n *\r\n * http://api.jqueryui.com/category/theming/\r\n",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "Layout helpers\r\n----------------------------------",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "support: IE8",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "Interaction Cues\r\n----------------------------------",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "Icons\r\n----------------------------------",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "Misc visuals\r\n----------------------------------",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "Overlays",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "support: IE10, see #8844",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "icon support",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "left-aligned",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "right-aligned",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "Support: IE <= 11",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "to make room for the icon, a width needs to be set here",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "no icon support for input elements",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "button icon element(s)",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "workarounds",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "Support: Firefox 5 - 40",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "Spinner specific style fixes",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "Support: IE8 only, Android < 4.4 only",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "with multiple calendars",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "RTL support",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "Icons",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "support: IE8",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "support: IE8 - See #6727",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "more specificity required here to override default borders",
+        "path": "res/css/jquery-ui.structure.css"
+      },
+      {
+        "value": "! jQuery UI - v1.12.1 - 2016-09-14\r\n* http://jqueryui.com\r\n* Copyright jQuery Foundation and other contributors; Licensed MIT",
+        "path": "res/css/jquery-ui.structure.min.css"
+      },
+      {
+        "value": "!\r\n * jQuery UI CSS Framework 1.12.1\r\n * http://jqueryui.com\r\n *\r\n * Copyright jQuery Foundation and other contributors\r\n * Released under the MIT license.\r\n * http://jquery.org/license\r\n *\r\n * http://api.jqueryui.com/category/theming/\r\n *\r\n * To view and modify this theme, visit http://jqueryui.com/themeroller/?bgShadowXPos=&bgOverlayXPos=&bgErrorXPos=&bgHighlightXPos=&bgContentXPos=&bgHeaderXPos=&bgActiveXPos=&bgHoverXPos=&bgDefaultXPos=&bgShadowYPos=&bgOverlayYPos=&bgErrorYPos=&bgHighlightYPos=&bgContentYPos=&bgHeaderYPos=&bgActiveYPos=&bgHoverYPos=&bgDefaultYPos=&bgShadowRepeat=&bgOverlayRepeat=&bgErrorRepeat=&bgHighlightRepeat=&bgContentRepeat=&bgHeaderRepeat=&bgActiveRepeat=&bgHoverRepeat=&bgDefaultRepeat=&iconsHover=url(%22images%2Fui-icons_555555_256x240.png%22)&iconsHighlight=url(%22images%2Fui-icons_777620_256x240.png%22)&iconsHeader=url(%22images%2Fui-icons_444444_256x240.png%22)&iconsError=url(%22images%2Fui-icons_cc0000_256x240.png%22)&iconsDefault=url(%22images%2Fui-icons_777777_256x240.png%22)&iconsContent=url(%22images%2Fui-icons_444444_256x240.png%22)&iconsActive=url(%22images%2Fui-icons_ffffff_256x240.png%22)&bgImgUrlShadow=&bgImgUrlOverlay=&bgImgUrlHover=&bgImgUrlHighlight=&bgImgUrlHeader=&bgImgUrlError=&bgImgUrlDefault=&bgImgUrlContent=&bgImgUrlActive=&opacityFilterShadow=Alpha(Opacity%3D30)&opacityFilterOverlay=Alpha(Opacity%3D30)&opacityShadowPerc=30&opacityOverlayPerc=30&iconColorHover=%23555555&iconColorHighlight=%23777620&iconColorHeader=%23444444&iconColorError=%23cc0000&iconColorDefault=%23777777&iconColorContent=%23444444&iconColorActive=%23ffffff&bgImgOpacityShadow=0&bgImgOpacityOverlay=0&bgImgOpacityError=95&bgImgOpacityHighlight=55&bgImgOpacityContent=75&bgImgOpacityHeader=75&bgImgOpacityActive=65&bgImgOpacityHover=75&bgImgOpacityDefault=75&bgTextureShadow=flat&bgTextureOverlay=flat&bgTextureError=flat&bgTextureHighlight=flat&bgTextureContent=flat&bgTextureHeader=flat&bgTextureActive=flat&bgTextureHover=flat&bgTextureDefault=flat&cornerRadius=3px&fwDefault=normal&ffDefault=Arial%2CHelvetica%2Csans-serif&fsDefault=1em&cornerRadiusShadow=8px&thicknessShadow=5px&offsetLeftShadow=0px&offsetTopShadow=0px&opacityShadow=.3&bgColorShadow=%23666666&opacityOverlay=.3&bgColorOverlay=%23aaaaaa&fcError=%235f3f3f&borderColorError=%23f1a899&bgColorError=%23fddfdf&fcHighlight=%23777620&borderColorHighlight=%23dad55e&bgColorHighlight=%23fffa90&fcContent=%23333333&borderColorContent=%23dddddd&bgColorContent=%23ffffff&fcHeader=%23333333&borderColorHeader=%23dddddd&bgColorHeader=%23e9e9e9&fcActive=%23ffffff&borderColorActive=%23003eff&bgColorActive=%23007fff&fcHover=%232b2b2b&borderColorHover=%23cccccc&bgColorHover=%23ededed&fcDefault=%23454545&borderColorDefault=%23c5c5c5&bgColorDefault=%23f6f6f6\r\n",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "Component containers\r\n----------------------------------",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "Interaction states\r\n----------------------------------",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "We use html here because we need a greater specificity to make sure disabled\r\nworks properly when clicked or hovered",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "Interaction Cues\r\n----------------------------------",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "support: IE8",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "support: IE8",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "support: IE8 - See #6059",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "Icons\r\n----------------------------------",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "states and images",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "positioning",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "ui-icon-seek-first is deprecated, use ui-icon-seek-start instead",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "Misc visuals\r\n----------------------------------",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "Corner radius",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "Overlays",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "support: IE8",
+        "path": "res/css/jquery-ui.theme.css"
+      },
+      {
+        "value": "! jQuery UI - v1.12.1 - 2016-09-14\r\n* http://jqueryui.com\r\n* Copyright jQuery Foundation and other contributors; Licensed MIT",
+        "path": "res/css/jquery-ui.theme.min.css"
+      },
+      {
+        "value": "min-height: 200px;",
+        "path": "res/css/login.css"
+      },
+      {
+        "value": "display: inline-block;",
+        "path": "res/css/login.css"
+      },
+      {
+        "value": "div.infaTileContent.eic-presence{\r\n    padding-top: 25px;\r\n}",
+        "path": "res/css/login.css"
+      },
+      {
+        "value": "! jQuery UI - v1.9.2 - 2012-11-26\r\n* http://jqueryui.com\r\n* Includes: jquery.ui.core.css, jquery.ui.resizable.css, jquery.ui.selectable.css, jquery.ui.accordion.css, jquery.ui.autocomplete.css, jquery.ui.button.css, jquery.ui.datepicker.css, jquery.ui.dialog.css, jquery.ui.menu.css, jquery.ui.progressbar.css, jquery.ui.slider.css, jquery.ui.spinner.css, jquery.ui.tabs.css, jquery.ui.tooltip.css\r\n* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana%2CArial%2Csans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=1px&bgColorHeader=fff&bgTextureHeader=01_flat.png&bgImgOpacityHeader=100&borderColorHeader=fff&fcHeader=222222&iconColorHeader=222222&bgColorContent=ffffff&bgTextureContent=01_flat.png&bgImgOpacityContent=100&borderColorContent=aaaaaa&fcContent=222222&iconColorContent=222222&bgColorDefault=e6e6e6&bgTextureDefault=01_flat.png&bgImgOpacityDefault=100&borderColorDefault=d3d3d3&fcDefault=555555&iconColorDefault=888888&bgColorHover=e4f9c3&bgTextureHover=04_highlight_hard.png&bgImgOpacityHover=100&borderColorHover=65956a&fcHover=212121&iconColorHover=427047&bgColorActive=ffffff&bgTextureActive=01_flat.png&bgImgOpacityActive=100&borderColorActive=aaaaaa&fcActive=212121&iconColorActive=454545&bgColorHighlight=cff593&bgTextureHighlight=01_flat.png&bgImgOpacityHighlight=100&borderColorHighlight=65956a&fcHighlight=363636&iconColorHighlight=365bd3&bgColorError=fef1ec&bgTextureError=02_glass.png&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=01_flat.png&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=01_flat.png&bgImgOpacityShadow=50&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px\r\n* Copyright (c) 2012 jQuery Foundation and other contributors Licensed MIT",
+        "path": "res/css/symphony-core-3.3.0.css"
+      },
+      {
+        "value": "# sourceMappingURL=../sourcemap/symphony-core-3.3.0.css.map",
+        "path": "res/css/symphony-core-3.3.0.css"
+      },
+      {
+        "value": "# sourceMappingURL=../sourcemap/symphony-dataPreview-3.3.0.css.map",
+        "path": "res/css/symphony-dataPreview-3.3.0.css"
+      },
+      {
+        "value": "# sourceMappingURL=../sourcemap/symphony-imf-3.3.0.css.map",
+        "path": "res/css/symphony-imf-3.3.0.css"
+      },
+      {
+        "value": "# sourceMappingURL=../sourcemap/symphony-inbox-3.3.0.css.map",
+        "path": "res/css/symphony-inbox-3.3.0.css"
+      },
+      {
+        "value": "# sourceMappingURL=../sourcemap/symphony-library-3.3.0.css.map",
+        "path": "res/css/symphony-library-3.3.0.css"
+      },
+      {
+        "value": "# sourceMappingURL=../sourcemap/symphony-search-3.3.0.css.map",
+        "path": "res/css/symphony-search-3.3.0.css"
+      },
+      {
+        "value": "# sourceMappingURL=../sourcemap/symphony-services-isp-3.3.0.css.map",
+        "path": "res/css/symphony-services-isp-3.3.0.css"
+      },
+      {
+        "value": "# sourceMappingURL=../sourcemap/symphony-webShell-3.3.0.css.map",
+        "path": "res/css/symphony-webShell-3.3.0.css"
+      },
+      {
+        "value": "!\r\nAnimate.css - http://daneden.me/animate\r\nLicensed under the MIT license - http://opensource.org/licenses/MIT\r\n\r\nCopyright (c) 2015 Daniel Eden\r\n",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "!\r\n * jQuery UI Autocomplete 1.8.22\r\n *\r\n * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)\r\n * Dual licensed under the MIT or GPL Version 2 licenses.\r\n * http://jquery.org/license\r\n *\r\n * http://docs.jquery.com/UI/Autocomplete#theming\r\n",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "!\r\n * jQuery UI Progressbar 1.9.1\r\n * http://jqueryui.com\r\n *\r\n * Copyright 2012 jQuery Foundation and other contributors\r\n * Released under the MIT license.\r\n * http://jquery.org/license\r\n *\r\n * http://docs.jquery.com/UI/Progressbar#theming\r\n",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "!\r\n *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome\r\n *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)\r\n",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "!\r\n* qTip2 - Pretty powerful tooltips\r\n* http://craigsworks.com/projects/qtip2/\r\n*\r\n* Version: nightly\r\n* Copyright 2009-2010 Craig Michael Thompson - http://craigsworks.com\r\n*\r\n* Dual licensed under MIT or GPLv2 licenses\r\n*   http://en.wikipedia.org/wiki/MIT_License\r\n*   http://en.wikipedia.org/wiki/GNU_General_Public_License\r\n*\r\n* Date: Tue Jul  3 15:45:43.0000000000 2012\r\n",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "! Default close button class",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "! Default tooltip style",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "! Light tooltip style",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "! Dark tooltip style",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "! Cream tooltip style",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "! Red tooltip style",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "! Green tooltip style",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "! Blue tooltip style",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "! Add shadows to your tooltips in: FF3+, Chrome 2+, Opera 10.6+, IE9+, Safari 2+",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "! Add rounded corners to your tooltips in: FF3+, Chrome 2+, Opera 10.6+, IE9+, Safari 2+",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "! Youtube tooltip style",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "# sourceMappingURL=../sourcemap/symphony-widgets-3.3.0.css.map",
+        "path": "res/css/symphony-widgets-3.3.0.css"
+      },
+      {
+        "value": "!\r\n * Bootstrap v3.3.7 (http://getbootstrap.com)\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under the MIT license\r\n",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: transition.js v3.3.7\r\n * http://getbootstrap.com/javascript/#transitions\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: alert.js v3.3.7\r\n * http://getbootstrap.com/javascript/#alerts\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: button.js v3.3.7\r\n * http://getbootstrap.com/javascript/#buttons\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: carousel.js v3.3.7\r\n * http://getbootstrap.com/javascript/#carousel\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: collapse.js v3.3.7\r\n * http://getbootstrap.com/javascript/#collapse\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "jshint latedef: false",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: dropdown.js v3.3.7\r\n * http://getbootstrap.com/javascript/#dropdowns\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: modal.js v3.3.7\r\n * http://getbootstrap.com/javascript/#modals\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: tooltip.js v3.3.7\r\n * http://getbootstrap.com/javascript/#tooltip\r\n * Inspired by the original jQuery.tipsy by Jason Frame\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: popover.js v3.3.7\r\n * http://getbootstrap.com/javascript/#popovers\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: scrollspy.js v3.3.7\r\n * http://getbootstrap.com/javascript/#scrollspy\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: tab.js v3.3.7\r\n * http://getbootstrap.com/javascript/#tabs\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "========================================================================\r\n * Bootstrap: affix.js v3.3.7\r\n * http://getbootstrap.com/javascript/#affix\r\n * ========================================================================\r\n * Copyright 2011-2016 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\r\n * ========================================================================",
+        "path": "res/js/bootstrap.js"
+      },
+      {
+        "value": "*\r\n * Model for Extension EIC Objects\r\n",
+        "path": "res/js/core/ExtensionEICObject.js"
+      },
+      {
+        "value": "\r\n\t\t\t\t\t\t\tEBF-17962\r\n\t\t\t\t\t\t\tDate-5 June 2020\r\n\t\t\t\t\t\t\t",
+        "path": "res/js/extensionView.js"
+      },
+      {
+        "value": "@Static",
+        "path": "res/js/jquery/jquery.class.js"
+      },
+      {
+        "value": "@Prototype",
+        "path": "res/js/jquery/jquery.class.js"
+      },
+      {
+        "value": "!\r\n * jQuery Cookie Plugin v1.3.1\r\n * https://github.com/carhartl/jquery-cookie\r\n *\r\n * Copyright 2013 Klaus Hartl\r\n * Released under the MIT license\r\n",
+        "path": "res/js/jquery/jquery.cookie.js"
+      },
+      {
+        "value": "*\r\n\t\t\t * Capitalizes a string\r\n\t\t\t * @param {String} s the string.\r\n\t\t\t * @return {String} a string with the first character capitalized.\r\n\t\t\t",
+        "path": "res/js/jquery/jquery.lang.string.js"
+      },
+      {
+        "value": "*\r\n\t\t\t * Like [jQuery.String.camelize|camelize], but the first part is also capitalized\r\n\t\t\t * @param {String} s\r\n\t\t\t * @return {String} the classized string\r\n\t\t\t",
+        "path": "res/js/jquery/jquery.lang.string.js"
+      },
+      {
+        "value": "*\r\n * jQuery reflect plugin that returns the function given a literal\r\n * Returns undefined if it does not find a function with that name...\r\n *\r\n",
+        "path": "res/js/jquery/jquery.reflection.js"
+      },
+      {
+        "value": "! jQuery v3.2.1 | (c) JS Foundation and other contributors | jquery.org/license",
+        "path": "res/js/jquery/jquery-3.2.1.min.js"
+      },
+      {
+        "value": "!\r\n * jQuery Templates Plugin 1.0.0pre\r\n * http://github.com/jquery/jquery-tmpl\r\n * Requires jQuery 1.4.2\r\n *\r\n * Copyright Software Freedom Conservancy, Inc.\r\n * Dual licensed under the MIT or GPL Version 2 licenses.\r\n * http://jquery.org/license\r\n",
+        "path": "res/js/jquery/jquery-tmpl.js"
+      },
+      {
+        "value": "! jQuery UI - v1.12.1 - 2016-09-14\r\n* http://jqueryui.com\r\n* Includes: widget.js, position.js, data.js, disable-selection.js, effect.js, effects/effect-blind.js, effects/effect-bounce.js, effects/effect-clip.js, effects/effect-drop.js, effects/effect-explode.js, effects/effect-fade.js, effects/effect-fold.js, effects/effect-highlight.js, effects/effect-puff.js, effects/effect-pulsate.js, effects/effect-scale.js, effects/effect-shake.js, effects/effect-size.js, effects/effect-slide.js, effects/effect-transfer.js, focusable.js, form-reset-mixin.js, jquery-1-7.js, keycode.js, labels.js, scroll-parent.js, tabbable.js, unique-id.js, widgets/accordion.js, widgets/autocomplete.js, widgets/button.js, widgets/checkboxradio.js, widgets/controlgroup.js, widgets/datepicker.js, widgets/dialog.js, widgets/draggable.js, widgets/droppable.js, widgets/menu.js, widgets/mouse.js, widgets/progressbar.js, widgets/resizable.js, widgets/selectable.js, widgets/selectmenu.js, widgets/slider.js, widgets/sortable.js, widgets/spinner.js, widgets/tabs.js, widgets/tooltip.js\r\n* Copyright jQuery Foundation and other contributors; Licensed MIT",
+        "path": "res/js/jquery/jquery-ui.min.js"
+      },
+      {
+        "value": "*\r\n            //              * Replace exclude in query factes\r\n            //              * For example :: exclude in rating will have {!ex=com.infa.ldm.entity.collaboration.rating0}com.infa.ldm.entity.collaboration.rating:[3.5 TO 5]\r\n            //              * this will be changed to com.infa.ldm.entity.collaboration.rating:[3.5 TO 5]\r\n            //",
+        "path": "res/js/panels/FacetsPanel.js"
+      },
+      {
+        "value": "*\r\n     * Format criterias into string format\r\n",
+        "path": "res/js/panels/FacetsPanel.js"
+      },
+      {
+        "value": "Utility to retrieve the Id of a DataSource (semantic layer model)",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "break the loop",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "Utility to retrieve the tsConfig variable in the current window, or one of its frames",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "\r\n\t   - workbook applications: /workbooks; /views; /authoring;\r\n\t\t   /workbooks/<workbookId>\r\n\t\t   /views/<workbookId>/<SheetId>\r\n\t\t   /authoring/<workbookId>/<SheetId>\r\n\t   - data-source applications: /tasks/datasources\r\n\t\t   /tasks/datasources?container_id=<dataSourceId>\r\n\t",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "in version 9.3+, the workbook page url refers to short integer id, but the bridge has no access to it",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "therefore try to retrieve the workbook physical name instead, based on the views thumbnails",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "Tableau 9+",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "remove arguments after question mark",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "skips potential double slashes at the beginning, and find the site prefix",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "skip the site (tenant) prefix if any",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "Tableau 9+",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "remove arguments after question mark",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "skips potential double slashes at the beginning, and find the site prefix",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "skip the site (tenant) prefix if any",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "the site name or empty for default site",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "not supported",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "Utility to retrieve the Field Id",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "Utility to retrieve the Report Id",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "for v11 openned report",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "for v10 openned report",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "for v11 report displayed via GO url",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "for v10 report displayed via GO url",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "for v11 catalog",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "Utility to retrieve a named child frame from a parent frame",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "Utility to retrieve the selected row in a tabular list",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "For XI r4.x",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "For XI r3.x",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "For IE and Chrome",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "For XI r4.x WebIntelligence: http://bo11r4:8080/BOE/OpenDocument/opendoc/openDocument.jsp?iDocID=4807   DS.strDocID",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "For XI r4.x Analytic: http://bo11r4:8080/BOE/OpenDocument/opendoc/openDocument.jsp?iDocID=7575",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "For XI r4.x Crystal: http://bo11r4:8080/BOE/OpenDocument/opendoc/openDocument.jsp?iDocID=5519",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "For XI r3.x WebIntelligence: http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=156002  boF.strDocID",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "For XI r3.x Analytic: http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=170683     boF.sURL",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "For XI r3.x Crystal: http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=144473",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "For XI r3.x DesktopIntelligence: http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=144871  boF.strDocID",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "For firefox",
+        "path": "res/js/ReportBookmarklet.js"
+      },
+      {
+        "value": "\r\n            Quotes a string value applying escapes were necesary and wrapping it\r\n            with single quotes if needed.\r\n",
+        "path": "res/js/rison.js"
+      },
+      {
+        "value": "*\r\n         * Private function to encode a JS variable into a RISON string\r\n         *\r\n         * Heavily based on http://json.org/json2.js\r\n",
+        "path": "res/js/rison.js"
+      },
+      {
+        "value": "\r\n            Private function to decode a RISON string into a JS variable\r\n         \r\n            Note that the algorithm is very liberal and can produce unexpected results\r\n            with not properly formated RISON strings\r\n",
+        "path": "res/js/rison.js"
+      },
+      {
+        "value": "\r\n            Public methods\r\n",
+        "path": "res/js/rison.js"
+      },
+      {
+        "value": "\r\n                Stringifies a variable as a RISON string\r\n",
+        "path": "res/js/rison.js"
+      },
+      {
+        "value": "\r\n                Parses a RISON string to create its JS variable representation\r\n",
+        "path": "res/js/rison.js"
+      },
+      {
+        "value": "!\r\n * typeahead.js 0.11.1\r\n * https://github.com/twitter/typeahead.js\r\n * Copyright 2013-2015 Twitter, Inc. and other contributors; Licensed MIT\r\n",
+        "path": "res/js/typeahead.bundle.js"
+      },
+      {
+        "value": "\r\n\t\t\t\tEBF-17962\r\n\t\t\t\tDate-5 June 2020\r\n\t\t\t",
+        "path": "res/js/util.js"
+      },
+      {
+        "value": "*\r\n         * Hidden in 360 has to be unique from shown attributes\r\n",
+        "path": "res/js/utils/Utils.js"
+      },
+      {
+        "value": "*\r\n         * Shown in Search/Facets has to be unique from hidden by default\r\n",
+        "path": "res/js/utils/Utils.js"
+      },
+      {
+        "value": "*\r\n         * This gets the date query for performance\r\n",
+        "path": "res/js/utils/Utils.js"
+      },
+      {
+        "value": "*\r\n         * This method can be used to remove XSS vulnerability in html content.\r\n",
+        "path": "res/js/utils/Utils.js"
+      },
+      {
+        "value": "@dpadukon\r\n * Pagination\r\n * * * * * * * * * * * * * * * *",
+        "path": "res/js/views/pagination.js"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "https://fonts.googleapis.com/css?family=Roboto",
+          "path": "index.html"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "res/app1/css/lib.css"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/app1/css/lib.css"
+        },
+        {
+          "value": "https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+          "path": "res/app1/css/lib.css"
+        },
+        {
+          "value": "http://fontawesome.io",
+          "path": "res/app1/css/lib.css"
+        },
+        {
+          "value": "http://fontawesome.io/license",
+          "path": "res/app1/css/lib.css"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "res/css/bootstrap.min.css"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/css/bootstrap.min.css"
+        },
+        {
+          "value": "https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css",
+          "path": "res/css/bootstrap.min.css"
+        },
+        {
+          "value": "http://jqueryui.com",
+          "path": "res/css/jquery-ui.css"
+        },
+        {
+          "value": "http://jqueryui.com/themeroller/?bgShadowXPos=&bgOverlayXPos=&bgErrorXPos=&bgHighlightXPos=&bgContentXPos=&bgHeaderXPos=&bgActiveXPos=&bgHoverXPos=&bgDefaultXPos=&bgShadowYPos=&bgOverlayYPos=&bgErrorYPos=&bgHighlightYPos=&bgContentYPos=&bgHeaderYPos=&bgActiveYPos=&bgHoverYPos=&bgDefaultYPos=&bgShadowRepeat=&bgOverlayRepeat=&bgErrorRepeat=&bgHighlightRepeat=&bgContentRepeat=&bgHeaderRepeat=&bgActiveRepeat=&bgHoverRepeat=&bgDefaultRepeat=&iconsHover=url",
+          "path": "res/css/jquery-ui.css"
+        },
+        {
+          "value": "http://jqueryui.com",
+          "path": "res/css/jquery-ui.min.css"
+        },
+        {
+          "value": "http://jqueryui.com/themeroller/?bgShadowXPos=&bgOverlayXPos=&bgErrorXPos=&bgHighlightXPos=&bgContentXPos=&bgHeaderXPos=&bgActiveXPos=&bgHoverXPos=&bgDefaultXPos=&bgShadowYPos=&bgOverlayYPos=&bgErrorYPos=&bgHighlightYPos=&bgContentYPos=&bgHeaderYPos=&bgActiveYPos=&bgHoverYPos=&bgDefaultYPos=&bgShadowRepeat=&bgOverlayRepeat=&bgErrorRepeat=&bgHighlightRepeat=&bgContentRepeat=&bgHeaderRepeat=&bgActiveRepeat=&bgHoverRepeat=&bgDefaultRepeat=&iconsHover=url",
+          "path": "res/css/jquery-ui.min.css"
+        },
+        {
+          "value": "http://jqueryui.com",
+          "path": "res/css/jquery-ui.structure.css"
+        },
+        {
+          "value": "http://jquery.org/license",
+          "path": "res/css/jquery-ui.structure.css"
+        },
+        {
+          "value": "http://api.jqueryui.com/category/theming/",
+          "path": "res/css/jquery-ui.structure.css"
+        },
+        {
+          "value": "http://jqueryui.com",
+          "path": "res/css/jquery-ui.structure.min.css"
+        },
+        {
+          "value": "http://jqueryui.com",
+          "path": "res/css/jquery-ui.theme.css"
+        },
+        {
+          "value": "http://jquery.org/license",
+          "path": "res/css/jquery-ui.theme.css"
+        },
+        {
+          "value": "http://api.jqueryui.com/category/theming/",
+          "path": "res/css/jquery-ui.theme.css"
+        },
+        {
+          "value": "http://jqueryui.com/themeroller/?bgShadowXPos=&bgOverlayXPos=&bgErrorXPos=&bgHighlightXPos=&bgContentXPos=&bgHeaderXPos=&bgActiveXPos=&bgHoverXPos=&bgDefaultXPos=&bgShadowYPos=&bgOverlayYPos=&bgErrorYPos=&bgHighlightYPos=&bgContentYPos=&bgHeaderYPos=&bgActiveYPos=&bgHoverYPos=&bgDefaultYPos=&bgShadowRepeat=&bgOverlayRepeat=&bgErrorRepeat=&bgHighlightRepeat=&bgContentRepeat=&bgHeaderRepeat=&bgActiveRepeat=&bgHoverRepeat=&bgDefaultRepeat=&iconsHover=url",
+          "path": "res/css/jquery-ui.theme.css"
+        },
+        {
+          "value": "http://jqueryui.com",
+          "path": "res/css/jquery-ui.theme.min.css"
+        },
+        {
+          "value": "http://jqueryui.com",
+          "path": "res/css/symphony-core-3.3.0.css"
+        },
+        {
+          "value": "http://jqueryui.com/themeroller/?ffDefault=Verdana",
+          "path": "res/css/symphony-core-3.3.0.css"
+        },
+        {
+          "value": "http://daneden.me/animate",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://opensource.org/licenses/MIT",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://jqueryui.com/about",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://jquery.org/license",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://docs.jquery.com/UI/Autocomplete",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://jqueryui.com",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://jquery.org/license",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://docs.jquery.com/UI/Progressbar",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://fontawesome.io",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://fontawesome.io/license",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://craigsworks.com/projects/qtip2/",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://craigsworks.com",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://en.wikipedia.org/wiki/MIT_License",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://en.wikipedia.org/wiki/GNU_General_Public_License",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "http://validator.w3.org",
+          "path": "res/js/ajaxUtils.js"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://www.modernizr.com",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://blog.alexmaccaw.com/css-transitions",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/issues/14093",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/issues/20280",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://getbootstrap.com/javascript/",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "res/js/bootstrap.js"
+        },
+        {
+          "value": "http://ejohn.org/blog/simple-javascript-inheritance/",
+          "path": "res/js/jquery/jquery.class.js"
+        },
+        {
+          "value": "http://api.rubyonrails.org/classes/ActiveRecord/Base.html",
+          "path": "res/js/jquery/jquery.class.js"
+        },
+        {
+          "value": "https://github.com/carhartl/jquery-cookie",
+          "path": "res/js/jquery/jquery.cookie.js"
+        },
+        {
+          "value": "http://github.com/jquery/jquery-tmpl",
+          "path": "res/js/jquery/jquery-tmpl.js"
+        },
+        {
+          "value": "http://jquery.org/license",
+          "path": "res/js/jquery/jquery-tmpl.js"
+        },
+        {
+          "value": "https://github.com/jquery/jquery-tmpl/issues",
+          "path": "res/js/jquery/jquery-tmpl.js"
+        },
+        {
+          "value": "http://jqueryui.com",
+          "path": "res/js/jquery/jquery-ui.min.js"
+        },
+        {
+          "value": "http://bo11r4:8080/BOE/OpenDocument/opendoc/openDocument.jsp?iDocID=4807",
+          "path": "res/js/ReportBookmarklet.js"
+        },
+        {
+          "value": "http://bo11r4:8080/BOE/OpenDocument/opendoc/openDocument.jsp?iDocID=7575",
+          "path": "res/js/ReportBookmarklet.js"
+        },
+        {
+          "value": "http://bo11r4:8080/BOE/OpenDocument/opendoc/openDocument.jsp?iDocID=5519",
+          "path": "res/js/ReportBookmarklet.js"
+        },
+        {
+          "value": "http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=156002",
+          "path": "res/js/ReportBookmarklet.js"
+        },
+        {
+          "value": "http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=170683",
+          "path": "res/js/ReportBookmarklet.js"
+        },
+        {
+          "value": "http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=144473",
+          "path": "res/js/ReportBookmarklet.js"
+        },
+        {
+          "value": "http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=144871",
+          "path": "res/js/ReportBookmarklet.js"
+        },
+        {
+          "value": "http://json.org/json2.js",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "http://mjtemplate.org/examples/rison.html",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "http://pollinimini.net/blog/rison-compact-json-specially-suited-uris",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "http://json.org/json2.js",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "https://github.com/twitter/typeahead.js",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "http://underscorejs.org",
+          "path": "res/js/underscore-min.js"
+        },
+        {
+          "value": "http://stackoverflow.com/questions/2388115/get-locale-short-date-format-using-javascript",
+          "path": "res/js/utils/Utils.js"
+        }
+      ],
+      "email": [
+        {
+          "value": "drslump[at]pollinimini[dot]net",
+          "path": "res/js/rison.js"
+        }
+      ],
+      "ipv4": [
+        {
+          "value": "10.80.12.76",
+          "path": "res/js/ajaxUtils.js"
+        },
+        {
+          "value": "1.6.0.1",
+          "path": "res/js/jquery/jquery.lang.string.js"
+        }
+      ],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {},
+    "metadata": {
+      "ldmLogo.png": {},
+      "res/app1/favicon.ico": {},
+      "res/fonts/fontawesome-webfont.svg": {},
+      "res/images/AxonGlossary.svg": {},
+      "res/images/BGTerm.svg": {},
+      "res/images/clearFilter.svg": {},
+      "res/images/close.svg": {},
+      "res/images/Column.svg": {},
+      "res/images/CompositeDomain.svg": {},
+      "res/images/description.svg": {},
+      "res/images/downvote.svg": {},
+      "res/images/favicon.ico": {},
+      "res/images/filter.svg": {},
+      "res/images/Generic.svg": {},
+      "res/images/header.png": {},
+      "res/images/ldmLogo.svg": {},
+      "res/images/lineage.svg": {},
+      "res/images/openNewWindow.png": {},
+      "res/images/relationship.svg": {},
+      "res/images/Report.svg": {},
+      "res/images/search.svg": {},
+      "res/images/searchBackground.png": {},
+      "res/images/settings.svg": {},
+      "res/images/small_check.svg": {},
+      "res/images/small_go.svg": {},
+      "res/images/sort.svg": {},
+      "res/images/Table.svg": {},
+      "res/images/upvote.svg": {},
+      "res/images/user.svg": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "res/app1/js/threeSixty/ObjectWorkspace.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/app1/js/threeSixty/panels/ColumnsPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/app1/js/threeSixty/panels/HeaderPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/app1/js/threeSixty/panels/HeaderPanel.js"
+        },
+        {
+          "value": "base64",
+          "path": "res/css/jquery-ui.css"
+        },
+        {
+          "value": "base64",
+          "path": "res/css/jquery-ui.css"
+        },
+        {
+          "value": "base64",
+          "path": "res/css/jquery-ui.min.css"
+        },
+        {
+          "value": "base64",
+          "path": "res/css/jquery-ui.min.css"
+        },
+        {
+          "value": "base64",
+          "path": "res/css/jquery-ui.structure.css"
+        },
+        {
+          "value": "base64",
+          "path": "res/css/jquery-ui.structure.css"
+        },
+        {
+          "value": "base64",
+          "path": "res/css/jquery-ui.structure.min.css"
+        },
+        {
+          "value": "base64",
+          "path": "res/css/jquery-ui.structure.min.css"
+        },
+        {
+          "value": "base64",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "base64",
+          "path": "res/css/symphony-widgets-3.3.0.css"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/extensionContainer.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery.cookie.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery.cookie.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery-tmpl.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery-tmpl.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery-tmpl.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery-tmpl.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery-tmpl.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/jquery/jquery-tmpl.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/BGPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/BGPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/BGPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/BGPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/BGPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/ColumnsPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/ColumnsPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/CommentsPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/CommentsPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/DescriptionPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/ExtensionPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/FacetsPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/HeaderPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/HeaderPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/HeaderPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/HeaderPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/TablesPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/TablesPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/TablesPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/panels/TablesPanel.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/rison.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "base64",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/util.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/util.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/util.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/util.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/util.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/util.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/util.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/util.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/util.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/util.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/utils/RelationshipUtil.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/views/SearchListView.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/views/SearchListView.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/views/SearchListView.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/views/SearchListView.js"
+        },
+        {
+          "value": "encode",
+          "path": "res/js/views/SearchListView.js"
+        }
+      ],
+      "possible_payments": [
+        {
+          "value": "visa",
+          "path": "res/app1/css/lib.css"
+        },
+        {
+          "value": "mastercard",
+          "path": "res/app1/css/lib.css"
+        },
+        {
+          "value": "paypal",
+          "path": "res/app1/css/lib.css"
+        },
+        {
+          "value": "paypal",
+          "path": "res/app1/css/lib.css"
+        }
+      ],
+      "pattern_recognition": [
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/app1/js/threeSixty/panels/GeneralPropPanel.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "regex",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "regex",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "regex",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "regex",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "regex",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "regex",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "regex",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "pattern",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "regex",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "regex",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "regex",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "regex",
+          "path": "res/js/utils/Utils.js"
+        }
+      ],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "background.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "options.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "options.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "options.js"
+        },
+        {
+          "value": "GET",
+          "path": "options.js"
+        },
+        {
+          "value": "POST",
+          "path": "options.js"
+        },
+        {
+          "value": "POST",
+          "path": "options.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "popup.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "popup.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "popup.js"
+        },
+        {
+          "value": "GET",
+          "path": "popup.js"
+        },
+        {
+          "value": "POST",
+          "path": "popup.js"
+        },
+        {
+          "value": "POST",
+          "path": "popup.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/app1/js/appConfiguration/AppConfigData.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/app1/js/appConfiguration/AppConfigData.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/app1/js/appConfiguration/AppConfigData.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/app1/js/threeSixty/panels/ColumnsPanel.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/app1/js/threeSixty/panels/HeaderPanel.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/app1/js/threeSixty/widgets/RtfEditor.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/ajaxUtils.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/ajaxUtils.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/ajaxUtils.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/js/ajaxUtils.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/js/ajaxUtils.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/core/LazyAppConfigData.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/js/EICsession.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/js/jquery/jquery-3.2.1.min.js"
+        },
+        {
+          "value": "PUT",
+          "path": "res/js/jquery/jquery-ui.min.js"
+        },
+        {
+          "value": "PUT",
+          "path": "res/js/jquery/jquery-ui.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/panels/BGDetailsPanel.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/panels/BGDetailsPanel.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/js/panels/BGDetailsPanel.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/js/panels/BGDetailsPanel.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/panels/BGPanel.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/typeahead.bundle.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "res/js/util.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/utils/RelationshipUtil.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/js/utils/Utils.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/js/views/Configuration.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/views/SearchListView.js"
+        },
+        {
+          "value": "GET",
+          "path": "res/js/views/SearchListView.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/js/views/SearchListView.js"
+        },
+        {
+          "value": "POST",
+          "path": "res/js/views/SearchListView.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:05:01.599238"
+      }
+    }
+  }
+}

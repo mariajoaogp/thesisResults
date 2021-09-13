@@ -1,0 +1,243 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:06:24.405717 UTC",
+  "_filename": "odpinpbbiiokfhbaboknoiojfbhfhdog.crx",
+  "_files": {
+    "background.js": {
+      "md5": "026090e991a21a76fe35acdbd5643bf4",
+      "sha1": "f8bbe9ea40414a2e43280c3785504b98a055ef7a",
+      "sha256": "f8bbe9ea40414a2e43280c3785504b98a055ef7a"
+    },
+    "popup.html": {
+      "md5": "b4e3998eacbb83c755c41b0eca0bc2b7",
+      "sha1": "b6c26777dc15cfc7b7c87b076fdc1b63620bd7e6",
+      "sha256": "b6c26777dc15cfc7b7c87b076fdc1b63620bd7e6"
+    },
+    "img/icon16.png": {
+      "md5": "f7f34831979350208a90a06da81b5c11",
+      "sha1": "b0be22b6ad6d3543917e28c07d07878834aa2e8b",
+      "sha256": "b0be22b6ad6d3543917e28c07d07878834aa2e8b"
+    },
+    "img/icon.png": {
+      "md5": "9148c9332261204572e7edd7a04656b9",
+      "sha1": "392bb81cdfecfb11c424398ee4bd361fef64bc8d",
+      "sha256": "392bb81cdfecfb11c424398ee4bd361fef64bc8d"
+    },
+    "img/icon38.png": {
+      "md5": "1117486d293eb25158afd66d5bee68cd",
+      "sha1": "7c28686bbaed6bb46c3525c1bbf94d00364e77b2",
+      "sha256": "7c28686bbaed6bb46c3525c1bbf94d00364e77b2"
+    },
+    "img/icon48.png": {
+      "md5": "220fe8f51d6081e34f45aa1857b836aa",
+      "sha1": "3a175b62d5ea146966354145cc5cc5c26ad61077",
+      "sha256": "3a175b62d5ea146966354145cc5cc5c26ad61077"
+    },
+    "img/icon19.png": {
+      "md5": "e88264f6db61085c49ca7fa748a1b552",
+      "sha1": "ad2adb6d1cf50072dbb44efb197b670fc7ab5694",
+      "sha256": "ad2adb6d1cf50072dbb44efb197b670fc7ab5694"
+    },
+    "script.js": {
+      "md5": "434d1b8c35e75ea01bec7616a8552cc5",
+      "sha1": "ac8e836403d5f96ea22613ab4ba2090456e8b22f",
+      "sha256": "ac8e836403d5f96ea22613ab4ba2090456e8b22f"
+    },
+    "style.css": {
+      "md5": "1e69d5e2866cde1e82c0747fd0c551f3",
+      "sha1": "2fb4d4f9e56eb74e0c92ca4be1fb59ddca727169",
+      "sha256": "2fb4d4f9e56eb74e0c92ca4be1fb59ddca727169"
+    },
+    "manifest.json": {
+      "md5": "a783dc6104fb0e8cc61984524a8e0cbf",
+      "sha1": "46305fc4399fa87a55f61afbf02e62b9d74a99e7",
+      "sha256": "46305fc4399fa87a55f61afbf02e62b9d74a99e7"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "31d81ae1cfdfe01f2ccba82c752e22f5",
+      "sha1": "8a9c31975c5795383be6504b62903fd4e989361f",
+      "sha256": "8a9c31975c5795383be6504b62903fd4e989361f"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "name": "An\u00e1lisis SEO de MetricSpot",
+    "short_name": "MetricSpot",
+    "description": "Genera informes Web y mide el grado de optimizaci\u00f3n de m\u00e1s de 50 par\u00e1metros SEO que influyen en el ranking de los buscadores.",
+    "browser_action": {
+      "default_icon": {
+        "38": "img/icon38.png",
+        "19": "img/icon19.png"
+      },
+      "default_title": "An\u00e1lisis SEO de MetricSpot",
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "img/icon16.png",
+      "48": "img/icon48.png",
+      "128": "img/icon.png"
+    },
+    "background": {
+      "css": [
+        "style.css"
+      ],
+      "scripts": [
+        "background.js"
+      ]
+    },
+    "permissions": [
+      "tabs",
+      "notifications",
+      "https://*/*",
+      "http://*/*"
+    ],
+    "manifest_version": 2,
+    "update_url": "http://clients2.google.com/service/update2/crx",
+    "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
+    "version": "1.8"
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "02d727711330ec16d5b5771814ae3ce9",
+    "sha1": "34f24d2249b38cb6d895c626b72985fb45e1f44f",
+    "sha256": "34f24d2249b38cb6d895c626b72985fb45e1f44f"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "\r\n                        <div class=\"ficon-wrapper\">\r\n                            <a href=\"https://www.facebook.com/metricspot\" target=\"_blank\" class=\"aicon\"><div class=\"ficon sprite-fb\" title=\"Facebook\" ></div></a>\r\n                            <a href=\"https://twitter.com/metricspot\" target=\"_blank\" class=\"bicon\"><div class=\"ficon sprite-tw\" title=\"Twitter\" ></div></a>\r\n                            <a href=\"https://www.linkedin.com/company/2859675/\" target=\"_blank\" class=\"bicon\"><div class=\"ficon sprite-in\" title=\"LinkedIn\" ></div></a>\r\n                            <a href=\"https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Fwww.metricspot.com%2Fblog%2Ffeed%2F\" target=\"_blank\" class=\"bicon\"><div class=\"ficon sprite-rss\" title=\"Suscr\u00edbete v\u00eda RSS\" ></div></a>\r\n                            <a href=\"http://eepurl.com/Nyksz\" target=\"_blank\" class=\"bicon\"><div class=\"ficon sprite-mail\" title=\"Suscr\u00edbete v\u00eda e-mail\" ></div></a>\r\n                        </div>\r\n",
+        "path": "popup.html"
+      },
+      {
+        "value": "For IE8 and earlier",
+        "path": "style.css"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "http://fonts.googleapis.com/css?family=Open",
+          "path": "popup.html"
+        },
+        {
+          "value": "https://metricspot.com",
+          "path": "popup.html"
+        },
+        {
+          "value": "https://metricspot.com/img/extension.png",
+          "path": "popup.html"
+        },
+        {
+          "value": "https://metricspot.com/app/",
+          "path": "popup.html"
+        },
+        {
+          "value": "https://www.facebook.com/metricspot",
+          "path": "popup.html"
+        },
+        {
+          "value": "https://twitter.com/metricspot",
+          "path": "popup.html"
+        },
+        {
+          "value": "https://www.linkedin.com/company/2859675/",
+          "path": "popup.html"
+        },
+        {
+          "value": "https://feedly.com/i/subscription/feed",
+          "path": "popup.html"
+        },
+        {
+          "value": "http://eepurl.com/Nyksz",
+          "path": "popup.html"
+        },
+        {
+          "value": "https://metricspot.com/blog/feed/",
+          "path": "script.js"
+        },
+        {
+          "value": "https://metricspot.com/img/socialsprite.png",
+          "path": "style.css"
+        },
+        {
+          "value": "https://metricspot.com/img/socialsprite.png",
+          "path": "style.css"
+        },
+        {
+          "value": "https://metricspot.com/img/socialsprite.png",
+          "path": "style.css"
+        },
+        {
+          "value": "https://metricspot.com/img/socialsprite.png",
+          "path": "style.css"
+        },
+        {
+          "value": "https://metricspot.com/img/socialsprite.png",
+          "path": "style.css"
+        },
+        {
+          "value": "https://metricspot.com/img/socialsprite.png",
+          "path": "style.css"
+        }
+      ],
+      "email": [],
+      "ipv4": [],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {},
+    "metadata": {
+      "img/icon16.png": {},
+      "img/icon.png": {},
+      "img/icon38.png": {},
+      "img/icon48.png": {},
+      "img/icon19.png": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "script.js"
+        },
+        {
+          "value": "encode",
+          "path": "script.js"
+        }
+      ],
+      "possible_payments": [],
+      "pattern_recognition": [
+        {
+          "value": "pattern",
+          "path": "popup.html"
+        },
+        {
+          "value": "pattern",
+          "path": "popup.html"
+        }
+      ],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "script.js"
+        },
+        {
+          "value": "GET",
+          "path": "script.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:06:24.477026"
+      }
+    }
+  }
+}

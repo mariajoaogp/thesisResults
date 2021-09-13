@@ -1,0 +1,195 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:09:21.241311 UTC",
+  "_filename": "pbinilkmkdpcpnfmecnehdgecpcbfhep.crx",
+  "_files": {
+    "background.html": {
+      "md5": "2a25759c2ad968cd493f8c497ce604c1",
+      "sha1": "332c8df599ff14fe13af5694ad554ae4f38aadc1",
+      "sha256": "332c8df599ff14fe13af5694ad554ae4f38aadc1"
+    },
+    "background.js": {
+      "md5": "808fc8da668ff873db2d45cf32ed4845",
+      "sha1": "04d7abf7c42a0d8a43c0f7dfeb9ab3061cb93ff5",
+      "sha256": "04d7abf7c42a0d8a43c0f7dfeb9ab3061cb93ff5"
+    },
+    "content.js": {
+      "md5": "10639cb38185afd53f87536f44da6a8c",
+      "sha1": "68926ce222e81519c6f06ef6eca4a7bb1d59bcb6",
+      "sha256": "68926ce222e81519c6f06ef6eca4a7bb1d59bcb6"
+    },
+    "icon.png": {
+      "md5": "5b45f76d7d00cb48e5037c2a6be5c1fe",
+      "sha1": "a52ba50682e9750386f2d8841067ed9543e1ea8d",
+      "sha256": "a52ba50682e9750386f2d8841067ed9543e1ea8d"
+    },
+    "jquery.min.js": {
+      "md5": "f6f6c41ace52f2bf06ae12a8dc0f1b24",
+      "sha1": "058bf2c03421397bbf5c6c657a2b552eec3f53d7",
+      "sha256": "058bf2c03421397bbf5c6c657a2b552eec3f53d7"
+    },
+    "manifest.json": {
+      "md5": "a6ad21311b4c21e315390c6016f2fad2",
+      "sha1": "eff585a4ce0ddb20ca322fd2ef0c7a9cd63fa589",
+      "sha256": "eff585a4ce0ddb20ca322fd2ef0c7a9cd63fa589"
+    },
+    "popup.js": {
+      "md5": "b31f16cbd30fdfc1f8d50902c363d184",
+      "sha1": "48f0b061cfa243250441923fbe84606ac0a4bd2d",
+      "sha256": "48f0b061cfa243250441923fbe84606ac0a4bd2d"
+    },
+    "wermz.html": {
+      "md5": "9e25102df8a9e17a0afbfb1220bb65d4",
+      "sha1": "7d4fea2b831add5f3649b5d253d1875988b0269b",
+      "sha256": "7d4fea2b831add5f3649b5d253d1875988b0269b"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "a959ecae14bfe9c47853871d3249fdd4",
+      "sha1": "f8f29f61cd175fd1a9ba342a5c235d9c5a61a05b",
+      "sha256": "f8f29f61cd175fd1a9ba342a5c235d9c5a61a05b"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "manifest_version": 2,
+    "name": "Wermz Enhanced News",
+    "description": "This extension shows topics and articles related to the news article being viewed",
+    "version": "1.0",
+    "page_action": {
+      "default_icon": "icon.png",
+      "default_title": "Wermz Enhanced News",
+      "default_popup": "wermz.html"
+    },
+    "background": {
+      "page": "background.html",
+      "persistent": false
+    },
+    "permissions": [
+      "tabs",
+      "storage",
+      "https://*.wermz.com/",
+      "http://*.wermz.com/"
+    ]
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "29dfb28e04855fef2c4b2a1655e07d93",
+    "sha1": "4c1486806d16a3e753ad54b57424d5ae22ec1773",
+    "sha256": "4c1486806d16a3e753ad54b57424d5ae22ec1773"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "! jQuery v1.6.4 http://jquery.com/ | http://jquery.org/license",
+        "path": "jquery.min.js"
+      },
+      {
+        "value": "$0",
+        "path": "jquery.min.js"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "https://www.wermz.com",
+          "path": "background.js"
+        },
+        {
+          "value": "http://jquery.com",
+          "path": "jquery.min.js"
+        },
+        {
+          "value": "http://jquery.org/license",
+          "path": "jquery.min.js"
+        },
+        {
+          "value": "https://www.wermz.com",
+          "path": "popup.js"
+        },
+        {
+          "value": "https://s3.amazonaws.com/wermznews/static/email/wermz-logo-email.png",
+          "path": "wermz.html"
+        }
+      ],
+      "email": [],
+      "ipv4": [],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {},
+    "metadata": {
+      "icon.png": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "jquery.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "jquery.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "jquery.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "jquery.min.js"
+        }
+      ],
+      "possible_payments": [],
+      "pattern_recognition": [
+        {
+          "value": "regex",
+          "path": "jquery.min.js"
+        }
+      ],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "jquery.min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "jquery.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "jquery.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "jquery.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "jquery.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "jquery.min.js"
+        },
+        {
+          "value": "POST",
+          "path": "jquery.min.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:09:21.454266"
+      }
+    }
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:07:07.721682 UTC",
+  "_filename": "hjgoljmnaepbdpeadpciimeapgjadenc.crx",
+  "_files": {
+    "ext-pp-concatenated-sources-background.js": {
+      "md5": "a5ae1306f7c18bfe805dd8244bceff32",
+      "sha1": "b78acc6988f8e4531fe750db623d9c260ac22cb5",
+      "sha256": "b78acc6988f8e4531fe750db623d9c260ac22cb5"
+    },
+    "ext-pp-concatenated-sources-contentscript-protopage.js": {
+      "md5": "f2014bf5cc829f5172befd5ee735312a",
+      "sha1": "93cb9af9785645d54dcbaa103135f8d871bae8b7",
+      "sha256": "93cb9af9785645d54dcbaa103135f8d871bae8b7"
+    },
+    "ext-pp-concatenated-sources-contentscript.js": {
+      "md5": "9e4591b380611722ec47afa7eb0367a2",
+      "sha1": "a2440cf7d92c0e5720649a13ba71e910fb6daa8f",
+      "sha256": "a2440cf7d92c0e5720649a13ba71e910fb6daa8f"
+    },
+    "ext-pp-concatenated-sources-popup.js": {
+      "md5": "0812abb3348e95acd4fbfeb937c0a756",
+      "sha1": "3793d6e23172557266b89d2a2a71ee4aa2a4d240",
+      "sha256": "3793d6e23172557266b89d2a2a71ee4aa2a4d240"
+    },
+    "images/extension-extract3.png": {
+      "md5": "aac6dc3018cce38eae96200213fb4d64",
+      "sha1": "8f7f76348475a32ab72fc0b502e43595d3dd713d",
+      "sha256": "8f7f76348475a32ab72fc0b502e43595d3dd713d"
+    },
+    "images/extension-icon128.png": {
+      "md5": "ac927ff128e30574defc0344b3744ed8",
+      "sha1": "45e7ff7bdb98c9756f44a3d41c5adef85ea0a090",
+      "sha256": "45e7ff7bdb98c9756f44a3d41c5adef85ea0a090"
+    },
+    "images/extension-icon16.png": {
+      "md5": "1b2211228ccd946d1813935015932b8c",
+      "sha1": "152a301693c94d0b3fc8fbfb373e74b0cbd38b28",
+      "sha256": "152a301693c94d0b3fc8fbfb373e74b0cbd38b28"
+    },
+    "images/extension-icon48.png": {
+      "md5": "cce5009c538e48573faf2da2384ab156",
+      "sha1": "a96f9e9919341f0d8dec3d85f802593048ae44b7",
+      "sha256": "a96f9e9919341f0d8dec3d85f802593048ae44b7"
+    },
+    "images/icon-rss19.png": {
+      "md5": "1d87df7c328100ef2f0e8963cad2b5b0",
+      "sha1": "7a2724f20690a9bdd83f931aa1ea3205517049e2",
+      "sha256": "7a2724f20690a9bdd83f931aa1ea3205517049e2"
+    },
+    "images/icon-rss38.png": {
+      "md5": "7ad9ddc3faa2da4067e1941b3f9d6a8f",
+      "sha1": "7f40477ebbb34e8b44d142d781370bb333170e49",
+      "sha256": "7f40477ebbb34e8b44d142d781370bb333170e49"
+    },
+    "images/icon19.png": {
+      "md5": "3ce9b59cfea651d6028dcfadea1baa2a",
+      "sha1": "2699e844b18bf09f9d5cf9a79a7c5a31137bf1af",
+      "sha256": "2699e844b18bf09f9d5cf9a79a7c5a31137bf1af"
+    },
+    "images/icon38.png": {
+      "md5": "cadf2b07d14a5256bb42c4daa3128fc1",
+      "sha1": "9228b3e9f7bf2e353d9df9720ef62392ecf02720",
+      "sha256": "9228b3e9f7bf2e353d9df9720ef62392ecf02720"
+    },
+    "images/pp-square-logo.png": {
+      "md5": "c03831f0bb90809583c02415b426de92",
+      "sha1": "3afe2577db4ecaf436a1e9d726f95dc77b8814c8",
+      "sha256": "3afe2577db4ecaf436a1e9d726f95dc77b8814c8"
+    },
+    "images/rss.png": {
+      "md5": "0831aa414a23a43eff6797a7366832d6",
+      "sha1": "db469baa3210bd81fdec0a34ec9347377d02059f",
+      "sha256": "db469baa3210bd81fdec0a34ec9347377d02059f"
+    },
+    "images/sample-widgets.jpg": {
+      "md5": "a8958256ba6310b6f4e7abcf9750dabe",
+      "sha1": "68e471a39b9fa449e9f8d25f4b88546abb5ec0f3",
+      "sha256": "68e471a39b9fa449e9f8d25f4b88546abb5ec0f3"
+    },
+    "manifest.json": {
+      "md5": "5c651c1a7eec455abc87c2aa918c4002",
+      "sha1": "294b6ddc797ea95d97f169e62e98d86fea49066d",
+      "sha256": "294b6ddc797ea95d97f169e62e98d86fea49066d"
+    },
+    "popup.html": {
+      "md5": "443eef841162d9e74cab487fa2f4ba48",
+      "sha1": "a60ae606edcde08dcc32d697127f63ab7f73d3b4",
+      "sha256": "a60ae606edcde08dcc32d697127f63ab7f73d3b4"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "d5bac2b41f19f54327ea9640acab06a5",
+      "sha1": "0d732a98727c67d4189966a46a203edcad2e13df",
+      "sha256": "0d732a98727c67d4189966a46a203edcad2e13df"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "manifest_version": 2,
+    "name": "Protopage Start Page",
+    "description": "Protopage Start Page",
+    "version": "1.32",
+    "icons": {
+      "128": "images/extension-icon128.png",
+      "48": "images/extension-icon48.png",
+      "16": "images/extension-icon16.png"
+    },
+    "incognito": "split",
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "*://*.protopage.com/*",
+      "cookies"
+    ],
+    "browser_action": {
+      "default_icon": {
+        "19": "images/icon19.png",
+        "38": "images/icon38.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "*://*.protopage.com/*"
+        ],
+        "js": [
+          "ext-pp-concatenated-sources-contentscript-protopage.js"
+        ],
+        "run_at": "document_end"
+      }
+    ],
+    "background": {
+      "scripts": [
+        "ext-pp-concatenated-sources-background.js"
+      ]
+    },
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "a173c86c3e5649d0c74aa708d6abaa51",
+    "sha1": "3f9ee3e8525fd822dc10663fc6643a4a5e1e871c",
+    "sha256": "3f9ee3e8525fd822dc10663fc6643a4a5e1e871c"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "<div style=\"width:432px; height:45px; background-image: url(header.png); background-repeat: no-repeat;\"></div>",
+        "path": "popup.html"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "https://chrome.google.com/webstore/detail/protopage-start-page/hjgoljmnaepbdpeadpciimeapgjadenc/reviews",
+          "path": "ext-pp-concatenated-sources-background.js"
+        },
+        {
+          "value": "https://www.protopage.com",
+          "path": "ext-pp-concatenated-sources-background.js"
+        },
+        {
+          "value": "https://ssl.google-analytics.com/ga.js",
+          "path": "ext-pp-concatenated-sources-background.js"
+        },
+        {
+          "value": "https://chrome.google.com/webstore/detail/protopage-start-page/hjgoljmnaepbdpeadpciimeapgjadenc/reviews",
+          "path": "ext-pp-concatenated-sources-contentscript-protopage.js"
+        },
+        {
+          "value": "https://chrome.google.com/webstore/detail/protopage-start-page/hjgoljmnaepbdpeadpciimeapgjadenc/reviews",
+          "path": "ext-pp-concatenated-sources-popup.js"
+        },
+        {
+          "value": "https://www.protopage.com",
+          "path": "ext-pp-concatenated-sources-popup.js"
+        },
+        {
+          "value": "https://ssl.google-analytics.com/ga.js",
+          "path": "ext-pp-concatenated-sources-popup.js"
+        },
+        {
+          "value": "https://fonts.googleapis.com/css?family=Open",
+          "path": "popup.html"
+        },
+        {
+          "value": "https://www.protopage.com/login",
+          "path": "popup.html"
+        }
+      ],
+      "email": [],
+      "ipv4": [],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {},
+    "metadata": {
+      "images/extension-extract3.png": {},
+      "images/extension-icon128.png": {},
+      "images/extension-icon16.png": {},
+      "images/extension-icon48.png": {},
+      "images/icon-rss19.png": {},
+      "images/icon-rss38.png": {},
+      "images/icon19.png": {},
+      "images/icon38.png": {},
+      "images/pp-square-logo.png": {},
+      "images/rss.png": {},
+      "images/sample-widgets.jpg": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "ext-pp-concatenated-sources-popup.js"
+        },
+        {
+          "value": "encode",
+          "path": "ext-pp-concatenated-sources-popup.js"
+        },
+        {
+          "value": "encode",
+          "path": "ext-pp-concatenated-sources-popup.js"
+        },
+        {
+          "value": "encode",
+          "path": "ext-pp-concatenated-sources-popup.js"
+        },
+        {
+          "value": "encode",
+          "path": "ext-pp-concatenated-sources-popup.js"
+        },
+        {
+          "value": "encode",
+          "path": "ext-pp-concatenated-sources-popup.js"
+        },
+        {
+          "value": "base64",
+          "path": "popup.html"
+        },
+        {
+          "value": "base64",
+          "path": "popup.html"
+        }
+      ],
+      "possible_payments": [],
+      "pattern_recognition": [],
+      "external_connections": []
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:07:07.881742"
+      }
+    }
+  }
+}

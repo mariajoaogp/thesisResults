@@ -1,0 +1,252 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:08:00.782674 UTC",
+  "_filename": "bhbcbhpenkmpgbjgaleflgfmelhjlcla.crx",
+  "_files": {
+    "about.html": {
+      "md5": "0b66d16a02c0eb34e163b1c3bad32bd9",
+      "sha1": "b03e5dd4354d237b310b493d279604f1a49efed7",
+      "sha256": "b03e5dd4354d237b310b493d279604f1a49efed7"
+    },
+    "background.html": {
+      "md5": "942f9b1e51a7a2ce218aacda7d441cfb",
+      "sha1": "c926dadb5e9693b215c14c26f3ac45b5123d837d",
+      "sha256": "c926dadb5e9693b215c14c26f3ac45b5123d837d"
+    },
+    "icon.png": {
+      "md5": "75c5c4b8e03d4298f33962df7581f7ef",
+      "sha1": "918c80b40eed3aa6e9f235e2147ed5eac6103359",
+      "sha256": "918c80b40eed3aa6e9f235e2147ed5eac6103359"
+    },
+    "imgres.png": {
+      "md5": "408961f6b77262007cf4233756e75205",
+      "sha1": "ff3fd8f1b755f2a61fb1429eda0d7efeb63b052a",
+      "sha256": "ff3fd8f1b755f2a61fb1429eda0d7efeb63b052a"
+    },
+    "manifest.json": {
+      "md5": "9cfb4fe950f3963337f0b0a210084bbe",
+      "sha1": "b4eccb4acc56228220bbc21df2db075243e22233",
+      "sha256": "b4eccb4acc56228220bbc21df2db075243e22233"
+    },
+    "options.html": {
+      "md5": "a974e39425ec3abe17aaea50d10b9055",
+      "sha1": "ae473b7957230aea5647926dc669b9b5ceddbc9a",
+      "sha256": "ae473b7957230aea5647926dc669b9b5ceddbc9a"
+    },
+    "scripts/jquery-2.2.4.min.js": {
+      "md5": "3c9969344df9409f797b6ad21091fb45",
+      "sha1": "d2066c979d6b8befe67dcca9b6922d4fe27d9d62",
+      "sha256": "d2066c979d6b8befe67dcca9b6922d4fe27d9d62"
+    },
+    "scripts/main.js": {
+      "md5": "2f986bff36499ac4014f8cb61756173a",
+      "sha1": "5d68b1180513d9f40b9fb4e98814a159a988a23e",
+      "sha256": "5d68b1180513d9f40b9fb4e98814a159a988a23e"
+    },
+    "scripts/options.js": {
+      "md5": "1ef0a4dfa3f2cc839d228d5a9bf69853",
+      "sha1": "b0a52eacee7469d4ba88e888a0d95522430b48c9",
+      "sha256": "b0a52eacee7469d4ba88e888a0d95522430b48c9"
+    },
+    "vk128.png": {
+      "md5": "6d154854f39b6903d0f923ae715ef29a",
+      "sha1": "ba396cd5f6ff8dacfb8e6ae66c167294e4b3a442",
+      "sha256": "ba396cd5f6ff8dacfb8e6ae66c167294e4b3a442"
+    },
+    "vk16.png": {
+      "md5": "c2b0ce5a1d356e5009aa9b3109bdaa8b",
+      "sha1": "6a377f05ea245e975b3035d5098dffe70cc6c330",
+      "sha256": "6a377f05ea245e975b3035d5098dffe70cc6c330"
+    },
+    "vk32.png": {
+      "md5": "2e335e1e8856229cfaeddc3ac81946e8",
+      "sha1": "f4fface31ba1d7a6dc23637918a1ddc3fe62544b",
+      "sha256": "f4fface31ba1d7a6dc23637918a1ddc3fe62544b"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "dcedde8205441da321696e40fbb812dd",
+      "sha1": "220e7bb3c759ce554413b936f0b442bea8270129",
+      "sha256": "220e7bb3c759ce554413b936f0b442bea8270129"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "manifest_version": 2,
+    "background": {
+      "page": "background.html"
+    },
+    "browser_action": {
+      "default_icon": "vk32.png",
+      "default_title": "\u041e\u043f\u0443\u0431\u043b\u0438\u043a\u043e\u0432\u0430\u0442\u044c \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435"
+    },
+    "description": "\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u0441\u0441\u044b\u043b\u043a\u043e\u0439 \u043f\u043e\u0441\u0435\u0449\u0435\u043d\u043d\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b \u0441 \u0434\u0440\u0443\u0437\u044c\u044f\u043c\u0438 \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435 (vk.com)",
+    "icons": {
+      "128": "vk128.png",
+      "16": "vk16.png",
+      "32": "vk32.png"
+    },
+    "name": "\u041e\u043f\u0443\u0431\u043b\u0438\u043a\u043e\u0432\u0430\u0442\u044c \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435 (vk.com)",
+    "options_page": "options.html",
+    "permissions": [
+      "tabs",
+      "contextMenus",
+      "http://*.vk.com/*",
+      "https://*.vk.com/*"
+    ],
+    "update_url": "http://clients2.google.com/service/update2/crx",
+    "content_security_policy": "script-src 'self' https://apis.google.com https://vk.com; object-src 'self'",
+    "version": "1.3.5"
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "ec3b4d385574fa9642cc1905b96059f9",
+    "sha1": "b765aa8e6634fdc9992f882ddb4f0ed874f50815",
+    "sha256": "b765aa8e6634fdc9992f882ddb4f0ed874f50815"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "! jQuery v2.2.4 | (c) jQuery Foundation | jquery.org/license",
+        "path": "scripts/jquery-2.2.4.min.js"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "https://plus.google.com/u/0/105301012726696299751/about",
+          "path": "about.html"
+        },
+        {
+          "value": "https://chrome.google.com/webstore/detail/bhbcbhpenkmpgbjgaleflgfmelhjlcla",
+          "path": "about.html"
+        },
+        {
+          "value": "https://apis.google.com/js/plusone.js",
+          "path": "about.html"
+        },
+        {
+          "value": "https://chrome.google.com/webstore/detail/bhbcbhpenkmpgbjgaleflgfmelhjlcla",
+          "path": "options.html"
+        },
+        {
+          "value": "https://apis.google.com/js/plusone.js",
+          "path": "options.html"
+        },
+        {
+          "value": "https://vk.com/share.php?act=count&index=0&url=",
+          "path": "scripts/main.js"
+        },
+        {
+          "value": "https://vk.com/share.php",
+          "path": "scripts/main.js"
+        },
+        {
+          "value": "https://vk.com/share.php",
+          "path": "scripts/main.js"
+        }
+      ],
+      "email": [],
+      "ipv4": [
+        {
+          "value": "1.1.0.10",
+          "path": "about.html"
+        },
+        {
+          "value": "1.1.0.9",
+          "path": "about.html"
+        }
+      ],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {},
+    "metadata": {
+      "icon.png": {},
+      "imgres.png": {},
+      "vk128.png": {},
+      "vk16.png": {},
+      "vk32.png": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/main.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/main.js"
+        }
+      ],
+      "possible_payments": [],
+      "pattern_recognition": [],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "POST",
+          "path": "scripts/jquery-2.2.4.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/main.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:08:00.976730"
+      }
+    }
+  }
+}

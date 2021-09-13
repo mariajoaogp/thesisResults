@@ -1,0 +1,939 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:06:04.042146 UTC",
+  "_filename": "ibmdcomhdlkhkfcpeihnbjchmbnophoi.crx",
+  "_files": {
+    "manifest.json": {
+      "md5": "8c9eee2d8f92e3ca97b4b0c29caf6c96",
+      "sha1": "521f038c4ff26c5931ca7588c897456a124c278b",
+      "sha256": "521f038c4ff26c5931ca7588c897456a124c278b"
+    },
+    "css/popup.css": {
+      "md5": "222426a15759c87277d650f7f008c4c2",
+      "sha1": "90ca941478def52baec8370469a6f95750768fe2",
+      "sha256": "90ca941478def52baec8370469a6f95750768fe2"
+    },
+    "css/fonts.css": {
+      "md5": "1aeaa1b62c9cfccc347510e33f7d57e6",
+      "sha1": "f9b3cb908167e70482407aead5e6bef37643bf69",
+      "sha256": "f9b3cb908167e70482407aead5e6bef37643bf69"
+    },
+    "html/_popup.html": {
+      "md5": "ccb26aafe489d4ed79472616f343f457",
+      "sha1": "07f54b5345b14a90fad4159ef6963c80602dd2cc",
+      "sha256": "07f54b5345b14a90fad4159ef6963c80602dd2cc"
+    },
+    "html/background.html": {
+      "md5": "719237610088bbe0aaa2c648f3b900df",
+      "sha1": "49986d7aeb9b6986fc65c87c735ab49c65b3ab1d",
+      "sha256": "49986d7aeb9b6986fc65c87c735ab49c65b3ab1d"
+    },
+    "css/style.css": {
+      "md5": "5f38cd26258e4c676ef270e848efc906",
+      "sha1": "1a7528e1e39bab842f74a20afd6261b60598761c",
+      "sha256": "1a7528e1e39bab842f74a20afd6261b60598761c"
+    },
+    "html/options.html": {
+      "md5": "ec98b43539bc752ae614ff44eb10388a",
+      "sha1": "4776c934c77352d55629f8cf30e672d58893ba38",
+      "sha256": "4776c934c77352d55629f8cf30e672d58893ba38"
+    },
+    "html/popup.html": {
+      "md5": "0f6515c8567b6910d11bcde73b5150cc",
+      "sha1": "44a094ad4d9ca2aaf517bfae547a250caaec0c25",
+      "sha256": "44a094ad4d9ca2aaf517bfae547a250caaec0c25"
+    },
+    "img/FB93B18D.jpg": {
+      "md5": "1bc7eca3756c1628c31c4875ac250e94",
+      "sha1": "37df5424179a3e5610360523796bb84e018c5adf",
+      "sha256": "37df5424179a3e5610360523796bb84e018c5adf"
+    },
+    "img/error.png": {
+      "md5": "0142db41d0cb6f67ece76f23bab06cd7",
+      "sha1": "178ef63fd9c7b24fceb88c97f54c02d3ff6fb04c",
+      "sha256": "178ef63fd9c7b24fceb88c97f54c02d3ff6fb04c"
+    },
+    "img/cart.png": {
+      "md5": "3d91c3c43c595e9f0f4e417943f23f07",
+      "sha1": "750faf2abe5f81591785c6b163e1e36be4cb151b",
+      "sha256": "750faf2abe5f81591785c6b163e1e36be4cb151b"
+    },
+    "img/FB93B18F.jpg": {
+      "md5": "aa9e7bdd91fe36810819742585979378",
+      "sha1": "b969b539c1fc10f767f8ca840f3141e40fc7083d",
+      "sha256": "b969b539c1fc10f767f8ca840f3141e40fc7083d"
+    },
+    "img/icon-check.svg": {
+      "md5": "9c7264060ef2a564a8caee9f21725358",
+      "sha1": "77d8e532fcc6cf2b8b5fcff31c973d05e3502d4c",
+      "sha256": "77d8e532fcc6cf2b8b5fcff31c973d05e3502d4c"
+    },
+    "img/icon-canonical.png": {
+      "md5": "3d17c0ed9b12752c0981a0c1a7da89fe",
+      "sha1": "3ddf7f20113c1045ccf96793f763cc09565c96ae",
+      "sha256": "3ddf7f20113c1045ccf96793f763cc09565c96ae"
+    },
+    "img/icon-info.svg": {
+      "md5": "ebb137592ba165f0983a03bedf065493",
+      "sha1": "3a9c881e4f42cd8a67deb82d1f363c87b8da380f",
+      "sha256": "3a9c881e4f42cd8a67deb82d1f363c87b8da380f"
+    },
+    "img/icon-magnifier.png": {
+      "md5": "f77d34b98f01ff32a7b8b40cbe94c907",
+      "sha1": "0268fe63c23a53228cd5f246f3349f4800fba318",
+      "sha256": "0268fe63c23a53228cd5f246f3349f4800fba318"
+    },
+    "img/icon-mark.png": {
+      "md5": "7c2295240b8ec8f0ae5faf270bf4344e",
+      "sha1": "4cf25449f7e3e7ece4e169104f1947fd40e64c4e",
+      "sha256": "4cf25449f7e3e7ece4e169104f1947fd40e64c4e"
+    },
+    "img/icon-magnifier.svg": {
+      "md5": "3398aabd10f9f5534b1dc66b29c72444",
+      "sha1": "e454d85f45eac03b6ee79ce1cf73128595efe737",
+      "sha256": "e454d85f45eac03b6ee79ce1cf73128595efe737"
+    },
+    "img/icon256.png": {
+      "md5": "b4d959cf028951597353a2fe611ec7c1",
+      "sha1": "731f761b51f2a1eea006141ff062c63810bd39e4",
+      "sha256": "731f761b51f2a1eea006141ff062c63810bd39e4"
+    },
+    "img/icon-right.svg": {
+      "md5": "6694ac8404023e0f38dcdd03b968dc5e",
+      "sha1": "9fcf1e6c46e704471ea1f5cc56eecb703a23d24a",
+      "sha256": "9fcf1e6c46e704471ea1f5cc56eecb703a23d24a"
+    },
+    "img/link-research-tool-logo-bg.png": {
+      "md5": "b00bcb013c75ae9d125a4b921a96c5d6",
+      "sha1": "f3fb3099f9e4b3d0c1dc244ef5a1205b50beffd2",
+      "sha256": "f3fb3099f9e4b3d0c1dc244ef5a1205b50beffd2"
+    },
+    "img/icon-cog.svg": {
+      "md5": "7fa5cf3fa420d274128571172d53c708",
+      "sha1": "25b07fed05693aead81281b2cc121445c32dc207",
+      "sha256": "25b07fed05693aead81281b2cc121445c32dc207"
+    },
+    "img/link-research-tool-logo.svg": {
+      "md5": "d97e3c813d36aabab424eb12d557e197",
+      "sha1": "44b314a7fdda07be68823299fba2d921f26105c4",
+      "sha256": "44b314a7fdda07be68823299fba2d921f26105c4"
+    },
+    "img/loading.gif": {
+      "md5": "3bbb26e81c2610240c5dce6aa03a74ea",
+      "sha1": "3de778b5f6ddf1489a5b2489f122b5555e18bd89",
+      "sha256": "3de778b5f6ddf1489a5b2489f122b5555e18bd89"
+    },
+    "img/logo256.png": {
+      "md5": "d52a4f8c4771c92102e02d78476e7502",
+      "sha1": "0d426d2e0f8198e56ed4e819da765051037d0169",
+      "sha256": "0d426d2e0f8198e56ed4e819da765051037d0169"
+    },
+    "img/link-research-tool-logo.png": {
+      "md5": "15e8258bfae867c02f99d9cd72ed9ff6",
+      "sha1": "4185dfb5c01852a23cb8ce8651a6db3ba38315b4",
+      "sha256": "4185dfb5c01852a23cb8ce8651a6db3ba38315b4"
+    },
+    "img/lrt-pt-logo.png": {
+      "md5": "b0228c9db5e3e37f69cb0ca60a0c6ad2",
+      "sha1": "2a24b46fc185b8e4164da55718ee9a9bc61a850c",
+      "sha256": "2a24b46fc185b8e4164da55718ee9a9bc61a850c"
+    },
+    "img/lrt-pt-logo.svg": {
+      "md5": "b8aa1b73289c26cd6f6688752f98ecbe",
+      "sha1": "d833c7c83cb81b5e2f96040c3309c7997c3f5252",
+      "sha256": "d833c7c83cb81b5e2f96040c3309c7997c3f5252"
+    },
+    "img/lrt-loading.gif": {
+      "md5": "b25591cda91e4589ec3c39fe80b7b5fe",
+      "sha1": "40f6c704885d4ee756673f19f30786a72feb19bc",
+      "sha256": "40f6c704885d4ee756673f19f30786a72feb19bc"
+    },
+    "img/metric-bg.svg": {
+      "md5": "ef2aadcaa946dbd73e4a66dd8a7fe9c2",
+      "sha1": "29501b5e6cd770996a535e83a1a2f6fba4159070",
+      "sha256": "29501b5e6cd770996a535e83a1a2f6fba4159070"
+    },
+    "img/metric.svg": {
+      "md5": "a60d4976e3db5b40a93da15edc09f0ed",
+      "sha1": "7f839bfb2b35b7695d909f915a8948cd74a5130c",
+      "sha256": "7f839bfb2b35b7695d909f915a8948cd74a5130c"
+    },
+    "img/settings.png": {
+      "md5": "01bba7ae18642ebcd5ac29a21be896ac",
+      "sha1": "ea9720e44927a4f9373d024290bf65bbc5e028d4",
+      "sha256": "ea9720e44927a4f9373d024290bf65bbc5e028d4"
+    },
+    "img/star.png": {
+      "md5": "26efa3ef071a45360dbf1b2b8e91e367",
+      "sha1": "5429cad2e7eb8ea41b519142a96afdaa0f8dd897",
+      "sha256": "5429cad2e7eb8ea41b519142a96afdaa0f8dd897"
+    },
+    "img/shock.png": {
+      "md5": "c4ff2176d6e76380c4624a36f25f59bf",
+      "sha1": "a8e4503150cb9f4d3860dd3065809cd3c4c4a231",
+      "sha256": "a8e4503150cb9f4d3860dd3065809cd3c4c4a231"
+    },
+    "img/shadow.png": {
+      "md5": "cdb020fb865120190fdc76d1ded4c662",
+      "sha1": "eefafaddaf1598d626847b11757a2d6185156f0b",
+      "sha256": "eefafaddaf1598d626847b11757a2d6185156f0b"
+    },
+    "img/superhero_agency.png": {
+      "md5": "04d59f9b9500ac24ccf0d7c2ee53d887",
+      "sha1": "ed6fb8f2bbcd473b694326c6d166599fad4dd77a",
+      "sha256": "ed6fb8f2bbcd473b694326c6d166599fad4dd77a"
+    },
+    "img/superhero_brand.png": {
+      "md5": "6df2543c80965cc7ccd70be59067e709",
+      "sha1": "aad6fee0e2f9d007b074e7c539e0e2e32de512b4",
+      "sha256": "aad6fee0e2f9d007b074e7c539e0e2e32de512b4"
+    },
+    "img/superhero_global_brand.png": {
+      "md5": "060815b74ea16ed69a85c7e39e3aa09b",
+      "sha1": "95e4b645a274520b01dab39a30466726cd587537",
+      "sha256": "95e4b645a274520b01dab39a30466726cd587537"
+    },
+    "img/superhero_plus.png": {
+      "md5": "06ace660cf7dd39a81efff9839286f49",
+      "sha1": "f0c10389afffb2811718c838f2208e6546f46bec",
+      "sha256": "f0c10389afffb2811718c838f2208e6546f46bec"
+    },
+    "img/superhero_smb.png": {
+      "md5": "b7c0450625aad87f97ac9d1bffe854f7",
+      "sha1": "bb6ea6fde3a154c0ecacbc80ab71d01c355b9f46",
+      "sha256": "bb6ea6fde3a154c0ecacbc80ab71d01c355b9f46"
+    },
+    "img/superhero_startup.png": {
+      "md5": "5e0253dba3d46233d6a9c0d175e9eb5b",
+      "sha1": "fe009784db235a667470d83f5d80963ccf1f7e79",
+      "sha256": "fe009784db235a667470d83f5d80963ccf1f7e79"
+    },
+    "img/superhero_unicorn_brand.png": {
+      "md5": "4b4b5baa179cef27edddda6f537ee9e9",
+      "sha1": "e535584bc6a19b43bd0a809059a9588d04e2b6c7",
+      "sha256": "e535584bc6a19b43bd0a809059a9588d04e2b6c7"
+    },
+    "js/Cache.js": {
+      "md5": "0653e9bec8f9fc9f238a6bc757fd7c8a",
+      "sha1": "b0f1b4ba224df32ca323a89047e6c75ae8b0d818",
+      "sha256": "b0f1b4ba224df32ca323a89047e6c75ae8b0d818"
+    },
+    "js/ChromePlatformAnalytics.js": {
+      "md5": "0aa9b531fdfb7d408b7818ceb16f4efa",
+      "sha1": "2e576fafcd20222fcaee54e3502f7d0a24301544",
+      "sha256": "2e576fafcd20222fcaee54e3502f7d0a24301544"
+    },
+    "js/Conf.js": {
+      "md5": "df2a300e57653fea32aa87e9a5cc3fc8",
+      "sha1": "9c991c0fb3c6d4ae0b37c91fb4a22e7186ef31af",
+      "sha256": "9c991c0fb3c6d4ae0b37c91fb4a22e7186ef31af"
+    },
+    "js/Icon.js": {
+      "md5": "5463a6cb9ef99661c090d2179417e0b5",
+      "sha1": "b4babc189b9536c9507d0b8e63fa4de098aeeda8",
+      "sha256": "b4babc189b9536c9507d0b8e63fa4de098aeeda8"
+    },
+    "js/LRT.js": {
+      "md5": "d4b923e5565eaa25b9ef15534efbc38e",
+      "sha1": "0267af0d8295326c53c43596bb8214a338d27a1d",
+      "sha256": "0267af0d8295326c53c43596bb8214a338d27a1d"
+    },
+    "js/LRTIcon.js": {
+      "md5": "5ac6edbfc48c3cf73546b8ebbd4b1bdb",
+      "sha1": "f7eee96234571c1ac12eb6b96e1f9359c50dbf5d",
+      "sha256": "f7eee96234571c1ac12eb6b96e1f9359c50dbf5d"
+    },
+    "js/Metrics.js": {
+      "md5": "392abd8c804c5bf073926ea04fe66ec6",
+      "sha1": "1eb07a04930b2a2b1f1ace370e1496ac39cf0dd5",
+      "sha256": "1eb07a04930b2a2b1f1ace370e1496ac39cf0dd5"
+    },
+    "js/Language.js": {
+      "md5": "26598657f906de5eaf9ed09fb8c2d971",
+      "sha1": "cc26ea7f120b0b0c1b0b7142d7aceffe74dffc41",
+      "sha256": "cc26ea7f120b0b0c1b0b7142d7aceffe74dffc41"
+    },
+    "js/Status.js": {
+      "md5": "08770da427f06e599b538c0de9b6e39c",
+      "sha1": "22ee083c5cd1e087911c4ff7cea7a6b036143b60",
+      "sha256": "22ee083c5cd1e087911c4ff7cea7a6b036143b60"
+    },
+    "js/background.js": {
+      "md5": "fade86a3fb2787fdacd145f1e3b94d1a",
+      "sha1": "a9701487cb4ea2f6bda98b94697d2ae7ba1fc13f",
+      "sha256": "a9701487cb4ea2f6bda98b94697d2ae7ba1fc13f"
+    },
+    "js/Url.js": {
+      "md5": "5b1bae7fac9afcebe37dda98a251ee9b",
+      "sha1": "53f028184f9a3ccc41c29ce946c32d4c51f54b1e",
+      "sha256": "53f028184f9a3ccc41c29ce946c32d4c51f54b1e"
+    },
+    "js/popup.js": {
+      "md5": "b4f07deb932f1d863bc4d293a6272520",
+      "sha1": "a8ef83a77c16b3eb04d3847e562c7e7d95b750e9",
+      "sha256": "a8ef83a77c16b3eb04d3847e562c7e7d95b750e9"
+    },
+    "lib/jquery.serializejson.js": {
+      "md5": "4672dc5f2a72f419c17b684aa1e2f06f",
+      "sha1": "d2df3cb6c3b73f41ca247b1b9031204cefa7e2cd",
+      "sha256": "d2df3cb6c3b73f41ca247b1b9031204cefa7e2cd"
+    },
+    "lib/mustache-0.8.1.min.js": {
+      "md5": "13d5424028b3e2111f24988e18269c22",
+      "sha1": "14b28185d9ff5dedfc109d1a0ae2c34199e8fcc5",
+      "sha256": "14b28185d9ff5dedfc109d1a0ae2c34199e8fcc5"
+    },
+    "lib/google-analytics-bundle.js": {
+      "md5": "7b2161adff285d5f48c0f1b2024b7612",
+      "sha1": "f94241886b184e079d9c2b31ec78a708d600171d",
+      "sha256": "f94241886b184e079d9c2b31ec78a708d600171d"
+    },
+    "js/i18n.js": {
+      "md5": "1915d2370f4a5660f03a07c52dbefa54",
+      "sha1": "98e8b99acb9dfc34721fb701fb26312d9bcb7454",
+      "sha256": "98e8b99acb9dfc34721fb701fb26312d9bcb7454"
+    },
+    "js/options.js": {
+      "md5": "c34bb57b712dae7f51f5aaf959c51e8c",
+      "sha1": "1d950d96c88d2d71cdac2afbcdebcf64c5d2b037",
+      "sha256": "1d950d96c88d2d71cdac2afbcdebcf64c5d2b037"
+    },
+    "js/cs-page.js": {
+      "md5": "5800d41dbcee5a3e45a7c4f504895cec",
+      "sha1": "7235a600e3c91f718bd64dbe8438d1411725066f",
+      "sha256": "7235a600e3c91f718bd64dbe8438d1411725066f"
+    },
+    "lib/jquery-3.3.1.min.js": {
+      "md5": "cf1ae3b0d83f7ed570d18a43f04ea660",
+      "sha1": "9b7863b528a0c07c3481561a2ab00371c6a35a3b",
+      "sha256": "9b7863b528a0c07c3481561a2ab00371c6a35a3b"
+    },
+    "css/fonts/OpenSans-Regular.woff2": {
+      "md5": "79447ddaccc7bae8cf065b80fa195161",
+      "sha1": "1f6fe4f40aa12e07d48475223ba25738b83f67b6",
+      "sha256": "1f6fe4f40aa12e07d48475223ba25738b83f67b6"
+    },
+    "css/fonts/OpenSans-Bold.woff2": {
+      "md5": "daa3f576f2f25c45be2adf3783f0020c",
+      "sha1": "8260a5d52b9425d495cb6c79d60f1aaadd1665f6",
+      "sha256": "8260a5d52b9425d495cb6c79d60f1aaadd1665f6"
+    },
+    "css/fonts/Dosis-Book.otf": {
+      "md5": "b38f78e5a0015dac5d53f9ebee1f1dea",
+      "sha1": "55c10955f37c6d83834a6b9e396bcf3559a1fd27",
+      "sha256": "55c10955f37c6d83834a6b9e396bcf3559a1fd27"
+    },
+    "css/fonts/SourceSansPro-Bold.otf": {
+      "md5": "03181cc7d1ae1c74a9ac6ca2db0a0f03",
+      "sha1": "26053b3031f3a5b07ce34a7fadcfeeb4e0acf27e",
+      "sha256": "26053b3031f3a5b07ce34a7fadcfeeb4e0acf27e"
+    },
+    "locales/de/messages.json": {
+      "md5": "6bb4fdbc4393f11e014c4cab4ea53bea",
+      "sha1": "68c347ee2e63155f1c670ca3b1334aad7a95bd67",
+      "sha256": "68c347ee2e63155f1c670ca3b1334aad7a95bd67"
+    },
+    "css/fonts/SourceSansPro-Regular.otf": {
+      "md5": "06d26aab8aed9695270b09355a2132e0",
+      "sha1": "25124def853ef42f3334dba6daabc56fbe8cb614",
+      "sha256": "25124def853ef42f3334dba6daabc56fbe8cb614"
+    },
+    "css/fonts/Dosis-Bold.otf": {
+      "md5": "f3e2524ec427e904febdcdaa844074eb",
+      "sha1": "19810df457033f307614605e170efd8ec76924b4",
+      "sha256": "19810df457033f307614605e170efd8ec76924b4"
+    },
+    "locales/en/messages.json": {
+      "md5": "3a093e8d9d82d30d3bbb6e787a588c73",
+      "sha1": "6658a9bc4f9e0a006999d8aa5648b0c7778f757e",
+      "sha256": "6658a9bc4f9e0a006999d8aa5648b0c7778f757e"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "57d5cb16ee02dd57e74609a2075cb58a",
+      "sha1": "7b54c4b3a7097472bbf6ed977dc82632d69c3a7b",
+      "sha256": "7b54c4b3a7097472bbf6ed977dc82632d69c3a7b"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "manifest_version": 2,
+    "name": "LRT Power*Trust \u2013 PageRank Replacement",
+    "short_name": "Power*Trust",
+    "description": "The LRT Power*Trust metric helps you evaluate the quality and trustworthiness of a domain or page you are currently visiting.",
+    "version": "1.4.0",
+    "icons": {
+      "256": "img/logo256.png"
+    },
+    "browser_action": {
+      "default_icon": "img/icon256.png",
+      "default_popup": "html/popup.html"
+    },
+    "background": {
+      "page": "/html/background.html"
+    },
+    "web_accessible_resources": [],
+    "permissions": [
+      "tabs",
+      "http://*/*",
+      "https://*/*",
+      "webRequest",
+      "webRequestBlocking",
+      "storage"
+    ]
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "8a35eae385db5e331b3ae8a96d67b8dc",
+    "sha1": "9bc6726bf3ccfe2798f60ddd9a80c65636040659",
+    "sha256": "9bc6726bf3ccfe2798f60ddd9a80c65636040659"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "border: solid 1px black;",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "color: #a94442;",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "background-color: #f2dede;",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "border-color: #ebccd1;",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "*\n * Containers\n",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "*\n * Header\n",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "border-radius: 5px;\n  background: #4285F4;",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "padding: 15px;",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "*\n * Infoblocks\n",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "overflow: hidden;",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "*\n * Promo\n",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "*\n * Info\n",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "*\n * Footer buttons\n",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "*\n * Metrics\n",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "*\n * Tooltips\n",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "*\n * Options\n",
+        "path": "css/popup.css"
+      },
+      {
+        "value": "############ TEMPLATES ###########",
+        "path": "html/_popup.html"
+      },
+      {
+        "value": "Metrics Template",
+        "path": "html/_popup.html"
+      },
+      {
+        "value": "hop-container",
+        "path": "html/_popup.html"
+      },
+      {
+        "value": "<a id=\"logout\" class=\"logout\">{{logout}}</a>",
+        "path": "html/_popup.html"
+      },
+      {
+        "value": "############ SCRIPTS ###########",
+        "path": "html/_popup.html"
+      },
+      {
+        "value": "*\n * Containers\n",
+        "path": "css/style.css"
+      },
+      {
+        "value": "*\n * Header\n",
+        "path": "css/style.css"
+      },
+      {
+        "value": "*\n * Result\n",
+        "path": "css/style.css"
+      },
+      {
+        "value": "664 - 18(icon) - 2(space)",
+        "path": "css/style.css"
+      },
+      {
+        "value": "*\n * Terms, Welcome\n",
+        "path": "css/style.css"
+      },
+      {
+        "value": "*\n * Forms\n",
+        "path": "css/style.css"
+      },
+      {
+        "value": "*\n * Metrics\n",
+        "path": "css/style.css"
+      },
+      {
+        "value": "*\n * Footer\n",
+        "path": "css/style.css"
+      },
+      {
+        "value": "*\n * Settings\n",
+        "path": "css/style.css"
+      },
+      {
+        "value": "############ SCRIPTS ###########",
+        "path": "html/options.html"
+      },
+      {
+        "value": "############ TEMPLATES ###########",
+        "path": "html/popup.html"
+      },
+      {
+        "value": "############ SCRIPTS ###########",
+        "path": "html/popup.html"
+      },
+      {
+        "value": "*\n   * Set icon img, badge and title globally\n   * @param {object} params:\n   *        {mixed} path|imageData (optional)\n   *        {text}  badge (optional)\n   *        {text}  title (optional)\n",
+        "path": "js/Icon.js"
+      },
+      {
+        "value": "*\n   * Set icon img, badge and title for separate tab\n   * @param {integer} tabId\n   * @param {object} params:\n   *        {mixed} path|imageData (optional)\n   *        {text}  badge (optional)\n   *        {text}  title (optional)\n",
+        "path": "js/Icon.js"
+      },
+      {
+        "value": "*\n * LRT API class\n",
+        "path": "js/LRT.js"
+      },
+      {
+        "value": "*\n   * Gets form from server\n   * @param  {string} type        signin|registration\n   * @param  {function} onSuccess callback\n   * @param  {function} onError   callback\n",
+        "path": "js/LRT.js"
+      },
+      {
+        "value": "*\n   * Get message text by code\n   * @param  {integer} code      message code\n   * @param  {string} lang      en|de\n",
+        "path": "js/LRT.js"
+      },
+      {
+        "value": "*\n   * Send request\n   * @param  {obj} params    request params\n   * @param  {obj} extra     extra flags\n   * @param  {function} onSuccess\n   * @param  {function} onError\n",
+        "path": "js/LRT.js"
+      },
+      {
+        "value": "*\n   * @param  {object} metrics: {powertrust, power, trust}\n",
+        "path": "js/LRTIcon.js"
+      },
+      {
+        "value": "*\n   * http://stackoverflow.com/questions/1255512/how-to-draw-a-rounded-rectangle-on-html-canvas\n   * Draws a rounded rectangle using the current state of the canvas.\n   * If you omit the last three params, it will draw a rectangle\n   * outline with a 5 pixel border radius\n   * @param {CanvasRenderingContext2D} ctx\n   * @param {Number} x The top left x coordinate\n   * @param {Number} y The top left y coordinate\n   * @param {Number} width The width of the rectangle\n   * @param {Number} height The height of the rectangle\n   * @param {Number} [radius = 5] The corner radius; It can also be an object\n   *                 to specify different radii for corners\n   * @param {Number} [radius.tl = 0] Top left\n   * @param {Number} [radius.tr = 0] Top right\n   * @param {Number} [radius.br = 0] Bottom right\n   * @param {Number} [radius.bl = 0] Bottom left\n   * @param {Boolean} [fill = false] Whether to fill the rectangle.\n   * @param {Boolean} [stroke = true] Whether to stroke the rectangle.\n",
+        "path": "js/LRTIcon.js"
+      },
+      {
+        "value": "*\n * File contains logic for metrics processing:\n * retrieving metrics, template popuplating, adding event listeners\n",
+        "path": "js/Metrics.js"
+      },
+      {
+        "value": "*\n   * Update status\n   * @param {object} params\n   * {\n   *   html: html,\n   *   type: success|info|warning|danger,\n   *   timeout: integer ms\n   * }\n",
+        "path": "js/Status.js"
+      },
+      {
+        "value": "*\n   * Shorthand for success handling\n",
+        "path": "js/Status.js"
+      },
+      {
+        "value": "*\n   * Shorthand for error handling\n",
+        "path": "js/Status.js"
+      },
+      {
+        "value": "*\n   * Remove content, set default type, stop timer\n",
+        "path": "js/Status.js"
+      },
+      {
+        "value": "*\n   * Public\n",
+        "path": "js/background.js"
+      },
+      {
+        "value": "*\n   * Initialization\n",
+        "path": "js/popup.js"
+      },
+      {
+        "value": "*\n   * Show view depends on user state: first time|logged in|metrics\n",
+        "path": "js/popup.js"
+      },
+      {
+        "value": "*\n   * Adds event listeners for UI elements in popup window\n",
+        "path": "js/popup.js"
+      },
+      {
+        "value": "*\n   * LRT API class sends events while processing requests.\n   * Based on this events extension shows/hides loader\n",
+        "path": "js/popup.js"
+      },
+      {
+        "value": "*\n   * Shows Terms to user:\n   * loads template from popup.html, popuplates it and sets view\n   * Terms text is in Conf.js\n",
+        "path": "js/popup.js"
+      },
+      {
+        "value": "*\n   * Forms\n",
+        "path": "js/popup.js"
+      },
+      {
+        "value": "*\n   * Loads signin form from server, creates iframe with received url\n   * waits for message api-key from iframe\n",
+        "path": "js/popup.js"
+      },
+      {
+        "value": "*\n   * Metrics\n",
+        "path": "js/popup.js"
+      },
+      {
+        "value": "*\n   * Gets current tab url, gets metrics for this,\n   * appends result html to the view and adds event listeners\n",
+        "path": "js/popup.js"
+      },
+      {
+        "value": "!\n  SerializeJSON jQuery plugin.\n  https://github.com/marioizquierdo/jquery.serializeJSON\n  version 2.4.2 (Oct, 2014)\n\n  Copyright (c) 2014 Mario Izquierdo\n  Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)\n  and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.\n",
+        "path": "lib/jquery.serializejson.js"
+      },
+      {
+        "value": "\n Portions of this code are from MochiKit, received by\n The Closure Authors under the MIT license. All other code is Copyright\n 2005-2009 The Closure Authors. All Rights Reserved.\n",
+        "path": "lib/google-analytics-bundle.js"
+      },
+      {
+        "value": "*\n   * Returs list of predefined languages\n   * @return {array} _langs\n",
+        "path": "js/i18n.js"
+      },
+      {
+        "value": "! jQuery v3.3.1 | (c) JS Foundation and other contributors | jquery.org/license",
+        "path": "lib/jquery-3.3.1.min.js"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "http://lrt.li/ptchrtrial",
+          "path": "html/_popup.html"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "html/popup.html"
+        },
+        {
+          "value": "http://www.w3.org/1999/xlink",
+          "path": "html/popup.html"
+        },
+        {
+          "value": "http://lrt.li/ptquoteimp",
+          "path": "html/popup.html"
+        },
+        {
+          "value": "https://www.linkresearchtools.com/contact/",
+          "path": "html/popup.html"
+        },
+        {
+          "value": "https://github.com/GoogleChrome/chrome-platform-analytics/wiki",
+          "path": "js/ChromePlatformAnalytics.js"
+        },
+        {
+          "value": "https://plugin.linkresearchtools.com/api/api.php",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://www.linkresearchtools.com/browser-extensions-privacy-policy/",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/ptsuccesschrome",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/ptchrhlp",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtptlogochrome",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/ptchrlrt",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtptratingtopleftch",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtptsettingsratingch",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtptseealsoch",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtptmoreaboutptch",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtpttrylrtch",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/ptchrup",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/ptsuccessfirefox",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtptlogofirefox",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtptlrtlogo",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtptratingtopleftff",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtptsettingsratingff",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtptseealsoff",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtptmoreaboutptff",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/lrtpttrylrtff",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/ptffhelp",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://lrt.li/ptchrup",
+          "path": "js/Conf.js"
+        },
+        {
+          "value": "http://stackoverflow.com/questions/1255512/how-to-draw-a-rounded-rectangle-on-html-canvas",
+          "path": "js/LRTIcon.js"
+        },
+        {
+          "value": "http://www.linkresearchtools.com/thanks/lrt-power-trust-extension-uninstall/",
+          "path": "js/background.js"
+        },
+        {
+          "value": "https://plugin.linkresearchtools.com/api/",
+          "path": "js/background.js"
+        },
+        {
+          "value": "http://lrt.li/ptfftrial",
+          "path": "js/popup.js"
+        },
+        {
+          "value": "http://lrt.li/ptquotelp?",
+          "path": "js/popup.js"
+        },
+        {
+          "value": "http://lrt.li/ptquotecustom?",
+          "path": "js/popup.js"
+        },
+        {
+          "value": "https://github.com/marioizquierdo/jquery.serializeJSON",
+          "path": "lib/jquery.serializejson.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license.php",
+          "path": "lib/jquery.serializejson.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/gpl-license.php",
+          "path": "lib/jquery.serializejson.js"
+        },
+        {
+          "value": "https://www.google-analytics.com/collect",
+          "path": "lib/google-analytics-bundle.js"
+        }
+      ],
+      "email": [],
+      "ipv4": [],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {},
+    "metadata": {
+      "img/FB93B18D.jpg": {},
+      "img/error.png": {},
+      "img/cart.png": {},
+      "img/FB93B18F.jpg": {},
+      "img/icon-check.svg": {},
+      "img/icon-canonical.png": {},
+      "img/icon-info.svg": {},
+      "img/icon-magnifier.png": {},
+      "img/icon-mark.png": {},
+      "img/icon-magnifier.svg": {},
+      "img/icon256.png": {},
+      "img/icon-right.svg": {},
+      "img/link-research-tool-logo-bg.png": {},
+      "img/icon-cog.svg": {},
+      "img/link-research-tool-logo.svg": {},
+      "img/logo256.png": {},
+      "img/link-research-tool-logo.png": {},
+      "img/lrt-pt-logo.png": {},
+      "img/lrt-pt-logo.svg": {},
+      "img/metric-bg.svg": {},
+      "img/metric.svg": {},
+      "img/settings.png": {},
+      "img/star.png": {},
+      "img/shock.png": {},
+      "img/shadow.png": {},
+      "img/superhero_agency.png": {},
+      "img/superhero_brand.png": {},
+      "img/superhero_global_brand.png": {},
+      "img/superhero_plus.png": {},
+      "img/superhero_smb.png": {},
+      "img/superhero_startup.png": {},
+      "img/superhero_unicorn_brand.png": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "lib/google-analytics-bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/google-analytics-bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/google-analytics-bundle.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/jquery-3.3.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/jquery-3.3.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/jquery-3.3.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/jquery-3.3.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/jquery-3.3.1.min.js"
+        }
+      ],
+      "possible_payments": [],
+      "pattern_recognition": [],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "lib/google-analytics-bundle.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "lib/google-analytics-bundle.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/google-analytics-bundle.js"
+        },
+        {
+          "value": "POST",
+          "path": "lib/google-analytics-bundle.js"
+        },
+        {
+          "value": "POST",
+          "path": "lib/google-analytics-bundle.js"
+        },
+        {
+          "value": "PUT",
+          "path": "lib/google-analytics-bundle.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "lib/jquery-3.3.1.min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "lib/jquery-3.3.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-3.3.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-3.3.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-3.3.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-3.3.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-3.3.1.min.js"
+        },
+        {
+          "value": "POST",
+          "path": "lib/jquery-3.3.1.min.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:06:04.519260"
+      }
+    }
+  }
+}

@@ -1,0 +1,1179 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:04:27.781033 UTC",
+  "_filename": "pgmjaihnmedpcdkjcgigocogcbffgkbn.crx",
+  "_files": {
+    "_locales/en/messages.json": {
+      "md5": "c179dc78ddedd217630ef713f6532bf0",
+      "sha1": "252e66efa5ed39ff0481beec5ae77a16aac1f7be",
+      "sha256": "252e66efa5ed39ff0481beec5ae77a16aac1f7be"
+    },
+    "background.html": {
+      "md5": "6d89b1ce883a86cb52cee7bbe609e2c3",
+      "sha1": "d3a154a49fc6ebc6b46cc03c367e6244b000b638",
+      "sha256": "d3a154a49fc6ebc6b46cc03c367e6244b000b638"
+    },
+    "browser_action.html": {
+      "md5": "3d3d9d7013590e55d0b40471f1277725",
+      "sha1": "476e2ae374a5152da829cbcb5f4caacb7b90584b",
+      "sha256": "476e2ae374a5152da829cbcb5f4caacb7b90584b"
+    },
+    "fonts/glyphicons-halflings-regular.woff": {
+      "md5": "bfbf905c015ab9a4143a0c5b9c274ac0",
+      "sha1": "32024c915fc8ff2e1d329fdd18e4a4cffd77eeb6",
+      "sha256": "32024c915fc8ff2e1d329fdd18e4a4cffd77eeb6"
+    },
+    "fonts/glyphicons-halflings-regular.eot": {
+      "md5": "946a1a0b2f11fdd1c2dfc1210b12a844",
+      "sha1": "ba4513b5a9c1e9cb5c7ef7f5fe0fc9c276f0ea3f",
+      "sha256": "ba4513b5a9c1e9cb5c7ef7f5fe0fc9c276f0ea3f"
+    },
+    "fonts/glyphicons-halflings-regular.ttf": {
+      "md5": "048aa114aba724520c38f272fb5f2e79",
+      "sha1": "cdcde86ba37fc1f98247ca1b7b7b3c4e98ae7943",
+      "sha256": "cdcde86ba37fc1f98247ca1b7b7b3c4e98ae7943"
+    },
+    "fonts/glyphicons-halflings-regular.svg": {
+      "md5": "626737bd004e69f5f466d79c0994828f",
+      "sha1": "88b44ccb526d3c7c4acf2c8abb1ae5b42cdda439",
+      "sha256": "88b44ccb526d3c7c4acf2c8abb1ae5b42cdda439"
+    },
+    "images/icon16.png": {
+      "md5": "d0266dea1a13dc11f0cff2be656840ee",
+      "sha1": "da9c53bac87e9dcade256c89da239bca3905a1b0",
+      "sha256": "da9c53bac87e9dcade256c89da239bca3905a1b0"
+    },
+    "images/icon38.png": {
+      "md5": "91f6d23c90acb6f99631d27ad0fca949",
+      "sha1": "a62faa436fac28cd9d2f43b1d535374d8fa818ca",
+      "sha256": "a62faa436fac28cd9d2f43b1d535374d8fa818ca"
+    },
+    "images/16x16.png": {
+      "md5": "52666d6285878a875c0c56f088ef4c32",
+      "sha1": "b629a9eaeed09c2bdc31030c9d02c5b58e535cd3",
+      "sha256": "b629a9eaeed09c2bdc31030c9d02c5b58e535cd3"
+    },
+    "images/38x38.png": {
+      "md5": "4bdabfc559db228385c11c8c683c19dc",
+      "sha1": "c97417122afa2d47e2034be1ad00fb716bad2187",
+      "sha256": "c97417122afa2d47e2034be1ad00fb716bad2187"
+    },
+    "images/icon48.png": {
+      "md5": "17b3258f7e7e52dad4cd7f6a25a347fc",
+      "sha1": "696d7ad95bfc73914137e53fdc44ca23559fca1d",
+      "sha256": "696d7ad95bfc73914137e53fdc44ca23559fca1d"
+    },
+    "images/blocksilogo.png": {
+      "md5": "a102cef2464f57544c9aebca65eb3645",
+      "sha1": "43139e1f8aee33240da46e1ab0c02b4df3ad240b",
+      "sha256": "43139e1f8aee33240da46e1ab0c02b4df3ad240b"
+    },
+    "images/back-arrow.png": {
+      "md5": "54bc9711cf15398a1489e7e52c7840b9",
+      "sha1": "c0244e1b9c3fb558f0e9cc66fa394d79b436a358",
+      "sha256": "c0244e1b9c3fb558f0e9cc66fa394d79b436a358"
+    },
+    "images/icon128.png": {
+      "md5": "4936fe5cd83ca43670c332c0b35ab27d",
+      "sha1": "404303af440c052a1c82737d426a7dd02ec1a6e5",
+      "sha256": "404303af440c052a1c82737d426a7dd02ec1a6e5"
+    },
+    "images/19x19.png": {
+      "md5": "b5413057063546d75cdb8e075efd3860",
+      "sha1": "6f393e3a1b2867f47b30af1715ea200bca1ac203",
+      "sha256": "6f393e3a1b2867f47b30af1715ea200bca1ac203"
+    },
+    "images/128x128.png": {
+      "md5": "36f694d66c9e049fca0f692a312243fa",
+      "sha1": "0390e8a971d7acbde292c046d1fa70e8713d899e",
+      "sha256": "0390e8a971d7acbde292c046d1fa70e8713d899e"
+    },
+    "images/48x48.png": {
+      "md5": "fd92348948f70f115dd8a8470e2c9560",
+      "sha1": "68023f9b8e45c8b5a54bcb54e9542e811c8c669e",
+      "sha256": "68023f9b8e45c8b5a54bcb54e9542e811c8c669e"
+    },
+    "images/photo-icon.png": {
+      "md5": "8efb49ead138902a227a3e39adf49073",
+      "sha1": "3231378da5c394f1d195bbf557cc66c537b342ff",
+      "sha256": "3231378da5c394f1d195bbf557cc66c537b342ff"
+    },
+    "images/icon19.png": {
+      "md5": "cacd06ec124d0f4aa69c021dbf8b74b7",
+      "sha1": "fd4a7301a29aa0bf74ab5cfe94509f4d4351d98d",
+      "sha256": "fd4a7301a29aa0bf74ab5cfe94509f4d4351d98d"
+    },
+    "images/googleicon.png": {
+      "md5": "861adb5b46238999f082e9fadcaeae1d",
+      "sha1": "d92e9092ff94d59c7202f533026ba0cfc325d428",
+      "sha256": "d92e9092ff94d59c7202f533026ba0cfc325d428"
+    },
+    "manifest.json": {
+      "md5": "db6e1f68c839ab7ebcec99948a62968c",
+      "sha1": "6a2fe1d6db21bb2e3d9ddf2f68e39d347c5738d3",
+      "sha256": "6a2fe1d6db21bb2e3d9ddf2f68e39d347c5738d3"
+    },
+    "options.html": {
+      "md5": "12d549841022320790520096ec8433cc",
+      "sha1": "4a593f86ed90d03e22b73b402f4e06fd964d6d08",
+      "sha256": "4a593f86ed90d03e22b73b402f4e06fd964d6d08"
+    },
+    "quick-setup.html": {
+      "md5": "d7a5ce013240696e1db22ded0355d139",
+      "sha1": "97d23801a050da10a4bf654c0f661714206dca40",
+      "sha256": "97d23801a050da10a4bf654c0f661714206dca40"
+    },
+    "scripts/background.js": {
+      "md5": "8dcfbe808f18f4d123ecd496fc92e3a9",
+      "sha1": "570e47eac81d45b67ce8c315b1228564949bc298",
+      "sha256": "570e47eac81d45b67ce8c315b1228564949bc298"
+    },
+    "scripts/quickSetup.js": {
+      "md5": "755446de5f27719b444b42d4c99676d3",
+      "sha1": "ed3494b33af40b09cc5b6fcd9d150e08d703f4c6",
+      "sha256": "ed3494b33af40b09cc5b6fcd9d150e08d703f4c6"
+    },
+    "scripts/msgpack.js": {
+      "md5": "087f03d67086aa3c347b1c6d8387c8ed",
+      "sha1": "83073de59cdc4b12dc8c86f00815c14d86b2c82b",
+      "sha256": "83073de59cdc4b12dc8c86f00815c14d86b2c82b"
+    },
+    "scripts/options.js": {
+      "md5": "91b276a9e4b7715a8f0c454b2fd5be03",
+      "sha1": "afc765799df24799f7490600d7b989acbf14564c",
+      "sha256": "afc765799df24799f7490600d7b989acbf14564c"
+    },
+    "scripts/socket.io.js": {
+      "md5": "6a8bd42dcb5c6689cd4eef051a364ad3",
+      "sha1": "71860de2f7c41c3af1713fbad7d36c4fe5c4f20a",
+      "sha256": "71860de2f7c41c3af1713fbad7d36c4fe5c4f20a"
+    },
+    "scripts/browser-action.js": {
+      "md5": "265cffe30fb40bb646af128362f6dbaa",
+      "sha1": "ad60883fea44baa4247162d927104587cbb099a0",
+      "sha256": "ad60883fea44baa4247162d927104587cbb099a0"
+    },
+    "scripts/apikey.js": {
+      "md5": "98956336183cc3c839165707d029fadc",
+      "sha1": "37ed58fe5c44c15eea76086d77981b70d982637a",
+      "sha256": "37ed58fe5c44c15eea76086d77981b70d982637a"
+    },
+    "scripts/reconnecting-websocket.min.js": {
+      "md5": "fbb15cb15712d28612573ed742671924",
+      "sha1": "7a444a6bd819f2cfe00bae013250e9f7460191df",
+      "sha256": "7a444a6bd819f2cfe00bae013250e9f7460191df"
+    },
+    "scripts/page-inject.js": {
+      "md5": "de69aaaf16a899d62ac4e03f184fb048",
+      "sha1": "eeb979884e5f6a1efb9f027c0aa71e25a4843c45",
+      "sha256": "eeb979884e5f6a1efb9f027c0aa71e25a4843c45"
+    },
+    "scripts/UserData.js": {
+      "md5": "ce0618369e23539ec915b26da733e2d7",
+      "sha1": "8534927e6b0c57e61dedbcf304dc633066e11b02",
+      "sha256": "8534927e6b0c57e61dedbcf304dc633066e11b02"
+    },
+    "scripts/jquery-1.8.2.min.js": {
+      "md5": "0ed9ebe6f66e20db3c5c0d5da1649b73",
+      "sha1": "6357168f6e6f06995abd6c08caca4ffccd8c9493",
+      "sha256": "6357168f6e6f06995abd6c08caca4ffccd8c9493"
+    },
+    "scripts/lib/parseuri.js": {
+      "md5": "26a99827960e267806884b700e1a890d",
+      "sha1": "874e0b95e642ffac5c007182e714e4b931a99468",
+      "sha256": "874e0b95e642ffac5c007182e714e4b931a99468"
+    },
+    "scripts/lib/bootstrap-select.min.js": {
+      "md5": "fbde59ec12f5acec7471b4f8bf6bd9d9",
+      "sha1": "bfe3987edc5992f0be5cc898e03eb8939ad56fc2",
+      "sha256": "bfe3987edc5992f0be5cc898e03eb8939ad56fc2"
+    },
+    "scripts/lib/md5.min.js": {
+      "md5": "3cf0997350393e2ee0ef77aeb91e121b",
+      "sha1": "a170e08b6456ff5ca96b054c92eabd6f5367d8a9",
+      "sha256": "a170e08b6456ff5ca96b054c92eabd6f5367d8a9"
+    },
+    "scripts/lib/jquery.min.js": {
+      "md5": "d71adc0accd00af974ae4f58dbbc7d7a",
+      "sha1": "c63a555ffca68fb8788020092beefb3ce36782a4",
+      "sha256": "c63a555ffca68fb8788020092beefb3ce36782a4"
+    },
+    "scripts/lib/bootstrap.min.js": {
+      "md5": "3d4764b0410ec1429ef6da26fcbac3f8",
+      "sha1": "27594d0cf2af8f72611fb68e78b4e1f20a138407",
+      "sha256": "27594d0cf2af8f72611fb68e78b4e1f20a138407"
+    },
+    "scripts/lib/handlebars.runtime.min.js": {
+      "md5": "55bfe5ade878f3ea05f74732aa73dbde",
+      "sha1": "c46dc3a16f497d6011ef255034fc54eb59ce91e2",
+      "sha256": "c46dc3a16f497d6011ef255034fc54eb59ce91e2"
+    },
+    "scripts/templates/data.js": {
+      "md5": "e755f306b1f990c0bbe765d16c54e690",
+      "sha1": "019d3b5b2c947cff3c67eb930ec946812ef3cb21",
+      "sha256": "019d3b5b2c947cff3c67eb930ec946812ef3cb21"
+    },
+    "scripts/templates/helpers.js": {
+      "md5": "401bb4e790ee0961e56cf6eb9c7885db",
+      "sha1": "6028338d00f5b27f576025647e0dfd936a445c42",
+      "sha256": "6028338d00f5b27f576025647e0dfd936a445c42"
+    },
+    "scripts/templates/templates.js": {
+      "md5": "cec2df78ac100e96b3dbde498bc96f4b",
+      "sha1": "25721a6cceabbb45b33ba0dd0fb5aa7a747656fd",
+      "sha256": "25721a6cceabbb45b33ba0dd0fb5aa7a747656fd"
+    },
+    "styles/browser-action.css": {
+      "md5": "ee42f402b063268af8a722b0363cdf0a",
+      "sha1": "5e0fdf4af404bc034adff3bd461cfc222e4293fb",
+      "sha256": "5e0fdf4af404bc034adff3bd461cfc222e4293fb"
+    },
+    "styles/quickSetup.css": {
+      "md5": "fcbd685306ddf479b0e5dc0f06e75851",
+      "sha1": "9efb2861775951d53364de8df997e6a069bb7cb1",
+      "sha256": "9efb2861775951d53364de8df997e6a069bb7cb1"
+    },
+    "styles/options.css": {
+      "md5": "138f3cef2175b45f9fce5ae4bac8349e",
+      "sha1": "1aeb5e49af5eba0fc73cba60a1011c78ac336a3d",
+      "sha256": "1aeb5e49af5eba0fc73cba60a1011c78ac336a3d"
+    },
+    "styles/fonts/glyphicons-halflings-regular.woff": {
+      "md5": "ec254df34f5deecea788cd84012b3a3d",
+      "sha1": "c19e9ee7fcd8415ef067638652bac6200db19373",
+      "sha256": "c19e9ee7fcd8415ef067638652bac6200db19373"
+    },
+    "styles/fonts/glyphicons-regular.woff": {
+      "md5": "ebc0701ef42962953e844dcea061b651",
+      "sha1": "f9445ae943baae68133c78fd8a7288f5b03ae16c",
+      "sha256": "f9445ae943baae68133c78fd8a7288f5b03ae16c"
+    },
+    "styles/fonts/OpenSans-Regular.woff": {
+      "md5": "6cc112f153bd281baf6b60376786dcef",
+      "sha1": "b079d17b2d5cbeaec43634cf8e868fb306fb15cc",
+      "sha256": "b079d17b2d5cbeaec43634cf8e868fb306fb15cc"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "71eeafe1a87376440011d3072d4a4231",
+      "sha1": "a72643489a0895754c41c875758d5310b6ff28dc",
+      "sha256": "a72643489a0895754c41c875758d5310b6ff28dc"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "name": "Blocksi Web Filter",
+    "version": "1.0.168",
+    "manifest_version": 2,
+    "minimum_chrome_version": "21",
+    "description": "__MSG_app_description__",
+    "default_locale": "en",
+    "background": {
+      "page": "background.html"
+    },
+    "options_page": "options.html",
+    "permissions": [
+      "tabs",
+      "http://*/*",
+      "https://*/*",
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>",
+      "webNavigation",
+      "storage",
+      "identity",
+      "identity.email",
+      "geolocation"
+    ],
+    "browser_action": {
+      "default_icon": {
+        "19": "images/19x19.png",
+        "38": "images/38x38.png"
+      },
+      "default_title": "Add to black/white list",
+      "default_popup": "browser_action.html"
+    },
+    "icons": {
+      "16": "images/16x16.png",
+      "48": "images/48x48.png",
+      "128": "images/128x128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "http://*/*",
+          "https://*/*"
+        ],
+        "js": [
+          "scripts/page-inject.js"
+        ],
+        "run_at": "document_start"
+      }
+    ]
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "6d60e537ac9edb324c2add6a477513ec",
+    "sha1": "d9bf66ed191693f68e55e65004a4cec29f46f46b",
+    "sha256": "d9bf66ed191693f68e55e65004a4cec29f46f46b"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "! jQuery v1.8.2 jquery.com | jquery.org/license",
+        "path": "scripts/jquery-1.8.2.min.js"
+      },
+      {
+        "value": "!\n * bootstrap-select v1.4.3\n * http://silviomoreto.github.io/bootstrap-select/\n *\n * Copyright 2013 bootstrap-select\n * Licensed under the MIT license\n",
+        "path": "scripts/lib/bootstrap-select.min.js"
+      },
+      {
+        "value": "\n * JavaScript MD5 1.0.1\n * https://github.com/blueimp/JavaScript-MD5\n *\n * Copyright 2011, Sebastian Tschan\n * https://blueimp.net\n *\n * Licensed under the MIT license:\n * http://www.opensource.org/licenses/MIT\n * \n * Based on\n * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message\n * Digest Algorithm, as defined in RFC 1321.\n * Version 2.2 Copyright (C) Paul Johnston 1999 - 2009\n * Other contributors: Greg Holt, Andrew Kepert, Ydnar, Lostinet\n * Distributed under the BSD License\n * See http://pajhome.org.uk/crypt/md5 for more info.\n",
+        "path": "scripts/lib/md5.min.js"
+      },
+      {
+        "value": "! jQuery v2.1.1 | (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org/license",
+        "path": "scripts/lib/jquery.min.js"
+      },
+      {
+        "value": "!\n * Bootstrap v3.1.1 (http://getbootstrap.com)\n * Copyright 2011-2014 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n",
+        "path": "scripts/lib/bootstrap.min.js"
+      },
+      {
+        "value": "!\n * Bootstrap v3.1.1 (http://getbootstrap.com)\n * Copyright 2011-2014 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n",
+        "path": "styles/quickSetup.css"
+      },
+      {
+        "value": "! normalize.css v3.0.0 | MIT License | git.io/normalize",
+        "path": "styles/quickSetup.css"
+      },
+      {
+        "value": "!\n * Bootstrap v3.1.1 (http://getbootstrap.com)\n * Copyright 2011-2014 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n",
+        "path": "styles/options.css"
+      },
+      {
+        "value": "! normalize.css v3.0.0 | MIT License | git.io/normalize",
+        "path": "styles/options.css"
+      },
+      {
+        "value": "!\n * bootstrap-select v1.4.3\n * http://silviomoreto.github.io/bootstrap-select/\n *\n * Copyright 2013 bootstrap-select\n * Licensed under the MIT license\n",
+        "path": "styles/options.css"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "https://service.block.si/elasticsearch?date=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://service.block.si/config/sendAlertEmail/",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://www.block.si/block.php?url=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://www.block.si/warning.php?url_link=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://service2.block.si/getRating.json?url=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://www.block.si/block.php?url=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://www.block.si/block.php?url=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://www.block.si/block_ext.php?url=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://www.block.si/block_ext.php?url=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://www.googleapis.com/youtube/v3/channels?part=snippet&forUsername=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://www.googleapis.com/youtube/v3/channels?part=snippet&id=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://service1.block.si/getYtRating?video=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://www.youtube.com/watch?v=iOd5r5pfHig",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://www.block.si/acctime.php?t1=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://www.block.si/acctime.php?t1=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://www.block.si/acctime.php?t1=",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://service.block.si/config/getLocations/",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://service.block.si/config/setExtension/",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://service.block.si/config/getSettingsByHomeUser/",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://service.block.si/config/getSettingsByHomeUser/",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://service.block.si/config/getSettingsByHomeUser/",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://www.youtube.com/embed/iOd5r5pfHig",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://parent.blocksicloud.com",
+          "path": "scripts/quickSetup.js"
+        },
+        {
+          "value": "http://bm.blocksi.net",
+          "path": "scripts/quickSetup.js"
+        },
+        {
+          "value": "https://blocksi.net/bm-home.php",
+          "path": "scripts/quickSetup.js"
+        },
+        {
+          "value": "https://blocksi.net/chromebook-filtering.php",
+          "path": "scripts/quickSetup.js"
+        },
+        {
+          "value": "https://service2.block.si/getRating.json?url=",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "https://service.block.si/config/getSettingsByUserId/",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "https://service.block.si/config/getSettingsByHomeUser/",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "http://www.block.si/regex.php?url=",
+          "path": "scripts/page-inject.js"
+        },
+        {
+          "value": "http://silviomoreto.github.io/bootstrap-select/",
+          "path": "scripts/lib/bootstrap-select.min.js"
+        },
+        {
+          "value": "https://github.com/blueimp/JavaScript-MD5",
+          "path": "scripts/lib/md5.min.js"
+        },
+        {
+          "value": "https://blueimp.net",
+          "path": "scripts/lib/md5.min.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/MIT",
+          "path": "scripts/lib/md5.min.js"
+        },
+        {
+          "value": "http://pajhome.org.uk/crypt/md5",
+          "path": "scripts/lib/md5.min.js"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "scripts/lib/bootstrap.min.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "scripts/lib/bootstrap.min.js"
+        },
+        {
+          "value": "http://www.blocksi.net",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "http://www.blocksi.net",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "http://www.blocksi.net/chromebook-filtering.php",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "styles/quickSetup.css"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "styles/quickSetup.css"
+        },
+        {
+          "value": "http://getbootstrap.com",
+          "path": "styles/options.css"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "styles/options.css"
+        },
+        {
+          "value": "http://silviomoreto.github.io/bootstrap-select/",
+          "path": "styles/options.css"
+        }
+      ],
+      "email": [
+        {
+          "value": "sales@blocksi.net",
+          "path": "scripts/templates/templates.js"
+        }
+      ],
+      "ipv4": [],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {
+      "en": {}
+    },
+    "metadata": {
+      "fonts/glyphicons-halflings-regular.svg": {},
+      "images/icon16.png": {},
+      "images/icon38.png": {},
+      "images/16x16.png": {},
+      "images/38x38.png": {},
+      "images/icon48.png": {},
+      "images/blocksilogo.png": {},
+      "images/back-arrow.png": {},
+      "images/icon128.png": {},
+      "images/19x19.png": {},
+      "images/128x128.png": {},
+      "images/48x48.png": {},
+      "images/photo-icon.png": {},
+      "images/icon19.png": {},
+      "images/googleicon.png": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/msgpack.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/msgpack.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/msgpack.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/msgpack.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/lib/md5.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/lib/jquery.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/lib/jquery.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/lib/jquery.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/lib/jquery.min.js"
+        }
+      ],
+      "possible_payments": [],
+      "pattern_recognition": [
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/options.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/page-inject.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/page-inject.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/page-inject.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/page-inject.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/page-inject.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/page-inject.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/page-inject.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/page-inject.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/page-inject.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/page-inject.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/templates/templates.js"
+        },
+        {
+          "value": "regex",
+          "path": "styles/quickSetup.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/quickSetup.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/quickSetup.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/quickSetup.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/quickSetup.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/quickSetup.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/quickSetup.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/quickSetup.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/quickSetup.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/options.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/options.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/options.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/options.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/options.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/options.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/options.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/options.css"
+        },
+        {
+          "value": "regex",
+          "path": "styles/options.css"
+        }
+      ],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "POST",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "POST",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "POST",
+          "path": "scripts/socket.io.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "POST",
+          "path": "scripts/jquery-1.8.2.min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/lib/jquery.min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/lib/jquery.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/lib/jquery.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/lib/jquery.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/lib/jquery.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/lib/jquery.min.js"
+        },
+        {
+          "value": "POST",
+          "path": "scripts/lib/jquery.min.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:04:29.076267"
+      }
+    }
+  }
+}

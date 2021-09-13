@@ -1,0 +1,2808 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-09-13 11:03:03.634231 UTC",
+  "_filename": "gomekmidlodglbbmalcneegieacbdmki.crx",
+  "_files": {
+    "manifest.json": {
+      "md5": "3ce0046cf569a6baf7cc1732d7f2bcb6",
+      "sha1": "d884790e864ddb4545e050b8e2c2261d67f8e939",
+      "sha256": "d884790e864ddb4545e050b8e2c2261d67f8e939"
+    },
+    "common/messagebox.html": {
+      "md5": "56d55d5462eb1e1142d9cd5f8d9344a9",
+      "sha1": "d26f444961c5e3a39d55f5d84afa5558d215d571",
+      "sha256": "d26f444961c5e3a39d55f5d84afa5558d215d571"
+    },
+    "common/webshieldLogs.html": {
+      "md5": "fbf15b325d445fa8e094681e17d8b7c7",
+      "sha1": "dc8230ed1c9f3c7cdcbdc5a2107f1c560c083f59",
+      "sha256": "dc8230ed1c9f3c7cdcbdc5a2107f1c560c083f59"
+    },
+    "scripts/background.js": {
+      "md5": "ce7c4d85d6e67824951b5f46ac870fac",
+      "sha1": "80bf508b891910b92d5ac10e5800ee33aa51d096",
+      "sha256": "80bf508b891910b92d5ac10e5800ee33aa51d096"
+    },
+    "scripts/contentAdvertisers.js": {
+      "md5": "24e5ee177f8cf6765a4a6555fd35bbc1",
+      "sha1": "477a832d539f8bf3ccccf3831de6ad683e90b710",
+      "sha256": "477a832d539f8bf3ccccf3831de6ad683e90b710"
+    },
+    "scripts/contentAdvertisersScraper.js": {
+      "md5": "ada91824eaf62ff891e7b3676c4c468c",
+      "sha1": "a1d35e196101b9a15c9c18478431d108e898e13a",
+      "sha256": "a1d35e196101b9a15c9c18478431d108e898e13a"
+    },
+    "scripts/contentAvast.js": {
+      "md5": "e43f3cadc840209e126edff9dcb87167",
+      "sha1": "7e54936aad91e65573da71a2975004181a781490",
+      "sha256": "7e54936aad91e65573da71a2975004181a781490"
+    },
+    "scripts/contentInject.js": {
+      "md5": "ccb1c07c6e5d2fd3b90c21a1f985a014",
+      "sha1": "df9a00f26c521ac38c92214d63f97aebb08d96c3",
+      "sha256": "df9a00f26c521ac38c92214d63f97aebb08d96c3"
+    },
+    "scripts/topee-iframe-resources.js": {
+      "md5": "89fa09f627fe18507b9d30c9c559645e",
+      "sha1": "d1a3a545be6e5c7a058e899ec957ca82592053e6",
+      "sha256": "d1a3a545be6e5c7a058e899ec957ca82592053e6"
+    },
+    "_locales/ar/messages.json": {
+      "md5": "6bbd13d7b549886e6641d35d64592428",
+      "sha1": "8bc9835887eff4d20338d1ca3d8579796aaf8dbc",
+      "sha256": "8bc9835887eff4d20338d1ca3d8579796aaf8dbc"
+    },
+    "_locales/be/messages.json": {
+      "md5": "550e195cf5a0ad4ca5217faa0b1f2a23",
+      "sha1": "4885ca5e5aca74bb7e87c8d0df0ce3c433906370",
+      "sha256": "4885ca5e5aca74bb7e87c8d0df0ce3c433906370"
+    },
+    "_locales/bg/messages.json": {
+      "md5": "e676e3f66c7099aab9388398c9ecd709",
+      "sha1": "c7f58bd3d18e42d69863969fcc22a04958cf8918",
+      "sha256": "c7f58bd3d18e42d69863969fcc22a04958cf8918"
+    },
+    "_locales/ca/messages.json": {
+      "md5": "592141e7209656c2f7724d7af6e9bc15",
+      "sha1": "9773942c50a42bfe8492c84191181c223eca75cd",
+      "sha256": "9773942c50a42bfe8492c84191181c223eca75cd"
+    },
+    "_locales/bn/messages.json": {
+      "md5": "e5bb2c7c129d16b48176cf1feec83286",
+      "sha1": "b2c99f4657e77e0d71f0178e0618f054eb79226d",
+      "sha256": "b2c99f4657e77e0d71f0178e0618f054eb79226d"
+    },
+    "_locales/cs/messages.json": {
+      "md5": "96643e5e414d85196ecfa9c922f00040",
+      "sha1": "7822a02e64405a1607eb4b9377325852bc053f7e",
+      "sha256": "7822a02e64405a1607eb4b9377325852bc053f7e"
+    },
+    "_locales/da/messages.json": {
+      "md5": "db3ba9d0a527fb9a47ce63b8b8cacc80",
+      "sha1": "42fbba516eabe5e54744e0c590f7110193985844",
+      "sha256": "42fbba516eabe5e54744e0c590f7110193985844"
+    },
+    "_locales/de/messages.json": {
+      "md5": "445ac2070df316e9ea40e985874a224b",
+      "sha1": "a26833b484bcc4f77ac6909ca2d12a701ad4f5df",
+      "sha256": "a26833b484bcc4f77ac6909ca2d12a701ad4f5df"
+    },
+    "_locales/el/messages.json": {
+      "md5": "2474dc918ab54f86f72c32cafebb4528",
+      "sha1": "67094739ed5bd4c4f3117540a6027599d80854e0",
+      "sha256": "67094739ed5bd4c4f3117540a6027599d80854e0"
+    },
+    "_locales/en/messages.json": {
+      "md5": "dca5be7fccfd09d39c023ecdc663e8bb",
+      "sha1": "46160d78ce6444a47cca53b4c966f25e60a5059d",
+      "sha256": "46160d78ce6444a47cca53b4c966f25e60a5059d"
+    },
+    "_locales/en_GB/messages.json": {
+      "md5": "5c61f63bff0d45589870b54a7ef42131",
+      "sha1": "ae9056b3fd98756dc26b35fcd96f936c647e0008",
+      "sha256": "ae9056b3fd98756dc26b35fcd96f936c647e0008"
+    },
+    "_locales/es/messages.json": {
+      "md5": "20f50be6e77687146dca718d424c254b",
+      "sha1": "9a1bbfd017d309f6a2556da84c5590669413daa4",
+      "sha256": "9a1bbfd017d309f6a2556da84c5590669413daa4"
+    },
+    "_locales/et/messages.json": {
+      "md5": "55c72f534afdb23a978b7e9d82935055",
+      "sha1": "bbd78d4825812720626f1836945da242c57496cf",
+      "sha256": "bbd78d4825812720626f1836945da242c57496cf"
+    },
+    "_locales/fa/messages.json": {
+      "md5": "972e7e13d7c4bcf9742c77fb180c31b3",
+      "sha1": "6e7fa25e30121ca2d79eac47ad0cc34396f8d2b4",
+      "sha256": "6e7fa25e30121ca2d79eac47ad0cc34396f8d2b4"
+    },
+    "_locales/fi/messages.json": {
+      "md5": "852838400471c420fd6abbd8d26205ed",
+      "sha1": "e026d7ac7e7e6f60cde2cd2085cdf5ad26f686ec",
+      "sha256": "e026d7ac7e7e6f60cde2cd2085cdf5ad26f686ec"
+    },
+    "_locales/fr/messages.json": {
+      "md5": "bc05a5773d8d632d749b19b7a6d6315c",
+      "sha1": "1b1dd601f1f99ec82f39bb5de47ce33f381bd869",
+      "sha256": "1b1dd601f1f99ec82f39bb5de47ce33f381bd869"
+    },
+    "_locales/he/messages.json": {
+      "md5": "7f5ed2cfa931da902bf99eb24fefdcd3",
+      "sha1": "7cffb6622abd8f3c54a612d53f994ee212ab7ddb",
+      "sha256": "7cffb6622abd8f3c54a612d53f994ee212ab7ddb"
+    },
+    "_locales/hi/messages.json": {
+      "md5": "70141e592f4145e40c12802ac48dfd94",
+      "sha1": "42ac89a2cb1395eb98c1e8de698fb865f1196c31",
+      "sha256": "42ac89a2cb1395eb98c1e8de698fb865f1196c31"
+    },
+    "_locales/hr/messages.json": {
+      "md5": "2a7f25844e1caa77c73c115830627ea8",
+      "sha1": "286959e0e5b51ebfdafddb086150ea3416e9da0d",
+      "sha256": "286959e0e5b51ebfdafddb086150ea3416e9da0d"
+    },
+    "_locales/hu/messages.json": {
+      "md5": "147916d2df80e8f724eb3e8b1c22bcf5",
+      "sha1": "9dfd3ffdb5095d624dbcdf85a8ed57c7e85c0052",
+      "sha256": "9dfd3ffdb5095d624dbcdf85a8ed57c7e85c0052"
+    },
+    "_locales/id/messages.json": {
+      "md5": "2f0b10707226a6da31a49318e58070d8",
+      "sha1": "e56ef6f1e5e885971db68489509cd66ba5828dba",
+      "sha256": "e56ef6f1e5e885971db68489509cd66ba5828dba"
+    },
+    "_locales/it/messages.json": {
+      "md5": "a97eb7f178cca678e05adddb8eae7063",
+      "sha1": "c02094111344badd05ae0955f3bcd64560503d08",
+      "sha256": "c02094111344badd05ae0955f3bcd64560503d08"
+    },
+    "_locales/ja/messages.json": {
+      "md5": "5aa151b72521ac43952bf4a258f4c1c2",
+      "sha1": "4a9754c05babed27c28dd5fb8f47543795cc0126",
+      "sha256": "4a9754c05babed27c28dd5fb8f47543795cc0126"
+    },
+    "_locales/ko/messages.json": {
+      "md5": "a913a119a8dc17a69824d3a345a7a1c4",
+      "sha1": "ed3a0c2f2e2d736768e1e60905d82c7b5922e0b2",
+      "sha256": "ed3a0c2f2e2d736768e1e60905d82c7b5922e0b2"
+    },
+    "_locales/lt/messages.json": {
+      "md5": "4cbf7452bb41821da9899470598a0a66",
+      "sha1": "b663a51003e4def0bf0c391e76f5b1248d76050b",
+      "sha256": "b663a51003e4def0bf0c391e76f5b1248d76050b"
+    },
+    "_locales/lv/messages.json": {
+      "md5": "8bb1a11986fc47b5a72b017748a16942",
+      "sha1": "511923f83a25b748820586ab93fd9316c1d93989",
+      "sha256": "511923f83a25b748820586ab93fd9316c1d93989"
+    },
+    "_locales/ms/messages.json": {
+      "md5": "84edf02f5cf82691321f02fd24f534f9",
+      "sha1": "bfb59f2a62b4e3c7f5eb7ce3a68f4b3bd417af9f",
+      "sha256": "bfb59f2a62b4e3c7f5eb7ce3a68f4b3bd417af9f"
+    },
+    "_locales/nb/messages.json": {
+      "md5": "a1f11d5c2cb993f4df8e5ceedd2a730e",
+      "sha1": "6b5ba36764b7dd0cc4edddcea3934a3630ee2a6f",
+      "sha256": "6b5ba36764b7dd0cc4edddcea3934a3630ee2a6f"
+    },
+    "_locales/nl/messages.json": {
+      "md5": "4fabda227b8608487777a258a42f3045",
+      "sha1": "47b5571b9be33d542268d9bc7537e3908901e51c",
+      "sha256": "47b5571b9be33d542268d9bc7537e3908901e51c"
+    },
+    "_locales/pl/messages.json": {
+      "md5": "ba88ddf02883c3b25ddd82db21ca7aed",
+      "sha1": "0cefa8d6e6442bfa8243a0512f9fe719ef32047e",
+      "sha256": "0cefa8d6e6442bfa8243a0512f9fe719ef32047e"
+    },
+    "_locales/pt_BR/messages.json": {
+      "md5": "96be18888912da9edb7949d97eb60f3c",
+      "sha1": "1247a100818b0137847be6939a921bc7cf269d55",
+      "sha256": "1247a100818b0137847be6939a921bc7cf269d55"
+    },
+    "_locales/pt_PT/messages.json": {
+      "md5": "019e4b90264dc1d4dbf2f03ec6dbd038",
+      "sha1": "de12819e6cf4090dd642967c7894ff0e76a79c39",
+      "sha256": "de12819e6cf4090dd642967c7894ff0e76a79c39"
+    },
+    "_locales/ru/messages.json": {
+      "md5": "bfda185f69d9d670f563bb2625acda2a",
+      "sha1": "33bd76070d9bf15fed10303f63b7240d324025d9",
+      "sha256": "33bd76070d9bf15fed10303f63b7240d324025d9"
+    },
+    "_locales/ro/messages.json": {
+      "md5": "c2be322b312d1c0f09c1f9f3ef7aa94a",
+      "sha1": "e579c383824ae06f47b80104ebb4aec2740e33e2",
+      "sha256": "e579c383824ae06f47b80104ebb4aec2740e33e2"
+    },
+    "_locales/sk/messages.json": {
+      "md5": "59bd8c6b295a72f0920fad994d04bdd2",
+      "sha1": "aa9c8a19ee6ff3855ef60c2f9932bc63bbdeede6",
+      "sha256": "aa9c8a19ee6ff3855ef60c2f9932bc63bbdeede6"
+    },
+    "_locales/sl/messages.json": {
+      "md5": "9323faedf90b3a4d3294ad8ea77c36dd",
+      "sha1": "50daab7f69a386eac4bba7b6dd55f329fbc5e639",
+      "sha256": "50daab7f69a386eac4bba7b6dd55f329fbc5e639"
+    },
+    "_locales/sr/messages.json": {
+      "md5": "9bb66f7da7aa717eaea65305f3716392",
+      "sha1": "ff02f82ddd9a891e778eefff84170fba5a0db2be",
+      "sha256": "ff02f82ddd9a891e778eefff84170fba5a0db2be"
+    },
+    "_locales/sv/messages.json": {
+      "md5": "84d50a1537df825547e9fdcb1a544a69",
+      "sha1": "da9ba5a41900b0eee7513a716ea01e7fec2b695f",
+      "sha256": "da9ba5a41900b0eee7513a716ea01e7fec2b695f"
+    },
+    "_locales/th/messages.json": {
+      "md5": "a25b0b21925007621d2e957186015a18",
+      "sha1": "740471a87924362be310d0256a1b2f41c7091ddd",
+      "sha256": "740471a87924362be310d0256a1b2f41c7091ddd"
+    },
+    "_locales/tr/messages.json": {
+      "md5": "26001237f75bed717380c331e27d77c6",
+      "sha1": "fc5d08fe988d8517eab13d30192ecb9a9adff8db",
+      "sha256": "fc5d08fe988d8517eab13d30192ecb9a9adff8db"
+    },
+    "_locales/uk/messages.json": {
+      "md5": "e4611b92c28eb78dce2b7ce15aa4cbc4",
+      "sha1": "a06c3b132198dd5d4be8ba7446a05c6a2ffc4566",
+      "sha256": "a06c3b132198dd5d4be8ba7446a05c6a2ffc4566"
+    },
+    "_locales/ur/messages.json": {
+      "md5": "d60c1bbc24ffb77747139b78f28065e1",
+      "sha1": "a581ed4e0c482d281c1b5dbc133ece0dba9bce7c",
+      "sha256": "a581ed4e0c482d281c1b5dbc133ece0dba9bce7c"
+    },
+    "_locales/vi/messages.json": {
+      "md5": "cc745ef8746b3baeeb7a21464660fbcd",
+      "sha1": "172a7a4a18007518ec295a0f95a6930efd7d7862",
+      "sha256": "172a7a4a18007518ec295a0f95a6930efd7d7862"
+    },
+    "_locales/zh_CN/messages.json": {
+      "md5": "353960932001e1020faf81000692b063",
+      "sha1": "78642b9b4f4ad4039bcedc307a30339fb8b2005b",
+      "sha256": "78642b9b4f4ad4039bcedc307a30339fb8b2005b"
+    },
+    "_locales/zh_TW/messages.json": {
+      "md5": "7ba11b646f7481ae0646e928ec4a9a0d",
+      "sha1": "fca1df368415670add99f3cbe7b5877a5d7f2e93",
+      "sha256": "fca1df368415670add99f3cbe7b5877a5d7f2e93"
+    },
+    "common/mocks/empty.js": {
+      "md5": "d75b1d8c7c8f74d8adb701f8cebe1482",
+      "sha1": "801c90d0d6f59151b19ade136f8dd9a339ead117",
+      "sha256": "801c90d0d6f59151b19ade136f8dd9a339ead117"
+    },
+    "common/mocks/ga.js": {
+      "md5": "853c8eaf6cb951c6c21dea7d4619bdb2",
+      "sha1": "066be99fdaad12fed9e47fda38d1e9bc837b8088",
+      "sha256": "066be99fdaad12fed9e47fda38d1e9bc837b8088"
+    },
+    "common/mocks/gpt.js": {
+      "md5": "d032a93c878ac59ce92abe86adfc87d6",
+      "sha1": "5bda0dbec8c19dfc2b661d224130867a5d3a33c1",
+      "sha256": "5bda0dbec8c19dfc2b661d224130867a5d3a33c1"
+    },
+    "common/mocks/omniture.js": {
+      "md5": "aa75b294db2bda1059eec30b8d6215c8",
+      "sha1": "39c322384c7f6d8414442fcd475f54155f9f21ef",
+      "sha256": "39c322384c7f6d8414442fcd475f54155f9f21ef"
+    },
+    "common/ui/css/style.css": {
+      "md5": "eb9c166d185891e079af987616b2c150",
+      "sha1": "406f5db9fc820468d1fafcbe37c4dc7b917aa7f7",
+      "sha256": "406f5db9fc820468d1fafcbe37c4dc7b917aa7f7"
+    },
+    "common/ui/fonts/proximanova-bold-webfont.woff2": {
+      "md5": "547bd21cd4132329a0f90d3fa08232cc",
+      "sha1": "8fb7232e7891d7f256e7f1b2f5b5b95540d9bc3b",
+      "sha256": "8fb7232e7891d7f256e7f1b2f5b5b95540d9bc3b"
+    },
+    "common/ui/fonts/proximanova-regular-webfont.woff2": {
+      "md5": "fd79fd0b8feb4655bab0fdb7a98fcd59",
+      "sha1": "500d9de10bd82f7dbaa103f9c1fecf61d4dab531",
+      "sha256": "500d9de10bd82f7dbaa103f9c1fecf61d4dab531"
+    },
+    "common/ui/icons/advertisers-danger.svg": {
+      "md5": "bdb9559c66b1a9ad10aa72c0da4f2f9d",
+      "sha1": "bc17b0ad167ae92655e0e47f576773f0ecf0b054",
+      "sha256": "bc17b0ad167ae92655e0e47f576773f0ecf0b054"
+    },
+    "common/ui/icons/advertisers-error.svg": {
+      "md5": "c2c9d9bec137b5e90b842cd98802282e",
+      "sha1": "50dc7fde871a90430c0621cd2706fb57a1929a78",
+      "sha256": "50dc7fde871a90430c0621cd2706fb57a1929a78"
+    },
+    "common/ui/icons/advertisers-loading.svg": {
+      "md5": "4721a823edca56fbb8c86996b3a032db",
+      "sha1": "8bab1050a8adc3ba13f3767f1afee10ddea9640a",
+      "sha256": "8bab1050a8adc3ba13f3767f1afee10ddea9640a"
+    },
+    "common/ui/icons/advertisers-success.svg": {
+      "md5": "7519c90aa6552ced682e1db6c999da4d",
+      "sha1": "3b2249f28b3f9839bb95d29b9756ac9c91a84c65",
+      "sha256": "3b2249f28b3f9839bb95d29b9756ac9c91a84c65"
+    },
+    "common/ui/icons/check-big.svg": {
+      "md5": "794851e52ddcdbbe924716b2fb0dd8b2",
+      "sha1": "d4087a760fbd8b681ddb0e0a2684c09f1afbf918",
+      "sha256": "d4087a760fbd8b681ddb0e0a2684c09f1afbf918"
+    },
+    "common/ui/icons/check.svg": {
+      "md5": "90a16f00a16713d9588ec93384a246af",
+      "sha1": "f98dff323103a49b067ae7a3d0a1792ba68faca8",
+      "sha256": "f98dff323103a49b067ae7a3d0a1792ba68faca8"
+    },
+    "common/ui/icons/checked.png": {
+      "md5": "05289bbb6e9790b5f56bac6b9434d559",
+      "sha1": "70a0051248acdd43987c4476d790ff327055a902",
+      "sha256": "70a0051248acdd43987c4476d790ff327055a902"
+    },
+    "common/ui/icons/close.png": {
+      "md5": "fc9e91e8ef77d098ec3c537bb99a17c3",
+      "sha1": "87316bc64a51251566747bd7b67eb039b5910652",
+      "sha256": "87316bc64a51251566747bd7b67eb039b5910652"
+    },
+    "common/ui/icons/consent-big.svg": {
+      "md5": "3e6309912a3fee87ebcc610aeeaf0af3",
+      "sha1": "b7d37d3fbf4e5692e60be1ec09125017304d1d03",
+      "sha256": "b7d37d3fbf4e5692e60be1ec09125017304d1d03"
+    },
+    "common/ui/icons/danger-big.svg": {
+      "md5": "7a62902ef2832911030215454a655b9e",
+      "sha1": "deebba74128dbd4c02f344a3e905410446eb4751",
+      "sha256": "deebba74128dbd4c02f344a3e905410446eb4751"
+    },
+    "common/ui/icons/danger.svg": {
+      "md5": "cc0af8d70314b71167ae802aa3aa7a73",
+      "sha1": "dfecee8e56e9724a277d969eb211431553ca7e87",
+      "sha256": "dfecee8e56e9724a277d969eb211431553ca7e87"
+    },
+    "common/ui/icons/exclamation.svg": {
+      "md5": "baced0231f5662f5f530f9b8669f2fa9",
+      "sha1": "56b0d57a383d98ab05a3cf85f881beece970568e",
+      "sha256": "56b0d57a383d98ab05a3cf85f881beece970568e"
+    },
+    "common/ui/icons/icon-bad.png": {
+      "md5": "57de27b3bae4707e819feb4d4c89a0dc",
+      "sha1": "057bd13c960437c2a89b7298b1c38a895725ac68",
+      "sha256": "057bd13c960437c2a89b7298b1c38a895725ac68"
+    },
+    "common/ui/icons/icon-breachguard-outline.png": {
+      "md5": "1cdb0d985da39331939c1810827a2a3b",
+      "sha1": "0a4ec1eed28602903d567d6487b0a1bec4d828a9",
+      "sha256": "0a4ec1eed28602903d567d6487b0a1bec4d828a9"
+    },
+    "common/ui/icons/icon-danger.png": {
+      "md5": "4a0092bcf2839ba46aa9c89baf7ac5aa",
+      "sha1": "9f1f71cac5814408960af62759950e3999f5cb7e",
+      "sha256": "9f1f71cac5814408960af62759950e3999f5cb7e"
+    },
+    "common/ui/icons/icon-loading.svg": {
+      "md5": "19e049b997380aab5387e5d045fa7c3f",
+      "sha1": "d770f24c1d4c041d595c2a7ad3170bd38ac412ba",
+      "sha256": "d770f24c1d4c041d595c2a7ad3170bd38ac412ba"
+    },
+    "common/ui/icons/icon-ok.png": {
+      "md5": "4b81b224ac9b89977a36c7ce134aabf4",
+      "sha1": "ef1d5483fab1ea3200fa10959bad57c8ba76fcca",
+      "sha256": "ef1d5483fab1ea3200fa10959bad57c8ba76fcca"
+    },
+    "common/ui/icons/icon-unknown.png": {
+      "md5": "fc49d8662d042acbd4dd97d168323e18",
+      "sha1": "ca3ad5ff34305f64fcfe832a18c4222a77649a8e",
+      "sha256": "ca3ad5ff34305f64fcfe832a18c4222a77649a8e"
+    },
+    "common/ui/icons/icon128.png": {
+      "md5": "c0987ff0ca394bf4eff7f9d35c3ee98b",
+      "sha1": "003f861e86d13bec1dc51dc00ce1dabc975b8759",
+      "sha256": "003f861e86d13bec1dc51dc00ce1dabc975b8759"
+    },
+    "common/ui/icons/icon16.png": {
+      "md5": "2cf483405d3534329e508140736a89b6",
+      "sha1": "6a52c8ba854c4fd53acaa146b57d049fbc6eefb0",
+      "sha256": "6a52c8ba854c4fd53acaa146b57d049fbc6eefb0"
+    },
+    "common/ui/icons/icon256.png": {
+      "md5": "0338af0e754167576826fdec11a4623b",
+      "sha1": "329acf6dd3a679aa53675141c17762ddd8289fe0",
+      "sha256": "329acf6dd3a679aa53675141c17762ddd8289fe0"
+    },
+    "common/ui/icons/icon32.png": {
+      "md5": "1d90ccf616ac2e74da0c4ac8ad2a9162",
+      "sha1": "07b093a4d15588cda8a5584c79b7649c92195cd2",
+      "sha256": "07b093a4d15588cda8a5584c79b7649c92195cd2"
+    },
+    "common/ui/icons/icon32bw.png": {
+      "md5": "1e6d2fa9ee690a7df9c3d2716b341eec",
+      "sha1": "a88a66e8944f290a27020317c7a2bacd902f4356",
+      "sha256": "a88a66e8944f290a27020317c7a2bacd902f4356"
+    },
+    "common/ui/icons/icon32bw@2x.png": {
+      "md5": "27fae55266ffe54041b15e0d5ac1c747",
+      "sha1": "5ce56cf35b42c8959e613565800e60c5aa60f5c1",
+      "sha256": "5ce56cf35b42c8959e613565800e60c5aa60f5c1"
+    },
+    "common/ui/icons/icon32bw@3x.png": {
+      "md5": "29877fbff336cb9035919960a2738d05",
+      "sha1": "d1f915707be7ec76344278dbd5a94373c572aaa6",
+      "sha256": "d1f915707be7ec76344278dbd5a94373c572aaa6"
+    },
+    "common/ui/icons/icon48.png": {
+      "md5": "17d243f5be2338f44e65c15d0cf30ef9",
+      "sha1": "c45303deb4db658a7ba9f01f071066b0a90a3a5a",
+      "sha256": "c45303deb4db658a7ba9f01f071066b0a90a3a5a"
+    },
+    "common/ui/icons/icon64.png": {
+      "md5": "38a415ea038b6379c077143708336655",
+      "sha1": "1c798bfb23554ac933514f031484362c38880046",
+      "sha256": "1c798bfb23554ac933514f031484362c38880046"
+    },
+    "common/ui/icons/info.svg": {
+      "md5": "ac7146873a41746c4c2b2fc087ccdfe9",
+      "sha1": "2ead00d90825459567d6443cb8e246788d46112f",
+      "sha256": "2ead00d90825459567d6443cb8e246788d46112f"
+    },
+    "common/ui/icons/lightbulb.svg": {
+      "md5": "0d052292a0e660ed63bb05c3a4d5d3f0",
+      "sha1": "52338f12eccace379d3ade26d5d0edafd0969462",
+      "sha256": "52338f12eccace379d3ade26d5d0edafd0969462"
+    },
+    "common/ui/icons/logo.svg": {
+      "md5": "02733c62b980b11ba0461e918ee344c4",
+      "sha1": "c2ea931866336aac662d08fc59a4cdf1301b618e",
+      "sha256": "c2ea931866336aac662d08fc59a4cdf1301b618e"
+    },
+    "common/ui/icons/nps-badge-0.png": {
+      "md5": "a80437f6143183e5abb5c2932c2cc71d",
+      "sha1": "fba3adc4c0bce64fdd095709f86ecd3c792adc07",
+      "sha256": "fba3adc4c0bce64fdd095709f86ecd3c792adc07"
+    },
+    "common/ui/icons/nps-badge-1.png": {
+      "md5": "95fd35610c150360a33657a27ccbbbee",
+      "sha1": "f2ff269556887d670a769fdb686b1f677a5d08d5",
+      "sha256": "f2ff269556887d670a769fdb686b1f677a5d08d5"
+    },
+    "common/ui/icons/nps-badge-2.png": {
+      "md5": "09f772e20fb63028ae2fc425c06ff08c",
+      "sha1": "3ac4f940c336ddad1927506970b443effff84880",
+      "sha256": "3ac4f940c336ddad1927506970b443effff84880"
+    },
+    "common/ui/icons/nps-badge-3.png": {
+      "md5": "18c9716f340ba2283e2f4700c8db4a6d",
+      "sha1": "93ea04f261c214cc6510072237fe2592e8399a53",
+      "sha256": "93ea04f261c214cc6510072237fe2592e8399a53"
+    },
+    "common/ui/icons/nps-badge-4.png": {
+      "md5": "f160f4dd093293bc016e1da8dee6927b",
+      "sha1": "d30b8f682fabe851666be004cb750fe8ced32fc9",
+      "sha256": "d30b8f682fabe851666be004cb750fe8ced32fc9"
+    },
+    "common/ui/icons/nps-badge-5.png": {
+      "md5": "51ccab8ec913023f3348168b389a5185",
+      "sha1": "5de01247aa8229d414d32673b1c8de46d5782a40",
+      "sha256": "5de01247aa8229d414d32673b1c8de46d5782a40"
+    },
+    "common/ui/icons/ok24.svg": {
+      "md5": "d322c7bf47add0156e5524bbb4df3bfe",
+      "sha1": "fcccfe259ee68ef2c1f87c36834741c8f5252d1d",
+      "sha256": "fcccfe259ee68ef2c1f87c36834741c8f5252d1d"
+    },
+    "common/ui/icons/question.svg": {
+      "md5": "2dceecd76374c66f9a2021d98147c437",
+      "sha1": "15b231e5db198bb36ed93c99ee82fc39627a0efe",
+      "sha256": "15b231e5db198bb36ed93c99ee82fc39627a0efe"
+    },
+    "common/ui/icons/red80.png": {
+      "md5": "2f21afe0f86988f84ed34eb24081b73f",
+      "sha1": "5beb0a98b886b962089afd3a75543eeac4a6cf8f",
+      "sha256": "5beb0a98b886b962089afd3a75543eeac4a6cf8f"
+    },
+    "common/ui/icons/right.svg": {
+      "md5": "dcfd46dd35388dad1a47a0130af0dfce",
+      "sha1": "c50a66d7c0774cdc5a26f42a69e3ab44de3307ef",
+      "sha256": "c50a66d7c0774cdc5a26f42a69e3ab44de3307ef"
+    },
+    "common/ui/icons/serp-icon-all-ok.svg": {
+      "md5": "7d2b548b6f935f07ac18af50b0fa2866",
+      "sha1": "403c8f629a15a81edbeeef7279fb8671f7f5fae1",
+      "sha256": "403c8f629a15a81edbeeef7279fb8671f7f5fae1"
+    },
+    "common/ui/icons/serp-icon-attention.svg": {
+      "md5": "89006933215c8830f6acc9052897ff15",
+      "sha1": "15e6e7dbd8114c265f6ccd3ed1d2816fc5539338",
+      "sha256": "15e6e7dbd8114c265f6ccd3ed1d2816fc5539338"
+    },
+    "common/ui/icons/serp-icon-dangerous.svg": {
+      "md5": "d5ca427d7335d90bd1b7e30b979fc8d9",
+      "sha1": "3335647638150383cfa17dc6f54894bec5a199e9",
+      "sha256": "3335647638150383cfa17dc6f54894bec5a199e9"
+    },
+    "common/ui/icons/serp-icon-unknown.svg": {
+      "md5": "46da6050ac194c6e8482d295cd7813f6",
+      "sha1": "354f14de7cc36621480cc4847fe9e7686216e419",
+      "sha256": "354f14de7cc36621480cc4847fe9e7686216e419"
+    },
+    "common/ui/icons/settings.svg": {
+      "md5": "d81f85ce86528faee1a3e1d637149ebb",
+      "sha1": "0d4403bd2b604543499fba0139e54ae14bae9d23",
+      "sha256": "0d4403bd2b604543499fba0139e54ae14bae9d23"
+    },
+    "common/ui/icons/star.svg": {
+      "md5": "5f787d1a3eaa39c9ea40b71074469b01",
+      "sha1": "c05890c27e400dad2b3cd6e383083e250bd4958f",
+      "sha256": "c05890c27e400dad2b3cd6e383083e250bd4958f"
+    },
+    "common/ui/icons/status-none.png": {
+      "md5": "6fb69c37672ea8a1d27400acc7020daa",
+      "sha1": "275872122b7bbce26a789e5f4c9256f01bfecec3",
+      "sha256": "275872122b7bbce26a789e5f4c9256f01bfecec3"
+    },
+    "common/ui/icons/switchOff.png": {
+      "md5": "94b0aa97e6f822a2278efff598740950",
+      "sha1": "1ad0f628690cde36ecb5c9caeaf1e42754974d95",
+      "sha256": "1ad0f628690cde36ecb5c9caeaf1e42754974d95"
+    },
+    "common/ui/icons/switchOn.png": {
+      "md5": "8ba0e2502cdccfc5cc8086acb7891b2a",
+      "sha1": "b33e37c196f8e9cf2ff29d21252893b0ce73f1ff",
+      "sha256": "b33e37c196f8e9cf2ff29d21252893b0ce73f1ff"
+    },
+    "common/ui/icons/thumb-down-active.svg": {
+      "md5": "8afc02ba475d7377a2b50cdec1b38a43",
+      "sha1": "5a305195e738b04e4d41d4ae87cbaac09a95a2f8",
+      "sha256": "5a305195e738b04e4d41d4ae87cbaac09a95a2f8"
+    },
+    "common/ui/icons/thumb-down-normal.svg": {
+      "md5": "517c19fa1b86f9875d45904bdcf29925",
+      "sha1": "0b71015c69455177a408381e98bd25e71b5005af",
+      "sha256": "0b71015c69455177a408381e98bd25e71b5005af"
+    },
+    "common/ui/icons/thumb-up-active.svg": {
+      "md5": "9f53e796a082c2ca357cf3465e8c57f6",
+      "sha1": "519904660b9c23642699b79a82e56415add9e3b7",
+      "sha256": "519904660b9c23642699b79a82e56415add9e3b7"
+    },
+    "common/ui/icons/thumb-up-normal-mini.png": {
+      "md5": "9aeeccab184eeabb3bbbd0d3323adf56",
+      "sha1": "b0ab1484e8fa84f6d87a21c0ee4ee16dbc6afe7e",
+      "sha256": "b0ab1484e8fa84f6d87a21c0ee4ee16dbc6afe7e"
+    },
+    "common/ui/icons/thumb-up-normal.svg": {
+      "md5": "49cb5d894a244796dc2a9e16e134b4f2",
+      "sha1": "4a99638ec1f73dcd3c16ca073e2d760a8002c88a",
+      "sha256": "4a99638ec1f73dcd3c16ca073e2d760a8002c88a"
+    },
+    "common/ui/icons/tracking-green.svg": {
+      "md5": "e653f335c3fc0ee6c7e33381c7aac876",
+      "sha1": "90e8e29c415bc808b466093deb959e67f47ed77d",
+      "sha256": "90e8e29c415bc808b466093deb959e67f47ed77d"
+    },
+    "common/ui/icons/tracking-orange.svg": {
+      "md5": "998064085163f40a5ad4956aafe3712e",
+      "sha1": "ee6f4474f91106926a4b0153d704c81072b8c695",
+      "sha256": "ee6f4474f91106926a4b0153d704c81072b8c695"
+    },
+    "common/ui/icons/tracking-red.svg": {
+      "md5": "86bf44aed4deb54d24f9dc6e30d7ecf2",
+      "sha1": "a257e49eb85f82a3d2879d8542e2a5c9e3c73f89",
+      "sha256": "a257e49eb85f82a3d2879d8542e2a5c9e3c73f89"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "90119299cfef493d810f30130173a08e",
+      "sha1": "54156588d0fe9d6b242c2fcd1552903156974c42",
+      "sha256": "54156588d0fe9d6b242c2fcd1552903156974c42"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "manifest_version": 2,
+    "name": "__MSG_appName__",
+    "version": "20.3.10",
+    "description": "__MSG_appDesc__",
+    "default_locale": "en",
+    "author": "Avast",
+    "incognito": "split",
+    "background": {
+      "scripts": [
+        "scripts/background.js"
+      ]
+    },
+    "browser_action": {
+      "default_icon": "common/ui/icons/icon-unknown.png",
+      "default_title": "Avast Online Security"
+    },
+    "commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "default": "Alt+Shift+L"
+        },
+        "description": "Open AOS UI"
+      }
+    },
+    "icons": {
+      "16": "common/ui/icons/icon16.png",
+      "32": "common/ui/icons/icon32.png",
+      "48": "common/ui/icons/icon48.png",
+      "64": "common/ui/icons/icon64.png",
+      "128": "common/ui/icons/icon128.png",
+      "256": "common/ui/icons/icon256.png"
+    },
+    "permissions": [
+      "https://*/*",
+      "http://*/*",
+      "storage",
+      "tabs",
+      "webNavigation",
+      "webRequest",
+      "webRequestBlocking"
+    ],
+    "web_accessible_resources": [
+      "common/mocks/*",
+      "common/ui/*",
+      "common/ui/icons/*",
+      "common/ui/fonts/*",
+      "common/ui/css/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "*://*.avast.com/*"
+        ],
+        "js": [
+          "scripts/contentAvast.js"
+        ]
+      },
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": [
+          "scripts/contentInject.js"
+        ],
+        "run_at": "document_start"
+      },
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": [
+          "scripts/contentAdvertisers.js"
+        ]
+      }
+    ]
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "c5a685abf85bca73f50ae3c1b36068b6",
+    "sha1": "94d21b801bdca7f57babeb5bdb68659c2848aea1",
+    "sha256": "94d21b801bdca7f57babeb5bdb68659c2848aea1"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "GA event mock functions for DNT compatability",
+        "path": "common/mocks/ga.js"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "https://fonts.googleapis.com/css?family=Roboto",
+          "path": "common/messagebox.html"
+        },
+        {
+          "value": "https://github.com/dcodeIO/ProtoBuf.js/wiki/Services",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://localhost",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://localhost",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://analytics.ff.avast.com/v4/receive/gpb",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://analytics-stage.ff.avast.com/v4/receive/gpb",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://shepherd.ff.avast.com/?",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://shepherd-preview.ff.avast.com/?",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://chrome.google.com/webstore/detail/avast-online-security/gomekmidlodglbbmalcneegieacbdmki?utm_source=extension&utm_medium=nps&utm_campaign=AOS",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://www.avast.com",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://aos.avast.com/upgrade/",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "http://ui.ff.avast.com",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://uib.ff.avast.com",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://uib.ff.avast.com:443",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "https://vuejs.org/v2/guide/reactivity.html",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "https://vuejs.org/v2/api/",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "https://vuejs.org/v2/guide/components.html",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "http://www.w3.org/1999/xlink",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "http://www.w3.org/1998/Math/MathML",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "https://vuejs.org/guide/list.html",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "https://fonts.googleapis.com/css?family=Roboto",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "https://addons.mozilla.org/firefox/addon/avast-online-security/privacy",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "https://addons.mozilla.org/firefox/addon/avast-online-security/privacy",
+          "path": "scripts/contentInject.js"
+        }
+      ],
+      "email": [],
+      "ipv4": [],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {
+      "ar": {},
+      "be": {},
+      "bg": {},
+      "ca": {},
+      "bn": {},
+      "cs": {},
+      "da": {},
+      "de": {},
+      "el": {},
+      "en": {},
+      "en_gb": {},
+      "es": {},
+      "et": {},
+      "fa": {},
+      "fi": {},
+      "fr": {},
+      "he": {},
+      "hi": {},
+      "hr": {},
+      "hu": {},
+      "id": {},
+      "it": {},
+      "ja": {},
+      "ko": {},
+      "lt": {},
+      "lv": {},
+      "ms": {},
+      "nb": {},
+      "nl": {},
+      "pl": {},
+      "pt_br": {},
+      "pt_pt": {},
+      "ru": {},
+      "ro": {},
+      "sk": {},
+      "sl": {},
+      "sr": {},
+      "sv": {},
+      "th": {},
+      "tr": {},
+      "uk": {},
+      "ur": {},
+      "vi": {},
+      "zh_cn": {},
+      "zh_tw": {}
+    },
+    "metadata": {
+      "common/ui/icons/advertisers-danger.svg": {},
+      "common/ui/icons/advertisers-error.svg": {},
+      "common/ui/icons/advertisers-loading.svg": {},
+      "common/ui/icons/advertisers-success.svg": {},
+      "common/ui/icons/check-big.svg": {},
+      "common/ui/icons/check.svg": {},
+      "common/ui/icons/checked.png": {},
+      "common/ui/icons/close.png": {},
+      "common/ui/icons/consent-big.svg": {},
+      "common/ui/icons/danger-big.svg": {},
+      "common/ui/icons/danger.svg": {},
+      "common/ui/icons/exclamation.svg": {},
+      "common/ui/icons/icon-bad.png": {},
+      "common/ui/icons/icon-breachguard-outline.png": {},
+      "common/ui/icons/icon-danger.png": {},
+      "common/ui/icons/icon-loading.svg": {},
+      "common/ui/icons/icon-ok.png": {},
+      "common/ui/icons/icon-unknown.png": {},
+      "common/ui/icons/icon128.png": {},
+      "common/ui/icons/icon16.png": {},
+      "common/ui/icons/icon256.png": {},
+      "common/ui/icons/icon32.png": {},
+      "common/ui/icons/icon32bw.png": {},
+      "common/ui/icons/icon32bw@2x.png": {},
+      "common/ui/icons/icon32bw@3x.png": {},
+      "common/ui/icons/icon48.png": {},
+      "common/ui/icons/icon64.png": {},
+      "common/ui/icons/info.svg": {},
+      "common/ui/icons/lightbulb.svg": {},
+      "common/ui/icons/logo.svg": {},
+      "common/ui/icons/nps-badge-0.png": {},
+      "common/ui/icons/nps-badge-1.png": {},
+      "common/ui/icons/nps-badge-2.png": {},
+      "common/ui/icons/nps-badge-3.png": {},
+      "common/ui/icons/nps-badge-4.png": {},
+      "common/ui/icons/nps-badge-5.png": {},
+      "common/ui/icons/ok24.svg": {},
+      "common/ui/icons/question.svg": {},
+      "common/ui/icons/red80.png": {},
+      "common/ui/icons/right.svg": {},
+      "common/ui/icons/serp-icon-all-ok.svg": {},
+      "common/ui/icons/serp-icon-attention.svg": {},
+      "common/ui/icons/serp-icon-dangerous.svg": {},
+      "common/ui/icons/serp-icon-unknown.svg": {},
+      "common/ui/icons/settings.svg": {},
+      "common/ui/icons/star.svg": {},
+      "common/ui/icons/status-none.png": {},
+      "common/ui/icons/switchOff.png": {},
+      "common/ui/icons/switchOn.png": {},
+      "common/ui/icons/thumb-down-active.svg": {},
+      "common/ui/icons/thumb-down-normal.svg": {},
+      "common/ui/icons/thumb-up-active.svg": {},
+      "common/ui/icons/thumb-up-normal-mini.png": {},
+      "common/ui/icons/thumb-up-normal.svg": {},
+      "common/ui/icons/tracking-green.svg": {},
+      "common/ui/icons/tracking-orange.svg": {},
+      "common/ui/icons/tracking-red.svg": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "eval(",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+          "value": "base64",
+          "path": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "encode",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "atob",
+          "path": "scripts/contentInject.js"
+        }
+      ],
+      "possible_payments": [
+        {
+          "value": "visa",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "americanexpress",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "americanexpress",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "paypal",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "visa",
+          "path": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+          "value": "mastercard",
+          "path": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+          "value": "visa",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "visa",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "visa",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "visa",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "visa",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "visa",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "visa",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "visa",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "visa",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "visa",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "americanexpress",
+          "path": "scripts/contentInject.js"
+        }
+      ],
+      "pattern_recognition": [
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "regex",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "pattern",
+          "path": "scripts/contentInject.js"
+        }
+      ],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "POST",
+          "path": "scripts/background.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+          "value": "POST",
+          "path": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+          "value": "POST",
+          "path": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentInject.js"
+        },
+        {
+          "value": "GET",
+          "path": "scripts/contentInject.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-09-13 11:03:06.544339"
+      }
+    }
+  }
+}
