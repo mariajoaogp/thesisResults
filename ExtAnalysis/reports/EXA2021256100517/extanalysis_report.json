@@ -1,0 +1,1377 @@
+{
+    "author": "InBasic",
+    "base64_strings": [],
+    "bitcoin_addresses": [],
+    "comments": [
+        {
+            "comment": " seconds",
+            "file": "config.js"
+        },
+        {
+            "comment": " minutes",
+            "file": "config.js"
+        },
+        {
+            "comment": " plug-ins",
+            "file": "config.js"
+        },
+        {
+            "comment": " public methods",
+            "file": "lib/context-menu.js"
+        },
+        {
+            "comment": "globals actions, config, open, checkEmails",
+            "file": "lib/context-menu.js"
+        },
+        {
+            "comment": " invalidate after 10 minutes",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": "mail.google.com/mail/?ui=html&amp;zy=h&#39;;",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": " do you really want to use this view",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": " allow access",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": " consider post as successful if req.readyState === HEADERS_RECEIVED",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": " mark as read",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": " mark all as read",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": " archive",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": " trash",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": " report spam",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": " add-star",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": " remove star",
+            "file": "lib/gmail.js"
+        },
+        {
+            "comment": " fix preferences from older versions",
+            "file": "lib/load.js"
+        },
+        {
+            "comment": " window.setTimeout(() =&gt; app.emit(&#39;load&#39;), 2000);",
+            "file": "lib/load.js"
+        },
+        {
+            "comment": "globals config, app",
+            "file": "lib/load.js"
+        },
+        {
+            "comment": " main repeater",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " periodic repeater",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " disable sound on a user action",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Selected account",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " selecting the correct account",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " console.log(new Error().stack);",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " console.log(url, inBackground, refresh);",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " some urls might end with &quot;@private&quot; for private mode",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " support for basic HTML",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": "h&#39;, &#39;/h&#39;);",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Only if Gmail",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " when opening INBOX when a thread page is open",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Cancel previous execution?",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " supporting private mode",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Execute fresh servers",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Removing error objects",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Make sure there is no duplicate account",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Removing not logged-in accounts",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Sorting accounts",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " New total count number",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Updating the date of the panel",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " maybe the current email is marked as read but still count is 20 (max value for non inbox labels)",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Everything is clear",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Preparing the report",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Preparing the tooltip",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " use open to open the first link and use chrome.tabs.create for the rest",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " this should not be called",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " user interactions",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " start up",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " add a repeater to check all accounts",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " manual mode",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " periodic reset",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " updates",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " messaging",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " to prevent errors due to disconnected port",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " init",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " init;",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": "globals app, config, timer, server, contextmenu, toolbar, gmail",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": "FAQs &amp; Feedback",
+            "file": "lib/common.js"
+        },
+        {
+            "comment": " Change color pattern?",
+            "file": "lib/toolbar.js"
+        },
+        {
+            "comment": "globals config, app",
+            "file": "lib/toolbar.js"
+        },
+        {
+            "comment": "mail.google.com/mail/u/0&#39;,",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": "mail.google.com/mail/?ui=2&amp;view=cm&#39;,",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": "mail.google.com/mail/u/&#39; + tag);",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": " only feeds without &#39;/inbox&#39; show the right full-count",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": "mail.google.com/mail/u/0/feed/atom&#39;,",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": "mail.google.com/mail/u/1/feed/atom&#39;,",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": "mail.google.com/mail/u/2/feed/atom&#39;,",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": "mail.google.com/mail/u/3/feed/atom&#39;",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": " Maximum number of simultaneous reports from a single account",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": " in minutes",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": " 0-3: built-in, 4: user defined",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": " 0: normal color scheme, 1: reverse color scheme",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": " true: current window only, false: all open windows",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": " true: ignore opened Gmail tabs",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": " 0: new tab, 1: new window, 2: current tab",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": "globals app, config, contextmenu",
+            "file": "lib/config.js"
+        },
+        {
+            "comment": "mail.google.com/mail/u*&#39;,",
+            "file": "lib/wrapper/chrome/app.js"
+        },
+        {
+            "comment": "mail.google.com/sync/u/*/i/s*&#39;",
+            "file": "lib/wrapper/chrome/app.js"
+        },
+        {
+            "comment": "globals config, chrome",
+            "file": "lib/wrapper/chrome/app.js"
+        },
+        {
+            "comment": "updating badge when action is posted",
+            "file": "lib/wrapper/chrome/app.js"
+        },
+        {
+            "comment": "* Repeater: Repeats a function infinity with an interval pattern\n *  Example:\n *  var repeater = new repeater(1000, 10000, 2000);\n *  var i = 0;\n *  repeater.on(function() {\n *    i += 1;\n *    console.error(i);\n *    if (i == 6) {\n *      repeater.reset();\n *    }\n *    if (i == 10) {\n *      repeater.stop();\n *    }\n *  });\n *",
+            "file": "lib/utils/timer.js"
+        },
+        {
+            "comment": "Sometimes id is wrong in the feed structure!",
+            "file": "lib/utils/server.js"
+        },
+        {
+            "comment": "Inbox href",
+            "file": "lib/utils/server.js"
+        },
+        {
+            "comment": "&quot;, &quot;https://&quot;);",
+            "file": "lib/utils/server.js"
+        },
+        {
+            "comment": " account selector uses this url as account identifier",
+            "file": "lib/utils/server.js"
+        },
+        {
+            "comment": " author might be empty.",
+            "file": "lib/utils/server.js"
+        },
+        {
+            "comment": "Cleaning old entries",
+            "file": "lib/utils/server.js"
+        },
+        {
+            "comment": "Finding new ids",
+            "file": "lib/utils/server.js"
+        },
+        {
+            "comment": "g, &#39;-&#39;)",
+            "file": "data/options/index.js"
+        },
+        {
+            "comment": " remove empty tags",
+            "file": "data/options/index.js"
+        },
+        {
+            "comment": " remove duplicate tags",
+            "file": "data/options/index.js"
+        },
+        {
+            "comment": " odd number",
+            "file": "data/options/index.js"
+        },
+        {
+            "comment": " pref changes",
+            "file": "data/options/index.js"
+        },
+        {
+            "comment": "globals config",
+            "file": "data/options/index.js"
+        },
+        {
+            "comment": "globals locale",
+            "file": "data/popup/utils.js"
+        },
+        {
+            "comment": "&#39;, &#39;https://&#39;);",
+            "file": "data/popup/gmail.js"
+        },
+        {
+            "comment": " Link opener for html",
+            "file": "data/popup/accessibility.js"
+        },
+        {
+            "comment": "www.google.com/url?q=&#39;)) {",
+            "file": "data/popup/accessibility.js"
+        },
+        {
+            "comment": " List of all used elements",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " Make sure the selected entry is still available",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " Even if the selected entry is available still the parent might have been changed",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " does the old account still have unread entries?",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " updating current index",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " Although body is updated but index is not",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " Is previous or next requested",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " What parts need update",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " body.nameLink = base + &quot;?view=cm&amp;fs=1&amp;tf=1&amp;to=&quot; + selected.entry.author_email;",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " Clear old list",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " Add new items (remove no-unread accounts first)",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " Show menu",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " For chat conversations, there is no full content mode",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " resize",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " Close account selection menu if it is open",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " communication",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " This function is called on every server response.",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " init",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " Selected account",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": " selecting the correct account",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": "globals gmail, locale, utils",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": "* objects *",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": "* Update UI if necessary *",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": "Listeners",
+            "file": "data/popup/index.js"
+        },
+        {
+            "comment": "globals api, gmail, action, selected",
+            "file": "data/popup/plug-ins/labels.js"
+        },
+        {
+            "comment": "IETF//DTD HTML 2.0//EN&quot;&gt;",
+            "file": "data/options/index.html"
+        },
+        {
+            "comment": "addons.mozilla.org/firefox/addon/gmail-notifier-restartless/&quot;&gt;&lt;img src=&quot;/data/icons/browsers/firefox.png&quot;&gt;&lt;/img&gt;&lt;/a&gt;&lt;/li&gt;",
+            "file": "data/options/index.html"
+        },
+        {
+            "comment": "chrome.google.com/webstore/detail/gmail-notifier/dcjichoefijpinlfnjghokpkojhlhkgl&quot;&gt;&lt;img src=&quot;/data/icons/browsers/chrome.png&quot;&gt;&lt;/img&gt;&lt;/a&gt;&lt;/li&gt;",
+            "file": "data/options/index.html"
+        },
+        {
+            "comment": "addons.opera.com/extensions/details/gmail-notifier/&quot;&gt;&lt;img src=&quot;/data/icons/browsers/opera.png&quot;&gt;&lt;/img&gt;&lt;/a&gt;&lt;/li&gt;",
+            "file": "data/options/index.html"
+        },
+        {
+            "comment": "mail.google.com/mail/u/6/feed/atom/inbox&quot;/&gt;",
+            "file": "data/options/index.html"
+        },
+        {
+            "comment": "W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;",
+            "file": "data/popup/body/index.html"
+        },
+        {
+            "comment": "www.w3.org/1999/xhtml&quot;&gt;",
+            "file": "data/popup/body/index.html"
+        }
+    ],
+    "crx": "/home/maria/ExtAnalysis/lab/dcjichoefijpinlfnjghokpkojhlhkgl.crx",
+    "description": "Multiple label and account notifier for Google Mail (Gmail)",
+    "domains": [
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "142.250.178.174",
+            "name": "chrome.google.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "142.250.200.142",
+            "name": "clients2.google.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "unknown",
+            "country_code": "unknown",
+            "ip": "185.26.182.111",
+            "name": "addons.opera.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "128.30.52.100",
+            "name": "w3.org",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "172.64.97.20",
+            "name": "add0n.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "142.250.200.69",
+            "name": "mail.google.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "44.229.174.138",
+            "name": "addons.mozilla.org",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "142.250.178.174",
+            "name": "google.com",
+            "virustotal": "No virustotal api found"
+        }
+    ],
+    "emails": [],
+    "extracted": "/home/maria/ExtAnalysis/lab/dcjichoefijpinlfnjghokpkojhlhkgl",
+    "files": {
+        "css": [
+            {
+                "index.css": "data/options/index.css"
+            },
+            {
+                "index.css": "data/popup/index.css"
+            },
+            {
+                "index.css": "data/popup/body/index.css"
+            }
+        ],
+        "html": [
+            {
+                "background.html": "lib/wrapper/chrome/background.html"
+            },
+            {
+                "index.html": "data/options/index.html"
+            },
+            {
+                "index.html": "data/popup/index.html"
+            },
+            {
+                "index.html": "data/popup/body/index.html"
+            }
+        ],
+        "js": [
+            {
+                "config.js": "config.js"
+            },
+            {
+                "context-menu.js": "lib/context-menu.js"
+            },
+            {
+                "gmail.js": "lib/gmail.js"
+            },
+            {
+                "load.js": "lib/load.js"
+            },
+            {
+                "common.js": "lib/common.js"
+            },
+            {
+                "toolbar.js": "lib/toolbar.js"
+            },
+            {
+                "config.js": "lib/config.js"
+            },
+            {
+                "app.js": "lib/wrapper/chrome/app.js"
+            },
+            {
+                "timer.js": "lib/utils/timer.js"
+            },
+            {
+                "server.js": "lib/utils/server.js"
+            },
+            {
+                "tab.js": "lib/utils/tab.js"
+            },
+            {
+                "locale.js": "data/locale.js"
+            },
+            {
+                "index.js": "data/options/index.js"
+            },
+            {
+                "utils.js": "data/popup/utils.js"
+            },
+            {
+                "gmail.js": "data/popup/gmail.js"
+            },
+            {
+                "accessibility.js": "data/popup/accessibility.js"
+            },
+            {
+                "index.js": "data/popup/index.js"
+            },
+            {
+                "labels.js": "data/popup/plug-ins/labels.js"
+            }
+        ],
+        "json": [
+            {
+                "manifest.json": "manifest.json"
+            },
+            {
+                "verified_contents.json": "_metadata/verified_contents.json"
+            },
+            {
+                "messages.json": "_locales/ru/messages.json"
+            },
+            {
+                "messages.json": "_locales/nl/messages.json"
+            },
+            {
+                "messages.json": "_locales/es/messages.json"
+            },
+            {
+                "messages.json": "_locales/en/messages.json"
+            },
+            {
+                "messages.json": "_locales/ar/messages.json"
+            },
+            {
+                "messages.json": "_locales/el/messages.json"
+            },
+            {
+                "messages.json": "_locales/uk/messages.json"
+            },
+            {
+                "messages.json": "_locales/he/messages.json"
+            },
+            {
+                "messages.json": "_locales/tr/messages.json"
+            },
+            {
+                "messages.json": "_locales/bg/messages.json"
+            },
+            {
+                "messages.json": "_locales/pl/messages.json"
+            },
+            {
+                "messages.json": "_locales/hu/messages.json"
+            },
+            {
+                "messages.json": "_locales/fr/messages.json"
+            },
+            {
+                "messages.json": "_locales/zh_CN/messages.json"
+            },
+            {
+                "messages.json": "_locales/de/messages.json"
+            },
+            {
+                "messages.json": "_locales/sr/messages.json"
+            }
+        ],
+        "other": [
+            {
+                "LICENSE": "LICENSE"
+            },
+            {
+                "0.wav": "data/sounds/0.wav"
+            },
+            {
+                "2.wav": "data/sounds/2.wav"
+            },
+            {
+                "3.wav": "data/sounds/3.wav"
+            },
+            {
+                "1.wav": "data/sounds/1.wav"
+            }
+        ],
+        "static": [
+            {
+                "archive.png": "data/images/archive.png"
+            },
+            {
+                "read.png": "data/images/read.png"
+            },
+            {
+                "trash.png": "data/images/trash.png"
+            },
+            {
+                "wait.gif": "data/popup/wait.gif"
+            },
+            {
+                "icons.png": "data/popup/icons.png"
+            },
+            {
+                "fetch.gif": "data/popup/fetch.gif"
+            },
+            {
+                "star.svg": "data/popup/plug-ins/star.svg"
+            },
+            {
+                "no-star.svg": "data/popup/plug-ins/no-star.svg"
+            },
+            {
+                "refresh.png": "data/popup/icons/refresh.png"
+            },
+            {
+                "arrow_drop_down.png": "data/popup/icons/arrow_drop_down.png"
+            },
+            {
+                "chevron_left.png": "data/popup/icons/chevron_left.png"
+            },
+            {
+                "check_box.png": "data/popup/icons/check_box.png"
+            },
+            {
+                "chevron_right.png": "data/popup/icons/chevron_right.png"
+            },
+            {
+                "spam.png": "data/popup/icons/spam.png"
+            },
+            {
+                "check.png": "data/popup/icons/check.png"
+            },
+            {
+                "check_all.png": "data/popup/icons/check_all.png"
+            },
+            {
+                "archive.png": "data/popup/icons/archive.png"
+            },
+            {
+                "inbox.png": "data/popup/icons/inbox.png"
+            },
+            {
+                "settings.png": "data/popup/icons/settings.png"
+            },
+            {
+                "delete.png": "data/popup/icons/delete.png"
+            },
+            {
+                "list.png": "data/popup/icons/list.png"
+            },
+            {
+                "19.png": "data/icons/blue/19.png"
+            },
+            {
+                "16.png": "data/icons/blue/16.png"
+            },
+            {
+                "32.png": "data/icons/blue/32.png"
+            },
+            {
+                "18.png": "data/icons/blue/18.png"
+            },
+            {
+                "19.png": "data/icons/gray/19.png"
+            },
+            {
+                "16.png": "data/icons/gray/16.png"
+            },
+            {
+                "32.png": "data/icons/gray/32.png"
+            },
+            {
+                "18.png": "data/icons/gray/18.png"
+            },
+            {
+                "19.png": "data/icons/load2/19.png"
+            },
+            {
+                "16.png": "data/icons/load2/16.png"
+            },
+            {
+                "32.png": "data/icons/load2/32.png"
+            },
+            {
+                "18.png": "data/icons/load2/18.png"
+            },
+            {
+                "19.png": "data/icons/load1/19.png"
+            },
+            {
+                "16.png": "data/icons/load1/16.png"
+            },
+            {
+                "32.png": "data/icons/load1/32.png"
+            },
+            {
+                "18.png": "data/icons/load1/18.png"
+            },
+            {
+                "19.png": "data/icons/load0/19.png"
+            },
+            {
+                "16.png": "data/icons/load0/16.png"
+            },
+            {
+                "32.png": "data/icons/load0/32.png"
+            },
+            {
+                "18.png": "data/icons/load0/18.png"
+            },
+            {
+                "blue.png": "data/icons/tray/blue.png"
+            },
+            {
+                "gray.png": "data/icons/tray/gray.png"
+            },
+            {
+                "red.png": "data/icons/tray/red.png"
+            },
+            {
+                "19.png": "data/icons/red/19.png"
+            },
+            {
+                "16.png": "data/icons/red/16.png"
+            },
+            {
+                "32.png": "data/icons/red/32.png"
+            },
+            {
+                "48.png": "data/icons/red/48.png"
+            },
+            {
+                "128.png": "data/icons/red/128.png"
+            },
+            {
+                "18.png": "data/icons/red/18.png"
+            },
+            {
+                "64.png": "data/icons/red/64.png"
+            },
+            {
+                "19.png": "data/icons/new/19.png"
+            },
+            {
+                "16.png": "data/icons/new/16.png"
+            },
+            {
+                "32.png": "data/icons/new/32.png"
+            },
+            {
+                "18.png": "data/icons/new/18.png"
+            },
+            {
+                "16.png": "data/icons/notification/16.png"
+            },
+            {
+                "32.png": "data/icons/notification/32.png"
+            },
+            {
+                "48.png": "data/icons/notification/48.png"
+            },
+            {
+                "64.png": "data/icons/notification/64.png"
+            },
+            {
+                "32.png": "data/icons/options/32.png"
+            },
+            {
+                "64.png": "data/icons/options/64.png"
+            },
+            {
+                "chrome.png": "data/icons/browsers/chrome.png"
+            },
+            {
+                "firefox.png": "data/icons/browsers/firefox.png"
+            },
+            {
+                "opera.png": "data/icons/browsers/opera.png"
+            },
+            {
+                "19.png": "data/icons/load3/19.png"
+            },
+            {
+                "16.png": "data/icons/load3/16.png"
+            },
+            {
+                "32.png": "data/icons/load3/32.png"
+            },
+            {
+                "18.png": "data/icons/load3/18.png"
+            }
+        ]
+    },
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "manifest": {
+        "author": "InBasic",
+        "background": {
+            "page": "lib/wrapper/chrome/background.html"
+        },
+        "browser_action": {
+            "default_icon": {
+                "16": "data/icons/blue/16.png",
+                "18": "data/icons/blue/18.png",
+                "19": "data/icons/blue/19.png",
+                "32": "data/icons/blue/32.png"
+            }
+        },
+        "default_locale": "en",
+        "description": "__MSG_description__",
+        "homepage_url": "http://add0n.com/gmail-notifier.html",
+        "icons": {
+            "128": "data/icons/red/128.png",
+            "16": "data/icons/red/16.png",
+            "18": "data/icons/red/18.png",
+            "19": "data/icons/red/19.png",
+            "32": "data/icons/red/32.png",
+            "48": "data/icons/red/48.png",
+            "64": "data/icons/red/64.png"
+        },
+        "manifest_version": 2,
+        "name": "Notifier for Gmail\u2122",
+        "options_ui": {
+            "chrome_style": false,
+            "open_in_tab": true,
+            "page": "data/options/index.html"
+        },
+        "permissions": [
+            "*://mail.google.com/mail/",
+            "*://mail.google.com/sync/",
+            "notifications",
+            "contextMenus",
+            "webRequest",
+            "storage"
+        ],
+        "update_url": "https://clients2.google.com/service/update2/crx",
+        "version": "1.0.3",
+        "web_accessible_resources": [
+            "notification.png"
+        ]
+    },
+    "name": "Notifier for Gmail\u2122",
+    "permissions": [
+        {
+            "badge": "<i class=\"fas fa-question\"></i>",
+            "description": "na",
+            "name": "*://mail.google.com/mail/",
+            "risk": "none",
+            "warning": "na"
+        },
+        {
+            "badge": "<i class=\"fas fa-question\"></i>",
+            "description": "na",
+            "name": "*://mail.google.com/sync/",
+            "risk": "none",
+            "warning": "na"
+        },
+        {
+            "badge": "<i class=\"fas fa-bell\"></i>",
+            "description": "Grants your extension access to the chrome.notifications API.",
+            "name": "notifications",
+            "risk": "low",
+            "warning": "Display notifications"
+        },
+        {
+            "badge": "<i class=\"fas fa-bars\"></i>",
+            "description": "Gives your extension access to the chrome.contextMenus API.",
+            "name": "contextMenus",
+            "risk": "none",
+            "warning": "na"
+        },
+        {
+            "badge": "<i class=\"fas fa-globe-asia\"></i>",
+            "description": "Gives your extension access to the chrome.webRequest API.",
+            "name": "webRequest",
+            "risk": "critical",
+            "warning": "na"
+        },
+        {
+            "badge": "<i class=\"fas fa-hdd\"></i>",
+            "description": "Gives your extension access to the chrome.storage API.",
+            "name": "storage",
+            "risk": "medium",
+            "warning": "na"
+        }
+    ],
+    "type": "local",
+    "urls": [
+        {
+            "domain": "mail.google.com",
+            "file": "lib/gmail.js",
+            "url": "https://mail.google.com/mail/?ui=html&zy=h"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "lib/config.js",
+            "url": "https://mail.google.com/mail/u/0"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "lib/config.js",
+            "url": "https://mail.google.com/mail/?ui=2&view=cm"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "lib/config.js",
+            "url": "https://mail.google.com/mail/u/"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "lib/config.js",
+            "url": "https://mail.google.com/mail/u/0/feed/atom"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "lib/config.js",
+            "url": "https://mail.google.com/mail/u/1/feed/atom"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "lib/config.js",
+            "url": "https://mail.google.com/mail/u/2/feed/atom"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "lib/config.js",
+            "url": "https://mail.google.com/mail/u/3/feed/atom"
+        },
+        {
+            "domain": "google.com",
+            "file": "data/popup/accessibility.js",
+            "url": "https://www.google.com/url?q="
+        },
+        {
+            "domain": "addons.mozilla.org",
+            "file": "data/options/index.html",
+            "url": "https://addons.mozilla.org/firefox/addon/gmail-notifier-restartless/"
+        },
+        {
+            "domain": "chrome.google.com",
+            "file": "data/options/index.html",
+            "url": "https://chrome.google.com/webstore/detail/gmail-notifier/dcjichoefijpinlfnjghokpkojhlhkgl"
+        },
+        {
+            "domain": "addons.opera.com",
+            "file": "data/options/index.html",
+            "url": "https://addons.opera.com/extensions/details/gmail-notifier/"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "data/options/index.html",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "w3.org",
+            "file": "data/popup/body/index.html",
+            "url": "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+        },
+        {
+            "domain": "w3.org",
+            "file": "data/popup/body/index.html",
+            "url": "http://www.w3.org/1999/xhtml"
+        },
+        {
+            "domain": "clients2.google.com",
+            "file": "manifest.json",
+            "url": "https://clients2.google.com/service/update2/crx"
+        },
+        {
+            "domain": "add0n.com",
+            "file": "manifest.json",
+            "url": "http://add0n.com/gmail-notifier.html"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/ru/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/ru/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/ru/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/nl/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/nl/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/nl/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/es/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/es/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/es/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/en/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/en/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/en/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/ar/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/ar/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/ar/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/el/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/el/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/el/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/uk/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/uk/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/uk/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/he/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/he/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/he/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/tr/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/tr/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/tr/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/bg/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/bg/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/bg/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/pl/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/pl/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/pl/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/hu/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/hu/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/hu/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/fr/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/fr/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/fr/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/zh_CN/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/zh_CN/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/zh_CN/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/de/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/de/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/de/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/sr/messages.json",
+            "url": "https://mail.google.com/mail/u/0/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/sr/messages.json",
+            "url": "https://mail.google.com/mail/u/6/feed/atom/inbox"
+        },
+        {
+            "domain": "mail.google.com",
+            "file": "_locales/sr/messages.json",
+            "url": "https://mail.google.com/mail/u/7/feed/atom/inbox"
+        }
+    ],
+    "version": "1.0.3"
+}
