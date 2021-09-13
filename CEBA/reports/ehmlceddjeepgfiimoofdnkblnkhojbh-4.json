@@ -1,0 +1,86 @@
+{
+  "with_extension": {
+    "https://en.wikipedia.org/wiki/List_of_wikis": [
+      "en.wikipedia.org",
+      "upload.wikimedia.org"
+    ],
+    "https://www.uni-tuebingen.de": [
+      "vitruv.uni-tuebingen.de",
+      "www.uni-tuebingen.de",
+      "uni-tuebingen.de"
+    ],
+    "https://www.uni-sb.de": [
+      "www.uni-sb.de"
+    ],
+    "https://www.eff.org": [
+      "anon-stats.eff.org",
+      "www.eff.org"
+    ],
+    "https://www.mozilla.org": [
+      "firefox.com",
+      "www.google-analytics.com",
+      "www.mozilla.org",
+      "www.firefox.com",
+      "www.googletagmanager.com"
+    ],
+    "https://www.arbeitsagentur.de": [
+      "www.arbeitsagentur.de",
+      "api-con.arbeitsagentur.de",
+      "b'ocsp.sectigo.com'",
+      "b'ocsp.usertrust.com'"
+    ],
+    "https://www.tagesschau.de": [
+      "www.tagesschau.de",
+      "www1.sportschau.de",
+      "logs1413.xiti.com",
+      "script.ioam.de",
+      "278211d9896329498df8d999f19713f2d553cdfe100f31cf1a5544d3.trk.sensic.net",
+      "de-config.sensic.net"
+    ],
+    "https://www.ptb.de": [
+      "uhr.ptb.de",
+      "www.ptb.de"
+    ],
+    "https://www.inria.fr": [
+      "www.inria.fr",
+      "update.googleapis.com",
+      "piwik.inria.fr",
+      "b'edgedl.me.gvt1.com'"
+    ],
+    "https://www.google.de/?gfe_rd=cr&ei=dr9fWKHfJc7i8AeutpSwAg#q=test": [
+      "www.google.de",
+      "www.gstatic.com",
+      "apis.google.com"
+    ],
+    "https://www.facebook.com/Speicherstadt-Kaffeer%C3%B6sterei-118962444840064/": [
+      "facebook.com",
+      "scontent.fopo4-2.fna.fbcdn.net",
+      "static.xx.fbcdn.net",
+      "external.fopo4-1.fna.fbcdn.net",
+      "scontent.fopo4-1.fna.fbcdn.net",
+      "www.facebook.com"
+    ],
+    "https://www.youtube.com/watch?v=WhU1ZXLsKCg": [
+      "fonts.googleapis.com",
+      "www.youtube.com",
+      "accounts.google.com",
+      "update.googleapis.com",
+      "r8---sn-2vgu0b5auxaxjvh-v2vd.googlevideo.com",
+      "fonts.gstatic.com",
+      "i.ytimg.com"
+    ],
+    "https://www.google.de/maps/@49.3428062,6.78282,13z?hl=en": [
+      "consent.google.de"
+    ],
+    "https://twitter.com/josephfcox": [
+      "abs.twimg.com",
+      "api.twitter.com",
+      "video.twimg.com",
+      "t.co",
+      "twitter.com",
+      "pbs.twimg.com"
+    ]
+  },
+  "without_extension": {},
+  "filename": "data/extensions/ehmlceddjeepgfiimoofdnkblnkhojbh-4.crx"
+}
