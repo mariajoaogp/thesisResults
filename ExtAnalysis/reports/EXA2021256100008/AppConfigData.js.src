@@ -1,0 +1,805 @@
+$.Class('infa.ldm.AppConfigData',
+	{
+		_instance: undefined,
+
+		instance: function () {
+			if (!infa.ldm.AppConfigData._instance) {
+				infa.ldm.AppConfigData._instance = new infa.ldm.AppConfigData();
+			}
+			return infa.ldm.AppConfigData._instance;
+		},
+
+		isCustom: function (attribute) {
+			return infa.ldm.AppConfigData.isCustomName(attribute.name);
+		},
+
+		isCustomName: function (attributeName) {
+			if (attributeName.indexOf("com.infa.appmodels.ldm") >= 0 ||
+				attributeName.indexOf("com.infa.custom.appmodels") >= 0 || attributeName.indexOf("com.infa.ldm.ootb.enrichments") >= 0) {
+				return true;
+			} else {
+				return false;
+			}
+		},
+		isSystemReferenceAttr: function (attribute) {
+			var list = ["com.infa.ldm.profiling"];
+			for (var i = 0; i < list.length; i++) {
+				if (attribute.name.indexOf(list[i]) >= 0 && attribute.attributeOverride && attribute.attributeOverride != "") {
+					attribute.id = attribute.attributeOverride;
+					return true;
+				}
+			}
+			return false;
+		},
+
+		isIspUser: function (attributeName) {
+			return attributeName.indexOf("com.infa.ldm.isp") >= 0;
+		},
+
+		getDefaultConfig: function (attribute) {
+			var ft = 'multi';
+			if (infa.ldm.Utils.isNumericType(attribute)) {
+				ft = 'range';
+			} else if (infa.ldm.Utils.isDateType(attribute)) {
+				ft = 'date';
+			}
+
+			// Boolean attributes cannot be searchable
+			if (infa.ldm.Utils.isBooleanType(attribute)) {
+				attribute.searchable = false;
+			}
+
+			return {
+				boostvalue: attribute.boost ? attribute.boost : "LOW",
+				showin360: infa.ldm.Utils.isHiddenByDefault(attribute.id) ? false : true,
+				searchable: attribute.searchable ? true : false,
+				showinsearch: attribute.searchable ? infa.ldm.Utils.isShownByDefault(attribute.id) : false,
+				sortable: false,
+				facetable: attribute.searchable ? infa.ldm.Utils.isShownByDefault(attribute.id) : false,
+				showfacetchoice: infa.ldm.Utils.isNumericType(attribute),
+				facettype: ft,
+				editable: true,
+				custom: false
+			};
+		}
+	}, {
+		appConfig: {
+			empty: true,
+			version: 1,
+			attributes: {},
+			contributedAttributes: [],
+			excludedObjectTypes: {}
+		},
+		attributes: [],
+		types: [],
+
+		initAppConfig: function (blockElemId) {
+			var _self = this;
+			return $.backGroundAjax($.url('/extension.eic.appconfig.access'), {
+				type: 'GET'
+			}).then(function (res) {
+				if (res) {
+					_self.appConfig = res;
+					if(!res.attributes){
+						res.attributes={}
+					}
+					var ootbAttrs = infa.ldm.Utils.getOOTBAttributes();
+					for( var i=0; i < ootbAttrs.length; i++ ){
+						res.attributes[ootbAttrs[i]] = {
+							"boostvalue": "LOW",
+							"showin360": true,
+							"searchable": true,
+							"showinsearch": false,
+							"sortable": false,
+							"facetable": false,
+							"showfacetchoice": false,
+							"facettype": "multi",
+							"editable": true,
+							"custom": false
+						  } 
+					}
+					// init contributedAttributes
+					if (!_self.appConfig.contributedAttributes) {
+						_self.appConfig.contributedAttributes = [];
+					}
+				}else{
+					_self.appConfig = res = {};
+					if(!res.attributes){
+						res.attributes={}
+					}
+					if(!res.contributedAttributes){
+						res.contributedAttributes=[]
+					}
+					
+					if(!res.excludedObjectTypes){
+						res.excludedObjectTypes={};
+					}
+				}
+				var ootbAttrs = infa.ldm.Utils.getOOTBAttributes();
+				for( var i=0; i < ootbAttrs.length; i++ ){
+					res.attributes[ootbAttrs[i]] = {
+						"boostvalue": "LOW",
+						"showin360": true,
+						"searchable": true,
+						"showinsearch": false,
+						"sortable": false,
+						"facetable": false,
+						"showfacetchoice": false,
+						"facettype": "multi",
+						"editable": true,
+						"custom": false
+					  } 
+				}
+				return $.when(_self._initAttributes(blockElemId)).done(function (res) {
+					if (res !== false) {
+						var hiddenAttributes = infa.ldm.Utils.hiddenAttributes,
+							shownAttributes = infa.ldm.Utils.shownAttributes;
+
+						$.each(hiddenAttributes, function (attrId) {
+							var attribute = _self.getAttribute(attrId);
+							if (attribute && !_self.appConfig.attributes[attrId]) {
+								_self.appConfig.attributes[attrId] = infa.ldm.AppConfigData.getDefaultConfig(attribute);
+							}
+						});
+
+						$.each(shownAttributes, function (attrId) {
+							var attribute = _self.getAttribute(attrId);
+							if (attribute && !_self.appConfig.attributes[attrId]) {
+								_self.appConfig.attributes[attrId] = infa.ldm.AppConfigData.getDefaultConfig(attribute);
+							}
+						});
+
+						_self.appConfig.empty = false;
+					}
+				});
+			}).fail(function (jqXHR, textStatus, errorThrown) {
+				infaw.shell.common.Utils.showError(infa.ldm.Utils.getErrorMessage(jqXHR, textStatus, errorThrown));
+			});
+		},
+
+		_initAttributes: function (blockElemId) {
+			// get attributes and types
+
+			var self = this,
+				$defArr = [],
+				progressArr = [0, 0];	// Help keep track of each progress and update based messages based on progress in _getMetaData
+			var resBundle = infaw.ldm.appConfiguration.I18nResources;
+			var query = '/extension.eic.appconfig.metadata?type=',
+				attributesQuery = '/extension.eic.appconfig.metadata?showDerived=true&type=',
+				$defArr = [];
+			$defArr.push(this._getMetaData(query + 'classes', 500, 0, progressArr, 0));
+			$defArr.push(this._getMetaData(attributesQuery + 'attributes', 500, 0, progressArr, 1));
+			$defArr.push($.blockGetJSON(query + 'packages/com.infa.appmodels.ldm/', null, null, -1));
+			$defArr.push($.blockGetJSON(query + 'packages/com.infa.ldm.ootb.enrichments/', null, null, -1));
+
+			var progressTimer = setInterval(function () {
+				var minProgress = progressArr[0];
+				for (var i = 1; i < progressArr; i++) {
+					minProgress = Math.min(progressArr[i], minProgress);
+				}
+
+				if (minProgress > .25) {
+					if (_loginCurtain) {
+						if (minProgress > .6) {
+							//$('#' + blockElemId).data('message', "Any_nmoment_now");
+							_loginCurtain.showMsg($.getLocalizedText("infaw.ldm.appConfiguration", "label_anymoment_now"));
+						} else {
+							//$('#' + blockElemId).data('message', "ALMOST_THERE");
+							_loginCurtain.showMsg($.getLocalizedText("infaw.ldm.appConfiguration", "label_almostthere"));
+						}
+					}
+				}
+			}, 500);
+
+			var self = this;
+			return $.when.apply($, $defArr).then(function (types, attrs, packageRes, ootbPackage) {
+				packageRes = packageRes && packageRes.length > 0 ? packageRes[0] :  packageRes;
+				ootbPackage = ootbPackage && ootbPackage.length > 0 ? ootbPackage[0] : ootbPackage;
+				self.packageRes = packageRes;
+				self.ootbPackage = ootbPackage;
+				if (attrs && types) {
+					self.attributes = attrs;
+					self.types = types;
+
+					$defArr = [];
+					// We need to validate the attributes to make sure the core attributes and core datatypes are fine
+					$defArr.push(self._validateAttributes());
+
+					return $.when.apply($, $defArr).then(function (validAttrs) {
+						if (validAttrs) {
+							return self._parseAttributes(validAttrs, packageRes, ootbPackage);
+						} else {
+							infaw.shell.common.Utils.showError(infa.ldm.Utils.MSG_OOPS +
+								'<br /><p style="color:gray;">' + resBundle.error_load_data + '</p>');
+							return false;
+						}
+					});
+				} else {
+					infaw.shell.common.Utils.showError(infa.ldm.Utils.MSG_OOPS +
+						'<br /><p style="color:gray;">' + resBundle.error_load_data + '</p>');
+					return false;
+				}
+			}).always(function () {
+				clearTimeout(progressTimer);
+				if (_loginCurtain)
+					_loginCurtain.hide();
+			});
+		},
+
+		_validateAttributes: function () {
+			// Sometimes there's an error where attributes API does not contain the core attributes
+			var coreAttributes = infa.ldm.Utils.getCoreAttributes();
+			for (var i = 0; i < coreAttributes.length; i++) {
+				if (!this.getAttribute(coreAttributes[i])) {
+					var self = this;
+					return $.when(this._getMetaData('/extension.eic.appconfig.metadata?&type=attributes', 150, 0)).then(function (attrs) {
+						self.attributes = attrs;
+						self.attributeMap = null;
+						if (attrs) {
+							for (var i = 0; i < coreAttributes.length; i++) {
+								if (!self.getAttribute(coreAttributes[i])) {
+									return false;
+								}
+							}
+							return attrs;
+						}
+					});
+				}
+			}
+			return this.attributes;
+		},
+		parseAttributesFromPackage: function (packageAttributes) {
+			if(!packageAttributes){
+				return;
+			}
+			var supportedClasses = getSupportedClasses(packageAttributes.classAttributes);
+			var attributesMap = {};
+			for (var i = 0; i < packageAttributes.attributes.length; i++) {
+				var customAttribute = packageAttributes.attributes[i],
+					attrName = packageAttributes.packageName + "." + packageAttributes.attributes[i].name;
+				attributesMap[attrName] = customAttribute;
+				customAttribute["classes"] = supportedClasses[attrName];
+				customAttribute["name"] = attrName;
+				customAttribute["id"] = attrName;
+				var dataType1 = customAttribute["dataType"];
+				customAttribute["dataType"] = {id:dataType1};
+
+				if (infa.ldm.AppConfigData.isCustomName(customAttribute.name)) {
+						//find the ref class id
+					if (packageAttributes && packageAttributes.referenceAttributes) {
+							for (var j = 0; j < packageAttributes.referenceAttributes.length; j++) {
+								if (customAttribute.id.indexOf(packageAttributes.referenceAttributes[j].name) >= 0) {
+									
+									customAttribute["dataType"].id = "refDt:"+packageAttributes.referenceAttributes[j].referenceDataType;
+									var datatype = this.getDatatype(customAttribute.dataType.id);
+									if ( datatype && datatype.refClassId) {
+										customAttribute.dataType.id = datatype.refClassId;
+										customAttribute.referenceClassData = {};
+										customAttribute.referenceClassData.targetAttribute = packageAttributes.packageName+"."+packageAttributes.referenceAttributes[j].name;
+										customAttribute.referenceClassData.referenceClassId = datatype.refClassId;
+										customAttribute.referenceClassData.associationId = "core.Classification";
+										if (datatype.refClassId === "com.infa.ldm.isp.User") {
+											// user scanner
+											customAttribute.referenceClassData.associationId = packageAttributes.packageName+"."+packageAttributes.referenceAttributes[j].name;
+										}
+										customAttribute.referenceType = $.extend(true, {}, customAttribute);
+										customAttribute.referenceType.id = packageAttributes.packageName+"."+packageAttributes.referenceAttributes[j].name;
+										customAttribute.referenceType.name = packageAttributes.packageName+"."+packageAttributes.referenceAttributes[j].name;
+										customAttribute.referenceType['dataType'].id = datatype.refClassId;
+										
+									}
+									break;
+								}
+							}
+					}
+				}
+			}
+
+			//Pass the classAttributes from packages list and it will return supported classes for each custom attributes			
+			function getSupportedClasses(classAttributes) {
+				var supportedClasses = {};
+				for (var i = 0; i < classAttributes.length; i++) {
+					if (!supportedClasses[classAttributes[i].attributeName]) {
+						supportedClasses[classAttributes[i].attributeName] = [];
+					}
+					supportedClasses[classAttributes[i].attributeName].push({id:classAttributes[i].className});
+				}
+				return supportedClasses;
+			}
+			return attributesMap;
+		},
+		_parseAttributes: function (attrs, customPackage, ootbPackage) {
+			var customAttributes = this.customAttributes = [],
+				datatypeIds = [],
+				datatypeUniqueMap = {},
+				self = this;
+			this.customAttributesMap = {};
+
+			// We need to grab all the datatypes first so find out what we need to query
+			for (var i = 0; i < attrs.length; i++) {
+				if (infa.ldm.AppConfigData.isSystemReferenceAttr(attrs[i]) || infa.ldm.AppConfigData.isCustomName(attrs[i].name) || infa.ldm.AppConfigData.isIspUser(attrs[i].name)) {
+					var datatypeId = attrs[i].dataType.id;
+
+					if (!datatypeUniqueMap[datatypeId]) {
+						datatypeUniqueMap[datatypeId] = true;
+						datatypeIds.push(datatypeId);
+					}
+				}
+			}
+
+
+			return $.when(this._getDatatypes(datatypeIds)).then(function () {
+				// associate classification schemes to attributes
+				var attrInQuestion;
+				for (var i = 0; i < attrs.length; i++) {
+					if (infa.ldm.AppConfigData.isCustomName(attrs[i].name)) {
+						var refAttr = attrs[i],
+							datatype = self.getDatatype(refAttr.dataType.id);
+						if ((customPackage || ootbPackage) && datatype && datatype.refClassId) {
+							attrs.splice(i, 1);
+							i--;
+							attrInQuestion = null;
+
+							if (customPackage && customPackage.referenceAttributes) {
+								for (var j = 0; j < customPackage.referenceAttributes.length; j++) {
+									if (refAttr.id.indexOf(customPackage.referenceAttributes[j].name) >= 0) {
+										attrInQuestion = self.getAttribute(customPackage.referenceAttributes[j].attributeOverride);
+										break;
+									}
+								}
+							}
+
+							if (!attrInQuestion) {
+								if (ootbPackage.referenceAttributes) {
+									for (var j = 0; j < ootbPackage.referenceAttributes.length; j++) {
+										if (refAttr.id.indexOf(ootbPackage.referenceAttributes[j].name) >= 0) {
+											attrInQuestion = self.getAttribute(ootbPackage.referenceAttributes[j].attributeOverride);
+											break;
+										}
+									}
+								}
+							}
+
+							if (attrInQuestion) {
+								attrInQuestion.dataType.id = datatype.refClassId;
+								attrInQuestion.referenceClassData = {};
+								attrInQuestion.referenceClassData.targetAttribute = refAttr.id;
+								attrInQuestion.referenceClassData.referenceClassId = datatype.refClassId;
+
+								// TODO: need to get associationId a better way
+								attrInQuestion.referenceClassData.associationId = "core.Classification";
+								if (datatype.refClassId === "com.infa.ldm.isp.User") {
+									// user scanner
+									attrInQuestion.referenceClassData.associationId = refAttr.id;
+								}
+							}
+						} else if (infa.ldm.Utils.EIC_CUSTOM_ATTRIBUTE_BLACKLIST.indexOf(attrs[i].id) == -1) {
+							customAttributes.push(attrs[i]);
+							self.customAttributesMap[attrs[i].id] = attrs[i];
+						}
+					} else if (infa.ldm.AppConfigData.isIspUser(attrs[i].name)) {
+
+						var refAttr = attrs[i],
+							datatype = self.getDatatype(refAttr.dataType.id);
+
+						if (datatype && datatype.refClassId) {
+							attrs.splice(i, 1);
+							i--;
+						}
+					}
+				}
+			});
+		},
+
+        /**
+         * Grabs all the necessary datatypes for the application
+         */
+		_getDatatypes: function (ids) {
+			var self = this;
+			return $.when(this._getData(50000)).then(function (res) {
+				if (!res) {
+					return;
+				}
+				self.datatypeMap = {};
+				self.datatypes = res;
+
+				for (var i = 0; i < res.length; i++) {
+					self.datatypeMap[res[i].id] = res[i];
+				}
+			});
+		},
+
+		_getData: function (limit) {
+			var self = this;
+			return $.blockGetJSON('/extension.eic.appconfig.metadata?type=dataTypes&pageSize='+(limit ? limit : 1000), null, null, -1).then(function(currentResults) {
+				if(!currentResults || !currentResults.items) {
+					return;
+				}else {
+					return currentResults.items;
+				}
+			}).fail(function(jqXHR, textStatus, errorThrown) {
+				infaw.shell.common.Utils.showError(infa.ldm.Utils.getErrorMessage(jqXHR, textStatus, errorThrown));
+			});	
+		},
+
+        /**
+         * This goes in a loop and continues until it is done
+         * We need to loop because if response is bigger than 8KB we will get an error
+         * @param pagesize - size of the page of query we currently set it to be 200
+         * because each item is ~32b so total of 200 results is 6.4KB (We keep a buffer in case items have more info)
+         */
+		_getMetaData: function (query, pagesize, offset, progressArr, progressIndex) {
+			var self = this;
+
+			return $.backGroundAjax($.url(query + '&pageSize=' + pagesize + '&offset=' + offset), {
+				type: 'GET'
+			}).then(function (currentResults) {
+				if (!currentResults || !currentResults.items) {
+					return;
+				}
+
+				var newOffset = offset + pagesize;
+				if (progressArr) {
+					// Keep track of progress
+					progressArr[progressIndex] = newOffset / currentResults.totalCount;
+				}
+
+				if (currentResults.totalCount > offset + pagesize) {
+					return $.when(self._getMetaData(query, pagesize, newOffset, progressArr, progressIndex)).then(function (nextResults) {
+						if (nextResults) {
+							return currentResults.items.concat(nextResults);
+						}
+
+						return currentResults.items;
+					});
+				} else {
+					return currentResults.items;
+				}
+			});
+		},
+
+		getAppConfig: function () {
+			
+			//this.appConfig['facetOrder'] = searchConfig;
+			return this.appConfig;
+		},
+		getAppConfigAttr: function (attrName) {
+			if (this.appConfig.empty || !this.appConfig.attributes) {
+				return undefined;
+			}
+
+			return this.appConfig.attributes[attrName];
+		},
+
+		getAttributesData: function (whichdata, negative) {
+			var hits = [];
+			$.each(this.appConfig.attributes, function (index, val) {
+				if (negative && !val[whichdata]) {
+					hits.push(index);
+				} else if (!negative && val[whichdata]) {
+					hits.push(index);
+				}
+			});
+			$.each(this.appConfig.contributedAttributes, function (index, val) {
+				if (negative && !val[whichdata]) {
+					hits.push(index);
+				} else if (!negative && val[whichdata]) {
+					hits.push(index);
+				}
+			});
+			return hits;
+		},
+
+		getSearchableAttributes: function () {
+			if (this.appConfig.empty) {
+				return [];
+			}
+			return this.getAttributesData('searchable'); 
+		},
+		getFacetableAttributes: function () {
+			var hits = [];
+			$.each(this.appConfig.attributes, function (index, val) {
+				if (val['facetable']) {
+					hits.push({
+						id: index,
+						facettype: val.facettype
+					});
+				}
+			});
+			$.each(this.appConfig.contributedAttributes, function (index, val) {
+				if (val['facetable']) {
+					hits.push({
+						id: index,
+						facettype: val.facettype
+					});
+				}
+			});
+			return hits;
+		},
+
+		getSortableAttributes: function () {
+			if (this.appConfig.empty) {
+				return [];
+			}
+
+			return this.getAttributesData('sortable');
+		},
+
+		getDisplayInSearchAttributes: function () {
+			return this.getAttributesData('showinsearch');
+		},
+
+		isSkippedIn360: function (attributeId) {
+			var config = this.appConfig.attributes[attributeId];
+			if (config) {
+				if (!config.showin360) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+			return false;
+		},
+
+		getEditableAttributes: function () {
+			if (this.appConfig.empty) {
+				return [];
+			}
+
+			return this.getAttributesData('editable');
+		},
+
+		getExcludedTypes: function () {
+			if (this.appConfig.empty || !this.appConfig.excludedObjectTypes) {
+				return [];
+			}
+			return this.appConfig.excludedObjectTypes;
+		},
+
+		setAppConfig: function (newConfig) {
+			var _self = this;
+			var $deferred = $.Deferred();
+			var query = '/extension.eic.appconfig.access';
+			$.backGroundAjax($.url(query), $.toJSON(newConfig),'POST').then(function(){
+				if (!res) {
+					return;
+				}
+				_self.appConfig = newConfig;
+
+				$deferred.resolve();
+			}).fail(function(){
+				infaw.shell.common.Utils.showError(infa.ldm.Utils.getErrorMessage(jqXHR, textStatus, errorThrown));
+				$deferred.resolve();
+			});
+			return $deferred.promise();
+		},
+
+		getAttributes: function () {
+			return this.attributes;
+		},
+
+		getAttributeMap: function () {
+			if (!this.attributeMap) {
+				this.attributeMap = {};
+
+				if (this.attributes) {
+
+					for (var index = 0; index < this.attributes.length; index++) {
+						if (this.attributes[index].id.indexOf("com.infa.ldm.profiling") > -1 && this.attributes[index].attributeOverride && this.attributes[index].attributeOverride != "") {
+							this.attributeMap[this.attributes[index].attributeOverride] = this.attributes[index];
+						}
+						this.attributeMap[this.attributes[index].name] = this.attributes[index];
+					}
+				}
+			}
+			return this.attributeMap;
+		},
+
+		getAttribute: function (attrId) {
+			return this.getAttributeMap()[attrId];
+		},
+
+		getDatatypes: function () {
+			return this.datatypes;
+		},
+
+		getDatatypeMap: function () {
+			if (!this.datatypeMap) {
+				this.datatypeMap = {};
+			}
+			return this.datatypeMap;
+		},
+
+		getDatatype: function (id) {
+			return this.getDatatypeMap()[id];
+		},
+
+		getTypes: function () {
+			return this.types;
+		},
+
+		getTypeMap: function () {
+			if (!this.typeMap) {
+				this.typeMap = {};
+
+				if (this.types) {
+					for (var index = 0; index < this.types.length; index++) {
+						var typeObj = this.types[index]
+						this.typeMap[typeObj.id] = typeObj;
+
+						if (!this.packages) {
+							this.packages = {}
+						}
+
+						if (this.packages[typeObj.packageName]) {
+							this.packages[typeObj.packageName].push(typeObj.id);
+						} else {
+							this.packages[typeObj.packageName] = [typeObj.id];
+						}
+					}
+				}
+
+			}
+			return this.typeMap;
+		},
+
+		getType: function (typeId) {
+			return this.getTypeMap()[typeId];
+		},
+		getCustomAttributes: function () {
+			return this.customAttributes ? this.customAttributes:[];
+		},
+		getCustomAttributes_fresh: function () {
+			this.customAttributes ? "" : this.customAttributes = [];
+			this.customAttributesMap ? "" : this.customAttributesMap = {};
+			var $defArr = [],
+				query = '/extension.eic.appconfig.metadata?type=',
+				self = this,
+				progressArr = [0, 0];
+			$defArr.push($.blockGetJSON(query + 'packages/com.infa.appmodels.ldm/', null, null, -1));
+			$defArr.push($.blockGetJSON(query + 'packages/com.infa.ldm.ootb.enrichments/', null, null, -1));
+
+			return $.when.apply($, $defArr).then(function (customPackage, ootbPackage) {
+				self.parseAttributesFromPackage(customPackage[0]);
+				self.parseAttributesFromPackage(ootbPackage[0]);
+				var attributes = customPackage[0] ? customPackage[0].attributes:[],
+					attributes = ootbPackage[0] ? attributes.concat(ootbPackage[0].attributes):attributes;
+				newAttributes = [];
+
+				for ( var i = 0; i < attributes.length; i++ ) {
+					var id = attributes[i].id;
+					
+					if (!self.getAttributeMap()[id] && !attributes[i].deprecated) {
+						attributes[i].custom = true;
+						//add deriverd attribute and actual attribute
+						self.attributes.push(attributes[i]);
+						self.attributeMap[id] = attributes[i];
+						self.customAttributes.push(attributes[i]);
+						self.customAttributesMap[id]= attributes[i];						
+						attributes[i].appliesTo = [];
+						if (attributes[i].classes) {
+							$.each(attributes[i].classes, function(index, value) {
+								var currentType = value;
+								
+								if (!self._typeToCustomIds) {
+									self.makeTypeToCustomIds();
+								}
+								if (!self._typeToCustomIds[currentType.id]) {
+									self._typeToCustomIds[currentType.id] = [];
+								}
+								if( self._typeToCustomIds[currentType.id].indexOf(attributes[i].id) == -1)
+									self._typeToCustomIds[currentType.id].push(attributes[i].id);
+								attributes[i].appliesTo.push(infa.ldm.AppConfigData.instance().getLabel(value.id));
+							});
+						}
+						if(attributes[i].referenceType){
+							attributes[i].referenceType.appliesTo = attributes[i].appliesTo;
+							self.attributes.push( attributes[i].referenceType );
+							self.attributeMap[attributes[i].referenceType.id] = attributes[i].referenceType;
+						}
+
+					}else if(attributes[i].deprecated){
+						//Remove the deprecated custom attribute 
+						if (attributes[i].classes) {
+							$.each(attributes[i].classes, function(index, value) {
+								var currentType = value;
+								
+								if (self._typeToCustomIds) {
+									
+									if (!self._typeToCustomIds[currentType.id]) {
+										return;
+									}
+									var index = self._typeToCustomIds[currentType.id].indexOf(attributes[i].id);
+									if( index != -1)
+										self._typeToCustomIds[currentType.id].splice(index,1);
+								}
+							});
+						}
+						var attId = attributes[i].id ?  attributes[i].id: "com.infa.appmodels.ldm."+attributes[i].name;
+						self.removeAttribute(self.attributes,attId);
+						self.removeAttribute(self.customAttributes,attId);
+						delete self.attributeMap[attId];
+						delete self.customAttributesMap[attId];
+					}
+				}
+				return self.customAttributes;
+			});
+
+		},
+		removeAttribute: function(attributes, id){
+			for(var i=0;i<attributes.length;i++){
+				if(attributes[i].id == id){
+					attributes.splice(i,1);
+					return;
+				}
+			}
+		},
+		makeTypeToCustomIds: function(){
+			var attributes = this.customAttributes ? this.customAttributes : [],
+			typeToCustomIds = this._typeToCustomIds = {};
+			
+			for (var i = 0; i < attributes.length; i++) {
+				if (attributes[i].classes) {
+					for (var j = 0; j < attributes[i].classes.length; j++) {
+						var currentType = attributes[i].classes[j];
+						
+						if (!typeToCustomIds[currentType.id]) {
+							typeToCustomIds[currentType.id] = [];
+						}
+						typeToCustomIds[currentType.id].push(attributes[i].id);
+					}
+				}
+			}
+			
+		},
+		/**
+		 * Get all custom attributes id from the specified type
+		 */
+		getTypeAttributes: function (typeId) {
+			if (!this._typeToCustomIds) {
+				this.makeTypeToCustomIds();
+			}
+
+			if (this._typeToCustomIds[typeId]) {
+				var attributeMap = this.appConfig.attributes,
+					customIds = _.union(this._typeToCustomIds[typeId], this._typeToCustomIds["core.IClass"]);
+				return customIds.filter(function (val) { return attributeMap[val] });
+			} else {
+				return this._typeToCustomIds["core.IClass"] || [];
+			}
+		},
+
+		getLabel: function (fullName) {
+			if (fullName) {
+				var obj = this.getAttribute(fullName);
+				if (obj) {
+					return $.infa.Formats.escapeComprehensive(obj.label ? obj.label : fullName);
+				}
+				obj = this.getType(fullName);
+				if (obj) {
+					return $.infa.Formats.escapeComprehensive(obj.label ? obj.label : fullName);
+				}
+
+				return infa.ldm.Utils.unCamelize(infa.ldm.Utils.getModeledName(fullName));
+			}
+		},
+
+		getObjectDetails: function (classType) {
+			if (classType) {
+				var obj = this.getAttribute(classType);
+				if (!obj) {
+					obj = this.getType(classType);
+					if (obj) {
+						name = obj.name ? obj.name : fullName;
+					}
+				}
+				return obj;
+			}
+		},
+		getTypesByPackage: function (packageName) {
+			this.getTypeMap();
+			var types = this.packages[packageName];
+			return types || [];
+		}
+	}
+);

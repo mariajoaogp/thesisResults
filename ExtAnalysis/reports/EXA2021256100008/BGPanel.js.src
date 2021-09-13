@@ -1,0 +1,189 @@
+infaw.extension.ldm.threeSixty.abstractPanel.extend('infaw.eic.BGPanel', {
+	init: function(blockElementId, instanceId) {
+		this._super(blockElementId, instanceId);
+	},
+	getLinkObjects: function(links,extraParams) {
+		var defered = $.Deferred();
+		var linksList = [];
+		var deferedObjects = [];
+		var linksLength = links.length;
+		
+		if(linksLength == 0){
+			defered.resolve([]);
+		}else {
+			var searchQuery = "/extension.eic.search.search?",
+				queryParam = "q="+RISON.urlencode("(\""+links.join("\" \"")+"\")");
+			
+			queryParam+="&qf=id&fl=id&pageSize="+(links.length+1)+"&fl=core.name,core.classType";
+			searchQuery+=queryParam;
+			searchQuery = extraParams ? searchQuery+","+extraParams:searchQuery;
+			$.blockGetJSON(searchQuery).then(function(res) {
+				if(res && res.items.length > 0) {
+					res.items.forEach(function(item) {
+						var linkObject = new infaw.ldm.SearchObject(item);
+						linksList.push(linkObject);
+					});
+				}
+				defered.resolve(linksList);
+			}).fail(function() {
+				defered.reject();
+			});
+		}
+		return defered.promise();
+	},
+	appendObjectsHtm : function(object,parentArray,panelId) {
+		var propsDiv = $('<div style="height:20px">');
+		var catalogObject = $('<span class="bgObject-key-style ldmValueLink marginBottom8 textElipsisStyle" ><a title="'+object.getObjectName()+'"> <img class="ldmSearch-icon" src=""/>'+object.getObjectName()+'</a></span>');
+		catalogObject.bind('click',function(event){
+				object.open();
+			});
+		object.getIcon().done(function(url){
+			catalogObject.find('img.ldmSearch-icon').attr('src',$.url("/"+url));
+		})
+			
+		var parentObjects = $('<span class=" bgObjectsValuestyle marginBottom8 textElipsisStyle">'),
+		names = "";
+		parentArray.forEach(function(parent,index) {
+			var parentHtm=null;
+			if(index == parentArray.length-1){
+				parentHtm = $('<a class="ldmValueLink">'+parent.getObjectName()+'</a>');
+				names+=parent.getObjectName();
+			}else{
+				names+=parent.getObjectName()+'/';
+				parentHtm = $('<a class="ldmValueLink">'+parent.getObjectName()+'&nbsp;/&nbsp;'+'</a>');
+			}
+			parentObjects.append(parentHtm);
+			parentHtm.bind('click',function(){
+				parent.open();
+			});
+		});
+		parentObjects.attr('title',names);
+		propsDiv.append(catalogObject);
+		propsDiv.append(parentObjects);
+		$('#'+panelId).append($('<br>'));
+		$('#'+panelId).append(propsDiv);
+	},
+	getParentInfo: function(parentObj,objectInfo) {
+		var query = '/extension.eic.getSchema',
+		objectId = null,
+		filter = 'core.name,id',
+		defered = $.Deferred(),
+		srcObjs = parentObj.parentObjectsType == "sourceObjects" ? objectInfo.getSrcObjects():objectInfo.getDestObjects();
+		if(srcObjs) {
+			for(var i=0; i < srcObjs.length; i++) {
+				var srcObj = srcObjs[i];
+				if(srcObj.association == parentObj.association) {
+					objectId = srcObj.id;
+					break;
+				}
+			}
+		}
+		var queryString = '(core.classType:'+parentObj.parentClassType+')AND(id:\"'+objectId+'\")';
+		query += '?q='+ RISON.urlencode( queryString )+'&filter='+RISON.urlencode(filter);
+		$.ajax({
+	        url: $.url(query),
+	        contentType: "application/octet-stream; charset=utf-8",
+	        type: 'GET'
+	    }).then(function(reponse) {
+			var value = reponse.items[0] ? reponse.items[0].values[0].value:null;
+			defered.resolve(value);
+		});
+		return defered.promise();
+	},
+	addBgPanelHeader: function(name1,name2,panelId) {
+		var h = [];
+		h.push('<div class="bgHeaderBorder">');
+		h.push('<span class="bgObject-key-style bgObject-text-style">'+name1+'</span>');
+		h.push('<span class="bgObjectsValuestyle bgObject-text-style">'+name2+'</span>');
+		h.push('</div>');
+		$('#'+panelId).append(h.join(''));
+	},
+	createAccordionContent:function(object){
+		var h=[];
+		h.push('<div class="bgAccordionCntr">');
+		h.push('<div class="bgAccordionTitle" >'+object.name+'</div>');
+		if(object.helpText)
+			h.push("<div class='bgHelpIcon' tooltip='"+object.helpText+"' ><img src='"+$.url('/res/img/360/help.svg')+"'/></div>");
+		h.push('</div>');
+		h.push('<div class="bgAccordionContent" id="'+object.contentId+'">');
+		h.push('</div>');
+		return h;
+	},
+	searchWithObjectQuery: function(ids) {
+		var query = '/extension.eic.360.fetch?',
+		url = "",
+		defered = $.Deferred(),
+		linksList = [];
+		if( ids.length == 0 ){
+			return defered.resolve([]);
+		}else{
+			for (var i = 0; i < ids.length; i++) {
+				if(i==ids.length-1){
+					url= url+ RISON.urlencode(ids[i])+"&"; 
+				}else{
+					url= url+ RISON.urlencode(ids[i]) + "&id=";
+				}
+			};
+			url += 'links=NONE';
+			query += url+"&pageSize="+(ids.length+1);
+			return $.blockGetJSON(query).then(function(res) {
+				if(res && res.items.length > 0) {
+					res.items.forEach(function(item) {
+						var linkObject = new infaw.extension.EICObject(item.id,item);
+						linksList.push(linkObject);
+					});
+				}
+				return defered.resolve(linksList);
+			});
+		}
+		return defered.promise();
+	},
+	getRelatedAssetsInfo : function(objects) {
+		var generalProps = {},
+		responseObject={},
+		resBundle = infaw.ldm.threeSixty.I18nResources,
+		objectsIds=[];
+		for(var i=0;i<objects.length;i++){
+			switch ( objects[i].association ){
+				case infa.ldm.Utils.TERM_TERM_ASSOCIATION:
+				case "com.infa.ldm.bg.BGTermPolicyRelationship":
+				case "com.infa.ldm.bg.BGPolicyTermRelationship":
+				case 'com.infa.ldm.bg.BGTermCategoryRelationship':
+				case 'com.infa.ldm.bg.BGPolicyCategoryRelationship':
+				case 'com.infa.ldm.axon.AxonGlossaryRelationship':
+					if( objects[i].linkProperties ){
+						objects[i].linkProperties.forEach(function(property) {
+							if(!generalProps[objects[i].id]){
+								generalProps[objects[i].id] = [];
+							}
+							if( property.value == "calculatedFrom" ){
+								generalProps[objects[i].id].push( resBundle.calculated_from );
+							}else if( property.value == "see_also" ){
+								generalProps[objects[i].id].push( resBundle.see_also );
+							}else if( property.value== "not_same_as" ){
+								generalProps[objects[i].id].push(resBundle.not_same_as );
+							}else if( property.value== "parent" ){
+								generalProps[objects[i].id].push( resBundle.parent );
+							}else if( property.value== "contains" ){
+								generalProps[objects[i].id].push( resBundle.contains );
+							}else if( property.value == "related" ){
+								generalProps[objects[i].id].push( resBundle.related );
+							}else if( property.value == "governed By" ){
+								generalProps[objects[i].id].push( resBundle.label_governedBy );
+							}else if( property.value == "governs" ){
+								generalProps[objects[i].id].push( resBundle.label_governs);
+							}else{
+								generalProps[objects[i].id].push( property.value );
+							}
+						} );
+					}
+					if ( objectsIds.indexOf(objects[i].id) == -1){
+						objectsIds.push(objects[i].id);
+					}	
+			}
+		}
+		responseObject["relationships"]=generalProps;
+		responseObject["ids"] = objectsIds;
+		return responseObject
+	}
+});

@@ -1,0 +1,788 @@
+infaw.eic.BGPanel.extend('infaw.extension.eic.threeSixty.BGDetailsPanel', {}, {
+
+    setTitle: function (cntr) {
+        cntr.append("<img class='svg' src='" + chrome.extension.getURL("res/images/relationship.svg") + "'><span>Relationships</span>");
+        $.renderSVG();
+    },
+
+    setPanelContent: function (panelCntr) {
+        var panelId = panelCntr.parents(".extensionContainerPanel").attr('id');
+        panelCntr.attr('parent', 'cntr').addClass('thin-scroll')
+        panelCntr.parent().find(".panel-heading").attr('id', panelId + "_relationship");
+        var section = $("<div></div>").addClass("EICSectionContent").appendTo(panelCntr);
+        var objectData = this.getObjectInfo();
+        infaw.ldm.threeSixty.I18nResources = {
+            "label_showall": "Show All",
+            "asset_name": "Asset Name",
+            "label_path": "Path",
+            "label_synonymns": "Synonyms",
+            "label_views": "Views",
+            "label_view_columns": "View Columns",
+            "label_columns": "Columns",
+            "label_data_domains_group": "Data Domain Group",
+            "label_users": "Users",
+            "label_RCO": "Related Technical Assets",
+            "label_RGO": "Related Glossary Assets",
+            "calculated_from": "Calculated from",
+            "see_also": "See Also",
+            "not_same_as": "Not Same As",
+            "label_Related_Glossaries": "Related Glossaries",
+            "label_glossary_assets": "Glossary Assets",
+            "label_Classified_Assets": "Classified Assets",
+            "contains": "Contains",
+            "label_no_objects": "No objects",
+            "relations_label_name": "Relationship Types",
+            "custom_label_name": "Relationship Type", "label_other_assets": "Other Assets",
+            "parent": "Parent",
+            "label_governedBy": "Governed by",
+            "label_governs": "Governs",
+            "related": "Related"
+        }
+        this.setScroll(panelCntr);
+        this.updateUI(objectData, null, section);
+
+    },
+
+    updateUI: function (objectInfo, viewConfigOption, container) {
+        var self = this,
+            resBundle = infaw.ldm.threeSixty.I18nResources;
+        container.addClass('bgDetailPortlet');
+        var config = [];
+
+        if (objectInfo.getObjectType() == infa.ldm.Utils.AXON_GLOSSARY) {
+            var headerLabel = resBundle.label_Related_Glossaries;
+        }
+        else {
+            var headerLabel = resBundle.label_RGO;
+        }
+        config.push({
+            header: headerLabel,
+            helpText: resBundle.bg_help_msg_rga,
+            getData: function () {
+                var deferred = $.Deferred();
+                self.getRGO(objectInfo).done(function (rgo) {
+                    deferred.resolve(rgo);
+                });
+                return deferred.promise();
+            }
+        });
+        if (objectInfo.getObjectType() == infa.ldm.Utils.BG_TERM || objectInfo.getObjectType() == infa.ldm.Utils.BG_CATEGORY || objectInfo.getObjectType() == infa.ldm.Utils.AXON_GLOSSARY) {
+            config.push({
+                header: resBundle.label_Classified_Assets,
+                helpText: resBundle.bg_help_msg_classified,
+                getData: function () {
+                    var deferred = $.Deferred();
+                    self.getRelatedClassifiedObjects(objectInfo).done(function (classifiedObjects) {
+                        deferred.resolve(classifiedObjects);
+                    });
+                    return deferred.promise();
+                }
+            });
+        }
+        if (objectInfo.getObjectType() == infa.ldm.Utils.BG_TERM || objectInfo.getObjectType() == infa.ldm.Utils.AXON_GLOSSARY) {
+            config.push({
+                header: resBundle.label_RCO,
+                helpText: resBundle.bg_help_msg_rta,
+                getData: function () {
+                    var deferred = $.Deferred();
+                    self.getRCO(objectInfo).done(function (rco) {
+                        deferred.resolve(rco);
+                    });
+                    return deferred.promise();
+                }
+            });
+        }
+        //removing other assets
+        /*  if(objectInfo.getObjectType() == infa.ldm.Utils.BG_TERM){
+             config.push({
+                 header : resBundle.label_other_assets,
+                 helpText: resBundle.bg_help_msg_ora,
+                 getData : function() {
+                     var deferred = $.Deferred();
+                     self.getAssetLinks(objectInfo).done(function(assetLinks) {
+                         if(assetLinks.length>0){
+                             assetLinks.splice(0,0,{"type":"assetLink"});
+                         }
+                         deferred.resolve(assetLinks);
+                     });
+                     return deferred.promise();
+                 }
+             });
+         } */
+        if (objectInfo.getObjectType() == infa.ldm.Utils.AXON_GLOSSARY) {
+            config.push({
+                header: resBundle.contains,
+                helpText: resBundle.bg_help_msg_ora,
+                getData: function () {
+                    var deferred = $.Deferred();
+                    self.getChildLinks(objectInfo).done(function (childLinks) {
+                        deferred.resolve(childLinks);
+                    });
+                    return deferred.promise();
+                }
+            });
+        }
+
+        for (var i = 0; i < config.length; i++) {
+            this.addDetailSection(config[i], container);
+        }
+    },
+
+    /*getRowDetails : function(object, parentList) {
+        var path = "";
+        if(parentList && parentList.length > 0) {
+            path = parentList.map(function(parent) { return parent.getObjectName(); }).join("/");
+        }
+        return {
+            id : object.getId(),
+            name : object.getObjectName(),
+            icon : $.url(object.getIcon()),
+            path : path
+        };
+    },*/
+
+    getListDetails: function (ids, response) {
+        var self = this,
+            objectsInfo = response.objectsInfo,
+            parentsInfo = response.parentsInfo,
+            list = [];
+        $.each(ids, function (index, id) {
+            var parentArray = parentsInfo[id],
+                obj = objectsInfo[id];
+            list.push({
+                object: obj,
+                parentList: parentArray
+            });
+        });
+
+        return list;
+    },
+
+    getRGO: function (objectInfo) {
+        var deferred = $.Deferred(),
+            self = this,
+            assIds = [],
+            relationships = [
+                'com.infa.ldm.bg.BGGlossaryTerm',
+                'com.infa.ldm.bg.BGGlossaryCategory',
+                'com.infa.ldm.bg.BGGlossaryPolicy',
+                'com.infa.ldm.axon.AxonGlossaryParentChildRelationship'
+            ];
+
+        var associations = [];
+        var classtype = objectInfo.getFact('core.classType')
+        var associations = [];
+        if (classtype == "com.infa.ldm.bg.BGTerm" || classtype == "com.infa.ldm.bg.BGPolicy" || classtype == "com.infa.ldm.axon.AxonGlossary")
+            associations = associations.concat(objectInfo.getDestObjects());
+        else {
+            associations = associations.concat(objectInfo.getDestObjects());
+            associations = associations.concat(objectInfo.getSrcObjects());
+        }
+        var responseObject = this.getRelatedAssetsInfo(associations);
+        this.associationTypes = responseObject["relationships"];
+        assIds = responseObject.ids;
+        if (assIds.length > 0) {
+            infaw.ldm.RelationShipUtil.getInstance().getParents(assIds, null, relationships).done(function (response) {
+                deferred.resolve(self.getListDetails(assIds, response));
+            });
+        } else {
+            deferred.resolve([]);
+        }
+
+        return deferred.promise();
+    },
+    getRelatedClassifiedObjects: function (objectInfo) {
+        var deferred = $.Deferred(),
+            self = this,
+            associations = [],
+            assIds = [];
+        var classifierId;
+        var classifierObject;
+        var srcObjects = objectInfo.getSrcObjects();
+        self.customIdValueMap = {};
+        $.each(srcObjects, function (i, item) {
+            if (item.association == "com.infa.ldm.bg.BGClassifierTermRelationship" || item.association == "com.infa.ldm.bg.BGClassifierCategoryRelationship"
+                || item.association == "com.infa.ldm.axon.AxonClassifierGlossaryRelationship") {
+                classifierId = item.id;
+                return;
+            }
+        });
+        if (!classifierId) {
+            return deferred.resolve([]);
+        }
+        $.when(infa.ldm.Utils.fetchObject(classifierId)).then(function (res) {
+            var linkObject = new infaw.extension.EICObject(res.id, res.items[0]);
+            var destObjs = linkObject.getDestObjects();
+            $.each(destObjs, function (i, item) {
+                if (item.association == "core.Classification") {
+                    var id = item.id;
+                    var custom_value = item.linkProperties[0].value;
+                    if (!self.customIdValueMap[id]) {
+                        self.customIdValueMap[id] = [];
+                    }
+                    self.customIdValueMap[id].push(custom_value);
+                    return;
+                }
+            });
+            associations = associations.concat(linkObject.getFilteredDestIds({ 'core.Classification': 'core.Classification' }));
+            assIds = associations;
+            if (assIds.length > 0) {
+                let totalCount = assIds.length;
+                infaw.ldm.RelationShipUtil.getInstance().getParents(assIds).done(function (response) {
+                    let list = [];
+                    list = self.getListDetails(assIds, response);
+                    list.push(totalCount);
+                    return deferred.resolve(list);
+                });
+            } else {
+                let body = {
+                    "path": `/2/catalog/data/search?relatedId=${classifierId}&includeRefObjects=true`,
+                    "method": "GET"
+                };
+                let data = JSON.stringify(body);
+                $.backGroundAjax($.url("/ldmProxyServlet"), data, 'POST').then(function (response) {
+                    data = JSON.parse(response.data);
+                    let totalCount = data['metadata']['totalCount'];
+                    if (data.hits && data.hits.length > 0) {
+                        data.hits = data.hits.sort((a, b) => a.id < b.id ? -1 : (a.id > b.id ? 1 : 0));
+                        data.hits = data.hits.filter(hit => {
+                            if (!_.isEmpty(hit.subHits)) {
+                                return hit.subHits[0].associations.indexOf('core.Classification') !== -1;
+                            }
+                            return false;
+                        });
+                        assIds = _.uniq(data.hits, function (x) {
+                            return x.id;
+                        });
+                        uniqueAssIds = [];
+                        $.each(assIds, function (i, el) {
+                            if (uniqueAssIds.indexOf(el.id) === -1) uniqueAssIds.push(el.id);
+                        });
+                        if (uniqueAssIds.length > 0) {
+                            uniqueAssIds.forEach(uniId => {
+                                if (!self.customIdValueMap[uniId])
+                                    self.customIdValueMap[uniId] = [];
+                                const hit = data.hits.filter(hit => hit.id === uniId);
+                                if (!_.isEmpty(hit)) {
+                                    var val = hit[0].values.filter(value => value.attributeId === 'core.classType');
+                                    if (!_.isEmpty(val))
+                                        self.customIdValueMap[uniId].push(val[0].value);
+                                }
+                            });
+                            infaw.ldm.RelationShipUtil.getInstance().getParents(uniqueAssIds).done(function (response) {
+                                let list = [];
+                                list = self.getListDetails(uniqueAssIds, response);
+                                list.push(totalCount);
+                                return deferred.resolve(list);
+                            });
+                        } else {
+                            return deferred.resolve([]);
+                        }
+                    }
+                    else {
+                        return deferred.resolve([]);
+                    }
+                });
+            }
+        });
+        return deferred.promise();
+    },
+    getChildLinks: function (objectInfo) {
+        var deferred = $.Deferred(),
+            self = this,
+            catalogObjectIds = objectInfo.getFilteredDestIds({ "com.infa.ldm.axon.AxonGlossaryParentChildRelationship": "com.infa.ldm.axon.AxonGlossaryParentChildRelationship" });
+
+        if (catalogObjectIds.length > 0) {
+            infaw.ldm.RelationShipUtil.getInstance().getParents(catalogObjectIds).done(function (response) {
+                deferred.resolve(self.getListDetails(catalogObjectIds, response));
+            });
+        } else {
+            deferred.resolve([]);
+        }
+
+        return deferred.promise();
+    },
+    getRCO: function (objectInfo) {
+        var deferred = $.Deferred(),
+            self = this,
+            catalogObjectIds = objectInfo.getFilteredDestIds({ 'com.infa.ldm.bg.associatedTerms': 'com.infa.ldm.bg.associatedTerms', "com.infa.ldm.axon.associatedGlossaries": "com.infa.ldm.axon.associatedGlossaries" });
+        if (catalogObjectIds.length > 0) {
+            infaw.ldm.RelationShipUtil.getInstance().getParents(catalogObjectIds).done(function (response) {
+                deferred.resolve(self.getListDetails(catalogObjectIds, response));
+            });
+        } else {
+            var id = objectInfo.getId();
+            let body = {
+                "path": `/2/catalog/data/search?relatedId=${id}&includeRefObjects=true`,
+                "method": "GET"
+            };
+            let data = JSON.stringify(body);
+            $.backGroundAjax($.url("/ldmProxyServlet"), data, 'POST').then(function (response) {
+                data = JSON.parse(response.data);
+                let objectIds = []
+                if (data.hits && data.hits.length > 0) {
+                    for (let i = 0; i < data.hits.length; i++) {
+                        if (!_.isEmpty(data.hits[i].values)) {
+                            let classType = _.findWhere(data.hits[i].values, { attributeId: "core.classType" });
+                            if (!_.isEmpty(classType) && _.has(classType, 'value')) {
+                                if (!self.isBusinessType(classType.value))
+                                    objectIds.push(data.hits[i].id);
+                            }
+                        }
+                    }
+                }
+
+                if (objectIds.length > 0) {
+                    infaw.ldm.RelationShipUtil.getInstance().getParents(objectIds).done(function (response) {
+                        return deferred.resolve(self.getListDetails(objectIds, response));
+                    });
+                } else {
+                    deferred.resolve([]);
+                }
+
+            })
+        }
+        return deferred.promise();
+    },
+    getAssetLinks: function (objectInfo) {
+        var deferred = $.Deferred(),
+            self = this,
+            catalogObjectIds = objectInfo.getFilteredDestIds({ 'com.infa.ldm.bg.BGTermAssetLinks': 'com.infa.ldm.bg.BGTermAssetLinks' });
+
+        return this.searchWithObjectQuery(catalogObjectIds);
+    },
+    addDetailSection: function (config, container) {
+
+        var self = this,
+            maxcount = 5,
+            section = $("<div></div>").addClass("bgDetailSection").appendTo(container),
+            resBundle = infaw.ldm.threeSixty.I18nResources,
+            header = $("<div class='line header'>" +
+                "<div class='name' ><span title='" + config.header + "' >" + config.header + "&nbsp;</span></div>" +
+                "</div>")
+                .appendTo(section),
+            content = $("<div></div>").prop('id', $.htmlId('content')).addClass("content")
+                .appendTo(section);
+
+        //$.blockElem(content.prop('id'));
+
+        if (config.helpText) {
+            var helpEl = $("<div><img src='" + $.url('/res/img/360/help.svg') + "'/></div>")
+                .addClass('bgHelpIcon')
+                .appendTo(header);
+
+            infa.ldm.Utils.showHelpTooltip({
+                targetEl: helpEl,
+                helpText: config.helpText
+            });
+        }
+        config.getData().done(function (list) {
+            // $.unblockElem(content.prop('id'));
+            let totalCount;
+            if (list.length > 0) {
+                if (config.header == "Classified Assets") {
+                    totalCount = list[list.length - 1];
+                    list.pop();
+                } else
+                    totalCount = list.length;
+                $("<span class='count' >( " + totalCount + " )</span>").appendTo(header.find(".name"));
+                if (list.length > maxcount) {
+                    $('<div class="show-more"><a class="eic-link openNewWindowIcon"' +
+                        'data-view = "ldm.ThreeSixtyView" data-id="' + self.getObjectInfo().getId() + '" data-type = "' + self.getObjectInfo().getObjectType() + '">' + resBundle.label_showall + '</a></div>').appendTo(header);
+                }
+
+                if (list[0].type && list[0].type == "assetLink") {
+                    header.find('.count').html('(' + (list.length - 1) + ')');
+                    self.getAssetLinkTemplate(list, list.length > maxcount + 1 ? maxcount + 1 : list.length, content);
+                } else {
+                    if (config.header == "Classified Assets") {
+                        self.getListTemplate(list, list.length > maxcount ? maxcount : list.length, content);
+                    } else {
+                        if (config.header == "Related Glossary Assets" || config.header == "Related Glossaries")
+                            self.getListTemplateForOtherAssets(list, list.length > maxcount ? maxcount : list.length, content, true, false);
+                        else if (config.header == "Contains")
+                            self.getListTemplateForOtherAssets(list, list.length > maxcount ? maxcount : list.length, content, false, false);
+                        else
+                            self.getListTemplateForOtherAssets(list, list.length > maxcount ? maxcount : list.length, content);
+                    }
+                }
+
+            } else {
+                $("<div></div>").html(resBundle.label_no_objects).addClass("line noData").appendTo(content);
+            }
+        });
+    },
+    getAssetLinkTemplate: function (list, maxCount, content, showResName) {
+        $.each(list, function (j, item) {
+            if (j < maxCount && j != 0) {
+                var h = [],
+                    icon = $.url('/res/img/core/new_window.svg'),
+                    name = $.infa.Formats.escapeComprehensive(item.getFact('com.infa.ldm.bg.assetName')),
+                    url = item.getFact(infa.ldm.Utils.ANALYST_URL_FACT);
+                h.push("<div class='line'>");
+                //h.push("<div class='cell name' > <img src='"+icon+"' /> <span class='obj eic-link' title='"+name+"' ><a target='_blank' href='"+url+"'>"+name+"</a></span> </div>");
+                h.push('<div class="assetLink name" > <img src="' + icon + '" /> <span class="obj eic-link eic-link" title="' + name + '" ><a target="_blank" href="' + url + '">' + name + '</a></span> </div>');
+                //  h.push("<div class='cell path textElipsisStyle' ></div>");
+                h.push("</div>");
+
+
+                var rowEl = content.append(h.join("")).on('click', '.obj.eic-link', function () {
+                    content.trigger('closeDialog');
+                });
+
+                rowEl.find('.eic-link').data("objectInfo", { "id": item.getId(), "type": item.getObjectType() });
+            }
+        });
+    },
+    getListTemplateForOtherAssets: function (list, maxCount, content, showRelationShipName, showPath) {
+        var that = this;
+        var header = [];
+        var resBundle = infaw.ldm.threeSixty.I18nResources;
+        var cntr = $("<div>").addClass("bgDetailSection dialog").appendTo(content);
+        header.push("<div class='line gridHeader'>")
+        header.push("<div class='cell' >" + resBundle.asset_name + "</div>")
+        //"<div class='cell' >"+resBundle.label_resource_name+"</div>"+
+        //  if(showPath==true)
+        //    header.push("<div class='cell path' >"+resBundle.label_path+"</div>")
+        //"</div>")
+        //appendTo(cntr);
+        if (showRelationShipName == true) {
+            header.push("<div class='cell customLabel'>" + resBundle.relations_label_name + "</div>")
+        }
+        header.push("</div>");
+        $(header.join(""))
+            .appendTo(cntr);
+
+        $.each(list, function (j, item) {
+            if (j < maxCount) {
+                var h = [],
+                    parentList = $.extend(true, [], item.parentList),
+                    relationshipNames = that.associationTypes[item.object.id],
+                    name = $.infa.Formats.escapeComprehensive(item.object.getObjectName());
+                parentList.reverse();
+                //relationshipNames=['paren','see'];
+                h.push("<div class='line'>");
+                h.push("<div class='cell name' > <img src=''/> <span class='obj eic-link' title='" + name + "' >" + name + "</span> </div>");
+                //if(showResName === true && parentList.length > 0) {
+                //  h.push("<div class='cell resName' >"+parentList[0].getObjectName()+"</div>");
+                //}
+                if (showRelationShipName == true) {
+                    //h.push("<div class='cell path textElipsisStyle ' ></div>");
+                    h.push("<div class='cell relationShips' ></div>");
+                }
+                else {
+                    // h.push("<div class='cell path textElipsisStyle' style='width:70%'></div>");  
+                }
+                h.push("</div>");
+
+                var rowEl = $(h.join(""))
+                    .appendTo(content);
+                rowEl.find('.eic-link').data("objectInfo", { "id": item.object.getId(), "type": item.object.getObjectType() });
+                item.object.getIcon().done(function (url) {
+                    rowEl.find('.cell.name img').attr('src', $.url("/" + url));
+                });
+                if (relationshipNames != undefined) {
+                    var moreCount = relationshipNames.length - 2;
+                    if (moreCount > 0)
+                        var moreLabel = "+ " + moreCount + " " + resBundle.label_more1;
+                    var allRelationShips = "",
+                        list = rowEl.find(".relationShips");
+
+                    $.each(relationshipNames, function (j, name) {
+                        if (j == 0) {
+                            $("<span>" + name + "</span>").appendTo(list)
+                        }
+                        else if (j == 1) {
+                            $("<span>, " + name + "</span>").appendTo(list);
+                        }
+                        else {
+                            $("<span>,...&nbsp;</span>").appendTo(list)
+                            $('<span class="eic-link relationShowall" style="float:none">' + moreLabel + '</span>').appendTo(list);
+                            return false;
+                        }
+                    });
+
+                    list.find('.relationShowall').on('click', function () {
+                        that.showAllDetails({
+                            header: resBundle.label_card_relationships,
+                            list: relationshipNames,
+                            showRelationShipName: true,
+                            objectName: name
+                        });
+                    });
+                }
+
+
+                var fullPath = "",
+                    path = rowEl.find(".path"),
+                    pathTmpl = [];
+
+                $.each(parentList, function (i, parent) {
+                    var name = parent.getObjectName();
+                    if (i !== 0) {
+                        path.append("<span>&nbsp;/&nbsp;</span>");
+                        fullPath += "/";
+                    }
+                    fullPath += name;
+                    if (i == parentList.length - 1) {
+                        $("<span  class='eic-link' style='float:none'>" + name + "</span>")
+                            .on('click', function () {
+                                parent.open();
+                                content.trigger('closeDialog');
+                            })
+                            .appendTo(path);
+                    } else {
+                        $("<span  class=' eic-link' >" + name + "</span>")
+                            .on('click', function () {
+                                parent.open();
+                                content.trigger('closeDialog');
+                            })
+                            .appendTo(path);
+                    }
+                });
+
+                path.prop("title", fullPath);
+
+                rowEl.find('.cell.name .obj').on({
+                    // click : function() {
+                    //     item.object.open();
+                    //     content.trigger('closeDialog');
+                    //     $(this).infaLDMCard("destroy");
+                    // }/*,
+                    // mouseout : function() {
+                    //     $(this).infaLDMCard("destroy");
+                    // }*/,
+                    // mouseenter : function() {
+                    //     if(that.associationTypes[ item.object.id ]){
+                    //         var relationsShips = that.associationTypes[ item.object.id ];
+                    //     }
+                    //     $(this).infaLDMCard({
+                    //         title : $.infa.Formats.unEscapeComprehensive(name),
+                    //         icon : icon,
+                    //         objectInfo : item.object,
+                    //         whereFrom : "ldm.ThreeSixtyView"
+                    //     });
+                    // }
+
+                });
+            }
+        });
+    },
+    getListTemplate: function (list, maxCount, content) {
+        var that = this;
+        var isObjectPushedMap = {};
+        var counter = 0;
+        var resBundle = infaw.ldm.threeSixty.I18nResources;
+        var cntr = $("<div>").addClass("bgDetailSection dialog").appendTo(content);
+        $("<div class='line gridHeader'>" +
+            "<div class='cell'>" + resBundle.asset_name + "</div>" +
+            "<div class='cell customLabel'>" + resBundle.custom_label_name + "</div>" +
+            "</div>").appendTo(cntr);
+        $.each(list, function (j, item) {
+            if (isObjectPushedMap[item.object.id] == true) {
+                return;
+            }
+            isObjectPushedMap[item.object.id] = true;
+            $.each(that.customIdValueMap[item.object.id], function (index, key) {
+                if (counter < maxCount) {
+                    counter++;
+                    var customLabel,
+                        customKey,
+
+                        parentList = [],
+                        name = $.infa.Formats.escapeComprehensive(item.object.getObjectName());
+                    parentList.reverse();
+                    var h = [];
+                    customKey = key;
+                    customLabel = infa.ldm.Utils.getFriendlyName(infa.ldm.AppConfigData.instance().getLabel(customKey));
+                    h.push("<div class='line'>");
+                    h.push("<div class='cell name' > <img src='' /> <span class='obj eic-link' title='" + name + "' >" + name + "</span> </div>");
+                    h.push("<div class='cell relationshipType'>" + customLabel + "</div>");
+                    h.push("</div>");
+
+                    var rowEl = $(h.join("")).appendTo(content);
+
+                    rowEl.find('.eic-link').data("objectInfo", { "id": item.object.getId(), "type": item.object.getObjectType() });
+                    item.object.getIcon().done(function (url) {
+                        rowEl.find('.cell.name img').attr('src', $.url("/" + url));
+                    });
+                    var fullPath = "",
+                        path = rowEl.find(".path"),
+                        pathTmpl = [];
+
+                    $.each(parentList, function (i, parent) {
+                        var name = parent.getObjectName();
+                        if (i !== 0) {
+                            path.append("<span>&nbsp;/&nbsp;</span>");
+                            fullPath += "/";
+                        }
+                        fullPath += name;
+                        if (i == parentList.length - 1) {
+                            $("<span  class='eic-link' style='float:none'>" + name + "</span>")
+                                .on('click', function () {
+                                    parent.open();
+                                    content.trigger('closeDialog');
+                                })
+                                .appendTo(path);
+                        } else {
+                            $("<span  class='eic-link' >" + name + "</span>")
+                                .on('click', function () {
+                                    parent.open();
+                                    content.trigger('closeDialog');
+                                })
+                                .appendTo(path);
+                        }
+                    });
+
+                    path.prop("title", fullPath);
+
+
+                    rowEl.find('.cell.name .obj').on({
+                        // click: function() {
+                        //         item.object.open();
+                        //         content.trigger('closeDialog');
+                        //         $(this).infaLDMCard("destroy");
+                        //     }
+                        //     /*,
+                        //                         mouseout : function() {
+                        //                             $(this).infaLDMCard("destroy");
+                        //                         }*/
+                        //     ,
+                        // mouseenter: function() {
+                        //     if (that.associationTypes[item.object.id]) {
+                        //         var relationsShips = that.associationTypes[item.object.id];
+                        //     }
+                        //     $(this).infaLDMCard({
+                        //         title: name,
+                        //         icon: icon,
+                        //         objectInfo: item.object,
+                        //         association: relationsShips,
+                        //         whereFrom: "ldm.ThreeSixtyView"
+                        //     });
+                        // }
+
+                    });
+                }
+            });
+
+        });
+    },
+    showAllRelations: function (list, content) {
+        var that = this;
+        var resBundle = infaw.ldm.threeSixty.I18nResources;
+        var cntr = $("<div>").addClass("bgDetailSection dialog").appendTo(content);
+        $("<div class='line gridHeader'>" +
+            "<div style='font-weight:bold'>" + resBundle.relations_label_name + " (" + list.length + " )</div>" +
+            "</div>")
+            .appendTo(cntr);
+
+        $.each(list, function (j, item) {
+            var h = [],
+                relationshipName = item;
+            h.push("<div class='line'>");
+            h.push("<div > <span>" + relationshipName + "</span> </div>");
+            var rowEl = $(h.join(""))
+                .appendTo(content);
+        })
+
+    },
+    showAllDetails: function (config) {
+        var resBundle = infaw.ldm.threeSixty.I18nResources,
+            cntr = $("<div>").addClass("bgDetailSection dialog");
+        var numberOfItems = config.list.length;
+        var width, title;
+        var $textUtils = infa.i18n.TextUtils.instance();
+        var $i18nAliasSearch = infaw.ldm.threeSixty.I18nResources;
+        if (config.list[0].type && config.list[0].type == "assetLink") {
+            $("<div class='line header'><div class='cell' >" + resBundle.asset_name + "</div></div>")
+                .appendTo(cntr);
+            this.getAssetLinkTemplate(config.list, config.list.length, cntr, true);
+            numberOfItems--;
+        }
+        else if (config.showRelationShipName == true) {
+            this.showAllRelations(config.list, cntr);
+        } else {
+            if (config.header == "Classified Assets") {
+                /*$("<div class='line header'>"+
+                        "<div class='cell' >"+resBundle.asset_name+"</div>"+
+                        "<div class='cell path' >"+resBundle.label_path+"</div>"+
+                        "<div class='cell'>"+resBundle.custom_label_name+"</div>"+
+                "</div>")
+                .appendTo(cntr);*/
+                this.getListTemplate(config.list, config.list.length, cntr);
+            }
+            else {
+                this.getListTemplateForOtherAssets(config.list, config.list.length, cntr);
+            }
+        }
+        if (config.showRelationShipName == true) {
+            width = 500;
+            title = $.infa.Formats.unEscapeComprehensive(config.objectName);
+        }
+        else {
+            width = 650;
+            title = config.header + "( " + numberOfItems + " )";
+        }
+
+        var $dialog = infa.ldm.Utils.showContentInDialog({
+            title: title,
+            height: 400,
+            width: width,
+            resizable: false,
+            buttonLabels: {
+                CLOSE: $textUtils.getText($i18nAliasSearch.label_close)
+            },
+            buttons: {
+                CLOSE: function (e) {
+                    $(this).infaDialog('close');
+                }
+            },
+            content: cntr
+        });
+
+        cntr.on("closeDialog", function () {
+            $dialog.infaDialog('destroy').remove();
+        });
+
+        /*for(var i = 0; i < list.length; i++) {
+            var h = [],
+                item = list[i],
+                icon = $.url(item.object.getIcon()),
+                name = item.object.getObjectName();
+
+                h.push("<div class='row'>");
+                h.push("<div class='name' > <img src='"+icon+"' /> <span class='obj eic-link' title='"+name+"' >"+name+"</span> </div>");
+                h.push("<div class='path' ></div>");
+                h.push("</div>");
+
+        }*/
+
+    },
+    isBusinessType: function (type) {
+        return this.isBgObject(type) || this.isAxonObject(type) || this.isBusinessTerm(type)
+    },
+
+    isBgObject: function (objectType) {
+        switch (objectType) {
+            case infa.ldm.Utils.BG_TERM:
+            case infa.ldm.Utils.BG_CATEGORY:
+            case infa.ldm.Utils.BG_GLOSSARY:
+            case infa.ldm.Utils.BG_POLICY:
+                return true;
+            default:
+                return false;
+        }
+    },
+    isAxonObject: function (objectType) {
+        switch (objectType) {
+            case infa.ldm.Utils.AXON_GLOSSARY:
+                return true;
+            default:
+                return false;
+        }
+    },
+
+    isBusinessTerm: function (type) {
+        return (type && type.indexOf('com.infa.ldm.bgresource') !== -1);
+    }
+});

@@ -1,0 +1,58 @@
+$.Class("infaw.ldm.AppConfigActions", {
+
+	initAction: function(blockElementId, actionId) {
+		var $elem = $('#' + blockElementId),
+			appConfigInst = infaw.portlet.PortletUtils.instance().getPortletInstance($elem),
+			textUtils = infa.i18n.TextUtils.instance();
+			
+		var resBundle = infaw.ldm.appConfiguration.I18nResources;
+		$('<div style="float: left; margin-right: 10px; margin-top: 13px; line-height: 24px;"></div>').appendTo($elem).infaButton({
+			height: 24,
+			label: resBundle.label_save
+		}).on('onSelect', function() {
+			if(appConfigInst) {
+				var appConfig = appConfig = infa.ldm.AppConfigData.instance().getAppConfig();
+				appConfig.excludedObjectTypes = appConfigInst.getExcludedObjectTypes();
+				if(!appConfig.attributes) {
+					appConfig.attributes = {};
+				}
+
+				appConfig.empty = false;
+
+				var dirtyAttributes = appConfigInst.getDirtyAttributes();
+				for(var i = 0; i < dirtyAttributes.length; i++) {
+					if(dirtyAttributes[i].config) {
+						appConfig.attributes[dirtyAttributes[i].name] = dirtyAttributes[i].config;
+					} else {
+						delete appConfig.attributes[dirtyAttributes[i].name];
+					}
+				}
+
+				// Save the appConfig
+				infa.ldm.AppConfigData.instance().setAppConfig(appConfig);
+
+				var wsManager = infaw.workspace.WorkspaceManager.instance();
+				// Let Search Workspace know we have to refresh the workspace
+				var workspaceInst = wsManager.getWorkspace('ldmSearchWS');
+				if(workspaceInst) {
+					workspaceInst.getEventManager().sendEvent('onConfigSaved');
+				}
+
+				// Let Object Workspace know we have to refresh the workspace
+				workspaceInst = wsManager.getWorkspace('ldmObjectView');
+				if(workspaceInst) {
+					workspaceInst.getEventManager().sendEvent('onConfigSaved');
+				}
+
+				infaw.workspace.WorkspaceManager.instance().removeWorkspace("appConfigWS");
+			}
+		});
+
+		$('<div style="float: left; margin-top: 13px; line-height: 24px;"></div>').appendTo($elem).infaButton({
+			height: 24,
+			label: resBundle.label_cancel
+		}).on('onSelect', function() {
+			infaw.workspace.WorkspaceManager.instance().removeWorkspace("appConfigWS");
+		});
+	}
+});

@@ -1,0 +1,34 @@
+configurationTemplate = 
+'<div class="infaPage activePage loginPage tilePage" id="login" style="background-image: url(&quot;res/img/productbranding/NewBranding_Login_Image-1.jpg&quot;);">
+	<div class="tileContainer">
+		<div class="login-container infaLogin infaAuth infaTile">
+			<div class="infaTileHeader">
+				<div class="product-logo">
+					<img src="res/img/core/pageHeader/ldmLogo.svg">
+					</div>
+					<div class="product-name product-title">Enterprise Data Catalog</div>
+				</div>
+				<div class="infaTileContent">
+					<div class="form">
+						<label class="flabel field-label1">Username:</label>
+						<div id="username" class="infaTextBox">
+							<input class="infaField" type="text" value="" placeholder="" name="" maxlength="200">
+							</div>
+							<label class="flabel field-label1">Password:</label>
+							<div class="password infaTextBox" id="password">
+								<input class="infaField" type="password" value="" placeholder="" name="" maxlength="200">
+								</div>
+								<div class="submitBtn loginBtn">
+									<button class="infaButton infaButton-1">
+										<div class="infaButton-interior">
+											<span class="infaButton-label">Log In</span>
+										</div>
+									</button>
+								</div>
+								<hr>
+								</div>
+							</div>
+							<div class="infaTileFooter footer">Copyright 1993-2017 © Informatica LLC. All Rights Reserved.</div>
+						</div>
+					</div>
+				</div>''

@@ -1,0 +1,29 @@
+$.Class("infa.extension.eicConfiguration",{
+    "URL" : "",
+    "user" : "",
+    "password" : "",
+    "namespace" : "",
+    	
+    setConfiguration: function(user, password, namespace, url){
+        this.user = user;
+        this.password = password;
+        this.namespace = namespace;        
+        this.URL = url;
+    },
+
+	getUrl : function(){
+		return this.URL.replace(/\/$/, "");
+	},
+
+    getParameter : function(param){
+        if(param == "URL")
+        return this.URL.replace(/\/$/, "");
+        
+        return this[param];
+    },
+
+     setParameter : function(param, value){
+        this[param] = value;
+    }
+    
+},{})

@@ -1,0 +1,286 @@
+(function ($) {
+
+    var TYPES = {
+        STRING: "CORE.STRING",
+        BOOLEAN: "CORE.BOOLEAN",
+        INTEGER: "CORE.INTEGER",
+        DECIMAL: "CORE.DECIMAL",
+        DATE: "CORE.DATE"
+    };
+
+    $.widget('infa.eicDateField', {
+        options: {
+            width: "auto",
+            dateFormat: null,
+            value: null
+        },
+        _create: function () {
+            var config = {
+                width: this.options.width,
+                dropDownHeight: this.options.dropDownHeight,
+                placeHolder: this.options.dateFormat,
+                formatString: this.options.dateFormat,
+                value: this.options.value ? this.options.value : null
+            };
+            this.element.jqxDateTimeInput(config)
+            .on('change', function() {
+                $(this).trigger('onChange');
+            });
+        },
+        setValidLook: function () {},
+
+        setInvalidLook: function () {},
+
+        isValidLook: function () {},
+
+        getValue: function () {
+            var value = this.element.jqxDateTimeInput('getDate');
+            if (value) {
+                return value.toISOString();
+            }
+        },
+
+        setValue: function (value) {
+            this.options.value = value ? value : null;
+            this.element.jqxDateTimeInput('setDate', this.options.value);
+        },
+
+        focus: function () {
+
+        },
+
+        destroy: function () {
+            this.element.empty();
+            $.Widget.prototype.destroy.call(this);
+        }
+    });
+
+
+    $.widget('infa.eicBooleanField', {
+        options: {
+            width: "100%",
+            value: null
+        },
+        _create: function () {
+            this._selectField = $('<select style="width: ' + this.options.width + ';">' +
+                    '<option value="" disabled >&nbsp;</option>' +
+                    '<option value=true >true</option>' +
+                    '<option value=false>false</option>' +
+                    '</select>')
+                .appendTo(this.element)
+                .on('change', function () {
+                    $(this).trigger('onChange');
+                });
+            this.setValue(this.options.value);
+        },
+        setValidLook: function () {},
+
+        setInvalidLook: function () {},
+
+        isValidLook: function () {},
+
+        getValue: function () {
+            return this._selectField.val();
+        },
+
+        setValue: function (value) {
+            if(value !== "true" && value !== "false"){
+                value = "";
+            }
+            this._selectField.val(value);
+        },
+
+        focus: function () {
+
+        },
+
+        destroy: function () {
+            this.element.empty();
+            $.Widget.prototype.destroy.call(this);
+        }
+    });
+
+    $.widget('infa.CustomFormField', {
+
+        options: {
+            multiValued: false,
+            dataType: TYPES.STRING,
+            value: []
+        },
+
+        _create: function () {
+            this.options.dataType = this.options.dataType.toUpperCase();
+            this._currentValue = {};
+
+            this._maincntr = $("<div></div>").addClass("container-fluid customFormField").appendTo(this.element);
+            this.setValue(this.options.value);
+        },
+
+
+
+        _renderRow: function (config) {
+            var row = $("<div></div>").addClass("row " + (config.cls ? config.cls : "")).appendTo(config.renderTo),
+                fieldContent = $("<div></div>").addClass("col pull-left fieldContent").appendTo(row),
+                actionContent = $("<div></div>").addClass("col pull-right actionContent").appendTo(row);
+
+            var _val = config.value,
+                valueId = "_" + $.htmlId("val");
+
+            this._currentValue[valueId] = {
+                dirty: false,
+                id: valueId,
+                value: _val
+            };
+            this._renderFieldContent(fieldContent, this._currentValue[valueId]);
+            this._renderActionContent(actionContent, config.actionBtns);
+            fieldContent.css("width", "calc(100% - " + $(actionContent).width() + "px)");
+
+            var self = this;
+            actionContent.on("onSelect", function (e) {
+                var actionType = $(e.target).data("actionType");
+                self._valueActionHandler(actionType, valueId);
+            });
+            return row;
+        },
+
+        _valueActionHandler: function (actionType, valueId) {
+            var valObj = this._currentValue[valueId];
+
+            valObj.dirty = true;
+            if (actionType == "RESET") {
+                valObj.widget.setValue(valObj.value ? valObj.value : "");
+            } else if (actionType == "CLEAR") {
+                valObj.widget.setValue("");
+            }
+
+        },
+
+        _renderFieldContent: function (fieldContent, valObj) {
+            var wName = "infaTextbox",
+                wConfig = {
+                    value: valObj.value
+                };
+            if (this.options.dataType === TYPES.DECIMAL) {
+                wConfig.restrict = '^[0-9\-\.]$';
+            } else if (this.options.dataType === TYPES.INTEGER) {
+                wConfig.restrict = '^[0-9\-]$';
+            } else if (this.options.dataType === TYPES.BOOLEAN) {
+                wName = "eicBooleanField";
+            } else if (this.options.dataType === TYPES.DATE) {
+                wName = "eicDateField";
+                var formatString = infa.ldm.Utils.getLocaleDateString();
+                wConfig = {
+                    placeHolder: formatString,
+                    formatString: formatString,
+                    width: 'auto',
+                    value: valObj.value,
+                    dropDownHeight: '160px'
+                };
+            }
+            wConfig ? fieldContent[wName](wConfig) : fieldContent[wName]();
+            valObj.widget = $.getWidget(fieldContent, wName);
+            fieldContent.on("onChange", function(e) {
+                valObj.dirty = true;
+                $(this).trigger("onChange.CustomFormField");
+            });
+        },
+
+        _createActionBtn: function (actionType, actionCntr) {
+
+            var icon, tooltip;
+            if (actionType == "ADD") {
+                icon = '/res/img/common/add.svg';
+                tooltip = 'Add New';
+            } else if (actionType == "EDIT") {
+                icon = '/res/img/common/edit.svg';
+                tooltip = "edit";
+            } else if (actionType == "CLEAR") {
+                icon = '/res/img/common/remove.svg';
+                tooltip = "clear";
+            } else if (actionType == "RESET") {
+                icon = '/res/img/common/revert.svg';
+                tooltip = "reset";
+            }
+
+            $('<div></div>')
+                .data("actionType", actionType)
+                .addClass("iconBtn")
+                .appendTo(actionCntr)
+                .infaButton({
+                    shape: 'iconic',
+                    activeOOFColor: '#000',
+                    transparent: true,
+                    icon: $.url(icon),
+                    height: 12,
+                    width: 12,
+                    tooltip: tooltip
+                });
+        },
+
+        _renderActionContent: function (actionContent, btns) {
+            var self = this;
+            $.each(btns, function (i, actionType) {
+                self._createActionBtn(actionType, actionContent);
+            });
+        },
+
+        setValidLook: function () {},
+
+        setInvalidLook: function () {},
+
+        isValidLook: function () {},
+
+        getValue: function () {
+            var value = [];
+            for(var valueId in this._currentValue){
+                var valObj = this._currentValue[valueId];
+                value.push({
+                    isDirty: valObj.dirty,
+                    value : valObj.widget.getValue()
+                });
+            }
+            return value;
+        },
+
+        _getEmptyValue: function () {
+            return this.options.dataType == TYPES.DATE ? null : "";
+        },
+
+        setValue: function (value) {
+
+            this._maincntr.empty();
+            this._currentValue = {};
+
+            var _emptyValue = [this._getEmptyValue()];
+            if (this.options.multiValued) {
+                this.options.value = $.isEmptyObject(value) ? _emptyValue : _emptyValue.concat(value);
+            } else {
+                this.options.value = $.isEmptyObject(value) ? [this._getEmptyValue()] : value;
+            }
+
+            for (var i = 0; i < this.options.value.length; i++) {
+
+                var eachValue = this.options.value[i],
+                    actionBtns = ["CLEAR", "RESET"];
+
+                if (this.options.multiValued) {
+                    actionBtns = i === 0 ? ["CLEAR", "ADD"] : ["CLEAR", "EDIT"];
+                }
+
+                this._renderRow({
+                    renderTo: this._maincntr,
+                    actionBtns: actionBtns,
+                    value: eachValue
+                });
+            }
+        },
+
+        focus: function () {},
+
+        destroy: function () {
+            this.element.empty();
+            $.Widget.prototype.destroy.call(this);
+        }
+
+    });
+})(jQuery);

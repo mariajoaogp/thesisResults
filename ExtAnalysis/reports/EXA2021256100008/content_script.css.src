@@ -1,0 +1,923 @@
+#extensionIframe{
+    position: absolute;
+    /* top: 5px; */
+    right: 0px;
+    height: 100%;
+    width:100%;
+    z-index: 10000;
+}
+
+.extensionSlidingWindow {
+    width: 420px;
+    height: calc(100% - 1px);
+    bottom: 0px;
+    position: fixed;
+    right: -51px;
+    z-index: 100000;
+    background: #FFFFFF;
+    margin-right: -370px;
+    transition: margin-right 1s ease-out;
+    box-shadow:rgba(0,0,0,0.50) 0 2px 8px 0;
+    z-index: 1000000;
+    /*padding: 0 10px 10px 10px;*/
+    box-sizing: border-box;
+    z-index: 9999;
+	font-size:12px;
+	font-family:roboto-lt;
+}
+
+.extensionSlidingWindow.slideLeft {
+    margin-right: 52px;
+}
+
+.extensionSlidingWindow .extensionContainer{
+    display:none;
+}
+
+.containerContent{
+    overflow: auto;
+    height: calc(100% - 50px);
+    padding-right: 6px;
+}
+
+.extensionSlidingWindow.slideLeft .extensionContainer{
+    display:block;
+}
+
+.extensionSlidingWindow .extensionContainer {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 1000;
+    float: left;
+    /* margin-top: 10px; */
+	overflow:hidden;
+}
+
+.extensionSlidingWindow .slideActionIcon {
+    position: absolute;
+    bottom: 50%;
+    left: -40px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-right: 1px solid #fff;
+    background: #fff;
+    box-shadow: -6px 0px 10px 2px #615f5f;
+}
+
+.extensionSlidingWindow .slideActionIcon img {
+    width: 100%;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+
+.extensionContainer .EICSection{
+	padding: 5px;
+    border-radius: 5px;
+	border: none;
+	margin-bottom: 5px;
+}
+.extensionSlidingWindow .container-fluid{
+    padding:0 !important;
+}
+.extensionSlidingWindow .TitleSection{
+	height:60px;
+    margin: none!important;
+}
+.extensionSlidingWindow .TitleSection .rating{
+	height:25px;
+    width: 60%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.extensionSlidingWindow .TitleSection > .right{
+	width:83%
+}
+.extensionSlidingWindow .TitleSection .bgterm{
+	font-size:18px;
+}
+
+.extensionSlidingWindow .extensionContainer .EICSubSection{
+	padding: 5px;
+	border: none;
+}
+
+.extensionSlidingWindow .EICSection .EICSectionHeader{
+    padding: 5px;	
+	background: white;
+    border-bottom: .5px solid black;
+	font-weight:bold;
+	font-size:13px;
+}
+
+.extensionSlidingWindow .EICSubSection .EICSectionHeader{
+	background: white;
+	border-bottom: 1px solid rgb(204, 204, 204);
+    padding: 5px;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.extensionSlidingWindow .EICSectionContent table{
+	text-align: center;
+    width: 100%;
+}
+
+.extensionSlidingWindow .EICSectionContent table tr td{
+	border : 0;
+}
+
+.extensionSlidingWindow .ldmPanel-name {
+    float: left;
+    color: #535353;
+    overflow: hidden;
+    text-overflow: ellipsis;
+        white-space: normal;
+}
+
+.extensionSlidingWindow .ldmPanel-value
+{   
+    float: left;
+    padding-left: 2px;
+    font-weight: 500;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+	font-weight:bold;
+	max-width:135px;
+	text-overflow:ellipsis;
+}
+.extensionSlidingWindow .left{
+	float:left;
+}
+.extensionSlidingWindow .right{
+    padding-top: 6px;
+    padding-right: 2px;
+	float:right;
+}
+.extensionSlidingWindow .ldmPanel {
+    width: 100%;
+    table-layout: fixed;
+}
+	
+.extensionSlidingWindow .extensionContentTable tr td{
+	padding-bottom: 1em;
+}
+
+.extensionSlidingWindow .EICSectionContent{
+    margin-left: 5px;
+    padding-top:5px;
+    font-size: 14px;
+}
+
+.extensionSlidingWindow .EICSectionContent ul{
+	overflow: hidden;
+    padding: 0px;
+}
+.extensionSlidingWindow .EICSectionContent ul li.width-100{
+    width: 100%;
+}
+.extensionSlidingWindow .EICSectionContent ul li.width-100.heading{
+    margin-top:0px;
+    margin-bottom: 10px;
+    border-bottom:1px solid black;
+}
+.extensionSlidingWindow li.width-100.heading .title{
+    height:25px;
+}
+.extensionSlidingWindow .EICSectionContent  .columnname{
+    float: left;
+    margin-left: 25px;
+    
+}
+.extensionSlidingWindow .overviewPanelGroup .columns-panel .EICSectionContent .show-more{
+    text-align: right;    
+}
+.extensionSlidingWindow .columns-panel .EICSectionContent .show-more .eic-link{
+    float: none;
+    color:blue;
+}
+.extensionSlidingWindow .accordionCntr .panel-collapse.columns-panel{
+    padding:0;
+}
+.extensionSlidingWindow .EICSectionContent  .values{
+    float: right;
+}
+.extensionSlidingWindow .EICSectionContent  .values span{
+    float: none;
+    margin:0 5px;
+}
+.extensionSlidingWindow .EICSectionContent  .values .null{
+    color:#FF0000;
+}
+.extensionSlidingWindow .EICSectionContent  .values .nonunique{
+    color:grey;
+}
+.extensionSlidingWindow .EICSectionContent  .values .unique{
+    color:#0F66A0;
+    
+}
+.extensionSlidingWindow .EICSectionContent .progress{
+    height:5px;
+    margin-left: 7px;
+    float: right;
+    width: 62%;
+    margin-top: 6px;
+}
+.extensionSlidingWindow .EICSectionContent .progress .progress-bar-nonunique{
+    background-color:grey
+}
+.extensionSlidingWindow .EICSectionContent .progress .progress-bar-unique{
+    background-color:#0F66A0
+}
+.extensionSlidingWindow .EICSectionContent .progress .progress-bar-null{
+    background-color:#FF0000
+}
+
+.extensionSlidingWindow .EICSectionContent ul li{
+	list-style: none;
+    float: left;
+	width: 50%;
+    padding:0;
+}
+
+.extensionSlidingWindow .EICSectionContent ul li span{
+	float:left;
+}
+
+.extensionSlidingWindow .EICSectionContent ul li span img{
+	height: 21px;
+    width: 21px;
+    padding: 4px;
+	float:right;
+}
+
+.extensionSlidingWindow .EICSectionContent ul li a{
+	color: black !important;
+    float: left;
+    overflow: hidden;
+    max-width: 110px;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+}
+
+.extensionSlidingWindow .TitleSection img.headerIcon {
+	width:50px;
+	height:50px;
+}
+.extensionSlidingWindow .TitleSection .verified-icon{
+    display: inline-block;
+    margin-left: 4px;
+}
+.extensionSlidingWindow .TitleSection .endorse-icon {
+    top:0px;
+}
+.extensionSlidingWindow .TitleSection .endorse-icon .comments-info-text{
+    left: -7px;
+}
+.extensionSlidingWindow .TitleSection .endorseComment{
+    padding-left: 12px;
+}
+.extensionSlidingWindow .TitleSection .verified-icon img{
+    margin-top: -5px;
+}
+/*.extensionSlidingWindow l{
+	color: black !important;
+    float: left;
+    overflow: hidden;
+    width: 80%;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+	line-height:25px;
+}*/
+
+.extensionSlidingWindow .eic-link:hover{
+	text-decoration: underline;
+}
+
+
+.extensionHeader li.headerIcon{
+	width: 20%;
+}
+
+.extensionSlidingWindow .extensionHeader li.headerIcon img{
+	height: 50px;
+    width: 50px;
+}
+
+.extensionSlidingWindow .extensionHeader li.reportTitle{
+	width: 60%;
+    font-size: x-large;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.extensionSlidingWindow .usersList li{
+	width:auto !important;	
+}
+
+.extensionSlidingWindow .usersList li:not(:last-child):nth-child(n+1)::before{
+
+	content:",";	
+}
+
+.extensionSlidingWindow ul.usersList li a
+{
+	color:black!important;
+	float:left;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	
+}
+
+.extensionSlidingWindow ul.usersList li a span
+{
+	width: auto;
+	color:black!important;
+	float:left;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	padding-left:3px;
+}
+
+#EICSection_Lineage .EICSectionContent{
+	    margin-left: 0px;
+}
+
+img.lineage{
+	    width: 100%;
+    height: 102px;
+}
+
+.extensionSlidingWindow #EICSection_People ul li div{
+	width: 85%;
+}
+
+
+.extensionSlidingWindow .pagination a, .pagination i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    color: #373737;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px 0 2px 0;
+    -webkit-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.extensionSlidingWindow .pagination-container{
+    display: flex;
+    justify-content: center;
+}
+.extensionSlidingWindow .pagination {
+    margin: 10px auto;
+}
+
+.extensionSlidingWindow .pagination a {
+    margin: 0 2px 0 2px;
+    border-radius: 4px;
+    border: 1px solid #E3E3E3;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    
+}
+.extensionSlidingWindow .pagination i {
+    margin: 0 3px 0 3px;
+}
+.extensionSlidingWindow .pagination a.current {
+    border: 1px solid #FFFFFF;
+    background-color: #84BACA;
+}
+.extensionSlidingWindow .listview-header {
+    margin:10px 5px;
+    height:30px;
+}
+.extensionSlidingWindow .listview-header .heading{
+    font-size: 13px;
+    font-weight: bold
+}
+.extensionSlidingWindow .listview-header .sub-heading{
+    margin-left:5px;
+}
+.extensionSlidingWindow .listview-header .toolbar{
+    float: right;
+}
+.extensionSlidingWindow .toolbar .btn img{
+    width: 15px;
+    height: 15px;
+}
+.extensionSlidingWindow .listview-search .item-title{
+    padding: 0;
+} 
+.extensionSlidingWindow .listview-search  .item-icon img {
+    max-width: 15px;
+}
+.extensionSlidingWindow .listview-search  .item-label {
+    margin-left: 10px;
+    cursor: pointer;
+    color:#0000FF;
+}
+.extensionSlidingWindow .listview-search .item-bgterm{
+    color:#777777;
+}
+.extensionSlidingWindow .listview-search .item-bgterm:before {
+    content: "|";
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.extensionSlidingWindow .listview-search .item-contents {
+    margin-left: 25px;
+    padding-left: 0;
+}
+.extensionSlidingWindow .listview-search .item-contents li.item {
+    list-style: none;
+}
+.extensionSlidingWindow .listview-search .item-contents .item-value {
+    
+}
+.extensionSlidingWindow .listview-search .item-contents .item-key:after{
+    content:":";
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+
+ .extensionSlidingWindow .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 350px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+ .extensionSlidingWindow .sidebar-nav li {
+    line-height: 40px;
+    text-indent: 20px;
+  }
+  
+ .extensionSlidingWindow .sidebar-nav li a {
+    color: #999999;
+    display: block;
+    text-decoration: none;
+    padding-left: 60px;
+  }
+  
+ .extensionSlidingWindow .sidebar-nav li a span:before {
+    position: absolute;
+    left: 0;
+    color: #41484c;
+    text-align: center;
+    width: 20px;
+    line-height: 18px;
+  }
+  
+ .extensionSlidingWindow .sidebar-nav li a:hover,
+ .extensionSlidingWindow .sidebar-nav li.active {
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+    text-decoration: none;
+  }
+  
+ .extensionSlidingWindow .sidebar-nav li a:active,
+ .extensionSlidingWindow .sidebar-nav li a:focus {
+    text-decoration: none;
+  }
+  
+ .extensionSlidingWindow .sidebar-nav > .sidebar-brand {
+    height: 65px;
+    line-height: 60px;
+    font-size: 18px;
+  }
+  
+ .extensionSlidingWindow .sidebar-nav > .sidebar-brand a {
+    color: #999999;
+  }
+  
+ .extensionSlidingWindow .sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+  }
+  
+ .extensionSlidingWindow .sidebar-wrapper {
+    margin-right: -400px;
+    width:400px;
+    top: 110px;
+    right: 400px;
+    background: #F1F0F0;
+    position: fixed;
+    height: 86%;
+    overflow-y: auto;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+  }
+  
+ .extensionSlidingWindow .wrapper.active {
+    padding-left: 0;
+  }
+  
+ .extensionSlidingWindow .wrapper.active .sidebar-wrapper {
+    right: 0;
+  }
+ .extensionSlidingWindow .wrapper .panel-body{
+     padding:5px;
+ }
+ .extensionSlidingWindow .wrapper .panel-footer .show-more{
+    float: right;
+    cursor: pointer;
+    color:blue;
+  }
+ .extensionSlidingWindow .wrapper .panel-footer .footer-toolbar{
+    height:23px;
+  }
+ .extensionSlidingWindow .wrapper .panel-footer .find{
+    float: left;
+  }
+ .extensionSlidingWindow .sidebar-wrapper nav{
+    height: 30px;
+  }
+ .extensionSlidingWindow .sidebar-wrapper .data-section{
+   padding: 20px 14%;
+  }
+ .extensionSlidingWindow .sidebar-wrapper .data-footer{
+    padding: 0px 14%;
+  }
+  
+ .extensionSlidingWindow .sidebar-wrapper .data-footer .btn {
+    margin-right:10px;
+    float: right;
+  }
+ .extensionSlidingWindow .cbx-st-cls {
+    width: 16px;
+    position: relative;
+    margin:2px auto;
+  }
+ .extensionSlidingWindow .cbx-st-cls label {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fcfff4;
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    border-radius: 4px;
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+ .extensionSlidingWindow .cbx-st-cls label:after {
+    content: '';
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    opacity: 0;
+    transform: rotate(-45deg);
+  }
+ .extensionSlidingWindow .cbx-st-cls label:hover::after {
+    opacity: 0.5;
+  }
+ .extensionSlidingWindow .cbx-st-cls input[type=checkbox] {
+    visibility: hidden;
+  }
+ .extensionSlidingWindow .cbx-st-cls input[type=checkbox]:checked + label:after {
+    opacity: 1;
+  }
+ .extensionSlidingWindow .cbox-list-ul{
+    padding:20px 10px;
+  }
+ .extensionSlidingWindow .cbox-list-ul li {
+    list-style:none;
+    padding:3px;
+  }
+ .extensionSlidingWindow .cbx-st-cls label .cbx-label{
+    margin-left:20px;
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+ .extensionSlidingWindow .cbox-list-ul .cbx-count{
+    float:right
+  }
+
+  .extensionHeader{
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+
+.extensionHeader ul
+{
+        padding: 5px
+}
+.extensionHeader ul li{
+    list-style: none;
+    float: left;
+    padding-left: 5px;
+}
+
+.extensionHeader .clickableHeaderButton{
+ cursor: pointer;
+}
+
+.extensionHeader .backButton.clickableHeaderButton{
+ float: left;
+ font-size: 10px;
+}
+
+.extensionHeader .backButton a img{
+    margin-top: 6px;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.extensionHeader .closeButton a img{
+    height: 20px;
+    width: 20px;
+}
+
+li.EIClogo img{
+    height: 30px;
+    width: 30px;
+}
+
+.extensionHeader .closeButton.clickableHeaderButton{
+ float: right;
+ font-size: 10px;
+ padding-top: 5px;
+}
+.extensionSlidingWindow .searchBox{
+    float:right;
+}
+
+.eicSearchBox
+{
+    position: relative;
+    padding-left: 8px;
+    padding-top: 3px;
+}
+
+.eicSearchBox input.eicSearchField {
+    width: 180px;
+    padding-left: 6px;
+    line-height: 40px;
+    font-size: 16px;
+    border: 1px solid #6b5959;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+.eicSearchBox .eicSearchActivationButton{
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background: none;
+    top: 6px;   
+    right: 7px;
+}
+
+.eicSearchBox .eicSearchActivationButton img
+{
+    height: 15px;
+    width: 15px;
+}
+
+.hideButton{
+    display:none;
+}
+
+.extensionSlidingWindow .overviewPanelGroup{
+    padding:0 !important;
+    border:none !important;
+    
+}
+.extensionSlidingWindow  .panel-default{
+    border: 0 !important;
+}
+.extensionSlidingWindow .accordionCntr .panel-default > .panel-heading{
+    padding:2px;
+    background: none;
+    border-bottom: 1px solid black
+}
+.extensionSlidingWindow .accordionCntr .panel-collapse{
+    padding: 10px 0 0 10px;
+}
+.extensionSlidingWindow .accordionCntr .sub-panel .panel-collapse{
+    padding: 0;
+}
+.extensionSlidingWindow .accordionCntr .sub-panel .panel-default > .panel-heading{
+    
+    border-bottom: none
+}
+.extensionSlidingWindow .accordionCntr .panel-title{
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+.extensionSlidingWindow .accordionCntr .sub-panel 
+    .panel-title:before,.extensionSlidingWindow .accordionCntr 
+        .sub-panel .panel-title.collapsed:before{
+    content: none;
+    margin: none;
+}
+.extensionSlidingWindow .panel-title:before{
+    content:' \25BC';
+    margin-right: 3px;
+}
+.extensionSlidingWindow  .panel-title.collapsed:before{
+    content:' \25BA';
+}
+.extensionSlidingWindow  .panel.panel-default{
+    box-shadow: none;
+}
+
+.extensionSlidingWindow .tabIcons {
+    float:right;
+    cursor: pointer;
+}
+
+.extensionSlidingWindow .tabIcons a{
+    padding-left: 8px;
+}
+
+.extensionSlidingWindow .logoText p {
+    font-size: 11px !important;
+    font-weight: normal;
+    margin:0;
+}
+.extensionSlidingWindow div.logoText{
+    float: right;
+    margin-top: -6px;
+    margin-left: 3px;
+}
+
+.commentsStats{
+    float:left;
+    clear:both;
+}
+
+.commentInfo{
+    float: left;
+}
+
+.endorseComment{
+    padding-left: 8px;
+    float: left;
+}
+
+.extensionSlidingWindow .list-group{
+    margin-bottom: 7px;
+}
+
+.extensionSlidingWindow .listview-header{
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+
+.containerContent::-webkit-scrollbar {
+    width: 6px;
+}
+
+.containerContent::-webkit-scrollbar-track {
+    display: none;
+}
+
+.containerContent::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #414042;
+}
+
+
+.extensionSlidingWindow .bgDetailSection {
+    width: 100%;
+    height: auto;
+}
+
+.extensionSlidingWindow .bgDetailSection .line {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+}
+
+.extensionSlidingWindow .bgDetailSection .line:last-child {
+    border-bottom: none;
+}
+
+.extensionSlidingWindow .bgDetailSection .line.header {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #bbb;
+}
+
+.extensionSlidingWindow .bgDetailSection .content {
+    min-height: 50px;
+    height: auto;
+    width: auto;
+}
+
+.extensionSlidingWindow .bgDetailSection .line.header .name {
+    float: left;
+    width: auto;
+    max-width: 80%;
+    padding-left: 0;
+    font-weight: 500;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.extensionSlidingWindow .bgDetailSection .line.header .count {
+    float: left;
+    width: auto;
+}
+
+.extensionSlidingWindow .bgDetailSection .line .name {
+    padding-left: 30px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.extensionSlidingWindow .bgDetailSection .line .ldmViewTogglePanel-edit-link{
+    cursor: pointer;
+}
+
+.extensionSlidingWindow .bgDetailSection .line .name, .extensionSlidingWindow .bgDetailSection .line .path {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.extensionSlidingWindow .bgDetailSection .line .path {
+    width: 50%;
+    float: left;
+}
+
+.extensionSlidingWindow .bgDetailSection .line .name span, .extensionSlidingWindow .bgDetailSection .line .path span {
+    float: left;
+}
+
+.extensionSlidingWindow .bgDetailSection .line .name img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 5px;
+    left: -5px;
+    position: absolute;
+}
+
+.extensionSlidingWindow .bgDetailSection .line.noData {
+    border-bottom: none;
+    text-align: center;
+}
+
+
+.extensionSlidingWindow .bgDetailSection.dialog .line.header {
+    border-top: 2px solid #bbb;
+    border-bottom: 2px solid #bbb;
+}
+.extensionSlidingWindow .bgDetailSection .line .cell.name {
+    margin-left: -5px;
+    margin-right: 10px;
+}
+.extensionSlidingWindow .bgDetailSection.dialog .line .cell {
+    width: 50%;
+    float: left;
+}
+.extensionSlidingWindow .bgDetailSection.dialog .line .cell.relationshipType{
+    float: right;
+    width:20%;
+}
+.extensionSlidingWindow .bgDetailSection.dialog .line.header .cell {
+    font-weight: bold;
+}
+
+.extensionSlidingWindow .bgDetailSection.dialog .line .cell.path {
+    width: 50%;
+    padding-left: 25px;
+}
+.extensionSlidingWindow .bgDetailSection.dialog .line .assetLink {
+    width: 400px;
+}
+
+.extensionSlidingWindow .bgDetailSection.dialog .line.gridHeader {
+    border-bottom: 2px solid #bbb;
+}

@@ -1,0 +1,539 @@
+infaw.portlet.AbstractPortlet.extend('infaw.ldm.AppConfig', {
+	init: function(blockElementId, instanceId, customPropMap) {
+		var self = this;
+		var uncheckedObjectTypes = {};
+		var appConfig = infa.ldm.AppConfigData.instance().getAppConfig(),
+			objectTypes = infa.ldm.AppConfigData.instance().getTypes(),
+			allAttributes = infa.ldm.AppConfigData.instance().getAttributes();
+
+		if(appConfig.empty) {
+			appConfig.excludedObjectTypes = {};
+			if(!appConfig.attributes) {
+				appConfig.attributes = {};
+			}
+		}
+
+		uncheckedObjectTypes = appConfig.excludedObjectTypes;
+
+		setUncheckedObjectTypes = function(grid) {
+			for(var i = grid.rowCount(); i > 0; i--) {
+				var row = grid.getRowByIndex(i);
+				if(!grid.isChecked(row)) {
+					var rowObj = grid.getRowDataObject(row);
+					uncheckedObjectTypes[rowObj.id] = true;
+				}
+			}
+		};
+		var resBundle = infaw.ldm.appConfiguration.I18nResources;
+		var curSearch,
+		_search = function(grid, term) {
+			var curGrid = grid;
+				curGrid.getRowModel()._term = term;
+				clearTimeout(curSearch);
+				curSearch = setTimeout(function(){
+					curGrid.loadData();
+				}, 300);
+		};
+
+		var $elem = $('#' + blockElementId).addClass("appConfigPortlet").css('padding-top', 0),
+			objectTypesGrid, 	// Grid to determine which object types are excluded or not
+			customAttr = [], 	// Custom Attributes
+			systemAttr = [], 	// System Attributes
+			attributeMap = {},			// NOTE: This contains the real attributes while infaGrid contains copies which is why we need to access this map
+			dirtyConfigMap = {},		// Keep track of the attributes that should be added to the App Config
+			removedCustMap = {},
+			removedCustAttr = [],		// Keep track of the custom attributes that were removed and needs to be updated in AppConfig
+			appConfigTabs;
+
+		this.getExcludedObjectTypes = function() {
+			return uncheckedObjectTypes;
+		};
+
+		this.getDirtyAttributes = function() {
+			var dirtyAttributes = [];
+
+			for(var i = 0; i < customAttr.length; i++) {
+				if(dirtyConfigMap[customAttr[i].id]) {
+					dirtyAttributes.push(customAttr[i]);
+				}
+			}
+
+			for(var i = 0; i < removedCustAttr.length; i++) {
+				dirtyAttributes.push(removedCustAttr[i]);
+			}
+
+			for(var i = 0; i < systemAttr.length; i++) {
+				if(dirtyConfigMap[systemAttr[i].id]) {
+					dirtyAttributes.push(systemAttr[i]);
+				}
+			}
+
+			return dirtyAttributes;
+		};
+
+		var _createUI = function($elem) {
+			$elem.infaTabs({
+				padding: false
+			});
+
+			appConfigTabs = $.getWidget($elem, 'infaTabs');
+		};
+
+		var _processData = function(appConfig, attributes) {
+			var coreAttributes = infa.ldm.Utils.getCoreAttributes(),
+				coreMap = {};
+			for(var i = coreAttributes.length - 1; i >= 0; i--) {
+				coreMap[coreAttributes[i]] = true;
+			}
+
+			for(var i = 0; i < attributes.length; i++) {
+				var config = appConfig.attributes[attributes[i].name];
+				attributes[i].config = config ? $.extend(true, {}, config) : undefined;
+				if(!attributes[i].label) {
+					attributes[i].label = attributes[i].name;
+				}
+
+				if(infa.ldm.AppConfigData.isCustom(attributes[i])) {
+					// We only add custom configuration if its been added
+					if(attributes[i].config) {
+						attributes[i].hasConfig = true;
+						customAttr.push(attributes[i]);
+					}
+
+					attributes[i].appliesTo = [];
+					$.each(attributes[i].classes, function(index, value) {
+						attributes[i].appliesTo.push(infa.ldm.AppConfigData.instance().getLabel(value.id));
+					});
+
+					attributes[i].custom = true;
+				} else {
+					attributes[i].appliesTo = [];
+					$.each(attributes[i].classes, function(index, value) {
+						attributes[i].appliesTo.push(infa.ldm.AppConfigData.instance().getLabel(value.id));
+					});
+
+					// We ignore all core attributes since they cannot be modified
+					if(!coreMap[attributes[i].id]) {
+						systemAttr.push(attributes[i]);
+					}
+				}
+				attributeMap[attributes[i].id] = attributes[i];
+			}
+		};
+
+		var _renderUI = function() {
+			_createObjectTypesTab();
+
+			$.blockElem(blockElementId);
+			var tmplUrl={};
+		  tmplUrl[$.url("res/tmpl/appConfiguration/appConfigForm.htm")] = "appConfigForm";
+		  
+			$.blockRequireTemplate(tmplUrl).then(function() {
+				var $systemAttrTab = $(appConfigTabs.add(resBundle.label_system_attributes))
+				.data('options', {
+					attributes: systemAttr,
+					description: resBundle.system_attributes_description
+				});
+				var $custAttrTab = $(appConfigTabs.add(resBundle.label_custom_attributes))
+					.data('options', {
+						attributes: customAttr,
+						description: resBundle.custome_attributes_description,
+						button: {
+							label: resBundle.label_add,
+							callback: _addCustomAttr
+						},
+						removable: true,
+						appliesTo: true
+					});
+
+				$elem.on('onSelect', function(evt, ui) {
+					if(evt.target === this && ui.firstTime) {
+						var $tab = $(ui.tab);
+						_createAttrTab($tab, $tab.data('options'));
+					}
+				});
+			}).always(function() {
+				$.unblockElem(blockElementId);
+			});
+		};
+
+		var _createAttrTab = function($tab, options) {
+			$('<div class="ldmAttributeDesc">' + options.description + '</div>').appendTo($tab);
+
+			var term = '', prevTerm = '',
+			gridRowModel = {
+
+					attributes: options.attributes,
+
+					getRootObjects : function(options) {
+						var records = this.attributes.map(function(v) {
+							var newVal = $.extend(true, {}, v);
+							newVal.label = $.infa.Formats.escapeComprehensive(v.label || v.name);
+							newVal.packageName = $.infa.Formats.escapeComprehensive(v.packageName);
+							return newVal;
+						});
+
+						if(options.sortBy) {
+							var query = jlinq.from(records);
+
+							for(var i = 0; i < options.sortBy.length; i++) {
+								var sortBy = options.sortBy[i];
+								if(sortBy.ascending) {
+									query.sort(sortBy.property);
+								} else {
+									query.sort("-" + sortBy.property);
+								}
+							}
+						}
+
+						records = infa.ldm.Utils.filterItems(records, this._term);
+
+						return records;
+					},
+
+					isEqual: function(a, b) {
+						return a.id === b.id;
+					},
+
+					getSubGridColumnInfo: function(rowObject) {
+						var subGridColumnInfo = [{
+							name: 'desc',
+							label: resBundle.label_system_attributes_subdescription,
+							width: 100,
+							columnModel: {
+								getData: function(rowObject, columnName) {
+									return $.infa.Formats.escapeComprehensive(rowObject.description);
+								}
+							}
+						}];
+
+						if(options.appliesTo) {
+							subGridColumnInfo.push({
+								name: 'applies',
+								label: resBundle.label_applies_to,
+								width: 100,
+								columnModel: {
+									getData: function(rowObject, columnName) {
+										if(rowObject.appliesTo) {
+											return rowObject.appliesTo.join(', ');
+										}
+									}
+								}
+							});
+						}
+
+						return subGridColumnInfo;
+					}
+			};
+
+			var gridColumnModel = {
+					getIcon: function() {
+						return $.url('/web.infaGrid/images/inrow_clear.svg');
+					},
+
+					getData : function(rowObj, columnName) {
+						if(columnName === 'remove') {
+							return '';
+						} else {
+							var attribute = attributeMap[rowObj.id];
+							if(!attribute.config) {
+								// Default config
+								attribute.config = infa.ldm.AppConfigData.getDefaultConfig(attribute);
+							}
+
+							if(attribute.searchable === undefined) {
+								attribute.searchable = true;
+							}
+
+							return rowObj[columnName];
+						}
+					}
+			};
+			var columnInfo,
+				toolbar = [];
+
+			if(options.removable)
+				columnInfo = [{name:'label', label:resBundle.label_name, width: 580},
+				              {name: 'remove', label: '', width: '20px', showIcon: true, showLink: true}];
+			else
+				columnInfo = [{name:'label', label:resBundle.label_name, width: 300},
+			                  {name:'packageName', label:resBundle.label_orig_from, width: 300}];
+
+			if(options.button) {
+				toolbar.push({
+                    wType: 'infaButton',
+                    wOptions: {
+                        label: options.button.label,
+                        height: 24
+                    },
+                    events: {
+                    	'onSelect': options.button.callback
+                    }
+                });
+			} else {
+				toolbar.push({
+					id: 'sysFind',
+                    wType: 'infaTextbox',
+                    wOptions: {
+                        placeHolder: resBundle.label_find
+                    },
+                    events: {
+                    	'input': function(evt) {
+                    		term = $(evt.originalEvent.target).val();
+                    		if(term !== prevTerm){
+	                    		_search($.getWidget($(this).closest('.infaGrid'), 'infaGrid'), term);
+	                    		prevTerm = term;
+                    		}
+            			}
+                    }
+                });
+			}
+
+			var $attrContainer = $('<div class="appConfigOuterContainer"></div>').appendTo($tab),
+				$attrList = $('<div class="appConfigContainer" id="attrList"></div>').appendTo($attrContainer),
+				$attrForm = $('<div class="appConfigForm"></div>').appendTo($attrContainer);
+
+			$attrForm.on('change', 'input', function(e) {
+				var attributeId = $(this).closest('.appConfigForm').data('attribute-id'),
+					checked = $(this).is(':checked'),
+					attribute = attributeMap[attributeId];
+
+				attribute.config[$(this).attr('name')] = checked;
+
+				if($(this).hasClass('appConfigFormParentItem')) {
+					var $subItems = $(this).parent().find('.appConfigFormSubItem'),
+						$checkboxes = $subItems.filter('input').prop('disabled', !checked);
+
+					$subItems.find('select').prop('disabled', !checked);
+
+					if(!checked) {
+						for(var i = 0; i < $checkboxes.length; i++) {
+							var $subItem = $($checkboxes[0]);
+							if($subItem.is('input')) {
+								$subItem.prop('checked', false);
+								attribute.config[$subItem.attr('name')] = false;
+							}
+						}
+					}
+				}
+
+				dirtyConfigMap[attributeId] = true;
+			}).on('change', 'select', function(e) {
+				var attributeId = $(this).closest('.appConfigForm').data('attribute-id');
+				attributeMap[attributeId].config[$(this).attr('name')] = $(this).val();
+
+				dirtyConfigMap[attributeId] = true;
+			});
+
+			var height = $tab.parent().height() - $tab.siblings('ul').outerHeight() - $tab.children().outerHeight(true) - 125; // 125 for Grid Header
+			$attrList.on('onSelectRow', function(evt, row) {
+				var grid = $.getWidget($(this), 'infaGrid');
+				var attribute =  attributeMap[grid.getRowDataObject(row).id];
+				var localizedMessages = {};
+				localizedMessages.label_display_search_result = resBundle.label_display_search_result;
+				localizedMessages.label_allow_searching = resBundle.label_allow_searching;
+				localizedMessages.label_allow_filtering = resBundle.label_allow_filtering;
+				localizedMessages.label_allow_sorting = resBundle.label_allow_sorting;
+				localizedMessages.label_filter_type = resBundle.label_filter_type;
+				localizedMessages.label_slider = resBundle.label_slider;
+				localizedMessages.label_range = resBundle.label_range;
+				localizedMessages.label_allow_editing = resBundle.label_allow_editing;
+				localizedMessages.label_object_overview = resBundle.label_object_overview;
+				attribute.localizedTexts = localizedMessages;
+
+				$attrForm.html($.tmpl("appConfigForm", attribute)).data('attribute-id', attribute.id);
+			}).on('onDataProviderLoad', function() {
+				var grid = $.getWidget($(this), 'infaGrid');
+				if(grid.rowCount() > 0) {
+					grid.selectRow(grid.getRowByIndex(1));
+				} else {
+					$attrForm.empty();
+				}
+			}).infaGrid({
+				columnInfo: columnInfo,
+				rowModel: gridRowModel,
+				columnModel: gridColumnModel,
+				caption: resBundle.label_attributes,
+	            height: height,
+				border: false,
+				rowNum: -1,
+				detailView: true,
+				toolbar: toolbar,
+				subGridOptions: {
+					expandAllButton: false
+				}
+			}).on('onHrefClick', function(evt, row, columnName) {
+				if(columnName === 'remove') {
+					var attribute = grid.getRowDataObject(row);
+					_removeCustomAttribute(attributeMap[attribute.id]);
+					grid.loadData();
+				}
+			});
+
+			// Initialize grid with first row selected
+			var grid = $.getWidget($attrList, 'infaGrid');
+			grid.selectRow(grid.getRowByIndex(1));
+			$attrForm.height(Math.floor($attrList.height()));
+		};
+
+		var _createObjectTypesTab = function() {
+			var $i18nAlias = infaw.ldm.core.I18nResources,
+				$textUtils = infa.i18n.TextUtils.instance(),
+				$excludedTabs = $(appConfigTabs.add($textUtils.getText($i18nAlias.ASSET_TYPE) + 's'))
+			.append('<div class="ldmAttributeDesc">'+resBundle.label_search_filter+'</div>');
+
+			$excludedTabs.height($excludedTabs.parent().height() - $excludedTabs.siblings('ul').outerHeight());
+
+			var $attributeList = $('<div class="appConfigContainer" style="box-shadow: 2px 2px 2px #bbb;"></div>').appendTo($excludedTabs);
+
+			var term = '', prevTerm = '',
+				gridRowModel = {
+					objectTypes: objectTypes,
+
+					getRootObjects : function(options) {
+
+						var records = this.objectTypes.map(function(v) {
+								var newVal = $.extend(true, {}, v);
+								newVal.label = $.infa.Formats.escapeComprehensive(v.label || v.name);
+								newVal.packageName = $.infa.Formats.escapeComprehensive(v.packageName);
+								return newVal;
+							}),
+							query = jlinq.from(records);
+
+						if(options.sortBy) {
+							for(var i = 0; i < options.sortBy.length; i++) {
+								var sortBy = options.sortBy[i];
+								if(sortBy.ascending) {
+									query.sort(sortBy.property);
+								} else {
+									query.sort("-" + sortBy.property);
+								}
+							}
+						}
+
+						records = infa.ldm.Utils.filterItems(records, this._term);
+//						setUncheckedObjectTypes($.getWidget($attributeList, 'infaGrid'));
+						return records;
+					},
+
+					isRowChecked: function(rowObj) {
+						return uncheckedObjectTypes && uncheckedObjectTypes[rowObj.id]  ? false : true;
+					}
+			};
+
+			var gridColumnModel = {
+					getData : function(rowObj, columnName) {
+						return rowObj[columnName];
+					}
+			};
+
+			$attributeList.infaGrid({
+	            columnInfo:[
+	                        {name:'label',label: $textUtils.getText($i18nAlias.ASSET_TYPE), width: 300},
+	                        {name:'packageName', label:resBundle.label_orig_from, width: 300}],
+	            rowModel: gridRowModel,
+	            columnModel: gridColumnModel,
+	            caption: $textUtils.getText($i18nAlias.ASSET_TYPE) + 's',
+	            hideCheckboxHeader: false,
+	            rowNum: -1,
+	            height: ($excludedTabs.height() - $excludedTabs.children().outerHeight(true) - 125),
+//	            border: false,
+	            checkboxes: true,
+	            toolbar:  [{
+	            	id: 'typesFind',
+                    wType: 'infaTextbox',
+                    wOptions: {
+                        placeHolder: resBundle.label_find
+                    },
+                    events: {
+                    	'input': function(evt) {
+                    		term = $(evt.originalEvent.target).val();
+                    		if(term !== prevTerm){
+                    			var grid = $.getWidget($(this).closest('.infaGrid'), 'infaGrid');
+                    			_search(grid, term);
+//                    			self.setUncheckedObjectTypes(grid);
+                    			prevTerm = term;
+                    		}
+            			}
+                    }
+                }]
+			}).on('onSelectRow', function(event, rowObj) {
+
+				var grid = objectTypesGrid;
+				if(grid.isChecked(rowObj)){
+					delete uncheckedObjectTypes[objectTypesGrid.getRowDataObject(rowObj).id];
+				}else{
+					uncheckedObjectTypes[grid.getRowDataObject(rowObj).id] = true;
+				}
+
+
+			}).on('onSelectAll', function(event, rows){
+				var grid = objectTypesGrid;
+					if(rows == true){
+						for(var i = grid.rowCount(); i > 0; i--) {
+						var row = grid.getRowByIndex(i);
+						if(grid.isChecked(row)) {
+							delete uncheckedObjectTypes[grid.getRowDataObject(row).id];
+						}
+						}
+					}else {
+							for(var i = grid.rowCount(); i > 0; i--) {
+							var row = grid.getRowByIndex(i);
+								uncheckedObjectTypes[grid.getRowDataObject(row).id] = true;
+						}
+						}
+					});
+			objectTypesGrid = $.getWidget($attributeList, 'infaGrid');
+		};
+
+		var _addCustomAttr = function() {
+			var $attributePromise = new infaw.ldm.CustomAttributeDialog(allAttributes).getAttributePromise();
+			$.when($attributePromise, $(this).closest('.infaGrid')).then(function(res, $grid) {
+				var grid = $.getWidget($grid, 'infaGrid'),
+					addedList = res[0],
+					removedList = res[1];
+
+				for(var i = 0; i < removedList.length; i++) {
+					var attribute = removedList[i];
+					_removeCustomAttribute(attribute);
+				}
+
+				for(var i = 0; i < addedList.length; i++) {
+					var attribute = addedList[i];
+
+					if(removedCustMap[attribute.id]) {
+						var index = removedCustAttr.indexOf(attribute);
+						if(index !== -1) {
+							removedCustAttr.splice(index, 1);
+						}
+					}
+
+					customAttr.push(attribute);
+					dirtyConfigMap[attribute.id] = true;
+				}
+
+				grid.loadData();
+			});  
+		}
+
+		var _removeCustomAttribute = function(attribute) {
+			var index = customAttr.indexOf(attribute);
+			if(index !== -1) {
+				customAttr.splice(index, 1);
+			}
+
+			if(attribute.hasConfig) {
+				removedCustAttr.push(attribute);
+				removedCustMap[attribute.id] = true;
+			}
+
+			attribute.config = null;
+			dirtyConfigMap[attribute.id] = true;
+		};
+
+		_createUI($elem);
+		_processData(appConfig, allAttributes);
+		_renderUI();
+	}
+
+});

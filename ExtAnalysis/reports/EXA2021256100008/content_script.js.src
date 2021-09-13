@@ -1,0 +1,80 @@
+
+$.Class('infa.extensionInitializer',
+{   
+    initialized: false,
+    init : function()
+    {
+       
+        chrome.runtime && chrome.runtime.onMessage.addListener(function(message,sender,sendResponse){
+
+            if(message.method == 'openGeneric' && !infa.extensionInitializer.initialized){
+                infa.extensionInitializer.initialized = true;                          
+                infa.extensionInitializer.extensionInitialize({show:true});
+            }
+            if(message.method == 'URLChange'){
+                infa.extensionInitializer.extensionInitialize();
+            }
+        });
+        infa.Eic.extensionView.initializeEICConfiguration().done(function(){
+            infa.extensionInitializer.extensionInitialize();
+        });        
+        window.addEventListener("message", function(event){
+            if(event.data == "closeEICExtensionWindow"){
+                var slideActionIcon =  $(".slideActionIcon");
+                    slideActionIcon.show();
+                    $(".extensionSlidingWindow").removeClass('slideLeft');
+                    slideActionIcon.find(".left").show();
+            }
+            
+        }, false);
+    },
+    extensionInitialize : function(showSearch){
+        this.getTableauObjectDetails().done(function(tabObject){
+            if(tabObject || showSearch){
+            chrome.storage.sync.set(
+            {
+                action:"cacheEICConfiguration",
+                tableauObject: tabObject||"",
+                showSearch:showSearch && showSearch.show||""
+            },function(){
+                infa.Eic.extensionView.initialize(showSearch || tabObject);
+            });
+            
+            }          
+             
+        })     
+        },
+
+    getParsedTableauObject : function(){
+        var reportbookmarklet = infa.tableauReportBookMarklet.getTableauObject();
+        if(reportbookmarklet){
+            reportbookmarklet = JSON.parse(reportbookmarklet);
+        var tabObject ="", tabObjectArray =[];
+        
+        reportbookmarklet.context && tabObjectArray.push(reportbookmarklet.context);
+        reportbookmarklet.report && tabObjectArray.push(reportbookmarklet.report);
+        reportbookmarklet.page && tabObjectArray.push(reportbookmarklet.page);
+        
+        tabObject = tabObjectArray.join(";");
+        return tabObject;
+        }
+    },
+    getTableauObjectDetails : function(){
+        var deferred = $.Deferred(),
+        self = this;
+        $(document).ready(function(){
+                if(location.hash && ((location.hash.split("/")[1] == "workbooks") 
+                                    || (location.hash.split("/")[1] == "site" && location.hash.split("/")[3] == "workbooks"))){
+                    deferred.resolve(self.getParsedTableauObject());
+               
+                }
+                else if(location.hash && ((location.hash.split("/")[1] == "views") 
+                || (location.hash.split("/")[1] == "site" && location.hash.split("/")[3] == "views"))){
+                            deferred.resolve(self.getParsedTableauObject());
+                }else
+                    deferred.resolve(location.href);
+        })
+    return deferred.promise();
+    }
+
+},{})

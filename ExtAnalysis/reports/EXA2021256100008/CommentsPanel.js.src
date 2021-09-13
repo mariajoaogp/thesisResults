@@ -1,0 +1,38 @@
+infaw.extension.ldm.threeSixty.abstractPanel.extend('infaw.extension.ldm.threeSixty.CommentsPanel', {}, {
+    
+    setTitle: function (cntr) {
+        cntr.append("Comments");
+    },
+
+    setPanelContent: function (panelCntr) {
+
+        var extensionOpts = {
+                                url : EIC_CONFIGURATION.getUrl() + "/",
+                                templateUrl : "res/tmpl/360/comments"
+                            };
+
+        var createCommentDiv = $("<div>").appendTo(panelCntr);
+        var commentsDiv = $("<div>").addClass("class", 'commentsDiv').css("clear","both").appendTo(panelCntr);
+        var slidingWindow = panelCntr.parents(".extensionContainerPanel");
+        createCommentDiv.createComment({
+                            objectId: RISON.urlencode(this.getObjectInfo().getId()),
+                            simple:true,
+                            extensionOpts: extensionOpts,
+                            colNum:69
+                        });
+                      createCommentDiv.on("commentCreated",function(e,data) {
+                        var widget = $.getWidget(commentsDiv,'ldmCommentsEIC');
+                        widget.addComment && widget.addComment(data);
+                        var commentsInfo = $.getWidget( slidingWindow.find(".commentInfo"), 'ldmCommentsInfo');
+                        commentsInfo.refreshUI && commentsInfo.refreshUI();
+
+                        var stats = $.getWidget( slidingWindow.find(".commentsStats"),'ldmCommentStats');
+                        stats.refreshUI && stats.refreshUI();
+                        })
+        commentsDiv.commentsEIC({
+                                objectId : RISON.urlencode(this.getObjectInfo().getId()), 
+                                extensionOpts : extensionOpts
+                                });
+    }
+
+});
