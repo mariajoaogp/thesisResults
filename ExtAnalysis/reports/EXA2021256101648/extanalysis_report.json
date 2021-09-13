@@ -1,0 +1,233 @@
+{
+    "author": "unknown",
+    "base64_strings": [
+        {
+            "file": "jquery.min.js",
+            "string": "leteExpando="
+        },
+        {
+            "file": "jquery.min.js",
+            "string": "hrinkWrapBlocks="
+        },
+        {
+            "file": "jquery.min.js",
+            "string": "liableHiddenOffsets="
+        },
+        {
+            "file": "jquery.min.js",
+            "string": "onpCallback="
+        },
+        {
+            "file": "jquery.min.js",
+            "string": "matedProperties="
+        },
+        {
+            "file": "jquery.min.js",
+            "string": "cellpadding="
+        },
+        {
+            "file": "jquery.min.js",
+            "string": "cellspacing="
+        },
+        {
+            "file": "jquery.min.js",
+            "string": "esAddBorderForTableAndCells="
+        }
+    ],
+    "bitcoin_addresses": [],
+    "comments": [
+        {
+            "comment": "! jQuery v1.6.4 http://jquery.com/ | http://jquery.org/license",
+            "file": "jquery.min.js"
+        },
+        {
+            "comment": "$0",
+            "file": "jquery.min.js"
+        },
+        {
+            "comment": "www.wermz.com&#39;;",
+            "file": "popup.js"
+        },
+        {
+            "comment": " Add listener for events from the ifram",
+            "file": "popup.js"
+        },
+        {
+            "comment": "www.wermz.com&#39;;",
+            "file": "background.js"
+        },
+        {
+            "comment": "s3.amazonaws.com/wermznews/static/email/wermz-logo-email.png&#39;) center center no-repeat;width:350px;height:400px;&quot;&gt;\t",
+            "file": "wermz.html"
+        }
+    ],
+    "crx": "/home/maria/ExtAnalysis/lab/pbinilkmkdpcpnfmecnehdgecpcbfhep.crx",
+    "description": "This extension shows topics and articles related to the news article being viewed",
+    "domains": [
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "142.250.200.142",
+            "name": "clients2.google.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "104.18.212.12",
+            "name": "jquery.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "34.102.136.180",
+            "name": "wermz.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "104.17.19.100",
+            "name": "jquery.org",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "52.216.139.205",
+            "name": "s3.amazonaws.com",
+            "virustotal": "No virustotal api found"
+        }
+    ],
+    "emails": [],
+    "extracted": "/home/maria/ExtAnalysis/lab/pbinilkmkdpcpnfmecnehdgecpcbfhep",
+    "files": {
+        "css": [],
+        "html": [
+            {
+                "background.html": "background.html"
+            },
+            {
+                "wermz.html": "wermz.html"
+            }
+        ],
+        "js": [
+            {
+                "jquery.min.js": "jquery.min.js"
+            },
+            {
+                "popup.js": "popup.js"
+            },
+            {
+                "background.js": "background.js"
+            },
+            {
+                "content.js": "content.js"
+            }
+        ],
+        "json": [
+            {
+                "manifest.json": "manifest.json"
+            },
+            {
+                "verified_contents.json": "_metadata/verified_contents.json"
+            }
+        ],
+        "other": [],
+        "static": [
+            {
+                "icon.png": "icon.png"
+            }
+        ]
+    },
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "manifest": {
+        "background": {
+            "page": "background.html",
+            "persistent": false
+        },
+        "description": "This extension shows topics and articles related to the news article being viewed",
+        "manifest_version": 2,
+        "name": "Wermz Enhanced News",
+        "page_action": {
+            "default_icon": "icon.png",
+            "default_popup": "wermz.html",
+            "default_title": "Wermz Enhanced News"
+        },
+        "permissions": [
+            "tabs",
+            "storage",
+            "https://*.wermz.com/",
+            "http://*.wermz.com/"
+        ],
+        "update_url": "https://clients2.google.com/service/update2/crx",
+        "version": "1.0"
+    },
+    "name": "Wermz Enhanced News",
+    "permissions": [
+        {
+            "badge": "<i class=\"fas fa-th\"></i>",
+            "description": "Grants the extension access to privileged fields of the Tab objects used by several APIs including chrome.tabs and chrome.windows. In many circumstances the extension will not need to declare the tabs permission to make use of these APIs.",
+            "name": "tabs",
+            "risk": "high",
+            "warning": "Read your browsing history"
+        },
+        {
+            "badge": "<i class=\"fas fa-hdd\"></i>",
+            "description": "Gives your extension access to the chrome.storage API.",
+            "name": "storage",
+            "risk": "medium",
+            "warning": "na"
+        },
+        {
+            "badge": "<i class=\"fas fa-question\"></i>",
+            "description": "na",
+            "name": "https://*.wermz.com/",
+            "risk": "none",
+            "warning": "na"
+        },
+        {
+            "badge": "<i class=\"fas fa-question\"></i>",
+            "description": "na",
+            "name": "http://*.wermz.com/",
+            "risk": "none",
+            "warning": "na"
+        }
+    ],
+    "type": "local",
+    "urls": [
+        {
+            "domain": "jquery.com",
+            "file": "jquery.min.js",
+            "url": "http://jquery.com/"
+        },
+        {
+            "domain": "jquery.org",
+            "file": "jquery.min.js",
+            "url": "http://jquery.org/license"
+        },
+        {
+            "domain": "wermz.com",
+            "file": "popup.js",
+            "url": "https://www.wermz.com"
+        },
+        {
+            "domain": "wermz.com",
+            "file": "background.js",
+            "url": "https://www.wermz.com"
+        },
+        {
+            "domain": "s3.amazonaws.com",
+            "file": "wermz.html",
+            "url": "https://s3.amazonaws.com/wermznews/static/email/wermz-logo-email.png"
+        },
+        {
+            "domain": "clients2.google.com",
+            "file": "manifest.json",
+            "url": "https://clients2.google.com/service/update2/crx"
+        }
+    ],
+    "version": "1.0"
+}
