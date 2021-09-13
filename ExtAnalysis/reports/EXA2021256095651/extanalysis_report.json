@@ -1,0 +1,1460 @@
+{
+    "author": "Avast",
+    "base64_strings": [
+        {
+            "file": "scripts/contentInject.js",
+            "string": "omponentOptions="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "staticTrees="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "scopedSlots="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "staticRenderFns="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "parentListeners="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "omputedWatchers="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "uperOptions="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "tendOptions="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "aledOptions="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "omponentTag="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "nstalledPlugins="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "ynamicAttrs="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "ativeEvents="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "ansitionClasses="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "ReservedTag="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "staticClass="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "lassBinding="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "tyleBinding="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "otTargetDynamic="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "hasBindings="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "fConditions="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "apListeners="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "oveAllListeners="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "balSettings="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "axListeners="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "rboseMemoryLeak="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "setMaxListeners="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "animationFinishCallback="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "lideSwapRunning="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "ttonSwapRunning="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "interEvents="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "containerShadow="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "esettingSetting="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "templateNps="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "popupShadow="
+        },
+        {
+            "file": "scripts/contentInject.js",
+            "string": "opbarShadow="
+        },
+        {
+            "file": "scripts/contentAdvertisers.js",
+            "string": "reachGuardStartScraping="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "JSONOptions="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "oveAllListeners="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "axListeners="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "rboseMemoryLeak="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "setMaxListeners="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "getMaxListeners="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "awListeners="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "pulateAccessors="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "opulateDefaults="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "rseFieldOptions="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "arseExtensionRanges="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "valueFromString="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "lueToString="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "protoFromString="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "writeUint64="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "writeUInt64="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "riteFloat64="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "readFloat64="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "writeVarint32ZigZag="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "dVarint32ZigZag="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "lculateVarint64="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "ZagEncode64="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "ZagDecode64="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "iteVarint64="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "writeVarint64ZigZag="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "eadVarint64="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "dVarint64ZigZag="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "riteCString="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "readCString="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "riteIString="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "readIString="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "writeUTF8String="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "writeString="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "culateUTF8Chars="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "culateUTF8Bytes="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "calculateString="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "dUTF8String="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "riteVString="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "readVString="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "getHighBits="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "tNumBitsAbs="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "riteFloatLE="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "riteFloatBE="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "readFloatLE="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "readFloatBE="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "iteDoubleLE="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "iteDoubleBE="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "eadDoubleLE="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "eadDoubleBE="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "webshieldProperties="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "ainTrackers="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "patternTrackers="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "ebAnalytics="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "ntAutoBlock="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "sBadgeAnimating="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "withCredentials="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "wserExtInfo="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "iveTrackers="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "advertisers="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "loseDetails="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "wVoteThanks="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "rrentWindow="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "advertiserScenarios="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "reachGuardStartScraping="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "questedServices="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "ererDetails="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "ssageClientInfo="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "wserCleanUpInfo="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "AvastMobileSecurityInfo="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "eleaseNotes="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "AvastConfig="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "defaultSettings="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAFElEQVR4XgXAAQ0AAABAMP1L30IDCPwC/o5WcS4AAAAASUVORK5CYII="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "storedVotes="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "abPanelHandlers="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "Advertisers="
+        },
+        {
+            "file": "scripts/background.js",
+            "string": "webRequests="
+        },
+        {
+            "file": "scripts/contentAdvertisersScraper.js",
+            "string": "nputMatches="
+        },
+        {
+            "file": "scripts/contentAdvertisersScraper.js",
+            "string": "rmTypeRules="
+        },
+        {
+            "file": "scripts/contentAdvertisersScraper.js",
+            "string": "axListeners="
+        },
+        {
+            "file": "scripts/contentAdvertisersScraper.js",
+            "string": "defaultMaxListeners="
+        },
+        {
+            "file": "scripts/contentAdvertisersScraper.js",
+            "string": "setMaxListeners="
+        },
+        {
+            "file": "scripts/contentAdvertisersScraper.js",
+            "string": "oveAllListeners="
+        },
+        {
+            "file": "scripts/contentAdvertisersScraper.js",
+            "string": "llXElements="
+        },
+        {
+            "file": "scripts/contentAdvertisersScraper.js",
+            "string": "credentials="
+        }
+    ],
+    "bitcoin_addresses": [],
+    "comments": [
+        {
+            "comment": "vuejs.org/v2/guide/reactivity.html#Declaring-Reactive-Properties.`,e)",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "vuejs.org/v2/api/#data`,e)",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "vuejs.org/v2/guide/components.html#data-Must-Be-a-Function&quot;,e))",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "www.w3.org/1999/xlink&quot;,Fa=e=&gt;&quot;:&quot;===e.charAt(5)&amp;&amp;&quot;xlink&quot;===e.slice(0,5),Ha=e=&gt;Fa(e)?e.slice(6,e.length):&quot;&quot;,Ka=e=&gt;null==e||!1===e",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "www.w3.org/2000/svg&quot;,",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "www.w3.org/1998/Math/MathML&quot;",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "vuejs.org/guide/list.html#key for more info.`,e.rawAttrsMap[&quot;v-for&quot;],!0),",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "fonts.googleapis.com/css?family=Roboto:400,700&amp;amp;subset=cyrillic,greek,latin-ext&quot;,",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": ".test(i)&amp;&amp;a.addEventListener(&quot;click&quot;,this.aosLinkClickBinded)",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "g,t)",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "&quot;+t)",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "(w+:{0,1}w*@)?(www.)?([a-z0-9-.]+[a-z]{2,6})(:[0-9]+)?(.*)?$&quot;))",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "(w+:{0,1}w*@)?([a-z0-9-.]+[a-z]{2,6})(:[0-9]+)?(.*)?$&quot;))",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "&quot;:&quot;&quot;)+t:e",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": "addons.mozilla.org/firefox/addon/avast-online-security/privacy&quot;)",
+            "file": "scripts/contentInject.js"
+        },
+        {
+            "comment": " empty here, non-empty for safari",
+            "file": "scripts/topee-iframe-resources.js"
+        },
+        {
+            "comment": "i],[r,[c,&quot;Amazon&quot;],[u,d]],[/(sd|kf)[0349hijorstuw]+(\\sbuild\\/|\\)).+silk\\//i],[[r,g.str,f.device.amazon.model],[c,&quot;Amazon&quot;],[u,p]],[/android.+aft([bms])\\sbuild/i],[r,[c,&quot;Amazon&quot;],[u,m]],[/\\((ip[honed|\\s\\w*]+);.+(apple)/i],[r,c,[u,p]],[/\\((ip[honed|\\s\\w*]+);/i],[r,[c,&quot;Apple&quot;],[u,p]],[/(blackberry)[\\s-]?(\\w+)/i,/(blackberry|benq|palm(?=\\-)|sonyericsson|acer|asus|dell|meizu|motorola|polytron)[\\s_-]?([\\w-]*)/i,/(hp)\\s([\\w\\s]+\\w)/i,/(asus)-?(\\w+)/i],[c,r,[u,p]],[/\\(bb10;\\s(\\w+)/i],[r,[c,&quot;BlackBerry&quot;],[u,p]],[/android.+(transfo[prime\\s]{4,10}\\s\\w+|eeepc|slider\\s\\w+|nexus 7|padfone|p00c)/i],[r,[c,&quot;Asus&quot;],[u,d]],[/(sony)\\s(tablet\\s[ps])\\sbuild\\//i,/(sony)?(?:sgp.+)\\sbuild\\//i],[[c,&quot;Sony&quot;],[r,&quot;Xperia Tablet&quot;],[u,d]],[/android.+\\s([c-g]\\d{4}|so[-l]\\w+)(?=\\sbuild\\/|\\).+chrome\\/(?![1-6]{0,1}\\d\\.))/i],[r,[c,&quot;Sony&quot;],[u,p]],[/\\s(ouya)\\s/i,/(nintendo)\\s([wids3u]+)/i],[c,r,[u,&quot;console&quot;]],[/android.+;\\s(shield)\\sbuild/i],[r,[c,&quot;Nvidia&quot;],[u,&quot;console&quot;]],[/(playstation\\s[34portablevi]+)/i],[r,[c,&quot;Sony&quot;],[u,&quot;console&quot;]],[/(sprint\\s(\\w+))/i],[[c,g.str,f.device.sprint.vendor],[r,g.str,f.device.sprint.model],[u,p]],[/(htc)[;_\\s-]{1,2}([\\w\\s]+(?=\\)|\\sbuild)|\\w+)/i,/(zte)-(\\w*)/i,/(alcatel|geeksphone|nexian|panasonic|(?=;\\s)sony)[_\\s-]?([\\w-]*)/i],[c,[r,/_/g,&quot; &quot;],[u,p]],[/(nexus\\s9)/i],[r,[c,&quot;HTC&quot;],[u,d]],[/d\\/huawei([\\w\\s-]+)[;\\)]/i,/android.+\\s(nexus\\s6p|vog-[at]?l\\d\\d|ane-[at]?l[x\\d]\\d|eml-a?l\\d\\da?|lya-[at]?l\\d[\\dc]|clt-a?l\\d\\di?)/i],[r,[c,&quot;Huawei&quot;],[u,p]],[/android.+(bah2?-a?[lw]\\d{2})/i],[r,[c,&quot;Huawei&quot;],[u,d]],[/(microsoft);\\s(lumia[\\s\\w]+)/i],[c,r,[u,p]],[/[\\s\\(;](xbox(?:\\sone)?)[\\s\\);]/i],[r,[c,&quot;Microsoft&quot;],[u,&quot;console&quot;]],[/(kin\\.[onetw]{3})/i],[[r,/\\./g,&quot; &quot;],[c,&quot;Microsoft&quot;],[u,p]],[/\\s(milestone|droid(?:[2-4x]|\\s(?:bionic|x2|pro|razr))?:?(\\s4g)?)[\\w\\s]+build\\//i,/mot[\\s-]?(\\w*)/i,/(XT\\d{3,4}) build\\//i,/(nexus\\s6)/i],[r,[c,&quot;Motorola&quot;],[u,p]],[/android.+\\s(mz60\\d|xoom[\\s2]{0,2})\\sbuild\\//i],[r,[c,&quot;Motorola&quot;],[u,d]],[/hbbtv\\/\\d+\\.\\d+\\.\\d+\\s+\\([\\w\\s]*;\\s*(\\w[^;]*);([^;]*)/i],[[c,h.trim],[r,h.trim],[u,m]],[/hbbtv.+maple;(\\d+)/i],[[r,/^/,&quot;SmartTV&quot;],[c,&quot;Samsung&quot;],[u,m]],[/\\(dtv[\\);].+(aquos)/i],[r,[c,&quot;Sharp&quot;],[u,m]],[/android.+((sch-i[89]0\\d|shw-m380s|SM-P605|SM-P610|gt-p\\d{4}|gt-n\\d+|sgh-t8[56]9|nexus 10))/i,/((SM-T\\w+))/i],[[c,&quot;Samsung&quot;],r,[u,d]],[/smart-tv.+(samsung)/i],[c,[u,m],r],[/((s[cgp]h-\\w+|gt-\\w+|galaxy\\snexus|sm-\\w[\\w\\d]+))/i,/(sam[sung]*)[\\s-]*(\\w+-?[\\w-]*)/i,/sec-((sgh\\w+))/i],[[c,&quot;Samsung&quot;],r,[u,p]],[/sie-(\\w*)/i],[r,[c,&quot;Siemens&quot;],[u,p]],[/(maemo|nokia).*(n900|lumia\\s\\d+)/i,/(nokia)[\\s_-]?([\\w-]*)/i],[[c,&quot;Nokia&quot;],r,[u,p]],[/android[x\\d\\.\\s;]+\\s([ab][1-7]\\-?[0178a]\\d\\d?)/i],[r,[c,&quot;Acer&quot;],[u,d]],[/android.+([vl]k\\-?\\d{3})\\s+build/i],[r,[c,&quot;LG&quot;],[u,d]],[/android\\s3\\.[\\s\\w;-]{10}(lg?)-([06cv9]{3,4})/i],[[c,&quot;LG&quot;],r,[u,d]],[/linux;\\snetcast.+smarttv/i,/lg\\snetcast\\.tv-201\\d/i],[[c,&quot;LG&quot;],r,[u,m]],[/(nexus\\s[45])/i,/lg[e;\\s\\/-]+(\\w*)/i,/android.+lg(\\-?[\\d\\w]+)\\s+build/i],[r,[c,&quot;LG&quot;],[u,p]],[/(lenovo)\\s?(s(?:5000|6000)(?:[\\w-]+)|tab(?:[\\s\\w]+))/i],[c,r,[u,d]],[/android.+(ideatab[a-z0-9\\-\\s]+)/i],[r,[c,&quot;Lenovo&quot;],[u,d]],[/(lenovo)[_\\s-]?([\\w-]+)/i],[c,r,[u,p]],[/linux;.+((jolla));/i],[c,r,[u,p]],[/((pebble))app\\/[\\d\\.]+\\s/i],[c,r,[u,&quot;wearable&quot;]],[/android.+;\\s(oppo)\\s?([\\w\\s]+)\\sbuild/i],[c,r,[u,p]],[/crkey/i],[[r,&quot;Chromecast&quot;],[c,&quot;Google&quot;],[u,m]],[/android.+;\\s(glass)\\s\\d/i],[r,[c,&quot;Google&quot;],[u,&quot;wearable&quot;]],[/android.+;\\s(pixel c)[\\s)]/i],[r,[c,&quot;Google&quot;],[u,d]],[/android.+;\\s(pixel( [2-9]a?)?( xl)?)[\\s)]/i],[r,[c,&quot;Google&quot;],[u,p]],[/android.+;\\s(\\w+)\\s+build\\/hm\\1/i,/android.+(hm[\\s\\-_]?note?[\\s_]?(?:\\d\\w)?)\\sbuild/i,/android.+(redmi[\\s\\-_]?(?:note|k)?(?:[\\s_]?[\\w\\s]+))(?:\\sbuild|\\))/i,/android.+(mi[\\s\\-_]?(?:a\\d|one|one[\\s_]plus|note lte)?[\\s_]?(?:\\d?\\w?)[\\s_]?(?:plus)?)\\sbuild/i],[[r,/_/g,&quot; &quot;],[c,&quot;Xiaomi&quot;],[u,p]],[/android.+(mi[\\s\\-_]?(?:pad)(?:[\\s_]?[\\w\\s]+))(?:\\sbuild|\\))/i],[[r,/_/g,&quot; &quot;],[c,&quot;Xiaomi&quot;],[u,d]],[/android.+;\\s(m[1-5]\\snote)\\sbuild/i],[r,[c,&quot;Meizu&quot;],[u,p]],[/(mz)-([\\w-]{2,})/i],[[c,&quot;Meizu&quot;],r,[u,p]],[/android.+a000(1)\\s+build/i,/android.+oneplus\\s(a\\d{4})[\\s)]/i],[r,[c,&quot;OnePlus&quot;],[u,p]],[/android.+[;\\/]\\s*(RCT[\\d\\w]+)\\s+build/i],[r,[c,&quot;RCA&quot;],[u,d]],[/android.+[;\\/\\s](Venue[\\d\\s]{2,7})\\s+build/i],[r,[c,&quot;Dell&quot;],[u,d]],[/android.+[;\\/]\\s*(Q[T|M][\\d\\w]+)\\s+build/i],[r,[c,&quot;Verizon&quot;],[u,d]],[/android.+[;\\/]\\s+(Barnes[&amp;\\s]+Noble\\s+|BN[RT])(V?.*)\\s+build/i],[[c,&quot;Barnes &amp; Noble&quot;],r,[u,d]],[/android.+[;\\/]\\s+(TM\\d{3}.*\\b)\\s+build/i],[r,[c,&quot;NuVision&quot;],[u,d]],[/android.+;\\s(k88)\\sbuild/i],[r,[c,&quot;ZTE&quot;],[u,d]],[/android.+[;\\/]\\s*(gen\\d{3})\\s+build.*49h/i],[r,[c,&quot;Swiss&quot;],[u,p]],[/android.+[;\\/]\\s*(zur\\d{3})\\s+build/i],[r,[c,&quot;Swiss&quot;],[u,d]],[/android.+[;\\/]\\s*((Zeki)?TB.*\\b)\\s+build/i],[r,[c,&quot;Zeki&quot;],[u,d]],[/(android).+[;\\/]\\s+([YR]\\d{2})\\s+build/i,/android.+[;\\/]\\s+(Dragon[\\-\\s]+Touch\\s+|DT)(\\w{5})\\sbuild/i],[[c,&quot;Dragon Touch&quot;],r,[u,d]],[/android.+[;\\/]\\s*(NS-?\\w{0,9})\\sbuild/i],[r,[c,&quot;Insignia&quot;],[u,d]],[/android.+[;\\/]\\s*((NX|Next)-?\\w{0,9})\\s+build/i],[r,[c,&quot;NextBook&quot;],[u,d]],[/android.+[;\\/]\\s*(Xtreme\\_)?(V(1[045]|2[015]|30|40|60|7[05]|90))\\s+build/i],[[c,&quot;Voice&quot;],r,[u,p]],[/android.+[;\\/]\\s*(LVTEL\\-)?(V1[12])\\s+build/i],[[c,&quot;LvTel&quot;],r,[u,p]],[/android.+;\\s(PH-1)\\s/i],[r,[c,&quot;Essential&quot;],[u,p]],[/android.+[;\\/]\\s*(V(100MD|700NA|7011|917G).*\\b)\\s+build/i],[r,[c,&quot;Envizen&quot;],[u,d]],[/android.+[;\\/]\\s*(Le[\\s\\-]+Pan)[\\s\\-]+(\\w{1,9})\\s+build/i],[c,r,[u,d]],[/android.+[;\\/]\\s*(Trio[\\s\\w\\-\\.]+)\\s+build/i],[r,[c,&quot;MachSpeed&quot;],[u,d]],[/android.+[;\\/]\\s*(Trinity)[\\-\\s]*(T\\d{3})\\s+build/i],[c,r,[u,d]],[/android.+[;\\/]\\s*TU_(1491)\\s+build/i],[r,[c,&quot;Rotor&quot;],[u,d]],[/android.+(Gigaset)[\\s\\-]+(Q\\w{1,9})\\s+build/i],[c,r,[u,d]],[/android .+?; ([^;]+?)(?: build|\\) applewebkit).+? mobile safari/i],[r,[u,p]],[/android .+?;\\s([^;]+?)(?: build|\\) applewebkit).+?(?! mobile) safari/i],[r,[u,d]],[/\\s(tablet|tab)[;\\/]/i,/\\s(mobile)(?:[;\\/]|\\ssafari)/i],[[u,h.lowerize],c,r],[/[\\s\\/\\(](smart-?tv)[;\\)]/i],[[u,m]],[/(android[\\w\\.\\s\\-]{0,9});.+build/i],[r,[c,&quot;Generic&quot;]]],",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "github.com/dcodeIO/ProtoBuf.js/wiki/Services&quot;)),0)",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "&quot;+t)",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "(w+:{0,1}w*@)?(www.)?([a-z0-9-.]+[a-z]{2,6})(:[0-9]+)?(.*)?$&quot;))",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "WebShield/Common/ProviderEnabled&quot;,&quot;avcfg://WebShield/Common/TemporaryDisabled&quot;,&quot;avcfg://WebShield/WebScanner/HttpsScanning&quot;,&quot;avcfg://WebShield/WebScanner/WebScanning&quot;,&quot;avcfg://WebShield/WebScanner/ScriptScaning&quot;,&quot;avcfg://WebShield/WebScanner/URLBlocking&quot;,&quot;avcfg://settings/Common/HardenedMode&quot;,&quot;avcfg://WebShield/Common/TaskSensitivity&quot;]",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "Common/PassiveMode/Enabled&quot;),e.push(&quot;avprop://Common/RestartNeeded/Value&quot;),",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "localhost:&quot;+e+&quot;/command&quot;,",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "localhost:&quot;+this.AvastWRC.Query.CONST.LOCAL_PORT+&quot;/command&quot;,",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "&quot;)||e.startsWith(&quot;avprop://&quot;)||(e=&quot;avcfg://settings/Common/&quot;+e),",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": " Because Firefox\\n  `),",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "&quot;,&quot;^chrome:\\\\/\\\\/&quot;,&quot;^chrome-extension:&quot;,&quot;^moz-extension:&quot;,&quot;^ms-browser-extension:&quot;,&quot;^chrome-devtools:\\\\/\\\\/&quot;,&quot;^https:\\\\/\\\\/chrome\\\\.google\\\\.com\\\\/webstore&quot;,&quot;^about:&quot;,&quot;^view-source:&quot;,&quot;^file:\\\\/\\\\/&quot;,&quot;^http(s)?:\\\\/\\\\/([\\\\w|\\\\d]+:[\\\\w|\\\\d]+@)?localhost&quot;,&quot;^data:text\\\\/html&quot;],",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "analytics.ff.avast.com/v4/receive/gpb&quot;,",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "analytics-stage.ff.avast.com/v4/receive/gpb&quot;",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "shepherd.ff.avast.com/?&quot;,",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "shepherd-preview.ff.avast.com/?&quot;",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "chrome.google.com/webstore/detail/avast-online-security/gomekmidlodglbbmalcneegieacbdmki?utm_source=extension&amp;utm_medium=nps&amp;utm_campaign=AOS &#39;",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "www.avast.com?utm_source=OnlineSecurity&amp;utm_medium=redirect&amp;utm_campaign=avast&quot;,",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "aos.avast.com/upgrade/&quot;,",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "ui.ff.avast.com&quot;,this.HTTP_PORT=&quot;80&quot;,",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "uib.ff.avast.com&quot;,",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "uib.ff.avast.com:443&quot;,",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "*/*&quot;,&quot;https://*/*&quot;]",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "(w+:{0,1}w*@)?([a-z0-9-.]+[a-z]{2,6})(:[0-9]+)?(.*)?$&quot;))",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "WebShield/Common/ProviderEnabled&quot;,&quot;avcfg://WebShield/Common/TemporaryDisabled&quot;,&quot;avcfg://WebShield/WebScanner/HttpsScanning&quot;,&quot;avcfg://WebShield/WebScanner/WebScanning&quot;]",
+            "file": "scripts/background.js"
+        },
+        {
+            "comment": "input[((translate(@type, &#39;SUBMIT&#39;, &#39;submit&#39;) != &#39;submit&#39; and translate(@type, &#39;BUTON&#39;, &#39;buton&#39;) != &#39;button&#39; and translate(@type, &#39;IMAGE&#39;, &#39;image&#39;) != &#39;image&#39; and translate(@type, &#39;REST&#39;, &#39;rest&#39;) != &#39;reset&#39;) or not(@type)) and not(ancestor::form)] | .//select[@name and not(ancestor::form)]&quot;:&quot;.//input[(translate(@type, &#39;SUBMIT&#39;, &#39;submit&#39;) != &#39;submit&#39; and translate(@type, &#39;BUTON&#39;, &#39;buton&#39;) != &#39;button&#39; and translate(@type, &#39;IMAGE&#39;, &#39;image&#39;) != &#39;image&#39; and translate(@type, &#39;REST&#39;, &#39;rest&#39;) != &#39;reset&#39;) or not(@type)] | .//select[@name] | .//textarea[@name]&quot;),",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[translate(@type, &#39;PASWORD&#39;, &#39;pasword&#39;) = &#39;password&#39;]&quot;,t,!0)||!l.XElement.test(&quot;count(.//input[translate(@type, &#39;HIDEN&#39;, &#39;hiden&#39;) != &#39;hidden&#39;]) &lt; 5&quot;,n)||(this._type=l.XForm.Type.LOGIN),",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[((translate(@type, &#39;IMAGE&#39;, &#39;image&#39;) != &#39;image&#39; and translate(@type, &#39;REST&#39;, &#39;rest&#39;) != &#39;reset&#39;) or not(@type)) and not(ancestor::form)] | .//select[@name and not(ancestor::form)]&quot;,null,!0)",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[@type=&#39;password&#39; and not(ancestor::form)]&quot;,null,!0)",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "form&quot;,null,!0))",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[translate(@type, &#39;PASWORD&#39;, &#39;pasword&#39;) = &#39;password&#39;]) &gt; 3&quot;:y.Type.IGNORE,",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[translate(@type, &#39;PASWORD&#39;, &#39;pasword&#39;) = &#39;password&#39;]) = 3&quot;:y.Type.PWDCHG,",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[translate(@type, &#39;PASWORD&#39;, &#39;pasword&#39;) = &#39;password&#39;]) = 2 and count(.//input[translate(@type, &#39;HIDEN&#39;, &#39;hiden&#39;) != &#39;hidden&#39; and translate(@type, &#39;BUTON&#39;, &#39;buton&#39;) != &#39;button&#39;]) - count(.//input[translate(@type, &#39;SUBMIT&#39;, &#39;submit&#39;) = &#39;submit&#39;]) = 2&quot;:y.Type.IGNORE,",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[translate(@type, &#39;PASWORD&#39;, &#39;pasword&#39;) = &#39;password&#39;]) &gt; 1&quot;:y.Type.SIGNUP,",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[translate(@type, &#39;TEX&#39;, &#39;tex&#39;) = &#39;text&#39; or not(@type)]) + count(.//input[translate(@type, &#39;EMAIL&#39;, &#39;email&#39;) = &#39;email&#39;]) &gt; 2 and count(.//input[translate(@type, &#39;PASWORD&#39;, &#39;pasword&#39;) = &#39;password&#39;]) = 1&quot;:y.Type.SIGNUP,",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[translate(@type, &#39;TEX&#39;, &#39;tex&#39;) = &#39;text&#39; or not(@type)]) + count(.//input[translate(@type, &#39;EMAIL&#39;, &#39;email&#39;) = &#39;email&#39;]) &gt; 1 and count(.//input[translate(@type, &#39;PASWORD&#39;, &#39;pasword&#39;) = &#39;password&#39;]) = 1&quot;:y.Type.EITHER,",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[translate(@type, &#39;TEX&#39;, &#39;tex&#39;) = &#39;text&#39; or not(@type)]) + count(.//input[translate(@type, &#39;EMAIL&#39;, &#39;email&#39;) = &#39;email&#39;]) + count(.//input[translate(@type, &#39;TEL&#39;, &#39;tel&#39;) = &#39;tel&#39;]) = 1 and count(.//input[translate(@type, &#39;PASWORD&#39;, &#39;pasword&#39;) = &#39;password&#39;]) = 0 and translate(@method, &#39;GEPOST&#39;, &#39;gepost&#39;) = &#39;post&#39;&quot;:y.Type.NONE,",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[translate(@type, &#39;PASWORD&#39;, &#39;pasword&#39;) = &#39;password&#39;]) = 1&quot;:y.Type.LOGIN,",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "input[translate(@type, &#39;PASWORD&#39;, &#39;pasword&#39;) = &#39;password&#39;]) = 0&quot;:y.Type.NONE,",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "&quot;:&quot;//&quot;)+p.join(&quot;/&quot;):null",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "*[@id=&quot;g-recaptcha-response&quot;]&#39;,e.xelement.element,!0))){",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "*[@id=&quot;g-recaptcha-response&quot;]&#39;),",
+            "file": "scripts/contentAdvertisersScraper.js"
+        },
+        {
+            "comment": "GA event mock functions for DNT compatability",
+            "file": "common/mocks/ga.js"
+        },
+        {
+            "comment": "fonts.googleapis.com/css?family=Roboto:400,700&amp;amp;amp;subset=cyrillic,greek,latin-ext&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;",
+            "file": "common/messagebox.html"
+        }
+    ],
+    "crx": "/home/maria/ExtAnalysis/lab/gomekmidlodglbbmalcneegieacbdmki.crx",
+    "description": "Avast browser security and web reputation plugin.",
+    "domains": [
+        {
+            "country": "Netherlands",
+            "country_code": "nl",
+            "ip": "104.83.213.224",
+            "name": "avast.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "142.250.200.78",
+            "name": "chrome.google.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "142.250.200.142",
+            "name": "clients2.google.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "Germany",
+            "country_code": "de",
+            "ip": "5.62.40.154",
+            "name": "uib.ff.avast.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "140.82.121.3",
+            "name": "github.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "Czechia",
+            "country_code": "cz",
+            "ip": "5.62.53.196",
+            "name": "shepherd-preview.ff.avast.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "Czechia",
+            "country_code": "cz",
+            "ip": "5.45.57.195",
+            "name": "analytics-stage.ff.avast.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "128.30.52.100",
+            "name": "w3.org",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "Czechia",
+            "country_code": "cz",
+            "ip": "69.94.77.205",
+            "name": "analytics.ff.avast.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United Kingdom",
+            "country_code": "gb",
+            "ip": "52.56.244.77",
+            "name": "vuejs.org",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "5.62.48.203",
+            "name": "shepherd.ff.avast.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United Kingdom",
+            "country_code": "gb",
+            "ip": "5.62.42.121",
+            "name": "ui.ff.avast.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "unknown",
+            "country_code": "unknown",
+            "ip": "unknown",
+            "name": "aos.avast.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "44.229.174.138",
+            "name": "addons.mozilla.org",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "142.250.178.170",
+            "name": "fonts.googleapis.com",
+            "virustotal": "No virustotal api found"
+        }
+    ],
+    "emails": [],
+    "extracted": "/home/maria/ExtAnalysis/lab/gomekmidlodglbbmalcneegieacbdmki",
+    "files": {
+        "css": [
+            {
+                "style.css": "common/ui/css/style.css"
+            }
+        ],
+        "html": [
+            {
+                "webshieldLogs.html": "common/webshieldLogs.html"
+            },
+            {
+                "messagebox.html": "common/messagebox.html"
+            }
+        ],
+        "js": [
+            {
+                "contentInject.js": "scripts/contentInject.js"
+            },
+            {
+                "contentAvast.js": "scripts/contentAvast.js"
+            },
+            {
+                "contentAdvertisers.js": "scripts/contentAdvertisers.js"
+            },
+            {
+                "topee-iframe-resources.js": "scripts/topee-iframe-resources.js"
+            },
+            {
+                "background.js": "scripts/background.js"
+            },
+            {
+                "contentAdvertisersScraper.js": "scripts/contentAdvertisersScraper.js"
+            },
+            {
+                "ga.js": "common/mocks/ga.js"
+            },
+            {
+                "omniture.js": "common/mocks/omniture.js"
+            },
+            {
+                "gpt.js": "common/mocks/gpt.js"
+            },
+            {
+                "empty.js": "common/mocks/empty.js"
+            }
+        ],
+        "json": [
+            {
+                "manifest.json": "manifest.json"
+            },
+            {
+                "verified_contents.json": "_metadata/verified_contents.json"
+            },
+            {
+                "messages.json": "_locales/ru/messages.json"
+            },
+            {
+                "messages.json": "_locales/ja/messages.json"
+            },
+            {
+                "messages.json": "_locales/fa/messages.json"
+            },
+            {
+                "messages.json": "_locales/cs/messages.json"
+            },
+            {
+                "messages.json": "_locales/nl/messages.json"
+            },
+            {
+                "messages.json": "_locales/ms/messages.json"
+            },
+            {
+                "messages.json": "_locales/es/messages.json"
+            },
+            {
+                "messages.json": "_locales/da/messages.json"
+            },
+            {
+                "messages.json": "_locales/vi/messages.json"
+            },
+            {
+                "messages.json": "_locales/ko/messages.json"
+            },
+            {
+                "messages.json": "_locales/ro/messages.json"
+            },
+            {
+                "messages.json": "_locales/en/messages.json"
+            },
+            {
+                "messages.json": "_locales/pt_PT/messages.json"
+            },
+            {
+                "messages.json": "_locales/hi/messages.json"
+            },
+            {
+                "messages.json": "_locales/bn/messages.json"
+            },
+            {
+                "messages.json": "_locales/be/messages.json"
+            },
+            {
+                "messages.json": "_locales/ar/messages.json"
+            },
+            {
+                "messages.json": "_locales/el/messages.json"
+            },
+            {
+                "messages.json": "_locales/uk/messages.json"
+            },
+            {
+                "messages.json": "_locales/en_GB/messages.json"
+            },
+            {
+                "messages.json": "_locales/he/messages.json"
+            },
+            {
+                "messages.json": "_locales/zh_TW/messages.json"
+            },
+            {
+                "messages.json": "_locales/lv/messages.json"
+            },
+            {
+                "messages.json": "_locales/ur/messages.json"
+            },
+            {
+                "messages.json": "_locales/hr/messages.json"
+            },
+            {
+                "messages.json": "_locales/tr/messages.json"
+            },
+            {
+                "messages.json": "_locales/sv/messages.json"
+            },
+            {
+                "messages.json": "_locales/lt/messages.json"
+            },
+            {
+                "messages.json": "_locales/nb/messages.json"
+            },
+            {
+                "messages.json": "_locales/bg/messages.json"
+            },
+            {
+                "messages.json": "_locales/pl/messages.json"
+            },
+            {
+                "messages.json": "_locales/sl/messages.json"
+            },
+            {
+                "messages.json": "_locales/th/messages.json"
+            },
+            {
+                "messages.json": "_locales/hu/messages.json"
+            },
+            {
+                "messages.json": "_locales/fi/messages.json"
+            },
+            {
+                "messages.json": "_locales/fr/messages.json"
+            },
+            {
+                "messages.json": "_locales/pt_BR/messages.json"
+            },
+            {
+                "messages.json": "_locales/zh_CN/messages.json"
+            },
+            {
+                "messages.json": "_locales/de/messages.json"
+            },
+            {
+                "messages.json": "_locales/sr/messages.json"
+            },
+            {
+                "messages.json": "_locales/it/messages.json"
+            },
+            {
+                "messages.json": "_locales/id/messages.json"
+            },
+            {
+                "messages.json": "_locales/ca/messages.json"
+            },
+            {
+                "messages.json": "_locales/sk/messages.json"
+            },
+            {
+                "messages.json": "_locales/et/messages.json"
+            }
+        ],
+        "other": [
+            {
+                "proximanova-regular-webfont.woff2": "common/ui/fonts/proximanova-regular-webfont.woff2"
+            },
+            {
+                "proximanova-bold-webfont.woff2": "common/ui/fonts/proximanova-bold-webfont.woff2"
+            }
+        ],
+        "static": [
+            {
+                "thumb-up-normal.svg": "common/ui/icons/thumb-up-normal.svg"
+            },
+            {
+                "nps-badge-4.png": "common/ui/icons/nps-badge-4.png"
+            },
+            {
+                "icon32.png": "common/ui/icons/icon32.png"
+            },
+            {
+                "status-none.png": "common/ui/icons/status-none.png"
+            },
+            {
+                "question.svg": "common/ui/icons/question.svg"
+            },
+            {
+                "icon-danger.png": "common/ui/icons/icon-danger.png"
+            },
+            {
+                "icon-breachguard-outline.png": "common/ui/icons/icon-breachguard-outline.png"
+            },
+            {
+                "icon32bw.png": "common/ui/icons/icon32bw.png"
+            },
+            {
+                "switchOff.png": "common/ui/icons/switchOff.png"
+            },
+            {
+                "switchOn.png": "common/ui/icons/switchOn.png"
+            },
+            {
+                "thumb-up-active.svg": "common/ui/icons/thumb-up-active.svg"
+            },
+            {
+                "check.svg": "common/ui/icons/check.svg"
+            },
+            {
+                "icon16.png": "common/ui/icons/icon16.png"
+            },
+            {
+                "icon-loading.svg": "common/ui/icons/icon-loading.svg"
+            },
+            {
+                "lightbulb.svg": "common/ui/icons/lightbulb.svg"
+            },
+            {
+                "close.png": "common/ui/icons/close.png"
+            },
+            {
+                "advertisers-danger.svg": "common/ui/icons/advertisers-danger.svg"
+            },
+            {
+                "icon-unknown.png": "common/ui/icons/icon-unknown.png"
+            },
+            {
+                "advertisers-success.svg": "common/ui/icons/advertisers-success.svg"
+            },
+            {
+                "checked.png": "common/ui/icons/checked.png"
+            },
+            {
+                "ok24.svg": "common/ui/icons/ok24.svg"
+            },
+            {
+                "advertisers-loading.svg": "common/ui/icons/advertisers-loading.svg"
+            },
+            {
+                "danger-big.svg": "common/ui/icons/danger-big.svg"
+            },
+            {
+                "logo.svg": "common/ui/icons/logo.svg"
+            },
+            {
+                "settings.svg": "common/ui/icons/settings.svg"
+            },
+            {
+                "red80.png": "common/ui/icons/red80.png"
+            },
+            {
+                "info.svg": "common/ui/icons/info.svg"
+            },
+            {
+                "icon48.png": "common/ui/icons/icon48.png"
+            },
+            {
+                "serp-icon-unknown.svg": "common/ui/icons/serp-icon-unknown.svg"
+            },
+            {
+                "icon-bad.png": "common/ui/icons/icon-bad.png"
+            },
+            {
+                "nps-badge-3.png": "common/ui/icons/nps-badge-3.png"
+            },
+            {
+                "thumb-down-active.svg": "common/ui/icons/thumb-down-active.svg"
+            },
+            {
+                "thumb-up-normal-mini.png": "common/ui/icons/thumb-up-normal-mini.png"
+            },
+            {
+                "nps-badge-0.png": "common/ui/icons/nps-badge-0.png"
+            },
+            {
+                "icon256.png": "common/ui/icons/icon256.png"
+            },
+            {
+                "icon32bw@2x.png": "common/ui/icons/icon32bw@2x.png"
+            },
+            {
+                "icon64.png": "common/ui/icons/icon64.png"
+            },
+            {
+                "icon32bw@3x.png": "common/ui/icons/icon32bw@3x.png"
+            },
+            {
+                "tracking-orange.svg": "common/ui/icons/tracking-orange.svg"
+            },
+            {
+                "serp-icon-attention.svg": "common/ui/icons/serp-icon-attention.svg"
+            },
+            {
+                "advertisers-error.svg": "common/ui/icons/advertisers-error.svg"
+            },
+            {
+                "star.svg": "common/ui/icons/star.svg"
+            },
+            {
+                "tracking-red.svg": "common/ui/icons/tracking-red.svg"
+            },
+            {
+                "icon128.png": "common/ui/icons/icon128.png"
+            },
+            {
+                "danger.svg": "common/ui/icons/danger.svg"
+            },
+            {
+                "tracking-green.svg": "common/ui/icons/tracking-green.svg"
+            },
+            {
+                "check-big.svg": "common/ui/icons/check-big.svg"
+            },
+            {
+                "right.svg": "common/ui/icons/right.svg"
+            },
+            {
+                "exclamation.svg": "common/ui/icons/exclamation.svg"
+            },
+            {
+                "thumb-down-normal.svg": "common/ui/icons/thumb-down-normal.svg"
+            },
+            {
+                "consent-big.svg": "common/ui/icons/consent-big.svg"
+            },
+            {
+                "serp-icon-dangerous.svg": "common/ui/icons/serp-icon-dangerous.svg"
+            },
+            {
+                "nps-badge-2.png": "common/ui/icons/nps-badge-2.png"
+            },
+            {
+                "serp-icon-all-ok.svg": "common/ui/icons/serp-icon-all-ok.svg"
+            },
+            {
+                "icon-ok.png": "common/ui/icons/icon-ok.png"
+            },
+            {
+                "nps-badge-5.png": "common/ui/icons/nps-badge-5.png"
+            },
+            {
+                "nps-badge-1.png": "common/ui/icons/nps-badge-1.png"
+            }
+        ]
+    },
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "manifest": {
+        "author": "Avast",
+        "background": {
+            "scripts": [
+                "scripts/background.js"
+            ]
+        },
+        "browser_action": {
+            "default_icon": "common/ui/icons/icon-unknown.png",
+            "default_title": "Avast Online Security"
+        },
+        "commands": {
+            "_execute_browser_action": {
+                "description": "Open AOS UI",
+                "suggested_key": {
+                    "default": "Alt+Shift+L"
+                }
+            }
+        },
+        "content_scripts": [
+            {
+                "js": [
+                    "scripts/contentAvast.js"
+                ],
+                "matches": [
+                    "*://*.avast.com/*"
+                ]
+            },
+            {
+                "js": [
+                    "scripts/contentInject.js"
+                ],
+                "matches": [
+                    "<all_urls>"
+                ],
+                "run_at": "document_start"
+            },
+            {
+                "js": [
+                    "scripts/contentAdvertisers.js"
+                ],
+                "matches": [
+                    "<all_urls>"
+                ]
+            }
+        ],
+        "default_locale": "en",
+        "description": "__MSG_appDesc__",
+        "icons": {
+            "128": "common/ui/icons/icon128.png",
+            "16": "common/ui/icons/icon16.png",
+            "256": "common/ui/icons/icon256.png",
+            "32": "common/ui/icons/icon32.png",
+            "48": "common/ui/icons/icon48.png",
+            "64": "common/ui/icons/icon64.png"
+        },
+        "incognito": "split",
+        "manifest_version": 2,
+        "name": "__MSG_appName__",
+        "permissions": [
+            "https://*/*",
+            "http://*/*",
+            "storage",
+            "tabs",
+            "webNavigation",
+            "webRequest",
+            "webRequestBlocking"
+        ],
+        "update_url": "https://clients2.google.com/service/update2/crx",
+        "version": "20.3.10",
+        "web_accessible_resources": [
+            "common/mocks/*",
+            "common/ui/*",
+            "common/ui/icons/*",
+            "common/ui/fonts/*",
+            "common/ui/css/*"
+        ]
+    },
+    "name": "Avast Online Security",
+    "permissions": [
+        {
+            "badge": "<i class=\"fas fa-globe-africa\"></i>",
+            "description": "Matches any URL that uses the https: scheme.",
+            "name": "https://*/*",
+            "risk": "high",
+            "warning": "Read and change all your data on the websites you visit that uses the scheme https://"
+        },
+        {
+            "badge": "<i class=\"fas fa-globe-africa\"></i>",
+            "description": "Matches any URL that uses the http: scheme.",
+            "name": "http://*/*",
+            "risk": "high",
+            "warning": "Read and change all your data on the websites you visit that uses the scheme http://"
+        },
+        {
+            "badge": "<i class=\"fas fa-hdd\"></i>",
+            "description": "Gives your extension access to the chrome.storage API.",
+            "name": "storage",
+            "risk": "medium",
+            "warning": "na"
+        },
+        {
+            "badge": "<i class=\"fas fa-th\"></i>",
+            "description": "Grants the extension access to privileged fields of the Tab objects used by several APIs including chrome.tabs and chrome.windows. In many circumstances the extension will not need to declare the tabs permission to make use of these APIs.",
+            "name": "tabs",
+            "risk": "high",
+            "warning": "Read your browsing history"
+        },
+        {
+            "badge": "<i class=\"fas fa-globe\"></i>",
+            "description": "Grants the extension access to the chrome.webNavigation API.",
+            "name": "webNavigation",
+            "risk": "medium",
+            "warning": "Read your browsing history"
+        },
+        {
+            "badge": "<i class=\"fas fa-globe-asia\"></i>",
+            "description": "Gives your extension access to the chrome.webRequest API.",
+            "name": "webRequest",
+            "risk": "critical",
+            "warning": "na"
+        },
+        {
+            "badge": "<i class=\"fas fa-hand-paper\"></i>",
+            "description": "Required if the extension uses the chrome.webRequest API in a blocking fashion.",
+            "name": "webRequestBlocking",
+            "risk": "low",
+            "warning": "na"
+        }
+    ],
+    "type": "local",
+    "urls": [
+        {
+            "domain": "vuejs.org",
+            "file": "scripts/contentInject.js",
+            "url": "https://vuejs.org/v2/guide/reactivity.html#Declaring-Reactive-Properties"
+        },
+        {
+            "domain": "vuejs.org",
+            "file": "scripts/contentInject.js",
+            "url": "https://vuejs.org/v2/api/#data"
+        },
+        {
+            "domain": "vuejs.org",
+            "file": "scripts/contentInject.js",
+            "url": "https://vuejs.org/v2/guide/components.html#data-Must-Be-a-Function"
+        },
+        {
+            "domain": "w3.org",
+            "file": "scripts/contentInject.js",
+            "url": "http://www.w3.org/1999/xlink"
+        },
+        {
+            "domain": "w3.org",
+            "file": "scripts/contentInject.js",
+            "url": "http://www.w3.org/2000/svg"
+        },
+        {
+            "domain": "w3.org",
+            "file": "scripts/contentInject.js",
+            "url": "http://www.w3.org/1998/Math/MathML"
+        },
+        {
+            "domain": "vuejs.org",
+            "file": "scripts/contentInject.js",
+            "url": "https://vuejs.org/guide/list.html#key"
+        },
+        {
+            "domain": "fonts.googleapis.com",
+            "file": "scripts/contentInject.js",
+            "url": "https://fonts.googleapis.com/css?family=Roboto:400,700&amp"
+        },
+        {
+            "domain": "addons.mozilla.org",
+            "file": "scripts/contentInject.js",
+            "url": "https://addons.mozilla.org/firefox/addon/avast-online-security/privacy"
+        },
+        {
+            "domain": "github.com",
+            "file": "scripts/background.js",
+            "url": "https://github.com/dcodeIO/ProtoBuf.js/wiki/Services"
+        },
+        {
+            "domain": "analytics.ff.avast.com",
+            "file": "scripts/background.js",
+            "url": "https://analytics.ff.avast.com/v4/receive/gpb"
+        },
+        {
+            "domain": "analytics-stage.ff.avast.com",
+            "file": "scripts/background.js",
+            "url": "https://analytics-stage.ff.avast.com/v4/receive/gpb"
+        },
+        {
+            "domain": "shepherd.ff.avast.com",
+            "file": "scripts/background.js",
+            "url": "https://shepherd.ff.avast.com/?"
+        },
+        {
+            "domain": "shepherd-preview.ff.avast.com",
+            "file": "scripts/background.js",
+            "url": "https://shepherd-preview.ff.avast.com/?"
+        },
+        {
+            "domain": "chrome.google.com",
+            "file": "scripts/background.js",
+            "url": "https://chrome.google.com/webstore/detail/avast-online-security/gomekmidlodglbbmalcneegieacbdmki?utm_source=extension&utm_medium=nps&utm_campaign=AOS"
+        },
+        {
+            "domain": "avast.com",
+            "file": "scripts/background.js",
+            "url": "https://www.avast.com?utm_source=OnlineSecurity&utm_medium=redirect&utm_campaign=avast"
+        },
+        {
+            "domain": "aos.avast.com",
+            "file": "scripts/background.js",
+            "url": "http://aos.avast.com/upgrade/"
+        },
+        {
+            "domain": "ui.ff.avast.com",
+            "file": "scripts/background.js",
+            "url": "http://ui.ff.avast.com"
+        },
+        {
+            "domain": "uib.ff.avast.com",
+            "file": "scripts/background.js",
+            "url": "https://uib.ff.avast.com"
+        },
+        {
+            "domain": "uib.ff.avast.com",
+            "file": "scripts/background.js",
+            "url": "https://uib.ff.avast.com:443"
+        },
+        {
+            "domain": "fonts.googleapis.com",
+            "file": "common/messagebox.html",
+            "url": "https://fonts.googleapis.com/css?family=Roboto:400,700&amp"
+        },
+        {
+            "domain": "clients2.google.com",
+            "file": "manifest.json",
+            "url": "https://clients2.google.com/service/update2/crx"
+        }
+    ],
+    "version": "20.3.10"
+}
