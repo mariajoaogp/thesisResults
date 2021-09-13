@@ -1,0 +1,274 @@
+infaw.ldm.threeSixty.abstractPanel.extend('infaw.ldm.threeSixty.headerPanel', {
+
+    _parentAssociationForType: null,
+
+    getParentAssociationForType: function (type) {
+        if (!infaw.ldm.threeSixty.headerPanel._parentAssociationForType) {
+            var configs = {};
+            configs[infa.ldm.Utils.CLASSTYPE_DELIMITEDFILE] = "com.infa.ldm.file.delimited.FolderToDelimitedFile";
+            configs[infa.ldm.Utils.CLASSTYPE_FOLDER] = "com.infa.ldm.file.FolderToFolder";
+            configs[infa.ldm.Utils.CLASSTYPE_JSONFILE] = 'com.infa.ldm.file.json.FolderToJSONFile';
+            configs[infa.ldm.Utils.CLASSTYPE_XMLFILE] = 'com.infa.ldm.file.xml.FolderToXMLFile';
+            configs[infa.ldm.Utils.CLASSTYPE_UNSTRUCTUREDFILE] = 'com.infa.ldm.file.xml.FolderToUnstructuredFile';
+            configs[infa.ldm.Utils.CLASSTYPE_DELIMITEDFIELD] = 'com.infa.ldm.file.delimited.DelimitedField';
+            configs[infa.ldm.Utils.CLASSTYPE_JSONFILEFIELD] = 'com.infa.ldm.file.json.JSONFileField';
+            configs[infa.ldm.Utils.CLASSTYPE_XMLFILEFIELD] = 'com.infa.ldm.file.xml.XMLFileField';
+            configs[infa.ldm.Utils.CLASSTYPE_TABLE] = infa.ldm.Utils.SCHEMA_TABLE_ASSOCIATION;
+            configs[infa.ldm.Utils.CLASSTYPE_SYNONYM] = infa.ldm.Utils.TABLE_SYNONYM_ASSOCIATION;
+            configs[infa.ldm.Utils.CLASSTYPE_VIEW] = infa.ldm.Utils.SCHEMA_VIEW_ASSOCIATION;
+            configs[infa.ldm.Utils.CLASSTYPE_COLUMN] = 'com.infa.ldm.relational.TableColumn';
+            configs[infa.ldm.Utils.CLASSTYPE_ADAPTERFIELD] = 'com.infa.ldm.adapter.ObjectField';
+            configs[infa.ldm.Utils.CLASSTYPE_VIEW_COLUMN] = 'com.infa.ldm.relational.ViewViewColumn';
+            configs[infa.ldm.Utils.BG_TERM] = infa.ldm.Utils.GLOSSARY_TERM_ASSOCIATION;
+
+            infaw.ldm.threeSixty.headerPanel._parentAssociationForType = configs;
+        }
+        return infaw.ldm.threeSixty.headerPanel._parentAssociationForType[type];
+    }
+
+}, {
+
+    panelCls: "",
+
+    _getParentId: function () {
+
+        var deferred = $.Deferred(),
+            objectInfo = this.getObjectInfo(),
+            classType = objectInfo.getObjectType();
+
+        if (classType == infa.ldm.Utils.CLASSTYPE_SYNONYM) {
+            var relationshipsQueryString = "&relationships=" + infa.ldm.Utils.TABLE_SYNONYM_ASSOCIATION +
+                "&relationships=" + infa.ldm.Utils.SCHEMA_TABLE_ASSOCIATION +
+                "&relationships=" + infa.ldm.Utils.VIEW_SYNONYM_ASSOCIATION +
+                "&relationships=" + infa.ldm.Utils.SCHEMA_VIEW_ASSOCIATION +
+                "&depth=2";
+
+            $.blockGetJSON('/web.ldm.relationships?sourceId=' + RISON.urlencode(objectInfo.getId()) + relationshipsQueryString, null, null, -1)
+                .then(function (response) {
+                    var sourceObjects = [],
+                        parentId;
+
+                    response.items.forEach(function (item) {
+                        if ((sourceObjects = item.srcObjects) && item.srcObjects.length > 0) {
+                            for (var i = 0; i < sourceObjects.length; i++) {
+                                if (sourceObjects[i].association === infa.ldm.Utils.SCHEMA_TABLE_ASSOCIATION || sourceObjects[i].association === infa.ldm.Utils.SCHEMA_VIEW_ASSOCIATION) {
+                                    parentId = sourceObjects[i].id;
+                                    break;
+                                }
+                            }
+                        }
+                    });
+                    deferred.resolve(parentId);
+                });
+        } else {
+            var srcObjects = objectInfo.getSrcObjects(),
+                parentId;
+            for (var i = 0; i < srcObjects.length; i++) {
+                if (srcObjects[i].association === infaw.ldm.threeSixty.headerPanel.getParentAssociationForType()) {
+                    parentId = srcObjects[i].id;
+                    break;
+                }
+            }
+            deferred.resolve(parentId);
+        }
+        return deferred.promise();
+    },
+
+    setPanelContent: function (cntr) {
+        this.resBundle = infaw.ldm.threeSixty.I18nResources;
+        this._cntr = cntr;
+        //cntr.append("<p>Header Panel</p>");
+        var self = this;
+        this._getParentId().done(function (parentId) {
+            self.prepareUI(cntr, parentId);
+        });
+    },
+
+    prepareUI: function (cntr, parentId) {
+
+        var that = this,
+            objectInfo = this.getObjectInfo(),
+            h = [],
+            parentObj,
+            $i18nAlias = infaw.ldm.core.I18nResources,
+            $textUtils = infa.i18n.TextUtils.instance(),
+            $container = $('<div id="' + $.htmlId('headerText') + '" class="ldmHeaderPortlet"></div>')
+            .appendTo(cntr.addClass("ldmHeaderPortlet-content"));
+
+
+        h.push('<div class="ldmHeaderContainer">')
+        that.addProperty(h, $textUtils.getText($i18nAlias.ASSET_TYPE), infa.ldm.AppConfigData.instance().getLabel(objectInfo.getObjectType()));
+        var parentObj;
+        com.infa.utils.instance().getParentData([objectInfo.id]).then(function (childParentMap) {
+            var _values = that.getParentList(childParentMap, objectInfo.id);
+            if (parentId) {
+                if (_that._parentObj) {
+                    parentObj = _that._parentObj;
+                    h.push('<span class="ldmHeaderPanel-title">' + infa.ldm.AppConfigData.instance().getLabel(parentObj.getObjectType()) + ': </span>');
+                    h.push('<span class="ldmHeaderPanel-subtitle"><a class="ldmLink cursor_pointer">' + $.infa.Formats.escapeComprehensive(parentObj.getObjectName()) + '</a></span>');
+                    that.addHeaderProperties(h, objectInfo).done(function () {
+                        h.push('</div>');
+                    });
+                    that.createParentList(h, _values, objectInfo);
+                    $container.html(h.join(''));
+                    that.checkOverflow();
+
+                } else {
+                    return $.blockGetJSON('/web.ldm.360.fetch?&id=' + RISON.urlencode(parentId), null, null, blockElementId).then(function (res) {
+                        if (res && res.items.length === 1) {
+                            var objResp = res.items[0];
+                            parentObj = _that._parentObj = new infaw.ldm.LDMObject(objResp.id, objResp.facts);
+                            h.push('<span class="ldmHeaderPanel-title">' + infa.ldm.AppConfigData.instance().getLabel(parentObj.getObjectType()) + ': </span>');
+                            h.push('<span class="ldmHeaderPanel-subtitle"><a class="ldmLink cursor_pointer">' + $.infa.Formats.escapeComprehensive(parentObj.getObjectName()) + '</a></span>');
+                        }
+                        that.addHeaderProperties(h, objectInfo).done(function () {
+                            h.push('</div>');
+                        });
+                        that.createParentList(h, _values, objectInfo);
+                        $container.html(h.join(''));
+                        that.checkOverflow();
+                        thta.bindLink($container, parentObj);
+
+                    });
+                }
+            } else {
+                that.addHeaderProperties(h, objectInfo).done(function () {
+                    h.push('</div>');
+                    that.createParentList(h, _values, objectInfo);
+                    $container.html(h.join(''));
+                    that.checkOverflow();
+                });
+            }
+            that.bindLink($container, parentObj);
+        });
+    },
+
+    getParentList: function (childToParentMap, vId) {
+        var arr = [],
+            v;
+        while (childToParentMap[vId]) {
+            var parent = childToParentMap[vId];
+            arr.push(parent);
+            vId = parent.getId();
+            v = parent;
+        }
+        return arr.reverse();
+    },
+    createParentList: function (h, parentList, objectInfo) {
+        var classType = objectInfo.getFact("core.classType");
+        if (parentList && parentList.length > 0 &&
+            (!infa.ldm.Utils.isBgObject(classType) && !infa.ldm.Utils.isAxonObject(classType)) &&
+            classType !== infa.ldm.Utils.CLASSTYPE_DOMAIN &&
+            classType !== infa.ldm.Utils.CLASSTYPE_DOMAIN_GROUP) {
+            h.push('<div class="locationDiv"><ol class="breadcrumbParent">');
+            $.each(parentList, function (index, obj) {
+                if (obj.getProperty("name") !== null) {
+                    var name = $.infa.Formats.escapeComprehensive(obj.getProperty("name"));
+                    h.push('<li><a class="cursor_pointer" title="' + name + '" data-id="' + obj.getId() + '">' + name + '</a></li>');
+                } else {
+                    h.push('<li><a class="cursor_pointer_disabled" onclick="if(event.stopPropagation){event.stopPropagation();}event.cancelBubble=true;" title="' + _that.resBundle.NO_PERMISSION + '" data-id="' + obj.getId() + '">' + _that.resBundle.NO_PERMISSION_OBJECT + '</a></li>');
+                }
+            })
+            h.push('</ol></div>');
+        }
+    },
+    checkOverflow: function () {
+        var id = this._cntr.prop("id"),
+            locationElement = $('#' + id + ' .breadcrumbParent')[0],
+            sections;
+        if (locationElement && locationElement.scrollHeight > locationElement.offsetHeight) {
+            sections = Math.floor((locationElement.offsetWidth - 200) / 180) - 1,
+                liElements = [], liCount = $('#' + id + ' .breadcrumbParent a').length;
+            for (var i = 0; i < sections; i++) {
+                if (liCount == 0) break;
+                liElements.push($('#' + id + ' .breadcrumbParent li:nth-child(' + liCount + ')').addClass("anchorOverflow"));
+                liCount--;
+            }
+            liElements.push('<li class="anchorOverflow">...</li>');
+            liElements.push($('#' + id + ' .breadcrumbParent li:nth-child(1)').addClass("anchorOverflow"));
+            $(locationElement).empty();
+            $.each(liElements, function (index, val) {
+                $(locationElement).prepend(val);
+            });
+        }
+    },
+
+    bindLink: function ($container, parentObj) {
+        $container.on('click', 'a', function () {
+            var id = $(this).data('id');
+            if (id) {
+                ldmObj = new infaw.ldm.LDMObject(id);
+                ldmObj.open();
+            }
+            return;
+        });
+        $container.on('click', '.ldmLink', function (evt) {
+            parentObj && parentObj.open && parentObj.open();
+            var bResName = $(evt.target).hasClass('resourceName');
+            if (bResName) {
+                var id = $(evt.target).data("value");
+                infaw.workspace.WorkspaceManager.instance().getWorkspace('ldmObjectView').openObject({
+                    id: id + "://" + id
+                });
+            }
+        });
+    },
+    addProperty: function (h, label, value, isALink) {
+        if (value) {
+            var link = value;
+            h.push('<span class="ldmHeaderPanel-title">' + label + ': </span>');
+            if (isALink) {
+                link = '<a data-value="' + value + '" class="resourceName ldmLink cursor_pointer">' + value + '</a>';
+            }
+            h.push('<span class="ldmHeaderPanel-subtitle" title="' + value + '"> ' + link + '</span>');
+
+        }
+    },
+
+    _getDomainColumnCount: function (objectInfo) {
+        var data = {
+            domainName: objectInfo.getObjectName(),
+            listColumns: true,
+            fact: infa.ldm.Utils.ATTR_PROFILING_DOMAINALL,
+            pageSize: 1,
+            offset: 0
+        };
+        var query = '/web.ldm.search.managedatadomains';
+        var def = $.Deferred();
+        $.ajax({
+            url: $.url(query),
+            dataType: "json",
+            data: data,
+            type: 'GET'
+        }).then(function (data) {
+            def.resolve(data.totalCount);
+        }).always(function () {
+
+        }).fail(function (e) {
+            def.resolve("");
+        });
+        return def;
+
+    },
+
+    addHeaderProperties: function (h, objectInfo) {
+        var deferred = $.Deferred(),
+            self = this,
+            $i18nAlias = infaw.ldm.core.I18nResources,
+            $textUtils = infa.i18n.TextUtils.instance();
+
+        self.addProperty(h, $textUtils.getText($i18nAlias.RESOURCE_NAME), $.infa.Formats.escapeComprehensive(objectInfo.getObjectSourceName()), true);
+        self.addProperty(h, self.resBundle.label_size, objectInfo.getObjectSize());
+        if (objectInfo.getObjectType() == infa.ldm.Utils.CLASSTYPE_DOMAIN) {
+            $.when(self._getDomainColumnCount(objectInfo)).then(function (count) {
+                self.addProperty(h, self.resBundle.label_assigned_to, self.resBundle.label_n_objects.replace("%1", count));
+                self.addProperty(h, self.resBundle.label_lastupdated, infa.ldm.Utils.formatDate(objectInfo.getFact(infa.ldm.Utils.ATTR_CORE_LASTUPDATED)));
+                deferred.resolve();
+            });
+        } else {
+            self.addProperty(h, self.resBundle.label_lastupdated, infa.ldm.Utils.formatDate(objectInfo.getFact(infa.ldm.Utils.ATTR_CORE_LASTUPDATED)));
+            return deferred.resolve();
+        }
+        return deferred;
+    }
+});

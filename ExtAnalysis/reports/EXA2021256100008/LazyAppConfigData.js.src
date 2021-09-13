@@ -1,0 +1,331 @@
+infa.ldm.AppConfigData.extend('infa.eic.AppConfigData', {
+    _instance : undefined,
+
+    instance : function(){
+        if (!infa.eic.AppConfigData._instance) {
+            infa.eic.AppConfigData._instance = new infa.eic.AppConfigData();
+        }
+        return infa.eic.AppConfigData._instance;
+    },
+},{ 
+    initAppConfig :  function(blockElemId) {
+    var _self = this;
+    return $.backGroundAjax($.url('/extension.eic.appconfig.access'), {
+        type: 'GET',
+        dataType: 'text'	
+    }).then(function(res) {
+        if (res) {
+            _self.appConfig = res || {};
+            // init contributedAttributes
+            if (!_self.appConfig.contributedAttributes) {
+                _self.appConfig.contributedAttributes = [];
+            }
+        }
+        return $.when(_self._initAttributes(blockElemId)).done(function(res) {
+            if(res !== false) {
+                var hiddenAttributes = infa.ldm.Utils.hiddenAttributes,
+                    shownAttributes = infa.ldm.Utils.shownAttributes;
+
+                $.each(hiddenAttributes, function(attrId) {
+                    _self.getAttribute(attrId).done(function(attribute){
+                         if(attribute && !_self.appConfig.attributes[attrId]) {
+                            _self.appConfig.attributes[attrId] = infa.ldm.AppConfigData.getDefaultConfig(attribute);
+                        }
+                    })
+                  
+                });
+
+                $.each(shownAttributes, function(attrId) {
+                    _self.getAttribute(attrId).done(function(attribute){
+                        if(attribute && !_self.appConfig.attributes[attrId]) {
+                            _self.appConfig.attributes[attrId] = infa.ldm.AppConfigData.getDefaultConfig(attribute);
+                        }
+                     });
+                });
+
+                _self.appConfig.empty = false;
+            }
+        });
+    }).fail(function(jqXHR, textStatus, errorThrown) {
+        infaw.shell.common.Utils.showError(infa.ldm.Utils.getErrorMessage(jqXHR, textStatus, errorThrown));
+    });
+},
+    getType : function(typeId) {
+        var def=$.Deferred();
+         $.when(this.getTypeMap(typeId)).then(function(data){
+             def.resolve(data[typeId]);
+         })
+         return def;
+    },
+    getLabel : function(fullName,type) {
+        var self = this;
+        var def = $.Deferred();
+        if(fullName) {
+            if(type == "classes"){
+                self.getType(fullName).done(function(obj){
+                    if(obj){
+                        
+                        def.resolve($.infa.Formats.escapeComprehensive(obj.label ? obj.label : fullName));
+                        
+                    }
+                    else{
+                        def.resolve(infa.ldm.Utils.unCamelize(infa.ldm.Utils.getModeledName(fullName)));
+                    }
+                });
+            }
+            else{
+                this.getAttribute(fullName).done(function(obj){
+                    if (obj) {
+                      
+                            def.resolve($.infa.Formats.escapeComprehensive(obj.label ? obj.label: fullName));
+
+                    }
+                 });
+            }
+        }
+        return def;
+    },
+    _parseAttributes: function(attrs, customPackage,ootbPackage) {
+        
+        this.parseRefAttributes(customPackage ,ootbPackage);
+    },
+
+    parseRefAttributes:function(customPackage, ootbPackage){
+        var self = this;
+        if(!self.referenceMap)
+        self.referenceMap = {}
+        if(!customPackage.referenceAttributes)
+            customPackage.referenceAttributes = [];
+            
+        var referenceAttributes = customPackage.referenceAttributes.concat(ootbPackage.referenceAttributes);
+        referenceAttributes &&  referenceAttributes.forEach(function(refrenceAttribute){ 
+            self.referenceMap[refrenceAttribute.attributeOverride] = refrenceAttribute
+        })
+        $.map(customPackage.attributes,function(i){
+            i.name =  i.id = "com.infa.appmodels.ldm."+i.name;
+        });
+        this.attributes = customPackage.attributes;
+    
+        this.parseAttributes();
+    },
+
+    getreferenceDataType : function(id){
+        return this.referenceMap[id] && this.referenceMap[id]["referenceDataType"];
+    },
+    getReferenceAttribute : function(id){
+        return this.referenceMap[id] && this.referenceMap[id]["referenceAttribute"];
+    },
+    rePopulateRequiredTypes : function(ids,type){
+        var idstofetch = [];
+        var self = this;
+        ids = _.uniq(ids,false)
+        if(!self.attributeMap){
+            self.attributeMap={};
+        }
+        ids.map(function(a){
+            if(type == "classes"){
+                !self.typeMap[a] ? idstofetch.push(a):0;
+            }else if(type == "attributes"){
+                !self.attributeMap[a] ? idstofetch.push(a):0;
+            }
+        });
+        return this.fetchById(idstofetch,null,type || "classes");
+    },
+    getTypesByPackage: function(packageName,ids) {
+        
+        this.parseTypes();
+        var types = this.packages && this.packages[packageName];
+        if(!types && ids && ids.length){
+            return this.fetchById(ids,packageName,"classes");
+        }else{
+            var def = $.Deferred();
+             def.resolve(types);
+            return def.promise();
+        }
+        
+    },
+    fetchPackageTypes:function(packageName){
+        var def = $.Deferred();
+        var self = this;
+        var query = '/extension.eic.appconfig.metadata?type=packages/'+packageName
+        $.backGroundAjax($.url(query)).fail(function(){
+                def.resolve([]);
+            }).then(function(val){
+                self.types = val.classes;
+                self.parsePackage(packageName);
+                def.resolve(self.packages[packageName]);
+            });
+    return def;
+    },
+    parsePackage:function(packageName){
+        if(!this.typeMap) {
+            this.typeMap = {};
+        }
+        if(this.types && this.types.length) {
+            for (var index = 0; index < this.types.length; index++) {
+                var typeObj = this.types[index];
+                var id = packageName+"."+typeObj.name;
+                this.typeMap[id] = typeObj;
+                if(!this.packages) {
+                    this.packages = {}
+                }
+                if(this.packages[packageName]){
+                    if(!_.contains(this.packages[packageName], id)){
+                        this.packages[packageName].push(id);
+                    }
+                }else{
+                    this.packages[packageName] = [id];
+                }
+            }
+        }
+    },
+    getObjectDetails: function(classType) {
+        var def = $.Deferred();
+			if(classType) {
+               
+					 this.getType(classType).done(function(obj){
+                        if (obj) {
+						    obj.name  = obj.name || "";
+                        } 
+                        def.resolve(obj);
+                     });	
+                }
+                
+            
+            return def;
+	},
+    fetchById : function(ids,packageName,type){
+        var def = $.Deferred();
+        if(!ids.length) {
+            def.resolve([])
+            return def;
+        }
+        var self = this;
+        ids = _.uniq(ids,false)
+        
+       /*  ids.map(function(a){
+            if(type=="classes"){
+                if(!self.typeMap) {
+                    self.typeMap = {};
+                }
+                self.typeMap[a] = def;
+             }
+             else if(type=="attributes"){
+                if(!self.attributeMap) {
+                    self.attributeMap = {};
+                }
+                self.attributeMap[a] = def;
+             }
+        }); */
+            var query = '/extension.eic.appconfig.metadata?type='+type
+            $.backGroundAjax($.url(query), {
+                   
+                        multiplePackageIds:ids.join(','),
+                        pageSize:ids.length+1
+                    
+                }).fail(function(){
+                    def.resolve([]);
+                }).then(function(val){
+                    if(type == "classes") {
+                        if(val && val.items.length){
+                            self.types = val.items;
+                            self.parseTypes();
+                            def.resolve(self.typeMap);
+                        }else{
+                            def.resolve([]);
+                        }
+                    }else{
+                        if(val && val.items.length){
+                            self.attributes = val.items;
+                            self.parseAttributes();
+                            def.resolve(self.attributeMap);
+                        } else{
+                            def.resolve([]);
+                        }
+                        
+                    }
+                    
+                });
+        return def;
+    },
+    getAttribute : function(attrId) {
+        var def=$.Deferred();
+        $.when(this.getAttributeMap(attrId)).then(function(data){
+            def.resolve(data[attrId]);
+        });
+        return def;
+    },
+    getAttributeMap: function(attrId) {
+        var def = $.Deferred();
+        if(!this.attributeMap) {
+            this.attributeMap = {};
+        }	
+        var self = this;
+        if(attrId && !this.attributeMap[attrId]){
+            this.fetchById([attrId],null,'attributes').then(function(){
+                def.resolve(self.attributeMap);
+            }); 
+        }else {
+            def.resolve(self.attributeMap);
+        }
+
+        return def;
+    },
+    parseAttributes :function(){
+        if(!this.attributeMap) {
+            this.attributeMap = {};
+        }
+        if(this.attributes && this.attributes.length) {
+            
+            for (var index = 0; index < this.attributes.length; index++) {
+                if(this.attributes[index] && !this.attributes[index].id){
+                    this.attributes[index].id = this.attributes[index].name || "";
+                }
+                if(this.attributes[index].id.indexOf("com.infa.ldm.profiling") > -1 && this.attributes[index].attributeOverride && this.attributes[index].attributeOverride != ""){
+                    this.attributeMap[this.attributes[index].attributeOverride] = this.attributes[index];
+                }
+                this.attributeMap[this.attributes[index].name] = this.attributes[index];
+            }
+        }
+    },
+    parseTypes :function(){
+        if(!this.typeMap) {
+            this.typeMap = {};
+        }
+        if(this.types && this.types.length) {
+            
+            for (var index = 0; index < this.types.length; index++) {
+                var typeObj = this.types[index]
+                this.typeMap[typeObj.id] = typeObj;
+
+                if(!this.packages) {
+                    this.packages = {}
+                }
+
+                if(this.packages[typeObj.packageName]) {
+                    if(!_.contains(this.packages[typeObj.packageName], typeObj.id)){
+                        this.packages[typeObj.packageName].push(typeObj.id);
+                    }
+                }else {
+                    this.packages[typeObj.packageName] = [typeObj.id];
+                }
+            }
+        }
+    },
+    getTypeMap: function(typeId) {
+        var def = $.Deferred();
+        if(!this.typeMap) {
+            this.typeMap = {};
+        }	
+        var self = this;
+        if(typeId && !this.typeMap[typeId]){
+            this.fetchById([typeId],null,'classes').then(function(){
+                def.resolve(self.typeMap);
+            }); 
+        }else {
+            def.resolve(self.typeMap);
+        }
+
+        return def;
+    },
+});

@@ -1,0 +1,180 @@
+/*chrome.storage.sync.get(["user", "password", "namespace", "eicUrl", "namespaces","rememberMe"], function (result) {
+  $(".infaTileContent #user input").val(result.user);
+  $(".infaTileContent #password input").val(result.password);
+  $(".infaTileContent #eicUrl input").val(result.eicUrl);
+
+var selectedIndex = 1;
+  result.namespaces && result.namespaces.forEach(function(namespace, index){
+  if(namespace == result.namespace){
+     $(".infaTileContent #namespace select").append($("<option/>", {
+      value: namespace,
+      text: namespace,
+      selected: "selected"
+      }))
+  }
+  else{
+    $(".infaTileContent #namespace select").append($("<option/>", {
+      value: namespace,
+      text: namespace,
+  }))
+  }
+  });
+    $(".rememberCredentials").prop('checked', result.rememberMe);;
+
+})*/
+/*chrome.runtime.sendMessage({
+  action:"openGeneric"
+});
+/*
+var getNamespaces = function(eicUrl){
+  var deferred = $.Deferred();
+  $.ajax({
+    url : eicUrl + "/web.ldm.listnamespaces",
+    type : "POST",
+    contentType: "application/json",
+    success: function(responseText){
+      deferred.resolve(JSON.parse(responseText));                        
+                },
+    error: function(XMLHttpRequest, textStatus, errorThrown) {
+        // $(".msg").addClass("error").text("Authentication Failed").show();                
+      }
+    
+  })
+  return deferred.promise();
+}
+
+function isUrlValid(eicUrl) {
+var r = new RegExp(/(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/);
+return r.test(eicUrl);
+}
+
+var isValidUrl = function(eicUrl){
+  var deferred = $.Deferred();
+  arr = eicUrl.split("/");
+  
+  if(!isUrlValid(eicUrl) || (arr.length > 4 && arr[4] !== "")){
+    deferred.reject();
+  }
+  else
+  {
+  $.ajax({
+    url : eicUrl + "/extension.eic.pingService",
+    type : "GET",
+    contentType: "application/json",
+    success: function(){
+        deferred.resolve();                        
+                },
+    error: function(XMLHttpRequest, textStatus, errorThrown) {
+        deferred.reject();                              
+      }
+    
+  })
+  }
+  return deferred.promise();
+}
+
+$(".infaTileContent #eicUrl input").blur(function(){
+  var eicUrl = $(".infaTileContent #eicUrl input").val();
+      getNamespaces(eicUrl).done(function(namespaces){
+        $(".infaTileContent #namespace select").empty();
+        
+        namespaces.forEach(function(namespace){
+          $(".infaTileContent #namespace select").append($("<option/>", {
+            value: namespace,
+            text: namespace
+        }));
+        })
+      })
+});
+$('.loginBtn').on('click', function(){
+  var user = $(".infaTileContent #user input").val(),
+  password = $(".infaTileContent #password input").val(),
+  eicUrl = $(".infaTileContent #eicUrl input").val(),
+    namespace = $(".infaTileContent #namespace option:selected").text(),
+    rememberMe = $(".rememberCredentials").is(':checked');
+
+    var options = $(".infaTileContent #namespace option");
+    
+    var namespaces = $.map(options ,function(option) {
+        return option.value;
+    });
+
+  if(!eicUrl){
+  $(".infaTileContent .error").text("EDC url cannot be left blank");
+  return;
+  }
+  else if ((!user && password) || (user && !password)) {
+        $(".infaTileContent .error").text("Credentials cannot be left blank");
+        return;
+      }
+  else if(namespace == ""){
+        $(".infaTileContent .error").text("Security Domain cannot be left blank");
+        return;
+      }
+  else if(user && password){
+    isValidUrl(eicUrl).done(function(){
+        var parameters = {
+          "user" : user,
+          "password" : password,
+          "namespace" : namespace
+        }
+
+      $.ajax({
+        url : eicUrl + "/login",
+        type : "POST",
+        data: JSON.stringify(parameters),
+        contentType: "application/json",
+        success: function(responseText){
+            $(".infaTileContent .error").hide(); 
+            
+            if(responseText.error){
+              $(".msg").addClass("error").text(responseText.error).show(); 
+              return;
+            }
+
+            chrome.extension.sendMessage({
+                                      action:"cacheEICConfiguration",
+                                      user: rememberMe? user : "",
+                                      password: rememberMe? password : "",
+                                      eicUrl: eicUrl,
+                                      namespace: namespace,
+                                      namespaces: namespaces,
+                                      rememberMe: rememberMe
+                                    });
+
+            $(".msg").removeClass("error");
+            $(".msg").text("Configuration Details saved successfully").show();  
+
+            setTimeout(function(){window.close()}, 5000);
+          },
+        error: function(XMLHttpRequest, textStatus, errorThrown) {
+              $(".infaTileContent .error").text("Enter valid login credentials");                
+            }
+          });
+        }).fail(function(){
+          $(".msg").addClass("error").text("Enter a valid EDC URL").show();              
+        })
+        }
+        else {
+          isValidUrl(eicUrl).done(function(){
+            chrome.extension.sendMessage({
+              action:"cacheEICConfiguration",
+              user: "",
+              password: "",
+              namespace: "",
+              eicUrl: eicUrl,
+              namespaces: namespaces,
+              rememberMe: rememberMe
+            });
+          }).fail(function(){
+            $(".msg").addClass("error").text("Enter a valid EDC URL").show();              
+          })      
+              
+    $(".msg").removeClass("error");
+    $(".msg").text("Configuration Details saved successfully").show();
+        }
+      })
+$(".loginLaterBtn").on('click', function(){
+  window.close();
+});*/
+

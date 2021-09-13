@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link class="favicon" rel="shortcut icon" type="image/x-icon" href="res/img/favicon.ico">
+    <title>Informatica Enterprise Information Catalog</title>
+
+    <!-- bower:css -->
+    <!-- endbower -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="./../../../target/symphony/css/symphony-core-3.3.0.css">
+    <link rel="stylesheet" href="./../../../target/symphony/css/symphony-widgets-3.3.0.css">
+    <link rel="stylesheet" href="./../../../target/symphony/css/symphony-webShell-3.3.0.css">
+    <link rel="stylesheet" href="./../../../target/symphony/css/symphony-library-3.3.0.css">
+    <link rel="stylesheet" href="./../../../target/symphony/css/symphony-imf-3.3.0.css">
+    <link type="text/css" href="./../../../target/res/css/lib.css" rel="stylesheet">
+
+    <!-- endinject -->
+
+    <!-- bower:js -->
+    <script src="./../../../target/vendor/jquery.js"></script>
+    <script src="./../../../target/vendor/bootstrap.js"></script>
+    <!-- endbower -->
+
+    <!--set symphony path before injecting symphony resource-->
+    <script>
+        window.symphonyResourcePath = 'symphony'
+    </script>
+
+    <style type="text/css">
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+        /**********************/
+
+        .panelHeader {
+            width: 100%;
+            padding: 10px 0;
+            overflow: hidden;
+        }
+
+        .panelHeader .title {
+            width: auto;
+            float: left;
+        }
+
+        .panelHeader .actionsCntr {
+            width: auto;
+            float: right;
+        }
+
+        .panelContent {
+            width: 100%;
+            height: auto;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .propViewWidgetCntr {
+            width: 100%;
+            height: auto;
+        }
+
+        .propViewWidgetCntr .eachProp {
+            width: 100%;
+            height: auto;
+        }
+
+        .propViewWidgetCntr .eachProp .propName,
+        .propViewWidgetCntr .eachProp .propValue {
+            width: 50%;
+            height: auto;
+            float: left;
+        }
+
+        .overviewPanelGroup {
+            padding: 10px;
+            overflow: hidden;
+            margin: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .overviewPanelGroup,
+        .overviewPanelGroup * {
+            box-sizing: border-box;
+        }
+
+        .infa-thumbnail {
+            width: 300px;
+            height: 100px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            padding: 5px;
+            margin: 5px;
+            background: #fff;
+        }
+
+        .infa-thumbnail .image {
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+
+        .infa-thumbnail .info {
+            width: 70%;
+            height: 100%;
+            float: right;
+            overflow: hidden;
+        }
+
+        .infa-thumbnail .info .title {
+            padding: 5px;
+            font-weight: bold;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .infa-thumbnail .info .description {
+            padding: 5px;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div style="width: 100%; height: 100%; background: #ccc; position: absolute; overflow-y: auto;" id="_temp">
+        <div id="_temp1" style="width: 700px; height: 400px;float: left;"></div>
+        <div id="_preview" style=" float: left;
+        width: 570px;
+        height: 40px;
+        padding: 10px;
+        background: #fff;
+        clear: both;
+        margin-top: 12px;
+    "></div>
+    </div>
+
+    <noscript>
+        JavaScript is disabled on your browser. Please enable JavaScript or upgrade to a JavaScript-capable browser.
+    </noscript>
+
+    <!-- inject:js -->
+    <script src="./../../../target/symphony/js/symphony-core-3.3.0.js"></script>
+    <script src="./../../../target/symphony/js/symphony-widgets-3.3.0.js"></script>
+    <script src="./../../../target/symphony/js/symphony-webShell-3.3.0.js"></script>
+    <script src="./../../../node_modules/linkifyjs/dist/linkify.min.js"></script>
+    <script src="./../../../node_modules/linkifyjs/dist/linkify-jquery.min.js"></script>
+    <!-- endinject -->
+
+    <script src="widgets/PropertiesView.js"></script>
+    <script src="panels/AbstractPanel.js"></script>
+    <script src="panels/PropertiesPanel.js"></script>
+    <script src="panels/HeaderPanel.js"></script>
+    <script src="panels/CustomPanel.js"></script>
+    <script src="panels/SystemsPanel.js"></script>
+    <script src="OverviewPanelGroup.js"></script>
+    <script src="ObjectOverview.js"></script>
+
+    <script>
+        var overview;
+        (function () {
+
+            var cntr = $("#_temp1"),
+                preview = $("#_preview").hide();
+            var timeout = null;
+            cntr.infaRichText({
+                width: '600px',
+                height: 400,
+                focus: true,
+                airMode: true,
+                disableResizeEditor: true,
+                showToolbar: true,
+                toolbar: ['font', 'fontsize', 'color', 'para', 'insert']
+            }).on("onChange", function(e) {
+                if(timeout) {
+                    clearTimeout(timeout);
+                }
+                timeout = setTimeout(showPreview, 500)
+            });
+
+            function showPreview(){
+                var editor = $.getWidget(cntr, "infaRichText"),
+                    info = linkify.find(editor.getValue()),
+                    urlFound = null;
+
+                if(info.length > 0) {
+                    for(var i = 0 ; i < info.length; i++){
+                        var details = info[i];
+                        if(details.type === "url") {
+                            urlFound = details;
+                            break;
+                        }
+                    }
+                }
+
+                if(urlFound) {
+                    preview.html("Show preview for "+urlFound.href).show();
+                }else {
+                    preview.hide().empty();
+                }
+                
+            }
+
+        })();
+    </script>
+
+
+</body>
+
+</html>

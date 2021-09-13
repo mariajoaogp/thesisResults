@@ -1,0 +1,3 @@
+.infaDataPreview .dataPreviewTopbar{background-color:#FAFAFA;height:24px}.infaDataPreview .dataPreviewLabel{font-weight:bold;float:left;padding:5px}.infaDataPreview .dataPreviewBtn{float:right;padding:5px}.infaDataPreview .dataPreviewDataGrid{padding:5px}
+
+/*# sourceMappingURL=../sourcemap/symphony-dataPreview-3.3.0.css.map */

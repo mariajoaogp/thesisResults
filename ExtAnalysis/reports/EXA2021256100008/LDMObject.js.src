@@ -1,0 +1,267 @@
+/**
+ * Model for LDM Objects
+ */
+$.Class('infaw.ldm.LDMObject', {
+	init: function(id, facts) {
+		this.id = id;
+		if(facts) {
+			this.setFacts(facts);
+		}
+	},
+	
+	open: function(whereFrom) {
+		var self = this;
+    	return $.when(infaw.workspace.WorkspaceManager.instance().selectWorkspace("ldmObjectView", false, {selectInstance: true}, true)).then(function(wsInst) {
+    		wsInst.openObject({
+    			id: self.getHref(),
+    			type: self.getFact(infa.ldm.Utils.ATTR_CORE_CLASSTYPE),
+    			whereFrom: whereFrom
+    		});
+    	});
+	},
+
+	setFacts: function(values) {
+		if(values) {
+			var facts = {};
+			for(var i = 0; i < values.length; i++) {
+				var id = values[i].id || values[i].name;
+				if(!facts[id]) {
+					facts[id] = [];
+				}
+				facts[id].push(values[i]);
+			}
+			this._facts = facts;
+		}
+	},
+	
+	/**
+	 * Returns the formated fact
+	 */
+	getFact: function(factName) {
+		var facts = this._facts;
+        if (facts && facts[factName]) {
+        	var fact = $.map(facts[factName], function(obj) {
+        	    return obj.value
+        	}).join(', ');
+        	
+        	if(infa.ldm.Utils.isProfileRowCount(factName) || infa.ldm.Utils.isPrecision(factName)) {
+        		fact = parseInt(fact, 10);
+        		if(fact === -1) {
+        			return "N/A";
+        		}
+        	}
+        	return fact;
+        }
+	},
+	
+	/**
+	 * Returns the formated fact after encoding the special characters
+	 */
+	getEscapedFact: function(factName) {
+		var facts = this._facts;
+        if (facts && facts[factName]) {
+        	var fact = $.map(facts[factName], function(obj) {
+        	    return $.infa.Utils.Formats.escapeComprehensive(obj.value)
+        	}).join(', ');
+        	if(infa.ldm.Utils.isProfileRowCount(factName) || infa.ldm.Utils.isPrecision(factName)) {
+        		fact = parseInt(fact, 10);
+        		if(fact === -1) {
+        			return "N/A";
+        		}
+        	}
+        	return fact;
+        }
+	},
+	/**
+	 * Returns the value
+	 */
+	getValue: function(factName) {
+		var facts = this._facts;
+        if (facts && facts[factName]) {
+        	return $.map(facts[factName], function(obj){
+        	    return obj.value
+        	});
+        }
+        return [];
+	},
+	/**
+	 * Returns XPATH if exists 
+	 */
+	getXPath: function(){
+		var classType = this.getObjectType();
+		if(classType == infa.ldm.Utils.CLASSTYPE_JSONFILEFIELD){
+			return this.getValue('com.infa.ldm.file.json.FieldXPath')[0];
+		} else if( classType == infa.ldm.Utils.CLASSTYPE_XMLFILEFIELD){
+			return this.getValue('com.infa.ldm.file.xml.FieldXPath')[0];
+		}
+		return '';
+	},
+	/**
+	 * Returns Data Domain if exists 
+	 */
+	getDataDomains : function(){
+		var classType = this.getObjectType();
+		 var facts = [
+		 			  infa.ldm.Utils.ATTR_PROFILING_DOMAINREJECTED,
+		 			  infa.ldm.Utils.ATTR_PROFILING_DOMAINACCEPTED,
+		 			  infa.ldm.Utils.ATTR_PROFILING_DOMAIN,
+		 			  infa.ldm.Utils.ATTR_PROFILING_DOMAININFERRED],
+		   list = [];
+		   var factsList = $.extend(true,{},this._facts);
+		   for(var i=0;i< facts.length;i++){
+		   	 list = list.concat(factsList[facts[i]] || []);
+		   }
+		   var map = {};
+		   $.map(list,function(obj,i){
+		   		obj.name = obj.name || obj.id;
+				
+		   		if(obj.name ==  infa.ldm.Utils.ATTR_PROFILING_DOMAINACCEPTED){
+		   			obj.accepted = true;
+		   			obj.label = obj.value;
+		   			if(obj.modifiedBy == "system"){
+		   				obj.modifiedBy =  $.getLocalizedText(infaw.ldm.core.I18nResources,"LABEL_SYSTEM");
+		   			}
+		   		}else if(obj.name ==  infa.ldm.Utils.ATTR_PROFILING_DOMAININFERRED ){
+		   			obj.inferred = true;
+		   			obj.label = obj.value;
+		   			obj.similarityMatch = obj.providerId == 'DDPScanner' ? true:false;
+		   		}else if(obj.name ==  infa.ldm.Utils.ATTR_PROFILING_DOMAIN){
+		   			obj.inferred = true;
+		   			delete obj.modifiedBy;
+		   			var o = obj.value.split(",");
+		   			obj.value  = o[0];
+		   			obj.label = o[0];
+		   			
+					if(o[1] && classType == infa.ldm.Utils.CLASSTYPE_UNSTRUCTUREDFILE){
+		   				o[1] = Number(o[1]);
+		   				if(!isNaN(o[1]) && (o[1] > -1)) {
+		   					//obj.label+="("+ o[1]+")"; //Will be commented for [EIC-1761] Hide Domain Count for Unstructured Files in the UI
+		   					//obj.count = o[1];
+						    obj.percentageMatch = 0;
+		   				}
+		   			}else if(o[2]){
+		   				o[2] = Number(o[2]);
+		   				if(!isNaN(o[2]) && (o[2] > -1)) {
+		   					obj.label+="("+ o[2]+"%)";
+		   					obj.percentageMatch = o[2];
+		   				}
+		   			}
+		   			obj.nameMatch = o[3] == "Yes" ? true:undefined;
+		   			obj.similarityMatch = obj.providerId == 'DDPScanner' ? true:false;
+					if(map[obj.value] && map[obj.value].value == obj.value){
+						if(map[obj.value].accepted){
+							obj.label = map[obj.value].label;
+							delete obj.inferred;
+						}
+						obj = $.extend(true,map[obj.value],obj);
+
+					}
+		   		}else if(obj.name ==  infa.ldm.Utils.ATTR_PROFILING_DOMAINREJECTED){
+		   			obj.rejected = true;
+		   			obj.label = obj.value;
+		   		}
+				
+				map[obj.value] = obj;
+		   });
+		   list = _.uniq(list,false,function(p){
+		   	return p.value;
+		   })
+		   
+		   return list;
+	},	
+	getCompositeDomains: function(){
+		 var facts = [
+		 			  infa.ldm.Utils.ATTR_PROFILING_COMPOSITEDOMAINREJECTED,
+		 			  infa.ldm.Utils.ATTR_PROFILING_COMPOSITEDOMAINACCEPTED,
+		 			  infa.ldm.Utils.ATTR_PROFILING_COMPOSITEDOMAININFERRED
+					 ],
+		   list = [];
+		   var factsList = $.extend(true,{},this._facts);
+		   for(var i=0;i< facts.length;i++){
+		   	 list = list.concat(factsList[facts[i]] || []);
+		   }
+		   $.map(list,function(obj,i){
+		   		obj.name = obj.name || obj.id;
+		   		if(obj.name ==  infa.ldm.Utils.ATTR_PROFILING_COMPOSITEDOMAININFERRED ){
+		   			obj.inferred = true;
+		   			obj.label = obj.value;
+		   		}
+		   });
+		   list = _.uniq(list,false,function(p){
+		   	return p.value;
+		   })
+		   
+		   return list;
+	},
+	getFacts: function() {
+		return this._facts;
+	},
+	
+	getId: function() {
+		return this.id;
+	},
+	
+	getHref: function() {
+		return this.id;
+	},
+	
+	getObjectName: function() {
+		var name = this.getFact(infa.ldm.Utils.ATTR_CORE_NAME);
+		if(!name) {
+			name = this.getId();
+		}
+		return name;
+	},
+	getObjectSourceName : function(){
+		return this.getFact(infa.ldm.Utils.ATTR_CORE_RESOURCENAME);
+	},
+	getObjectType: function() {
+		return this.getFact(infa.ldm.Utils.ATTR_CORE_CLASSTYPE);
+	},
+
+	getObjectSource: function() {
+		return this.getFact(infa.ldm.Utils.ATTR_CORE_RESOURCETYPE);
+	},
+	
+	getObjectSize: function() {
+		var facts = this._facts;
+        if (facts) {
+        	if(facts[infa.ldm.Utils.ATTR_PROFILING_ROWCOUNT]) {
+        		var size = parseInt(this.getFact(infa.ldm.Utils.ATTR_PROFILING_ROWCOUNT), 10);
+        		if(size >= 0) {
+            		return size + ' rows';
+        		} else {
+        			return size;
+        		}
+        	} else if(facts[infa.ldm.Utils.ATTR_PROFILING_FILESIZE]) {
+        		return this.getFact(infa.ldm.Utils.ATTR_PROFILING_FILESIZE) + 'GB';
+        	}
+        }
+	},
+	
+	getProjectedFromDetails : function(factId) {
+		var facts = this._facts[factId],
+			valueToIdMap = null;
+		
+		if(facts) {
+			$.each(facts, function(index, fact) {
+				if(fact.projectedFrom) {
+					if(valueToIdMap == null)
+						valueToIdMap = {};
+					valueToIdMap[fact.value] = fact.projectedFrom;
+				}
+			});
+		}
+		return valueToIdMap;
+	},
+	
+	getObjectDescription: function() {
+		return this.getFact(infa.ldm.Utils.ATTR_CORE_DESCRIPTION);
+	},
+	
+	getIcon: function() {
+		var classType = this.getObjectType();
+		var resourceType= this.getObjectSource();
+		return infa.ldm.Utils.getIconByType(classType,resourceType);
+	}
+});

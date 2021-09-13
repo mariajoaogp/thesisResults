@@ -1,0 +1,63 @@
+infaw.ldm.LDMObject.extend('infaw.ldm.ThreeSixtyObject', { 
+
+	init: function(objectId, response) {
+		this._super(objectId);
+		if(response)
+			this.setResponse(response);
+	},
+	
+	setResponse: function(response) {
+		if(response.items) {
+			// TODO: Creation should be constant O(1) instead of linear O(n)
+			for(var i = 0; i < response.items.length; i++) {
+				if(response.items[i].id === this.getId()) {
+					this._response = response.items[i];
+					this.setFacts(response.items[i].facts);
+					break;
+				}
+			}
+		} else {
+			this._response = response;
+			this.setFacts(response.facts);
+		}
+	},
+	
+	getDestObjects: function() {
+		return this._response.dstObjects;
+	},
+	
+	getFilteredDestIds: function(associationMap) {
+		var dstObjects = this._response.dstObjects;
+		
+		var filteredIds = [];
+		for(var i = 0; i < dstObjects.length; i++) {
+			if(associationMap[dstObjects[i].association]) {
+				filteredIds.push(dstObjects[i].id);
+			}
+		}
+		return filteredIds;
+	},
+	
+	getSrcObjects: function() {
+		return this._response.srcObjects;
+	},
+	
+	getFilteredSrcIds: function(associationMap) {
+		var srcObjects = this._response.srcObjects;
+		
+		var filteredIds = [];
+		for(var i = 0; i < srcObjects.length; i++) {
+			if(associationMap[srcObjects[i].association]) {
+				filteredIds.push(srcObjects[i].id);
+			}
+		}
+		return filteredIds;
+	},
+	
+	getFactLabel: function(factId) {
+		if(this._facts[factId]) {
+			return this._facts[factId][0].label;
+		}
+	}
+	
+});

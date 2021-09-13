@@ -1,0 +1,52 @@
+.extensionDialog{
+	position: absolute;
+    z-index: 10000000;
+}
+
+/*.parentDiv{
+    position: absolute;
+    top: 116px;
+    right: 10px;
+    background: #4d90fe;
+	z-index: 1000000;
+	width: 200px;
+    height: 500px;
+} */
+.parentDiv{
+    position: absolute;
+    top: 116px;
+    right: 10px;
+    background: #4d90fe;
+	z-index: 1000000;
+}
+
+.childDiv
+{
+	max-width:300px;
+	max-height: 700px;
+	width: 400px;
+    z-index: 1000000;
+    background: rgb(77, 144, 254);	
+	position: absolute;
+    height: 700px;
+	right:10px;
+    width: 400px;
+    top: 27px;
+}
+
+.buttonDiv
+{
+    position: absolute;
+    height: auto;	
+	width: auto;
+    right: 27px;
+    top: 325px;
+	z-index: 1000000;
+}
+.buttonClass{
+    height: auto;
+    width: auto;
+    cursor: pointer;
+	background-repeat: no-repeat;
+	
+}

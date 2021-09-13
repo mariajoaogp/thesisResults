@@ -1,0 +1,120 @@
+$.Class('infaw.ldm.RelationShipUtil',{
+	_instance:undefined,
+	getInstance:function(){
+		if(!this._instance)
+			this._instance = new infaw.ldm.RelationShipUtil(); 
+		return this._instance;
+	}
+},{
+
+	getParentDetails: function(objectIds, associations) {
+		var jqXHRObject = {
+				jqXHR : null
+			},
+			promise = this.getParents(objectIds, jqXHRObject, associations);
+		
+		jqXHRObject.promise = promise;
+		return jqXHRObject;
+	},
+
+	getParents: function (objectIds, jqXHRObject, associations) {
+		 var getParentDetails = function(seeds){
+				var deferred = $.Deferred();
+				if(objectIds.length == 0){
+					 return deferred.resolve({});
+				}
+
+		 			var childToParents = {};
+
+					var sourceIdQueryString = "";
+					for (var i = 0; i < seeds.length; i++) {
+					    sourceIdQueryString = sourceIdQueryString + "sourceId=" + RISON.urlencode(seeds[i]) + "&";
+					};
+					var relationShip = "&relationships=core.ParentChild";
+					if(associations && associations.length>0){
+						relationShip = $.map(associations,function(associationItem){
+										return "&relationships="+associationItem
+									});
+						relationShip= relationShip.join("");
+					}
+					var baseQuery = sourceIdQueryString + "fullPath=true&direction=IN"+relationShip,
+						request = jqXHRObject ? $.ajax({
+							beforeSend: function (jqXHR) {
+								if(jqXHRObject)
+									jqXHRObject.jqXHR = jqXHR;
+							},
+							type: "GET",
+							url: $.url('/extension.eic.360.relationship?' + baseQuery)
+						}) : $.blockGetJSON('/extension.eic.360.relationship?', baseQuery,null,-1);
+					
+					request
+						.then(function(response) {
+                            response = JSON.parse(response);
+										var idToParentVertexMap = {};
+
+										var childToParentMap = {};
+									if(response.items){
+					                    response.items.forEach(function(item) {
+					                        var parent1, child;
+					                        if ((parent1 = idToParentVertexMap[item.id])) {
+					                            var nameFact = {
+					                        			name:'core.name',
+					                        			label:'name',
+					                        			value:item.name
+					                        	};
+					                        	var classTypeFact = {
+					                        			name:'core.classType',
+					                        			label:'classType',
+					                        			value:item.classType
+					                        	};
+					                            parent1.setFacts([nameFact, classTypeFact ]);
+					                        } else {
+					                        	var nameFact = {
+					                        			name:'core.name',
+					                        			label:'name',
+					                        			value:item.name
+					                        	}
+					                        	var classTypeFact = {
+					                        			name:'core.classType',
+					                        			label:'classType',
+					                        			value:item.classType
+					                        	}
+					                            var parent1 = new infaw.ldm.LDMObject(item.id, [nameFact,classTypeFact]);
+				                                idToParentVertexMap[item.id] = parent1;
+					                        }
+										if(item["srcObjects"]){
+					                        item["srcObjects"].forEach(function(e) {
+					                            if (!(child = idToParentVertexMap[e.id])) {
+					                                child = new infaw.ldm.LDMObject(e.id);
+					                                idToParentVertexMap[e.id] = child;
+					                            }
+					                            
+												childToParentMap[ parent1.getId() ] = idToParentVertexMap[child.getId()];
+					                            
+					                        })
+										}
+					                    })
+									}
+									for (var i = 0; i < seeds.length; i++) {
+										var id = seeds[i],
+											q = [],
+											parent1 = null;
+										while(childToParentMap[id]){
+													parent1 = childToParentMap[id];
+													q.push(parent1);
+													id = parent1.getId();
+													}
+										childToParents[seeds[i]] = q;
+									};
+
+				                    deferred.resolve({objectsInfo:idToParentVertexMap,parentsInfo:childToParents});
+					                })
+		 							.fail(function(){});
+
+			return deferred.promise();
+		}
+		 
+		 return getParentDetails(objectIds)
+		
+	}
+});
