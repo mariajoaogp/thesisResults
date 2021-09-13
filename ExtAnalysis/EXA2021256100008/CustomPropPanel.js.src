@@ -1,0 +1,11 @@
+infaw.ldm.threeSixty.propertiesPanel.extend('infaw.ldm.threeSixty.CustomPropPanel', {}, {
+
+    getProperties: function () {
+        return this.getObjectInfo().getPropertiesByType(infaw.ldm.ThreeSixtyObject.FACT_TYPE.CUSTOM);
+    },
+
+    setTitle: function (cntr) {
+        cntr.append("Custom Properties");
+    }
+    
+});

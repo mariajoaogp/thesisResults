@@ -1,0 +1,129 @@
+{
+    
+        "panelsConfig": {
+    
+            "HEADER_PANEL": {
+                "jsClass": "infaw.extension.ldm.threeSixty.HeaderPanel",
+                "hasHeader": false
+            },
+
+            "RELATIONSHIP_PANEL": {
+                "jsClass": "infaw.extension.ldm.threeSixty.RelationshipPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            },
+    
+             "USER": {
+                "jsClass": "infaw.extension.ldm.threeSixty.UserPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            },
+    
+            "BUSINESS_TERM": {
+                "jsClass": "infaw.extension.ldm.threeSixty.BusinessTermsPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            },
+    
+            "DESC_PANEL": {
+                "jsClass": "infaw.extension.ldm.threeSixty.DescriptionPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            },
+
+            "TABLES_PANEL": {
+                "jsClass": "infaw.extension.ldm.threeSixty.TablesPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            },
+            
+            "COLUMNS_PANEL": {
+                "jsClass": "infaw.extension.ldm.threeSixty.ColumnsPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            },
+
+            "COMMENTS_PANEL": {
+                "jsClass": "infaw.extension.ldm.threeSixty.CommentsPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            },
+            "REL_PANEL":{
+           		 "jsClass": "infaw.extension.ldm.threeSixty.RelationshipPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            }
+            
+        },
+    
+    
+        "panelGroupsConfig": {
+    
+            "headerGroup": {
+                "panelIdList": ["HEADER_PANEL"]
+            },
+    
+            "description": {
+                "panelIdList": [
+                    "DESC_PANEL"
+                ]
+            },
+    
+            "report_relationships": {
+                "panelIdList": [
+                	
+                    "REL_PANEL",
+                    "COMMENTS_PANEL"
+                ]
+            },
+            
+            "table_relationships": {
+                "panelIdList": [
+                
+                    "REL_PANEL",
+                    "COMMENTS_PANEL"
+                    
+                ]
+            }
+        },
+    
+        "layoutConfig": {
+    
+            "default": [
+                {
+                "id": "column1",
+                "colSpan": 12,
+                "groupIds": ["headerGroup"]
+            },
+                {
+                    "id": "column2",
+                    "colSpan": 12,
+                    "groupIds": ["description"]
+                }, {
+                    "id": "column3",
+                    "colSpan": 12,
+                    "groupIds": ["report_relationships"]
+                }
+            ],
+
+             "com.infa.ldm.relational.Table": [
+                 {
+                "id": "column1",
+                "colSpan": 12,
+                "groupIds": ["headerGroup"]
+            },
+                 {
+                    "id": "column2",
+                    "colSpan": 12,
+                    "groupIds": ["description"]
+                },
+                
+                 {
+                    "id": "column3",
+                    "colSpan": 12,
+                    "groupIds": ["table_relationships"]
+                }
+            ]
+    
+        }
+    }

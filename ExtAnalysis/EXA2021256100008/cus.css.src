@@ -1,0 +1,42 @@
+@font-face {
+    font-family:"futura-pt";
+    src: url('chrome-extension://__MSG_@@extension_id__/res/fonts/FTN45.otf');
+    font-style:normal;font-weight:400;
+    }
+    
+    @font-face {
+    font-family:"futura-pt-oblique";
+    src: url('chrome-extension://__MSG_@@extension_id__/res/fonts/FTN46.otf');
+    font-style:italic;font-weight:400;
+    }
+    
+    @font-face {
+    font-family:"futura-pt";
+    src: url('chrome-extension://__MSG_@@extension_id__/res/fonts/FTN55.otf');
+    font-style:normal;font-weight:500;
+    }
+    
+    @font-face {
+    font-family:"futura-pt";
+    src: url('chrome-extension://__MSG_@@extension_id__/res/fonts/FTN56.otf');
+    font-style:italic;font-weight:500;
+    }
+    
+    @font-face {
+    font-family:"futura-pt";
+    src: url('chrome-extension://__MSG_@@extension_id__/res/fonts/FTN85.otf');
+    font-style:normal;font-weight:700;
+    }
+    
+    @font-face {
+    font-family:"futura-pt";
+    src: url('chrome-extension://__MSG_@@extension_id__/res/fonts/FTN86.otf');
+    font-style:italic;font-weight:700;
+    }
+    
+    @font-face {
+    font-family:"roboto-lt";
+    src: url('chrome-extension://__MSG_@@extension_id__/res/fonts/Roboto-Thin.otf');
+    font-weight:800;
+    }
+    

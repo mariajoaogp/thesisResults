@@ -1,0 +1,75 @@
+{
+    
+        "panelsConfig": {
+    
+       
+    
+             "USER": {
+                "jsClass": "infaw.extension.ldm.threeSixty.UserPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            },
+    
+            "BUSINESS_TERM": {
+                "jsClass": "infaw.extension.ldm.threeSixty.BusinessTermsPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            },
+    
+           
+            "TABLES_PANEL": {
+                "jsClass": "infaw.extension.ldm.threeSixty.TablesPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            },
+            
+            "COLUMNS_PANEL": {
+                "jsClass": "infaw.extension.ldm.threeSixty.ColumnsPanel",
+                "canRefresh": true,
+                "hasHeader": true
+            }
+
+           
+        },
+    
+    
+        "panelGroupsConfig": {
+    
+           
+            "report_relationships": {
+                "panelIdList": [
+                	"TABLES_PANEL",
+                    "USER",
+                    "BUSINESS_TERM"
+                ]
+            },
+            "table_relationships": {
+                "panelIdList": [
+                	"COLUMNS_PANEL",
+                    "USER",
+                    "BUSINESS_TERM"
+                ]
+            }
+        },
+    
+        "layoutConfig": {
+    
+            "default": [
+                 {
+                    "id": "column3",
+                    "colSpan": 12,
+                    "groupIds": ["report_relationships"]
+                }
+            ],
+
+             "com.infa.ldm.relational.Table": [
+                
+                 {
+                    "id": "column3",
+                    "colSpan": 12,
+                    "groupIds": ["table_relationships"]
+                }
+            ]
+    
+        }
+    }
