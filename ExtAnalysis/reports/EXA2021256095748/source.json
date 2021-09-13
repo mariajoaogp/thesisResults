@@ -1,0 +1,651 @@
+{
+    "EXTAF0": {
+        "file_name": "background.html",
+        "file_size": "0 KB",
+        "id": "EXTAF0",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/background.html.src",
+        "relative_path": "background.html"
+    },
+    "EXTAF1": {
+        "file_name": "options.html",
+        "file_size": "0 KB",
+        "id": "EXTAF1",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/options.html.src",
+        "relative_path": "options.html"
+    },
+    "EXTAF10": {
+        "file_name": "quickSetup.js",
+        "file_size": "9 KB",
+        "id": "EXTAF10",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/quickSetup.js.src",
+        "relative_path": "scripts/quickSetup.js",
+        "retirejs_result": []
+    },
+    "EXTAF11": {
+        "file_name": "apikey.js",
+        "file_size": "0 KB",
+        "id": "EXTAF11",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/apikey.js.src",
+        "relative_path": "scripts/apikey.js",
+        "retirejs_result": []
+    },
+    "EXTAF12": {
+        "file_name": "UserData.js",
+        "file_size": "2 KB",
+        "id": "EXTAF12",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/UserData.js.src",
+        "relative_path": "scripts/UserData.js",
+        "retirejs_result": []
+    },
+    "EXTAF13": {
+        "file_name": "background.js",
+        "file_size": "44 KB",
+        "id": "EXTAF13",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/background.js.src",
+        "relative_path": "scripts/background.js",
+        "retirejs_result": []
+    },
+    "EXTAF14": {
+        "file_name": "socket.io.js",
+        "file_size": "59 KB",
+        "id": "EXTAF14",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/socket.io.js.src",
+        "relative_path": "scripts/socket.io.js",
+        "retirejs_result": []
+    },
+    "EXTAF15": {
+        "file_name": "options.js",
+        "file_size": "31 KB",
+        "id": "EXTAF15",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/options.js.src",
+        "relative_path": "scripts/options.js",
+        "retirejs_result": []
+    },
+    "EXTAF16": {
+        "file_name": "helpers.js",
+        "file_size": "1 KB",
+        "id": "EXTAF16",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/helpers.js.src",
+        "relative_path": "scripts/templates/helpers.js",
+        "retirejs_result": []
+    },
+    "EXTAF17": {
+        "file_name": "templates.js",
+        "file_size": "76 KB",
+        "id": "EXTAF17",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/templates.js.src",
+        "relative_path": "scripts/templates/templates.js",
+        "retirejs_result": []
+    },
+    "EXTAF18": {
+        "file_name": "data.js",
+        "file_size": "4 KB",
+        "id": "EXTAF18",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/data.js.src",
+        "relative_path": "scripts/templates/data.js",
+        "retirejs_result": []
+    },
+    "EXTAF19": {
+        "file_name": "jquery.min.js",
+        "file_size": "82 KB",
+        "id": "EXTAF19",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/jquery.min.js.src",
+        "relative_path": "scripts/lib/jquery.min.js",
+        "retirejs_result": [
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "2.1.1",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "2432",
+                            "summary": "3rd party CORS request may execute"
+                        },
+                        "info": [
+                            "https://github.com/jquery/jquery/issues/2432",
+                            "http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "11974",
+                            "summary": "parseHTML() executes scripts in event handlers"
+                        },
+                        "info": [
+                            "https://bugs.jquery.com/ticket/11974",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-11358"
+                            ],
+                            "summary": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution"
+                        },
+                        "info": [
+                            "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+                            "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+                        ],
+                        "severity": "low"
+                    }
+                ]
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "2.1.1",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "2432",
+                            "summary": "3rd party CORS request may execute"
+                        },
+                        "info": [
+                            "https://github.com/jquery/jquery/issues/2432",
+                            "http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "11974",
+                            "summary": "parseHTML() executes scripts in event handlers"
+                        },
+                        "info": [
+                            "https://bugs.jquery.com/ticket/11974",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-11358"
+                            ],
+                            "summary": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution"
+                        },
+                        "info": [
+                            "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+                            "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+                        ],
+                        "severity": "low"
+                    }
+                ]
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "2.1.1",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "2432",
+                            "summary": "3rd party CORS request may execute"
+                        },
+                        "info": [
+                            "https://github.com/jquery/jquery/issues/2432",
+                            "http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "11974",
+                            "summary": "parseHTML() executes scripts in event handlers"
+                        },
+                        "info": [
+                            "https://bugs.jquery.com/ticket/11974",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-11358"
+                            ],
+                            "summary": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution"
+                        },
+                        "info": [
+                            "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+                            "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+                        ],
+                        "severity": "low"
+                    }
+                ]
+            }
+        ]
+    },
+    "EXTAF2": {
+        "file_name": "browser_action.html",
+        "file_size": "1 KB",
+        "id": "EXTAF2",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/browser_action.html.src",
+        "relative_path": "browser_action.html"
+    },
+    "EXTAF20": {
+        "file_name": "handlebars.runtime.min.js",
+        "file_size": "7 KB",
+        "id": "EXTAF20",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/handlebars.runtime.min.js.src",
+        "relative_path": "scripts/lib/handlebars.runtime.min.js",
+        "retirejs_result": []
+    },
+    "EXTAF21": {
+        "file_name": "bootstrap-select.min.js",
+        "file_size": "17 KB",
+        "id": "EXTAF21",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/bootstrap-select.min.js.src",
+        "relative_path": "scripts/lib/bootstrap-select.min.js",
+        "retirejs_result": []
+    },
+    "EXTAF22": {
+        "file_name": "md5.min.js",
+        "file_size": "4 KB",
+        "id": "EXTAF22",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/md5.min.js.src",
+        "relative_path": "scripts/lib/md5.min.js",
+        "retirejs_result": []
+    },
+    "EXTAF23": {
+        "file_name": "bootstrap.min.js",
+        "file_size": "28 KB",
+        "id": "EXTAF23",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/bootstrap.min.js.src",
+        "relative_path": "scripts/lib/bootstrap.min.js",
+        "retirejs_result": [
+            {
+                "component": "bootstrap",
+                "detection": "filecontent",
+                "version": "3.1.1",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-8331"
+                            ],
+                            "issue": "28236",
+                            "summary": "XSS in data-template, data-content and data-title properties of tooltip/popover"
+                        },
+                        "info": [
+                            "https://github.com/twbs/bootstrap/issues/28236"
+                        ],
+                        "severity": "high"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2018-14041"
+                            ],
+                            "issue": "20184",
+                            "summary": "XSS in data-target property of scrollspy"
+                        },
+                        "info": [
+                            "https://github.com/twbs/bootstrap/issues/20184"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2018-14040"
+                            ],
+                            "issue": "20184",
+                            "summary": "XSS in collapse data-parent attribute"
+                        },
+                        "info": [
+                            "https://github.com/twbs/bootstrap/issues/20184"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2018-14042"
+                            ],
+                            "issue": "20184",
+                            "summary": "XSS in data-container property of tooltip"
+                        },
+                        "info": [
+                            "https://github.com/twbs/bootstrap/issues/20184"
+                        ],
+                        "severity": "medium"
+                    }
+                ]
+            }
+        ]
+    },
+    "EXTAF24": {
+        "file_name": "parseuri.js",
+        "file_size": "0 KB",
+        "id": "EXTAF24",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/parseuri.js.src",
+        "relative_path": "scripts/lib/parseuri.js",
+        "retirejs_result": []
+    },
+    "EXTAF3": {
+        "file_name": "quick-setup.html",
+        "file_size": "0 KB",
+        "id": "EXTAF3",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/quick-setup.html.src",
+        "relative_path": "quick-setup.html"
+    },
+    "EXTAF39": {
+        "file_name": "verified_contents.json",
+        "file_size": "7 KB",
+        "id": "EXTAF39",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/verified_contents.json.src",
+        "relative_path": "_metadata/verified_contents.json"
+    },
+    "EXTAF4": {
+        "file_name": "manifest.json",
+        "file_size": "1 KB",
+        "id": "EXTAF4",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/manifest.json.src",
+        "relative_path": "manifest.json"
+    },
+    "EXTAF40": {
+        "file_name": "browser-action.css",
+        "file_size": "3 KB",
+        "id": "EXTAF40",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/browser-action.css.src",
+        "relative_path": "styles/browser-action.css"
+    },
+    "EXTAF41": {
+        "file_name": "quickSetup.css",
+        "file_size": "141 KB",
+        "id": "EXTAF41",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/quickSetup.css.src",
+        "relative_path": "styles/quickSetup.css"
+    },
+    "EXTAF42": {
+        "file_name": "options.css",
+        "file_size": "145 KB",
+        "id": "EXTAF42",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/options.css.src",
+        "relative_path": "styles/options.css"
+    },
+    "EXTAF5": {
+        "file_name": "page-inject.js",
+        "file_size": "1 KB",
+        "id": "EXTAF5",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/page-inject.js.src",
+        "relative_path": "scripts/page-inject.js",
+        "retirejs_result": []
+    },
+    "EXTAF50": {
+        "file_name": "messages.json",
+        "file_size": "30 KB",
+        "id": "EXTAF50",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/messages.json.src",
+        "relative_path": "_locales/en/messages.json"
+    },
+    "EXTAF6": {
+        "file_name": "browser-action.js",
+        "file_size": "4 KB",
+        "id": "EXTAF6",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/browser-action.js.src",
+        "relative_path": "scripts/browser-action.js",
+        "retirejs_result": []
+    },
+    "EXTAF7": {
+        "file_name": "msgpack.js",
+        "file_size": "9 KB",
+        "id": "EXTAF7",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/msgpack.js.src",
+        "relative_path": "scripts/msgpack.js",
+        "retirejs_result": []
+    },
+    "EXTAF8": {
+        "file_name": "reconnecting-websocket.min.js",
+        "file_size": "3 KB",
+        "id": "EXTAF8",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/reconnecting-websocket.min.js.src",
+        "relative_path": "scripts/reconnecting-websocket.min.js",
+        "retirejs_result": []
+    },
+    "EXTAF9": {
+        "file_name": "jquery-1.8.2.min.js",
+        "file_size": "91 KB",
+        "id": "EXTAF9",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021256095748/jquery-1.8.2.min.js.src",
+        "relative_path": "scripts/jquery-1.8.2.min.js",
+        "retirejs_result": [
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "1.8.2",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2012-6708"
+                            ],
+                            "bug": "11290",
+                            "summary": "Selector interpreted as HTML"
+                        },
+                        "info": [
+                            "http://bugs.jquery.com/ticket/11290",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2012-6708",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "2432",
+                            "summary": "3rd party CORS request may execute"
+                        },
+                        "info": [
+                            "https://github.com/jquery/jquery/issues/2432",
+                            "http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "11974",
+                            "summary": "parseHTML() executes scripts in event handlers"
+                        },
+                        "info": [
+                            "https://bugs.jquery.com/ticket/11974",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-11358"
+                            ],
+                            "summary": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution"
+                        },
+                        "info": [
+                            "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+                            "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+                        ],
+                        "severity": "low"
+                    }
+                ]
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "1.8.2",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2012-6708"
+                            ],
+                            "bug": "11290",
+                            "summary": "Selector interpreted as HTML"
+                        },
+                        "info": [
+                            "http://bugs.jquery.com/ticket/11290",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2012-6708",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "2432",
+                            "summary": "3rd party CORS request may execute"
+                        },
+                        "info": [
+                            "https://github.com/jquery/jquery/issues/2432",
+                            "http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "11974",
+                            "summary": "parseHTML() executes scripts in event handlers"
+                        },
+                        "info": [
+                            "https://bugs.jquery.com/ticket/11974",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-11358"
+                            ],
+                            "summary": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution"
+                        },
+                        "info": [
+                            "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+                            "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+                        ],
+                        "severity": "low"
+                    }
+                ]
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "1.8.2",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2012-6708"
+                            ],
+                            "bug": "11290",
+                            "summary": "Selector interpreted as HTML"
+                        },
+                        "info": [
+                            "http://bugs.jquery.com/ticket/11290",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2012-6708",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "2432",
+                            "summary": "3rd party CORS request may execute"
+                        },
+                        "info": [
+                            "https://github.com/jquery/jquery/issues/2432",
+                            "http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "11974",
+                            "summary": "parseHTML() executes scripts in event handlers"
+                        },
+                        "info": [
+                            "https://bugs.jquery.com/ticket/11974",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-11358"
+                            ],
+                            "summary": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution"
+                        },
+                        "info": [
+                            "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+                            "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+                        ],
+                        "severity": "low"
+                    }
+                ]
+            }
+        ]
+    }
+}
