@@ -1,0 +1,429 @@
+/*
+ * Rison.js 1.0 - 2008/07/28
+ * 
+ * Copyright (c) 2008 Iván -DrSlump- Montes <drslump[at]pollinimini[dot]net>
+ * Portions of this code is based on public domain work from http://json.org/json2.js
+ *
+ * References:
+ *
+ *    http://mjtemplate.org/examples/rison.html
+ *    http://pollinimini.net/blog/rison-compact-json-specially-suited-uris
+ *
+ * Code Licensed under the MIT License:
+ * 
+ *    Permission is hereby granted, free of charge, to any person obtaining a
+ *    copy of this software and associated documentation files (the "Software"),
+ *    in the Software without restriction, including without limitation the
+ *    rights to use, copy, modify, merge, publish, distribute, sublicense,
+ *    and/or sell copies of the Software, and to permit persons to whom the
+ *    Software is furnished to do so, subject to the following conditions:
+ * 
+ *    The above copyright notice and this permission notice shall be included
+ *    in all copies or substantial portions of the Software.
+ *  
+ *    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ *    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ *    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+ *    NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ *    DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+ *    OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+ *    USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ *  
+ *  This file creates a global RISON object containing three methods: stringify,
+ *  parse and urlencode.
+ *  
+ *      RISON.stringify(value, replacer)
+ *          value       any JavaScript value, usually an object or array.
+ *          replacer    an optional parameter that determines how object
+ *                      values are stringified for objects. It can be a
+ *                      function or an array.
+ *                      
+ *          This method produces a RISON text from a JavaScript value.
+ *          When an object value is found, if the object contains a toRISON
+ *          method, its toRISON method will be called and the result will be
+ *          stringified. A toRISON method does not serialize: it returns the
+ *          value represented by the name/value pair that should be serialized,
+ *          or undefined if nothing should be serialized. The toRISON method
+ *          will be passed the key associated with the value, and this will be
+ *          bound to the object holding the key.
+ *          
+ *          For example, this would serialize Dates as ISO strings.
+ *          
+ *              Date.prototype.toRISON = function (key) {
+ *                  function f(n) {
+ *                      // Format integers to have at least two digits.
+ *                      return n < 10 ? '0' + n : n;
+ *                  }
+ *                  
+ *                  return this.getUTCFullYear()   + '-' +
+ *                       f(this.getUTCMonth() + 1) + '-' +
+ *                       f(this.getUTCDate())      + 'T' +
+ *                       f(this.getUTCHours())     + ':' +
+ *                       f(this.getUTCMinutes())   + ':' +
+ *                       f(this.getUTCSeconds())   + 'Z';
+ *              };
+ *              
+ *          You can provide an optional replacer method. It will be passed the
+ *          key and value of each member, with this bound to the containing
+ *          object. The value that is returned from your method will be
+ *          serialized. If your method returns undefined, then the member will
+ *          be excluded from the serialization.
+ *          
+ *          If the replacer parameter is an array, then it will be used to
+ *          select the members to be serialized. It filters the results such
+ *          that only members with keys listed in the replacer array are
+ *          stringified.
+ *          
+ *          Values that do not have RISON representations, such as undefined or
+ *          functions, will not be serialized. Such values in objects will be
+ *          dropped; in arrays they will be replaced with null. You can use
+ *          a replacer function to replace those with RISON values.
+ *          RISON.stringify(undefined) returns undefined.
+ *          
+ *          Example:
+ *          text = JSON.stringify(['e', {pluribus: 'unum'}]);
+ *          // text is '["e",{"pluribus":"unum"}]'
+ *
+ *          text = JSON.stringify([new Date()], function (key, value) {
+ *              return this[key] instanceof Date ?
+ *                  'Date(' + this[key] + ')' : value;
+ *          });
+ *          // text is '["Date(---current time---)"]'
+ *
+ *
+ *      RISON.parse(text, reviver)
+ *      
+ *          This method parses a RISON text to produce an object or array.
+ *          It can throw a SyntaxError exception.
+ *          
+ *          The optional reviver parameter is a function that can filter and
+ *          transform the results. It receives each of the keys and values,
+ *          and its return value is used instead of the original value.
+ *          If it returns what it received, then the structure is not modified.
+ *          If it returns undefined then the member is deleted.
+ *          
+ *          Example:
+ *          // Parse the text. Values that look like ISO date strings will
+ *          // be converted to Date objects.
+ *          myData = RISON.parse(text, function (key, value) {
+ *              var a;
+ *              if (typeof value === 'string') {
+ *                  a = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}(?:\.\d*)?)Z$/.exec(value);
+ *                  if (a) {
+ *                      return new Date(Date.UTC(+a[1], +a[2] - 1, +a[3], +a[4],
+ *                          +a[5], +a[6]));
+ *                  }
+ *              }
+ *              return value;
+ *          });
+ *          
+ *          myData = RISON.parse('["Date(09/09/2001)"]', function (key, value) {
+ *              var d;
+ *              if (typeof value === 'string' &&
+ *                      value.slice(0, 5) === 'Date(' &&
+ *                      value.slice(-1) === ')') {
+ *                  d = new Date(value.slice(5, -1));
+ *                  if (d) {
+ *                      return d;
+ *                  }
+ *              }
+ *              return value;
+ *          });
+ *
+ *
+ *      RISON.urlencode(value, replacer)
+ *          value       a RISON text or any JavaScript value
+ *          replacer    see RISON.stringify
+ *                      
+ *          This method escapes the passed RISON text to be used in URLs. If
+ *          the first argument is not a string it will call RISON.stringify and
+ *          operate on the result of it.
+ *          The URL escapes applied are more liberal than the native browser
+ *          implementation (encodeURIComponent function), however they should
+ *          be safe to be used in most environments.
+ */
+
+if (!this.RISON) {
+    
+    RISON = function() {
+        
+        var sortDictionaries = true,
+            rep,
+            // Matches RISON identifiers which don't need to be quoted
+            ident = /^[^!:\(\),\*@\$\s'0-9\-][^!:\(\),\*@\$\s']*$/,
+            // Maches troublesome unicode chars for Javascript
+            cx = /[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,                
+            // List of characters which need to be escaped when encoding
+            escapeable = /[\x00-\x1f\x7f-\x9f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,
+            // List of characters which are not safe in a URL
+            unsafe = /[^A-Za-z0-9~!\*\(\)\-_\.,:@\$'\/]+/g,
+            // Lexer definition for the parser tokenizer
+            lexer = /\)|![tfn\(]|\(|'(!!|!'|[^'])*'|\-?([0-9]*\.)?[0-9]+(e-?[0-9]+)?|[^!:\(\),\*@\$0-9\-][^!:\(\),\*@\$]*/g;
+        
+        
+        /*
+            Quotes a string value applying escapes were necesary and wrapping it
+            with single quotes if needed.
+        */
+        function quote(val) {
+            if (val.length === 0) {
+                return "''";
+            }
+            
+            // Handle unicode and non printable chars
+            escapeable.lastIndex = 0;
+            if (escapeable.test(val)) {
+                val.replace(escapeable, function(a){
+                    return '\\u' + ('0000' + (+(a.charCodeAt(0))).toString(16)).slice(-4);
+                });
+            }
+            
+            // Check if it's a valid ident
+            ident.lastIndex = 0;
+            if (ident.test(val)) {
+                return val;
+            }
+            
+            // Escape special chars
+            val = val.replace(/(['!])/mg, '!$1');
+            
+            return "'" + val + "'";
+        }
+        
+        /**
+         * Private function to encode a JS variable into a RISON string
+         *
+         * Heavily based on http://json.org/json2.js
+         */
+        function encode(key, holder) {
+            var i,                      // the loop counter
+                k,                      // the member key   
+                v,                      // the member value
+                length,
+                partial,
+                value = holder[key];
+          
+            // If the value has a toRISON method, call it to obtain a replacement value.
+            if (value && typeof value === 'object' &&
+                    typeof value.toRISON === 'function') {
+                value = value.toRISON(key);
+            }
+            
+            if (typeof rep === 'function') {
+                value = rep.call(holder, key, value);
+            }
+            
+            switch (typeof value) {
+                case 'string':
+                    return quote(value);
+                
+                case 'number':
+                    return isFinite(value) ? String(value).replace('+','') : 'null';
+                
+                case 'boolean':
+                    return value ? '!t' : '!f';
+                
+                // Not actually used by browsers
+                case 'null':
+                    return '!n';
+                
+                // Array, Object or Null
+                case 'object':
+                    if ( !value ) {
+                        return '!n';
+                    }
+                    
+                    partial = [];
+                    
+                    // If the object has a dontEnum length property, we'll treat it as an array.
+                    if ( typeof value.length === 'number' &&
+                            !value.propertyIsEnumerable('length') ) {
+                        
+                        // The object is an array. Stringify every element.
+                        // Use null as a placeholder for non-RISON values.
+                        length = value.length;
+                        for (i = 0; i < length; i += 1) {
+                            partial[i] = encode(i, value) || '!n';
+                        }
+                        
+                        // Join all of the elements together, separated with commas,
+                        // and wrap them in brackets.        
+                        v = '!(' + partial.join(',') + ')';
+                        return v;                            
+                    }
+                    
+                    // If the replacer is an array, use it to select the members to be stringified.
+                    if (rep && typeof rep === 'object') {
+                        length = rep.length;
+                        for (i = 0; i < length; i += 1) {
+                            k = rep[i];
+                            if (typeof k === 'string') {
+                                v = encode(k, value);
+                                if (v) {
+                                    partial.push(quote(k) + ':' + v);
+                                }
+                            }
+                        }
+                    } else {
+                        // Otherwise, iterate through all of the keys in the object.                        
+                        for (k in value) {
+                            if (Object.hasOwnProperty.call(value, k)) {
+                                v = encode(k, value);
+                                if (v) {
+                                    partial.push(quote(k) + ':' + v);
+                                }
+                            }
+                        }
+                    }
+                    
+                    // The RISON spec recommends to sort the dictionaries by its
+                    // keys to improve caching
+                    if ( sortDictionaries ) {
+                        partial.sort( function(a,b){
+                            a = a.split(':')[0];
+                            b = b.split(':')[0];
+                            return (a>b) - (a<b);
+                        });
+                    }
+                    
+                    // Join all of the member texts together, separated with commas,
+                    // and wrap them in braces.
+                    v = '(' + partial.join(',') + ')';
+                    return v;
+            }
+            
+            return false;
+        }
+        
+        /*
+            Private function to decode a RISON string into a JS variable
+         
+            Note that the algorithm is very liberal and can produce unexpected results
+            with not properly formated RISON strings
+        */            
+        function decode(text) {
+            var m,
+                obj,
+                item;
+                
+            if ( (m = lexer.exec(text)) ) {
+                
+                if ( m[0] === ')' ) {
+                    // End of a structure, nothing to do
+                } else if ( m[0] === '(' ) {
+                    obj = {};                    
+                    while ( typeof (item = decode(text)) !== 'undefined' ) {
+                        obj[item] = decode(text);
+                    }
+                    
+                } else if ( m[0] === '!(' ) {
+                    obj = [];
+                    while ( typeof (item = decode(text)) !== 'undefined' ) {
+                        obj.push( item );
+                    }
+                    
+                } else if ( m[0].charAt(0) === "'" ) {
+                    obj = m[0].substring(1, m[0].length-1).replace('!','');
+                } else if ( m[0] === '!t' ) {
+                    obj = true;                        
+                } else if ( m[0] === '!f' ) {
+                    obj = false;
+                } else if ( m[0] === '!n' ) {
+                    obj = null;
+                } else if ( /^\.?[0-9\-]/.test(m[0]) ) {
+                    obj = Number(m[0]);                    
+                } else {
+                    obj = m[0];
+                }
+            }
+            
+            return obj;
+        }
+        
+        
+        
+        /*
+            Public methods
+        */            
+        return {
+            
+            /*
+                Encodes for URL use (and optionally stringifies a variable)
+                being much more liberal than browser's built in encodeURIComponent()
+            */
+            urlencode: function(value, replacer) {
+                if (typeof value !== 'string') {
+                    value = this.stringify(value, replacer);
+                }
+                
+                unsafe.lastIndex = 0;
+                value = value.replace( unsafe, function(chars){
+                    return encodeURIComponent(chars);
+                });
+                
+                return value;
+                //return value.replace('%20', '+');
+            },
+            
+            /*
+                Stringifies a variable as a RISON string
+            */                
+            stringify: function(value, replacer) {
+                
+                rep = replacer;
+                if ( replacer && typeof replacer !== 'function' &&
+                        (typeof replacer !== 'object' ||
+                         typeof replacer.length !== 'number')) {
+                    throw new Error('RISON.stringify');
+                }
+                
+                return encode( '', {'':value} );
+            },
+            
+            /*
+                Parses a RISON string to create its JS variable representation
+            */
+            parse: function(text, reviver) {
+                
+                var result;
+                
+                // The walk method is used to recursively walk the resulting
+                // structure so that modifications can be made.
+                function walk(holder, key) {
+                    var k, v, value = holder[key];
+                    if (value && typeof value === 'object') {
+                        for (k in value) {
+                            if (Object.hasOwnProperty.call(value, k)) {
+                                v = walk(value, k);
+                                if (v !== undefined) {
+                                    value[k] = v;
+                                } else {
+                                    delete value[k];
+                                }
+                            }
+                        }
+                    }
+                    return reviver.call(holder, key, value);
+                }
+                
+                // Manage troublesome unicode characters
+                cx.lastIndex = 0;
+                if (cx.test(text)) {
+                    text = text.replace(cx, function(a){
+                        return '\\u' + ('0000' + (+(a.charCodeAt(0))).toString(16)).slice(-4);
+                    });
+                }
+                
+                lexer.lastIndex = 0;
+                result = decode(text);
+                
+                if ( typeof result === 'undefined' ) {
+                    throw new SyntaxError('RISON.parse');
+                }
+                
+                return typeof reviver === 'function' ? walk({'': result}, '') : result;
+            }
+        };
+    }();
+}

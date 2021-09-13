@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+	<title>Configure Enterprise Data Catalog Plug-in</title>
+	<link rel="stylesheet" type="text/css" href="res/css/login.css">
+</head>
+<body>
+<div class="tilePage eic-presence" id="login">
+	<div class="tileContainer">
+		<div class="login-container">
+			<div class="infaTileHeader">
+				<div class="product-logo">
+					<img src="res/images/favicon.ico">
+					<div >
+							<div class="title">Configure Enterprise Data Catalog Plug-in</div>
+							<div class="subtitle"><br>Enter your credentials to start using the extension.</div>
+					</div>
+					<h4 class="msg"></h4>
+				</div>
+			</div>
+						
+			<div class="infaTileContent eic-presence">
+					<div class="form">
+
+						<label class="flabel field-label1" title="Enterprise Data Catalog URL">EDC URL</label>
+						<div id="eicUrl" class="infaTextBox">
+						<input class="infaField" type="text" value="" placeholder="" name="" maxlength="200">
+						</div>
+
+						<label class="flabel field-label1">Username</label>
+						<div id="user" class="infaTextBox">
+							<input class="infaField" type="text" value="" placeholder="" name="" maxlength="200">
+							</div>
+							<label class="flabel field-label1">Password</label>
+							<div class="password infaTextBox" id="password">
+								<input class="infaField" type="password" value="" placeholder="" name="" maxlength="200">
+								</div>
+								<label class="flabel field-label1">Security Domain</label>
+								<div id="namespace" class="infaTextBox">
+									<select class="infaField">
+										<!-- <option value="Native">Native</option> -->
+									</select>
+								</div>
+								<div class = "rememberMe">
+									<label><input class = "rememberCredentials" type="checkbox" value="" checked> <span style="
+										bottom: 3px;
+										position: relative;
+									"> Remember Credentials </span> </label>
+								  </div>
+								<div class="footer">										
+								<div class="submitBtn loginBtn">
+									Save
+								</div></div>
+								</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <script src="res/js/jquery/jquery-3.2.1.min.js"></script>
+    <script src="options.js"></script>
+</body>
+</html>

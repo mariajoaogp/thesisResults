@@ -1,0 +1,190 @@
+.eic-presence.tilePage {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    overflow: auto;
+    background-color: black;
+    display: table;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+}
+.login-page .eic-presence.tilePage {
+    background: none;
+}
+.extensionSlidingWindow .tilePage::before{
+    height: 30%;
+}
+.ext-body .loginDiv{
+    display: none;
+}
+.eic-presence.tilePage:before {
+    content: '';
+    display: table-row;
+    vertical-align: middle;
+}
+
+.eic-presence.tilePage .tileContainer {
+    display: table;
+    margin: 0 auto;
+    vertical-align: middle;
+    font: 500 1em "Roboto", Arial, Helvetica, sans-serif;    
+}
+
+.eic-presence .login-container{
+    background-color: #fff;
+    text-align: initial;
+    border-radius: 0px 0px 4px 4px;
+    width: 450px;
+    /* min-height: 200px; */
+    position: relative;
+    min-height: 392px;
+    /* display: inline-block; */
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.eic-presence .login-container .infaTileHeader {
+    height: 50px;
+}
+
+.eic-presence .product-logo{
+    height: 100px;    
+}
+
+.eic-presence .login-container .infaTileHeader .product-logo {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.eic-presence .product-logo > div{
+    float: right;
+    width: 81%;
+}
+.eic-presence .product-logo .title{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.eic-presence .product-logo img {
+    height: auto;
+    width: 50px;
+}
+
+.eic-presence .product-name {
+    padding-top: 17px;
+    box-sizing: border-box;
+    float: left;
+}
+
+/* div.infaTileContent.eic-presence{
+    padding-top: 25px;
+} */
+
+ .eic-presence .msg {
+    color:rgb(0, 151, 0);
+    text-align: center;
+}
+.eic-presence .msg.error {
+    color:rgb(223, 5, 5);
+}
+.infaTileContent.eic-presence .form {
+    padding-top: 14px;
+    padding-bottom: 24px;
+    margin: auto;
+    width: 310px;
+}
+.login-page .infaTileContent.eic-presence .form {
+    margin: auto 60px auto;
+}
+
+.infaTileContent.eic-presence .form .infaTextBox{
+    float: right;
+    width: 210px;
+    margin-bottom: 10px;
+}
+
+.infaTileContent.eic-presence .form .flabel {
+    height: 24px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    text-align: left;
+    clear: both;
+    float: left;
+}
+
+.infaTileContent.eic-presence .field-label1 {
+    font: 500 1em "Roboto",Arial,Helvetica,sans-serif;
+}
+.infaTileContent.eic-presence .footer{
+    width: 100%;
+    float: left;
+    clear: both;
+   
+}
+.login-page .infaTileContent.eic-presence .footer{
+    margin-top:50px;
+}
+.infaTileContent.eic-presence .form .submitBtn {
+    float:left;
+    text-align: center;
+    background: orange;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;    
+    font-size: 18px;
+    width: 100%;
+    
+}
+.infaTileContent.eic-presence .form .multibuttons .submitBtn{
+    width: 48%;
+    margin: 3px;
+}
+
+.infaTileContent.eic-presence .login-container .infaTileHeader {
+    height: 50px;
+}
+
+.infaTileContent.eic-presence input.infaField{
+    width: 100%;
+    height: 25px;
+}
+
+.infaTileContent.eic-presence #namespace {
+    padding-top: 2px;
+    width: 65%;
+    padding-left: 10px;
+    float: left;
+}
+.login-page .infaTileContent.eic-presence #namespace {
+    width: 100%;
+    padding-left: 0;
+}
+.infaTileContent.eic-presence #namespace select {
+   height: 28px;
+   width: 214px
+}
+.login-page .infaTileContent.eic-presence #namespace select {
+    width: 100%;
+}
+.infaTileContent.eic-presence .rememberMe{
+    float: left;
+    padding-bottom: 10px;
+}
+
+.infaTileContent.eic-presence input.infaField{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,414 @@
+$.Class('infa.tableauReportBookMarklet',
+	{
+	getTableauObject : function(){
+		return this.reportbookmarklet();
+	},
+	reportbookmarklet :function(){
+	
+   function exists(variable) {
+	   if (variable!=null && variable!=undefined) {
+		   return true;
+	   }
+	   return false;
+   }
+	
+	function getTableauInfo() {
+
+	   /* Utility to retrieve the Id of a DataSource (semantic layer model) */
+	   function getDataSourceId(){
+		   var id;
+		   var isRepositoryUrlLine = false;
+		   jQuery('table.formTable td').each(function(){
+			   if(isRepositoryUrlLine){
+				   id = jQuery(this).text();
+				   /*break the loop*/
+				   return false;
+			   }
+			   if(jQuery(this).text() == 'Repository Url:')
+				   isRepositoryUrlLine = true;		
+		   }	
+		   );
+		   return id;
+	   }
+	   
+	   /* Utility to retrieve the tsConfig variable in the current window, or one of its frames */
+	   function findConfig(win) {
+		   try{
+			   	var config = win.tsConfig;
+				if (exists(config)) {
+					return config;
+				} else {
+					for(var i=0;i<win.frames.length;i++) {
+						config = findConfig(win.frames[i]);
+						if (exists(config)) {
+							return config;
+						}
+					}
+					return null;
+				}
+			}
+			catch{
+				return null;
+			}
+	   }
+	   
+	   /*
+	   - workbook applications: /workbooks; /views; /authoring;
+		   /workbooks/<workbookId>
+		   /views/<workbookId>/<SheetId>
+		   /authoring/<workbookId>/<SheetId>
+	   - data-source applications: /tasks/datasources
+		   /tasks/datasources?container_id=<dataSourceId>
+	   */
+	   var site='';
+	   var id=null; 
+	   var sheet=null; 
+	   // var viewThumbnails = $('.tb-flex-fill').find('h1');
+	   var config = findConfig(window);
+	   if (exists(config)) {
+		   site = config.site_root; /* '/t/test' */
+		   if (site.startsWith('/t/')) {
+			   site = site.substring(3);
+		   } else if (site.startsWith('/site/')) {
+			   site = site.substring(6);
+		   }
+		   id = '/workbooks/'+config.workbook_repo_url;
+		   sheet = config.repositoryUrl.substring(config.repositoryUrl.indexOf('/')+1);
+	   }
+	//    else if (exists(viewThumbnails) && viewThumbnails.length>0) {
+	// 	   /* in version 9.3+, the workbook page url refers to short integer id, but the bridge has no access to it */
+	// 	   /* therefore try to retrieve the workbook physical name instead, based on the views thumbnails */ 
+	// 	   var pathName = window.location.pathname;
+	// 	   if (pathName=='/') {
+	// 		   /* Tableau 9+ */
+	// 		   pathName = window.location.hash;
+	// 		   if (pathName.startsWith('#')) {
+	// 			   pathName = pathName.substr(1);
+	// 		   }
+	// 	   }
+	// 	   var sep = pathName.indexOf('%2F');
+	// 	   if (sep>=0) {
+	// 		   pathName = pathName.substring(0, sep);
+	// 	   }
+	// 	   /* remove arguments after question mark */
+	// 	   var questionMark = pathName.indexOf('?');
+	// 	   if (questionMark>=0) {
+	// 		   pathName = pathName.substring(0, questionMark);
+	// 	   }
+	// 	   var path = pathName.split('/');
+	// 	   /* skips potential double slashes at the beginning, and find the site prefix */
+	// 	   var firstElement=0;
+	// 	   for (var i=0; i<path.length; i++) {
+	// 		   if (path[i]) {
+	// 			   if(path[i]=='t' || path[i]=='site') {
+	// 				   /* skip the site (tenant) prefix if any */
+	// 				   site = path[i+1];
+	// 				   firstElement=i+2;
+	// 				   break;
+	// 			   } else {
+	// 				   firstElement=i;
+	// 				   break;
+	// 			   }
+	// 		   }
+	// 	   }
+	// 	   if (path[firstElement] == 'workbooks' && firstElement+1<path.length && path[firstElement+1]) {
+	// 		   id = '/workbooks/' + path[firstElement+1];
+	// 	   }
+	//    } 
+	   else {
+		   var pathName = window.location.pathname;
+		   if (pathName=='/') {
+			   /* Tableau 9+ */
+			   pathName = window.location.hash;
+			   if (pathName.startsWith('#')) {
+				   pathName = pathName.substr(1);
+			   }
+		   }
+		   /* remove arguments after question mark */
+		   var questionMark = pathName.indexOf('?');
+		   if (questionMark>=0) {
+			   pathName = pathName.substring(0, questionMark);
+		   }
+		   var path = pathName.split('/');
+		   /* skips potential double slashes at the beginning, and find the site prefix */
+		   var firstElement=0;
+		   for (var i=0; i<path.length; i++) {
+			   if (path[i]) {
+				   if(path[i]=='t' || path[i]=='site') {
+					   /* skip the site (tenant) prefix if any */
+					   site = path[i+1];
+					   firstElement=i+2;
+					   break;
+				   } else {
+					   firstElement=i;
+					   break;
+				   }
+			   }
+		   }
+		   if(path[firstElement] == 'workbooks' && firstElement+1<path.length && path[firstElement+1]) {
+			   id = '/workbooks/' + path[firstElement+1];
+		   }
+		   else if((path[firstElement] == 'views' || path[firstElement] == 'authoring') && firstElement+2<path.length && path[firstElement+1] && path[firstElement+2]) {
+			   id = '/workbooks/' + path[firstElement+1];
+			   sheet = path[firstElement+2];
+		   }
+		   else if(pathName == '/tasks/datasources'){
+			   id = getDataSourceId();
+		   }
+	   }
+	   
+	   var info;
+	   if (id) {
+		   info = {tool   : 'Tableau',
+				   context: site, /* the site name or empty for default site */
+				   report : id,    /* the workbook id, such as '/workbooks/name' or '/workbooks/12' */
+				   page   : sheet, /* the sheet physical name, such as 'Sheet1' */
+				   item   : null   /* not supported */ 
+				  };
+		}
+	   return info;
+   }
+	
+   function getObieeInfo() {
+   
+	   /* Utility to retrieve the Field Id */
+	   function getF(){
+		   var t=document.getElementsByClassName('PTChildPivotTable');
+		   if(t.length==0){
+			   return '';
+		   }
+		   var tds=t[0].getElementsByTagName('td');
+		   var c=-1, h='';
+		   for(var i=0;i<tds.length;i++){	
+			   if (tds[i].style.backgroundColor=='rgb(156, 172, 201)'){
+				   c=tds[i].id.split('_');
+				   c=c[c.length-2];
+				   break;
+			   }	
+		   }
+		   
+		   if(c>=0){
+			   h=document.getElementsByClassName('PTCHC'+c);
+			   if(h.length){
+				   h = h[0];
+				   while(h.childNodes[0]){
+					   h=h.childNodes[0];
+				   }					
+			   }
+		   } 
+		   return h.nodeValue? h.nodeValue.trim():'';
+	   }
+	   
+	   /* Utility to retrieve the Report Id */
+	   function getRep(){
+			var p=null;
+			/*for v11 openned report*/
+			if(typeof saw !== 'undefined' && saw.header){
+				p=saw.header.FavoriteHeaderMenu.getSingleton().getCurrentItemPath();
+				if(p) return p; 
+			}
+
+			/*for v10 openned report*/
+			if(window.frames && window.frames.length>1){
+				var reportFrame=window.frames[1];
+				var element=reportFrame.document.getElementById('Path');
+				if (element) {
+						p=element.value;
+				}
+				if(p) return p; 
+			}
+
+			   /*for v11 report displayed via GO url*/
+			if(typeof obips !== 'undefined' && obips.BreadCrumbs.Manager.getSingleton().currentItem){
+				p=obips.BreadCrumbs.Manager.getSingleton().currentItem.path;
+				if(p) return p;
+			}              
+		   
+			/*for v10 report displayed via GO url*/
+			var viewForm=document.getElementById('ViewForm');
+			if (viewForm) {
+				p=viewForm.Path.value;
+				if (p) return p;
+			}
+			
+			/*for v11 catalog*/
+			var hasSel=false;
+			var element=document.getElementById('idCatalogToolbar');
+			if (!element){
+					return null;
+			}
+			
+			var pathEl=element.getElementsByTagName('select');
+			if(!pathEl || pathEl.length<=0){
+					return null;
+			}
+			
+			p=pathEl[0].value;
+			if(!p){
+					return null;
+			}
+			
+			var tables=document.getElementById('idCatalogItemsAccordion');
+			if(!tables){
+					return null;
+			}
+			
+			var selRow=tables.getElementsByTagName('td');
+			for(var i=0; i<selRow.length; i++){
+					if(selRow[i].className.indexOf('ListSelectedItem')<0){
+							continue;
+					}
+					var selTitle=selRow[i].getElementsByTagName('span');
+					for(var j=0;j<selTitle.length;j++){
+							if (selTitle[j].className.indexOf('CatalogObjectListItemTitle')<0){
+									continue;
+							}
+							p+='/'+selTitle[j].innerHTML.replace(/\\//g, '\\/');
+							hasSel=true;
+					}
+			}
+			return (!hasSel?null:p);
+	   }
+	
+	   var path=getRep();
+	   var field=getF();
+	   var info;
+	   if (path!=null) {
+		   info = {tool   : 'OracleBIEE',
+				   context: null,
+				   report : path,
+				   page   : null,
+				   item   : field };
+		}
+	   return info;
+   }
+   
+   function getBusinessObjectsInfo() {
+	   /* Utility to retrieve a named child frame from a parent frame */
+	   function  findFrame(pF,name){
+		   if(pF.frames.length>0){
+			   var f=pF.frames[name];
+			   if(f) return f;
+		   }
+		   for(var i=0;i<pF.frames.length;i++) {
+			   var f=findFrame(pF.frames[i],name);
+			   if(f) return f;
+		   }
+		   return null;
+	   }
+	   /* Utility to retrieve the selected row in a tabular list */
+	   function getSelectedRow(){
+			var mFrame=window.frames[0];
+		   if(!mFrame){
+			   return null;
+		   }
+		   var t;
+		   /*For XI r4.x*/
+		   var boF=mFrame.frames[mFrame.frames.length-1];
+		   if(boF&& boF.document){
+			   t=boF.document.getElementById('ListingURE_detailView_listMainTable');
+		   }
+		   if(!t){
+			   /*For XI r3.x*/
+			   boF=findFrame(window,'workspaceBodyFrame');
+			   if(boF&& boF.document){
+				   t=boF.document.getElementById('ListingURE_listMainTable');
+			   }
+		   }
+		   if(!t){
+			   return null;
+		   }
+		   var body=t.tBodies.item(0);
+		   if(!body){
+			   return null;
+		   }
+		   
+		   var selRow;
+		   for(var i=0;i<body.children.length;i++){ 
+			   if(body.children[i].className=='selectedFocusedRow'){ 
+				   selRow=body.children[i];
+				   break;
+			   }
+		   }        
+		   return selRow;
+	   }
+	   function getReportId(){
+		   var selRow=getSelectedRow();        
+		   if(!selRow){
+			   return null;
+		   }
+		   var selTd=selRow.cells[selRow.cells.length-1];
+		   var selInput=selTd.firstChild.getElementsByTagName('input');
+		   var id;
+		   for(var i=0;i<selInput.length;i++){
+			   if(selInput[i].value.indexOf('javascript')!=-1){
+				   continue;
+			   }
+			   id=selInput[i].value;
+		   }
+		   var us=id.indexOf('_');
+		   var rId;
+		   if(us==-1) rId=id;
+		   else rId=id.substring(0,us);
+		   return rId;        
+	   }
+	   function getReportId2(){
+		   var boF=findFrame(window,'webiViewFrame');
+		   if (!boF) {
+			   return null;
+		   }
+		   var DS=boF.DS;
+		   var rId;
+		   /*For IE and Chrome*/
+		   if(DS){
+			   /*For XI r4.x WebIntelligence: http://bo11r4:8080/BOE/OpenDocument/opendoc/openDocument.jsp?iDocID=4807   DS.strDocID*/
+			   /*For XI r4.x Analytic: http://bo11r4:8080/BOE/OpenDocument/opendoc/openDocument.jsp?iDocID=7575*/
+			   /*For XI r4.x Crystal: http://bo11r4:8080/BOE/OpenDocument/opendoc/openDocument.jsp?iDocID=5519*/
+			   rId=DS.strDocID;
+		   }else{
+			   /*For XI r3.x WebIntelligence: http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=156002  boF.strDocID*/
+			   /*For XI r3.x Analytic: http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=170683     boF.sURL */
+			   /*For XI r3.x Crystal: http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=144473*/
+			   /*For XI r3.x DesktopIntelligence: http://bo11r3:8080/OpenDocument/opendoc/openDocument.jsp?iDocID=144871  boF.strDocID*/
+			   rId=boF.strDocID;
+		   }
+		   if(!rId){
+			   /*For firefox*/
+			   var s=boF.src;
+			   if(s){
+				   var start=s.indexOf('?');
+				   s=s.substring(start+1);
+				   var params=s.split('&');
+				   for(var i=0;i<params.length;i++){
+					   if(params[i].indexOf('id=')==0) return params[i].substring(3);
+				   }
+   
+			   }
+		   }
+		   return rId;
+	   }
+	   var rId=getReportId()? getReportId():getReportId2();
+	   var info;
+	   if (rId!=null) {
+		   info = {tool   : 'SAPBusinessObjects',
+				   context: null,
+				   report : rId,
+				   page   : null,
+				   item   : null };
+		}
+	   return info;
+   }
+   
+   var info = getTableauInfo();
+   if (info==null) {
+	   info = getObieeInfo();
+   }
+   if (info==null) {
+	   info = getBusinessObjectsInfo();
+   }
+   if (info!=null) {
+	   return JSON.stringify(info);
+   }
+}
+},{}
+)

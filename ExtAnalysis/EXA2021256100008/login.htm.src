@@ -1,0 +1,50 @@
+<div class="tilePage eic-presence" id="login">
+	<div class="tileContainer">
+		<div class="login-container">
+			<div class="infaTileHeader">
+				{{if loginImageUrl}}
+				<div class="product-logo">
+				 <img src=${loginImageUrl}>
+						<div >
+							<div class="title">Enterprise Data Catalog Plug-in</div>
+							<div class="subtitle">Enter your credentials to start using the extension. </div>
+						</div>
+					</div>
+				{{/if}}
+				<h4 class="msg"></h4>
+			</div>
+			<div class="infaTileContent eic-presence">
+					<div class="form">
+							{{if eicURL}}
+							<label class="flabel field-label1" title="Enterprise Information Catalog URL">EDC URL :</label>
+					  	<div id="eicUrl">
+										<input class="infaField" type="text" value="" placeholder="" name="" maxlength="200">
+										</div>
+							{{/if}}
+						<label class="flabel field-label1">Username:</label>
+						<div id="user">
+							<input class="infaField" type="text" value="" placeholder="" name="" maxlength="200">
+							</div>
+							<label class="flabel field-label1">Password:</label>
+							<div class="password" id="password">
+								<input class="infaField" type="password" value="" placeholder="" name="" maxlength="200">
+								</div>
+								<label class="flabel field-label1">Security Domain</label>
+								<div id="namespace" class="infaTextBox">
+									<select class="infaField">
+										<option value="Native">Native</option>
+									</select>
+								</div>
+                <br>
+                <div>
+                  <label><input class = "rememberCredentials" type="checkbox" value="" checked> Remember Credentials </label>
+                </div>				<div class="footer">
+										
+								<div class="submitBtn loginBtn">
+									Login
+                  </div></div>
+							</div>
+			</div>
+		</div>
+	</div>
+</div>

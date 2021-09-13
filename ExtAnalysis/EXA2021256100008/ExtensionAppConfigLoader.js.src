@@ -1,0 +1,74 @@
+(function () {
+    
+        var CONFIG_LOCATION = "/res/lib/config",
+            CONFIG = {};
+    
+    
+        function setConfiguration(type, config, deferred) {
+            if (config) {
+                CONFIG[type] = config;
+                if (deferred) {
+                    deferred.resolve(config);
+                }
+            }
+        }
+    
+        function getConfiguration(type) {
+            return CONFIG[type];
+        }
+        
+infaw.ldm.appConfigLoader.extend('infaw.extension.appConfigLoader',{
+    _instance: null,
+
+    getInstance: function () {
+        if (!infaw.extension.appConfigLoader._instance) {
+            infaw.extension.appConfigLoader._instance = new infaw.extension.appConfigLoader();
+        }
+        return infaw.extension.appConfigLoader._instance;
+    }
+},{
+    getConfiguration: function (configType, reload) {
+        
+                    var deferred = $.Deferred(),
+                        configuration = getConfiguration(configType);
+        
+                    if (reload === true || !configuration) {
+                        var appContext = this.getAppContext(),
+                            configPath = CONFIG_LOCATION + "/${AppContext}/" + configType + ".json",
+                            // defaultConfigReq = $.blockGetJSON(configPath.replace("${AppContext}", "chromeExtension"), null, null, null, -1);
+        
+
+                            defaultConfigReq = $.getJSON(
+                           chrome.extension.getURL(configPath.replace("${AppContext}", "chromeExtension"))
+                        )
+                        function setDefaultConfig() {
+                            defaultConfigReq.then(function (defaultConfig) {
+                                setConfiguration(configType, defaultConfig, deferred);
+                            }).fail(function () {
+                                console.error(configType + " :: Not able to load default configuration");
+                            });
+                        }
+        
+                         if (appContext !== "default") {
+                            var appContextReq = $.blockGetJSON(configPath.replace("${AppContext}", appContext), null, null, null, -1);
+                            $.when(defaultConfigReq, appContextReq)
+                                .then(function (defaultConfig, appContextConfig) {
+                                    setConfiguration(configType, $.extend(true, defaultConfig[0], appContextConfig[0]), deferred);
+                                }).fail(function () {
+                                    console.error(configType + " :: Invalid app context '" + appContext + "'");
+                                    setDefaultConfig();
+                                });
+        
+                        } else {
+                            setDefaultConfig();
+                        }
+        
+                    } else {
+                        deferred.resolve(configuration);
+                    }
+        
+                    return deferred.promise();
+        
+                }
+})
+})();

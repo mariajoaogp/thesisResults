@@ -1,0 +1,314 @@
+infaw.ldm.threeSixty.propertiesPanel.extend('infaw.ldm.threeSixty.GeneralPropPanel', {
+
+    _propertyToSkip: {
+        "com.infa.ldm.file.xml.XMLFile": [
+            "com.infa.ldm.profiling.profiledRowCount"
+        ],
+        "com.infa.ldm.profiling.DataDomainGroup": [
+            "com.infa.ldm.profiling.profiledRowCount"
+        ],
+        "com.infa.ldm.file.json.JSONFile": [
+            "com.infa.ldm.profiling.profiledRowCount"
+        ],
+        "com.infa.ldm.file.delimited.DelimitedFile": [
+            "com.infa.ldm.profiling.profiledRowCount"
+        ],
+        "com.infa.ldm.profiling.CompositeDomain": [
+            "core.description"
+        ],
+        "com.infa.ldm.relational.Table": [
+            "com.infa.ldm.profiling.profiledRowCount",
+            "core.description"
+        ],
+        "com.infa.ldm.file.unstructured.UnstructuredFile": [
+            "com.infa.ldm.profiling.profiledRowCount",
+            "com.infa.ldm.profiling.infDataDomain",
+            "com.infa.ldm.profiling.infDataDomainNames",
+            "com.infa.ldm.profiling.infDataDomainConfs",
+            "com.infa.ldm.profiling.infDataDomainFreqs",
+            "com.infa.ldm.profiling.dataDomainsAll",
+            "com.infa.ldm.profiling.dataDomainsAccepted",
+            "com.infa.ldm.profiling.dataDomainsRejected",
+            "com.infa.ldm.profiling.dataDomainsInferred",
+            "com.infa.ldm.profiling.columnValueFrequencyPercentage"
+        ],
+        "com.infa.ldm.file.xml.XMLField": [
+            "com.infa.ldm.profiling.estimatedRowCount",
+            "com.infa.ldm.profiling.uniquePercent",
+            "com.infa.ldm.profiling.nonUniquePercent",
+            "com.infa.ldm.profiling.nullPercent",
+            "com.infa.ldm.profiling.nullCount",
+            "com.infa.ldm.profiling.nonUniqueCount",
+            "com.infa.ldm.profiling.uniqueCount",
+            "com.infa.ldm.profiling.pattern",
+            "com.infa.ldm.profiling.patternNames",
+            "com.infa.ldm.profiling.patternConfs",
+            "com.infa.ldm.profiling.patternFreqs",
+            "com.infa.ldm.profiling.infDataType",
+            "com.infa.ldm.profiling.infDataTypeNames",
+            "com.infa.ldm.profiling.infDataTypeConfs",
+            "com.infa.ldm.profiling.infDataTypeFreqs",
+            "com.infa.ldm.profiling.infDataDomain",
+            "com.infa.ldm.profiling.infDataDomainNames",
+            "com.infa.ldm.profiling.infDataDomainConfs",
+            "com.infa.ldm.profiling.infDataDomainFreqs",
+            "com.infa.ldm.profiling.dataDomainsAll",
+            "com.infa.ldm.profiling.dataDomainsAccepted",
+            "com.infa.ldm.profiling.dataDomainsRejected",
+            "com.infa.ldm.profiling.dataDomainsInferred",
+            "com.infa.ldm.profiling.columnValueFrequencyPercentage"
+        ],
+        "com.infa.ldm.adapter.Field": [
+            "com.infa.ldm.profiling.estimatedRowCount",
+            "com.infa.ldm.profiling.uniquePercent",
+            "com.infa.ldm.profiling.nonUniquePercent",
+            "com.infa.ldm.profiling.nullPercent",
+            "com.infa.ldm.profiling.nullCount",
+            "com.infa.ldm.profiling.nonUniqueCount",
+            "com.infa.ldm.profiling.uniqueCount",
+            "com.infa.ldm.profiling.pattern",
+            "com.infa.ldm.profiling.patternNames",
+            "com.infa.ldm.profiling.patternConfs",
+            "com.infa.ldm.profiling.patternFreqs",
+            "com.infa.ldm.profiling.infDataType",
+            "com.infa.ldm.profiling.infDataTypeNames",
+            "com.infa.ldm.profiling.infDataTypeConfs",
+            "com.infa.ldm.profiling.infDataTypeFreqs",
+            "com.infa.ldm.profiling.infDataDomain",
+            "com.infa.ldm.profiling.infDataDomainNames",
+            "com.infa.ldm.profiling.infDataDomainConfs",
+            "com.infa.ldm.profiling.infDataDomainFreqs",
+            "com.infa.ldm.profiling.dataDomainsAll",
+            "com.infa.ldm.profiling.dataDomainsAccepted",
+            "com.infa.ldm.profiling.dataDomainsRejected",
+            "com.infa.ldm.profiling.dataDomainsInferred",
+            "com.infa.ldm.profiling.columnValueFrequencyPercentage"
+        ],
+        "com.infa.ldm.relational.ViewColumn": [
+            "com.infa.ldm.profiling.estimatedRowCount",
+            "com.infa.ldm.profiling.uniquePercent",
+            "com.infa.ldm.profiling.nonUniquePercent",
+            "com.infa.ldm.profiling.nullPercent",
+            "com.infa.ldm.profiling.nullCount",
+            "com.infa.ldm.profiling.nonUniqueCount",
+            "com.infa.ldm.profiling.uniqueCount",
+            "com.infa.ldm.profiling.pattern",
+            "com.infa.ldm.profiling.patternNames",
+            "com.infa.ldm.profiling.patternConfs",
+            "com.infa.ldm.profiling.patternFreqs",
+            "com.infa.ldm.profiling.infDataType",
+            "com.infa.ldm.profiling.infDataTypeNames",
+            "com.infa.ldm.profiling.infDataTypeConfs",
+            "com.infa.ldm.profiling.infDataTypeFreqs",
+            "com.infa.ldm.profiling.infDataDomain",
+            "com.infa.ldm.profiling.infDataDomainNames",
+            "com.infa.ldm.profiling.infDataDomainConfs",
+            "com.infa.ldm.profiling.infDataDomainFreqs",
+            "com.infa.ldm.profiling.dataDomainsAll",
+            "com.infa.ldm.profiling.dataDomainsAccepted",
+            "com.infa.ldm.profiling.dataDomainsRejected",
+            "com.infa.ldm.profiling.dataDomainsInferred",
+            "com.infa.ldm.profiling.columnValueFrequencyPercentage"
+        ],
+        "com.infa.ldm.relational.Column": [
+            "com.infa.ldm.profiling.estimatedRowCount",
+            "com.infa.ldm.profiling.uniquePercent",
+            "com.infa.ldm.profiling.nonUniquePercent",
+            "com.infa.ldm.profiling.nullPercent",
+            "com.infa.ldm.profiling.nullCount",
+            "com.infa.ldm.profiling.nonUniqueCount",
+            "com.infa.ldm.profiling.uniqueCount",
+            "com.infa.ldm.profiling.pattern",
+            "com.infa.ldm.profiling.patternNames",
+            "com.infa.ldm.profiling.patternConfs",
+            "com.infa.ldm.profiling.patternFreqs",
+            "com.infa.ldm.profiling.infDataType",
+            "com.infa.ldm.profiling.infDataTypeNames",
+            "com.infa.ldm.profiling.infDataTypeConfs",
+            "com.infa.ldm.profiling.infDataTypeFreqs",
+            "com.infa.ldm.profiling.infDataDomain",
+            "com.infa.ldm.profiling.infDataDomainNames",
+            "com.infa.ldm.profiling.infDataDomainConfs",
+            "com.infa.ldm.profiling.infDataDomainFreqs",
+            "com.infa.ldm.profiling.dataDomainsAll",
+            "com.infa.ldm.profiling.dataDomainsAccepted",
+            "com.infa.ldm.profiling.dataDomainsRejected",
+            "com.infa.ldm.profiling.dataDomainsInferred",
+            "com.infa.ldm.profiling.columnValueFrequencyPercentage"
+        ],
+        "com.infa.ldm.file.json.JSONField": [
+            "com.infa.ldm.profiling.estimatedRowCount",
+            "com.infa.ldm.profiling.uniquePercent",
+            "com.infa.ldm.profiling.nonUniquePercent",
+            "com.infa.ldm.profiling.nullPercent",
+            "com.infa.ldm.profiling.nullCount",
+            "com.infa.ldm.profiling.nonUniqueCount",
+            "com.infa.ldm.profiling.uniqueCount",
+            "com.infa.ldm.profiling.pattern",
+            "com.infa.ldm.profiling.patternNames",
+            "com.infa.ldm.profiling.patternConfs",
+            "com.infa.ldm.profiling.patternFreqs",
+            "com.infa.ldm.profiling.infDataType",
+            "com.infa.ldm.profiling.infDataTypeNames",
+            "com.infa.ldm.profiling.infDataTypeConfs",
+            "com.infa.ldm.profiling.infDataTypeFreqs",
+            "com.infa.ldm.profiling.infDataDomain",
+            "com.infa.ldm.profiling.infDataDomainNames",
+            "com.infa.ldm.profiling.infDataDomainConfs",
+            "com.infa.ldm.profiling.infDataDomainFreqs",
+            "com.infa.ldm.profiling.dataDomainsAll",
+            "com.infa.ldm.profiling.dataDomainsAccepted",
+            "com.infa.ldm.profiling.dataDomainsRejected",
+            "com.infa.ldm.profiling.dataDomainsInferred",
+            "com.infa.ldm.profiling.columnValueFrequencyPercentage"
+        ],
+        "com.infa.ldm.file.delimited.DelimitedField": [
+            "com.infa.ldm.profiling.estimatedRowCount",
+            "com.infa.ldm.profiling.uniquePercent",
+            "com.infa.ldm.profiling.nonUniquePercent",
+            "com.infa.ldm.profiling.nullPercent",
+            "com.infa.ldm.profiling.nullCount",
+            "com.infa.ldm.profiling.nonUniqueCount",
+            "com.infa.ldm.profiling.uniqueCount",
+            "com.infa.ldm.profiling.pattern",
+            "com.infa.ldm.profiling.patternNames",
+            "com.infa.ldm.profiling.patternConfs",
+            "com.infa.ldm.profiling.patternFreqs",
+            "com.infa.ldm.profiling.infDataType",
+            "com.infa.ldm.profiling.infDataTypeNames",
+            "com.infa.ldm.profiling.infDataTypeConfs",
+            "com.infa.ldm.profiling.infDataTypeFreqs",
+            "com.infa.ldm.profiling.infDataDomain",
+            "com.infa.ldm.profiling.infDataDomainNames",
+            "com.infa.ldm.profiling.infDataDomainConfs",
+            "com.infa.ldm.profiling.infDataDomainFreqs",
+            "com.infa.ldm.profiling.dataDomainsAll",
+            "com.infa.ldm.profiling.dataDomainsAccepted",
+            "com.infa.ldm.profiling.dataDomainsRejected",
+            "com.infa.ldm.profiling.dataDomainsInferred",
+            "com.infa.ldm.profiling.columnValueFrequencyPercentage"
+        ],
+        "com.infa.ldm.profiling.DataDomain": [
+            "core.description",
+            "com.infa.ldm.profiling.DataDomainGroup"
+        ],
+        "core.Resource": [
+            "core.lastScanStatus",
+            "core.lastScanDate"
+        ],
+        "com.infa.ldm.bg.BGPolicy": [
+            "com.infa.ldm.bg.url",
+            "com.infa.ldm.bg.formattedDescription",
+            "core.resourceName",
+            "com.infa.ldm.bg.owner",
+            "com.infa.ldm.bg.steward",
+            "com.infa.ldm.bg.stakeHolders",
+            "com.infa.ldm.bg.formattedUsageContext",
+            "com.infa.ldm.bg.formattedExample",
+            "com.infa.ldm.bg.referenceTableURL",
+            "com.infa.ldm.bg.ruleIntent"
+        ],
+        "com.infa.ldm.bg.BGGlossary": [
+            "com.infa.ldm.bg.url",
+            "com.infa.ldm.bg.formattedDescription",
+            "core.resourceName",
+            "com.infa.ldm.bg.owner",
+            "com.infa.ldm.bg.steward",
+            "com.infa.ldm.bg.stakeHolders",
+            "com.infa.ldm.bg.formattedUsageContext",
+            "com.infa.ldm.bg.formattedExample",
+            "com.infa.ldm.bg.referenceTableURL",
+            "com.infa.ldm.bg.ruleIntent"
+        ],
+        "com.infa.ldm.bg.BGCategory": [
+            "com.infa.ldm.bg.url",
+            "com.infa.ldm.bg.formattedDescription",
+            "core.resourceName",
+            "com.infa.ldm.bg.owner",
+            "com.infa.ldm.bg.steward",
+            "com.infa.ldm.bg.stakeHolders",
+            "com.infa.ldm.bg.formattedUsageContext",
+            "com.infa.ldm.bg.formattedExample",
+            "com.infa.ldm.bg.referenceTableURL",
+            "com.infa.ldm.bg.ruleIntent"
+        ],
+        "com.infa.ldm.bg.BGTerm": [
+            "com.infa.ldm.bg.url",
+            "com.infa.ldm.bg.formattedDescription",
+            "core.resourceName",
+            "com.infa.ldm.bg.owner",
+            "com.infa.ldm.bg.steward",
+            "com.infa.ldm.bg.stakeHolders",
+            "com.infa.ldm.bg.formattedUsageContext",
+            "com.infa.ldm.bg.formattedExample",
+            "com.infa.ldm.bg.referenceTableURL",
+            "com.infa.ldm.bg.ruleIntent",
+            "com.infa.ldm.bg.formattedExample",
+            "com.infa.ldm.bg.referenceTableURL"
+        ]
+    },
+
+    isInExcludedPackages: function (fact) {
+        var exclude = false,
+            excludedPackages = [infa.ldm.Utils.ATTR_SECURE_AT_SOURCE];
+
+        $.each(excludedPackages, function (index, package) {
+            exclude = (fact.indexOf(package) === 0);
+        });
+
+        return exclude;
+    },
+
+    canSkipProperty: function (fact, objectInfo) {
+
+        var skipfact = false,
+            excludedFacts = this._propertyToSkip[objectInfo.getObjectType()];
+
+        if (infa.ldm.Utils.isCoreType(fact)) {
+            skipfact = true;
+        } else if (excludedFacts && excludedFacts.indexOf(fact) != -1) {
+            skipfact = true;
+        } else if (fact === infa.ldm.Utils.ATTR_CORE_RESOURCENAME ||
+            fact === infa.ldm.Utils.AXON_BASE_FACT ||
+            fact === infa.ldm.Utils.TERM_BASE_FACT) {
+            skipfact = true;
+        } else if (this.isInExcludedPackages(fact)) {
+            skipfact = true;
+        }
+
+        return skipfact;
+    }
+
+}, {
+
+    getPropertyConfig: function (prop, propId) {
+        prop = this._super(prop, propId);
+        prop.nameCls = "col-md-4";
+        prop.valueCls = "col-md-8";
+        return prop;
+    },
+
+    getPropViewConfig: function (data) {
+        var config = this._super(data);
+        config.cls = "generalPropView";
+        delete config.valueSeparator;
+        return config;
+    },
+
+    getProperties: function () {
+        var currentObject = this.getObjectInfo();
+        return currentObject
+            .getPropertiesByType(infaw.ldm.ThreeSixtyObject.FACT_TYPE.GENERAL, function (prop) {
+                return !infaw.ldm.threeSixty.GeneralPropPanel.canSkipProperty(prop.fact, currentObject);
+            });
+    },
+
+    isEditable: function () {
+        return false;
+    },
+
+    setTitle: function (cntr) {
+        cntr.append("General Properties");
+    }
+
+});

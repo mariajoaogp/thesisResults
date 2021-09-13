@@ -1,0 +1,125 @@
+$.Class('infaw.extension.threeSixty.ObjectOverview',
+{
+    
+        config: {},
+    
+        getOverviewConfig: function (configFilename) {
+            var deferred = $.Deferred();
+            if (!infaw.extension.threeSixty.ObjectOverview.config[configFilename]) {
+                //var configType = "360OverviewTabConfiguration";
+                infaw.extension.appConfigLoader
+                    .getInstance()
+                    .getConfiguration(configFilename)
+                    .done(function (config) {
+                        infaw.extension.threeSixty.ObjectOverview.config[configFilename] = config;
+                        deferred.resolve(infaw.extension.threeSixty.ObjectOverview.config[configFilename]);
+                    });
+    
+            } else {
+                deferred.resolve(infaw.extension.threeSixty.ObjectOverview.config[configFilename]);
+            }
+            return deferred.promise();
+        },
+    
+        getPanelGroupsConfig: function (groupId, configFilename) {
+            return infaw.extension.threeSixty.ObjectOverview.config[configFilename].panelGroupsConfig[groupId];
+        },
+    
+        getPanelsConfig: function (panelId, configFilename) {
+            return infaw.extension.threeSixty.ObjectOverview.config[configFilename].panelsConfig[panelId];
+        },
+    
+        getLayoutConfig: function (type, configFilename) {
+            var deferred = $.Deferred();
+            infaw.extension.threeSixty.ObjectOverview.getOverviewConfig(configFilename).then(function (config) {
+                var lconfig = config.layoutConfig[type];
+                deferred.resolve(lconfig ? lconfig : config.layoutConfig.default);
+            });
+            return deferred.promise();
+        }
+    
+    }, {
+    
+        init: function (config) {
+            objectOverview = this;
+            var self = this;
+            this._layout = {};
+            this._groups = {};
+            this._config = config;
+            this._objectInfo = config.objectInfo;
+            var classType = config.objectInfo.getObjectType();
+            infaw.extension.threeSixty.ObjectOverview.getLayoutConfig(classType, this._config.configFilename)
+                .then(function (layoutConfig) {
+                    self._layout[classType] = self._renderUI(config.renderTo, layoutConfig);
+                });
+        },
+    
+        _renderUI: function (cntr, layoutConfig) {
+            var self = this,
+                layoutObj = {},
+                objectOverview;
+    
+            $.each(layoutConfig, function (index, columnConfig) {
+                if ($.isPlainObject(columnConfig)) {
+                    
+                    if(!objectOverview)
+                        objectOverview = $("<div></div>").addClass("container-fluid objectOverview").appendTo(cntr);
+    
+                    var col = $("<div></div>").addClass("col-md-" + columnConfig.colSpan).appendTo(objectOverview);
+                    $.each(columnConfig.groupIds, function (j, groupId) {
+                        var groupCntr = $("<div></div>").addClass("row").appendTo(col),
+                            groupDetails = infaw.extension.threeSixty.ObjectOverview.getPanelGroupsConfig(groupId,self._config.configFilename),
+                            panels = {};
+    
+                        $.each(groupDetails.panelIdList, function (i, panelId) {
+                            panels[panelId] = infaw.extension.threeSixty.ObjectOverview.getPanelsConfig(panelId,self._config.configFilename);
+                        });
+    
+                        var panelGrp = new infaw.ldm.threeSixty.overviewPanelGroup({
+                            renderTo: groupCntr,
+                            panels: panels,
+                            triggerEvent : self._config.triggerEvent,
+                            objectInfo: self._objectInfo
+                        });
+                        layoutObj[groupId] = panelGrp;
+    
+                        if(!self._groups[groupId]) {
+                            self._groups[groupId] = [];
+                        }
+                        self._groups[groupId].push(panelGrp);
+                    });
+                } else {
+                    infaw.extension.threeSixty.ObjectOverview.getLayoutConfig(columnConfig, self._config.configFilename)
+                        .then(function (subLayoutConfig) {
+                            layoutObj[columnConfig] = self._renderUI(cntr, subLayoutConfig);
+                        });
+                }
+    
+            });
+    
+            return layoutObj;
+        },
+    
+        setTitle: function (cntr) {
+            cntr.append("Panel Title");
+        },
+        setActionsContent: function (actionsCntr) {},
+    
+        setPanelContent: function (cntr) {
+            cntr.append("<p>Panel Content</p>");
+        },
+    
+        refresh: function () {
+            $.each(this._groups, function(id, groups){
+                $.each(groups, function(index, group){
+                    group.refresh();
+                });
+            });
+        },
+    
+        onResize: function () {
+    
+        }
+    
+    })
+

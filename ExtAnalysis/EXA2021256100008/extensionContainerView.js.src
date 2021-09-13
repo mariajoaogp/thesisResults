@@ -1,0 +1,96 @@
+$.Class("infa.Eic.extensionContainerView",{
+    initialized : false,
+    ContainerDeferred : $.Deferred(),
+    eicObject : {},
+    initialized : false,
+    showSearch: false,
+    initialization : function() {
+        return infa.Eic.extensionContainerView.ContainerDeferred.promise();
+    },
+    init : function(){
+
+            window.addEventListener("message", function(event){
+                if(event.data == "updateEICIframeContent"){              
+                    $.unBlockContainer();
+                    if(infa.Eic.extensionContainerView.initialized){
+                        if(infa.Eic.extensionContainerView.eicObject.items && infa.Eic.extensionContainerView.eicObject.items.length > 0)
+                            infa.Eic.extensionContainer.initialize(infa.Eic.extensionContainerView.eicObject,infa.Eic.extensionContainerView.showSearch)
+                        else{ 
+                            infa.Eic.extensionContainerView.initialize().done(function(){
+                            infa.Eic.extensionContainer.initialize(infa.Eic.extensionContainerView.eicObject,infa.Eic.extensionContainerView.showSearch)                            
+                        })
+                    }
+                    }
+                    else
+                    {
+                        infa.Eic.extensionContainerView.initialize().done(function(){
+                            infa.Eic.extensionContainer.initialize(infa.Eic.extensionContainerView.eicObject,infa.Eic.extensionContainerView.showSearch)                            
+                        })
+                    }
+                    }    
+                }, false);
+},
+initAppConfig:function(){
+    var tableauObject = infa.extension.eicConfiguration.getParameter("tableauObject");
+  //  infa.extension.eicConfiguration.setParameter("URL", infa.extension.eicConfiguration.getParameter("user"));
+  var deferred = $.Deferred();
+    var showSearch = infa.extension.eicConfiguration.getParameter("showSearch")
+var blockElemId = 'blockMessaged';
+    $.blockContainer();
+    $.when(infa.eic.AppConfigData.instance().initAppConfig(blockElemId),
+           infa.Eic.utils.getEICObject(tableauObject)).done(function(appconfigStatus, eicObject){
+                infa.Eic.extensionContainerView.eicObject = eicObject;
+                infa.Eic.extensionContainerView.initialized = true;
+                infa.Eic.extensionContainerView.showSearch = showSearch;
+                deferred.resolve();
+            }).fail(function(){
+                if(showSearch){
+                    infa.Eic.extensionContainerView.showSearch = showSearch;
+                    deferred.resolve();
+                }
+                deferred.reject();
+            }).always(function(){
+                
+                $.unBlockContainer();
+            })
+    return deferred;
+},
+initialize : function(){
+    var deferred = $.Deferred();
+    var self = this;
+    infa.eic.crextension.configuration.initializeEICConfiguration().done(function(){
+        infa.Eic.session.checkSessionValidation().done(function(isActive){
+            var parameters = {
+                "user": infa.extension.eicConfiguration.getParameter("user"),
+                "password": infa.extension.eicConfiguration.getParameter("password"),
+                "namespace": infa.extension.eicConfiguration.getParameter("namespace")
+            }
+            if(isActive){
+                self.initAppConfig().done(function(){
+                    deferred.resolve(); 
+                });
+            }else{
+                if(!infa.extension.eicConfiguration.getParameter("user")){
+                    infa.Eic.extensionContainer.createUI();
+                    infa.Eic.extensionContainer.createConfigurationPage();
+                    deferred.resolve(); 
+                    return;
+                }else{
+                    infa.Eic.session.doLogin(parameters).done(function(data) {
+                        if(data === "error"){
+                            infa.Eic.extensionContainer.createUI();
+                            infa.Eic.extensionContainer.createConfigurationPage();
+                            deferred.resolve();
+                        }
+                        self.initAppConfig().done(function(data){
+                            deferred.resolve(); 
+                        });
+                });
+            }
+            }
+        });    
+    })
+   
+    return deferred.promise();
+}
+},{})

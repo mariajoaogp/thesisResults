@@ -1,0 +1,515 @@
+$.Class("infa.eic.crextension.searchListView",{
+    MAX_LIST_ITEMS:7,
+    FILTERQUERY_TO_REMOVE_PACKAGE_OBJECTS : null,
+    filterQueryToRemovePackageObjects : function() {
+        var def = $.Deferred(),defArray = [];
+                    if(!infa.eic.crextension.searchListView.FILTERQUERY_TO_REMOVE_PACKAGE_OBJECTS) {
+                        var query = "";
+                        var packageArray = [{
+                            packageName: "com.infa.ldm.tableau",
+                            typesToIncludeInSearch: [],
+                            typesToExcludeInSearch: ["com.infa.ldm.tableau.TableauWorkbook"]
+                        }, {
+                            packageName: "com.infa.ldm.etl.pc",
+                            typesToIncludeInSearch: infa.ldm.Utils.getETLSearchableTypes("com.infa.ldm.etl.pc"),
+                            typesToExcludeInSearch: []
+                        }, {
+                            packageName: "com.infa.ldm.clouderanavigator",
+                            typesToIncludeInSearch: infa.ldm.Utils.getETLSearchableTypes("com.infa.ldm.clouderanavigator"),
+                            typesToExcludeInSearch: []
+                        }];
+        
+                    $.each(packageArray, function(i, obj) {
+                        defArray.push(infa.eic.AppConfigData.instance().fetchPackageTypes(obj.packageName).done(function(types){
+                            types &&	$.each(types, function(index, type) {
+                                if (obj.typesToIncludeInSearch.length > 0 && obj.typesToIncludeInSearch.indexOf(type) == -1) {
+                                    query += "&fq=-core.allclassTypes:" + type;
+                                }
+                                if (obj.typesToExcludeInSearch.length > 0 && obj.typesToExcludeInSearch.indexOf(type) > -1) {
+                                    query += "&fq=-core.allclassTypes:" + type;
+                                }
+            
+                            });
+                        }));
+                    });
+                    $.when.apply($,defArray).done(function(){
+                        infa.eic.crextension.searchListView.FILTERQUERY_TO_REMOVE_PACKAGE_OBJECTS = query;
+                        def.resolve(infa.eic.crextension.searchListView.FILTERQUERY_TO_REMOVE_PACKAGE_OBJECTS);
+                        
+                        
+                    });
+                }else{
+                    def.resolve(infa.eic.crextension.searchListView.FILTERQUERY_TO_REMOVE_PACKAGE_OBJECTS);
+                }
+                return def;
+            }
+},{
+    _element : null,
+    _facets :[],
+    init: function(data){
+        this.fqMap = new Map();
+        this.container = data.renderTo.empty();
+        this.term = data.term;
+        this.facetConfig={};
+        this._queryObj.search.params.filter.filter_queries = ["core.name:*"];
+        var self = this;
+        if(!this.container.find(".sub-heading").hasClass('.sub-heading'))
+        var configType =  "facetsConfig";
+        infaw.extension.appConfigLoader
+        .getInstance()
+        .getConfiguration(configType)
+        .done(function (config) {
+            self.facetConfig = config['facetsConfig'];
+            self.renderUI();
+        });
+
+        
+    },
+    _search : function(query){
+        var def = $.Deferred();
+        this._queryObj.search.params.q = query;
+        var pagination = this.getPaginationData();
+        this._queryObj.search.params.pagesize = pagination.pageSize;
+        this._queryObj.search.params.offset = pagination.offset;
+        //EBF-19618
+        this._getQueryString().done(function(queryParams){
+        let body = {
+            "path": '/2/catalog/data/search?'+ queryParams.q,
+            "method": "GET",
+            "headers": {
+                'Accept': 'application/json'
+            }
+        };
+        let data = JSON.stringify(body); 
+        $.backGroundAjax($.url("/ldmProxyServlet"), data,'POST').then(function(response) {
+                if (!response) {
+                return false;
+            }
+            res = JSON.parse(response.data);
+            //distribute facetResults into Query facets and Field facets
+            var facets={
+                    queryFacets:[],
+                    facetFields:[]
+            }
+            $.each(res.facetResults,function(i,obj){
+                    if(obj.facetType=="FieldFacet"){
+                        facets.facetFields.push({fieldName:obj.facetId,groupLabel:obj.groupLabel,rows:obj.buckets});
+                    }
+                    if(obj.facetType=="QueryFacet"){
+                        facets.queryFacets.push({fieldName:obj.facetId,groupLabel:obj.groupLabel,rows:obj.buckets});
+                    }
+            })
+            def.resolve({items:res.hits,totalCount:res.metadata.totalCount,facets:facets});
+            });
+        });
+        //EBF-19618
+        return def;
+    },
+    getPaginationData: function(){
+        var  data = {
+            pageSize : infa.eic.crextension.searchListView.MAX_LIST_ITEMS,
+            offset: infa.eic.crextension.searchListView.MAX_LIST_ITEMS * (this.pager && (this.pager.page - 1)) || 0 
+        }
+        return (data);
+    },
+    renderSearch:function(incremental){
+        var self = this;
+        $.blockContainer(self._element);
+        this._search(
+            this.term
+           ).then(function(res){
+                var types = [],items = [];
+                self._element && self._element.empty()
+                
+                res.items.forEach(function(i) {
+                        i = new infaw.ldm.SearchObject(i);
+                        items.push(i);
+                        types.push(i.getObjectType());
+                });
+                $.when(infa.eic.AppConfigData.instance().rePopulateRequiredTypes(types)).then(function(){
+                    $.unBlockContainer(self._element);
+                    var listitems= $('<div class="thin-scroll list-items"></div>').appendTo(self._element)
+                    var list = $('<ul class="list-group"></ul>');
+                    if(items.length){
+                        items.forEach(function(i){
+                            list.append(self.getTemplate(i));
+                        });
+                    }else{
+                        list.append('<li class="list-group-item"><h4>No results found for ['+ self.term +']</h4> <br/>Try using different keywords.</li>');
+                    }
+                    self._facets = res.facets;
+                    self.getHeader(res.totalCount);
+                    list.appendTo(listitems);
+                    items.length && self.createPagination(self._element,res.totalCount);
+                    self._facetsPanel.render(self.getFacetsData(),incremental);
+                });
+                    
+            });
+    },
+    renderUI : function(){
+       
+       this.createHeader()
+       this.addButtons();
+      
+       var listview = $("<div class='listview-search'></div>");
+           
+       listview.appendTo(this.container);
+       this._element = listview;
+       this.renderSearch();
+       
+    },
+    createHeader :function(){
+        var header = $("<div class='listview-header'></div>").appendTo(this.container);
+        $('<span class="heading"> Search Results</span>').appendTo(header);
+        $('<span class="sub-heading"></span>').appendTo(header);
+    },
+    getHeader : function(totalCount){
+        var t = this.container.find(".sub-heading");
+        var page = (this.pager && this.pager.page) || 1;
+        var m = (infa.eic.crextension.searchListView.MAX_LIST_ITEMS * (page-1)) || (totalCount ? 1:0);
+        var n = (infa.eic.crextension.searchListView.MAX_LIST_ITEMS * page);
+        t.html(["(",m,"-", n > totalCount ? totalCount : n,' of <b>',totalCount,"</b>)"].join(""))
+    },
+    getHeaderElement:function(){
+        return this.container.find(".listview-header");
+    },
+ 
+    _queryObj : {search: {
+                    params: {
+                        q: "",
+                        // sort:undefined, //remove sort //EIC-50160
+
+                        offset: 0,
+                        pagesize: self.pageSize,
+                        q_fields: [infa.ldm.Utils.ATTR_CORE_NAME, infa.ldm.Utils.ATTR_CORE_RESOURCETYPE,  infa.ldm.Utils.ATTR_BG_SYNONYM, "com.infa.ldm.axon.aliasNames"],
+                        filter: {
+                            filter_queries:  ["core.name:*"]
+                        },
+                        facet: {
+                            facet_fields: [
+                                infa.ldm.Utils.ATTR_CORE_CLASSTYPE,
+                                infa.ldm.Utils.ATTR_CORE_RESOURCETYPE,
+                                infa.ldm.Utils.ATTR_CORE_LASTUPDATED,
+                                infa.ldm.Utils.ATTR_PROFILING_ROWCOUNT
+                            ]
+                        },
+                        highlighting: {
+                            enable: true,
+                            fields: [infa.ldm.Utils.ATTR_CORE_NAME, "text"]
+                        }
+
+                    }
+                }
+    },
+   
+    _facetSearch : function(criterias) {
+        //EBF-19618
+        this._queryObj.search.params.filter.filter_queries = [];
+
+        for(var i = 0; i < criterias.length; i++) {
+            if(criterias[i]) {
+                this._queryObj.search.params.filter.filter_queries.push(criterias[i]);
+            }
+        }
+        this.renderSearch(true);
+    },
+    //EBF-19618
+    convertDataLakeFacets : function (data){
+        for(let i=0; i<data.facetResults.length; i++){
+            if (data.facetResults[i].facetType === 'QueryFacet' && data.facetResults[i].groupLabel === 'Location') {
+                data.facetResults[i].facetId = 'com.infa.idl.location';
+            }
+        }
+        return data;
+    },
+    //EBF-19618
+    loadFqMapValues : function () {
+        var that=this;
+        let $deferred = $.Deferred();
+        let body = {
+            "path": '/2/catalog/data/search?q=*&facet=true&defaultFacets=true&highlight=false&offset=0&pageSize=20',//&sort=score%20desc',//&includeRefObjects=true',
+            "method": "GET",
+            "headers": {
+                'Accept': 'application/json'
+            }
+        };
+        let data = JSON.stringify(body); 
+        $.backGroundAjax($.url("/ldmProxyServlet"), data,'POST').done($.proxy(function(data) {
+            data = JSON.parse(data.data);
+            let customizeData = this.convertDataLakeFacets(data);
+            customizeData.facetResults.forEach(function processFacetResults(facetResult, indexFacet) {
+                let facetId = facetResult.facetId;
+                facetResult.buckets.forEach(function processBucket(bucket, indexBucket) {
+                    let valStr = `${facetId}:${bucket.value}`;
+                    if(valStr && bucket && bucket.fq) {
+                        that.fqMap.set(valStr, bucket.fq)
+                    }
+                });
+            });
+            $deferred.resolve();
+        }, this))
+        .fail($.proxy(function(jqXHR, textStatus, errorThrown) {
+            $deferred.reject(jqXHR);
+        }, this));
+        return $deferred.promise();
+
+    },
+    //EBF-19618
+    //this is for getting query parameters of searh call
+    _getQueryString : function() {
+        var that=this;
+        let criterias=this._queryObj.search.params.filter.filter_queries;
+        let hasProxy = true;
+        let def = $.Deferred();
+        let basicQuery = RISON.urlencode(this._queryObj.search.params.q) || '*';
+        let pageOffset = this._queryObj.search.params.offset;
+        let pageSize = this._queryObj.search.params.pagesize;
+
+        let fqArray = [];
+        this.loadFqMapValues().done(function(){
+            let fqMap=that.fqMap;
+            let facetCriterias = criterias; //&& criterias.length > 0) ? criterias : that._facetView.getFilterCriteria();
+
+            if (facetCriterias.length > 0) {
+                facetCriterias.forEach(function iterateFieldFilters(filter, index) {
+                    filter.split(" OR ").forEach(function splitFieldFilter(value, index) {
+                        if (value.indexOf("com.infa.ldm.profiling.estimatedRowCount") !== -1) {
+                            fqArray.push(value);
+                        } else if (value.indexOf("core.lastModified") !== -1 || value.indexOf("com.infa.ldm.entity.collaboration.rating") !== -1) {
+                            value=decodeURIComponent(value.replace(/\"/g, ""))
+                            fqArray.push(value);
+                        } else if(value.indexOf("-core.isProxy") !== -1){
+                            hasProxy = false;
+                        } else if(value.indexOf("com.infa.ldm.entity.collaboration.certified") !== -1){
+                            value=decodeURIComponent(value.replace(/\"/g, ""))
+                            value=value.replace(/\:.*/,':true');
+                            fqArray.push(value);
+                        }else {
+                            value = value.replace(/%20/g, " ");
+                            value = value.replace(/%22/g, "");
+                            value = decodeURIComponent(value);
+                            fqArray.push(fqMap.get(value));
+                        }
+                        //Code for fetching the query after slider change
+                        if(!fqMap.get(value)){
+                            let sliderArr = value.split(":"); 
+                            fqMap.forEach(function(val,key){
+                                if(sliderArr.length>=2 && key.indexOf(sliderArr[0]) !== -1){
+                                    let modifiedQuery = val.split(":",2);
+                                    modifiedQuery.pop();
+                                    sliderArr.shift();
+                                    modifiedQuery.push(sliderArr.join(":"));
+                                    fqArray.push(modifiedQuery.join(":"));
+                                }
+                            });
+                        }
+                    }.bind(this));
+                }.bind(this));
+            }
+
+            let queryParams = 'basicQuery=' + basicQuery;//encodeURIComponent(basicQuery);
+
+            queryParams = queryParams + '&tabId=all';
+         
+            if (fqArray && fqArray.length > 0) {
+                let fqstrings;
+                for (i = 0; i < fqArray.length; i++) {
+                    if (fqArray[i]) {
+                        fqArray[i] = fqArray[i].replace(/\\/g, ""); // removing extra backslash
+                        fqstrings = fqstrings ? (fqstrings + '&fq=' + encodeURIComponent(fqArray[i])) : '&fq=' + encodeURIComponent(fqArray[i]);
+                    }
+                }
+                if (fqstrings) {
+                    queryParams = queryParams + fqstrings;
+                }
+            }
+            
+            queryParams = queryParams + '&facet=true&defaultFacets=true&highlight=false';
+
+            queryParams = queryParams + '&offset=' + pageOffset;
+            queryParams = queryParams + '&pageSize=' + pageSize;
+
+            // if (that._queryObj.search.params.sort) { 
+            //     queryParams += "&sort=" + encodeURIComponent(that._queryObj.search.params.sort);
+            // }
+
+            // queryParams +=`&includeRefObjects=${hasProxy}`;
+            def.resolve({ q : queryParams});
+        })
+
+        return def.promise();
+    },
+    //EBF-19618
+    getClearFilter:function(parent){
+        var a = ['<a class="dropdown-item" data-id="apply" href="#">Apply Filter</a>'];
+        a.push('<a class="dropdown-item" data-id="clear" href="#">Clear Filter</a>');
+        var menu = parent.find(".dropdown-menu");
+        menu.append(a.join(""));
+    },
+    // getSortItems:function(parent){
+    //     var fromAppConfig = ['<a class="dropdown-item active" href="#">Relevance</a>'+
+    //     '<a class="dropdown-item" data-id="core.name" href="#">Name</a>'];
+        
+    //     var defArray = [];
+    //     var menu = parent.find(".dropdown-menu");
+    //     $.each(infa.eic.AppConfigData.instance().getSortableAttributes(), function(index, val) {
+    //         defArray.push(infa.eic.AppConfigData.instance().getAttribute(val).done(function(attr){
+    //             //EBF-19618
+    //             //remove deprecated attribute from sort list in dropdown
+    //             if (attr && !attr.deprecated) {
+    //                 fromAppConfig.push('<a class="dropdown-item" data-id="'+ attr.id +'" href="#">'+ $.infa.Formats.escapeComprehensive((attr.label || attr.id))+'</a>')
+    //             }
+    //         }));
+    //     });
+    //     $.when.apply($,defArray).done(function(){
+    //         menu.append(fromAppConfig.join(""));
+    //     })
+    // },
+    addButtons :function(){
+        var toTitleCase = function (toTransform) {
+            return toTransform.replace(/\b([a-z])/g, function (_, initial) {
+                return initial.toUpperCase();
+            });
+        }
+        var button = function(cls,name) {
+            var ret = $('<span title="'+ (name || toTitleCase(cls))  +'"><span>');
+            ret.html('<a href="#"  class="btn btn-sm '+ cls + '"><img class="svg '+ cls + '" src="'+ chrome.extension.getURL("res/images/"+cls+".svg")  + '"/></a>');
+            return {
+                element:ret,
+                cls:cls
+            }
+        };
+       
+        // var dropdown = function(obj){
+        //     obj.element.attr('data-toggle',"dropdown").addClass("dropdown-toggle");
+        //     var parent = $('<div class="dropdown '+ obj.cls +' show"></div>').append(obj.element);
+        //     $('<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink"></div>').appendTo(parent);
+        //     return parent;
+        // }
+         var self = this;
+         var container = $("<div class='toolbar'></div>").appendTo(this.getHeaderElement());
+        //  this.getSortItems(dropdown(button('sort')).appendTo(container)); 
+         button('filter').element.appendTo(container);
+         button('clearFilter','Clear Filter').element.appendTo(container);
+         this._facetsPanel = new  infa.eic.crextension.Facets(this.container);
+         container.on('click','a.clearFilter',function(e){
+            // EBF-19618
+            self.pager.page=1;
+            self._facetsPanel.clearFilters();
+            self._facetSearch([]);
+            $(this).parents(".toolbar").removeClass("hasFilters");
+         });
+         container.on('click','a.filter',function(e){
+            e.preventDefault();
+            var btn = $(this);
+            self.filterCount = 0;   
+            var shown = self._facetsPanel.showHideFacets(); 
+            if(!shown){
+                btn.html("<img class='svg filter' src='"+chrome.extension.getURL("res/images/small_check.svg")+"'>");
+                }else{
+                // EBF-19618
+                self.pager.page=1;
+                btn.html("<img class='svg filter' src='"+chrome.extension.getURL("res/images/filter.svg")+"'>");
+                
+                self._facetSearch(self._facetsPanel.getFilterCriteria());
+                $.each(self._facetsPanel.currentFilters,function(i){
+                    self.filterCount +=self._facetsPanel.currentFilters[i].length;
+                });
+             }
+             var toolbar = $(this).parents(".toolbar");
+             self.filterCount ? toolbar.addClass("hasFilters"): toolbar.removeClass("hasFilters");
+             $.renderSVG();
+        })
+        // .on('click','.sort a.dropdown-item',function(e){ 
+        //         e.preventDefault();
+        //         $(this).parent().find(".dropdown-item").removeClass("desc asc active");
+        //         var filter = $(this).addClass("active").data("id");
+        //         if(filter){
+        //             if(self._queryObj.search.params.sort && self._queryObj.search.params.sort.indexOf(filter)>-1 && self._queryObj.search.params.sort.indexOf("asc")>-1){
+        //                 self._queryObj.search.params.sort =  filter + " desc";
+        //                 $(this).addClass("desc");
+        //             }else{
+        //                 self._queryObj.search.params.sort =  filter + " asc";
+        //                 $(this).addClass("asc");
+        //             }
+        //         }else{
+        //            self._queryObj.search.params.sort = "";
+        //         }
+        //         self.renderSearch(true);
+        //  })
+        $.renderSVG();
+    },
+    getFacetsData : function(){
+        return this._facets;
+    },
+    getTemplate : function(searchObject){
+        var bgName =  searchObject.getFact(infa.ldm.Utils.TERM_BASE_FACT) || 
+                      searchObject.getFact("com.infa.ldm.axon.associatedGlossariesBase") || searchObject.getFact(infa.ldm.Utils.ENRICHED_NAME) || null;
+
+        var li = $('<li  class="list-group-item">');
+        var img  = $();
+        var obj = {id: searchObject.getId(), type: searchObject.getFact("core.classType")}
+        var title = $('<div class="item-title" title="'+searchObject.getObjectName()+'">' +
+                        '<span class="item-icon"><img src=""/></span>'+
+                        '<span class="item-label eic-link"  data-id="'+ searchObject.getId() +'">'+ searchObject.getObjectName() + '</span>'+
+                      '</div>'
+                    );
+        title.find(".eic-link").data("objectInfo", obj);
+        searchObject.getIcon().then(function(url){
+            title.find('.item-icon img').attr('src',$.url("/"+  url));
+        });
+
+        if(bgName){
+            $('<span class="item-bgterm">'+ bgName + '</span>').appendTo(title);
+        }
+        img.appendTo(li);
+        title.appendTo(li);
+
+        var content = $('<ul class="item-contents"></ul>').appendTo(li);
+        var resType = searchObject.getObjectSource() || "";
+        var html = [''];
+        html.push( '<li class="item item-asset-type">',
+        '<span class="item-key">'+ "Asset Type" +'</span>',
+        '<span class="item-value">...</span>',
+        '</li>'
+        );
+        html.push('<li class="item item-res-type">');
+        if(resType){
+          html.push('<span class="item-key">'+ "Resource Type" +'</span>',
+            '<span class="item-value">'+ resType +'</span>',
+            '</li>');
+        }
+        var resName = searchObject.getObjectSourceName() ||"";
+        if(resName){
+          html.push(
+                '<li class="item item-res-name">',
+                '<span class="item-key">'+ "Resource Name" +'</span>',
+                '<span class="item-value">'+resName +'</span>',
+                '</li>');
+        }
+         
+
+        content.html(html.join(""));
+        var type_li = content.find('.item-asset-type .item-value')
+        infa.eic.AppConfigData.instance().getLabel(searchObject.getObjectType(),"classes").done(function(label){
+            type_li.text(label);
+        }); 
+        return li;
+    },
+    createPagination : function(listview,totalCount){
+        var totalpages = Math.ceil(totalCount/infa.eic.crextension.searchListView.MAX_LIST_ITEMS)|| 1;
+        var div = $("<div class='pagination-container'></div>") 
+        var element = $("<div class='pagination'></div>").appendTo(div)
+        var self = this;
+        this.pager = new infa.eic.crextension.Pagination({
+            container : element[0], data:{
+            size: totalpages, // pages size
+            page: (self.pager && self.pager.page) || 1,  // selected page
+            step: 2,   // pages before and after current
+            onChange : function(){
+                self.renderSearch(true)
+            }
+        }});
+        listview.append(div);
+    }
+});

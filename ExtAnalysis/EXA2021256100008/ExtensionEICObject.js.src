@@ -1,0 +1,17 @@
+/**
+ * Model for Extension EIC Objects
+ */
+infaw.ldm.ThreeSixtyObject.extend('infaw.extension.EICObject', {
+	open: function(whereFrom) {
+		var self = this;
+
+		    var panel = infa.Eic.extensionContainer.getPanel({panelName : infa.Eic.utils.OBJECT_PANEL });
+
+			panel.openObject({
+				id: self.getHref(),
+    			type: self.getFact(infa.ldm.Utils.ATTR_CORE_CLASSTYPE),
+				whereFrom: whereFrom,
+				objectData:self
+			})
+	}
+});
