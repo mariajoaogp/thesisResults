@@ -1,0 +1,839 @@
+{
+    "EXTAF1": {
+        "file_name": "package.json",
+        "file_size": "0 KB",
+        "id": "EXTAF1",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/package.json.src",
+        "relative_path": "package.json"
+    },
+    "EXTAF100": {
+        "file_name": "mix_panel_controller.js",
+        "file_size": "3 KB",
+        "id": "EXTAF100",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/mix_panel_controller.js.src",
+        "relative_path": "js/background/controllers/mix_panel_controller.js",
+        "retirejs_result": []
+    },
+    "EXTAF101": {
+        "file_name": "crawler_controller.js",
+        "file_size": "1 KB",
+        "id": "EXTAF101",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/crawler_controller.js.src",
+        "relative_path": "js/background/controllers/crawler_controller.js",
+        "retirejs_result": []
+    },
+    "EXTAF102": {
+        "file_name": "kpagination_controller.js",
+        "file_size": "0 KB",
+        "id": "EXTAF102",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/kpagination_controller.js.src",
+        "relative_path": "js/background/controllers/kpagination_controller.js",
+        "retirejs_result": []
+    },
+    "EXTAF103": {
+        "file_name": "application.js",
+        "file_size": "7 KB",
+        "id": "EXTAF103",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/application.js.src",
+        "relative_path": "js/content/application.js",
+        "retirejs_result": []
+    },
+    "EXTAF104": {
+        "file_name": "tutorial.js",
+        "file_size": "0 KB",
+        "id": "EXTAF104",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/tutorial.js.src",
+        "relative_path": "js/content/models/tutorial.js",
+        "retirejs_result": []
+    },
+    "EXTAF105": {
+        "file_name": "column.js",
+        "file_size": "2 KB",
+        "id": "EXTAF105",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/column.js.src",
+        "relative_path": "js/content/models/column.js",
+        "retirejs_result": []
+    },
+    "EXTAF106": {
+        "file_name": "page.js",
+        "file_size": "1 KB",
+        "id": "EXTAF106",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/page.js.src",
+        "relative_path": "js/content/models/page.js",
+        "retirejs_result": []
+    },
+    "EXTAF107": {
+        "file_name": "crawler.js",
+        "file_size": "0 KB",
+        "id": "EXTAF107",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/crawler.js.src",
+        "relative_path": "js/content/models/crawler.js",
+        "retirejs_result": []
+    },
+    "EXTAF108": {
+        "file_name": "pagination.js",
+        "file_size": "0 KB",
+        "id": "EXTAF108",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/pagination.js.src",
+        "relative_path": "js/content/models/pagination.js",
+        "retirejs_result": []
+    },
+    "EXTAF109": {
+        "file_name": "recommended_column.js",
+        "file_size": "3 KB",
+        "id": "EXTAF109",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/recommended_column.js.src",
+        "relative_path": "js/content/models/recommended_column.js",
+        "retirejs_result": []
+    },
+    "EXTAF110": {
+        "file_name": "tab.js",
+        "file_size": "2 KB",
+        "id": "EXTAF110",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/tab.js.src",
+        "relative_path": "js/content/models/tab.js",
+        "retirejs_result": []
+    },
+    "EXTAF122": {
+        "file_name": "backbone-override.js",
+        "file_size": "1 KB",
+        "id": "EXTAF122",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/backbone-override.js.src",
+        "relative_path": "js/content/lib/backbone-override.js",
+        "retirejs_result": []
+    },
+    "EXTAF123": {
+        "file_name": "pagination_view.js",
+        "file_size": "15 KB",
+        "id": "EXTAF123",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/pagination_view.js.src",
+        "relative_path": "js/content/views/pagination_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF124": {
+        "file_name": "listing_detector.js",
+        "file_size": "10 KB",
+        "id": "EXTAF124",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/listing_detector.js.src",
+        "relative_path": "js/content/views/listing_detector.js",
+        "retirejs_result": []
+    },
+    "EXTAF125": {
+        "file_name": "sidebar_view.js",
+        "file_size": "33 KB",
+        "id": "EXTAF125",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/sidebar_view.js.src",
+        "relative_path": "js/content/views/sidebar_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF126": {
+        "file_name": "tutorial_view.js",
+        "file_size": "6 KB",
+        "id": "EXTAF126",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/tutorial_view.js.src",
+        "relative_path": "js/content/views/tutorial_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF127": {
+        "file_name": "selected_dom_view.js",
+        "file_size": "2 KB",
+        "id": "EXTAF127",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/selected_dom_view.js.src",
+        "relative_path": "js/content/views/selected_dom_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF128": {
+        "file_name": "listing_panel_column_view.js",
+        "file_size": "5 KB",
+        "id": "EXTAF128",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/listing_panel_column_view.js.src",
+        "relative_path": "js/content/views/listing_panel_column_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF129": {
+        "file_name": "tab_view.js",
+        "file_size": "6 KB",
+        "id": "EXTAF129",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/tab_view.js.src",
+        "relative_path": "js/content/views/tab_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF130": {
+        "file_name": "listing_panel_recommended_column_view.js",
+        "file_size": "5 KB",
+        "id": "EXTAF130",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/listing_panel_recommended_column_view.js.src",
+        "relative_path": "js/content/views/listing_panel_recommended_column_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF131": {
+        "file_name": "column_view.js",
+        "file_size": "24 KB",
+        "id": "EXTAF131",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/column_view.js.src",
+        "relative_path": "js/content/views/column_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF132": {
+        "file_name": "recommended_column_view.js",
+        "file_size": "11 KB",
+        "id": "EXTAF132",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/recommended_column_view.js.src",
+        "relative_path": "js/content/views/recommended_column_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF133": {
+        "file_name": "recommendation_detector.js",
+        "file_size": "15 KB",
+        "id": "EXTAF133",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/recommendation_detector.js.src",
+        "relative_path": "js/content/views/recommendation_detector.js",
+        "retirejs_result": []
+    },
+    "EXTAF134": {
+        "file_name": "dom_array_generator.js",
+        "file_size": "6 KB",
+        "id": "EXTAF134",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/dom_array_generator.js.src",
+        "relative_path": "js/content/views/dom_array_generator.js",
+        "retirejs_result": []
+    },
+    "EXTAF135": {
+        "file_name": "recommended_panel_column_view.js",
+        "file_size": "2 KB",
+        "id": "EXTAF135",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/recommended_panel_column_view.js.src",
+        "relative_path": "js/content/views/recommended_panel_column_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF136": {
+        "file_name": "recommended_dom_view.js",
+        "file_size": "0 KB",
+        "id": "EXTAF136",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/recommended_dom_view.js.src",
+        "relative_path": "js/content/views/recommended_dom_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF137": {
+        "file_name": "crawler_view.js",
+        "file_size": "7 KB",
+        "id": "EXTAF137",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/crawler_view.js.src",
+        "relative_path": "js/content/views/crawler_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF138": {
+        "file_name": "chrome.js",
+        "file_size": "1 KB",
+        "id": "EXTAF138",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/chrome.js.src",
+        "relative_path": "js/content/browsers/chrome.js",
+        "retirejs_result": []
+    },
+    "EXTAF139": {
+        "file_name": "handlebar-helpers.js",
+        "file_size": "0 KB",
+        "id": "EXTAF139",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/handlebar-helpers.js.src",
+        "relative_path": "js/lib/handlebar-helpers.js",
+        "retirejs_result": []
+    },
+    "EXTAF140": {
+        "file_name": "file_saver.js",
+        "file_size": "5 KB",
+        "id": "EXTAF140",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/file_saver.js.src",
+        "relative_path": "js/lib/file_saver.js",
+        "retirejs_result": []
+    },
+    "EXTAF141": {
+        "file_name": "underscore-min.js",
+        "file_size": "14 KB",
+        "id": "EXTAF141",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/underscore-min.js.src",
+        "relative_path": "js/lib/underscore-min.js",
+        "retirejs_result": []
+    },
+    "EXTAF142": {
+        "file_name": "hopscotch-0.2.6.min.js",
+        "file_size": "23 KB",
+        "id": "EXTAF142",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/hopscotch-0.2.6.min.js.src",
+        "relative_path": "js/lib/hopscotch-0.2.6.min.js",
+        "retirejs_result": []
+    },
+    "EXTAF143": {
+        "file_name": "json_format.js",
+        "file_size": "2 KB",
+        "id": "EXTAF143",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/json_format.js.src",
+        "relative_path": "js/lib/json_format.js",
+        "retirejs_result": []
+    },
+    "EXTAF144": {
+        "file_name": "jquery_1.9.1.min.js",
+        "file_size": "90 KB",
+        "id": "EXTAF144",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/jquery_1.9.1.min.js.src",
+        "relative_path": "js/lib/jquery_1.9.1.min.js",
+        "retirejs_result": [
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "1.9.1",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "2432",
+                            "summary": "3rd party CORS request may execute"
+                        },
+                        "info": [
+                            "https://github.com/jquery/jquery/issues/2432",
+                            "http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "11974",
+                            "summary": "parseHTML() executes scripts in event handlers"
+                        },
+                        "info": [
+                            "https://bugs.jquery.com/ticket/11974",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-11358"
+                            ],
+                            "summary": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution"
+                        },
+                        "info": [
+                            "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+                            "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+                        ],
+                        "severity": "low"
+                    }
+                ]
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "1.9.1",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "2432",
+                            "summary": "3rd party CORS request may execute"
+                        },
+                        "info": [
+                            "https://github.com/jquery/jquery/issues/2432",
+                            "http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2015-9251"
+                            ],
+                            "issue": "11974",
+                            "summary": "parseHTML() executes scripts in event handlers"
+                        },
+                        "info": [
+                            "https://bugs.jquery.com/ticket/11974",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2015-9251",
+                            "http://research.insecurelabs.org/jquery/test/"
+                        ],
+                        "severity": "medium"
+                    },
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2019-11358"
+                            ],
+                            "summary": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution"
+                        },
+                        "info": [
+                            "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2019-11358",
+                            "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+                        ],
+                        "severity": "low"
+                    }
+                ]
+            }
+        ]
+    },
+    "EXTAF145": {
+        "file_name": "bootstrap.bundle.min.js",
+        "file_size": "76 KB",
+        "id": "EXTAF145",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/bootstrap.bundle.min.js.src",
+        "relative_path": "js/lib/bootstrap.bundle.min.js",
+        "retirejs_result": [
+            {
+                "component": "bootstrap",
+                "detection": "filecontent",
+                "version": "4.3.1"
+            }
+        ]
+    },
+    "EXTAF146": {
+        "file_name": "mixpanel.js",
+        "file_size": "1 KB",
+        "id": "EXTAF146",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/mixpanel.js.src",
+        "relative_path": "js/lib/mixpanel.js",
+        "retirejs_result": []
+    },
+    "EXTAF147": {
+        "file_name": "handlebars.js",
+        "file_size": "87 KB",
+        "id": "EXTAF147",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/handlebars.js.src",
+        "relative_path": "js/lib/handlebars.js",
+        "retirejs_result": [
+            {
+                "component": "handlebars.js",
+                "detection": "filecontent",
+                "version": "1.3.0",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "summary": "Quoteless attributes in templates can lead to XSS"
+                        },
+                        "info": [
+                            "https://github.com/wycats/handlebars.js/pull/1083"
+                        ],
+                        "severity": "medium"
+                    }
+                ]
+            }
+        ]
+    },
+    "EXTAF148": {
+        "file_name": "backbone-min.js",
+        "file_size": "19 KB",
+        "id": "EXTAF148",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/backbone-min.js.src",
+        "relative_path": "js/lib/backbone-min.js",
+        "retirejs_result": []
+    },
+    "EXTAF149": {
+        "file_name": "backbone-override.js",
+        "file_size": "1 KB",
+        "id": "EXTAF149",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/backbone-override.js.src",
+        "relative_path": "js/lib/backbone-override.js",
+        "retirejs_result": []
+    },
+    "EXTAF150": {
+        "file_name": "jquery_ui_1.10.3.js",
+        "file_size": "425 KB",
+        "id": "EXTAF150",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/jquery_ui_1.10.3.js.src",
+        "relative_path": "js/lib/jquery_ui_1.10.3.js",
+        "retirejs_result": [
+            {
+                "component": "jquery-ui-dialog",
+                "detection": "filecontent",
+                "version": "1.10.3",
+                "vulnerabilities": [
+                    {
+                        "identifiers": {
+                            "CVE": [
+                                "CVE-2016-7103"
+                            ],
+                            "bug": "281",
+                            "summary": "XSS Vulnerability on closeText option"
+                        },
+                        "info": [
+                            "https://github.com/jquery/api.jqueryui.com/issues/281",
+                            "https://nvd.nist.gov/vuln/detail/CVE-2016-7103",
+                            "https://snyk.io/vuln/npm:jquery-ui:20160721"
+                        ],
+                        "severity": "high"
+                    }
+                ]
+            },
+            {
+                "component": "jquery-ui-autocomplete",
+                "detection": "filecontent",
+                "version": "1.10.3"
+            },
+            {
+                "component": "jquery-ui-tooltip",
+                "detection": "filecontent",
+                "version": "1.10.3"
+            }
+        ]
+    },
+    "EXTAF151": {
+        "file_name": "config.js",
+        "file_size": "2 KB",
+        "id": "EXTAF151",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/config.js.src",
+        "relative_path": "js/config/config.js",
+        "retirejs_result": []
+    },
+    "EXTAF152": {
+        "file_name": "application.js",
+        "file_size": "1 KB",
+        "id": "EXTAF152",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/application.js.src",
+        "relative_path": "js/popup/application.js",
+        "retirejs_result": []
+    },
+    "EXTAF153": {
+        "file_name": "page.js",
+        "file_size": "0 KB",
+        "id": "EXTAF153",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/page.js.src",
+        "relative_path": "js/popup/models/page.js",
+        "retirejs_result": []
+    },
+    "EXTAF154": {
+        "file_name": "crawler.js",
+        "file_size": "6 KB",
+        "id": "EXTAF154",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/crawler.js.src",
+        "relative_path": "js/popup/models/crawler.js",
+        "retirejs_result": []
+    },
+    "EXTAF155": {
+        "file_name": "tab.js",
+        "file_size": "2 KB",
+        "id": "EXTAF155",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/tab.js.src",
+        "relative_path": "js/popup/models/tab.js",
+        "retirejs_result": []
+    },
+    "EXTAF156": {
+        "file_name": "backbone-override.js",
+        "file_size": "1 KB",
+        "id": "EXTAF156",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/backbone-override.js.src",
+        "relative_path": "js/popup/lib/backbone-override.js",
+        "retirejs_result": []
+    },
+    "EXTAF157": {
+        "file_name": "popup_view.js",
+        "file_size": "7 KB",
+        "id": "EXTAF157",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/popup_view.js.src",
+        "relative_path": "js/popup/views/popup_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF158": {
+        "file_name": "chrome.js",
+        "file_size": "3 KB",
+        "id": "EXTAF158",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/chrome.js.src",
+        "relative_path": "js/popup/browsers/chrome.js",
+        "retirejs_result": []
+    },
+    "EXTAF159": {
+        "file_name": "bootstrap.min.css",
+        "file_size": "103 KB",
+        "id": "EXTAF159",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/bootstrap.min.css.src",
+        "relative_path": "css/bootstrap.min.css"
+    },
+    "EXTAF160": {
+        "file_name": "popup.css",
+        "file_size": "1 KB",
+        "id": "EXTAF160",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/popup.css.src",
+        "relative_path": "css/popup.css"
+    },
+    "EXTAF161": {
+        "file_name": "hopscotch-0.2.6.min.css",
+        "file_size": "11 KB",
+        "id": "EXTAF161",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/hopscotch-0.2.6.min.css.src",
+        "relative_path": "css/hopscotch-0.2.6.min.css"
+    },
+    "EXTAF162": {
+        "file_name": "content.css",
+        "file_size": "35 KB",
+        "id": "EXTAF162",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/content.css.src",
+        "relative_path": "css/content.css"
+    },
+    "EXTAF168": {
+        "file_name": "font-awesome.min.css",
+        "file_size": "21 KB",
+        "id": "EXTAF168",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/font-awesome.min.css.src",
+        "relative_path": "css/font-awesome-4.2.0/css/font-awesome.min.css"
+    },
+    "EXTAF169": {
+        "file_name": "font-awesome.css",
+        "file_size": "26 KB",
+        "id": "EXTAF169",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/font-awesome.css.src",
+        "relative_path": "css/font-awesome-4.2.0/css/font-awesome.css"
+    },
+    "EXTAF3": {
+        "file_name": "manifest.json",
+        "file_size": "5 KB",
+        "id": "EXTAF3",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/manifest.json.src",
+        "relative_path": "manifest.json"
+    },
+    "EXTAF52": {
+        "file_name": "runner.html",
+        "file_size": "5 KB",
+        "id": "EXTAF52",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/runner.html.src",
+        "relative_path": "spec_p/runner.html"
+    },
+    "EXTAF53": {
+        "file_name": "jasmine-html.js",
+        "file_size": "18 KB",
+        "id": "EXTAF53",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/jasmine-html.js.src",
+        "relative_path": "spec_p/jasmine-1.2.0/jasmine-html.js",
+        "retirejs_result": []
+    },
+    "EXTAF54": {
+        "file_name": "jasmine.js",
+        "file_size": "67 KB",
+        "id": "EXTAF54",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/jasmine.js.src",
+        "relative_path": "spec_p/jasmine-1.2.0/jasmine.js",
+        "retirejs_result": []
+    },
+    "EXTAF55": {
+        "file_name": "jasmine.css",
+        "file_size": "6 KB",
+        "id": "EXTAF55",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/jasmine.css.src",
+        "relative_path": "spec_p/jasmine-1.2.0/jasmine.css"
+    },
+    "EXTAF57": {
+        "file_name": "jasmine-async.js",
+        "file_size": "1 KB",
+        "id": "EXTAF57",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/jasmine-async.js.src",
+        "relative_path": "spec_p/jasmine-1.2.0/jasmine-async.js",
+        "retirejs_result": []
+    },
+    "EXTAF58": {
+        "file_name": "application.spec.js",
+        "file_size": "0 KB",
+        "id": "EXTAF58",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/application.spec.js.src",
+        "relative_path": "spec_p/js/content/application.spec.js",
+        "retirejs_result": []
+    },
+    "EXTAF59": {
+        "file_name": "column_view.spec.js",
+        "file_size": "4 KB",
+        "id": "EXTAF59",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/column_view.spec.js.src",
+        "relative_path": "spec_p/js/content/views/column_view.spec.js",
+        "retirejs_result": []
+    },
+    "EXTAF60": {
+        "file_name": "selected_dom_view.spec.js",
+        "file_size": "0 KB",
+        "id": "EXTAF60",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/selected_dom_view.spec.js.src",
+        "relative_path": "spec_p/js/content/views/selected_dom_view.spec.js",
+        "retirejs_result": []
+    },
+    "EXTAF61": {
+        "file_name": "sidebar_view.spec.js",
+        "file_size": "1 KB",
+        "id": "EXTAF61",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/sidebar_view.spec.js.src",
+        "relative_path": "spec_p/js/content/views/sidebar_view.spec.js",
+        "retirejs_result": []
+    },
+    "EXTAF62": {
+        "file_name": "tab_view.spec.js",
+        "file_size": "0 KB",
+        "id": "EXTAF62",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/tab_view.spec.js.src",
+        "relative_path": "spec_p/js/content/views/tab_view.spec.js",
+        "retirejs_result": []
+    },
+    "EXTAF63": {
+        "file_name": "browser.js",
+        "file_size": "1 KB",
+        "id": "EXTAF63",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/browser.js.src",
+        "relative_path": "spec_p/helpers/browser.js",
+        "retirejs_result": []
+    },
+    "EXTAF64": {
+        "file_name": "console-runner.js",
+        "file_size": "2 KB",
+        "id": "EXTAF64",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/console-runner.js.src",
+        "relative_path": "spec_p/helpers/console-runner.js",
+        "retirejs_result": []
+    },
+    "EXTAF66": {
+        "file_name": "popup.html",
+        "file_size": "3 KB",
+        "id": "EXTAF66",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/popup.html.src",
+        "relative_path": "html/popup.html"
+    },
+    "EXTAF67": {
+        "file_name": "verified_contents.json",
+        "file_size": "23 KB",
+        "id": "EXTAF67",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/verified_contents.json.src",
+        "relative_path": "_metadata/verified_contents.json"
+    },
+    "EXTAF84": {
+        "file_name": "application.js",
+        "file_size": "10 KB",
+        "id": "EXTAF84",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/application.js.src",
+        "relative_path": "js/background/application.js",
+        "retirejs_result": []
+    },
+    "EXTAF85": {
+        "file_name": "kpage.js",
+        "file_size": "9 KB",
+        "id": "EXTAF85",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/kpage.js.src",
+        "relative_path": "js/background/models/kpage.js",
+        "retirejs_result": []
+    },
+    "EXTAF86": {
+        "file_name": "khistory.js",
+        "file_size": "0 KB",
+        "id": "EXTAF86",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/khistory.js.src",
+        "relative_path": "js/background/models/khistory.js",
+        "retirejs_result": []
+    },
+    "EXTAF87": {
+        "file_name": "kcolumn.js",
+        "file_size": "16 KB",
+        "id": "EXTAF87",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/kcolumn.js.src",
+        "relative_path": "js/background/models/kcolumn.js",
+        "retirejs_result": []
+    },
+    "EXTAF88": {
+        "file_name": "krecommended_column_selected.js",
+        "file_size": "1 KB",
+        "id": "EXTAF88",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/krecommended_column_selected.js.src",
+        "relative_path": "js/background/models/krecommended_column_selected.js",
+        "retirejs_result": []
+    },
+    "EXTAF89": {
+        "file_name": "ktab.js",
+        "file_size": "2 KB",
+        "id": "EXTAF89",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/ktab.js.src",
+        "relative_path": "js/background/models/ktab.js",
+        "retirejs_result": []
+    },
+    "EXTAF90": {
+        "file_name": "krecommended_column.js",
+        "file_size": "5 KB",
+        "id": "EXTAF90",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/krecommended_column.js.src",
+        "relative_path": "js/background/models/krecommended_column.js",
+        "retirejs_result": []
+    },
+    "EXTAF91": {
+        "file_name": "kcookie.js",
+        "file_size": "1 KB",
+        "id": "EXTAF91",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/kcookie.js.src",
+        "relative_path": "js/background/models/kcookie.js",
+        "retirejs_result": []
+    },
+    "EXTAF92": {
+        "file_name": "kpagination.js",
+        "file_size": "2 KB",
+        "id": "EXTAF92",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/kpagination.js.src",
+        "relative_path": "js/background/models/kpagination.js",
+        "retirejs_result": []
+    },
+    "EXTAF93": {
+        "file_name": "browser_icon_view.js",
+        "file_size": "0 KB",
+        "id": "EXTAF93",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/browser_icon_view.js.src",
+        "relative_path": "js/background/views/browser_icon_view.js",
+        "retirejs_result": []
+    },
+    "EXTAF94": {
+        "file_name": "chrome.js",
+        "file_size": "2 KB",
+        "id": "EXTAF94",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/chrome.js.src",
+        "relative_path": "js/background/browsers/chrome.js",
+        "retirejs_result": []
+    },
+    "EXTAF95": {
+        "file_name": "kpage_controller.js",
+        "file_size": "1 KB",
+        "id": "EXTAF95",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/kpage_controller.js.src",
+        "relative_path": "js/background/controllers/kpage_controller.js",
+        "retirejs_result": []
+    },
+    "EXTAF96": {
+        "file_name": "krecommended_columns_controller.js",
+        "file_size": "4 KB",
+        "id": "EXTAF96",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/krecommended_columns_controller.js.src",
+        "relative_path": "js/background/controllers/krecommended_columns_controller.js",
+        "retirejs_result": []
+    },
+    "EXTAF97": {
+        "file_name": "tutorial_controller.js",
+        "file_size": "0 KB",
+        "id": "EXTAF97",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/tutorial_controller.js.src",
+        "relative_path": "js/background/controllers/tutorial_controller.js",
+        "retirejs_result": []
+    },
+    "EXTAF98": {
+        "file_name": "ktab_controller.js",
+        "file_size": "9 KB",
+        "id": "EXTAF98",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/ktab_controller.js.src",
+        "relative_path": "js/background/controllers/ktab_controller.js",
+        "retirejs_result": []
+    },
+    "EXTAF99": {
+        "file_name": "kcolumns_controller.js",
+        "file_size": "2 KB",
+        "id": "EXTAF99",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021273160059/kcolumns_controller.js.src",
+        "relative_path": "js/background/controllers/kcolumns_controller.js",
+        "retirejs_result": []
+    }
+}

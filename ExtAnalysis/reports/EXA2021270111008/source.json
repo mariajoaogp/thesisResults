@@ -1,0 +1,96 @@
+{
+    "EXTAF0": {
+        "file_name": "manifest.json",
+        "file_size": "1 KB",
+        "id": "EXTAF0",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021270111008/manifest.json.src",
+        "relative_path": "manifest.json"
+    },
+    "EXTAF1": {
+        "file_name": "styles.b5cd85c5d215ee9e5a58.css",
+        "file_size": "291 KB",
+        "id": "EXTAF1",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021270111008/styles.b5cd85c5d215ee9e5a58.css.src",
+        "relative_path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+    },
+    "EXTAF10": {
+        "file_name": "runtime.c55df3f0914e442cb7c7.js",
+        "file_size": "1 KB",
+        "id": "EXTAF10",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021270111008/runtime.c55df3f0914e442cb7c7.js.src",
+        "relative_path": "dist/runtime.c55df3f0914e442cb7c7.js",
+        "retirejs_result": []
+    },
+    "EXTAF11": {
+        "file_name": "scripts.ddf7e26acc002ecde37e.js",
+        "file_size": "241 KB",
+        "id": "EXTAF11",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021270111008/scripts.ddf7e26acc002ecde37e.js.src",
+        "relative_path": "dist/scripts.ddf7e26acc002ecde37e.js",
+        "retirejs_result": []
+    },
+    "EXTAF7": {
+        "file_name": "polyfills.9f836e3e23a8680e326e.js",
+        "file_size": "36 KB",
+        "id": "EXTAF7",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021270111008/polyfills.9f836e3e23a8680e326e.js.src",
+        "relative_path": "dist/polyfills.9f836e3e23a8680e326e.js",
+        "retirejs_result": []
+    },
+    "EXTAF75": {
+        "file_name": "verified_contents.json",
+        "file_size": "11 KB",
+        "id": "EXTAF75",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021270111008/verified_contents.json.src",
+        "relative_path": "_metadata/verified_contents.json"
+    },
+    "EXTAF76": {
+        "file_name": "contentscript_dm.js",
+        "file_size": "383 KB",
+        "id": "EXTAF76",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021270111008/contentscript_dm.js.src",
+        "relative_path": "content/js/contentscript_dm.js",
+        "retirejs_result": [
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "3.6.0"
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "3.6.0"
+            }
+        ]
+    },
+    "EXTAF77": {
+        "file_name": "content_xpath.css",
+        "file_size": "1 KB",
+        "id": "EXTAF77",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021270111008/content_xpath.css.src",
+        "relative_path": "content/css/content_xpath.css"
+    },
+    "EXTAF78": {
+        "file_name": "bg_script_dm.js",
+        "file_size": "136 KB",
+        "id": "EXTAF78",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021270111008/bg_script_dm.js.src",
+        "relative_path": "bg/js/bg_script_dm.js",
+        "retirejs_result": []
+    },
+    "EXTAF8": {
+        "file_name": "main.2061ab2f5b2e7af0e9c9.js",
+        "file_size": "4658 KB",
+        "id": "EXTAF8",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021270111008/main.2061ab2f5b2e7af0e9c9.js.src",
+        "relative_path": "dist/main.2061ab2f5b2e7af0e9c9.js",
+        "retirejs_result": []
+    },
+    "EXTAF9": {
+        "file_name": "index.html",
+        "file_size": "3 KB",
+        "id": "EXTAF9",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021270111008/index.html.src",
+        "relative_path": "dist/index.html"
+    }
+}

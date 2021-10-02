@@ -1,0 +1,3255 @@
+{
+    "author": "unknown",
+    "base64_strings": [
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine-html.js",
+            "string": "logRunningSpecs="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine-html.js",
+            "string": "eportRunnerStarting="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine-html.js",
+            "string": "reportRunnerResults="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine-html.js",
+            "string": "ortSuiteResults="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine-html.js",
+            "string": "ortSpecStarting="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine-html.js",
+            "string": "portSpecResults="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "currentSpec="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "tchersClass="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "rsionString="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "eportRunnerStarting="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "reportRunnerResults="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "ortSuiteResults="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "ortSpecStarting="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "portSpecResults="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "ultsForSpec="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "resultsForSpecs="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "pectedClass="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "stedResults="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "ollupCounts="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "ishCallback="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "LevelSuites="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "erCallbacks="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "addMatchers="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "oveAllSpies="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "itsForBlock="
+        },
+        {
+            "file": "test/lib/jasmine-1.0.1/jasmine.js",
+            "string": "eduledFunctions="
+        },
+        {
+            "file": "lib/jquery.tablednd_0_5.js",
+            "string": "leDnDConfig="
+        },
+        {
+            "file": "lib/jquery.layout-1.2.0.js",
+            "string": "lyDefaultStyles="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "taTableSettings="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "fnFiltering="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "oStdClasses="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "oJUIClasses="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "ersionCheck="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "xternConfig="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "aanFeatures="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "aoPreSearchCols="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "tripClasses="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "asDestoryStrips="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nFooterCallback="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nHeaderCallback="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "RowCallback="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "rawCallback="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nCookieCallback="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "ortingClass="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "SortingClassJUI="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "osureDataTables="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "fnDeleteRow="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "etColumnVis="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "bDestroying="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nAdjustColumnSizing="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "fnExternApiFunc="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "LanguageProcess="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "fnColumnOptions="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nAjaxUpdateDraw="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nScrollDraw="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "fnAjustColumnSizing="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nBuildSearchRow="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nSortingClasses="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "FeatureHtmlInfo="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nUpdateInfo="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "fnFeatureHtmlProcessing="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "fnVisbleColumns="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "fnCalculateColumnWidths="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "GetMaxLenString="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "StringToCss="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nGetTrNodes="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nGetTdNodes="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "nColumnOrdering="
+        },
+        {
+            "file": "lib/datatables-1.7.4/js/jquery.dataTables.js",
+            "string": "etUniqueThs="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "positionAbs="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "iginalPageY="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "lperProportions="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "napElements="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "proportions="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "aspectRatio="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "unselecting="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "lastPositionAbs="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "ouseSliding="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "abledInputs="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "tepickerShowing="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "inlineClass="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "appendClass="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "riggerClass="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "dialogClass="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "isableClass="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "selectableClass="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "urrentClass="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "ayOverClass="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js",
+            "string": "nimateClass="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js",
+            "string": "leteExpando="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js",
+            "string": "bmitBubbles="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js",
+            "string": "angeBubbles="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js",
+            "string": "ecialEasing="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js",
+            "string": "cellpadding="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js",
+            "string": "cellspacing="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js",
+            "string": "esAddBorderForTableAndCells="
+        },
+        {
+            "file": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.highlight.js",
+            "string": "nimateClass="
+        },
+        {
+            "file": "js/viewer.js",
+            "string": "loadPresets="
+        },
+        {
+            "file": "js/shared.js",
+            "string": "serializeParams="
+        }
+    ],
+    "bitcoin_addresses": [],
+    "comments": [
+        {
+            "comment": "pivotal.github.com/jasmine/&quot;,target:&quot;_blank&quot;},&quot;Jasmine&quot;),this.createDom(&quot;span&quot;,{className:&quot;version&quot;},a.env.versionString())),this.createDom(&quot;div&quot;,{className:&quot;options&quot;},&quot;Show &quot;,b=this.createDom(&quot;input&quot;,{id:&quot;__jasmine_TrivialReporter_showPassed__&quot;,",
+            "file": "test/lib/jasmine-1.0.1/jasmine-html.js"
+        },
+        {
+            "comment": "www.fabrizioballiano.net)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "allpro.net)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "www.gnu.org/licenses/gpl.html)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "www.opensource.org/licenses/mit-license.php) licenses.",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " DEFAULTS for options",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " prefix for ALL selectors and classNames",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\tmisc default values",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ui-layout-pane",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ui-layout-resizer",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ui-layout-toggler",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ui-layout-open / ui-layout-closed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ui-layout-button",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ui-layout-content",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ui-layout-mask ",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " DEFAULT PANEL OPTIONS - CHANGE IF DESIRED",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " FUTURE REFERENCE - not used right now",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " after creating a layout, scroll to bookmark in URL (.../page.htm#myBookmark)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " default options for &#39;all panes&#39; - will be overridden by &#39;per-pane settings&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " apply basic styles directly to resizers &amp; buttons? If not, then stylesheet must handle it",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane can open &amp; close",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " when open, pane can be resized ",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " when closed, pane can &#39;slide&#39; open over other panes - closes on mouse-out",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": ",\tpaneSelector:\t\t\t[ ]\t\t\t// MUST be pane-specific!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " INNER div/element to auto-size so only it scrolls, not the entire pane!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " elem(s) to &#39;ignore&#39; when measuring &#39;content&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " border-Pane - default: &#39;ui-layout-pane&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Resizer Bar\t\t- default: &#39;ui-layout-resizer&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Toggler Button\t- default: &#39;ui-layout-toggler&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CUSTOM Buttons\t- default: &#39;ui-layout-button-toggle/-open/-close/-pin&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " option for ui.draggable",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": ",\tresizerCursor:\t\t\t&quot;&quot;\t\t\t// MUST be pane-specific - cursor when over resizer-bar",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = all iframes OR = iframe-selector(s) - adds masking-div during resizing/dragging",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": ",\tsize:\t\t\t\t\t100\t\t\t// inital size of pane - defaults are set &#39;per pane&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " when manually resizing a pane",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ditto, 0 = no limit",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " space between pane and adjacent panes - when pane is &#39;open&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ditto - when pane is &#39;closed&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Length = WIDTH of toggler button on north/south edges - HEIGHT on east/west edges",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " 100% OR -1 means &#39;full height/width of resizer bar&#39; - 0 means &#39;hidden&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " top/left, bottom/right, center, OR...",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " 1 =&gt; nn = offset from top/left, -1 =&gt; -nn == offset from bottom/right",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Toggler tool-tip (title)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ditto",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Resizer tool-tip (title)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resizer-bar triggers &#39;sliding&#39; when pane is closed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " cursor when resizer-bar will trigger &#39;sliding&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " click, dblclick, mouseover",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " click, mouseout",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " when pane is slid-open, should the toggler show?",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " text or HTML to put INSIDE the toggler",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " will bind allowOverflow() utility to pane.onMouseOver",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " enabled &#39;cursor&#39; hotkeys",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": ",\tcustomHotkey:\t\t\t&quot;&quot;\t\t\t// MUST be pane-specific - EITHER a charCode OR a character",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " either &#39;SHIFT&#39;, &#39;CTRL&#39; or &#39;CTRL+SHIFT&#39; - NOT &#39;ALT&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\tNOTE: fxSss_open &amp; fxSss_close options (eg: fxName_open) are auto-generated if not passed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " (&#39;none&#39; or blank), slide, drop, scale",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " slow, normal, fast, 200, nnn - if passed, will OVERRIDE fxSettings.duration",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " can be passed, eg: { easing: &quot;easeOutBounce&quot;, duration: 1500 }",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = init pane as &#39;closed&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = init pane as &#39;hidden&#39; - no resizer or spacing",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CALLBACK when pane STARTS to Show\t- BEFORE onopen/onhide_start",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CALLBACK when pane ENDS being Shown\t- AFTER  onopen/onhide_end",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CALLBACK when pane STARTS to Close\t- BEFORE onclose_start",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CALLBACK when pane ENDS being Closed\t- AFTER  onclose_end",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CALLBACK when pane STARTS to Open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CALLBACK when pane ENDS being Opened",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CALLBACK when pane STARTS to Close",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CALLBACK when pane ENDS being Closed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CALLBACK when pane STARTS to be ***MANUALLY*** Resized",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CALLBACK when pane ENDS being Resized ***FOR ANY REASON***",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " default = .ui-layout-north",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " default = .ui-layout-south",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " default = .ui-layout-east",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " default = .ui-layout-west",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " default = .ui-layout-center",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " LIST *PREDEFINED EFFECTS* HERE, even if effect has no settings",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " eg: duration: 1000, easing: &quot;easeOutBounce&quot;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " eg: duration: 1000, easing: &quot;easeOutQuint&quot;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " STATIC, INTERNAL CONFIG - DO NOT CHANGE THIS!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " set z-index values here",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " normal z-index for resizer-bars",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " normal z-index for panes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " overlay div used to mask pane(s) during resizing",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " applied to both the pane and its resizer when a pane is &#39;slid open&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " applied to the CLONED resizer-bar when being &#39;dragged&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " applied to the pane when being animated - not applied to the resizer",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " to counter-act &quot;center&quot; alignment!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " keep toggler button from overflowing",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " DEFAULT CSS - applied if: options.PANE.applyDefaultStyles=true",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " defaults for ALL panes - overridden by &#39;per-pane settings&#39; below",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\theight: \tDYNAMIC",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " DYNAMIC",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\twidth: \t\tDYNAMIC",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " DYNAMIC DATA",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " generate random &#39;ID#&#39; to identify layout - used to create global namespace for timers",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " trim converts &#39;String object&#39; to a simple string",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " already in json format - add to base keys",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " convert &#39;flat&#39; to &#39;nest-keys&#39; format - also handles &#39;empty&#39; user-options",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " TRY to bind a callback",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " BREAK",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " try to &#39;chain&#39; this callback",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " 2nd param is &#39;pane&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " callback target NOT &#39;itself&#39; and NOT &#39;this pane&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " RECURSE",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " RESET flow-control flaGs",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " RESET logic flag",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " EXECUTE the callback",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " RESET - unless callback above enabled it again!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " function name cannot contain a comma, so must be a function name AND a &#39;name&#39; parameter",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pass the argument parsed from &#39;list&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " just the name of an external function?",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pass data: pane-name, pane-element, pane-state, pane-options, and layout-name",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " IE CAN read dimensions of &#39;hidden&#39; elements - FF CANNOT",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " SAVE current setting",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " show element &#39;invisibly&#39; so we can measure it",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " WAS hidden, so put back the way it was",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " reset &#39;visibility&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " a &#39;calculated&#39; outerHeight can be passed so borders and/or padding are removed if needed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " strip border and padding size from outerWidth to get CSS Width",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " strip border and padding size from outerHeight to get CSS Height",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane = north or south",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane = east or west",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " dir == &quot;vert&quot;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\tlimitSize prevents this pane from &#39;overlapping&#39; opposite pane - even if opposite pane is currently closed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " used to set resizing limits",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " save data to pane-state",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = include &#39;spacing&#39; value for p",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " now add the &#39;container border/padding&#39; to get final positions - relative to the container",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " dimensions hash",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " edge, border, padding",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " total offset of content from outer edge",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " if BOX MODEL, then &#39;position&#39; = PADDING (ignore borderWidth)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " UNIQUE NAME for every layout-pane-action",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " timer already set!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " initialize config/options",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " initialize all objects",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " set CSS as needed and init state.container dimensions",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " size &amp; position all panes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " create and position all resize bars &amp; togglers buttons",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " activate resizing on all panes where resizable=true",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " AFTER panes &amp; handles have been initialized, size &#39;content&#39; divs",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " scrollTo Bookmark",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " bind hotkey function - keyDown - if required",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " bind resizeAll() for &#39;this layout instance&#39; to window.resize event",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " use a delay for IE because the resize event fires repeatly",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " most other browsers have a built-in delay before firing the resize event",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resize all layout elements NOW!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " format html/body if this is a full page layout",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " TODO: test whether body-padding could be handled?",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " a body-border creates problems because it cannot be measured!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " set required CSS - overflow and position",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " make sure container will not &#39;scroll&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " if this is a NESTED layout, then outer-pane ALREADY has position and height",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " container MUST have a &#39;position&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " container MUST have a &#39;height&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " get layout-container dimensions (updated when necessary)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " update data-pointer too",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " bind keyDown to capture hotkeys, if option enabled for ANY pane",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " only need to bind this ONCE",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " BREAK - binding was done",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " simplify logic by making sure passed &#39;opts&#39; var has basic keys",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " update default effects, if case user passed key",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " see if any &#39;global options&#39; were specified",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " remove any &#39;defaults&#39; that MUST be set &#39;per-pane&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " is OK if key does not exist",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " now update options.defaults",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " make sure required sub-keys exist",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "if (typeof options.defaults.fxSettings != &quot;object&quot;) options.defaults.fxSettings = {};",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " merge all config &amp; options for the &#39;center&#39; pane",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Most &#39;default options&#39; do not apply to &#39;center&#39;, so add only those that DO",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " TEMP data",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " create a COMPLETE set of options for EACH border-pane",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " apply &#39;pane-defaults&#39; to CONFIG.PANE",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " apply &#39;pane-defaults&#39; +  user-options to OPTIONS.PANE",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " make sure we have base-classes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " create FINAL fx options for each pane, ie: options.PANE.fxName/fxSpeed/fxSettings[_open|_close]",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " recalculate fxName according to specificity rules",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.west.fxName_open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.west.fxName",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.defaults.fxName_open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.defaults.fxName",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.west.fxName_open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.west.fxName",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.defaults.fxName_open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.defaults.fxName",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " validate fxName to be sure is a valid effect",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " effect not loaded, OR undefined FX AND fxSettings not passed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " set vars for effects subkeys to simplify logic",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " effects.slide",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " effects.slide.all",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " effects.slide.west",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " RECREATE the fxSettings[_open|_close] keys using specificity rules",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.defaults.fxSettings",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.defaults.fxSettings_open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.west.fxSettings",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.west.fxSettings_open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.defaults.fxSettings",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.defaults.fxSettings_open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.west.fxSettings",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.west.fxSettings_open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " recalculate fxSpeed according to specificity rules",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.west.fxSpeed_open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.west.fxSpeed (pane-default)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.defaults.fxSpeed_open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " opts.defaults.fxSpeed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.west.fxSpeed_open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.west.fxSettings_open.duration",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.west.fxSpeed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.west.fxSettings.duration",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.defaults.fxSpeed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " options.defaults.fxSettings.duration",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " effects.slide.west.duration",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " effects.slide.all.duration",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " DEFAULT",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " DEBUG: if (pane==&quot;east&quot;) debugData( $.extend({}, {speed: o[sSpeed], fxSettings_duration: o[sSettings].duration}, o[sSettings]), pane+&quot;.&quot;+sName+&quot; = &quot;+fxName );",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " NOTE: do north &amp; south FIRST so we can measure their height - do center LAST",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\tif o.size is not &gt; 0, then we will use MEASURE the pane and use that as it&#39;s &#39;size&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " init",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ID selector",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " NOTE: elements selected &#39;by ID&#39; DO NOT have to be &#39;children&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " class or other selector",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " look for the pane nested inside a &#39;form&#39; element",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " logic",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " SKIP to next",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " add basic classes &amp; attributes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " add pane-identifier",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " default = &quot;ui-layout-pane ui-layout-pane-west&quot; - may be a dupe of &#39;paneSelector&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " init pane-logic vars, etc.",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = pane is closed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = pane is currently open by &#39;sliding&#39; over adjacent panes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = pane is in process of being resized",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = pane is hidden - no spacing, resizer or toggler is visible!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = pane &#39;automatically&#39; hidden due to insufficient room - will unhide automatically",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " create special keys for internal use",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " used to track and sync &#39;pin-buttons&#39; for border-panes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " cosmetic defaults",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " add base-css BEFORE &#39;measuring&#39; to calc size &amp; position",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " reset var",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " set css-position to account for container borders &amp; padding",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " top, bottom &amp; height set by sizeMidPanes()",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " top, left, width &amp; height set by sizeMidPanes()",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " north or south pane",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " update state",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " make sure minSize is sufficient to avoid errors",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " init value",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " = pane.outerHeight when css.height = 1px",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " handle IE6",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "if (isIE6) CSS.width = cssW($P, cDims.innerWidth);",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " apply size &amp; position",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " east or west pane",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " float = FORCE pane to auto-size",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " RESET",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " = pane.outerWidth when css.width = 1px",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " apply size - top, bottom &amp; height set by sizeMidPanes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = onInit",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " top, left, width &amp; height set by sizeMidPanes...",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " close or hide the pane if specified in settings",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " will be completely invisible - no resizer or spacing",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " check option for auto-handling of pop-ups &amp; drop-downs",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " match 1-element only",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " NO PANE-SCROLLING when there is a content-div",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " create toggler DIVs for each pane, and set object pointers for them, eg: $R.north = north toggler DIV",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " INIT",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane does not exist - skip",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " used for classNames",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " INIT RESIZER BAR",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " this is handled by initResizable",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " if paneSelector is an ID, then create a matching ID for the resizer, eg: &quot;#paneLeft&quot; =&gt; &quot;paneLeft-resizer&quot;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " so we can read this from the resizer",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " add base/required styles",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " POSITION of resizer bar - allow for container border &amp; padding",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ADD CLASSNAMES - eg: class=&quot;resizer resizer-west resizer-open&quot;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " append DIV to container",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ADD VISUAL STYLES",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " INIT COLLAPSER BUTTON",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " if paneSelector is an ID, then create a matching ID for the resizer, eg: &quot;#paneLeft&quot; =&gt; &quot;paneLeft-toggler&quot;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " prevent resizer event",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ADD CLASSNAMES - eg: class=&quot;toggler toggler-west toggler-west-open&quot;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " append SPAN to resizer DIV",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ADD INNER-SPANS TO TOGGLER",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ui-layout-open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ui-layout-closed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ADD BASIC VISUAL STYLES",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " will enable if state.PANE.isSliding = true",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " SET ALL HANDLE SIZES &amp; LENGTHS",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " set in start()",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " skip to next",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\t&#39;drag&#39; classes are applied to the ORIGINAL resizer-bar while dragging is in process",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resizer-drag",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resizer-north-drag",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\t&#39;dragging&#39; class is applied to the CLONED resizer-bar while it is being dragged",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resizer-dragging",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resizer-north-dragging",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " logic var",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " n-resize, s-resize, etc",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " limit resizing to layout container",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " limit resizing to horz or vert axis",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\tbasic format for helper - style it using class: .ui-draggable-dragging",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": ",\tiframeFix:\t\to.draggableIframeFix // TODO: consider using when bug is fixed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " onresize_start callback - will CANCEL hide if returns false",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " TODO: CONFIRM that dragging can be cancelled like this???",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " prevent pane from closing while resizing",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " just in case already triggered",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " add drag classes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " reset logic var - see drag()",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " SET RESIZING LIMITS - used in drag()",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " update pane-state",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " MASK PANES WITH IFRAMES OR OTHER TROUBLESOME ELEMENTS",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " top &amp; left",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " put div INSIDE pane to avoid zIndex issues",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " can only add classes after clone has been added to the DOM",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " add dragging classes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " hide toggler inside dragged resizer-bar",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " draggable bug!? RE-SET zIndex to prevent E/W resize-bar showing through N/S pane!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CONTAIN RESIZER-BAR TO RESIZING LIMITS",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " remove drag classes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " remove container margin from resizer position to get the pane size",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " UN-MASK PANES MASKED IN drag.start",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Remove iframe masks\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane does not exist OR is already hidden",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " onhide_start callback - will CANCEL hide if returns false",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " just in case",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " now hide the elements",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " hide resizer-bar",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " to trigger open-animation on show()",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " no animation when loading page",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " used by onclose",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " adjust all panes to fit",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "s.isHidden  = true; - will be set by close - if not cancelled",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane does not exist OR is not hidden",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " used by onopen/onclose",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "s.isHidden  = false; - will be set by open/close - if not cancelled",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " now show the elements",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = force",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " will call &#39;open&#39; after unhiding it",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " \ttransfer logic vars to temp vars",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " now clear the logic vars",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " invalid request",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " already closed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " layout is &#39;busy&#39; - probably with an animation",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " set a callback for this action, if possible",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ABORT ",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " onclose_start callback - will CANCEL hide if returns false",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " SKIP if just &#39;showing&#39; a hidden pane as &#39;closed&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " SET flow-control flags",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " update isHidden BEFORE sizing panes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " sync any &#39;pin buttons&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resize panes adjacent to this one",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " if this pane has a resizer bar, move it now",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " move the resizer bar",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " DISABLE &#39;resizing&#39; when closed - do this BEFORE bindStartSlidingEvent",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " if pane has a toggler button, adjust that too",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " may be blank",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resize &#39;length&#39; and position togglers for adjacent panes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ANIMATE &#39;CLOSE&#39; - if no animation, then was ALREADY shown above",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " need to set left/top so animation will work",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " undo",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane was opened before animation finished!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " just hide pane NOW",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " SUBROUTINE",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " onclose callback - UNLESS just &#39;showing&#39; a hidden pane as &#39;closed&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " onhide OR onshow callback",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " internal flow-control callback",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " \ttransfer logic var to temp var",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " now clear the logic var",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " already open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane can ALSO be unhidden by just calling show(), so handle this scenario",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ABORT",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " onopen_start callback - will CANCEL hide if returns false",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " &#39;PIN PANE&#39; - stop sliding",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " !slide = &#39;open pane normally&#39; - NOT sliding",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " will set isSliding=false",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Container size may have changed - shrink the pane if now &#39;too big&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane is too big! resize it before opening",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " remove trigger event from resizer-bar",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ANIMATE",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane was closed before animation finished!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " continue",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " no animation",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " just show pane and...",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " NOTE: if isSliding, then other panes are NOT &#39;resized&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resize all panes adjacent to this one",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " if this pane has a toggler, move it now",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " move the toggler",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " if pane also has a toggler button, adjust that too",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resize resizer &amp; toggler sizes for all panes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resize content every time pane opens - to be sure",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " onopen callback",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " onshow callback",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " overlay all elements during animation",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " make sure we have a valid event",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " add or remove trigger event",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " set the appropriate cursor &amp; title/tip",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " can&#39;t make &#39;unbind&#39; work! - see disabled code below",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " raise z-index when sliding",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " when trigger is &#39;mouseout&#39;, must cancel timer when mouse moves between &#39;pane&#39; and &#39;resizer&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " BIND trigger events",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " UNBIND trigger events",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " TODO: why does unbind of a &#39;single function&#39; not work reliably?",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "$P[action](trigger, slideClosed );",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "$P[action](&quot;mouseover&quot;, cancelMouseOut );",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " SUBROUTINE for mouseout timer clearing",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " attr added by initHandles",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " skip if already open!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane is opening, so BIND trigger events to close it",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " true = slide - ie, called from here!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " skip if already closed OR in process of resizing",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " close immediately onClick",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " trigger = mouseout - use a delay",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " .3 sec delay",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " SUBROUTINE for timed close",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " pane is being closed, so UNBIND trigger events",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " skip if already closed!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " TODO: accept &quot;auto&quot; as size, and size-to-fit pane content",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " calculate &#39;current&#39; min/max sizes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " compare/update calculated min/max to user-options",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " validate passed size",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " move the resizer bar and resize the pane",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " resize all the adjacent panes, and adjust their toggler buttons",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " NO PANE - skip",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " REFRESH Dims because may have just &#39;unhidden&#39; East or West pane after a &#39;resize&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " COPY ALL of the paneDims",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " for east and west, set only the height",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " in case was previously hidden due to NOT hasRoom",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " no room for pane, so just hide it (if not already)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " skip onhide callback and other logic onLoad",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " NO CONTENT - skip",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " DOM element",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " init to pane.innerHeight",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Content elem - skip",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " no room for content!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " skip",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " skip if resizer was hidden for any reason",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " in case was previously hidden",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Resizer Bar is ALWAYS same width/height of pane it is attached to",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " north/south",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " account for borders &amp; padding",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " east/west",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": ",\ttop:\tcssNum($Ps[&quot;center&quot;], &quot;top&quot;)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " always HIDE the toggler when &#39;sliding&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " calculate &#39;offset&#39; based on options.PANE.togglerAlign_open/closed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " &#39;default&#39; catches typos",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " togAlign = number",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " NOTE: x is negative!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " TODO: VERIFY that toggler  positions correctly for ALL values",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CENTER the toggler content SPAN",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " could be negative",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " POSITION the toggler",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " DONE measuring and sizing this resizer/toggler, so can be &#39;hidden&#39; now",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " UPDATE container dimensions",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " NOTE special order for sizing: S-N-E-W",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " shrink pane if &#39;too big&#39; to fit",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " reposition the toggler elements",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " ignore special keys: ENTER, TAB, etc",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Up Cursor",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Down Cursor",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Left Cursor",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Right Cursor",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " no worky!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " no modifier key - abort",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " valid cursor-hotkey",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " check to see if this matches a custom-hotkey",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " loop each pane to check its hotkey",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " if missing or invalid, treated as &quot;CTRL+SHIFT&quot;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Modifier matches",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Key matches",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " no hotkey - abort",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " validate pane",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " get pane options",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " see if user is in a &#39;form field&#39; because may be &#39;selecting text&#39;!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " allow text-selection",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " SYNTAX NOTES",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " use &quot;returnValue=false&quot; to abort keystroke but NOT abort function - can run another command afterwards",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " use &quot;return false&quot; to abort keystroke AND abort function",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " CANCEL key",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " BOUND to element",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " INVALID",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " if pane is already raised, then reset it before doing it again!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " this would happen if allowOverflow is attached to BOTH the pane and an element ",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " reset previous CSS before continuing",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " if pane is raised by sliding or resizing, or it&#39;s closed, then abort",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " determine which, if any, overflow settings need to be changed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " save the current overflow settings - even if blank!",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " apply new CSS to raise zIndex and, if necessary, make overflow &#39;visible&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " make sure the zIndex of all other panes is normal",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " reset the zIndex",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " reset Overflow - if necessary",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " clear var",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " element not found",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " invalid &#39;pane&#39; sepecified",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " VALID",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " change from sliding to open",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " slide-closed",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " add up/down pin attributes and classes",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " add this pin to the pane data so we can &#39;sync it&#39; automatically",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " PANE.pins key is an array so we can store multiple pins for each pane",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " just save the selector string",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " already in correct state",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " init global vars",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Container elem",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Panes x4\t- set in initPanes()",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Content x4\t- set in initPanes()",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Resizers x4\t- set in initHandles()",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " Togglers x4\t- set in initHandles()",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\tobject aliases",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " alias for config hash",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " alias for easy access to &#39;container dimensions&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " create the border layout NOW",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " return object pointers to expose data &amp; option Properties, and primary action Methods",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " property - options hash",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " property - dimensions hash",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " property - object pointers for ALL panes: panes.north, panes.center",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " method - pass a &#39;pane&#39; (&quot;north&quot;, &quot;west&quot;, etc)",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " method - ditto",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " method - pass a &#39;pane&#39; AND a &#39;size&#39; in pixels",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " method - no parameters",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " utility - pass element selector and &#39;pane&#39;",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " utility - ditto",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": " utility - pass calling element",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\n * jquery.layout 1.2.0\n *\n * Copyright (c) 2008 \n *   Fabrizio Balliano (http://www.fabrizioballiano.net)\n *   Kevin Dalman (http://allpro.net)\n *\n * Dual licensed under the GPL (http://www.gnu.org/licenses/gpl.html)\n * and MIT (http://www.opensource.org/licenses/mit-license.php) licenses.\n *\n * $Date: 2008-12-27 02:17:22 +0100 (sab, 27 dic 2008) $\n * $Rev: 203 $\n * \n * NOTE: For best code readability, view this with a fixed-space font and tabs equal to 4-chars\n",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\n * ###########################\n *   WIDGET CONFIG &amp; OPTIONS\n * ###########################\n",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\n * ###########################\n *  INTERNAL HELPER FUNCTIONS\n * ###########################\n",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * min / max\n\t *\n\t * Alias for Math.min/.max to simplify coding\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * getPaneDims\n\t *\n\t * Returns data for setting the size/position of center pane. Date is also used to set Height for east/west panes\n\t *\n\t * @returns JSON  Returns a hash of all dimensions: top, bottom, left, right, (outer) width and (outer) height\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * getElemDims\n\t *\n\t * Returns data for setting size of an element (container or a pane).\n\t *\n\t * @callers  create(), onWindowResize() for container, plus others for pane\n\t * @returns JSON  Returns a hash of all dimensions: top, bottom, left, right, outerWidth, innerHeight, etc\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\n * ###########################\n *   INITIALIZATION METHODS\n * ###########################\n",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * create\n\t *\n\t * Initialize the layout - called automatically whenever an instance of layout is created\n\t *\n\t * @callers  NEVER explicity called\n\t * @returns  An object pointer to the instance created\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * initContainer\n\t *\n\t * Validate and initialize container CSS and events\n\t *\n\t * @callers  create()\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * initHotkeys\n\t *\n\t * Bind layout hotkeys - if options enabled\n\t *\n\t * @callers  create()\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * initOptions\n\t *\n\t * Build final CONFIG and OPTIONS data\n\t *\n\t * @callers  create()\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * initPanes\n\t *\n\t * Initialize module objects, styling, size and position for all panes\n\t *\n\t * @callers  create()\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * initHandles\n\t *\n\t * Initialize module objects, styling, size and position for all resize bars and toggler buttons\n\t *\n\t * @callers  create()\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * initResizable\n\t *\n\t * Add resize-bars to all panes that specify it in options\n\t *\n\t * @dependancies  $.fn.resizable - will abort if not found\n\t * @callers  create()\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\n * ###########################\n *       ACTION METHODS\n * ###########################\n",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * toggle\n\t *\n\t * Toggles a pane open/closed by calling either open or close\n\t *\n\t * @param String  pane   The pane being toggled, ie: north, south, east, or west\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * close\n\t *\n\t * Close the specified pane (animation optional), and resize all other panes as needed\n\t *\n\t * @param String  pane   The pane being closed, ie: north, south, east, or west\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * open\n\t *\n\t * Open the specified pane (animation optional), and resize all other panes as needed\n\t *\n\t * @param String  pane   The pane being opened, ie: north, south, east, or west\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * sizePane\n\t *\n\t * @callers  initResizable.stop()\n\t * @param String  pane   The pane being resized - usually west or east, but potentially north or south\n\t * @param Integer  newSize  The new size for this pane - will be validated\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * sizeMidPanes\n\t *\n\t * @callers  create(), open(), close(), onWindowResize()\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "OLD CODE - keep until sure line above works right!\n\t\t\t\t\tif (!s.isClosed) $P.show(); // in case was previously hidden due to NOT hasRoom\n\t\t\t\t\tif ($R) $R.show();\n\t\t\t\t\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * resizeAll\n\t *\n\t * @callers  window.onresize(), callbacks or custom code\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "*\n\t * keyDown\n\t *\n\t * Capture keys when enableCursorHotkey - toggle pane if hotkey pressed\n\t *\n\t * @callers  document.keydown()\n\t",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\n * ###########################\n *     UTILITY METHODS\n *   called externally only\n * ###########################\n",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "\n * ###########################\n * CREATE/RETURN BORDER-LAYOUT\n * ###########################\n",
+            "file": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+            "comment": "api.jquery.com/category/selectors/&quot; target=&quot;_blank&quot;&gt;&#39;).text(&quot;jQuery Reference&quot;)):",
+            "file": "js/viewer.js"
+        },
+        {
+            "comment": "www.stylusstudio.com/docs/v62/d_xpath15.html&quot; target=&quot;_blank&quot;&gt;&#39;).text(&quot;XPath Reference&quot;))});$(&quot;#options-language&quot;).change();c.scrape();addEventListener(&quot;resize&quot;,function(a){localStorage[&quot;viewer.width&quot;]=window.outerWidth;localStorage[&quot;viewer.height&quot;]=window.outerHeight});addEventListener(&quot;unload&quot;,function(a){a=c.options();a.filters||(a.filters=[]);localStorage[&quot;viewer.options&quot;]=JSON.stringify(a);localStorage[&quot;viewer.west.size&quot;]=g.state.west.size;",
+            "file": "js/viewer.js"
+        },
+        {
+            "comment": "www.googleapis.com/upload/drive/v2/files?uploadType=multipart&amp;convert=true&quot;,!0);Object.keys(k).forEach(function(a){h.setRequestHeader(a,k[a])});h.onload=function(){var a=this.response;if(401==this.status)chrome.identity.removeCachedAuthToken({token:c}),d({error:&quot;Google authentication failed. Please try exporting again, and you will be re-authenticated.&quot;});",
+            "file": "js/background.js"
+        },
+        {
+            "comment": "p&quot;,attributes:[{xpath:&quot;.&quot;,name:&quot;Text&quot;}],filters:[&quot;empty&quot;]}},{name:&quot;Links&quot;,options:{language:&quot;xpath&quot;,selector:&quot;//a&quot;,attributes:[{xpath:&quot;.&quot;,name:&quot;Link&quot;},{xpath:&quot;@href&quot;,name:&quot;URL&quot;}],filters:[&quot;empty&quot;]}}]);",
+            "file": "js/background.js"
+        },
+        {
+            "comment": "chrome.google.com/extensions&quot;)||0==a.url.indexOf(&quot;chrome://&quot;)?alert(&quot;Scraper is not permitted to work on the Google Chrome extensions page for security reasons.&quot;):chrome.windows.create({url:chrome.extension.getURL(&quot;viewer.html&quot;)+&quot;?tab=&quot;+a.id+&quot;&amp;options=&quot;+encodeURIComponent(JSON.stringify(b)),type:&quot;popup&quot;,width:Math.max(650,parseInt(localStorage[&quot;viewer.width&quot;]||&quot;960&quot;,10)),height:Math.max(250,parseInt(localStorage[&quot;viewer.height&quot;]||",
+            "file": "js/bit155/scraper.js"
+        },
+        {
+            "comment": "dvhtn.com&quot; target=&quot;_blank&quot;&gt;Dave Heaton&lt;/a&gt;&lt;/h2&gt;",
+            "file": "viewer.html"
+        },
+        {
+            "comment": "jquery.com&quot; target=&quot;_blank&quot;&gt;jQuery&lt;/a&gt; and ",
+            "file": "viewer.html"
+        },
+        {
+            "comment": "jqueryui.com&quot; target=&quot;_blank&quot;&gt;jQuery UI&lt;/a&gt;, as well as ",
+            "file": "viewer.html"
+        },
+        {
+            "comment": "layout.jquery-dev.net/&quot; title=&quot;UI.Layout Plug-in - Home 2&quot; target=&quot;_blank&quot;&gt;jQuery Layout&lt;/a&gt;,",
+            "file": "viewer.html"
+        },
+        {
+            "comment": "www.datatables.net/&quot; title=&quot;DataTables (table plug-in for jQuery)&quot; target=&quot;_blank&quot;&gt;DataTables&lt;/a&gt; and",
+            "file": "viewer.html"
+        },
+        {
+            "comment": "www.isocra.com/2008/02/table-drag-and-drop-jquery-plugin/&quot; title=&quot;Table Drag and Drop JQuery plugin | Isocra&quot; target=&quot;_blank&quot;&gt;TableDnD&lt;/a&gt;",
+            "file": "viewer.html"
+        },
+        {
+            "comment": "p.yusukekamiyamane.com/&quot; target=&quot;_blank&quot;&gt;Yusuke Kamiyamane&lt;/a&gt;, factor[e] design initiative, and useiconic.com (via The Noun Project).",
+            "file": "viewer.html"
+        },
+        {
+            "comment": "mnmldave.github.com/scraper/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;img/question.png&quot;&gt;&lt;/a&gt;&lt;/td&gt;",
+            "file": "viewer.html"
+        },
+        {
+            "comment": "include source files here...",
+            "file": "test/SpecRunner.html"
+        },
+        {
+            "comment": "include spec files here...",
+            "file": "test/SpecRunner.html"
+        }
+    ],
+    "crx": "/home/maria/ExtAnalysis/lab/mbigbapnjcgaffohmbkdlecaccepngjd.crx",
+    "description": "Scraper gets data out of web pages and into spreadsheets.",
+    "domains": [
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "104.18.212.12",
+            "name": "api.jquery.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "France",
+            "country_code": "fr",
+            "ip": "217.70.184.38",
+            "name": "dvhtn.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "23.96.55.208",
+            "name": "stylusstudio.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "104.22.50.93",
+            "name": "datatables.net",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "142.250.185.4",
+            "name": "googleapis.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "205.186.187.171",
+            "name": "p.yusukekamiyamane.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "185.199.111.153",
+            "name": "mnmldave.github.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "172.67.199.168",
+            "name": "layout.jquery-dev.net",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "142.250.200.78",
+            "name": "clients2.google.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "185.199.110.153",
+            "name": "pivotal.github.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "104.18.213.12",
+            "name": "jquery.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "Canada",
+            "country_code": "ca",
+            "ip": "64.40.114.18",
+            "name": "allpro.net",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "185.199.108.153",
+            "name": "isocra.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "216.58.209.78",
+            "name": "chrome.google.com",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "209.51.188.148",
+            "name": "gnu.org",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "70.32.23.4",
+            "name": "fabrizioballiano.net",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "159.65.34.8",
+            "name": "opensource.org",
+            "virustotal": "No virustotal api found"
+        },
+        {
+            "country": "United States",
+            "country_code": "us",
+            "ip": "104.17.58.94",
+            "name": "jqueryui.com",
+            "virustotal": "No virustotal api found"
+        }
+    ],
+    "emails": [],
+    "extracted": "/home/maria/ExtAnalysis/lab/mbigbapnjcgaffohmbkdlecaccepngjd",
+    "files": {
+        "css": [
+            {
+                "jasmine.css": "test/lib/jasmine-1.0.1/jasmine.css"
+            },
+            {
+                "jquery-ui-1.8.6.custom.css": "lib/jquery-ui-1.8.6/css/custom-theme/jquery-ui-1.8.6.custom.css"
+            },
+            {
+                "popup.css": "css/popup.css"
+            },
+            {
+                "base.css": "css/base.css"
+            },
+            {
+                "viewer.css": "css/viewer.css"
+            }
+        ],
+        "html": [
+            {
+                "viewer.html": "viewer.html"
+            },
+            {
+                "popup.html": "popup.html"
+            },
+            {
+                "license.html": "license.html"
+            },
+            {
+                "SpecRunner.html": "test/SpecRunner.html"
+            }
+        ],
+        "js": [
+            {
+                "SpecRunner.js": "test/SpecRunner.js"
+            },
+            {
+                "jquery-commonAncestor.spec.js": "test/spec/jquery-commonAncestor.spec.js"
+            },
+            {
+                "jquery-xpath.spec.js": "test/spec/jquery-xpath.spec.js"
+            },
+            {
+                "jquery-serializeParams.spec.js": "test/spec/jquery-serializeParams.spec.js"
+            },
+            {
+                "attr.spec.js": "test/spec/bit155/attr.spec.js"
+            },
+            {
+                "csv.spec.js": "test/spec/bit155/csv.spec.js"
+            },
+            {
+                "scraper.spec.js": "test/spec/bit155/scraper.spec.js"
+            },
+            {
+                "jasmine-html.js": "test/lib/jasmine-1.0.1/jasmine-html.js"
+            },
+            {
+                "jasmine.js": "test/lib/jasmine-1.0.1/jasmine.js"
+            },
+            {
+                "jquery.tablednd_0_5.js": "lib/jquery.tablednd_0_5.js"
+            },
+            {
+                "jquery.layout-1.2.0.js": "lib/jquery.layout-1.2.0.js"
+            },
+            {
+                "jquery.dataTables.js": "lib/datatables-1.7.4/js/jquery.dataTables.js"
+            },
+            {
+                "jquery-ui-1.8.6.js": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js"
+            },
+            {
+                "jquery-1.4.2.js": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+            },
+            {
+                "jquery-ui-1.8.6.highlight.js": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.highlight.js"
+            },
+            {
+                "popup.js": "js/popup.js"
+            },
+            {
+                "contentscript.js": "js/contentscript.js"
+            },
+            {
+                "viewer.js": "js/viewer.js"
+            },
+            {
+                "shared.js": "js/shared.js"
+            },
+            {
+                "background.js": "js/background.js"
+            },
+            {
+                "scraper.js": "js/bit155/scraper.js"
+            },
+            {
+                "attr.js": "js/bit155/attr.js"
+            },
+            {
+                "csv.js": "js/bit155/csv.js"
+            }
+        ],
+        "json": [
+            {
+                "manifest.json": "manifest.json"
+            },
+            {
+                "verified_contents.json": "_metadata/verified_contents.json"
+            }
+        ],
+        "other": [
+            {
+                "MIT.LICENSE": "test/lib/jasmine-1.0.1/MIT.LICENSE"
+            },
+            {
+                "Sorting icons.psd": "lib/datatables-1.7.4/images/Sorting icons.psd"
+            },
+            {
+                "favicon.ico": "lib/datatables-1.7.4/images/favicon.ico"
+            }
+        ],
+        "static": [
+            {
+                "bullet_delete.png": "img/bullet_delete.png"
+            },
+            {
+                "bullet_add.png": "img/bullet_add.png"
+            },
+            {
+                "control-270-small.png": "img/control-270-small.png"
+            },
+            {
+                "exclamation-button.png": "img/exclamation-button.png"
+            },
+            {
+                "question-small-white.png": "img/question-small-white.png"
+            },
+            {
+                "scraper128.png": "img/scraper128.png"
+            },
+            {
+                "icon-16x16.png": "img/icon-16x16.png"
+            },
+            {
+                "exclamation-red.png": "img/exclamation-red.png"
+            },
+            {
+                "control-090-small.png": "img/control-090-small.png"
+            },
+            {
+                "application-form.png": "img/application-form.png"
+            },
+            {
+                "scraper48.png": "img/scraper48.png"
+            },
+            {
+                "icon-120x120.png": "img/icon-120x120.png"
+            },
+            {
+                "promo-440x280.png": "img/promo-440x280.png"
+            },
+            {
+                "promo-1400x560.png": "img/promo-1400x560.png"
+            },
+            {
+                "progress.gif": "img/progress.gif"
+            },
+            {
+                "question.png": "img/question.png"
+            },
+            {
+                "icon-32x32.png": "img/icon-32x32.png"
+            },
+            {
+                "highlighter-small.png": "img/highlighter-small.png"
+            },
+            {
+                "promo-920x680.png": "img/promo-920x680.png"
+            },
+            {
+                "icon-48x48.png": "img/icon-48x48.png"
+            },
+            {
+                "scraper32.png": "img/scraper32.png"
+            },
+            {
+                "handle.png": "img/handle.png"
+            },
+            {
+                "scraper19.png": "img/scraper19.png"
+            },
+            {
+                "icon-128x128.png": "img/icon-128x128.png"
+            },
+            {
+                "scraper16.png": "img/scraper16.png"
+            },
+            {
+                "sort_asc.png": "lib/datatables-1.7.4/images/sort_asc.png"
+            },
+            {
+                "back_enabled.jpg": "lib/datatables-1.7.4/images/back_enabled.jpg"
+            },
+            {
+                "forward_enabled.jpg": "lib/datatables-1.7.4/images/forward_enabled.jpg"
+            },
+            {
+                "sort_desc_disabled.png": "lib/datatables-1.7.4/images/sort_desc_disabled.png"
+            },
+            {
+                "back_disabled.jpg": "lib/datatables-1.7.4/images/back_disabled.jpg"
+            },
+            {
+                "sort_asc_disabled.png": "lib/datatables-1.7.4/images/sort_asc_disabled.png"
+            },
+            {
+                "forward_disabled.jpg": "lib/datatables-1.7.4/images/forward_disabled.jpg"
+            },
+            {
+                "sort_desc.png": "lib/datatables-1.7.4/images/sort_desc.png"
+            },
+            {
+                "sort_both.png": "lib/datatables-1.7.4/images/sort_both.png"
+            },
+            {
+                "ui-bg_glass_75_ffffff_1x400.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_75_ffffff_1x400.png"
+            },
+            {
+                "ui-bg_glass_75_dadada_1x400.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_75_dadada_1x400.png"
+            },
+            {
+                "ui-bg_glass_65_ffffff_1x400.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_65_ffffff_1x400.png"
+            },
+            {
+                "ui-icons_cd0a0a_256x240.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_cd0a0a_256x240.png"
+            },
+            {
+                "ui-bg_highlight-soft_75_cccccc_1x100.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_highlight-soft_75_cccccc_1x100.png"
+            },
+            {
+                "ui-bg_flat_0_aaaaaa_40x100.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_flat_0_aaaaaa_40x100.png"
+            },
+            {
+                "ui-icons_888888_256x240.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_888888_256x240.png"
+            },
+            {
+                "ui-bg_glass_55_fbf9ee_1x400.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_55_fbf9ee_1x400.png"
+            },
+            {
+                "ui-icons_454545_256x240.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_454545_256x240.png"
+            },
+            {
+                "ui-icons_2e83ff_256x240.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_2e83ff_256x240.png"
+            },
+            {
+                "ui-bg_glass_75_e6e6e6_1x400.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png"
+            },
+            {
+                "ui-bg_inset-soft_95_fef1ec_1x100.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_inset-soft_95_fef1ec_1x100.png"
+            },
+            {
+                "ui-icons_222222_256x240.png": "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_222222_256x240.png"
+            }
+        ]
+    },
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "manifest": {
+        "background": {
+            "scripts": [
+                "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js",
+                "js/shared.js",
+                "js/bit155/attr.js",
+                "js/bit155/scraper.js",
+                "js/background.js"
+            ]
+        },
+        "content_scripts": [
+            {
+                "js": [
+                    "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js",
+                    "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.highlight.js",
+                    "js/shared.js",
+                    "js/bit155/attr.js",
+                    "js/bit155/scraper.js",
+                    "js/contentscript.js"
+                ],
+                "matches": [
+                    "http://*/*",
+                    "https://*/*"
+                ],
+                "run_at": "document_start"
+            }
+        ],
+        "description": "Scraper gets data out of web pages and into spreadsheets.",
+        "icons": {
+            "128": "img/scraper128.png",
+            "16": "img/scraper16.png",
+            "32": "img/scraper32.png",
+            "48": "img/scraper48.png"
+        },
+        "manifest_version": 2,
+        "name": "Scraper",
+        "oauth2": {
+            "client_id": "713595600722-2s6ljlbm9d6icnkjum9anlrr87hj9gjk.apps.googleusercontent.com",
+            "scopes": [
+                "https://www.googleapis.com/auth/drive",
+                "https://www.googleapis.com/auth/drive.file"
+            ]
+        },
+        "permissions": [
+            "identity",
+            "tabs",
+            "contextMenus",
+            "clipboardWrite",
+            "unlimitedStorage",
+            "http://*/*",
+            "https://*/*"
+        ],
+        "update_url": "https://clients2.google.com/service/update2/crx",
+        "version": "1.7"
+    },
+    "name": "Scraper",
+    "permissions": [
+        {
+            "badge": "<i class=\"fas fa-id-badge\"></i>",
+            "description": "Gives your extension access to the chrome.identity API.",
+            "name": "identity",
+            "risk": "low",
+            "warning": "na"
+        },
+        {
+            "badge": "<i class=\"fas fa-th\"></i>",
+            "description": "Grants the extension access to privileged fields of the Tab objects used by several APIs including chrome.tabs and chrome.windows. In many circumstances the extension will not need to declare the tabs permission to make use of these APIs.",
+            "name": "tabs",
+            "risk": "high",
+            "warning": "Read your browsing history"
+        },
+        {
+            "badge": "<i class=\"fas fa-bars\"></i>",
+            "description": "Gives your extension access to the chrome.contextMenus API.",
+            "name": "contextMenus",
+            "risk": "none",
+            "warning": "na"
+        },
+        {
+            "badge": "<i class=\"fas fa-clipboard-check\"></i>",
+            "description": "Indicates the extension uses document.execCommand('copy') or document.execCommand('cut').",
+            "name": "clipboardWrite",
+            "risk": "medium",
+            "warning": "Modify data you copy and paste"
+        },
+        {
+            "badge": "<i class=\"fas fa-hdd\"></i>",
+            "description": "Provides an unlimited quota for storing HTML5 client-side data, such as databases and local storage files. Without this permission, the extension or app is limited to 5 MB of local storage.                     Note: This permission applies only to Web SQL Database and application cache (see issue 58985). Also, it doesn't currently work with wildcard subdomains such as http://*.example.com.",
+            "name": "unlimitedStorage",
+            "risk": "none",
+            "warning": "na"
+        },
+        {
+            "badge": "<i class=\"fas fa-globe-africa\"></i>",
+            "description": "Matches any URL that uses the http: scheme.",
+            "name": "http://*/*",
+            "risk": "high",
+            "warning": "Read and change all your data on the websites you visit that uses the scheme http://"
+        },
+        {
+            "badge": "<i class=\"fas fa-globe-africa\"></i>",
+            "description": "Matches any URL that uses the https: scheme.",
+            "name": "https://*/*",
+            "risk": "high",
+            "warning": "Read and change all your data on the websites you visit that uses the scheme https://"
+        }
+    ],
+    "type": "local",
+    "urls": [
+        {
+            "domain": "pivotal.github.com",
+            "file": "test/lib/jasmine-1.0.1/jasmine-html.js",
+            "url": "http://pivotal.github.com/jasmine/"
+        },
+        {
+            "domain": "fabrizioballiano.net",
+            "file": "lib/jquery.layout-1.2.0.js",
+            "url": "http://www.fabrizioballiano.net"
+        },
+        {
+            "domain": "allpro.net",
+            "file": "lib/jquery.layout-1.2.0.js",
+            "url": "http://allpro.net"
+        },
+        {
+            "domain": "gnu.org",
+            "file": "lib/jquery.layout-1.2.0.js",
+            "url": "http://www.gnu.org/licenses/gpl.html"
+        },
+        {
+            "domain": "opensource.org",
+            "file": "lib/jquery.layout-1.2.0.js",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        },
+        {
+            "domain": "api.jquery.com",
+            "file": "js/viewer.js",
+            "url": "http://api.jquery.com/category/selectors/"
+        },
+        {
+            "domain": "stylusstudio.com",
+            "file": "js/viewer.js",
+            "url": "http://www.stylusstudio.com/docs/v62/d_xpath15.html"
+        },
+        {
+            "domain": "googleapis.com",
+            "file": "js/background.js",
+            "url": "https://www.googleapis.com/upload/drive/v2/files?uploadType=multipart&convert=true"
+        },
+        {
+            "domain": "chrome.google.com",
+            "file": "js/bit155/scraper.js",
+            "url": "https://chrome.google.com/extensions"
+        },
+        {
+            "domain": "dvhtn.com",
+            "file": "viewer.html",
+            "url": "http://dvhtn.com"
+        },
+        {
+            "domain": "jquery.com",
+            "file": "viewer.html",
+            "url": "http://jquery.com"
+        },
+        {
+            "domain": "jqueryui.com",
+            "file": "viewer.html",
+            "url": "http://jqueryui.com"
+        },
+        {
+            "domain": "layout.jquery-dev.net",
+            "file": "viewer.html",
+            "url": "http://layout.jquery-dev.net/"
+        },
+        {
+            "domain": "datatables.net",
+            "file": "viewer.html",
+            "url": "http://www.datatables.net/"
+        },
+        {
+            "domain": "isocra.com",
+            "file": "viewer.html",
+            "url": "http://www.isocra.com/2008/02/table-drag-and-drop-jquery-plugin/"
+        },
+        {
+            "domain": "p.yusukekamiyamane.com",
+            "file": "viewer.html",
+            "url": "http://p.yusukekamiyamane.com/"
+        },
+        {
+            "domain": "mnmldave.github.com",
+            "file": "viewer.html",
+            "url": "http://mnmldave.github.com/scraper/"
+        },
+        {
+            "domain": "clients2.google.com",
+            "file": "manifest.json",
+            "url": "https://clients2.google.com/service/update2/crx"
+        },
+        {
+            "domain": "googleapis.com",
+            "file": "manifest.json",
+            "url": "https://www.googleapis.com/auth/drive"
+        },
+        {
+            "domain": "googleapis.com",
+            "file": "manifest.json",
+            "url": "https://www.googleapis.com/auth/drive.file"
+        }
+    ],
+    "version": "1.7"
+}

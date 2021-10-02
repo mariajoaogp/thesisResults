@@ -1,0 +1,90 @@
+/* note: changing content script CSS requires the extension to be reloaded to take effect */
+/* keep all large size values in px not rem. We don't control the page where iframe is inserted so can't use rem */
+html > body > iframe#dm-iwrapper {
+    position: fixed !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    top: 0 !important;
+    display: block !important;
+    height: 100% !important;
+    opacity: 1 !important;
+    z-index: 99999999999999;
+    border: solid 1px #666;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 20px 12px;
+    transition: width 0.2s ease-in-out;
+    min-width: inherit;
+}
+
+.dm-iwrapper-siz-m {
+    width: 482px !important;
+}
+
+.dm-iwrapper-siz-l {
+    width: 802px !important;
+}
+
+.dm-iwrapper-siz-s {
+    width: 50px !important;
+}
+
+.dm-iwrapper-right {
+    right: 0 !important;
+    left: auto !important;
+}
+
+.dm-iwrapper-left {
+    left: 0 !important;
+    right: auto !important;
+}
+
+/* keep this on the top */
+.dm-fmouse-high {
+    background-color: #ffe8d3 !important;
+    box-shadow: 0 0 1px 3px #ffe8d3 !important;
+    cursor: crosshair !important;
+    z-index: 999999;
+}
+
+/* these needs to come after dm-fmouse-high */
+
+.dm-fnext {
+    border: dashed 4px #ff5fa2 !important;
+    z-index: 999997;
+}
+
+.dm-next {
+    border: dashed 4px #ff2982 !important;
+    z-index: 999997;
+}
+
+.dm-fadv {
+    outline: dashed 4px #34e802 !important;
+    z-index: 999996;
+}
+
+.dm-frow1 {
+    outline: dashed 4px #ff0000 !important;
+    z-index: 999996;
+}
+
+.dm-frow2 {
+    outline: dashed 4px #ed0000 !important;
+    z-index: 999996;
+}
+
+.dm-row {
+    border: dashed 4px #bd0000 !important;
+    z-index: 999998;
+}
+
+.dm-fcol {
+    outline: dashed 4px #7f7ffc !important;
+    z-index: 999996;
+}
+
+.dm-col {
+    border: dashed 4px #6565fe !important;
+    z-index: 999995;
+}
+
+/*   Element Highlight  */

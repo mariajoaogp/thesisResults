@@ -1,0 +1,274 @@
+{
+    "EXTAF0": {
+        "file_name": "h1-popover.js",
+        "file_size": "3 KB",
+        "id": "EXTAF0",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/h1-popover.js.src",
+        "relative_path": "h1-popover.js",
+        "retirejs_result": []
+    },
+    "EXTAF1": {
+        "file_name": "h1-main.js",
+        "file_size": "364 KB",
+        "id": "EXTAF1",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/h1-main.js.src",
+        "relative_path": "h1-main.js",
+        "retirejs_result": []
+    },
+    "EXTAF10": {
+        "file_name": "meta.js",
+        "file_size": "0 KB",
+        "id": "EXTAF10",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/meta.js.src",
+        "relative_path": "paypal/meta.js",
+        "retirejs_result": []
+    },
+    "EXTAF11": {
+        "file_name": "button-no-credit.js",
+        "file_size": "2 KB",
+        "id": "EXTAF11",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/button-no-credit.js.src",
+        "relative_path": "paypal/button-no-credit.js",
+        "retirejs_result": []
+    },
+    "EXTAF12": {
+        "file_name": "button.js",
+        "file_size": "2 KB",
+        "id": "EXTAF12",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/button.js.src",
+        "relative_path": "paypal/button.js",
+        "retirejs_result": []
+    },
+    "EXTAF13": {
+        "file_name": "checkoutObservation.js",
+        "file_size": "90 KB",
+        "id": "EXTAF13",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/checkoutObservation.js.src",
+        "relative_path": "pageScripts/checkoutObservation.js",
+        "retirejs_result": []
+    },
+    "EXTAF14": {
+        "file_name": "requestProxies.js",
+        "file_size": "1 KB",
+        "id": "EXTAF14",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/requestProxies.js.src",
+        "relative_path": "proxies/requestProxies.js",
+        "retirejs_result": []
+    },
+    "EXTAF15": {
+        "file_name": "verified_contents.json",
+        "file_size": "29 KB",
+        "id": "EXTAF15",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/verified_contents.json.src",
+        "relative_path": "_metadata/verified_contents.json"
+    },
+    "EXTAF16": {
+        "file_name": "popover.html",
+        "file_size": "0 KB",
+        "id": "EXTAF16",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/popover.html.src",
+        "relative_path": "popover/popover.html"
+    },
+    "EXTAF17": {
+        "file_name": "context.js",
+        "file_size": "20 KB",
+        "id": "EXTAF17",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/context.js.src",
+        "relative_path": "checkoutPaypal/paypal/context.js",
+        "retirejs_result": []
+    },
+    "EXTAF18": {
+        "file_name": "relay.js",
+        "file_size": "40 KB",
+        "id": "EXTAF18",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/relay.js.src",
+        "relative_path": "checkoutPaypal/paypal/relay.js",
+        "retirejs_result": []
+    },
+    "EXTAF19": {
+        "file_name": "context.js",
+        "file_size": "21 KB",
+        "id": "EXTAF19",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/context.js.src",
+        "relative_path": "checkoutPaypal/honey/context.js",
+        "retirejs_result": []
+    },
+    "EXTAF2": {
+        "file_name": "h1-vendors-main-popover.js",
+        "file_size": "4426 KB",
+        "id": "EXTAF2",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/h1-vendors-main-popover.js.src",
+        "relative_path": "h1-vendors-main-popover.js",
+        "retirejs_result": [
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "3.5.1"
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "3.5.1"
+            }
+        ]
+    },
+    "EXTAF20": {
+        "file_name": "relay.js",
+        "file_size": "42 KB",
+        "id": "EXTAF20",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/relay.js.src",
+        "relative_path": "checkoutPaypal/honey/relay.js",
+        "retirejs_result": []
+    },
+    "EXTAF21": {
+        "file_name": "messages.json",
+        "file_size": "150 KB",
+        "id": "EXTAF21",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/messages.json.src",
+        "relative_path": "_locales/nl/messages.json"
+    },
+    "EXTAF22": {
+        "file_name": "messages.json",
+        "file_size": "147 KB",
+        "id": "EXTAF22",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/messages.json.src",
+        "relative_path": "_locales/es/messages.json"
+    },
+    "EXTAF23": {
+        "file_name": "messages.json",
+        "file_size": "148 KB",
+        "id": "EXTAF23",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/messages.json.src",
+        "relative_path": "_locales/en/messages.json"
+    },
+    "EXTAF24": {
+        "file_name": "messages.json",
+        "file_size": "2 KB",
+        "id": "EXTAF24",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/messages.json.src",
+        "relative_path": "_locales/en_GB/messages.json"
+    },
+    "EXTAF25": {
+        "file_name": "messages.json",
+        "file_size": "3 KB",
+        "id": "EXTAF25",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/messages.json.src",
+        "relative_path": "_locales/en_US/messages.json"
+    },
+    "EXTAF26": {
+        "file_name": "messages.json",
+        "file_size": "153 KB",
+        "id": "EXTAF26",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/messages.json.src",
+        "relative_path": "_locales/fr/messages.json"
+    },
+    "EXTAF27": {
+        "file_name": "messages.json",
+        "file_size": "152 KB",
+        "id": "EXTAF27",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/messages.json.src",
+        "relative_path": "_locales/pt_BR/messages.json"
+    },
+    "EXTAF28": {
+        "file_name": "messages.json",
+        "file_size": "147 KB",
+        "id": "EXTAF28",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/messages.json.src",
+        "relative_path": "_locales/de/messages.json"
+    },
+    "EXTAF29": {
+        "file_name": "messages.json",
+        "file_size": "152 KB",
+        "id": "EXTAF29",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/messages.json.src",
+        "relative_path": "_locales/it/messages.json"
+    },
+    "EXTAF3": {
+        "file_name": "h1-searchEngine.js",
+        "file_size": "969 KB",
+        "id": "EXTAF3",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/h1-searchEngine.js.src",
+        "relative_path": "h1-searchEngine.js",
+        "retirejs_result": [
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "3.5.1"
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "3.5.1"
+            }
+        ]
+    },
+    "EXTAF4": {
+        "file_name": "h1-honeyscience-main-popover.js",
+        "file_size": "705 KB",
+        "id": "EXTAF4",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/h1-honeyscience-main-popover.js.src",
+        "relative_path": "h1-honeyscience-main-popover.js",
+        "retirejs_result": []
+    },
+    "EXTAF5": {
+        "file_name": "h1-check.js",
+        "file_size": "2 KB",
+        "id": "EXTAF5",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/h1-check.js.src",
+        "relative_path": "h1-check.js",
+        "retirejs_result": []
+    },
+    "EXTAF6": {
+        "file_name": "manifest.json",
+        "file_size": "1 KB",
+        "id": "EXTAF6",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/manifest.json.src",
+        "relative_path": "manifest.json"
+    },
+    "EXTAF7": {
+        "file_name": "h0.js",
+        "file_size": "2360 KB",
+        "id": "EXTAF7",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/h0.js.src",
+        "relative_path": "h0.js",
+        "retirejs_result": [
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "3.5.1"
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "3.5.1"
+            }
+        ]
+    },
+    "EXTAF8": {
+        "file_name": "h2.js",
+        "file_size": "261 KB",
+        "id": "EXTAF8",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/h2.js.src",
+        "relative_path": "h2.js",
+        "retirejs_result": []
+    },
+    "EXTAF9": {
+        "file_name": "h1-vimFrame.js",
+        "file_size": "1290 KB",
+        "id": "EXTAF9",
+        "location": "/home/maria/ExtAnalysis/reports/EXA2021275182523/h1-vimFrame.js.src",
+        "relative_path": "h1-vimFrame.js",
+        "retirejs_result": [
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "3.5.1"
+            },
+            {
+                "component": "jquery",
+                "detection": "filecontent",
+                "version": "3.5.1"
+            }
+        ]
+    }
+}
