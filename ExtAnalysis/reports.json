@@ -104,6 +104,34 @@
             "report_directory": "<reports_path>/EXA2021256102836",
             "time": "2021-09-13 10:28:44",
             "version": "4.0.13.19"
+        },
+        {
+            "id": "EXA2021270111613",
+            "name": "Scraper",
+            "report_directory": "<reports_path>/EXA2021270111613",
+            "time": "2021-09-27 11:16:13",
+            "version": "1.7"
+        },
+        {
+            "id": "EXA2021270111008",
+            "name": "Data Scraper - Easy Web Scraping",
+            "report_directory": "<reports_path>/EXA2021270111008",
+            "time": "2021-09-27 11:10:24",
+            "version": "5.3.34"
+        },
+        {
+            "id": "EXA2021273160059",
+            "name": "Web Scraper - GetData.IO",
+            "report_directory": "<reports_path>/EXA2021273160059",
+            "time": "2021-09-30 16:01:00",
+            "version": "5.0.28"
+        },
+        {
+            "id": "EXA2021275182523",
+            "name": "Honey",
+            "report_directory": "<reports_path>/EXA2021275182523",
+            "time": "2021-10-02 18:25:34",
+            "version": "13.11.0"
         }
     ]
 }
