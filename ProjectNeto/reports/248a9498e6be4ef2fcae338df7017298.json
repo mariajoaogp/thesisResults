@@ -1,0 +1,3749 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-10-02 18:35:00.980683 UTC",
+  "_filename": "agbkcicjfeocekbpjacamnfeglbgmlda.crx",
+  "_files": {
+    "dump.rdb": {
+      "md5": "bf2874d70661adfe7347f7c36306c000",
+      "sha1": "7368a23421e37c2ce43ce1d6f4ab4e3e257579ae",
+      "sha256": "7368a23421e37c2ce43ce1d6f4ab4e3e257579ae"
+    },
+    "README.md": {
+      "md5": "46373ed0ca55e0fbf7ed9b8e9b4c21b3",
+      "sha1": "d9cd46313427e9473281f55f967a3af67c7dc4d2",
+      "sha256": "d9cd46313427e9473281f55f967a3af67c7dc4d2"
+    },
+    "package.json": {
+      "md5": "3d3ad7cb7c104e5831251097d7d921e2",
+      "sha1": "c82e317e1fed2cadf3187e1ba6cd350530e43d5d",
+      "sha256": "c82e317e1fed2cadf3187e1ba6cd350530e43d5d"
+    },
+    "manifest.json": {
+      "md5": "ff0d40748fffa8e5fe692a8ca364242b",
+      "sha1": "a2a3464297f7c2099630ef2edcd6bd01522f82a1",
+      "sha256": "a2a3464297f7c2099630ef2edcd6bd01522f82a1"
+    },
+    "spec_p/runner.html": {
+      "md5": "d08ee0b666360d264286d9c49ec19d52",
+      "sha1": "404309364ea20435a6b61eaa902572dca5fb6c80",
+      "sha256": "404309364ea20435a6b61eaa902572dca5fb6c80"
+    },
+    "css/bootstrap.min.css": {
+      "md5": "902c2c43852ad1a7e7c3da64bd32a3fb",
+      "sha1": "8b8d7ea9641db2ef4f7949812a7c3fcc11d29946",
+      "sha256": "8b8d7ea9641db2ef4f7949812a7c3fcc11d29946"
+    },
+    "css/content.css": {
+      "md5": "56fcd928c6cfd67c0d03fb252f5a15d8",
+      "sha1": "026ab59294d39bd59e51e7cf186e4e901881749c",
+      "sha256": "026ab59294d39bd59e51e7cf186e4e901881749c"
+    },
+    "css/hopscotch-0.2.6.min.css": {
+      "md5": "ade033bde5e636164304b3284a0495b8",
+      "sha1": "62522a3be49524c54c355dd1932ec54636803457",
+      "sha256": "62522a3be49524c54c355dd1932ec54636803457"
+    },
+    "css/popup.css": {
+      "md5": "8ba6819c3b772a30652df51af79f2915",
+      "sha1": "a6d82347c02f26850b6738de89650ff423f356e7",
+      "sha256": "a6d82347c02f26850b6738de89650ff423f356e7"
+    },
+    "images/krake_icon_disabled_128.png": {
+      "md5": "c1458b026f0c74d3ef44ca88860daad2",
+      "sha1": "2873f14f7fd32612452472081de975731220282a",
+      "sha256": "2873f14f7fd32612452472081de975731220282a"
+    },
+    "images/krake_icon_disabled_24_new.png": {
+      "md5": "6e4f1dee325802ca3d741d4331b07bb3",
+      "sha1": "386efa8265469d42c8badce5a92a06fd09b06102",
+      "sha256": "386efa8265469d42c8badce5a92a06fd09b06102"
+    },
+    "images/empty-state-first.svg": {
+      "md5": "70966d0f4950891b4467740b58f0b46f",
+      "sha1": "41bd703f83261c63ac41d347fb99598d07932c4b",
+      "sha256": "41bd703f83261c63ac41d347fb99598d07932c4b"
+    },
+    "images/empty-state.svg": {
+      "md5": "88349d3ac1f0b0f86d9b224c2969ec08",
+      "sha1": "a04f79defa2cc475656a9ef530fcd35af6b42619",
+      "sha256": "a04f79defa2cc475656a9ef530fcd35af6b42619"
+    },
+    "images/krake_icon_disabled_48.png": {
+      "md5": "4ec36f39ae8fd953655b560fc746e669",
+      "sha1": "0233529e8ee9b402303256a79316e4aafe6275e4",
+      "sha256": "0233529e8ee9b402303256a79316e4aafe6275e4"
+    },
+    "images/pagination-active.svg": {
+      "md5": "e697ca8859e95c98ee8e6b8263a71fd5",
+      "sha1": "b89967d79d8683e4f041f40fed6047493f179cf1",
+      "sha256": "b89967d79d8683e4f041f40fed6047493f179cf1"
+    },
+    "images/chevron-up-active.svg": {
+      "md5": "14d8e8496238623a8c4c8c15ee5a6bb3",
+      "sha1": "b066b2434cd83381852b591e62388e320a11cbf0",
+      "sha256": "b066b2434cd83381852b591e62388e320a11cbf0"
+    },
+    "images/krake_icon_32_new.png": {
+      "md5": "2425e26ec4511281e132317d4bf3d9e5",
+      "sha1": "c227ef03c952c8ebbab5c1199f4acb9ce1ca4637",
+      "sha256": "c227ef03c952c8ebbab5c1199f4acb9ce1ca4637"
+    },
+    "images/recommendations-state.svg": {
+      "md5": "20e2050c8b379ba1734682d43c4f063c",
+      "sha1": "a1932919c3985c66191e30e9bf56fbd231a80c97",
+      "sha256": "a1932919c3985c66191e30e9bf56fbd231a80c97"
+    },
+    "images/krake_icon_32.png": {
+      "md5": "c49adceea6df7b21b7a7de9929593a5e",
+      "sha1": "0d9d5d2cd84a7998de35240dfcacd8756c598b96",
+      "sha256": "0d9d5d2cd84a7998de35240dfcacd8756c598b96"
+    },
+    "images/chevron-down.svg": {
+      "md5": "3009600a2fb53ce3c1b2d42aae6b007a",
+      "sha1": "b79b9e94b6e9f0bb35a49dc255ef4aaa1757b81d",
+      "sha256": "b79b9e94b6e9f0bb35a49dc255ef4aaa1757b81d"
+    },
+    "images/sprite-green.png": {
+      "md5": "728de10c4bd2cb074bffdc8529cbbffc",
+      "sha1": "29a08b37860df6c7df0d9a6fbbc915a9314f5a20",
+      "sha256": "29a08b37860df6c7df0d9a6fbbc915a9314f5a20"
+    },
+    "images/krake_icon_128.png": {
+      "md5": "e1f629d7e7f260da5253f1d72b2b23d8",
+      "sha1": "ae37e7ac8ea5ab396739fda88695bc5932becd90",
+      "sha256": "ae37e7ac8ea5ab396739fda88695bc5932becd90"
+    },
+    "images/notification-close-icon.svg": {
+      "md5": "f94062de691aa22b84a0bdba58817953",
+      "sha1": "fc93bf248132f0eff2dc93ce306e35a0df5605f7",
+      "sha256": "fc93bf248132f0eff2dc93ce306e35a0df5605f7"
+    },
+    "images/krake_icon_48_new.png": {
+      "md5": "363abb030282760676eefcec6b5cc81f",
+      "sha1": "f94e5ebf5359823ccd7e9c5f1fe90f1cbf533f06",
+      "sha256": "f94e5ebf5359823ccd7e9c5f1fe90f1cbf533f06"
+    },
+    "images/active-state.svg": {
+      "md5": "2ec593f621ea7ea61d87b249653ccfc4",
+      "sha1": "887031849377b88e0e99698b80d4250901c6a167",
+      "sha256": "887031849377b88e0e99698b80d4250901c6a167"
+    },
+    "images/loading-icon.gif": {
+      "md5": "9637fd95f96f4fcff9a12a0fc42bf365",
+      "sha1": "70e8c710895252d82d29ed1a82890beb193672cd",
+      "sha256": "70e8c710895252d82d29ed1a82890beb193672cd"
+    },
+    "images/chevron-up.svg": {
+      "md5": "91721138bbc82d3edbce6c937fa8f12b",
+      "sha1": "a2b7d5c2b2a5a406a0fa0db97132d85aa06752d7",
+      "sha256": "a2b7d5c2b2a5a406a0fa0db97132d85aa06752d7"
+    },
+    "images/krake_icon_24.png": {
+      "md5": "39bee6b58cfc8dfd31e3641b239185b8",
+      "sha1": "a848c0cbe3f423bf31e5407d2a9150995ae88e26",
+      "sha256": "a848c0cbe3f423bf31e5407d2a9150995ae88e26"
+    },
+    "images/recommendation-active.svg": {
+      "md5": "a1d19f58fbd6ce86bfe1ac66b3de993e",
+      "sha1": "e80c6ee4187127eaed945f23c36fe7a92541def5",
+      "sha256": "e80c6ee4187127eaed945f23c36fe7a92541def5"
+    },
+    "images/krake_icon_disabled_128_new.png": {
+      "md5": "318739f42ff21634d636c830824a8889",
+      "sha1": "dfed42ca604c2145852e42855b51773db612b9c4",
+      "sha256": "dfed42ca604c2145852e42855b51773db612b9c4"
+    },
+    "images/krake_icon_disabled_16.png": {
+      "md5": "a170edd9255b391ba3b4981f25874f7f",
+      "sha1": "18d0ec5488d1ef9d9523b7b7a05375df5c3e7e88",
+      "sha256": "18d0ec5488d1ef9d9523b7b7a05375df5c3e7e88"
+    },
+    "images/sidebar-pagination-icon.png": {
+      "md5": "70237c74923d8c044c82740a7714b72a",
+      "sha1": "c928e0d40131d7298be922ef02eba697b1e76cc0",
+      "sha256": "c928e0d40131d7298be922ef02eba697b1e76cc0"
+    },
+    "images/krake_icon_16_new.png": {
+      "md5": "fa527530d9ad963d12b1aed2fdffa5dc",
+      "sha1": "16ce8a4482f6b2ed63fe1c6b38e65ab5e3f24d5f",
+      "sha256": "16ce8a4482f6b2ed63fe1c6b38e65ab5e3f24d5f"
+    },
+    "images/chevron-down-active.svg": {
+      "md5": "ccfea0abc1e3eab390f7e6f595b4db2d",
+      "sha1": "09e95e5e1950cd95a304811507258fc428b9b7d7",
+      "sha256": "09e95e5e1950cd95a304811507258fc428b9b7d7"
+    },
+    "images/help-circle.png": {
+      "md5": "d35d718d65273624a6a7e6bde08422ff",
+      "sha1": "3e14ebad1235b14f5b572293727e45751ab6aa99",
+      "sha256": "3e14ebad1235b14f5b572293727e45751ab6aa99"
+    },
+    "images/arrow-right-circle.svg": {
+      "md5": "de697d285793dadf68541fdc9560e656",
+      "sha1": "9281790e330ce2cff5877e3fdf646682e34f635b",
+      "sha256": "9281790e330ce2cff5877e3fdf646682e34f635b"
+    },
+    "images/krake_icon_disabled_48_new.png": {
+      "md5": "cc2cdb3b2ed863935d36def6aff1ba35",
+      "sha1": "c6ed7718ec1d0dedb6e5e7080b72fb6305aec875",
+      "sha256": "c6ed7718ec1d0dedb6e5e7080b72fb6305aec875"
+    },
+    "images/menu-close-icon.svg": {
+      "md5": "0e95fc65f3d533e611b93f7425fdbb55",
+      "sha1": "c5b9e31083dd93fcd12109663be14f44d067f48a",
+      "sha256": "c5b9e31083dd93fcd12109663be14f44d067f48a"
+    },
+    "images/recommendation-inactive.svg": {
+      "md5": "9d7ca409ed89a1c7a3727274c82c053d",
+      "sha1": "6630abe7f6daf8bccd6a8d818c6e4b66151207cb",
+      "sha256": "6630abe7f6daf8bccd6a8d818c6e4b66151207cb"
+    },
+    "images/krake_icon_48.png": {
+      "md5": "6c0ee6923e436343bb5febebbe1a0337",
+      "sha1": "8e596eda24be00304ba73ace2a71f0feea292eb3",
+      "sha256": "8e596eda24be00304ba73ace2a71f0feea292eb3"
+    },
+    "images/delete-active.svg": {
+      "md5": "f0b033d7fa74724903a4a2b94a014835",
+      "sha1": "53c1ddfac54a4bae6f36b9ef97e1aebaa83b5276",
+      "sha256": "53c1ddfac54a4bae6f36b9ef97e1aebaa83b5276"
+    },
+    "images/plus-circle-active.svg": {
+      "md5": "e17d75c93047f336ba419da73abc0253",
+      "sha1": "344b9bb36b73294c45b8a8aa20be553637755670",
+      "sha256": "344b9bb36b73294c45b8a8aa20be553637755670"
+    },
+    "images/krake_icon_disabled_24.png": {
+      "md5": "0c0cc995adef5f79eb03548e246fdf4b",
+      "sha1": "c2db957e37ac7c05d5c8f37295bfe827501b4a17",
+      "sha256": "c2db957e37ac7c05d5c8f37295bfe827501b4a17"
+    },
+    "images/krake_icon_disabled_32_new.png": {
+      "md5": "2760c0e65e2c6defc9c6a241b46007a4",
+      "sha1": "82ecbb4fc8c298196a82fd70c9e30074781fc382",
+      "sha256": "82ecbb4fc8c298196a82fd70c9e30074781fc382"
+    },
+    "images/logo-long.svg": {
+      "md5": "3343e0dc6651cc514f57927cccb1a2e0",
+      "sha1": "b4db8337ae2abd13953c45553f2c9a8456230891",
+      "sha256": "b4db8337ae2abd13953c45553f2c9a8456230891"
+    },
+    "images/arrow-right-circle-active.svg": {
+      "md5": "34d9b1eec74e4cb85645cec3da026718",
+      "sha1": "8aa1c6654371296e712e23f4acec4aab87855517",
+      "sha256": "8aa1c6654371296e712e23f4acec4aab87855517"
+    },
+    "images/logo-a.png": {
+      "md5": "07952ff2abc046822c85988f3602ec3c",
+      "sha1": "4142760113b209396f69377713b8ccc06c5b3b24",
+      "sha256": "4142760113b209396f69377713b8ccc06c5b3b24"
+    },
+    "images/krake_icon_disabled_32.png": {
+      "md5": "8ddea95ed5388bc2f027da393fb15812",
+      "sha1": "57d6351bb0946f147bea57e1ea8726c863f577a3",
+      "sha256": "57d6351bb0946f147bea57e1ea8726c863f577a3"
+    },
+    "images/plus-circle.svg": {
+      "md5": "8d4825ee9ae91ddfc0ac6ec6627c773c",
+      "sha1": "fc86058b79c04edecdf6161796eeb0a70e8cad41",
+      "sha256": "fc86058b79c04edecdf6161796eeb0a70e8cad41"
+    },
+    "images/krake_icon_24_new.png": {
+      "md5": "d9a194b989b473f479047cb876968d41",
+      "sha1": "1b4f99df60b97aef69da591e10bed52cd1a578f1",
+      "sha256": "1b4f99df60b97aef69da591e10bed52cd1a578f1"
+    },
+    "images/delete.svg": {
+      "md5": "73c07e21240f24cf98912911dbb8dd46",
+      "sha1": "9c60c15462b64768fea975604e8b48bd06bc5c27",
+      "sha256": "9c60c15462b64768fea975604e8b48bd06bc5c27"
+    },
+    "images/krake_icon_16.png": {
+      "md5": "d88f67588db052c703bd06846abd264f",
+      "sha1": "fe011e9994dd72598574f5dc2eb83feeb2861dcf",
+      "sha256": "fe011e9994dd72598574f5dc2eb83feeb2861dcf"
+    },
+    "images/krake_icon_128_new.png": {
+      "md5": "fe63c5bbb4e8c5b056f666d7bb9ac44f",
+      "sha1": "071fa991404fcdda3c5e35fe17c71da71466d03b",
+      "sha256": "071fa991404fcdda3c5e35fe17c71da71466d03b"
+    },
+    "images/krake_icon_disabled_16_new.png": {
+      "md5": "f7315f8d82ab22f165e5deb5310d293b",
+      "sha1": "a70b25c7c5aefb899b39455bf96a6081d093b7b9",
+      "sha256": "a70b25c7c5aefb899b39455bf96a6081d093b7b9"
+    },
+    "images/help-circle.svg": {
+      "md5": "9c7c73b23fb9e1735627f644b96eadf7",
+      "sha1": "23f49816d05f1a89d5a165b4466629406adcbc5c",
+      "sha256": "23f49816d05f1a89d5a165b4466629406adcbc5c"
+    },
+    "images/recommendations_icon.svg": {
+      "md5": "733d27f412076b69e46f8c3ea6bba0c7",
+      "sha1": "10897c769b4797bbb03bf423d8324439fb060b26",
+      "sha256": "10897c769b4797bbb03bf423d8324439fb060b26"
+    },
+    "images/pagination-inactive.svg": {
+      "md5": "cabfd371658afb2242f753a20210c202",
+      "sha1": "f57e80d88fd474775c688b39c3fc0313c44ceb1b",
+      "sha256": "f57e80d88fd474775c688b39c3fc0313c44ceb1b"
+    },
+    "html/popup.html": {
+      "md5": "63ce44fc747bd83aa70e3456c9555d85",
+      "sha1": "de615a29833f23f0f935fae5543606caff44fa13",
+      "sha256": "de615a29833f23f0f935fae5543606caff44fa13"
+    },
+    "spec_p/jasmine-1.2.0/jasmine.css": {
+      "md5": "2ad278ed4c2290683f5d58f68dda0549",
+      "sha1": "d2552e10e55686cadbcfea41fefae153b10c519d",
+      "sha256": "d2552e10e55686cadbcfea41fefae153b10c519d"
+    },
+    "spec_p/jasmine-1.2.0/MIT.LICENSE": {
+      "md5": "31673f5350ac4f4bd10a9923177c477c",
+      "sha1": "b0e0e45c412eadf47111594236fa225f946b0414",
+      "sha256": "b0e0e45c412eadf47111594236fa225f946b0414"
+    },
+    "spec_p/jasmine-1.2.0/jasmine-async.js": {
+      "md5": "4cc83562029e4cd6e78f9745ca9b844f",
+      "sha1": "7c8adea450b50ed0aadfa7740c58451477b8c154",
+      "sha256": "7c8adea450b50ed0aadfa7740c58451477b8c154"
+    },
+    "spec_p/jasmine-1.2.0/jasmine.js": {
+      "md5": "e6409a9c12ce61466bd918f397d1100a",
+      "sha1": "6028499886e53af94b1994c3fdf8567444263441",
+      "sha256": "6028499886e53af94b1994c3fdf8567444263441"
+    },
+    "spec_p/jasmine-1.2.0/jasmine-html.js": {
+      "md5": "7e5b83c9525665fc56781cf4dff7ee95",
+      "sha1": "da3cb6312cfe3a4b609235c3dd6d314a269353c4",
+      "sha256": "da3cb6312cfe3a4b609235c3dd6d314a269353c4"
+    },
+    "spec_p/helpers/run_jasmine_test.coffee": {
+      "md5": "5a7996e82577c5c5531ce7a1c5bd245c",
+      "sha1": "dbb184afe57cf75ccb1362a20ffb1ecf0be46c3b",
+      "sha256": "dbb184afe57cf75ccb1362a20ffb1ecf0be46c3b"
+    },
+    "spec_p/helpers/browser.js": {
+      "md5": "4073234d2cb9bea6e184a977414b4021",
+      "sha1": "7e1fb8c225f05aa314efc2d4b6fc979cf7405df6",
+      "sha256": "7e1fb8c225f05aa314efc2d4b6fc979cf7405df6"
+    },
+    "spec_p/helpers/console-runner.js": {
+      "md5": "6938facba7bf5e21068d38c8a3783ff3",
+      "sha1": "0a6ded69bcbe335656f94349fc9cd57b4986abfd",
+      "sha256": "0a6ded69bcbe335656f94349fc9cd57b4986abfd"
+    },
+    "js/background/application.js": {
+      "md5": "d02b17a1e5604bd3aeddaa380d513aa8",
+      "sha1": "acf530e2da19c1a8b324789c42a4c47ed6d3b217",
+      "sha256": "acf530e2da19c1a8b324789c42a4c47ed6d3b217"
+    },
+    "js/popup/application.js": {
+      "md5": "372a356309b27d09ebf2e8537227587b",
+      "sha1": "3aaaf4559615dc081b26283f59cf1b0c1dec59ae",
+      "sha256": "3aaaf4559615dc081b26283f59cf1b0c1dec59ae"
+    },
+    "js/config/config.js": {
+      "md5": "133abdbc13e99f2668accc6f9dab0bd7",
+      "sha1": "3fcf1a2fba32b8044b78fef3f53668d0b19d358b",
+      "sha256": "3fcf1a2fba32b8044b78fef3f53668d0b19d358b"
+    },
+    "js/content/application.js": {
+      "md5": "8ad7c7dfecb0b505e36c5a1c33d5c1b6",
+      "sha1": "da92047977b99d281e8e7ef9ff9e970c495addc9",
+      "sha256": "da92047977b99d281e8e7ef9ff9e970c495addc9"
+    },
+    "js/lib/mixpanel.js": {
+      "md5": "746c4da00249ab837bc62ee376f7e93e",
+      "sha1": "86cc291e31cab6c77b2cd4f5967d3584f3e2bdad",
+      "sha256": "86cc291e31cab6c77b2cd4f5967d3584f3e2bdad"
+    },
+    "js/lib/backbone-min.js": {
+      "md5": "a7674dc23529192c244b4945074132bd",
+      "sha1": "4d223a2981680c8e73d28868cb249c7a335a9b92",
+      "sha256": "4d223a2981680c8e73d28868cb249c7a335a9b92"
+    },
+    "js/lib/json_format.js": {
+      "md5": "5c8eb83851242af62bc2684bb078f3d7",
+      "sha1": "6a8705cf02f81abc3cc746a16a27687039bb872e",
+      "sha256": "6a8705cf02f81abc3cc746a16a27687039bb872e"
+    },
+    "js/lib/jquery_ui_1.10.3.js": {
+      "md5": "7daad7b391c2362e63b829d1e325b4c5",
+      "sha1": "22eba6f27ded86fa2f5d3f1a419b0316757cc4c2",
+      "sha256": "22eba6f27ded86fa2f5d3f1a419b0316757cc4c2"
+    },
+    "js/lib/bootstrap.bundle.min.js": {
+      "md5": "cef51762bed1fa5d52021dc5c72bc4f3",
+      "sha1": "c53758816e09680f576324e108eca1d3afd716b7",
+      "sha256": "c53758816e09680f576324e108eca1d3afd716b7"
+    },
+    "js/lib/underscore-min.js": {
+      "md5": "80ea721a81efb400b43d012e3c551435",
+      "sha1": "c0cf0f64560f64fdc4b9dd65d3bd322d40bc5589",
+      "sha256": "c0cf0f64560f64fdc4b9dd65d3bd322d40bc5589"
+    },
+    "js/lib/handlebars.js": {
+      "md5": "1290ed87046077208af19f6bce41a7cb",
+      "sha1": "020df8ae890dd5d59022534a976ed20e05b5cb21",
+      "sha256": "020df8ae890dd5d59022534a976ed20e05b5cb21"
+    },
+    "js/lib/backbone-override.js": {
+      "md5": "d6f91ff7a5aef719f41fbaa1591fe91f",
+      "sha1": "89bdeccb519346a7ad8082444ab2f69551df1a5f",
+      "sha256": "89bdeccb519346a7ad8082444ab2f69551df1a5f"
+    },
+    "js/lib/jquery_1.9.1.min.js": {
+      "md5": "ad67fc6e5a7db4f9707c1d766a44ec94",
+      "sha1": "74216ebedef8e8a486005d97c0e6eab76843e898",
+      "sha256": "74216ebedef8e8a486005d97c0e6eab76843e898"
+    },
+    "js/lib/handlebar-helpers.js": {
+      "md5": "7561645f6916e2fe0b1aba1dd9dcf3b4",
+      "sha1": "45a2eb30e54cdeff75964fb859fbb6d4cc6f2f5d",
+      "sha256": "45a2eb30e54cdeff75964fb859fbb6d4cc6f2f5d"
+    },
+    "js/lib/hopscotch-0.2.6.min.js": {
+      "md5": "36e462e8d4489af0d2e8f50b485782ee",
+      "sha1": "e6decf2b0f1dbceab244b6dba2d34a9a9194e35a",
+      "sha256": "e6decf2b0f1dbceab244b6dba2d34a9a9194e35a"
+    },
+    "js/lib/file_saver.js": {
+      "md5": "ec05ed40c4b024effa8fccacad4eafd2",
+      "sha1": "c676327f4a4ea5fede7dc51a902abc5e1089b7e8",
+      "sha256": "c676327f4a4ea5fede7dc51a902abc5e1089b7e8"
+    },
+    "spec_p/js/content/application.spec.js": {
+      "md5": "6ff9e63baa2473211862ac5c006e3a16",
+      "sha1": "d580e6c622992df8dff9c9a24e5f4f1ceb52b2f2",
+      "sha256": "d580e6c622992df8dff9c9a24e5f4f1ceb52b2f2"
+    },
+    "spec_j/js/background/application.spec.coffee": {
+      "md5": "e94325b6344d22e71ee380cdfb8eaf69",
+      "sha1": "f377581fc0f4094034f1ceca84b08c5f5d4a2a73",
+      "sha256": "f377581fc0f4094034f1ceca84b08c5f5d4a2a73"
+    },
+    "spec_j/js/fixtures/env_stubs.coffee": {
+      "md5": "49b80da93be8e246433157c305413971",
+      "sha1": "90fe3a784d9f2f2c5ad13d0448135eae4b423617",
+      "sha256": "90fe3a784d9f2f2c5ad13d0448135eae4b423617"
+    },
+    "css/font-awesome-4.2.0/css/font-awesome.css": {
+      "md5": "814ef8dd9f895313ea4e8a1ead2f11e8",
+      "sha1": "569596369a88beea6944e4a03cdf344999aea3b5",
+      "sha256": "569596369a88beea6944e4a03cdf344999aea3b5"
+    },
+    "css/font-awesome-4.2.0/css/font-awesome.min.css": {
+      "md5": "b1bbc44b6b6da1cce0e11c4636b77197",
+      "sha1": "d48c449ea0d626ca6fac647f08d94a90a08397c3",
+      "sha256": "d48c449ea0d626ca6fac647f08d94a90a08397c3"
+    },
+    "css/font-awesome-4.2.0/fonts/fontawesome-webfont.svg": {
+      "md5": "e4e29e98f7c2119de733b54eef07d3b1",
+      "sha1": "5afa44399ab459fcb34a1c5fd897f26b85c13c7f",
+      "sha256": "5afa44399ab459fcb34a1c5fd897f26b85c13c7f"
+    },
+    "css/font-awesome-4.2.0/fonts/FontAwesome.otf": {
+      "md5": "e187d36944970611b5dbc6eedcdbf5c4",
+      "sha1": "2ccf05ae5e060237d59083c3a841d1f75c380913",
+      "sha256": "2ccf05ae5e060237d59083c3a841d1f75c380913"
+    },
+    "css/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf": {
+      "md5": "1293d70e15142802e235257c0bb88069",
+      "sha1": "b8a379c2e540096e9e07a3daece3fe503bf25798",
+      "sha256": "b8a379c2e540096e9e07a3daece3fe503bf25798"
+    },
+    "css/font-awesome-4.2.0/fonts/fontawesome-webfont.woff": {
+      "md5": "188fbe8c428f97d18b7aa03f18e2f1c2",
+      "sha1": "cff006bd902d040d8eee09c38de68457b7e50418",
+      "sha256": "cff006bd902d040d8eee09c38de68457b7e50418"
+    },
+    "css/font-awesome-4.2.0/fonts/fontawesome-webfont.eot": {
+      "md5": "9120a9eeeefa776c89439f434209df33",
+      "sha1": "74136b635a8f822a5ded7e1fc9fc6b23b87a9429",
+      "sha256": "74136b635a8f822a5ded7e1fc9fc6b23b87a9429"
+    },
+    "js/background/models/kpagination.js": {
+      "md5": "10aa20ec559fe3bcac5f90cf95c17325",
+      "sha1": "296d9b37529be21de0c9f899d1b1539d5471d41e",
+      "sha256": "296d9b37529be21de0c9f899d1b1539d5471d41e"
+    },
+    "js/background/models/khistory.js": {
+      "md5": "3b5ab17c5c13179ee09204e10a18af16",
+      "sha1": "f7f8bf4963fb6969bb052583a11cd8e5fc505d4f",
+      "sha256": "f7f8bf4963fb6969bb052583a11cd8e5fc505d4f"
+    },
+    "js/background/models/krecommended_column.js": {
+      "md5": "1366d0a55f5b146a4b864b0d03e2ca0b",
+      "sha1": "d16aa52a62024fd6d08d2a4424e7d67e7a8a4244",
+      "sha256": "d16aa52a62024fd6d08d2a4424e7d67e7a8a4244"
+    },
+    "js/background/models/krecommended_column_selected.js": {
+      "md5": "676109f2b6fa294d52faa77b80ea358b",
+      "sha1": "f98e2e8252a5cc05c0e869472d13da7ca611642c",
+      "sha256": "f98e2e8252a5cc05c0e869472d13da7ca611642c"
+    },
+    "js/background/models/kcolumn.js": {
+      "md5": "006c8bfef844c7945515c8a20ec3c602",
+      "sha1": "d1063e1bf514ea3bd45705ebc7bed6f992db9896",
+      "sha256": "d1063e1bf514ea3bd45705ebc7bed6f992db9896"
+    },
+    "js/background/models/kcookie.js": {
+      "md5": "fb7ff8b7a6846d5d5ec88f9c1987e88e",
+      "sha1": "7d89826a6ca3a35c74c140cdedc224030a9021e6",
+      "sha256": "7d89826a6ca3a35c74c140cdedc224030a9021e6"
+    },
+    "js/background/models/kpage.js": {
+      "md5": "0bb06db2c5dbcd949dbc8ff58df671d4",
+      "sha1": "d754efa0169f097a6cd10a6055fb6e6b9528f0d7",
+      "sha256": "d754efa0169f097a6cd10a6055fb6e6b9528f0d7"
+    },
+    "js/background/models/ktab.js": {
+      "md5": "10666203e3d651211d671b14aa53657a",
+      "sha1": "2db6a5d4b6b5db8709494246b21e3540ab4a58b7",
+      "sha256": "2db6a5d4b6b5db8709494246b21e3540ab4a58b7"
+    },
+    "js/background/browsers/chrome.js": {
+      "md5": "66af97b70fef2239cd4e704a4d69fd4d",
+      "sha1": "7e5c52a127ae04406183fc8d5bae9b4a0764894e",
+      "sha256": "7e5c52a127ae04406183fc8d5bae9b4a0764894e"
+    },
+    "js/background/controllers/mix_panel_controller.js": {
+      "md5": "9fafecc08ea34d50a50a3d730b7c0308",
+      "sha1": "5d82b14955b6feda83e5f8dd4ea47641a4b8d888",
+      "sha256": "5d82b14955b6feda83e5f8dd4ea47641a4b8d888"
+    },
+    "js/background/controllers/krecommended_columns_controller.js": {
+      "md5": "398a341abf0ea154aa0526c6237c22e4",
+      "sha1": "6f30ee6d9c1c1564c21bf1f9fc15403c00d668d7",
+      "sha256": "6f30ee6d9c1c1564c21bf1f9fc15403c00d668d7"
+    },
+    "js/background/controllers/tutorial_controller.js": {
+      "md5": "dc957a0ec364a3b582a4adf265073e56",
+      "sha1": "47672729445bf3d7e6fb24be7a38ea0247615fed",
+      "sha256": "47672729445bf3d7e6fb24be7a38ea0247615fed"
+    },
+    "js/background/controllers/kpagination_controller.js": {
+      "md5": "e8f660c4901c00f5ca40344d3ad9bb00",
+      "sha1": "e01e7329b110594dea709406e6de68aa7497adaf",
+      "sha256": "e01e7329b110594dea709406e6de68aa7497adaf"
+    },
+    "js/background/controllers/kcolumns_controller.js": {
+      "md5": "0f8708acf4870d4f754c6d62992a40a5",
+      "sha1": "65345f2733fde98ff31e2addeac40f27b1fe0f8f",
+      "sha256": "65345f2733fde98ff31e2addeac40f27b1fe0f8f"
+    },
+    "js/background/controllers/kpage_controller.js": {
+      "md5": "50c8e58927b8ae7a46e01ddf64dd0c66",
+      "sha1": "de0876ebf5377a6f765e0768b848630b796133b7",
+      "sha256": "de0876ebf5377a6f765e0768b848630b796133b7"
+    },
+    "js/background/controllers/crawler_controller.js": {
+      "md5": "1b48a8d52800afacb190daf94251a409",
+      "sha1": "050c3b30e8c2ded57c5a0781114935fd67abe9c0",
+      "sha256": "050c3b30e8c2ded57c5a0781114935fd67abe9c0"
+    },
+    "js/background/controllers/ktab_controller.js": {
+      "md5": "94db9283853c4ab4c3e2d3479a92e708",
+      "sha1": "6f4c0e3c334b444ec7d3ce2b1de0ca1ea570aa99",
+      "sha256": "6f4c0e3c334b444ec7d3ce2b1de0ca1ea570aa99"
+    },
+    "js/background/views/browser_icon_view.js": {
+      "md5": "bde6ecaca65748d40b46af20d1d70e36",
+      "sha1": "14f0e3ce17043b1c32007340f9fb0cb8a6107af0",
+      "sha256": "14f0e3ce17043b1c32007340f9fb0cb8a6107af0"
+    },
+    "js/popup/models/page.js": {
+      "md5": "7c2ade162c60d4c4d2e6f69c6f1cd0d1",
+      "sha1": "788c6e5662f446637d9a0af3de0eadc230deb3c6",
+      "sha256": "788c6e5662f446637d9a0af3de0eadc230deb3c6"
+    },
+    "js/popup/models/tab.js": {
+      "md5": "eb14a85f4377471143fd63190eb53228",
+      "sha1": "85691c23ee8e10f1e53ecab062e40c113f41e7f7",
+      "sha256": "85691c23ee8e10f1e53ecab062e40c113f41e7f7"
+    },
+    "js/popup/models/crawler.js": {
+      "md5": "ef443999804202bcda6e61f63a7d2a5c",
+      "sha1": "f3e90f4a6243878264824834d83f388aa699a960",
+      "sha256": "f3e90f4a6243878264824834d83f388aa699a960"
+    },
+    "js/popup/browsers/chrome.js": {
+      "md5": "abf34738c9865c12f73357e0b235883b",
+      "sha1": "535996d1d5b819eeb77a5c144dfce3aa3ab59834",
+      "sha256": "535996d1d5b819eeb77a5c144dfce3aa3ab59834"
+    },
+    "js/popup/lib/backbone-override.js": {
+      "md5": "3fc84430b82ab1226c07b71d9a057a48",
+      "sha1": "9909f83eecce3da9bf1e0fc44bb92b838006b98c",
+      "sha256": "9909f83eecce3da9bf1e0fc44bb92b838006b98c"
+    },
+    "js/popup/views/popup_view.js": {
+      "md5": "a509a9b08e5eff38c62c46f1ba9a92fd",
+      "sha1": "752ce0b93b21545a462a1f75957271e8ae93eb1a",
+      "sha256": "752ce0b93b21545a462a1f75957271e8ae93eb1a"
+    },
+    "js/content/models/recommended_column.js": {
+      "md5": "b0f5f17f7d8238960dfaf18961e6afd7",
+      "sha1": "a5b85cc6a86e82ed4c51c661dcf7d20503b6e046",
+      "sha256": "a5b85cc6a86e82ed4c51c661dcf7d20503b6e046"
+    },
+    "js/content/models/page.js": {
+      "md5": "3230e02200b44fbfcd64a037528e4b9b",
+      "sha1": "65358cb5ab1da03fa78a5c859626a1d83eb77dcc",
+      "sha256": "65358cb5ab1da03fa78a5c859626a1d83eb77dcc"
+    },
+    "js/content/models/tutorial.js": {
+      "md5": "5c4a9667ef1872ed46466a0678d38a92",
+      "sha1": "a7358ffb5a6e10415be1e39e6ad74e2ef602296a",
+      "sha256": "a7358ffb5a6e10415be1e39e6ad74e2ef602296a"
+    },
+    "js/content/models/tab.js": {
+      "md5": "ced027f9c4d40ed9ccc2cb3fe5c405ba",
+      "sha1": "cd0bfa41ede5c20babe18df3327be58d7bc73a49",
+      "sha256": "cd0bfa41ede5c20babe18df3327be58d7bc73a49"
+    },
+    "js/content/models/pagination.js": {
+      "md5": "3a0ad0b6ded52167ea2a32588d5f953e",
+      "sha1": "f540eea9925dee9cbc83edbd51aefbb22b38b51b",
+      "sha256": "f540eea9925dee9cbc83edbd51aefbb22b38b51b"
+    },
+    "js/content/models/crawler.js": {
+      "md5": "b0631ff6d1c96542a7b225d15a407076",
+      "sha1": "9295500e8cd4bf83a6d91b617c7ffcb5a185f578",
+      "sha256": "9295500e8cd4bf83a6d91b617c7ffcb5a185f578"
+    },
+    "js/content/models/column.js": {
+      "md5": "49bc5c21df8d5a6a70abe4495f29e868",
+      "sha1": "581993ddd7ac1f5644d60789ab7b299819bbd4d7",
+      "sha256": "581993ddd7ac1f5644d60789ab7b299819bbd4d7"
+    },
+    "js/content/browsers/chrome.js": {
+      "md5": "69caf11abf6ef4a324486f3d1b23ff4d",
+      "sha1": "01356759ce76afe627cb58ea49750504313a88c3",
+      "sha256": "01356759ce76afe627cb58ea49750504313a88c3"
+    },
+    "js/content/lib/backbone-override.js": {
+      "md5": "15130ead7dea9924ad7c18a43f79620c",
+      "sha1": "21c2964eeecf380ac2ccc98db8528286c895fa57",
+      "sha256": "21c2964eeecf380ac2ccc98db8528286c895fa57"
+    },
+    "js/content/templates/recommended_panel_column.hbs": {
+      "md5": "07426161e55feca53a109d1d086d3517",
+      "sha1": "b90f32527e59fd6aa9e8296565794614906bbe68",
+      "sha256": "b90f32527e59fd6aa9e8296565794614906bbe68"
+    },
+    "js/content/templates/notification_save_panel.hbs": {
+      "md5": "cc66b6d682073f9f2ac3b0d7778ff3b2",
+      "sha1": "b80ab6f38c6be9ebe5880c9731b451ba66d4bef1",
+      "sha256": "b80ab6f38c6be9ebe5880c9731b451ba66d4bef1"
+    },
+    "js/content/templates/sidebar.hbs": {
+      "md5": "73856fcad6db01b4e1e1f93a883710ca",
+      "sha1": "855afe19a04bdf872e439fe5c9517e3c4a5fcd86",
+      "sha256": "855afe19a04bdf872e439fe5c9517e3c4a5fcd86"
+    },
+    "js/content/templates/notification_panel.hbs": {
+      "md5": "1336e87fd75a6c1488761833af9f0b13",
+      "sha1": "851cf5df96b75c6a1fd8203ed679623872433c70",
+      "sha256": "851cf5df96b75c6a1fd8203ed679623872433c70"
+    },
+    "js/content/templates/recommended_dom.hbs": {
+      "md5": "3de90f5bb909132e0c527f9947606a47",
+      "sha1": "82efefc1cdda1b8683ffb047070af661ef770999",
+      "sha256": "82efefc1cdda1b8683ffb047070af661ef770999"
+    },
+    "js/content/templates/column.hbs": {
+      "md5": "53a0b068dcde6ace204cd0b257153a99",
+      "sha1": "99aa31190bd60f1ada5a6ac17d3ad85243c47853",
+      "sha256": "99aa31190bd60f1ada5a6ac17d3ad85243c47853"
+    },
+    "js/content/templates/selected_dom.hbs": {
+      "md5": "22a7c7f0662bfb161b6ef11b9e8340bc",
+      "sha1": "28ec5f0965aa78b5d0cff5367cd36639bf3f34eb",
+      "sha256": "28ec5f0965aa78b5d0cff5367cd36639bf3f34eb"
+    },
+    "js/content/templates/community_icon.hbs": {
+      "md5": "4bbe46a4877ff043fdb062b676a26e6d",
+      "sha1": "d527c3df0582ec89dabc7b30c9c99cc60f45920d",
+      "sha256": "d527c3df0582ec89dabc7b30c9c99cc60f45920d"
+    },
+    "js/content/templates/listing_panel_column.hbs": {
+      "md5": "2ede444172b2472f497190c0e91e72ce",
+      "sha1": "7dcf4f9129db587691e34743061ad267fcb84418",
+      "sha256": "7dcf4f9129db587691e34743061ad267fcb84418"
+    },
+    "js/content/templates/introduction_modal.hbs": {
+      "md5": "b7866f30a43154e8719d1bde4401f58e",
+      "sha1": "ec312d66050139156f452ebec1ce7812462e1532",
+      "sha256": "ec312d66050139156f452ebec1ce7812462e1532"
+    },
+    "js/content/templates/listing_panel_recommended_column.hbs": {
+      "md5": "d88122f9df27f64bbfb9feb35b82ce3a",
+      "sha1": "5afaa51690cdc417df24f1ca2273f10f61d3f1a0",
+      "sha256": "5afaa51690cdc417df24f1ca2273f10f61d3f1a0"
+    },
+    "js/content/views/recommended_dom_view.js": {
+      "md5": "85190b3a40d3fcf117b8922f6a3d2c40",
+      "sha1": "e7acf15e390b9e637814ac0224e2286cdfdfa5f6",
+      "sha256": "e7acf15e390b9e637814ac0224e2286cdfdfa5f6"
+    },
+    "js/content/views/recommended_column_view.js": {
+      "md5": "7272cd2b683fac0d6dadae5c90d1ad02",
+      "sha1": "b90b2c19756a75cd337f2cb80049848bef1ad10b",
+      "sha256": "b90b2c19756a75cd337f2cb80049848bef1ad10b"
+    },
+    "js/content/views/selected_dom_view.js": {
+      "md5": "d84d35259ab1c4cef80f275330d6bff5",
+      "sha1": "f37e449489e0bb9a0c5464fb02322e627f31acf3",
+      "sha256": "f37e449489e0bb9a0c5464fb02322e627f31acf3"
+    },
+    "js/content/views/listing_detector.js": {
+      "md5": "9b9e79ce19c20a6d9a0c3235d7796346",
+      "sha1": "8c9ad860eca66e17c66b548d18bec8e851deb89d",
+      "sha256": "8c9ad860eca66e17c66b548d18bec8e851deb89d"
+    },
+    "js/content/views/recommendation_detector.js": {
+      "md5": "4072a7b11379d2ec371b5a5854585862",
+      "sha1": "05981318b3c27b485220f3d11ba1f8f1156f9b8d",
+      "sha256": "05981318b3c27b485220f3d11ba1f8f1156f9b8d"
+    },
+    "js/content/views/dom_array_generator.js": {
+      "md5": "f4ccba9a7bfd182c14e12fbb5b03948d",
+      "sha1": "3f623df18f92101850f37aed12d224569c81dfbf",
+      "sha256": "3f623df18f92101850f37aed12d224569c81dfbf"
+    },
+    "js/content/views/listing_panel_recommended_column_view.js": {
+      "md5": "430bae7d5463cda602fe54c6b54e27d1",
+      "sha1": "1d6345c057156923e2e8c5c5ad20d2295f0f5c47",
+      "sha256": "1d6345c057156923e2e8c5c5ad20d2295f0f5c47"
+    },
+    "js/content/views/sidebar_view.js": {
+      "md5": "01bca7140001b51a209af05e999009eb",
+      "sha1": "18c7bb021bff281ffc8595bc08d27b2b78123952",
+      "sha256": "18c7bb021bff281ffc8595bc08d27b2b78123952"
+    },
+    "js/content/views/listing_panel_column_view.js": {
+      "md5": "22011be4ec709d5ddfc4c177238848ce",
+      "sha1": "143a325d9c62160a76e91a29f4c75cd72c6d22e2",
+      "sha256": "143a325d9c62160a76e91a29f4c75cd72c6d22e2"
+    },
+    "js/content/views/recommended_panel_column_view.js": {
+      "md5": "12767d3412963463515c20614067c142",
+      "sha1": "e867671c2db87d78418d2e70f4a2f735d9a70ec0",
+      "sha256": "e867671c2db87d78418d2e70f4a2f735d9a70ec0"
+    },
+    "js/content/views/crawler_view.js": {
+      "md5": "0d4ea70e567c0c823fc27826c88f7b70",
+      "sha1": "e27f1fa35939f342395b0b9d3b2af4432e80abd9",
+      "sha256": "e27f1fa35939f342395b0b9d3b2af4432e80abd9"
+    },
+    "js/content/views/tab_view.js": {
+      "md5": "3688e155a3bde34223d83a3ea14d60c9",
+      "sha1": "be8dad160874e7c625f4b1ba8bd67cb028a98e79",
+      "sha256": "be8dad160874e7c625f4b1ba8bd67cb028a98e79"
+    },
+    "js/content/views/pagination_view.js": {
+      "md5": "bb7594e0345d7d202bd6158f7df8fc06",
+      "sha1": "d479a21ebda07c9e37d062240a24a575c0d3af20",
+      "sha256": "d479a21ebda07c9e37d062240a24a575c0d3af20"
+    },
+    "js/content/views/tutorial_view.js": {
+      "md5": "2de074608f64decdac1e8f860fcfcf34",
+      "sha1": "7b31b612309acc9b8af757eec6b4a1becdae2195",
+      "sha256": "7b31b612309acc9b8af757eec6b4a1becdae2195"
+    },
+    "js/content/views/column_view.js": {
+      "md5": "45841b76f4425661b9a9692234d0dfc6",
+      "sha1": "2759182487f0415ca30d025e8c280a54b78d43e3",
+      "sha256": "2759182487f0415ca30d025e8c280a54b78d43e3"
+    },
+    "spec_p/js/content/views/tab_view.spec.js": {
+      "md5": "a3430d071cb642fd68113c81b20ecdb6",
+      "sha1": "a8ce7a4138a964ebe097349446a8068b099ba7f7",
+      "sha256": "a8ce7a4138a964ebe097349446a8068b099ba7f7"
+    },
+    "spec_p/js/content/views/column_view.spec.js": {
+      "md5": "b953c58b141e40da38be652c2d8d341c",
+      "sha1": "d3fc7c8375f45ace8150420e3fe5d847d18c8278",
+      "sha256": "d3fc7c8375f45ace8150420e3fe5d847d18c8278"
+    },
+    "spec_p/js/content/views/selected_dom_view.spec.js": {
+      "md5": "0c806a5d2f11209d4ce087e5d2576ca3",
+      "sha1": "4662819290cb5fd9a8174a9bf7a35a29e3d72aa8",
+      "sha256": "4662819290cb5fd9a8174a9bf7a35a29e3d72aa8"
+    },
+    "spec_p/js/content/views/sidebar_view.spec.js": {
+      "md5": "30c0ccc1322b141795ab63a887f86e8f",
+      "sha1": "1531c380caa2d1e8ea9f2001884a3510a3ae888e",
+      "sha256": "1531c380caa2d1e8ea9f2001884a3510a3ae888e"
+    },
+    "spec_j/js/background/models/krecommended_column.spec.coffee": {
+      "md5": "62548fb3c6112bb27a95c5f4c87f57e9",
+      "sha1": "66a7904a57089d8a284b7cd3d9f452843c56ab0b",
+      "sha256": "66a7904a57089d8a284b7cd3d9f452843c56ab0b"
+    },
+    "spec_j/js/background/models/kpagination.spec.coffee": {
+      "md5": "3fb481838e0d925fe66966359e2cedcc",
+      "sha1": "7108f57b93ce4d044fcac72f471ec2caffe1e39e",
+      "sha256": "7108f57b93ce4d044fcac72f471ec2caffe1e39e"
+    },
+    "spec_j/js/background/models/ktab.spec.coffee": {
+      "md5": "64b9065abc121e820085f924edf15eb2",
+      "sha1": "a1b89c9020083e1c11f6f5b9a410122ebb23ef57",
+      "sha256": "a1b89c9020083e1c11f6f5b9a410122ebb23ef57"
+    },
+    "spec_j/js/background/models/kcolumn.spec.coffee": {
+      "md5": "4b42fde9da2d824436342368421a1917",
+      "sha1": "3b89efc44edd03afe9c8a9efbfb8888235074931",
+      "sha256": "3b89efc44edd03afe9c8a9efbfb8888235074931"
+    },
+    "spec_j/js/background/models/khistory.spec.coffee": {
+      "md5": "ef9ea859498737f57621296a7b6d1352",
+      "sha1": "6bb312193734a6685338e840aa133a011759bfae",
+      "sha256": "6bb312193734a6685338e840aa133a011759bfae"
+    },
+    "spec_j/js/background/models/krecommended_column_selected.spec.coffee": {
+      "md5": "5893e8e12c6607cd5837ab68acaae94d",
+      "sha1": "7b85ba9f0984f6166218cd0c7ce487a0fb0def3b",
+      "sha256": "7b85ba9f0984f6166218cd0c7ce487a0fb0def3b"
+    },
+    "spec_j/js/background/models/kpage.spec.coffee": {
+      "md5": "648142a3db5166e77ea453f7136598bc",
+      "sha1": "4db50f947b77cc7baeb6b5e5e1ee2a37dcfc1a43",
+      "sha256": "4db50f947b77cc7baeb6b5e5e1ee2a37dcfc1a43"
+    },
+    "spec_j/js/background/controllers/mix_panel_controller.spec.coffee": {
+      "md5": "a83a2441608bbad3955c022bfae77b2c",
+      "sha1": "9640eefd8ccf8f173753e3fc8997283bde13ff38",
+      "sha256": "9640eefd8ccf8f173753e3fc8997283bde13ff38"
+    },
+    "spec_j/js/background/controllers/krecommended_columns_controller.spec.coffee": {
+      "md5": "758c666d5d22c32bf517f0a3f4e7a4ba",
+      "sha1": "26771b477c94a68f459dd8ae7279dfb3806a71ce",
+      "sha256": "26771b477c94a68f459dd8ae7279dfb3806a71ce"
+    },
+    "spec_j/js/fixtures/env_stubs/localstorage.coffee": {
+      "md5": "445b68568a103cb0be1d7b3465d99262",
+      "sha1": "d0cca91021f6a3df3df5e23aeb5fc6acf1231347",
+      "sha256": "d0cca91021f6a3df3df5e23aeb5fc6acf1231347"
+    },
+    "spec_j/js/fixtures/env_stubs/xml_http_request.coffee": {
+      "md5": "70b50223a35075b82f8ff5a811356cf2",
+      "sha1": "f517de6e5eddeb2a14687218f7456ac441bc98fc",
+      "sha256": "f517de6e5eddeb2a14687218f7456ac441bc98fc"
+    },
+    "spec_j/js/fixtures/env_stubs/mixpanel.coffee": {
+      "md5": "0e5d5a88e9f223de0de30782a97bb7b8",
+      "sha1": "47fecc800888f3771d6ea4edbd8949c928f0c0ea",
+      "sha256": "47fecc800888f3771d6ea4edbd8949c928f0c0ea"
+    },
+    "spec_j/js/fixtures/env_stubs/chrome.coffee": {
+      "md5": "807386fd362fb4a6ba1850ef48852095",
+      "sha1": "3becdf986d26f4ed31fee643ad896497f5c4ce89",
+      "sha256": "3becdf986d26f4ed31fee643ad896497f5c4ce89"
+    },
+    "spec_j/js/fixtures/env_stubs/jquery_mock.coffee": {
+      "md5": "8c94c06ffde71fc1ed702d638229ab34",
+      "sha1": "9da6e6c579a98292eb6c5fa1f26fc7e514450a9c",
+      "sha256": "9da6e6c579a98292eb6c5fa1f26fc7e514450a9c"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "e7b7309e4835092162285c288c8890fc",
+      "sha1": "24824434454a664e5877e6eec091af68b5025956",
+      "sha256": "24824434454a664e5877e6eec091af68b5025956"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "content_scripts": [
+      {
+        "matches": [
+          "http://*/*",
+          "https://*/*"
+        ],
+        "css": [
+          "css/content.css",
+          "css/font-awesome-4.2.0/css/font-awesome.css",
+          "css/hopscotch-0.2.6.min.css"
+        ],
+        "js": [
+          "js/lib/file_saver.js",
+          "js/content/browsers/chrome.js",
+          "js/config/config.js",
+          "js/lib/jquery_1.9.1.min.js",
+          "js/lib/jquery_ui_1.10.3.js",
+          "js/lib/handlebars.js",
+          "js/lib/handlebar-helpers.js",
+          "js/lib/underscore-min.js",
+          "js/lib/backbone-min.js",
+          "js/lib/bootstrap.bundle.min.js",
+          "js/content/lib/backbone-override.js",
+          "js/content/models/crawler.js",
+          "js/content/models/tutorial.js",
+          "js/content/models/tab.js",
+          "js/content/models/page.js",
+          "js/content/models/pagination.js",
+          "js/content/models/column.js",
+          "js/content/models/recommended_column.js",
+          "js/content/views/crawler_view.js",
+          "js/content/views/dom_array_generator.js",
+          "js/content/views/listing_detector.js",
+          "js/content/views/recommendation_detector.js",
+          "js/content/views/selected_dom_view.js",
+          "js/content/views/column_view.js",
+          "js/content/views/listing_panel_column_view.js",
+          "js/content/views/listing_panel_recommended_column_view.js",
+          "js/content/views/recommended_column_view.js",
+          "js/content/views/recommended_panel_column_view.js",
+          "js/content/views/pagination_view.js",
+          "js/content/views/sidebar_view.js",
+          "js/content/views/tab_view.js",
+          "js/lib/hopscotch-0.2.6.min.js",
+          "js/content/views/tutorial_view.js",
+          "js/content/application.js"
+        ],
+        "run_at": "document_end"
+      }
+    ],
+    "background": {
+      "scripts": [
+        "js/lib/jquery_1.9.1.min.js",
+        "js/background/browsers/chrome.js",
+        "js/config/config.js",
+        "js/lib/mixpanel.js",
+        "js/lib/json_format.js",
+        "js/background/models/kcookie.js",
+        "js/background/models/kcolumn.js",
+        "js/background/models/kpagination.js",
+        "js/background/models/kpage.js",
+        "js/background/models/ktab.js",
+        "js/background/models/krecommended_column.js",
+        "js/background/models/krecommended_column_selected.js",
+        "js/background/views/browser_icon_view.js",
+        "js/background/controllers/crawler_controller.js",
+        "js/background/controllers/tutorial_controller.js",
+        "js/background/controllers/mix_panel_controller.js",
+        "js/background/controllers/kcolumns_controller.js",
+        "js/background/controllers/kpagination_controller.js",
+        "js/background/controllers/kpage_controller.js",
+        "js/background/controllers/ktab_controller.js",
+        "js/background/controllers/krecommended_columns_controller.js",
+        "js/background/application.js"
+      ]
+    },
+    "browser_action": {
+      "default_icon": "images/krake_icon_disabled_24_new.png",
+      "default_title": "Get Data"
+    },
+    "web_accessible_resources": [
+      "js/content/templates/sidebar.hbs",
+      "js/content/templates/column.hbs",
+      "js/content/templates/community_icon.hbs",
+      "js/content/templates/listing_panel_column.hbs",
+      "js/content/templates/listing_panel_recommended_column.hbs",
+      "js/content/templates/recommended_panel_column.hbs",
+      "js/content/templates/introduction_modal.hbs",
+      "js/content/templates/notification_panel.hbs",
+      "js/content/templates/notification_save_panel.hbs",
+      "images/logo-long.svg",
+      "images/logo-a.png",
+      "images/active-state.svg",
+      "images/recommendations-state.svg",
+      "images/empty-state.svg",
+      "images/loading-icon.gif",
+      "images/empty-state-first.svg",
+      "images/help-circle.svg",
+      "images/arrow-right-circle.svg",
+      "images/arrow-right-circle-active.svg",
+      "images/menu-close-icon.svg",
+      "images/sidebar-add-icon.png",
+      "images/sidebar-pagination-icon.png",
+      "images/sprite-green.png",
+      "images/recommendations_icon.svg",
+      "images/chevron-down.svg",
+      "images/chevron-down-active.svg",
+      "images/chevron-up.svg",
+      "images/chevron-up-active.svg",
+      "images/delete.svg",
+      "images/delete-active.svg",
+      "images/plus-circle.svg",
+      "images/plus-circle-active.svg",
+      "images/notification-close-icon.svg",
+      "images/pagination-active.svg",
+      "images/pagination-inactive.svg",
+      "images/recommendation-active.svg",
+      "images/recommendation-inactive.svg",
+      "html/panel.html",
+      "css/font-awesome-4.2.0/fonts/fontawesome-webfont.eot",
+      "css/font-awesome-4.2.0/fonts/fontawesome-webfont.svg",
+      "css/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf",
+      "css/font-awesome-4.2.0/fonts/fontawesome-webfont.woff",
+      "css/font-awesome-4.2.0/fonts/FontAwesome.otf"
+    ],
+    "icons": {
+      "128": "images/krake_icon_128_new.png",
+      "16": "images/krake_icon_16_new.png",
+      "24": "images/krake_icon_24_new.png",
+      "32": "images/krake_icon_32_new.png",
+      "48": "images/krake_icon_48_new.png"
+    },
+    "manifest_version": 2,
+    "name": "Web Scraper - GetData.IO",
+    "short_name": "GetData.IO",
+    "description": "Turn any webpage into an API in 3 clicks",
+    "permissions": [
+      "http://*/*",
+      "https://*/*",
+      "cookies",
+      "webRequest"
+    ],
+    "content_security_policy": "script-src 'self' https://cdn.mxpnl.com; object-src 'self'",
+    "version": "5.0.28"
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "248a9498e6be4ef2fcae338df7017298",
+    "sha1": "b56c9e59ec7a5dcb7d083e7ba0c1fe91aad341b9",
+    "sha256": "b56c9e59ec7a5dcb7d083e7ba0c1fe91aad341b9"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "Jasmine Test",
+        "path": "spec_p/runner.html"
+      },
+      {
+        "value": "Start: Handlebar fixtures",
+        "path": "spec_p/runner.html"
+      },
+      {
+        "value": "End: Handlebar fixtures",
+        "path": "spec_p/runner.html"
+      },
+      {
+        "value": "dependent libraries",
+        "path": "spec_p/runner.html"
+      },
+      {
+        "value": "Application Files",
+        "path": "spec_p/runner.html"
+      },
+      {
+        "value": "Spec Files",
+        "path": "spec_p/runner.html"
+      },
+      {
+        "value": "!\n * Bootstrap v2.3.2\n *\n * Copyright 2012 Twitter, Inc\n * Licensed under the Apache License v2.0\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Designed and built with all the love in the world @twitter by @mdo and @fat.\n",
+        "path": "css/bootstrap.min.css"
+      },
+      {
+        "value": "border: 0.5px solid rgba(22, 22, 22, 0.6);",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* Top bar *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05);",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* Community recipes *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* Footer columns counter sections *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "identical to box height",
+        "path": "css/content.css"
+      },
+      {
+        "value": "box-shadow: 1px 0px 0px rgba(255, 255, 255, 0.1);",
+        "path": "css/content.css"
+      },
+      {
+        "value": "box-shadow: 1px 0px 0px rgba(255, 255, 255, 0.1), 0px -1px 0px #FFFFFF;",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* Layouts in various modes *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "** Loading mode **",
+        "path": "css/content.css"
+      },
+      {
+        "value": "** Empty mode **",
+        "path": "css/content.css"
+      },
+      {
+        "value": "** Active mode **",
+        "path": "css/content.css"
+      },
+      {
+        "value": "** Listing mode **",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* Recommendations mode *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* Columns recommendation section *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "identical to box height",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Primary White",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Secondary Grey",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Customize the label (the container)",
+        "path": "css/content.css"
+      },
+      {
+        "value": "color: #FFFFFF;",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Create a custom checkbox",
+        "path": "css/content.css"
+      },
+      {
+        "value": "On mouse-over, add a grey background color",
+        "path": "css/content.css"
+      },
+      {
+        "value": "When the checkbox is checked",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Create the checkmark/indicator (hidden when not checked)",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Show the checkmark when checked",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Style the checkmark/indicator",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* Listing section *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "border-bottom: 1px solid rgba(255, 255, 255, 0.1);",
+        "path": "css/content.css"
+      },
+      {
+        "value": "identical to box height",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Secondary Grey",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Primary White",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* Loading panel section *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "identical to box height",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* Empty panel section *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "identical to box height",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* Detailed panel section *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "or 19px",
+        "path": "css/content.css"
+      },
+      {
+        "value": "display: flex;",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Primary White",
+        "path": "css/content.css"
+      },
+      {
+        "value": "margin-bottom: 2px;",
+        "path": "css/content.css"
+      },
+      {
+        "value": "border-color: rgb(166, 166,166);",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Secondary Grey",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Secondary Grey",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Secondary Grey",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* Main Footer section *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "background: red;",
+        "path": "css/content.css"
+      },
+      {
+        "value": "*** Notification styling ***",
+        "path": "css/content.css"
+      },
+      {
+        "value": "*** Top tab section ***",
+        "path": "css/content.css"
+      },
+      {
+        "value": "identical to box height",
+        "path": "css/content.css"
+      },
+      {
+        "value": "identical to box height",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Primary Red",
+        "path": "css/content.css"
+      },
+      {
+        "value": "** Pagination section **",
+        "path": "css/content.css"
+      },
+      {
+        "value": "DISABLED UNTIL LOGIC IS IMPLEMENTED IN EXTENSION",
+        "path": "css/content.css"
+      },
+      {
+        "value": "display: none !important;",
+        "path": "css/content.css"
+      },
+      {
+        "value": "* In page styling for selected items *",
+        "path": "css/content.css"
+      },
+      {
+        "value": "Begin Inspectlet Embed Code",
+        "path": "html/popup.html"
+      },
+      {
+        "value": "End Inspectlet Embed Code",
+        "path": "html/popup.html"
+      },
+      {
+        "value": ".resultMessage {",
+        "path": "spec_p/jasmine-1.2.0/jasmine.css"
+      },
+      {
+        "value": "white-space: pre;",
+        "path": "spec_p/jasmine-1.2.0/jasmine.css"
+      },
+      {
+        "value": "}",
+        "path": "spec_p/jasmine-1.2.0/jasmine.css"
+      },
+      {
+        "value": "*\n * Top level namespace for Jasmine, a lightweight JavaScript BDD/spec/testing framework.\n *\n * @namespace\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @private\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Use <code>jasmine.undefined</code> instead of <code>undefined</code>, since <code>undefined</code> is just\n * a plain old variable and may be redefined by somebody else.\n *\n * @private\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Show diagnostic messages in the console if set to true\n *\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Default interval in milliseconds for event loop yields (e.g. to allow network activity or to refresh the screen with the HTML-based runner). Small values here may result in slow test running. Zero means no updates until all tests have completed.\n *\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Default timeout interval in milliseconds for waitsFor() blocks.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Getter for the Jasmine environment. Ensures one gets created\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @ignore\n * @private\n * @param value\n * @returns {Boolean}\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @ignore\n * @private\n * @param value\n * @returns {Boolean}\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @ignore\n * @private\n * @param value\n * @returns {Boolean}\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @ignore\n * @private\n * @param {String} typeName\n * @param value\n * @returns {Boolean}\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Pretty printer for expecations.  Takes any object and turns it into a human-readable string.\n *\n * @param value {Object} an object to be outputted\n * @returns {String}\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Returns true if the object is a DOM Node.\n *\n * @param {Object} obj object to check\n * @returns {Boolean}\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n   * The name of the spy, if provided.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n   *  Is this Object a spy?\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n   * The actual function this spy stubs.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Determines whether an object is a spy.\n *\n * @param {jasmine.Spy|Object} putativeSpy\n * @returns {Boolean}\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Creates a more complicated spy: an Object that has every property a function that is a spy.  Used for stubbing something\n * large in one call.\n *\n * @param {String} baseName name of spy class\n * @param {Array} methodNames array of names of methods to make spies\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Creates a <em>disabled</em> Jasmine spec.\n *\n * A convenience method that allows existing specs to be disabled temporarily during development.\n *\n * @param {String} desc description of this specification\n * @param {Function} func defines the preconditions and expectations of the spec\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Starts a chain for a Jasmine expectation.\n *\n * It is passed an Object that is the actual value and should chain to one of the many\n * jasmine.Matchers functions.\n *\n * @param {Object} actual Actual value to test against and expected value\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Defines part of a jasmine spec.  Used in cominbination with waits or waitsFor in asynchrnous specs.\n *\n * @param {Function} func Function that defines part of a jasmine spec.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Waits a fixed time period before moving to the next block.\n *\n * @deprecated Use waitsFor() instead\n * @param {Number} timeout milliseconds to wait\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Waits for the latchFunction to return true before proceeding to the next block.\n *\n * @param {Function} latchFunction\n * @param {String} optional_timeoutMessage\n * @param {Number} optional_timeout\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * A function that is called before each spec in a suite.\n *\n * Used for spec setup, including validating assumptions.\n *\n * @param {Function} beforeEachFunction\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * A function that is called after each spec in a suite.\n *\n * Used for restoring any state that is hijacked during spec execution.\n *\n * @param {Function} afterEachFunction\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Defines a suite of specifications.\n *\n * Stores the description and all defined specs in the Jasmine environment as one suite of specs. Variables declared\n * are accessible by calls to beforeEach, it, and afterEach. Describe blocks can be nested, allowing for specialization\n * of setup in some tests.\n *\n * @example\n * // TODO: a simple suite\n *\n * // TODO: a simple suite with a nested describe block\n *\n * @param {String} description A string, usually the class under test.\n * @param {Function} specDefinitions function that defines several specs.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Disables a suite of specifications.  Used to disable some suites in a file, or files, temporarily during development.\n *\n * @param {String} description A string, usually the class under test.\n * @param {Function} specDefinitions function that defines several specs.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @namespace\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n   * @private\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Environment for Jasmine\n *\n * @constructor\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @returns an object containing jasmine version build info, if set.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @returns string containing jasmine version build info, if set.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @returns a sequential integer starting at 0\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @returns a sequential integer starting at 0\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Register a reporter to receive status updates from Jasmine.\n * @param {jasmine.Reporter} reporter An object which will receive status updates.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "* No-op base class for Jasmine reporters.\n *\n * @constructor\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Blocks are functions with executable code that make up a spec.\n *\n * @constructor\n * @param {jasmine.Env} env\n * @param {Function} func\n * @param {jasmine.Spec} spec\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "* JavaScript API reporter.\n *\n * @constructor\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @constructor\n * @param {jasmine.Env} env\n * @param actual\n * @param {jasmine.Spec} spec\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * toBe: compares the actual to the expected using ===\n * @param expected\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * toNotBe: compares the actual to the expected using !==\n * @param expected\n * @deprecated as of 1.0. Use not.toBe() instead.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * toEqual: compares the actual to the expected using common sense equality. Handles Objects, Arrays, etc.\n *\n * @param expected\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * toNotEqual: compares the actual to the expected using the ! of jasmine.Matchers.toEqual\n * @param expected\n * @deprecated as of 1.0. Use not.toEqual() instead.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that compares the actual to the expected using a regular expression.  Constructs a RegExp, so takes\n * a pattern or a String.\n *\n * @param expected\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that compares the actual to the expected using the boolean inverse of jasmine.Matchers.toMatch\n * @param expected\n * @deprecated as of 1.0. Use not.toMatch() instead.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that compares the actual to jasmine.undefined.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that compares the actual to jasmine.undefined.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that compares the actual to null.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that boolean not-nots the actual.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that boolean nots the actual.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that checks to see if the actual, a Jasmine spy, was called.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "* @deprecated Use expect(xxx).toHaveBeenCalled() instead",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that checks to see if the actual, a Jasmine spy, was not called.\n *\n * @deprecated Use expect(xxx).not.toHaveBeenCalled() instead\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that checks to see if the actual, a Jasmine spy, was called with a set of parameters.\n *\n * @example\n *\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "* @deprecated Use expect(xxx).toHaveBeenCalledWith() instead",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "* @deprecated Use expect(xxx).not.toHaveBeenCalledWith() instead",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that checks that the expected item is an element in the actual Array.\n *\n * @param {Object} expected\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that checks that the expected item is NOT an element in the actual Array.\n *\n * @param {Object} expected\n * @deprecated as of 1.0. Use not.toContain() instead.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that checks that the expected item is equal to the actual item\n * up to a given level of decimal precision (default 2).\n *\n * @param {Number} expected\n * @param {Number} precision\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Matcher that checks that the expected exception was thrown by the actual.\n *\n * @param {String} expected\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @namespace\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @constructor\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Holds results for a set of Jasmine spec. Allows for the results array to hold another jasmine.NestedResults\n *\n * @constructor\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n   * The total count of results\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n   * Number of passed results\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n   * Number of failed results\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n   * Was this suite/spec skipped?\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n   * @ignore\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Roll up the result counts.\n *\n * @param result\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Adds a log message.\n * @param values Array of message parts which will be concatenated later.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Getter for the results: message & results.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Adds a result, tracking counts (total, passed, & failed)\n * @param {jasmine.ExpectationResult|jasmine.NestedResults} result\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @returns {Boolean} True if <b>everything</b> below passed\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Base class for pretty printing for expectation results.\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Formats a value in a nice, human-readable string.\n *\n * @param value\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Runner\n *\n * @constructor\n * @param {jasmine.Env} env\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Internal representation of a Jasmine specification, or test.\n *\n * @constructor\n * @param {jasmine.Env} env\n * @param {jasmine.Suite} suite\n * @param {String} description\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * @param {jasmine.ExpectationResult} result\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Waits a fixed time period before moving to the next block.\n *\n * @deprecated Use waitsFor() instead\n * @param {Number} timeout milliseconds to wait\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Waits for the latchFunction to return true before proceeding to the next block.\n *\n * @param {Function} latchFunction\n * @param {String} optional_timeoutMessage\n * @param {Number} optional_timeout\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "*\n * Internal representation of a Jasmine suite.\n *\n * @constructor\n * @param {jasmine.Env} env\n * @param {String} description\n * @param {Function} specDefinitions\n * @param {jasmine.Suite} parentSuite\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine.js"
+      },
+      {
+        "value": "@deprecated Use jasmine.HtmlReporter instead\n",
+        "path": "spec_p/jasmine-1.2.0/jasmine-html.js"
+      },
+      {
+        "value": "*\n  Chrome environment specific functions and event attachments\n*",
+        "path": "spec_p/helpers/browser.js"
+      },
+      {
+        "value": "*\n Jasmine Reporter that outputs test results to the browser console. \n Useful for running in a headless environment such as PhantomJs, ZombieJs etc.\n\n Usage:\n // From your html file that loads jasmine:  \n jasmine.getEnv().addReporter(new jasmine.ConsoleReporter());\n jasmine.getEnv().execute();\n",
+        "path": "spec_p/helpers/console-runner.js"
+      },
+      {
+        "value": "Print something that signals that testing is over so that headless browsers\n       like PhantomJs know when to terminate.",
+        "path": "spec_p/helpers/console-runner.js"
+      },
+      {
+        "value": "* Node environmental dependencies *",
+        "path": "js/background/application.js"
+      },
+      {
+        "value": "* Called when the icon on the top right hand corner of the browser is clicked *",
+        "path": "js/background/application.js"
+      },
+      {
+        "value": "* Called when user clicks to activate another window in the browser *",
+        "path": "js/background/application.js"
+      },
+      {
+        "value": "* Called when user refreshes a window in the browser *",
+        "path": "js/background/application.js"
+      },
+      {
+        "value": "* Export for node testing *",
+        "path": "js/background/application.js"
+      },
+      {
+        "value": "* Determines which mode this extension is ran in *",
+        "path": "js/config/config.js"
+      },
+      {
+        "value": "* Export for node testing *",
+        "path": "js/config/config.js"
+      },
+      {
+        "value": "* Holds all compiled handlebar templates *",
+        "path": "js/content/application.js"
+      },
+      {
+        "value": "* \n  List of all the templates to be compiled and loaded.\n  Actual templates can be found in the following location\n    /js/content/templates/*.*\n*",
+        "path": "js/content/application.js"
+      },
+      {
+        "value": "* \n  Executes to load all environmental variables\n*",
+        "path": "js/content/application.js"
+      },
+      {
+        "value": "*\n  Checks if should render sub display of chrome browser extension\n*",
+        "path": "js/content/application.js"
+      },
+      {
+        "value": "*\n  Injects the krake definition into the Krake editor\n*",
+        "path": "js/content/application.js"
+      },
+      {
+        "value": "*\n  Handles all message events from background.js\n*",
+        "path": "js/content/application.js"
+      },
+      {
+        "value": "*\n  Makes possible the display and hiding of the sidebar\n*",
+        "path": "js/content/application.js"
+      },
+      {
+        "value": "*\n  Makes possible the display and hiding of the sidebar\n*",
+        "path": "js/content/application.js"
+      },
+      {
+        "value": "* \n  Activates the Application within this Window\n*",
+        "path": "js/content/application.js"
+      },
+      {
+        "value": "* \n  Deactivates the Application within this Window\n*",
+        "path": "js/content/application.js"
+      },
+      {
+        "value": "*\n  Loads and compiles all handlebar .hbs files to Application.templates for easy use in Application\n*",
+        "path": "js/content/application.js"
+      },
+      {
+        "value": "! jQuery UI - v1.10.3 - 2013-05-03\n* http://jqueryui.com\n* Includes: jquery.ui.core.js, jquery.ui.widget.js, jquery.ui.mouse.js, jquery.ui.draggable.js, jquery.ui.droppable.js, jquery.ui.resizable.js, jquery.ui.selectable.js, jquery.ui.sortable.js, jquery.ui.effect.js, jquery.ui.accordion.js, jquery.ui.autocomplete.js, jquery.ui.button.js, jquery.ui.datepicker.js, jquery.ui.dialog.js, jquery.ui.effect-blind.js, jquery.ui.effect-bounce.js, jquery.ui.effect-clip.js, jquery.ui.effect-drop.js, jquery.ui.effect-explode.js, jquery.ui.effect-fade.js, jquery.ui.effect-fold.js, jquery.ui.effect-highlight.js, jquery.ui.effect-pulsate.js, jquery.ui.effect-scale.js, jquery.ui.effect-shake.js, jquery.ui.effect-slide.js, jquery.ui.effect-transfer.js, jquery.ui.menu.js, jquery.ui.position.js, jquery.ui.progressbar.js, jquery.ui.slider.js, jquery.ui.spinner.js, jquery.ui.tabs.js, jquery.ui.tooltip.js\n* Copyright 2013 jQuery Foundation and other contributors; Licensed MIT",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "options, element",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "event",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "event",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "event",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "event",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "event",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "\n\t\t * - Position constraining -\n\t\t * Constrain the position to a mix of grid, containment.\n\t\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "\n\tThis manager tracks offsets of draggables and droppables\n",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "TODO - jump height",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "\n * Resizable Extensions\n",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "TODO - jump height",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "jshint loopfunc: true",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Be careful with the following core functions",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "\n\t\t * - Position constraining -\n\t\t * Constrain the position to a mix of grid, containment.\n\t\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "!\n * jQuery Color Animations v2.1.2\n * https://github.com/jquery/jquery-color\n *\n * Copyright 2013 jQuery Foundation and other contributors\n * Released under the MIT license.\n * http://jquery.org/license\n *\n * Date: Wed Jan 16 08:47:09 2013 -0600\n",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "****************************************************************************",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "***************************** CLASS ANIMATIONS *****************************",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "****************************************************************************",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "****************************************************************************",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "********************************** EFFECTS *********************************",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "****************************************************************************",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "effect, options, speed, callback",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "****************************************************************************",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "********************************** EASING **********************************",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "****************************************************************************",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "jshint maxcomplexity:15",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "jshint maxcomplexity:15",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Date picker manager.\n   Use the singleton instance of this class, $.datepicker, to interact with the date picker.\n   Settings for (groups of) date pickers are maintained in an instance object,\n   allowing multiple different settings on the same page.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Class name added to elements to indicate already configured with a date picker.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Override the default settings for all instances of the date picker.\n\t * @param  settings  object - the new settings to use as defaults (anonymous object)\n\t * @return the manager object\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Attach the date picker to a jQuery selection.\n\t * @param  target\telement - the target input field or division or span\n\t * @param  settings  object - the new settings to use for this date picker instance (anonymous)\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Create a new instance object.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Attach the date picker to an input field.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Make attachments based on settings.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Apply the maximum length for the date format.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Attach an inline date picker to a div.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Detach a datepicker from its control.\n\t * @param  target\telement - the target input field or division or span\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Enable the date picker to a jQuery selection.\n\t * @param  target\telement - the target input field or division or span\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Disable the date picker to a jQuery selection.\n\t * @param  target\telement - the target input field or division or span\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Is the first field in a jQuery collection disabled as a datepicker?\n\t * @param  target\telement - the target input field or division or span\n\t * @return boolean - true if disabled, false if enabled\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Retrieve the instance data for the target control.\n\t * @param  target  element - the target input field or division or span\n\t * @return  object - the associated instance data\n\t * @throws  error if a jQuery problem getting data\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Redraw the date picker attached to an input field or division.\n\t * @param  target  element - the target input field or division or span\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Set the dates for a jQuery selection.\n\t * @param  target element - the target input field or division or span\n\t * @param  date\tDate - the new date\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Get the date(s) for the first entry in a jQuery selection.\n\t * @param  target element - the target input field or division or span\n\t * @param  noDefault boolean - true if no default date is to be used\n\t * @return Date - the current date\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Handle keystrokes.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Filter entered characters - based on date format.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Synchronise manual entry and field/alternate field.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Pop-up the date picker for a given input field.\n\t * If false returned from beforeShow event handler do not show.\n\t * @param  input  element - the input field attached to the date picker or\n\t *\t\t\t\t\tevent - if triggered by focus\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Generate the date picker content.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Check positioning to remain on screen.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Hide the date picker from view.\n\t * @param  input  element - the input field attached to the date picker\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Tidy up after a dialog display.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Close date picker if clicked elsewhere.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Adjust one of the date sub-fields.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Action for current link.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Action for selecting a new month/year.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Action for selecting a day.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Erase the input field and hide the date picker.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Update the input field with the selected date.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Update any alternate field to synchronise with the main field.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Set as beforeShowDay function to prevent selection of weekends.\n\t * @param  date  Date - the date to customise\n\t * @return [boolean, string] - is this date selectable?, what is its CSS class?\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Set as calculateWeek to determine the week of the year based on the ISO 8601 definition.\n\t * @param  date  Date - the date to get the week for\n\t * @return  number - the number of the week within the year that contains this date\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Parse a string value into a date object.\n\t * See formatDate below for the possible formats.\n\t *\n\t * @param  format string - the expected format of the date\n\t * @param  value string - the date in the above format\n\t * @param  settings Object - attributes include:\n\t *\t\t\t\t\tshortYearCutoff  number - the cutoff year for determining the century (optional)\n\t *\t\t\t\t\tdayNamesShort\tstring[7] - abbreviated names of the days from Sunday (optional)\n\t *\t\t\t\t\tdayNames\t\tstring[7] - names of the days from Sunday (optional)\n\t *\t\t\t\t\tmonthNamesShort string[12] - abbreviated names of the months (optional)\n\t *\t\t\t\t\tmonthNames\t\tstring[12] - names of the months (optional)\n\t * @return  Date - the extracted date value or null if value is blank\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Standard date formats.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Extract all possible characters from the date format.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Get a setting value, defaulting if necessary.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Parse existing date and initialise date picker.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Retrieve the default date shown on opening.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "A date may be specified as an exact value or a relative one.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Handle switch to/from daylight saving.\n\t * Hours may be non-zero on daylight saving cut-over:\n\t * > 12 when midnight changeover, but then cannot generate\n\t * midnight datetime, so jump to 1AM, otherwise reset.\n\t * @param  date  (Date) the date to check\n\t * @return  (Date) the corrected date\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Set the date(s) directly.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Retrieve the date(s) directly.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Attach the onxxx handlers.  These are declared statically so\n\t * they work with static code transformers like Caja.\n\t",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Generate the HTML for the current state of the date picker.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Generate the month and year header.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Adjust one of the date sub-fields.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Ensure a date is within any min/max bounds.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Notify change of month/year.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Determine the number of months to show.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Determine the current maximum date - ensure no time components are set.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Find the number of days in a given month.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Find the day of the week of the first of a month.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Is the given date in the accepted range?",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Provide the configuration settings for formatting/parsing.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Format the given date for display.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "\n * Bind hover events for datepicker elements.\n * Done via delegate so the binding only occurs once in the lifetime of the parent div.\n * Global instActive, set by _updateDatepicker allows the handlers to find their way back to the active picker.\n",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "jQuery extend now ignores nulls!",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Invoke the datepicker functionality.\n   @param  options  string - a command, optionally followed by additional parameters or\n\t\t\t\t\tObject - settings for attaching new datepicker functionality\n   @return  jQuery object",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Initialise the date picker.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "Append datepicker main container to body if not exist.",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "jshint maxcomplexity:15",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "jshint maxcomplexity:20",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "jshint maxcomplexity:25",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "jshint maxcomplexity:15",
+        "path": "js/lib/jquery_ui_1.10.3.js"
+      },
+      {
+        "value": "!\n  * Bootstrap v4.3.1 (https://getbootstrap.com/)\n  * Copyright 2011-2019 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)\n  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n",
+        "path": "js/lib/bootstrap.bundle.min.js"
+      },
+      {
+        "value": "exported Handlebars",
+        "path": "js/lib/handlebars.js"
+      },
+      {
+        "value": "jshint -W004",
+        "path": "js/lib/handlebars.js"
+      },
+      {
+        "value": ", $depth",
+        "path": "js/lib/handlebars.js"
+      },
+      {
+        "value": "globals Handlebars: true",
+        "path": "js/lib/handlebars.js"
+      },
+      {
+        "value": "jshint ignore:start",
+        "path": "js/lib/handlebars.js"
+      },
+      {
+        "value": "Jison generated parser",
+        "path": "js/lib/handlebars.js"
+      },
+      {
+        "value": "Jison generated lexer",
+        "path": "js/lib/handlebars.js"
+      },
+      {
+        "value": "jshint ignore:end",
+        "path": "js/lib/handlebars.js"
+      },
+      {
+        "value": ", type",
+        "path": "js/lib/handlebars.js"
+      },
+      {
+        "value": "globals Handlebars: true",
+        "path": "js/lib/handlebars.js"
+      },
+      {
+        "value": "* \n  Overriding of default Backbone.sync method to call wrapper method which \n  communicates with Background.JS to get Data from the background\n*",
+        "path": "js/lib/backbone-override.js"
+      },
+      {
+        "value": "! jQuery v1.9.1 | (c) 2005, 2012 jQuery Foundation, Inc. | jquery.org/license\n",
+        "path": "js/lib/jquery_1.9.1.min.js"
+      },
+      {
+        "value": "\n* FileSaver.js\n* A saveAs() FileSaver implementation.\n*\n* By Eli Grey, http://eligrey.com\n*\n* License : https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md (MIT)\n* source  : http://purl.eligrey.com/github/FileSaver.js\n",
+        "path": "js/lib/file_saver.js"
+      },
+      {
+        "value": "noop",
+        "path": "js/lib/file_saver.js"
+      },
+      {
+        "value": "!\n *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome\n *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)\n",
+        "path": "css/font-awesome-4.2.0/css/font-awesome.css"
+      },
+      {
+        "value": "FONT PATH\n * --------------------------",
+        "path": "css/font-awesome-4.2.0/css/font-awesome.css"
+      },
+      {
+        "value": "makes the font 33% larger relative to the icon container",
+        "path": "css/font-awesome-4.2.0/css/font-awesome.css"
+      },
+      {
+        "value": "Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen\n   readers do not read off random characters that represent icons",
+        "path": "css/font-awesome-4.2.0/css/font-awesome.css"
+      },
+      {
+        "value": "!\n *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome\n *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)\n",
+        "path": "css/font-awesome-4.2.0/css/font-awesome.min.css"
+      },
+      {
+        "value": "* Generates a unique id for a new KPagination *",
+        "path": "js/background/models/kpagination.js"
+      },
+      {
+        "value": "*\n  Returns an array of KPagination instances with match parameters\n\n  param:\n    id\n    page_id\n*",
+        "path": "js/background/models/kpagination.js"
+      },
+      {
+        "value": "* \n  Sets the dom array for this column\n  returns false if the input is invalid\n*",
+        "path": "js/background/models/kpagination.js"
+      },
+      {
+        "value": "*\n  Returns the JSON partial for the data definition schema\n\n  Returns:\n    columns_object: https://getdata.io/docs/define-data#next_page_object\n    \n*",
+        "path": "js/background/models/kpagination.js"
+      },
+      {
+        "value": "*\n  Returns the JSON partial for content.js\n    \n*",
+        "path": "js/background/models/kpagination.js"
+      },
+      {
+        "value": "*\n  Export module for use in NodeJs\n*",
+        "path": "js/background/models/kpagination.js"
+      },
+      {
+        "value": "*\n  Returns an array of KPagination instances with match parameters\n\n  param:\n    id\n    domain_name\n*",
+        "path": "js/background/models/krecommended_column.js"
+      },
+      {
+        "value": "*\n  Returns the JSON for content.js display\n*",
+        "path": "js/background/models/krecommended_column.js"
+      },
+      {
+        "value": "*\n  Export module for use in NodeJs\n*",
+        "path": "js/background/models/krecommended_column.js"
+      },
+      {
+        "value": "*\n  Returns an array of KRecommendedColumnSelected instances with match parameters\n\n  param:\n    id:Integer\n    recommendation_id:Integer\n    page_id:Integer\n*",
+        "path": "js/background/models/krecommended_column_selected.js"
+      },
+      {
+        "value": "*\n  Export module for use in NodeJs\n*",
+        "path": "js/background/models/krecommended_column_selected.js"
+      },
+      {
+        "value": "*\n  Returns an array of KColumn instances with match parameters\n\n  param:\n    id\n    page_id\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  Makes a replicate of the given array. Returns an empty array if the dom_array is not a valid array\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  Takes in two dom_arrays and compares them.\n\n  Returns true if all the attributes and order are the same\n  Returns false otherwise\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  Returns a dom_array when the lineage is the same but the tail element might or might not be different\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  Returns a dom_array when is not the same lineage but the tail element is the same\n  returns false otherwise\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "* \n  Sets the dom array for this column\n  returns false if the input is invalid\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "* Return true if dom_array is empty *",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "* Return true if dom_array is empty *",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  CSS query of the next set of dom arrays to recommends\n\n  Returns Array || null\n\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  CSS query of the next set of dom arrays to recommend\n\n  Returns String || null\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "* \n  prunes the dom_array to the anchor \n\n  returns \n    True: if anchor does exist and dom_array was successfully pruned\n    False: if anchor does not exist and dom_array was not pruned\n\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  returns the last tail most element object of the dom_array\n  return false if dom_array is empty\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "* Makes a copy of this KColumn object *",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "* \n  Given a new dom_array merges it to the existing dom_array to create a generic dom_array\n  Returns \n    True: if merged and was able to generate a generic dom_array expression that describes both dom arrays\n    False: if was unable to generate a generic dom_array expression that describes both dom arrays\n\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  Given two dom_arrays check if their lineage are the same\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  Given two dom_arrays check if tail Elements are of the same type\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  Returns true if both doms have TD for tails\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  Checks if the tail td object has same position and class\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  Returns the color Object for this KColumns\n\n  Returns \n    Color:\n      selecting:String    - RBG color\n      selected:String     - RBG color\n      recommending:String - RBG color\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  Returns the JSON partial for the data definition schema\n  \n  Returns:\n    column_object: https://getdata.io/docs/define-data#column_object\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "*\n  Returns the JSON for content.js display\n*",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "* Node environmental dependencies *",
+        "path": "js/background/models/kcolumn.js"
+      },
+      {
+        "value": "* Node environmental dependencies *",
+        "path": "js/background/models/kcookie.js"
+      },
+      {
+        "value": "* Node environmental dependencies *",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "*\n  Constructor: Instantiates a new page Instance if it not already exist. Returns the existing one otherwise\n\n  Params: \n    origin_url:String\n    tab_id:Integer\n    parent_url:String\n    parent_column_id:String\n    page_title:String\n\n  Return:\n    page:KPage\n\n*",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "* Class level methods *",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "* page instances *",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "* Generates a unique id for a new KPage *",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "*\n  Static: Finds and returns a page object\n\n  Params: \n    param:Hash\n      origin_url:String\n      tab_id:Integer\n\n  Return:\n    page:KPage\n*",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "*\n  clears all the page instances from memory\n*",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "*\n  Returns true if page has parent, false otherwise\n*",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "*\n  Returns the parent page object or false\n*",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "*\n  Returns child pages of current page object\n*",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "* Returns the most ancient of pages that is ancestor of this page that has not parent *",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "* \n  Returns a column object\n*",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "* Returns number of columns belonging to this KPage *",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "* Returns all the columns belonging to this KPage *",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "* Returns true if Kcolumns have been set for this KPage *",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "*\n  Returns the JSON partial for the data definition schema\n\n  Params:\n    include_url: Boolean\n\n  Returns:\n    options_object: https://getdata.io/docs/define-data#options_object\n\n*",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "*\n  Returns the JSON for content.js display\n*",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "*\n  Returns the JSON partial for the data definition schema\n\n  Returns:\n    columns_object: https://getdata.io/docs/define-data#columns\n\n*",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "* Export for node testing *",
+        "path": "js/background/models/kpage.js"
+      },
+      {
+        "value": "*\n  Encapsulates the Browser Tab and its programmatic interactions\n*",
+        "path": "js/background/models/ktab.js"
+      },
+      {
+        "value": "*\n  Export module for use in NodeJs\n*",
+        "path": "js/background/models/ktab.js"
+      },
+      {
+        "value": "*\n  Chrome environment specific functions and event attachments\n*",
+        "path": "js/background/browsers/chrome.js"
+      },
+      {
+        "value": "*\n  Export module for use in NodeJs\n*",
+        "path": "js/background/browsers/chrome.js"
+      },
+      {
+        "value": "* Returns the current User id on MixPanel *",
+        "path": "js/background/controllers/mix_panel_controller.js"
+      },
+      {
+        "value": "* Export for node testing *",
+        "path": "js/background/controllers/mix_panel_controller.js"
+      },
+      {
+        "value": "*\n  Updates the recommended column selected object\n  Params:\n    new_attributes: Object\n      id:       Integer\n      selected: Boolean\n      page_id:  Integer\n      col_name: String\n\n    tab_obj: Object\n      id: Integer\n*",
+        "path": "js/background/controllers/krecommended_columns_controller.js"
+      },
+      {
+        "value": "*\n  Fetches the recommended columns give page_id\n  Params:\n    data_obj:\n      page_id\n*",
+        "path": "js/background/controllers/krecommended_columns_controller.js"
+      },
+      {
+        "value": "*\n  Export module for use in NodeJs\n*",
+        "path": "js/background/controllers/krecommended_columns_controller.js"
+      },
+      {
+        "value": "* Export for node testing *",
+        "path": "js/background/controllers/tutorial_controller.js"
+      },
+      {
+        "value": "* Export for node testing *",
+        "path": "js/background/controllers/kpagination_controller.js"
+      },
+      {
+        "value": "* Export for node testing *",
+        "path": "js/background/controllers/kcolumns_controller.js"
+      },
+      {
+        "value": "* Export for node testing *",
+        "path": "js/background/controllers/kpage_controller.js"
+      },
+      {
+        "value": "* Export for node testing *",
+        "path": "js/background/controllers/ktab_controller.js"
+      },
+      {
+        "value": "* Export for node testing *",
+        "path": "js/background/views/browser_icon_view.js"
+      },
+      {
+        "value": "*\n  Chrome environment specific functions and event attachments\n*",
+        "path": "js/popup/browsers/chrome.js"
+      },
+      {
+        "value": "*\n  Export module for use in NodeJs\n*",
+        "path": "js/popup/browsers/chrome.js"
+      },
+      {
+        "value": "* \n  Overriding of default Backbone.sync method to call wrapper method which \n  communicates with Background.JS to get Data from the background\n*",
+        "path": "js/popup/lib/backbone-override.js"
+      },
+      {
+        "value": "* List of characters that are not allowed for use in col_names *",
+        "path": "js/content/models/recommended_column.js"
+      },
+      {
+        "value": "* List of characters that are not allowed for use in col_names *",
+        "path": "js/content/models/column.js"
+      },
+      {
+        "value": "*\n    Checks if the dom_array has elements already selected for this Column\n\n    Returns Boolean\n  *",
+        "path": "js/content/models/column.js"
+      },
+      {
+        "value": "*\n    Checks if there are recommended dom additions for this Column\n\n    Returns Boolean\n  *",
+        "path": "js/content/models/column.js"
+      },
+      {
+        "value": "*\n  Chrome environment specific functions and event attachments\n*",
+        "path": "js/content/browsers/chrome.js"
+      },
+      {
+        "value": "* \n  Overriding of default Backbone.sync method to call wrapper method which \n  communicates with Background.JS to get Data from the background\n*",
+        "path": "js/content/lib/backbone-override.js"
+      },
+      {
+        "value": "*\n  That class that handles dom selection events\n*",
+        "path": "js/content/views/recommended_column_view.js"
+      },
+      {
+        "value": "*\n    Called when this column starts being the active column. Note: There can only be one active column per Tab\n  *",
+        "path": "js/content/views/recommended_column_view.js"
+      },
+      {
+        "value": "*\n    Called when this column stops being the active column for this page. Note: There can only be one active column per Tab\n  *",
+        "path": "js/content/views/recommended_column_view.js"
+      },
+      {
+        "value": "*\n    styles selected dom when activate happens\n  *",
+        "path": "js/content/views/recommended_column_view.js"
+      },
+      {
+        "value": "*\n    Removes the styling of selected dom when activate happens\n  *",
+        "path": "js/content/views/recommended_column_view.js"
+      },
+      {
+        "value": "*\n    styles selected dom when activate happens\n  *",
+        "path": "js/content/views/recommended_column_view.js"
+      },
+      {
+        "value": "*\n    Removes the styling of selected dom when activate happens\n  *",
+        "path": "js/content/views/recommended_column_view.js"
+      },
+      {
+        "value": "*\n    Checks if dom is already selected and has a corresponding selected_dom_view\n  *",
+        "path": "js/content/views/recommended_column_view.js"
+      },
+      {
+        "value": "*\n    Removes this view and all its sub elements\n    Called when the extension get deactivated    \n  *",
+        "path": "js/content/views/recommended_column_view.js"
+      },
+      {
+        "value": "* \n    Class Names that prevents elements from being selected by our mouse click events\n    The list of css queries describes either these doms, their direct parents or ancestore further up the DOM tree\n  *",
+        "path": "js/content/views/listing_detector.js"
+      },
+      {
+        "value": "*\n    Determines if a selected element cannot be selected\n\n    Returns: Boolean\n      true if dom cannot be selected\n  *",
+        "path": "js/content/views/listing_detector.js"
+      },
+      {
+        "value": "*\n    Generates the dom array that uniquely describes this dom element given \n\n    Returns Array\n  *",
+        "path": "js/content/views/listing_detector.js"
+      },
+      {
+        "value": "*\n    Computes the well formated class name given a DOM object\n\n    Returns String\n  *",
+        "path": "js/content/views/listing_detector.js"
+      },
+      {
+        "value": "* \n    Class Names that prevents elements from being selected by our mouse click events\n    The list of css queries describes either these doms, their direct parents or ancestore further up the DOM tree\n  *",
+        "path": "js/content/views/recommendation_detector.js"
+      },
+      {
+        "value": "*\n    Generates the dom array that uniquely describes this dom element in the context of the outer dom\n\n    Returns Array\n  *",
+        "path": "js/content/views/recommendation_detector.js"
+      },
+      {
+        "value": "*\n    Determines if a selected element cannot be selected\n\n    Returns: Boolean\n      true if dom cannot be selected\n  *",
+        "path": "js/content/views/recommendation_detector.js"
+      },
+      {
+        "value": "*\n    Generates the dom array that uniquely describes this dom element given \n\n    Returns Array\n  *",
+        "path": "js/content/views/recommendation_detector.js"
+      },
+      {
+        "value": "*\n    Computes the well formated class name given a DOM object\n\n    Returns String\n  *",
+        "path": "js/content/views/recommendation_detector.js"
+      },
+      {
+        "value": "*\n    Generates the dom array that uniquely describes this dom element \n\n    Returns Array\n  *",
+        "path": "js/content/views/recommendation_detector.js"
+      },
+      {
+        "value": "* List of all the DOM elements within a HTML Dom that are to be ignored when constructing the dom query chain *",
+        "path": "js/content/views/dom_array_generator.js"
+      },
+      {
+        "value": "* \n    Class Names that prevents elements from being selected by our mouse click events\n    The list of css queries describes either these doms, their direct parents or ancestore further up the DOM tree\n  *",
+        "path": "js/content/views/dom_array_generator.js"
+      },
+      {
+        "value": "*\n    Generates the dom array that uniquely describes this dom element given \n\n    Returns Array\n  *",
+        "path": "js/content/views/dom_array_generator.js"
+      },
+      {
+        "value": "*\n    Determines if this dom element should be included in the dom query chain\n\n    Returns Boolean\n  *",
+        "path": "js/content/views/dom_array_generator.js"
+      },
+      {
+        "value": "*\n    Computes the well formated class name given a DOM object\n\n    Returns String\n  *",
+        "path": "js/content/views/dom_array_generator.js"
+      },
+      {
+        "value": "*\n    Computes the well formated class name given a DOM object\n\n    Returns String\n  *",
+        "path": "js/content/views/dom_array_generator.js"
+      },
+      {
+        "value": "*\n    Calculating the current position of the element in relation to its siblings.\n    Discounting the text nodes from this calculation\n\n    Returns Integer\n  *",
+        "path": "js/content/views/dom_array_generator.js"
+      },
+      {
+        "value": "*\n    Determines if a selected element cannot be selected\n\n    Returns: Boolean\n      true if dom cannot be selected\n  *",
+        "path": "js/content/views/dom_array_generator.js"
+      },
+      {
+        "value": "* \n  The class that handles the logic within the detailed view\n*",
+        "path": "js/content/views/listing_panel_recommended_column_view.js"
+      },
+      {
+        "value": "* Collections *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "* Views *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "* refresh recommended columns displayed *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Removes this view and all its sub elements\n    Called when the extension get deactivated    \n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Removing all the column views belonging to this view\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Event listener that handles new column adding events\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Event listener that handles the deleting event\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Event listener that handles saving of what has already been defined\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Deactivates all column views\n\n    Params:\n      exempted_model_ids:Array[Integer]\n      exempt_pagination:Boolean\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "* Gets the ID of current Tab Model *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "* Gets the ID this current Page Model - Each URL within this Tab has a unique Page ID *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Applies the classes to display the correct panel\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Handles copyrighting for the empty state\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Hides all panels\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Loads the Column records from the background repository\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Loads the recommended columns from the background repository\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Renders the Column Views\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "*\n    Renders the Selected Recommendations Views\n  *",
+        "path": "js/content/views/sidebar_view.js"
+      },
+      {
+        "value": "* \n  The class that handles the logic within the detailed view\n*",
+        "path": "js/content/views/listing_panel_column_view.js"
+      },
+      {
+        "value": "* \n  The class that handles the logic within the detailed view\n*",
+        "path": "js/content/views/recommended_panel_column_view.js"
+      },
+      {
+        "value": "*\n    Default Constructor\n\n    Params:\n      opts:\n        done:Function(boolean)  - returns true if should activate this current tab\n        fail:Function(object)   - returns error obj response from background\n  *",
+        "path": "js/content/views/tab_view.js"
+      },
+      {
+        "value": "* Gets the ID of this Tab *",
+        "path": "js/content/views/tab_view.js"
+      },
+      {
+        "value": "* Gets the ID of this Page - Each URL within this Tab has a unique Page ID *",
+        "path": "js/content/views/tab_view.js"
+      },
+      {
+        "value": "* Activates the DataGet *",
+        "path": "js/content/views/tab_view.js"
+      },
+      {
+        "value": "* Deactivation triggered via the sidepanel *",
+        "path": "js/content/views/tab_view.js"
+      },
+      {
+        "value": "* Deactivation triggered via background *",
+        "path": "js/content/views/tab_view.js"
+      },
+      {
+        "value": "* \n    Class Names that prevents elements from being selected by our mouse click events\n    The list of css queries describes either these doms, their direct parents or ancestore further up the DOM tree\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "* List of all the DOM elements within a HTML Dom that are selectable *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "* List of all the DOM elements within a HTML Dom that are to be ignored when constructing the dom query chain *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Updates the state of this current view\n    Params:\n      state:String\n\n    Returns Boolean\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Returns true if there are Doms elements on the page that can be selected\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Returns a list of DOMs that can be included for harvesting \n    on this page\n\n    Returns:\n      [dom1, dom2, dom3,...]\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Determines if a selected element cannot be selected\n\n    Returns: Boolean\n      true if dom cannot be selected\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "* \n    Changes the background color of the DOM element when mouses of a yet-selected selectable DOM element\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "* \n    Reverts a temporarily modified DOM element after the mouse has left\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Prevents the default click behavior from being triggered when the extension is active\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Removes the styling modifications to the DOM element when it is mouseover in selecting mode\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Converts the yet-selected selectable DOM element into a post selected state\n    if Dom is already selected or recommended ignore\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Determines if a given dom can be selected\n\n    Returns: Boolean\n      true if dom can be selected\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Saves the DOM array\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    styles selected dom when activate happens\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Checks if dom is already selected and has a corresponding selected_dom_view\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Removes the styling of selected dom when activate happens\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Generates the dom array that uniquely describes this dom element given \n\n    Returns Array\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Determines if this dom element should be included in the dom query chain\n\n    Returns Boolean\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Computes :has(.some_child_class)\n\n    Returns String\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Computes the well formated class name given a DOM object\n\n    Returns String\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Computes the well formated class name given a DOM object\n\n    Returns String\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Calculating the current position of the element in relation to its siblings.\n    Discounting the text nodes from this calculation\n\n    Returns Integer\n  *",
+        "path": "js/content/views/pagination_view.js"
+      },
+      {
+        "value": "*\n    Removes this view and all its sub elements\n    Called when the extension get deactivated    \n  *",
+        "path": "js/content/views/tutorial_view.js"
+      },
+      {
+        "value": "*\n  That class that handles dom selection events\n*",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "* List of all the DOM elements within a HTML Dom that are selectable *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "* List of all the DOM elements within a HTML Dom that selectable DOM elements must not contain *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "* List of characters that are not allowed for use in col_names *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Constructor\n\n    Params:\n      opts:Hash\n        model:Column\n        parent_view:SideBarView\n\n    Returns:\n      ColumnView\n\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Called when this column starts being the active column. Note: There can only be one active column per Tab\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Called when this column stops being the active column for this page. Note: There can only be one active column per Tab\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Removes this view and all its sub elements\n    Called when the extension get deactivated    \n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Checks the current state this view is in\n\n    returns\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Returns a list of DOMs that can be included for harvesting \n    on this page\n\n    Returns:\n      [dom1, dom2, dom3,...]\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Determines if a given dom can be selected\n\n    Returns: Boolean\n      true if dom can be selected\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "* \n    Method is called to get \n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "* Rebinds prevent navigate away *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "* \n    Changes the background color of the DOM element when mouses of a yet-selected selectable DOM element\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "* \n    Reverts a temporarily modified DOM element after the mouse has left\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Removes the styling modifications to the DOM element when it is mouseover in selecting mode\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Prevents the default click behavior from being triggered when the extension is active\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Converts the yet-selected selectable DOM element into a post selected state\n    if Dom is already selected or recommended ignore\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Given a dom determines if the nth-child clause is \n    still required to accurately describe the dom\n\n    Returns Boolean\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    styles selected dom when activate happens\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Quick preview when mouse over\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    sets data from first dom in the sample data panel\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Checks if dom is already selected and has a corresponding selected_dom_view\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Removes the styling of selected dom when activate happens\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    styles recommendd dom  when activate happens\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Removes the styling of recommended dom when deactivate happens\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Adds the recommended DOM element to the Column it was recommended for\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Discards the recommended DOM element from the Column prevents it from being displayed again.\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "*\n    Gets the color encoding for the selectable DOMs\n\n    Returns String\n  *",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "**\n    Gets the color encoding for the recommended DOMs\n\n    Returns String\n  **",
+        "path": "js/content/views/column_view.js"
+      },
+      {
+        "value": "**\n    Gets the color encoding for the selected DOMs\n    \n    Returns String\n  **",
+        "path": "js/content/views/column_view.js"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "http://www.apache.org/licenses/LICENSE-2.0",
+          "path": "css/bootstrap.min.css"
+        },
+        {
+          "value": "http://www.apache.org/licenses/LICENSE-2.0",
+          "path": "css/hopscotch-0.2.6.min.css"
+        },
+        {
+          "value": "https://www.facebook.com/GetData.IO",
+          "path": "html/popup.html"
+        },
+        {
+          "value": "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css",
+          "path": "html/popup.html"
+        },
+        {
+          "value": "http://github.com/derickbailey/jasmine.async",
+          "path": "spec_p/jasmine-1.2.0/jasmine-async.js"
+        },
+        {
+          "value": "http://testing.com",
+          "path": "spec_p/helpers/browser.js"
+        },
+        {
+          "value": "https://getdata.io",
+          "path": "js/background/application.js"
+        },
+        {
+          "value": "https://start.getdata.io",
+          "path": "js/background/application.js"
+        },
+        {
+          "value": "https://cache.getdata.io/PUBLIC_KRAKE/domain_counts_new.json",
+          "path": "js/background/application.js"
+        },
+        {
+          "value": "http://localhost:3000",
+          "path": "js/config/config.js"
+        },
+        {
+          "value": "https://getdata.io",
+          "path": "js/config/config.js"
+        },
+        {
+          "value": "http://localhost:3000",
+          "path": "js/config/config.js"
+        },
+        {
+          "value": "https://getdata.io",
+          "path": "js/config/config.js"
+        },
+        {
+          "value": "https://cdn.mxpnl.com/libs/mixpanel-2.2.min.js",
+          "path": "js/lib/mixpanel.js"
+        },
+        {
+          "value": "http://jqueryui.com",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "http://bugs.jquery.com/ticket/9413",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "http://bugs.jquery.com/ticket/8235",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "http://bugs.jquery.com/ticket/9413",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "http://dev.jquery.com/ticket/1749",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "https://github.com/jquery/jquery-color",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "http://jquery.org/license",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "https://code.google.com/p/maashaack/source/browse/packages/graphics/trunk/src/graphics/colors/HUE2RGB.as?r=5021",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "http://bugs.jquery.com/ticket/9917",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "https://bugzilla.mozilla.org/show_bug.cgi?id=561664",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "http://www.robertpenner.com/easing",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "http://bugs.jqueryui.com/ticket/7552",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "https://bugs.webkit.org/show_bug.cgi?id=47182",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "http://bugs.jquery.com/ticket/11778",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "http://bugs.jquery.com/ticket/11778",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "https://getbootstrap.com",
+          "path": "js/lib/bootstrap.bundle.min.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/graphs/contributors",
+          "path": "js/lib/bootstrap.bundle.min.js"
+        },
+        {
+          "value": "https://github.com/twbs/bootstrap/blob/master/LICENSE",
+          "path": "js/lib/bootstrap.bundle.min.js"
+        },
+        {
+          "value": "https://popper.js.org",
+          "path": "js/lib/bootstrap.bundle.min.js"
+        },
+        {
+          "value": "https://popper.js.org",
+          "path": "js/lib/bootstrap.bundle.min.js"
+        },
+        {
+          "value": "http://underscorejs.org",
+          "path": "js/lib/underscore-min.js"
+        },
+        {
+          "value": "https://github.com/bestiejs/lodash/blob/master/LICENSE.txt",
+          "path": "js/lib/handlebars.js"
+        },
+        {
+          "value": "http://www.apache.org/licenses/LICENSE-2.0",
+          "path": "js/lib/hopscotch-0.2.6.min.js"
+        },
+        {
+          "value": "http://eligrey.com",
+          "path": "js/lib/file_saver.js"
+        },
+        {
+          "value": "https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md",
+          "path": "js/lib/file_saver.js"
+        },
+        {
+          "value": "http://purl.eligrey.com/github/FileSaver.js",
+          "path": "js/lib/file_saver.js"
+        },
+        {
+          "value": "https://stackoverflow.com/q/3277182/1008999",
+          "path": "js/lib/file_saver.js"
+        },
+        {
+          "value": "https://www.whatismybrowser.com/guides/the-latest-user-agent/macos",
+          "path": "js/lib/file_saver.js"
+        },
+        {
+          "value": "http://fontawesome.io",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.css"
+        },
+        {
+          "value": "http://fontawesome.io/license",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.css"
+        },
+        {
+          "value": "http://fontawesome.io",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.min.css"
+        },
+        {
+          "value": "http://fontawesome.io/license",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.min.css"
+        },
+        {
+          "value": "https://getdata.io/docs/define-data",
+          "path": "js/background/models/kpagination.js"
+        },
+        {
+          "value": "https://cache.getdata.io/PUBLIC_KRAKE/RECOMMENDATIONS/",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "https://cache.getdata.io/PUBLIC_KRAKE/RECOMMENDATIONS/",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "https://getdata.io/docs/define-data",
+          "path": "js/background/models/kcolumn.js"
+        },
+        {
+          "value": "https://getdata.io/docs/define-data",
+          "path": "js/background/models/kpage.js"
+        },
+        {
+          "value": "https://getdata.io/docs/define-data",
+          "path": "js/background/models/kpage.js"
+        },
+        {
+          "value": "https://www.facebook.com/GetData.IO",
+          "path": "js/content/views/sidebar_view.js"
+        },
+        {
+          "value": "http://google.com",
+          "path": "spec_p/js/content/views/column_view.spec.js"
+        }
+      ],
+      "email": [],
+      "ipv4": [],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {},
+    "metadata": {
+      "images/krake_icon_disabled_128.png": {},
+      "images/krake_icon_disabled_24_new.png": {},
+      "images/empty-state-first.svg": {},
+      "images/empty-state.svg": {},
+      "images/krake_icon_disabled_48.png": {},
+      "images/pagination-active.svg": {},
+      "images/chevron-up-active.svg": {},
+      "images/krake_icon_32_new.png": {},
+      "images/recommendations-state.svg": {},
+      "images/krake_icon_32.png": {},
+      "images/chevron-down.svg": {},
+      "images/sprite-green.png": {},
+      "images/krake_icon_128.png": {},
+      "images/notification-close-icon.svg": {},
+      "images/krake_icon_48_new.png": {},
+      "images/active-state.svg": {},
+      "images/chevron-up.svg": {},
+      "images/krake_icon_24.png": {},
+      "images/recommendation-active.svg": {},
+      "images/krake_icon_disabled_128_new.png": {},
+      "images/krake_icon_disabled_16.png": {},
+      "images/sidebar-pagination-icon.png": {},
+      "images/krake_icon_16_new.png": {},
+      "images/chevron-down-active.svg": {},
+      "images/help-circle.png": {},
+      "images/arrow-right-circle.svg": {},
+      "images/krake_icon_disabled_48_new.png": {},
+      "images/menu-close-icon.svg": {},
+      "images/recommendation-inactive.svg": {},
+      "images/krake_icon_48.png": {},
+      "images/delete-active.svg": {},
+      "images/plus-circle-active.svg": {},
+      "images/krake_icon_disabled_24.png": {},
+      "images/krake_icon_disabled_32_new.png": {},
+      "images/logo-long.svg": {},
+      "images/arrow-right-circle-active.svg": {},
+      "images/logo-a.png": {},
+      "images/krake_icon_disabled_32.png": {},
+      "images/plus-circle.svg": {},
+      "images/krake_icon_24_new.png": {},
+      "images/delete.svg": {},
+      "images/krake_icon_16.png": {},
+      "images/krake_icon_128_new.png": {},
+      "images/krake_icon_disabled_16_new.png": {},
+      "images/help-circle.svg": {},
+      "images/recommendations_icon.svg": {},
+      "images/pagination-inactive.svg": {},
+      "css/font-awesome-4.2.0/fonts/fontawesome-webfont.svg": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "spec_p/jasmine-1.2.0/jasmine-html.js"
+        },
+        {
+          "value": "encode",
+          "path": "spec_p/jasmine-1.2.0/jasmine-html.js"
+        },
+        {
+          "value": "encode",
+          "path": "spec_p/jasmine-1.2.0/jasmine-html.js"
+        },
+        {
+          "value": "encode",
+          "path": "spec_p/jasmine-1.2.0/jasmine-html.js"
+        },
+        {
+          "value": "encode",
+          "path": "spec_p/jasmine-1.2.0/jasmine-html.js"
+        },
+        {
+          "value": "encode",
+          "path": "spec_p/jasmine-1.2.0/jasmine-html.js"
+        },
+        {
+          "value": "encode",
+          "path": "spec_p/jasmine-1.2.0/jasmine-html.js"
+        },
+        {
+          "value": "encode",
+          "path": "js/lib/backbone-min.js"
+        },
+        {
+          "value": "encode",
+          "path": "js/lib/backbone-min.js"
+        },
+        {
+          "value": "base64",
+          "path": "js/lib/bootstrap.bundle.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "js/lib/jquery_1.9.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "js/lib/jquery_1.9.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "js/lib/jquery_1.9.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "js/lib/jquery_1.9.1.min.js"
+        },
+        {
+          "value": "encode",
+          "path": "js/content/views/crawler_view.js"
+        },
+        {
+          "value": "encode",
+          "path": "js/content/views/crawler_view.js"
+        },
+        {
+          "value": "encode",
+          "path": "js/content/views/crawler_view.js"
+        }
+      ],
+      "possible_payments": [
+        {
+          "value": "visa",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.css"
+        },
+        {
+          "value": "mastercard",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.css"
+        },
+        {
+          "value": "paypal",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.css"
+        },
+        {
+          "value": "paypal",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.css"
+        },
+        {
+          "value": "visa",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.min.css"
+        },
+        {
+          "value": "mastercard",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.min.css"
+        },
+        {
+          "value": "paypal",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.min.css"
+        },
+        {
+          "value": "paypal",
+          "path": "css/font-awesome-4.2.0/css/font-awesome.min.css"
+        }
+      ],
+      "pattern_recognition": [
+        {
+          "value": "pattern",
+          "path": "spec_p/jasmine-1.2.0/jasmine.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/config/config.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/application.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/lib/json_format.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/lib/json_format.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/lib/jquery_ui_1.10.3.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/lib/handlebars.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/krecommended_column.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/background/models/kpage.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/background/models/kpage.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/background/models/kpage.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/kpage.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/kpage.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/kpage.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/kpage.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/kpage.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/background/models/kpage.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/popup/models/crawler.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/popup/models/crawler.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/models/recommended_column.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/models/recommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/models/recommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/models/recommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/models/recommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/models/recommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/models/recommended_column.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/models/recommended_column.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "regex",
+          "path": "js/content/views/recommended_column_view.js"
+        },
+        {
+          "value": "pattern",
+          "path": "js/content/views/crawler_view.js"
+        }
+      ],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "spec_p/jasmine-1.2.0/jasmine.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "spec_p/jasmine-1.2.0/jasmine.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "spec_p/jasmine-1.2.0/jasmine.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "spec_p/jasmine-1.2.0/jasmine.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "js/lib/backbone-min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "js/lib/backbone-min.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/lib/backbone-min.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/lib/backbone-min.js"
+        },
+        {
+          "value": "POST",
+          "path": "js/lib/backbone-min.js"
+        },
+        {
+          "value": "POST",
+          "path": "js/lib/backbone-min.js"
+        },
+        {
+          "value": "PUT",
+          "path": "js/lib/backbone-min.js"
+        },
+        {
+          "value": "PUT",
+          "path": "js/lib/backbone-min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "js/lib/jquery_1.9.1.min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "js/lib/jquery_1.9.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/lib/jquery_1.9.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/lib/jquery_1.9.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/lib/jquery_1.9.1.min.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/lib/jquery_1.9.1.min.js"
+        },
+        {
+          "value": "POST",
+          "path": "js/lib/jquery_1.9.1.min.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "js/lib/file_saver.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "js/lib/file_saver.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/lib/file_saver.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "js/background/controllers/mix_panel_controller.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/background/controllers/mix_panel_controller.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/background/controllers/ktab_controller.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/background/controllers/ktab_controller.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/background/controllers/ktab_controller.js"
+        },
+        {
+          "value": "GET",
+          "path": "js/background/controllers/ktab_controller.js"
+        },
+        {
+          "value": "POST",
+          "path": "js/background/controllers/ktab_controller.js"
+        },
+        {
+          "value": "POST",
+          "path": "js/background/controllers/ktab_controller.js"
+        },
+        {
+          "value": "POST",
+          "path": "js/background/controllers/ktab_controller.js"
+        },
+        {
+          "value": "POST",
+          "path": "js/background/controllers/ktab_controller.js"
+        },
+        {
+          "value": "PUT",
+          "path": "js/background/controllers/ktab_controller.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-10-02 18:35:02.823098"
+      }
+    }
+  }
+}

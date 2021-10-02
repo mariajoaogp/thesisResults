@@ -1,0 +1,4810 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-10-02 18:35:27.980776 UTC",
+  "_filename": "nndknepjnldbdbepjfgmncbggmopgden.crx",
+  "_files": {
+    "dist/assets/img/video_thumbs/buyrecipe.png": {
+      "md5": "b66bf8856677535bb73e7622dd98f846",
+      "sha1": "8148c50a45a766f2be26ac6f1e64d24d82935e9f",
+      "sha256": "8148c50a45a766f2be26ac6f1e64d24d82935e9f"
+    },
+    "dist/assets/img/video_thumbs/how-it-works-thumb.png": {
+      "md5": "8b287088254e623255d8091ce869db43",
+      "sha1": "89a6ad2eff6bcdd5822b669bc572bbef48749956",
+      "sha256": "89a6ad2eff6bcdd5822b669bc572bbef48749956"
+    },
+    "dist/assets/img/video_thumbs/scrapesingle.png": {
+      "md5": "8f37a552c419e3c505666af3b0bf26f8",
+      "sha1": "7ba86d43d6b5971ce603d8d74c45f048ee7e6c62",
+      "sha256": "7ba86d43d6b5971ce603d8d74c45f048ee7e6c62"
+    },
+    "dist/assets/img/video_thumbs/scrapejob.png": {
+      "md5": "568167d5aa1662ee5c3bb678aa18b9ca",
+      "sha1": "85359207617fbdd20e20a746027566bf85ba24e1",
+      "sha256": "85359207617fbdd20e20a746027566bf85ba24e1"
+    },
+    "dist/assets/img/video_thumbs/youtubelogo.png": {
+      "md5": "57e2001af06a56f233b965635122bcaa",
+      "sha1": "157eec93b8c1ffa23f6d8efb9f99039ab769f897",
+      "sha256": "157eec93b8c1ffa23f6d8efb9f99039ab769f897"
+    },
+    "dist/assets/img/video_thumbs/youtubelogodark.png": {
+      "md5": "f71b2b23849ff9eb4992f0b1f7bfdc7e",
+      "sha1": "d9d7596ddaa625aed75f36aa0d987d90ea156361",
+      "sha256": "d9d7596ddaa625aed75f36aa0d987d90ea156361"
+    },
+    "dist/assets/img/mining64.png": {
+      "md5": "aeef59b75818a85fab80f2bc24c2e6c0",
+      "sha1": "8ae56cd34723c89e813b7ca9289527b375fc3c13",
+      "sha256": "8ae56cd34723c89e813b7ca9289527b375fc3c13"
+    },
+    "dist/assets/img/just_axe.svg": {
+      "md5": "66c44c0c3b1f0ff4d35dbb4ccb47010a",
+      "sha1": "a9333050e9b9b05d05243da53e59771030f46470",
+      "sha256": "a9333050e9b9b05d05243da53e59771030f46470"
+    },
+    "dist/assets/img/advanced-find-thumb.png": {
+      "md5": "d2914dbc6341c9deb1e8a657a6db6672",
+      "sha1": "372e2680f101cf1cc8a73c8061d8756fd3cde94f",
+      "sha256": "372e2680f101cf1cc8a73c8061d8756fd3cde94f"
+    },
+    "dist/assets/img/texture.png": {
+      "md5": "728a5d747dfbb552bf41b5b5ff6291cc",
+      "sha1": "0db7a33b366891e8d94548906d1210d767562225",
+      "sha256": "0db7a33b366891e8d94548906d1210d767562225"
+    },
+    "dist/assets/img/mining128.png": {
+      "md5": "3a340b08c75467fa298a329523cb1c40",
+      "sha1": "7f3fe59f9b91ebc5821ed72f4f287e46386cf85e",
+      "sha256": "7f3fe59f9b91ebc5821ed72f4f287e46386cf85e"
+    },
+    "dist/assets/img/keyboard/2.png": {
+      "md5": "d8363c4977b22274d475412d7789b8e7",
+      "sha1": "7c614685adb6e2b6f956bf6d92568b3af67796e1",
+      "sha256": "7c614685adb6e2b6f956bf6d92568b3af67796e1"
+    },
+    "dist/assets/img/keyboard/n.png": {
+      "md5": "d4ce752906c455faffb889fd2cd79fd7",
+      "sha1": "d8e86758d04fe423ffcf7c69362af6aa4bc3b2e5",
+      "sha256": "d8e86758d04fe423ffcf7c69362af6aa4bc3b2e5"
+    },
+    "dist/assets/img/keyboard/c.png": {
+      "md5": "e1f01dd48f4b88750f85554946d82a6f",
+      "sha1": "1d88f80c15bb985b7c643f6878dc735a01a883f5",
+      "sha256": "1d88f80c15bb985b7c643f6878dc735a01a883f5"
+    },
+    "dist/assets/img/mining19.png": {
+      "md5": "63a138a7499142976dd0f9366b520dd2",
+      "sha1": "503a10a5583cdb11ffb2c5fe44ee3c0e755c2d23",
+      "sha256": "503a10a5583cdb11ffb2c5fe44ee3c0e755c2d23"
+    },
+    "dist/assets/img/limit-upgrade@2x.png": {
+      "md5": "98b52064e6d394f73abf81cac98f58e6",
+      "sha1": "58625428b28cd7b28db597cf407ae4610cb32a68",
+      "sha256": "58625428b28cd7b28db597cf407ae4610cb32a68"
+    },
+    "dist/assets/img/mining32.png": {
+      "md5": "820108386a45123a97bf56ef0fca9f2b",
+      "sha1": "2407dfc24669f57c1216c39be7f3a86ebe1c967c",
+      "sha256": "2407dfc24669f57c1216c39be7f3a86ebe1c967c"
+    },
+    "dist/assets/img/click-cursor.svg": {
+      "md5": "efb5a4041ee06df0e2196676e5af9ec4",
+      "sha1": "d6239ff31eac0e06362f5f92ef68cfc9842ec2fc",
+      "sha256": "d6239ff31eac0e06362f5f92ef68cfc9842ec2fc"
+    },
+    "dist/assets/img/open-book.svg": {
+      "md5": "937bb94f17222adf11d567433f87d7d6",
+      "sha1": "bd02a17eaa9b725c92df82d68d0922820bc856f8",
+      "sha256": "bd02a17eaa9b725c92df82d68d0922820bc856f8"
+    },
+    "dist/assets/img/mining16.png": {
+      "md5": "e8e35816b792dfed40660cb1b7d2308f",
+      "sha1": "b84950d310dae6b39ebc3ea5a7856afba1774423",
+      "sha256": "b84950d310dae6b39ebc3ea5a7856afba1774423"
+    },
+    "dist/assets/img/mining36.png": {
+      "md5": "b45c4aa2a7ef834316c3ee1480e2df31",
+      "sha1": "c4e5f61266384cdc58f0c996e2ffcba5fce4d574",
+      "sha256": "c4e5f61266384cdc58f0c996e2ffcba5fce4d574"
+    },
+    "dist/assets/img/logo-long-40h.png": {
+      "md5": "f5c891b277e6d377b371a3816433dbaa",
+      "sha1": "4a071512d6bc806adf801332ba39365a207f2f30",
+      "sha256": "4a071512d6bc806adf801332ba39365a207f2f30"
+    },
+    "dist/assets/img/teacher.svg": {
+      "md5": "eb7b74cf7c443ce7835b68284e20d380",
+      "sha1": "f83bc222634356d228bf8d9a48bb8346f63cc8e6",
+      "sha256": "f83bc222634356d228bf8d9a48bb8346f63cc8e6"
+    },
+    "dist/assets/img/v5-overview.png": {
+      "md5": "9ed61582f949cb8a970b05f9b1cddedb",
+      "sha1": "3d5d819a9d9abc92225b7f37878d01a1369a5249",
+      "sha256": "3d5d819a9d9abc92225b7f37878d01a1369a5249"
+    },
+    "dist/assets/img/errors/free-lock-message@2x.png": {
+      "md5": "ca1adcf2acb057c14fddb7291d17e262",
+      "sha1": "a33559fb3f5debc87eae596cb87f4d08355f1e06",
+      "sha256": "a33559fb3f5debc87eae596cb87f4d08355f1e06"
+    },
+    "dist/assets/img/sample_screenshots/details2.png": {
+      "md5": "9f054ba45db167496b3c045fca2fcba3",
+      "sha1": "b8bc22fa3e2d581183f1fe79bb0ec46c6751a79c",
+      "sha256": "b8bc22fa3e2d581183f1fe79bb0ec46c6751a79c"
+    },
+    "dist/assets/img/sample_screenshots/list1.png": {
+      "md5": "cd5a7b7b1af6e09b473e79feb117824b",
+      "sha1": "d963062ae008c221e9a07cae3f73f0884ecf9ca1",
+      "sha256": "d963062ae008c221e9a07cae3f73f0884ecf9ca1"
+    },
+    "dist/assets/img/sample_screenshots/list2.png": {
+      "md5": "0c8de7c81c81a33a8671dcca2ebbb0ec",
+      "sha1": "0df57d3a7d0c0e1d62d78cddfad575ec1c6e697e",
+      "sha256": "0df57d3a7d0c0e1d62d78cddfad575ec1c6e697e"
+    },
+    "dist/assets/img/sample_screenshots/list3.png": {
+      "md5": "e8aabcb1498696dfd8664dda08a8096d",
+      "sha1": "b414514bff995d54e43ac5649e52fbb7acff6c4e",
+      "sha256": "b414514bff995d54e43ac5649e52fbb7acff6c4e"
+    },
+    "dist/assets/img/sample_screenshots/details3.png": {
+      "md5": "1165e946c7a0e804cf87737eb37f971d",
+      "sha1": "a040baa6c325cb8eec22d3f927ae4f6b2f8a797f",
+      "sha256": "a040baa6c325cb8eec22d3f927ae4f6b2f8a797f"
+    },
+    "dist/assets/img/dm-axe-30h.png": {
+      "md5": "22374d37adcc34b8069ddca0a77b6828",
+      "sha1": "5120773487384d4c3bb9cf8cd3b4703340640ec8",
+      "sha256": "5120773487384d4c3bb9cf8cd3b4703340640ec8"
+    },
+    "dist/assets/img/mining48.png": {
+      "md5": "1cba54adf3ed2257bc57fc37d01cf15f",
+      "sha1": "86c0fc1ab58663921b6d823de6379b49793977d6",
+      "sha256": "86c0fc1ab58663921b6d823de6379b49793977d6"
+    },
+    "dist/assets/img/google_button.png": {
+      "md5": "a4f450c481b8a1c9d1354dba4cdc6cfc",
+      "sha1": "a25b4e92c3634b08ef66b27bfe80b45d4340dfbf",
+      "sha256": "a25b4e92c3634b08ef66b27bfe80b45d4340dfbf"
+    },
+    "dist/assets/img/limit-some-domains@2x.png": {
+      "md5": "e72863739e4416aee92f4ef3e8c8ba15",
+      "sha1": "5a173f0bfe7392f0ba83ca222fa9759d4a1253dc",
+      "sha256": "5a173f0bfe7392f0ba83ca222fa9759d4a1253dc"
+    },
+    "dist/assets/img/mining24.png": {
+      "md5": "9735975cb60ff674d39ec7e6724b3b3d",
+      "sha1": "bc9bfd0d3e1a290a4a9c6347252818c8b14bc583",
+      "sha256": "bc9bfd0d3e1a290a4a9c6347252818c8b14bc583"
+    },
+    "dist/assets/img/rc-screenshot.png": {
+      "md5": "246430222908b80287c04fa0686fa627",
+      "sha1": "4c9bf4ec5c51d7b45841e605c39a3c709a2e830b",
+      "sha256": "4c9bf4ec5c51d7b45841e605c39a3c709a2e830b"
+    },
+    "dist/assets/img/logo-long-white-40h.png": {
+      "md5": "952d04bf3be53454c70acaf4ac0ddeda",
+      "sha1": "87eb7e4fa102018d4ccca2fed105a887c0f4e583",
+      "sha256": "87eb7e4fa102018d4ccca2fed105a887c0f4e583"
+    },
+    "dist/assets/img/nextpage.png": {
+      "md5": "714ba08a8a58be303d141b4616f2dc92",
+      "sha1": "aab0b193009dbbe87a38bd47993d8569484a613c",
+      "sha256": "aab0b193009dbbe87a38bd47993d8569484a613c"
+    },
+    "dist/assets/img/popup-header.png": {
+      "md5": "25d181b6a6fe71ea7a894e85741abe61",
+      "sha1": "203d8f94da7230169e46f9842dc3f79c3620b724",
+      "sha256": "203d8f94da7230169e46f9842dc3f79c3620b724"
+    },
+    "dist/assets/img/mining128-offset.png": {
+      "md5": "f89e53603351109995a48b78b316336f",
+      "sha1": "4bb20e3235f90ca4826ccb23747ee6416f6f106d",
+      "sha256": "4bb20e3235f90ca4826ccb23747ee6416f6f106d"
+    },
+    "dist/assets/img/mining38.png": {
+      "md5": "bc5168ebc6fe7abbed2272c4a6524811",
+      "sha1": "0b7230a797a92797c3f433585108643b8c4605ac",
+      "sha256": "0b7230a797a92797c3f433585108643b8c4605ac"
+    },
+    "dist/assets/img/limit-free-upgrade@2x.png": {
+      "md5": "2f49892dcb1ac159498c4a1bcbb38f83",
+      "sha1": "bc57315aec866fe898742d4830e67d058c54391f",
+      "sha256": "bc57315aec866fe898742d4830e67d058c54391f"
+    },
+    "dist/primeicons.e61f3495a7ecd3d571a4.woff": {
+      "md5": "80124a654077410ee264ec104508609c",
+      "sha1": "3f5e1ec0754bea3e97a662ac768a7720077a9727",
+      "sha256": "3f5e1ec0754bea3e97a662ac768a7720077a9727"
+    },
+    "dist/polyfills.9f836e3e23a8680e326e.js": {
+      "md5": "d1b1cca0283ef7f949af3dbd3ca3a6c7",
+      "sha1": "dbb16204ea748e24fd477c6104207ae23830a8a3",
+      "sha256": "dbb16204ea748e24fd477c6104207ae23830a8a3"
+    },
+    "dist/main.2061ab2f5b2e7af0e9c9.js": {
+      "md5": "251dcd592bcfa402593b9dbc6e7d1d3d",
+      "sha1": "8ffd24e85cddc87edd5fd6309d8efe40deff827e",
+      "sha256": "8ffd24e85cddc87edd5fd6309d8efe40deff827e"
+    },
+    "dist/3rdpartylicenses.txt": {
+      "md5": "23561eedb2de5cc117edd9db84c12480",
+      "sha1": "d9b536f52aebfed111ae1e2cbe1141d285b7db75",
+      "sha256": "d9b536f52aebfed111ae1e2cbe1141d285b7db75"
+    },
+    "dist/index.html": {
+      "md5": "3d8793e63a9e05bf2787dbc0534aa54a",
+      "sha1": "c34579fc896df8955134ccf20a0cd1263a326673",
+      "sha256": "c34579fc896df8955134ccf20a0cd1263a326673"
+    },
+    "dist/fa-solid-900.6057f0f7f9a9a68b2eed.woff": {
+      "md5": "a73f4634e2f424cb05e5ac9d3fdf659d",
+      "sha1": "6f40e0a41b92ed2564c4222f6eaba0dad3617b39",
+      "sha256": "6f40e0a41b92ed2564c4222f6eaba0dad3617b39"
+    },
+    "dist/hue.f8505bd4d6f3e3aa435b.png": {
+      "md5": "33cb3b8053a7c047bb9af2236d605b62",
+      "sha1": "ac44c9f8b5864b3e6adeb7478ac29b445646a25a",
+      "sha256": "ac44c9f8b5864b3e6adeb7478ac29b445646a25a"
+    },
+    "dist/fa-light-300.8df58881554c80bdbc5a.woff": {
+      "md5": "3db71e728241cf74c1d3bba3e76d8d5a",
+      "sha1": "14f2e5dba1ab06480734063636f5ad681ca5ffa9",
+      "sha256": "14f2e5dba1ab06480734063636f5ad681ca5ffa9"
+    },
+    "dist/styles.b5cd85c5d215ee9e5a58.css": {
+      "md5": "9d285237c54c654bc9aa36025fd8eef3",
+      "sha1": "b4f7ac7f0ad1bcc6837bb215ecb8e95a9aba883b",
+      "sha256": "b4f7ac7f0ad1bcc6837bb215ecb8e95a9aba883b"
+    },
+    "dist/runtime.c55df3f0914e442cb7c7.js": {
+      "md5": "4753e908162393ed9d32f9d95321c297",
+      "sha1": "63df6a13a9242ae4d7a4ecde16345406d951d12a",
+      "sha256": "63df6a13a9242ae4d7a4ecde16345406d951d12a"
+    },
+    "dist/color.6441e63a57ccc5105bad.png": {
+      "md5": "9b1973e4be603aef22aa1c95ce1b9918",
+      "sha1": "cefc0ac68df77ea9921eb417748e3b20b4cd2c9c",
+      "sha256": "cefc0ac68df77ea9921eb417748e3b20b4cd2c9c"
+    },
+    "bg/js/bg_script_dm.js": {
+      "md5": "efea871235c29f2cb4df22406e8fc5a7",
+      "sha1": "1f26dd2ca45908c329b04ebcf814bacd4b24797b",
+      "sha256": "1f26dd2ca45908c329b04ebcf814bacd4b24797b"
+    },
+    "manifest.json": {
+      "md5": "413c25ca2aa5c4aee39d1d9daa4cb615",
+      "sha1": "de0c8ba613fd2d1f8455cb98100968c11657b72c",
+      "sha256": "de0c8ba613fd2d1f8455cb98100968c11657b72c"
+    },
+    "content/js/contentscript_dm.js": {
+      "md5": "5a9cf0900e71a7a4e2ac6df301210c5e",
+      "sha1": "5a4ae7d0790a404607293cad0c0859912ee3005b",
+      "sha256": "5a4ae7d0790a404607293cad0c0859912ee3005b"
+    },
+    "content/css/content_xpath.css": {
+      "md5": "73d1958fc4a798e5d2214ca14fcafd18",
+      "sha1": "a02d7ff07179c513a6145383cccafb6b5e8d3e26",
+      "sha256": "a02d7ff07179c513a6145383cccafb6b5e8d3e26"
+    },
+    "dist/primeicons.3a0d4a58da62cf7c55bb.ttf": {
+      "md5": "09ecf9bad0ed5d8a9269336eeac893db",
+      "sha1": "a67b0975cd43a4108d9525bd783b3cf1316929eb",
+      "sha256": "a67b0975cd43a4108d9525bd783b3cf1316929eb"
+    },
+    "dist/fa-solid-900.54dfc8f551be346014e4.woff2": {
+      "md5": "ecf229aa1e830f407bc53608acab212e",
+      "sha1": "cbe945020353f7f0f3486e3bf2c624e70f0b27a7",
+      "sha256": "cbe945020353f7f0f3486e3bf2c624e70f0b27a7"
+    },
+    "dist/assets/img/navigation-thumb.png": {
+      "md5": "ff6196c8dbb564691333669b948ef631",
+      "sha1": "63e9989fad4808bca59c9ae641e0549af59a8505",
+      "sha256": "63e9989fad4808bca59c9ae641e0549af59a8505"
+    },
+    "dist/assets/img/js-file.svg": {
+      "md5": "f83648e02060935c95e30c8fde21e64c",
+      "sha1": "e9b23ab3bf38b24503dd68b86eec7e78008d4c1b",
+      "sha256": "e9b23ab3bf38b24503dd68b86eec7e78008d4c1b"
+    },
+    "dist/assets/img/video_thumbs/scrapepagination.png": {
+      "md5": "d8062877f3910f6780d5cf7f9f80d2d5",
+      "sha1": "84e5b814def40d756c9488d7c5436dc5253cf696",
+      "sha256": "84e5b814def40d756c9488d7c5436dc5253cf696"
+    },
+    "dist/assets/img/rows-thumb.png": {
+      "md5": "03ff0f66b02409ec7065b31315142bad",
+      "sha1": "6196adf595e0411bceb2c324cad096ed8730ea89",
+      "sha256": "6196adf595e0411bceb2c324cad096ed8730ea89"
+    },
+    "dist/assets/img/keyboard/shift.png": {
+      "md5": "9bcc54c25199b3515d074be10bf2dc7c",
+      "sha1": "8ae15640b53661a10257e00ae0388458cde0049a",
+      "sha256": "8ae15640b53661a10257e00ae0388458cde0049a"
+    },
+    "dist/assets/img/keyboard/1.png": {
+      "md5": "3ded0eb387c976928e64f9055176c63d",
+      "sha1": "9c48301623d39a9f160d5016151497102e0e8dd3",
+      "sha256": "9c48301623d39a9f160d5016151497102e0e8dd3"
+    },
+    "dist/assets/img/actions-thumb.png": {
+      "md5": "95d42f7378885e2048c42e40af52dbd3",
+      "sha1": "429d8784133da05ebfda64cea6f3196dda028536",
+      "sha256": "429d8784133da05ebfda64cea6f3196dda028536"
+    },
+    "dist/assets/img/errors/paid-domain-message@2x.png": {
+      "md5": "3435f861a6f6e9825876b77929bf72b7",
+      "sha1": "caec0be974fc64f3a20cb0c28c1aacc0b3575faa",
+      "sha256": "caec0be974fc64f3a20cb0c28c1aacc0b3575faa"
+    },
+    "dist/assets/img/errors/paid-lock-message@2x.png": {
+      "md5": "7fd34044334b3da4987c47f0570ddc19",
+      "sha1": "d02163152309f68975cb041336280cbcb0c5ec7c",
+      "sha256": "d02163152309f68975cb041336280cbcb0c5ec7c"
+    },
+    "dist/assets/img/howto.png": {
+      "md5": "9dd550cde19a171dc75a9d251158ff35",
+      "sha1": "93b0a8719152597ff3afe17603d29d67b3290757",
+      "sha256": "93b0a8719152597ff3afe17603d29d67b3290757"
+    },
+    "dist/assets/img/sample_screenshots/details1.png": {
+      "md5": "69d79afc22ef0ef1e3f4c4289f3739b0",
+      "sha1": "f03e180f66bb958b2837cbde49c28e57b70f88e6",
+      "sha256": "f03e180f66bb958b2837cbde49c28e57b70f88e6"
+    },
+    "dist/assets/img/mining96.png": {
+      "md5": "a22a8a0d74ac95f1d85d0290a0f90ece",
+      "sha1": "1edc351c4ddb9d5bdeec32c5b7a1b6bde002e3cb",
+      "sha256": "1edc351c4ddb9d5bdeec32c5b7a1b6bde002e3cb"
+    },
+    "dist/assets/img/columns-thumb.png": {
+      "md5": "efdb6b957e87be0db1495b7329d65fc0",
+      "sha1": "57d64eec61fd284d392d374469010c08a2b14ffc",
+      "sha256": "57d64eec61fd284d392d374469010c08a2b14ffc"
+    },
+    "dist/assets/scss/_variables.scss": {
+      "md5": "4f7db36b6bbe4545ef6d7adedd224435",
+      "sha1": "a41f99bd16fdd9ae671760cb97e2d64281255a28",
+      "sha256": "a41f99bd16fdd9ae671760cb97e2d64281255a28"
+    },
+    "dist/assets/scss/dm-global.scss": {
+      "md5": "db3aef51dd85e124a6cd0f9982071121",
+      "sha1": "cabac2184b90cd357e009352856e0e25824efe07",
+      "sha256": "cabac2184b90cd357e009352856e0e25824efe07"
+    },
+    "dist/assets/fonts/AbadiMTStd-CondBold.otf": {
+      "md5": "a0c588ccd235f7306367b18e53c51115",
+      "sha1": "2d4bfd5a2f32f731fa6f63e8e489c4c0d44644ca",
+      "sha256": "2d4bfd5a2f32f731fa6f63e8e489c4c0d44644ca"
+    },
+    "dist/scripts.ddf7e26acc002ecde37e.js": {
+      "md5": "ea35772c3561d7150f773fa6d6749c72",
+      "sha1": "fb0b1f1bfdfcba2f4d17e4c3e6fe3982c7a76dde",
+      "sha256": "fb0b1f1bfdfcba2f4d17e4c3e6fe3982c7a76dde"
+    },
+    "dist/AbadiMTStd-CondBold.bb8d7b5213e3c04b004a.otf": {
+      "md5": "d2bafb3c5fed845677c47a35ad330674",
+      "sha1": "69e144070bb80d22a045d2fbb383f34c4a8b240c",
+      "sha256": "69e144070bb80d22a045d2fbb383f34c4a8b240c"
+    },
+    "dist/fa-light-300.d3271a5651ab5ba62d85.woff2": {
+      "md5": "ba9e752ac172fe04bef1d7c8503a9a4f",
+      "sha1": "ed9feeda44a57ee82869e0ceaf21b24d385de158",
+      "sha256": "ed9feeda44a57ee82869e0ceaf21b24d385de158"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "c88df79a92b2f61a0bc692ab9210ba1e",
+      "sha1": "d3bacaae4276beee67e729ca43092beaf21fef5f",
+      "sha256": "d3bacaae4276beee67e729ca43092beaf21fef5f"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "manifest_version": 2,
+    "name": "Data Scraper - Easy Web Scraping",
+    "author": "Software Innovation Lab, LLC",
+    "short_name": "Data Scraper",
+    "version": "5.3.34",
+    "description": "Data Scraper extracts data out of HTML web pages and imports it into Microsoft Excel spreadsheets",
+    "icons": {
+      "16": "/dist/assets/img/mining16.png",
+      "19": "/dist/assets/img/mining19.png",
+      "24": "/dist/assets/img/mining24.png",
+      "32": "/dist/assets/img/mining32.png",
+      "36": "/dist/assets/img/mining36.png",
+      "38": "/dist/assets/img/mining38.png",
+      "48": "/dist/assets/img/mining48.png",
+      "64": "/dist/assets/img/mining64.png",
+      "96": "/dist/assets/img/mining96.png",
+      "128": "/dist/assets/img/mining128.png"
+    },
+    "background": {
+      "scripts": [
+        "/bg/js/bg_script_dm.js"
+      ],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_icon": {
+        "16": "/dist/assets/img/mining16.png",
+        "32": "/dist/assets/img/mining32.png",
+        "48": "/dist/assets/img/mining48.png"
+      },
+      "default_title": "Data Miner",
+      "default_popup": "/dist/index.html#/popup"
+    },
+    "permissions": [
+      "activeTab",
+      "contextMenus",
+      "storage",
+      "unlimitedStorage"
+    ],
+    "optional_permissions": [
+      "tabs",
+      "http://*/",
+      "https://*/",
+      "file://*/*",
+      "notifications",
+      "downloads",
+      "clipboardWrite",
+      "pageCapture"
+    ],
+    "web_accessible_resources": [
+      "/dist/index.html"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://stage.run.dataminer.io https://run.dataminer.io https://dataminer.io https://data-miner.io https://apis.google.com https://ssl.google-analytics.com https://www.google-analytics.com https://dj3xmmjxrdmmc.cloudfront.net; object-src 'self'; img-src * data:; "
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "2a7e3e76d1fca08ae5147eb218cf65d9",
+    "sha1": "34a75910019022ca8a61856d9ba641ec9c1f0059",
+    "sha256": "34a75910019022ca8a61856d9ba641ec9c1f0059"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "begin::Body",
+        "path": "dist/index.html"
+      },
+      {
+        "value": "end::Body",
+        "path": "dist/index.html"
+      },
+      {
+        "value": "!\n * Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com\n * License - https://fontawesome.com/license (Commercial License)\n",
+        "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+      },
+      {
+        "value": "!\n * Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com\n * License - https://fontawesome.com/license (Commercial License)\n",
+        "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+      },
+      {
+        "value": "!\n * Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com\n * License - https://fontawesome.com/license (Commercial License)\n",
+        "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+      },
+      {
+        "value": "# sourceMappingURL=http://dataminer:7000/5.3.34/dm/unpacked-test/dist/styles.b5cd85c5d215ee9e5a58.css.map",
+        "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+      },
+      {
+        "value": "!\n * jQuery JavaScript Library v3.6.0\n * https://jquery.com/\n *\n * Includes Sizzle.js\n * https://sizzlejs.com/\n *\n * Copyright OpenJS Foundation and other contributors\n * Released under the MIT license\n * https://jquery.org/license\n *\n * Date: 2021-03-02T17:08Z\n",
+        "path": "content/js/contentscript_dm.js"
+      },
+      {
+        "value": "!\n * Sizzle CSS Selector Engine v2.3.6\n * https://sizzlejs.com/\n *\n * Copyright JS Foundation and other contributors\n * Released under the MIT license\n * https://js.foundation/\n *\n * Date: 2021-02-16\n",
+        "path": "content/js/contentscript_dm.js"
+      },
+      {
+        "value": "!\n * html2canvas 1.3.2 <https://html2canvas.hertzen.com>\n * Copyright (c) 2021 Niklas von Hertzen <https://hertzen.com>\n * Released under MIT License\n",
+        "path": "content/js/contentscript_dm.js"
+      },
+      {
+        "value": "note: changing content script CSS requires the extension to be reloaded to take effect",
+        "path": "content/css/content_xpath.css"
+      },
+      {
+        "value": "keep this on the top",
+        "path": "content/css/content_xpath.css"
+      },
+      {
+        "value": "these needs to come after dm-fmouse-high",
+        "path": "content/css/content_xpath.css"
+      },
+      {
+        "value": "Element Highlight",
+        "path": "content/css/content_xpath.css"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "http://dataminer:7000/5.3.34/dm/unpacked-test/dist/polyfills.9f836e3e23a8680e326e.js.map",
+          "path": "dist/polyfills.9f836e3e23a8680e326e.js"
+        },
+        {
+          "value": "https://www.npmjs.com/package/cross-fetch",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://go.apollo.dev/c/docs",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://addons.mozilla.org/en-US/firefox/addon/apollo-developer-tools/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/admin/recipe-edit/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/start",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://forum.dataminer.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/account",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/billing",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/e/privacy",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/e/tos",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/e/help/start",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://example.com",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/custom-recipe",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://www.facebook.com/groups/1728774897362992/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://twitter.com/DataMinerIO",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://d3kf5b36mae37a.cloudfront.net/static/images/team-picture.jpg",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/account",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/e/help/start",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://bit.ly/2kdckMn",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/account",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/account",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/account",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/account",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/account",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/pricing",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/login",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/login",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/e/privacy",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://www.youtube.com/watch?v=",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://github.com/FortAwesome/angular-fontawesome/blob/master/UPGRADING.md",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://github.com/uuidjs/uuid",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://data-miner.io/v5/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://60c57fe2da63464c9d5418376d4756e6",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://725252790ba249ffbe4931455af0d1a7",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://run.dataminer.io/v5/graphql",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://purl.org/dc/elements/1.1/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://purl.org/dc/terms/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://purl.org/dc/dcmitype/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.microsoft.com/office/mac/excel/2008/main",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/package/2006/sheetjs/core-properties",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/2001/XMLSchema-instance",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/2001/XMLSchema",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://purl.oclc.org/ooxml/spreadsheetml/main",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.microsoft.com/office/excel/2006/main",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.microsoft.com/office/excel/2006/2",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://macVmlSchemaUri",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/REC-html40",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/package/2006/content-types",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://sheetjs.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/vmlDrawing",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/externalLinkPath",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.microsoft.com/office/2006/relationships/xlExternalLinkPath/xlPathMissing",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/externalLink",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.microsoft.com/office/2006/relationships/vbaProject",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/package/2006/relationships",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://docs.oasis-open.org/ns/office/1.2/meta/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://purl.org/dc/elements/1.1/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/1999/xlink",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/package/2006/metadata/core-properties",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/extended-properties",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/custom-properties",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/custom-properties",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/drawingml/2006/main",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/drawing",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/dialogsheet",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.microsoft.com/office/2006/relationships/xlMacrosheet",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://purl.oclc.org/ooxml/officeDocument/relationships/worksheet",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.microsoft.com/office/2014/relationships/chartEx",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chartsheet",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/REC-html40",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/1999/xlink",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://purl.org/dc/elements/1.1/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/1999/xlink",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://purl.org/dc/elements/1.1/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/1998/Math/MathML",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://openoffice.org/2004/office",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://openoffice.org/2004/writer",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://openoffice.org/2004/calc",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/2001/xml-events",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/2002/xforms",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/2001/XMLSchema",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/2001/XMLSchema-instance",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://openoffice.org/2005/report",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/1999/xhtml",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/2003/g/data-view",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://openoffice.org/2009/table",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://openoffice.org/2010/draw",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/TR/css3-text/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://docs.oasis-open.org/ns/office/1.2/meta/pkg",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://npms.io/search?q=ponyfill.",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://jshint.com/docs/options/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://dev.apollodata.com/core/fragments.html",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://chrome.google.com/webstore",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://microsoftedge.microsoft.com",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/1998/MathML/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://g.co/ng/security",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://g.co/ng/security",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://g.co/ng/security",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://github.com/apollographql/invariant-packages",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/1999/xhtml",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/1999/xlink",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/XML/1998/namespace",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/xmlns/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://g.co/ng/security",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://g.co/ng/security",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://docs.apollostack.com/apollo-client/core.html",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://docs.apollostack.com/apollo-client/core.html",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://momentjs.com/guides/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://momentjs.com/guides/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://momentjs.com/guides/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://momentjs.com/guides/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://momentjs.com/guides/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://momentjs.com/guides/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://momentjs.com/guides/",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://bit.ly/3cXEKWf",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://go.apollo.dev/c/generating-unique-identifiers",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://go.apollo.dev/c/merging-non-normalized-objects",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/recipe-creator",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/start",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/services",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/recipe-creator",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://www.youtube.com/watch?v=nuiQHc5q2cQ",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://www.youtube.com/watch?v=3B2qVjckZN4",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://www.youtube.com/watch?v=mBdwBAvXB5A",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://www.youtube.com/watch?v=OO-prK60uac",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://www.youtube.com/watch?v=A8oEUaFjw6k",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/crawl",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/page-scrape",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/recipe-creator",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/recipe-creator",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/recipe-creator",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/recipe-creator",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/recipe-creator",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://dataminer.io/help/javascript",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://www.youtube.com/watch?v=N2doEITfNrc",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://www.youtube.com/watch?v=FRpJR5LL_KA",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "http://dataminer:7000/5.3.34/dm/unpacked-test/dist/main.2061ab2f5b2e7af0e9c9.js.map",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "https://fontawesome.com/license.",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://fontawesome.com/license/free.",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://creativecommons.org/licenses/by/4.0/",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://scripts.sil.org/OFL",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://opensource.org/licenses/MIT",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://fontawesome.com/license.",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://fontawesome.com/license.",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://www.apache.org/licenses/",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://www.apache.org/licenses/LICENSE-2.0",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://www.apache.org/licenses/LICENSE-2.0",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://www.apache.org/licenses/",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://www.apache.org/licenses/LICENSE-2.0",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://jshint.com",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://openjsf.org",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://underscorejs.org",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://github.com/lodash/lodash",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://openjsf.org",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://underscorejs.org",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://github.com/lodash/lodash",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://www.apache.org/licenses/",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://www.apache.org/licenses/LICENSE-2.0",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://www.apache.org/licenses/",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "http://www.apache.org/licenses/LICENSE-2.0",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://angular.io/license",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "https://fontawesome.com",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "https://fontawesome.com/license",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "https://fontawesome.com",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "https://fontawesome.com/license",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "https://fontawesome.com",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "https://fontawesome.com/license",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "http://dataminer:7000/5.3.34/dm/unpacked-test/dist/styles.b5cd85c5d215ee9e5a58.css.map",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "http://dataminer:7000/5.3.34/dm/unpacked-test/dist/runtime.c55df3f0914e442cb7c7.js.map",
+          "path": "dist/runtime.c55df3f0914e442cb7c7.js"
+        },
+        {
+          "value": "https://www.google-analytics.com/analytics.js",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "https://dataminer.io",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "https://60c57fe2da63464c9d5418376d4756e6",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "https://chrome.google.com/webstore",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "https://microsoftedge.microsoft.com",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "https://github.com/uuidjs/uuid",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "https://chrome.google.com/webstore",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "https://microsoftedge.microsoft.com",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "https://dataminer.io",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "https://dataminer.io",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "http://dataminer.io/help",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "http://dataminer:7000/5.3.34/dm/unpacked-test/bg/js/bg_script_dm.js.map",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "https://jquery.com",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "https://sizzlejs.com",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "https://jquery.org/license",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "https://sizzlejs.com",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "https://js.foundation",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "https://html2canvas.hertzen.com",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "https://hertzen.com",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "https://chrome.google.com/webstore",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "https://microsoftedge.microsoft.com",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "http://dataminer:7000/5.3.34/dm/unpacked-test/content/js/contentscript_dm.js.map",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "https://www.google-analytics.com/analytics.js",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "http://www.w3.org/2000/svg",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "http://dataminer:7000/5.3.34/dm/unpacked-test/dist/scripts.ddf7e26acc002ecde37e.js.map",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        }
+      ],
+      "email": [
+        {
+          "value": "support@dataminer.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "support@dataminer.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "support@dataminer.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "support@dataminer.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "support@dataminer.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "paid-lock-message@2x.png",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "paid-domain-message@2x.png",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "60c57fe2da63464c9d5418376d4756e6@sentry.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "725252790ba249ffbe4931455af0d1a7@o38005.ingest.sentry.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "support@dataminer.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "support@dataminer.io",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "ben@eloper.dev",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "ben@eloper.dev",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "marijnh@gmail.com",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "sindresorhus@gmail.com",
+          "path": "dist/3rdpartylicenses.txt"
+        },
+        {
+          "value": "60c57fe2da63464c9d5418376d4756e6@sentry.io",
+          "path": "bg/js/bg_script_dm.js"
+        }
+      ],
+      "ipv4": [],
+      "bitcoin_address": [
+        {
+          "value": "31c3e14a253769b2fb993df21b783a21",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "31c3e14a253769b2fb993df21b783a21",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "376fe61eb3224d9aef9154566faf9d18",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "376fe61eb3224d9aef9154566faf9d18",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "37bc43ff9cf8f27348ee8296b4ddebc8",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "31c3e14a253769b2fb993df21b783a21",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "31c3e14a253769b2fb993df21b783a21",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "31c3e14a253769b2fb993df21b783a21",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "31c3e14a253769b2fb993df21b783a21",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "31c3e14a253769b2fb993df21b783a21",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "37bc43ff9cf8f27348ee8296b4ddebc8",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "151831b69ff8df22fcf171f9d3993393",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "3bcdaaad4d174d3cfcad54dc42499d4f",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "37bc43ff9cf8f27348ee8296b4ddebc8",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "37bc43ff9cf8f27348ee8296b4ddebc8",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1c65d38e67681d4ebd8cb94f38c6eca9",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "3bcdaaad4d174d3cfcad54dc42499d4f",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "31c3e14a253769b2fb993df21b783a21",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1b9e58848c14b3fefaa282e6a27996f4",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1b9e58848c14b3fefaa282e6a27996f4",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "37bc43ff9cf8f27348ee8296b4ddebc8",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1fc39a52e1579dff4ecb1eafb737bbb4",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1fc39a52e1579dff4ecb1eafb737bbb4",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "151831b69ff8df22fcf171f9d3993393",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "3bcdaaad4d174d3cfcad54dc42499d4f",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1c65d38e67681d4ebd8cb94f38c6eca9",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "175e34c29c466ee6187e88f63bf9c8db",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1442c3a4b74747efbdb5dfac74c72426",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1442c3a4b74747efbdb5dfac74c72426",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1442c3a4b74747efbdb5dfac74c72426",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1442c3a4b74747efbdb5dfac74c72426",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1442c3a4b74747efbdb5dfac74c72426",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1442c3a4b74747efbdb5dfac74c72426",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "3a12997ec622c9cca916489c5271dccd",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "3a12997ec622c9cca916489c5271dccd",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1b9e58848c14b3fefaa282e6a27996f4",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "3a12997ec622c9cca916489c5271dccd",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "175e34c29c466ee6187e88f63bf9c8db",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "34b49aa29e868fc2273ba42275af11bc",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "34b49aa29e868fc2273ba42275af11bc",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "34b49aa29e868fc2273ba42275af11bc",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "34b49aa29e868fc2273ba42275af11bc",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1e5a1592446861d18e1967acdb1aa22b",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1138c43886578fecd36e1587a486e453",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1138c43886578fecd36e1587a486e453",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "1ce6a66feca6b1243ad9fdeefd25eab9",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "1ce6a66feca6b1243ad9fdeefd25eab9",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "1ec739b499d749a92bc134b917ca9653",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "1ec739b499d749a92bc134b917ca9653",
+          "path": "content/js/contentscript_dm.js"
+        }
+      ],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {},
+    "metadata": {
+      "dist/assets/img/video_thumbs/buyrecipe.png": {},
+      "dist/assets/img/video_thumbs/how-it-works-thumb.png": {},
+      "dist/assets/img/video_thumbs/scrapesingle.png": {},
+      "dist/assets/img/video_thumbs/scrapejob.png": {},
+      "dist/assets/img/video_thumbs/youtubelogo.png": {},
+      "dist/assets/img/video_thumbs/youtubelogodark.png": {},
+      "dist/assets/img/mining64.png": {},
+      "dist/assets/img/just_axe.svg": {},
+      "dist/assets/img/advanced-find-thumb.png": {},
+      "dist/assets/img/texture.png": {},
+      "dist/assets/img/mining128.png": {},
+      "dist/assets/img/keyboard/2.png": {},
+      "dist/assets/img/keyboard/n.png": {},
+      "dist/assets/img/keyboard/c.png": {},
+      "dist/assets/img/mining19.png": {},
+      "dist/assets/img/limit-upgrade@2x.png": {},
+      "dist/assets/img/mining32.png": {},
+      "dist/assets/img/click-cursor.svg": {},
+      "dist/assets/img/open-book.svg": {},
+      "dist/assets/img/mining16.png": {},
+      "dist/assets/img/mining36.png": {},
+      "dist/assets/img/logo-long-40h.png": {},
+      "dist/assets/img/teacher.svg": {},
+      "dist/assets/img/v5-overview.png": {},
+      "dist/assets/img/errors/free-lock-message@2x.png": {},
+      "dist/assets/img/sample_screenshots/details2.png": {},
+      "dist/assets/img/sample_screenshots/list1.png": {},
+      "dist/assets/img/sample_screenshots/list2.png": {},
+      "dist/assets/img/sample_screenshots/list3.png": {},
+      "dist/assets/img/sample_screenshots/details3.png": {},
+      "dist/assets/img/dm-axe-30h.png": {},
+      "dist/assets/img/mining48.png": {},
+      "dist/assets/img/google_button.png": {},
+      "dist/assets/img/limit-some-domains@2x.png": {},
+      "dist/assets/img/mining24.png": {},
+      "dist/assets/img/rc-screenshot.png": {},
+      "dist/assets/img/logo-long-white-40h.png": {},
+      "dist/assets/img/nextpage.png": {},
+      "dist/assets/img/popup-header.png": {},
+      "dist/assets/img/mining128-offset.png": {},
+      "dist/assets/img/mining38.png": {},
+      "dist/assets/img/limit-free-upgrade@2x.png": {},
+      "dist/hue.f8505bd4d6f3e3aa435b.png": {},
+      "dist/color.6441e63a57ccc5105bad.png": {},
+      "dist/assets/img/navigation-thumb.png": {},
+      "dist/assets/img/js-file.svg": {},
+      "dist/assets/img/video_thumbs/scrapepagination.png": {},
+      "dist/assets/img/rows-thumb.png": {},
+      "dist/assets/img/keyboard/shift.png": {},
+      "dist/assets/img/keyboard/1.png": {},
+      "dist/assets/img/actions-thumb.png": {},
+      "dist/assets/img/errors/paid-domain-message@2x.png": {},
+      "dist/assets/img/errors/paid-lock-message@2x.png": {},
+      "dist/assets/img/howto.png": {},
+      "dist/assets/img/sample_screenshots/details1.png": {},
+      "dist/assets/img/mining96.png": {},
+      "dist/assets/img/columns-thumb.png": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "atob",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "atob",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "atob",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "atob",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "atob",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "atob",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "base64",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "base64",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "base64",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "base64",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "encode",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "eval(",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "eval(",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "eval(",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "base64",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "base64",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "encode",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "base64",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        }
+      ],
+      "possible_payments": [
+        {
+          "value": "paypal",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "visa",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "mastercard",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "paypal",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "paypal",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        },
+        {
+          "value": "paypal",
+          "path": "dist/styles.b5cd85c5d215ee9e5a58.css"
+        }
+      ],
+      "pattern_recognition": [
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "regex",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "regex",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "regex",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "pattern",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "regex",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        }
+      ],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/polyfills.9f836e3e23a8680e326e.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/polyfills.9f836e3e23a8680e326e.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/polyfills.9f836e3e23a8680e326e.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/polyfills.9f836e3e23a8680e326e.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/polyfills.9f836e3e23a8680e326e.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/polyfills.9f836e3e23a8680e326e.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/polyfills.9f836e3e23a8680e326e.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "POST",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/main.2061ab2f5b2e7af0e9c9.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "GET",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "POST",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "POST",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "POST",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "POST",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "PUT",
+          "path": "bg/js/bg_script_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "GET",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "GET",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "GET",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "GET",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "GET",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "GET",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "POST",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "PUT",
+          "path": "content/js/contentscript_dm.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "GET",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        },
+        {
+          "value": "PUT",
+          "path": "dist/scripts.ddf7e26acc002ecde37e.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-10-02 18:38:39.306617"
+      }
+    }
+  }
+}

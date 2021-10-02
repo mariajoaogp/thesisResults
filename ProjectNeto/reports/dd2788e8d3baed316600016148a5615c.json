@@ -1,0 +1,976 @@
+{
+  "_analyser_version": "0.6.2",
+  "_date_analysis": "2021-10-02 18:34:42.519950 UTC",
+  "_filename": "mbigbapnjcgaffohmbkdlecaccepngjd.crx",
+  "_files": {
+    "css/base.css": {
+      "md5": "d05ead4e69a63a8d961ad3b36b90c1e5",
+      "sha1": "9e8bc3c3374dddae902b63ae1926e3ba93e0901d",
+      "sha256": "9e8bc3c3374dddae902b63ae1926e3ba93e0901d"
+    },
+    "css/popup.css": {
+      "md5": "3191a93182d812f134ea28b74be0cc1f",
+      "sha1": "53842409ffdaee53207568f91e0deee94ed7137e",
+      "sha256": "53842409ffdaee53207568f91e0deee94ed7137e"
+    },
+    "css/viewer.css": {
+      "md5": "53eeb459ceb6b652cb789a30e5ef657d",
+      "sha1": "e96d615de1f3bb6f7981aa55136dae753263c783",
+      "sha256": "e96d615de1f3bb6f7981aa55136dae753263c783"
+    },
+    "img/application-form.png": {
+      "md5": "5ab20d4f79477029476148f64937cf58",
+      "sha1": "352ffcecbfc03b962d893189bcad75598f88c674",
+      "sha256": "352ffcecbfc03b962d893189bcad75598f88c674"
+    },
+    "img/bullet_add.png": {
+      "md5": "c2a735d9edf5581bc2b5ae40d8133843",
+      "sha1": "9e92b3857e41c7d0d76e6fd3942aa2fd606c0d15",
+      "sha256": "9e92b3857e41c7d0d76e6fd3942aa2fd606c0d15"
+    },
+    "img/bullet_delete.png": {
+      "md5": "a3b978c5bbaa7975a8c999b181b208b0",
+      "sha1": "a8d9d344b688e50333642659bc7e2daa41cb6ad7",
+      "sha256": "a8d9d344b688e50333642659bc7e2daa41cb6ad7"
+    },
+    "img/control-090-small.png": {
+      "md5": "2c36144968500799eb6a2265d8031a7e",
+      "sha1": "f20669ffadd2235cba396c200056e14b300115a3",
+      "sha256": "f20669ffadd2235cba396c200056e14b300115a3"
+    },
+    "img/control-270-small.png": {
+      "md5": "d70796f93907707e9fb5ac7d23e8c5ca",
+      "sha1": "2b1a74a7f2ffddb1e572a88b000fe6fb296bd701",
+      "sha256": "2b1a74a7f2ffddb1e572a88b000fe6fb296bd701"
+    },
+    "img/exclamation-button.png": {
+      "md5": "df0e2174142a12ebe345fe63f84500a8",
+      "sha1": "146d1c23236abfc1ada7919ce8966e8794d18512",
+      "sha256": "146d1c23236abfc1ada7919ce8966e8794d18512"
+    },
+    "img/exclamation-red.png": {
+      "md5": "17532d71de142f20134c204f97c0cb8e",
+      "sha1": "902cf5bf561c36252bf251c0fcf172f9a8620cf6",
+      "sha256": "902cf5bf561c36252bf251c0fcf172f9a8620cf6"
+    },
+    "img/handle.png": {
+      "md5": "d409aa0345c51f07ee995240c8be0bdc",
+      "sha1": "c8b4bfae3bc0948546b6ab7b49c3086bf9b561a5",
+      "sha256": "c8b4bfae3bc0948546b6ab7b49c3086bf9b561a5"
+    },
+    "img/highlighter-small.png": {
+      "md5": "78906edb6a2c83609b6cad625604badd",
+      "sha1": "537242c3bb32870922df7a441c945b77f8613004",
+      "sha256": "537242c3bb32870922df7a441c945b77f8613004"
+    },
+    "img/icon-120x120.png": {
+      "md5": "c52dce11b709210e38c7bd0f20e7cd71",
+      "sha1": "9330585d02b953b2c790cc26c4a7795b04129ac6",
+      "sha256": "9330585d02b953b2c790cc26c4a7795b04129ac6"
+    },
+    "img/icon-128x128.png": {
+      "md5": "aa9a75837f5a2606fdabd15217150801",
+      "sha1": "e3deae9437bd22d93cd8398247a5aa89c901bcc3",
+      "sha256": "e3deae9437bd22d93cd8398247a5aa89c901bcc3"
+    },
+    "img/icon-16x16.png": {
+      "md5": "d1b19e73c6ffe91a370533f55e0424a6",
+      "sha1": "144eb2d9806ae1ec36d3786dfd05f5a4ffc8eda6",
+      "sha256": "144eb2d9806ae1ec36d3786dfd05f5a4ffc8eda6"
+    },
+    "img/icon-32x32.png": {
+      "md5": "dea7eb344c704c46f5bef292ed7039e0",
+      "sha1": "c8421f3834a3790ca5addbd6e5150629098354bc",
+      "sha256": "c8421f3834a3790ca5addbd6e5150629098354bc"
+    },
+    "img/icon-48x48.png": {
+      "md5": "12237a055543001f0a4193c5aca13c95",
+      "sha1": "b358b51029f01cb6c3e04253c643e220e1060fbc",
+      "sha256": "b358b51029f01cb6c3e04253c643e220e1060fbc"
+    },
+    "img/progress.gif": {
+      "md5": "7a359b11a8704496e08563088c7f99c4",
+      "sha1": "f7b644b7b8e6db947d6f24936163b9c32222f26d",
+      "sha256": "f7b644b7b8e6db947d6f24936163b9c32222f26d"
+    },
+    "img/promo-1400x560.png": {
+      "md5": "e3131cfc7a06523b7c116a9228ca554e",
+      "sha1": "379ba63980710ae495791e4e592b5309b4606a0b",
+      "sha256": "379ba63980710ae495791e4e592b5309b4606a0b"
+    },
+    "img/promo-440x280.png": {
+      "md5": "ee5bd37d4a9e4ab6a85bb776f11b9317",
+      "sha1": "f33e88d4f50cb4b2ce80ed08e89960a8af785c0b",
+      "sha256": "f33e88d4f50cb4b2ce80ed08e89960a8af785c0b"
+    },
+    "img/promo-920x680.png": {
+      "md5": "c6e6fbcb21d50fa75810fa805bbfb6f5",
+      "sha1": "cc9bce3cb6bea59d30550330eb39af62bdc7e71a",
+      "sha256": "cc9bce3cb6bea59d30550330eb39af62bdc7e71a"
+    },
+    "img/question-small-white.png": {
+      "md5": "0a379ad98e2e0fe4d1f390dce61ca361",
+      "sha1": "f4056060f7beedcfed19782b8cc0c547932f4dee",
+      "sha256": "f4056060f7beedcfed19782b8cc0c547932f4dee"
+    },
+    "img/question.png": {
+      "md5": "9808f9edf544eb034af274d247c7f355",
+      "sha1": "4541caedd0f1e17d7908bac36f46120ff7707dc3",
+      "sha256": "4541caedd0f1e17d7908bac36f46120ff7707dc3"
+    },
+    "img/scraper128.png": {
+      "md5": "8ce28f339e0b75a9fe49ce5c58f85118",
+      "sha1": "0885a374afcf1286cb45fe0536dae9598aa4ba0b",
+      "sha256": "0885a374afcf1286cb45fe0536dae9598aa4ba0b"
+    },
+    "img/scraper16.png": {
+      "md5": "b3fbbfb875f49a8104270e835f62d8d0",
+      "sha1": "8669c7bc7b028f3ecb2a1df2327cb26e04fa4cb6",
+      "sha256": "8669c7bc7b028f3ecb2a1df2327cb26e04fa4cb6"
+    },
+    "img/scraper19.png": {
+      "md5": "b759654276601ae1ea53d25d5feda2a2",
+      "sha1": "3b48ee23f38c01c0e023229162e095eb240f3568",
+      "sha256": "3b48ee23f38c01c0e023229162e095eb240f3568"
+    },
+    "img/scraper32.png": {
+      "md5": "7dcbf2a44506ab031244dda2b40e0210",
+      "sha1": "bb2ffe6b94f8669b2032473bb09ad23523a2052f",
+      "sha256": "bb2ffe6b94f8669b2032473bb09ad23523a2052f"
+    },
+    "img/scraper48.png": {
+      "md5": "a862cb9aa4607e5268553e06e67888fc",
+      "sha1": "b2d85568fd5cc9aae8e0a2c1fbfdede1d33063cd",
+      "sha256": "b2d85568fd5cc9aae8e0a2c1fbfdede1d33063cd"
+    },
+    "js/background.js": {
+      "md5": "64a7eda8a0858c5d4bbdb6f3cef0b9be",
+      "sha1": "58e946e33ccf0d4164858ff88ccb40afaf22f6d5",
+      "sha256": "58e946e33ccf0d4164858ff88ccb40afaf22f6d5"
+    },
+    "js/bit155/attr.js": {
+      "md5": "2a867c2b8605d97dc094d21e317e82a2",
+      "sha1": "74c0769fdbb21efd2f76c41126755ac7062aa4bf",
+      "sha256": "74c0769fdbb21efd2f76c41126755ac7062aa4bf"
+    },
+    "js/bit155/csv.js": {
+      "md5": "7af5c5c01db240b2d7980666763a4427",
+      "sha1": "537781398b5b815871c1a323a28529c69fe9eb53",
+      "sha256": "537781398b5b815871c1a323a28529c69fe9eb53"
+    },
+    "js/bit155/scraper.js": {
+      "md5": "1bb27065d428d4d00fd0c0b4ef9ef05c",
+      "sha1": "ac5690a7fc02f45e9e780fd8131b2edf28254212",
+      "sha256": "ac5690a7fc02f45e9e780fd8131b2edf28254212"
+    },
+    "js/contentscript.js": {
+      "md5": "067f7b64eaabed1f00346e32e435b7f7",
+      "sha1": "423d45bac8255a31ee2dd03f519496f19f391632",
+      "sha256": "423d45bac8255a31ee2dd03f519496f19f391632"
+    },
+    "js/popup.js": {
+      "md5": "5822e8397e2a85b5941bf3ee058e2795",
+      "sha1": "9d56ac3535c770b993e2e42efd8b5bf2918da76e",
+      "sha256": "9d56ac3535c770b993e2e42efd8b5bf2918da76e"
+    },
+    "js/shared.js": {
+      "md5": "bb32f8081b27df6080cca02a178a8cb5",
+      "sha1": "5f33fa6d5da976923b22c025269245fe779a4e58",
+      "sha256": "5f33fa6d5da976923b22c025269245fe779a4e58"
+    },
+    "js/viewer.js": {
+      "md5": "85dae572868bc38fb970b186c6bcd202",
+      "sha1": "43ec8dc829f2bf88614070dfb3077483aa5fe067",
+      "sha256": "43ec8dc829f2bf88614070dfb3077483aa5fe067"
+    },
+    "lib/datatables-1.7.4/images/back_disabled.jpg": {
+      "md5": "e0118b55ba37de90f5a8a06b2c595e31",
+      "sha1": "9b3c62964a92db8f42aee27cf901109bf114773d",
+      "sha256": "9b3c62964a92db8f42aee27cf901109bf114773d"
+    },
+    "lib/datatables-1.7.4/images/back_enabled.jpg": {
+      "md5": "499815abedd739a402445f704bc76faf",
+      "sha1": "755bfd948b7afe0c3d406ff90fe55ec72ea7946a",
+      "sha256": "755bfd948b7afe0c3d406ff90fe55ec72ea7946a"
+    },
+    "lib/datatables-1.7.4/images/favicon.ico": {
+      "md5": "c02da7bc3bac6c2a60428ea3d7df931f",
+      "sha1": "a993a13cb4eff8c00a6d317467afc9f6ff76c9cc",
+      "sha256": "a993a13cb4eff8c00a6d317467afc9f6ff76c9cc"
+    },
+    "lib/datatables-1.7.4/images/forward_disabled.jpg": {
+      "md5": "cefd1100ce996a24ac54d89f1e84894d",
+      "sha1": "7e8bf66c4eedb8b4db7e6bb836ef2daa5e5f847f",
+      "sha256": "7e8bf66c4eedb8b4db7e6bb836ef2daa5e5f847f"
+    },
+    "lib/datatables-1.7.4/images/forward_enabled.jpg": {
+      "md5": "910b44b24275b8eaae5306ab19a3fdfd",
+      "sha1": "d4b61cb50688069a34e141eb118a1e1885dcf47b",
+      "sha256": "d4b61cb50688069a34e141eb118a1e1885dcf47b"
+    },
+    "lib/datatables-1.7.4/images/sort_asc.png": {
+      "md5": "43bea0f49450eda99ba044e7ed5f496f",
+      "sha1": "9d2fb555ccb68bd76549258225d76c7fc8209cd6",
+      "sha256": "9d2fb555ccb68bd76549258225d76c7fc8209cd6"
+    },
+    "lib/datatables-1.7.4/images/sort_asc_disabled.png": {
+      "md5": "e8c948fab907e8e05abb74dd52d6a6df",
+      "sha1": "8e516da7ec964a8c25fadd1345cb6712aae51069",
+      "sha256": "8e516da7ec964a8c25fadd1345cb6712aae51069"
+    },
+    "lib/datatables-1.7.4/images/sort_both.png": {
+      "md5": "97ac85009fe75d5c53cce60879e69d2a",
+      "sha1": "4b585ebe6f21ada6a8990c5752d00371dd9ebd3a",
+      "sha256": "4b585ebe6f21ada6a8990c5752d00371dd9ebd3a"
+    },
+    "lib/datatables-1.7.4/images/sort_desc.png": {
+      "md5": "cf15c3844fe6fc8766448d285d954cf1",
+      "sha1": "efe2f64f5e825d76a4aad243a80de0e7064d6b97",
+      "sha256": "efe2f64f5e825d76a4aad243a80de0e7064d6b97"
+    },
+    "lib/datatables-1.7.4/images/sort_desc_disabled.png": {
+      "md5": "1663f34cab1159236d62b8bbe4a4b167",
+      "sha1": "60f2e93fb81eae17086fb48bca7c77e40a6a85cb",
+      "sha256": "60f2e93fb81eae17086fb48bca7c77e40a6a85cb"
+    },
+    "lib/datatables-1.7.4/images/Sorting icons.psd": {
+      "md5": "f5e6c9e6633d569072d75bdd01175f56",
+      "sha1": "54c7a0f48b47668e70a284ba4c03dff689700bb3",
+      "sha256": "54c7a0f48b47668e70a284ba4c03dff689700bb3"
+    },
+    "lib/datatables-1.7.4/js/jquery.dataTables.js": {
+      "md5": "f67c4b5adebc46a557e9049b9a19b899",
+      "sha1": "355e73bce4032543e6225f8b77c32a5c18eb5fb7",
+      "sha256": "355e73bce4032543e6225f8b77c32a5c18eb5fb7"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_flat_0_aaaaaa_40x100.png": {
+      "md5": "4ecf40f1417c8f7a682f082861d59b25",
+      "sha1": "18046cf116c5efcc47b6bcf9c5aa099ef9cfb513",
+      "sha256": "18046cf116c5efcc47b6bcf9c5aa099ef9cfb513"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_55_fbf9ee_1x400.png": {
+      "md5": "c251e691fef01d9b40e810e0c291de34",
+      "sha1": "08ef98d8cb4e2a56eff56f166e3d825492da9d34",
+      "sha256": "08ef98d8cb4e2a56eff56f166e3d825492da9d34"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_65_ffffff_1x400.png": {
+      "md5": "09abfaafe2c91f19356fcbb45cf4de99",
+      "sha1": "a9418144222353b669a3d7848bcf786b18042854",
+      "sha256": "a9418144222353b669a3d7848bcf786b18042854"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_75_dadada_1x400.png": {
+      "md5": "4adc16b7936b738814f7ab2b65d5b9cc",
+      "sha1": "e270e2d0e68513cb917d79d6e20526765d64bd0e",
+      "sha256": "e270e2d0e68513cb917d79d6e20526765d64bd0e"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png": {
+      "md5": "8666feee4dcdb47535ff4e9a3d844600",
+      "sha1": "ca8341806bc2e865a6533dad946b20a5e7294f2b",
+      "sha256": "ca8341806bc2e865a6533dad946b20a5e7294f2b"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_75_ffffff_1x400.png": {
+      "md5": "6141a138da8c4862b5b79bd60e761dd9",
+      "sha1": "4b0a30c8ed66e75dc9efa4544aa9489f043a957b",
+      "sha256": "4b0a30c8ed66e75dc9efa4544aa9489f043a957b"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_highlight-soft_75_cccccc_1x100.png": {
+      "md5": "e511b702f2b0d1d15e2489ec47335fe8",
+      "sha1": "ea072e82d51c05b9d810a421760ae92371fde79b",
+      "sha256": "ea072e82d51c05b9d810a421760ae92371fde79b"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_inset-soft_95_fef1ec_1x100.png": {
+      "md5": "077480a9dfee1997d19f0c2b720252c9",
+      "sha1": "693de3a858bf243c4ca6807304570457d565d899",
+      "sha256": "693de3a858bf243c4ca6807304570457d565d899"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_222222_256x240.png": {
+      "md5": "5e2effcceb9c413c3f12c60921461437",
+      "sha1": "c428f41ca1a3f4ab5f09f5cf9420bd321be4a556",
+      "sha256": "c428f41ca1a3f4ab5f09f5cf9420bd321be4a556"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_2e83ff_256x240.png": {
+      "md5": "ef41fe920e3c457f9de53a7c19e8c91e",
+      "sha1": "e4fea31829044acaf187e9dd6d564142e30177b8",
+      "sha256": "e4fea31829044acaf187e9dd6d564142e30177b8"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_454545_256x240.png": {
+      "md5": "9e05eab5180886005813046a6c7f346e",
+      "sha1": "1838af1267a2a96b79a3ba5c0ad4bac8f1f2e62a",
+      "sha256": "1838af1267a2a96b79a3ba5c0ad4bac8f1f2e62a"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_888888_256x240.png": {
+      "md5": "9f91ea341def014931897c68a6ac1458",
+      "sha1": "95ded656c3f3c5eee0293088eb92942fb0cf770d",
+      "sha256": "95ded656c3f3c5eee0293088eb92942fb0cf770d"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_cd0a0a_256x240.png": {
+      "md5": "b459b7320b81d8f208a1035ac90a0542",
+      "sha1": "622a08912acf29facfbade57bbfb9b3a9a64c70a",
+      "sha256": "622a08912acf29facfbade57bbfb9b3a9a64c70a"
+    },
+    "lib/jquery-ui-1.8.6/css/custom-theme/jquery-ui-1.8.6.custom.css": {
+      "md5": "bf3051179ae4fc88dd7c3cf2ff199a07",
+      "sha1": "1c1d383e39b169147b0cea2b8f581b1a8e7dc94a",
+      "sha256": "1c1d383e39b169147b0cea2b8f581b1a8e7dc94a"
+    },
+    "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js": {
+      "md5": "3ff7f3b2f6b7c6d1479472f641387981",
+      "sha1": "41963fbbe2e56f85faa547ed085f146dbae98521",
+      "sha256": "41963fbbe2e56f85faa547ed085f146dbae98521"
+    },
+    "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.highlight.js": {
+      "md5": "2234c7f5210aa790c49afb6232b3952b",
+      "sha1": "dcc6e65ddf68d6c47ff53b6125269d932c680543",
+      "sha256": "dcc6e65ddf68d6c47ff53b6125269d932c680543"
+    },
+    "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js": {
+      "md5": "5ab5dd5b9eaa0dea4d4f543cf2272f44",
+      "sha1": "749fe6ee0bb5a5fdcd563cb2e4aadea2cb744fca",
+      "sha256": "749fe6ee0bb5a5fdcd563cb2e4aadea2cb744fca"
+    },
+    "lib/jquery.layout-1.2.0.js": {
+      "md5": "a42b27f474704af599ba4c76a9387a83",
+      "sha1": "fa83390170035ef5f0855405456d6abbe7bfb247",
+      "sha256": "fa83390170035ef5f0855405456d6abbe7bfb247"
+    },
+    "lib/jquery.tablednd_0_5.js": {
+      "md5": "a4f93d09c80965a966b4ef4df334f6ec",
+      "sha1": "50992658e4b279dd5c90ae52f0b49a7628622edd",
+      "sha256": "50992658e4b279dd5c90ae52f0b49a7628622edd"
+    },
+    "license.html": {
+      "md5": "c2fca9695add4c9fa1995c8021f5e1ec",
+      "sha1": "5f90b3148678672d041bc775d32ede0c2598adb8",
+      "sha256": "5f90b3148678672d041bc775d32ede0c2598adb8"
+    },
+    "manifest.json": {
+      "md5": "e8c6a07f4b87ab05c9fe43cbd8fa6344",
+      "sha1": "5caf9eeeda6e500a4c11f1695e40536779962c0a",
+      "sha256": "5caf9eeeda6e500a4c11f1695e40536779962c0a"
+    },
+    "popup.html": {
+      "md5": "b03b839846b2aa4a70592f6447d6b723",
+      "sha1": "7fccfce6b516ad4ba241e9a7aac6ae13fe23a6c0",
+      "sha256": "7fccfce6b516ad4ba241e9a7aac6ae13fe23a6c0"
+    },
+    "test/lib/jasmine-1.0.1/jasmine-html.js": {
+      "md5": "8f21931110ff1e883f5f1a7d8243b3b4",
+      "sha1": "90862899d3e607c36dad241abed813f257f18416",
+      "sha256": "90862899d3e607c36dad241abed813f257f18416"
+    },
+    "test/lib/jasmine-1.0.1/jasmine.css": {
+      "md5": "4b591506907df81ac9e4e0eaaad6b444",
+      "sha1": "82eef900a68735a3dff35560a76020f80c422247",
+      "sha256": "82eef900a68735a3dff35560a76020f80c422247"
+    },
+    "test/lib/jasmine-1.0.1/jasmine.js": {
+      "md5": "0bfabf718e2150755aafd92b9f0ec7e2",
+      "sha1": "29711b01af981fb3dde99453016eb03c5ae9763a",
+      "sha256": "29711b01af981fb3dde99453016eb03c5ae9763a"
+    },
+    "test/lib/jasmine-1.0.1/MIT.LICENSE": {
+      "md5": "2882cd06361563346dc4d05d0d7c039e",
+      "sha1": "75a9e8e9f69b9d59981d9e7d11d2b25c20e2c239",
+      "sha256": "75a9e8e9f69b9d59981d9e7d11d2b25c20e2c239"
+    },
+    "test/spec/bit155/attr.spec.js": {
+      "md5": "2f679e947d29536337884c426c1c20a9",
+      "sha1": "6b5e65ccc69187b7aba7ea9f46e5b19d2acf3ca3",
+      "sha256": "6b5e65ccc69187b7aba7ea9f46e5b19d2acf3ca3"
+    },
+    "test/spec/bit155/csv.spec.js": {
+      "md5": "141ff1e788b5d1ebecfff11eaac9cde3",
+      "sha1": "a47d9301f4ead2668584ec457ae446da30756d46",
+      "sha256": "a47d9301f4ead2668584ec457ae446da30756d46"
+    },
+    "test/spec/bit155/scraper.spec.js": {
+      "md5": "4ceb1112db3d2912403a9204e66ed3bb",
+      "sha1": "4d11814766b60ca45b63857dfb9e7240a50ac3db",
+      "sha256": "4d11814766b60ca45b63857dfb9e7240a50ac3db"
+    },
+    "test/spec/jquery-commonAncestor.spec.js": {
+      "md5": "9383af9e637c7e5489f00eb9ea20f773",
+      "sha1": "b8503e2cc144a5c5efd39d10b81c0f8eb9261431",
+      "sha256": "b8503e2cc144a5c5efd39d10b81c0f8eb9261431"
+    },
+    "test/spec/jquery-serializeParams.spec.js": {
+      "md5": "3cd9991b91df7f4def060830a64a5a56",
+      "sha1": "5ec327e0a8f4ad72baa65681c0ea89688c3a779d",
+      "sha256": "5ec327e0a8f4ad72baa65681c0ea89688c3a779d"
+    },
+    "test/spec/jquery-xpath.spec.js": {
+      "md5": "d57fcbf5bb3d614d7b3d165d273199c7",
+      "sha1": "94d50837012a141fbe7f750c6085cd646f1b3c97",
+      "sha256": "94d50837012a141fbe7f750c6085cd646f1b3c97"
+    },
+    "test/SpecRunner.html": {
+      "md5": "5a572afc0787fcaf86eb3819e1e97ba4",
+      "sha1": "7f1aa3182f7880f48f478a57cfaf7584a5a9f45e",
+      "sha256": "7f1aa3182f7880f48f478a57cfaf7584a5a9f45e"
+    },
+    "test/SpecRunner.js": {
+      "md5": "8fb30eec4b4b25d549bd11fdb1de8cb2",
+      "sha1": "d4726ee5fed43c90179c737322322e1923f440de",
+      "sha256": "d4726ee5fed43c90179c737322322e1923f440de"
+    },
+    "viewer.html": {
+      "md5": "aa0939147ba34e9372b8aea641ac43e4",
+      "sha1": "27fcd3d6a042a97da253226a3ac4c793f41a055f",
+      "sha256": "27fcd3d6a042a97da253226a3ac4c793f41a055f"
+    },
+    "_metadata/verified_contents.json": {
+      "md5": "344b249dfd90395ff1e7bd6e61250d9f",
+      "sha1": "b01c556675cf77f8921749ef9f5dfe753b4a4ccf",
+      "sha256": "b01c556675cf77f8921749ef9f5dfe753b4a4ccf"
+    }
+  },
+  "_type": "Extension",
+  "_manifest": {
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "manifest_version": 2,
+    "name": "Scraper",
+    "version": "1.7",
+    "description": "Scraper gets data out of web pages and into spreadsheets.",
+    "icons": {
+      "16": "img/scraper16.png",
+      "32": "img/scraper32.png",
+      "48": "img/scraper48.png",
+      "128": "img/scraper128.png"
+    },
+    "background": {
+      "scripts": [
+        "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js",
+        "js/shared.js",
+        "js/bit155/attr.js",
+        "js/bit155/scraper.js",
+        "js/background.js"
+      ]
+    },
+    "permissions": [
+      "identity",
+      "tabs",
+      "contextMenus",
+      "clipboardWrite",
+      "unlimitedStorage",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "http://*/*",
+          "https://*/*"
+        ],
+        "run_at": "document_start",
+        "js": [
+          "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js",
+          "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.highlight.js",
+          "js/shared.js",
+          "js/bit155/attr.js",
+          "js/bit155/scraper.js",
+          "js/contentscript.js"
+        ]
+      }
+    ],
+    "oauth2": {
+      "client_id": "713595600722-2s6ljlbm9d6icnkjum9anlrr87hj9gjk.apps.googleusercontent.com",
+      "scopes": [
+        "https://www.googleapis.com/auth/drive",
+        "https://www.googleapis.com/auth/drive.file"
+      ]
+    }
+  },
+  "_manifest_file": "manifest.json",
+  "_size": null,
+  "_digest": {
+    "md5": "dd2788e8d3baed316600016148a5615c",
+    "sha1": "76fa758310dfbecebd6425e773fab056adcf3bf0",
+    "sha256": "76fa758310dfbecebd6425e773fab056adcf3bf0"
+  },
+  "_features": {
+    "certificate_info": {},
+    "comments": [
+      {
+        "value": "\\",
+        "path": "lib/jquery-ui-1.8.6/css/custom-theme/jquery-ui-1.8.6.custom.css"
+      },
+      {
+        "value": "\r\n * jquery.layout 1.2.0\r\n *\r\n * Copyright (c) 2008 \r\n *   Fabrizio Balliano (http://www.fabrizioballiano.net)\r\n *   Kevin Dalman (http://allpro.net)\r\n *\r\n * Dual licensed under the GPL (http://www.gnu.org/licenses/gpl.html)\r\n * and MIT (http://www.opensource.org/licenses/mit-license.php) licenses.\r\n *\r\n * $Date: 2008-12-27 02:17:22 +0100 (sab, 27 dic 2008) $\r\n * $Rev: 203 $\r\n * \r\n * NOTE: For best code readability, view this with a fixed-space font and tabs equal to 4-chars\r\n",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "\r\n * ###########################\r\n *   WIDGET CONFIG & OPTIONS\r\n * ###########################\r\n",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "\r\n * ###########################\r\n *  INTERNAL HELPER FUNCTIONS\r\n * ###########################\r\n",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * min / max\r\n\t *\r\n\t * Alias for Math.min/.max to simplify coding\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * getPaneDims\r\n\t *\r\n\t * Returns data for setting the size/position of center pane. Date is also used to set Height for east/west panes\r\n\t *\r\n\t * @returns JSON  Returns a hash of all dimensions: top, bottom, left, right, (outer) width and (outer) height\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * getElemDims\r\n\t *\r\n\t * Returns data for setting size of an element (container or a pane).\r\n\t *\r\n\t * @callers  create(), onWindowResize() for container, plus others for pane\r\n\t * @returns JSON  Returns a hash of all dimensions: top, bottom, left, right, outerWidth, innerHeight, etc\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "\r\n * ###########################\r\n *   INITIALIZATION METHODS\r\n * ###########################\r\n",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * create\r\n\t *\r\n\t * Initialize the layout - called automatically whenever an instance of layout is created\r\n\t *\r\n\t * @callers  NEVER explicity called\r\n\t * @returns  An object pointer to the instance created\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * initContainer\r\n\t *\r\n\t * Validate and initialize container CSS and events\r\n\t *\r\n\t * @callers  create()\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * initHotkeys\r\n\t *\r\n\t * Bind layout hotkeys - if options enabled\r\n\t *\r\n\t * @callers  create()\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * initOptions\r\n\t *\r\n\t * Build final CONFIG and OPTIONS data\r\n\t *\r\n\t * @callers  create()\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * initPanes\r\n\t *\r\n\t * Initialize module objects, styling, size and position for all panes\r\n\t *\r\n\t * @callers  create()\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * initHandles\r\n\t *\r\n\t * Initialize module objects, styling, size and position for all resize bars and toggler buttons\r\n\t *\r\n\t * @callers  create()\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * initResizable\r\n\t *\r\n\t * Add resize-bars to all panes that specify it in options\r\n\t *\r\n\t * @dependancies  $.fn.resizable - will abort if not found\r\n\t * @callers  create()\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "\r\n * ###########################\r\n *       ACTION METHODS\r\n * ###########################\r\n",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * toggle\r\n\t *\r\n\t * Toggles a pane open/closed by calling either open or close\r\n\t *\r\n\t * @param String  pane   The pane being toggled, ie: north, south, east, or west\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * close\r\n\t *\r\n\t * Close the specified pane (animation optional), and resize all other panes as needed\r\n\t *\r\n\t * @param String  pane   The pane being closed, ie: north, south, east, or west\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * open\r\n\t *\r\n\t * Open the specified pane (animation optional), and resize all other panes as needed\r\n\t *\r\n\t * @param String  pane   The pane being opened, ie: north, south, east, or west\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * sizePane\r\n\t *\r\n\t * @callers  initResizable.stop()\r\n\t * @param String  pane   The pane being resized - usually west or east, but potentially north or south\r\n\t * @param Integer  newSize  The new size for this pane - will be validated\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * sizeMidPanes\r\n\t *\r\n\t * @callers  create(), open(), close(), onWindowResize()\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "OLD CODE - keep until sure line above works right!\r\n\t\t\t\t\tif (!s.isClosed) $P.show(); // in case was previously hidden due to NOT hasRoom\r\n\t\t\t\t\tif ($R) $R.show();\r\n\t\t\t\t\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * resizeAll\r\n\t *\r\n\t * @callers  window.onresize(), callbacks or custom code\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "*\r\n\t * keyDown\r\n\t *\r\n\t * Capture keys when enableCursorHotkey - toggle pane if hotkey pressed\r\n\t *\r\n\t * @callers  document.keydown()\r\n\t",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "\r\n * ###########################\r\n *     UTILITY METHODS\r\n *   called externally only\r\n * ###########################\r\n",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "\r\n * ###########################\r\n * CREATE/RETURN BORDER-LAYOUT\r\n * ###########################\r\n",
+        "path": "lib/jquery.layout-1.2.0.js"
+      },
+      {
+        "value": "Copyright (c) 2010, David Heaton\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimer.\n \n    * Redistributions in binary form must reproduce the above copyright\n      notice, this list of conditions and the following disclaimer in the\n      documentation and/or other materials provided with the distribution.\n \n     * Neither the name of bit155 nor the names of its contributors\n       may be used to endorse or promote products derived from this software\n       without specific prior written permission.\n \nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+        "path": "popup.html"
+      },
+      {
+        "value": "Copyright (c) 2010, David Heaton\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimer.\n \n    * Redistributions in binary form must reproduce the above copyright\n      notice, this list of conditions and the following disclaimer in the\n      documentation and/or other materials provided with the distribution.\n \n     * Neither the name of bit155 nor the names of its contributors\n       may be used to endorse or promote products derived from this software\n       without specific prior written permission.\n \nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+        "path": "test/SpecRunner.html"
+      },
+      {
+        "value": "include source files here...",
+        "path": "test/SpecRunner.html"
+      },
+      {
+        "value": "include spec files here...",
+        "path": "test/SpecRunner.html"
+      },
+      {
+        "value": "Copyright (c) 2010, David Heaton\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimer.\n \n    * Redistributions in binary form must reproduce the above copyright\n      notice, this list of conditions and the following disclaimer in the\n      documentation and/or other materials provided with the distribution.\n \n     * Neither the name of bit155 nor the names of its contributors\n       may be used to endorse or promote products derived from this software\n       without specific prior written permission.\n \nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+        "path": "viewer.html"
+      }
+    ],
+    "cryptojacking": {},
+    "entities": {
+      "url": [
+        {
+          "value": "https://www.googleapis.com/upload/drive/v2/files?uploadType=multipart&convert=true",
+          "path": "js/background.js"
+        },
+        {
+          "value": "https://chrome.google.com/extensions",
+          "path": "js/bit155/scraper.js"
+        },
+        {
+          "value": "http://api.jquery.com/category/selectors/",
+          "path": "js/viewer.js"
+        },
+        {
+          "value": "http://www.stylusstudio.com/docs/v62/d_xpath15.html",
+          "path": "js/viewer.js"
+        },
+        {
+          "value": "http://www.fabrizioballiano.net",
+          "path": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+          "value": "http://allpro.net",
+          "path": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+          "value": "http://www.gnu.org/licenses/gpl.html",
+          "path": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+          "value": "http://www.opensource.org/licenses/mit-license.php",
+          "path": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+          "value": "http://pivotal.github.com/jasmine/",
+          "path": "test/lib/jasmine-1.0.1/jasmine-html.js"
+        },
+        {
+          "value": "http://dvhtn.com",
+          "path": "viewer.html"
+        },
+        {
+          "value": "http://jquery.com",
+          "path": "viewer.html"
+        },
+        {
+          "value": "http://jqueryui.com",
+          "path": "viewer.html"
+        },
+        {
+          "value": "http://layout.jquery-dev.net",
+          "path": "viewer.html"
+        },
+        {
+          "value": "http://www.datatables.net",
+          "path": "viewer.html"
+        },
+        {
+          "value": "http://www.isocra.com/2008/02/table-drag-and-drop-jquery-plugin/",
+          "path": "viewer.html"
+        },
+        {
+          "value": "http://p.yusukekamiyamane.com",
+          "path": "viewer.html"
+        },
+        {
+          "value": "http://mnmldave.github.com/scraper/",
+          "path": "viewer.html"
+        }
+      ],
+      "email": [],
+      "ipv4": [],
+      "bitcoin_address": [],
+      "litecoin_address": [],
+      "data_blob": [],
+      "cc_visa": [],
+      "cc_mastercard": [],
+      "cc_american_express": [],
+      "cc_dinners_club": []
+    },
+    "locales": {},
+    "metadata": {
+      "img/application-form.png": {},
+      "img/bullet_add.png": {},
+      "img/bullet_delete.png": {},
+      "img/control-090-small.png": {},
+      "img/control-270-small.png": {},
+      "img/exclamation-button.png": {},
+      "img/exclamation-red.png": {},
+      "img/handle.png": {},
+      "img/highlighter-small.png": {},
+      "img/icon-120x120.png": {},
+      "img/icon-128x128.png": {},
+      "img/icon-16x16.png": {},
+      "img/icon-32x32.png": {},
+      "img/icon-48x48.png": {},
+      "img/promo-1400x560.png": {},
+      "img/promo-440x280.png": {},
+      "img/promo-920x680.png": {},
+      "img/question-small-white.png": {},
+      "img/question.png": {},
+      "img/scraper128.png": {},
+      "img/scraper16.png": {},
+      "img/scraper19.png": {},
+      "img/scraper32.png": {},
+      "img/scraper48.png": {},
+      "lib/datatables-1.7.4/images/back_disabled.jpg": {},
+      "lib/datatables-1.7.4/images/back_enabled.jpg": {},
+      "lib/datatables-1.7.4/images/favicon.ico": {},
+      "lib/datatables-1.7.4/images/forward_disabled.jpg": {},
+      "lib/datatables-1.7.4/images/forward_enabled.jpg": {},
+      "lib/datatables-1.7.4/images/sort_asc.png": {},
+      "lib/datatables-1.7.4/images/sort_asc_disabled.png": {},
+      "lib/datatables-1.7.4/images/sort_both.png": {},
+      "lib/datatables-1.7.4/images/sort_desc.png": {},
+      "lib/datatables-1.7.4/images/sort_desc_disabled.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_flat_0_aaaaaa_40x100.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_55_fbf9ee_1x400.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_65_ffffff_1x400.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_75_dadada_1x400.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_glass_75_ffffff_1x400.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_highlight-soft_75_cccccc_1x100.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-bg_inset-soft_95_fef1ec_1x100.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_222222_256x240.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_2e83ff_256x240.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_454545_256x240.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_888888_256x240.png": {},
+      "lib/jquery-ui-1.8.6/css/custom-theme/images/ui-icons_cd0a0a_256x240.png": {}
+    },
+    "suspicious": {
+      "possible_obfuscation": [
+        {
+          "value": "encode",
+          "path": "js/bit155/scraper.js"
+        },
+        {
+          "value": "eval(",
+          "path": "lib/datatables-1.7.4/js/jquery.dataTables.js"
+        },
+        {
+          "value": "eval(",
+          "path": "lib/datatables-1.7.4/js/jquery.dataTables.js"
+        },
+        {
+          "value": "eval(",
+          "path": "lib/datatables-1.7.4/js/jquery.dataTables.js"
+        },
+        {
+          "value": "eval(",
+          "path": "lib/datatables-1.7.4/js/jquery.dataTables.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/datatables-1.7.4/js/jquery.dataTables.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/datatables-1.7.4/js/jquery.dataTables.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/datatables-1.7.4/js/jquery.dataTables.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "encode",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "eval(",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-ui-1.8.6.js"
+        },
+        {
+          "value": "eval(",
+          "path": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+          "value": "eval(",
+          "path": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/lib/jasmine-1.0.1/jasmine-html.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/lib/jasmine-1.0.1/jasmine-html.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/lib/jasmine-1.0.1/jasmine-html.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/lib/jasmine-1.0.1/jasmine-html.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        },
+        {
+          "value": "encode",
+          "path": "test/spec/bit155/csv.spec.js"
+        }
+      ],
+      "possible_payments": [],
+      "pattern_recognition": [],
+      "external_connections": [
+        {
+          "value": "XMLHttpRequest",
+          "path": "js/background.js"
+        },
+        {
+          "value": "POST",
+          "path": "js/background.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "POST",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "POST",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "POST",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "PUT",
+          "path": "lib/jquery-ui-1.8.6/js/jquery-1.4.2.js"
+        },
+        {
+          "value": "GET",
+          "path": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+          "value": "PUT",
+          "path": "lib/jquery.layout-1.2.0.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "test/lib/jasmine-1.0.1/jasmine.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "test/lib/jasmine-1.0.1/jasmine.js"
+        },
+        {
+          "value": "XMLHttpRequest",
+          "path": "test/lib/jasmine-1.0.1/jasmine.js"
+        }
+      ]
+    },
+    "thirdparties": {
+      "virustotal": {
+        "date_analysis": "2021-10-02 18:34:43.299300"
+      }
+    }
+  }
+}
