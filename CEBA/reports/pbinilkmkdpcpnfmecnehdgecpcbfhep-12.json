@@ -1,98 +1,185 @@
 {
   "with_extension": {
     "https://en.wikipedia.org/wiki/List_of_wikis": [
-      "www.wermz.com",
       "en.wikipedia.org",
+      "www.wermz.com",
       "upload.wikimedia.org"
     ],
     "https://www.uni-tuebingen.de": [
-      "vitruv.uni-tuebingen.de",
+      "www.wermz.com",
       "www.uni-tuebingen.de",
-      "uni-tuebingen.de",
-      "www.wermz.com"
+      "uni-tuebingen.de"
     ],
     "https://www.uni-sb.de": [
-      "www.uni-sb.de",
-      "www.wermz.com"
+      "www.wermz.com",
+      "www.uni-sb.de"
     ],
     "https://www.eff.org": [
+      "www.wermz.com",
       "anon-stats.eff.org",
-      "www.eff.org",
-      "www.wermz.com"
+      "www.eff.org"
     ],
     "https://www.mozilla.org": [
-      "firefox.com",
-      "www.google-analytics.com",
-      "www.mozilla.org",
       "www.wermz.com",
+      "www.googletagmanager.com",
+      "www.google-analytics.com",
       "www.firefox.com",
-      "www.googletagmanager.com"
+      "firefox.com",
+      "www.mozilla.org"
     ],
     "https://www.arbeitsagentur.de": [
-      "www.arbeitsagentur.de",
       "www.wermz.com",
+      "api-con.arbeitsagentur.de",
       "b'ocsp.sectigo.com'",
+      "www.arbeitsagentur.de",
+      "img.arbeitsagentur.de",
+      "sso.arbeitsagentur.de",
+      "con.arbeitsagentur.de",
       "b'ocsp.usertrust.com'"
     ],
     "https://www.tagesschau.de": [
-      "www.tagesschau.de",
-      "www1.sportschau.de",
-      "b'edgedl.me.gvt1.com'",
-      "6830fb8d85bc700a34afefc1558b59def3d6b61500d1e9ba6f92f966.trk.sensic.net",
-      "update.googleapis.com",
-      "www.wermz.com",
-      "script.ioam.de",
       "logs1413.xiti.com",
-      "de-config.sensic.net"
+      "de-config.sensic.net",
+      "player.h-cdn.com",
+      "92409e823daed3b1107e796e479343b09b8d2e235b9f0a2f7fc1b04d.trk.sensic.net",
+      "script.ioam.de",
+      "www.tagesschau.de"
     ],
     "https://www.ptb.de": [
-      "uhr.ptb.de",
+      "perr.h-cdn.com",
       "www.ptb.de",
-      "www.wermz.com"
+      "uhr.ptb.de"
     ],
     "https://www.inria.fr": [
-      "www.inria.fr",
       "www.wermz.com",
-      "piwik.inria.fr"
+      "browser-update.org",
+      "piwik.inria.fr",
+      "www.inria.fr"
     ],
     "https://www.google.de/?gfe_rd=cr&ei=dr9fWKHfJc7i8AeutpSwAg#q=test": [
-      "www.inria.fr",
-      "www.google.de",
-      "www.wermz.com",
-      "www.gstatic.com"
+      "www.gstatic.com",
+      "apis.google.com",
+      "www.google.de"
     ],
     "https://www.facebook.com/Speicherstadt-Kaffeer%C3%B6sterei-118962444840064/": [
-      "facebook.com",
-      "scontent.fopo4-2.fna.fbcdn.net",
-      "static.xx.fbcdn.net",
-      "external.fopo4-1.fna.fbcdn.net",
       "www.wermz.com",
-      "scontent.fopo4-1.fna.fbcdn.net",
-      "www.facebook.com"
+      "www.facebook.com",
+      "facebook.com",
+      "static.xx.fbcdn.net"
     ],
     "https://www.youtube.com/watch?v=WhU1ZXLsKCg": [
-      "fonts.googleapis.com",
-      "www.youtube.com",
-      "r8---sn-2vgu0b5auxaxjvh-v2vd.googlevideo.com",
       "www.wermz.com",
+      "b'edgedl.me.gvt1.com'",
       "fonts.gstatic.com",
-      "i.ytimg.com"
+      "r8---sn-2vgu0b5auxaxjvh-v2vd.googlevideo.com",
+      "www.youtube.com",
+      "accounts.google.com",
+      "update.googleapis.com",
+      "i.ytimg.com",
+      "fonts.googleapis.com"
     ],
     "https://www.google.de/maps/@49.3428062,6.78282,13z?hl=en": [
-      "update.googleapis.com",
-      "www.wermz.com",
       "consent.google.de"
     ],
     "https://twitter.com/josephfcox": [
-      "abs.twimg.com",
-      "api.twitter.com",
-      "video.twimg.com",
+      "b'edgedl.me.gvt1.com'",
       "www.wermz.com",
-      "t.co",
       "twitter.com",
+      "api.twitter.com",
+      "abs.twimg.com",
+      "t.co",
+      "video.twimg.com",
       "pbs.twimg.com"
     ]
   },
-  "without_extension": {},
+  "without_extension": {
+    "https://en.wikipedia.org/wiki/List_of_wikis": [
+      "en.wikipedia.org",
+      "www.wermz.com",
+      "b'edgedl.me.gvt1.com'",
+      "upload.wikimedia.org"
+    ],
+    "https://www.uni-tuebingen.de": [
+      "b'edgedl.me.gvt1.com'",
+      "www.uni-tuebingen.de",
+      "vitruv.uni-tuebingen.de",
+      "uni-tuebingen.de"
+    ],
+    "https://www.uni-sb.de": [
+      "b'edgedl.me.gvt1.com'",
+      "www.uni-sb.de"
+    ],
+    "https://www.eff.org": [
+      "anon-stats.eff.org",
+      "www.eff.org"
+    ],
+    "https://www.mozilla.org": [
+      "www.firefox.com",
+      "firefox.com",
+      "www.mozilla.org",
+      "www.googletagmanager.com"
+    ],
+    "https://www.arbeitsagentur.de": [
+      "b'edgedl.me.gvt1.com'",
+      "api-con.arbeitsagentur.de",
+      "b'ocsp.sectigo.com'",
+      "www.arbeitsagentur.de",
+      "img.arbeitsagentur.de",
+      "sso.arbeitsagentur.de",
+      "con.arbeitsagentur.de",
+      "b'ocsp.usertrust.com'"
+    ],
+    "https://www.tagesschau.de": [
+      "logs1413.xiti.com",
+      "de-config.sensic.net",
+      "player.h-cdn.com",
+      "90d3b445dfae914b76197d430700a668c872d94f38cf8a885dc6398a.trk.sensic.net",
+      "script.ioam.de",
+      "www.tagesschau.de"
+    ],
+    "https://www.ptb.de": [
+      "perr.h-cdn.com",
+      "www.ptb.de",
+      "uhr.ptb.de"
+    ],
+    "https://www.inria.fr": [
+      "b'edgedl.me.gvt1.com'",
+      "browser-update.org",
+      "piwik.inria.fr",
+      "www.inria.fr"
+    ],
+    "https://www.google.de/?gfe_rd=cr&ei=dr9fWKHfJc7i8AeutpSwAg#q=test": [
+      "b'edgedl.me.gvt1.com'",
+      "apis.google.com",
+      "www.google.de",
+      "www.gstatic.com"
+    ],
+    "https://www.facebook.com/Speicherstadt-Kaffeer%C3%B6sterei-118962444840064/": [
+      "api.twitter.com",
+      "www.facebook.com",
+      "facebook.com",
+      "static.xx.fbcdn.net"
+    ],
+    "https://www.youtube.com/watch?v=WhU1ZXLsKCg": [
+      "b'edgedl.me.gvt1.com'",
+      "fonts.gstatic.com",
+      "r8---sn-2vgu0b5auxaxjvh-v2vd.googlevideo.com",
+      "www.youtube.com",
+      "accounts.google.com",
+      "i.ytimg.com",
+      "fonts.googleapis.com"
+    ],
+    "https://www.google.de/maps/@49.3428062,6.78282,13z?hl=en": [
+      "consent.google.de"
+    ],
+    "https://twitter.com/josephfcox": [
+      "twitter.com",
+      "api.twitter.com",
+      "abs.twimg.com",
+      "t.co",
+      "video.twimg.com",
+      "pbs.twimg.com"
+    ]
+  },
   "filename": "data/extensions/pbinilkmkdpcpnfmecnehdgecpcbfhep-12.crx"
 }

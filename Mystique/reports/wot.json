@@ -1,0 +1,54 @@
+{
+  "activity_log": [], 
+  "analysis_duration": 394.66972, 
+  "analysis_start": "Mon, 27 Sep 2021 11:38:21 GMT", 
+  "hid": "dgjoldeohhblhfmlcjagdopkpgcepnec", 
+  "js_log": [], 
+  "md5": "b962946035841028257302cc9fd17032", 
+  "name": "WOT Website Security & Browsing Protection", 
+  "network_log": [
+    {
+      "headers": [
+        {
+          "name": "Host", 
+          "value": "svcs.ebay.com"
+        }, 
+        {
+          "name": "User-Agent", 
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.90 Safari/537.36"
+        }, 
+        {
+          "name": "Accept", 
+          "value": "image/webp,image/*,*/*;q=0.8"
+        }, 
+        {
+          "name": "Accept-Encoding", 
+          "value": "gzip, deflate, sdch, br"
+        }, 
+        {
+          "name": "Accept-Language", 
+          "value": "en-US,en;q=0.8"
+        }, 
+        {
+          "name": "Connection", 
+          "value": "keep-alive"
+        }, 
+        {
+          "name": "Cookie", 
+          "value": "ds2=; ebay=%5Esbf%3D%2310000000000%5Ejs%3D1%5E; dp1=bu1p/QEBfX0BAX19AQA**5ca930df^bl/US5e8a645f^pbf/%2320002000000000020000005ca930df^; s=CgAD4ACBayU7fOWQzNWFjNTYxNjIwYTllMWU0ODQwZjJjZmZkYWExYzin9LkU; nonsession=CgAAIABxa74pfMTUyMzA1NTk2M3gzODE4ODUwMDMwOTR4MHgyTgDLAAFayARnMwDKACBkLf7fOWQzNWFjNTYxNjIwYTllMWU0ODQwZjJjZmZkYWExYzhlhaSS; AMCV_A71B5B5B54F607AB0A4C98A2%40AdobeOrg=-1758798782%7CMCIDTS%7C18898; npii=btguid/9d35ac561620a9e1e4840f2cffdaa1c85ca930df^cguid/9d35b14b1620aa492273a6f1ff0d49e35ca930df^"
+        }, 
+        {
+          "name": "Referer", 
+          "value": "https://stags.bluekai.com/site/17001?dt=0&r=1780844500&sig=1186989517&bkca=KJ0NDL+3yp9xdOg7/kBA0zIYelA6G5exxaobnnv25AHkV6CvSS94U0rNR+Bf6VkZ+emf6iGyIzZ6RiaT06tKnQGMXt9CEfypm4evGhru6CsqAoZO0sQDMDpOrTW/AF9rzhuda+W6uB1/RT3p6aP4J9pvJ24z2sGA84UtYaGypBoaZOJUJwVAkb359ENUs++UHS1iY/LQJoih1Y1AGu0rQfgsPjiOZT/qLejnvxDQ4MMNcSeTi/JT+6/KiENY1x62r+30zrMpQkTf6jz4D16Namfx6XLeKrBqMFMpDWltOfHZnuisMiNEHko426GvZOlEiNjgW9J51fDBxXr0OvNfhDafj/lI0omP2i/lgwQSFweldhdlHfmcnAh+yIdcztmkR64Zww2Ub13pOMDH54rrGVZC1h17rejAQo/NXcC5whyZzKvtSldztvxHvSsj5qvD4TLKGAE4dsbZVtD+Oq5CeQFqLmdfeCSdX9zKxwL+"
+        }
+      ], 
+      "is_js": true, 
+      "status": 200, 
+      "ts": "Mon, 27 Sep 2021 11:41:25 GMT", 
+      "url": "https://svcs.ebay.com/delstats/email/DeviceFingerprint?cguid=9d35b14b1620aa492273a6f1ff0d49e3&dfp=97e8c5f75f8fb19bfcb2d96c26c7df1c&hu=hu&timetaken=0&rvr_id=1234&gcity=&gdma=1&v=3"
+    }
+  ], 
+  "result": "Error", 
+  "results_available": true, 
+  "taint_sinks": ""
+}

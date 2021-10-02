@@ -1,14 +1,14 @@
 {
   "with_extension": {
     "https://en.wikipedia.org/wiki/List_of_wikis": [
-      "analytics.ff.avast.com",
-      "uib.ff.avast.com",
       "en.wikipedia.org",
-      "upload.wikimedia.org"
+      "uib.ff.avast.com",
+      "upload.wikimedia.org",
+      "login.wikimedia.org"
     ],
     "https://www.uni-tuebingen.de": [
-      "vitruv.uni-tuebingen.de",
       "www.uni-tuebingen.de",
+      "vitruv.uni-tuebingen.de",
       "uni-tuebingen.de"
     ],
     "https://www.uni-sb.de": [
@@ -19,68 +19,154 @@
       "www.eff.org"
     ],
     "https://www.mozilla.org": [
-      "firefox.com",
-      "www.google-analytics.com",
-      "www.mozilla.org",
       "www.firefox.com",
+      "firefox.com",
+      "www.mozilla.org",
       "www.googletagmanager.com"
     ],
     "https://www.arbeitsagentur.de": [
-      "sso.arbeitsagentur.de",
-      "con.arbeitsagentur.de",
+      "api-con.arbeitsagentur.de",
       "b'ocsp.sectigo.com'",
-      "b'ocsp.usertrust.com'",
       "www.arbeitsagentur.de",
       "img.arbeitsagentur.de",
-      "api-con.arbeitsagentur.de"
+      "sso.arbeitsagentur.de",
+      "con.arbeitsagentur.de",
+      "b'ocsp.usertrust.com'"
     ],
     "https://www.tagesschau.de": [
-      "www.tagesschau.de",
-      "www1.sportschau.de",
-      "9b0650dd7e75732d161660e287138bd8da3ba97ac82236ff66ca7c71.trk.sensic.net",
-      "b'edgedl.me.gvt1.com'",
-      "update.googleapis.com",
-      "de-config.sensic.net"
+      "logs1413.xiti.com",
+      "de-config.sensic.net",
+      "137c190659ad076ca216d37fb4c135e0b3874f10c1e9afd381f56a60.trk.sensic.net",
+      "player.h-cdn.com",
+      "script.ioam.de",
+      "www.tagesschau.de"
     ],
     "https://www.ptb.de": [
-      "uhr.ptb.de",
+      "perr.h-cdn.com",
       "www.ptb.de",
-      "uib.ff.avast.com"
+      "uhr.ptb.de"
     ],
     "https://www.inria.fr": [
-      "www.inria.fr",
-      "piwik.inria.fr"
+      "browser-update.org",
+      "uib.ff.avast.com",
+      "piwik.inria.fr",
+      "www.inria.fr"
     ],
     "https://www.google.de/?gfe_rd=cr&ei=dr9fWKHfJc7i8AeutpSwAg#q=test": [
-      "www.inria.fr",
-      "www.google.de",
-      "www.gstatic.com"
+      "www.gstatic.com",
+      "apis.google.com",
+      "uib.ff.avast.com",
+      "www.google.de"
     ],
     "https://www.facebook.com/Speicherstadt-Kaffeer%C3%B6sterei-118962444840064/": [
+      "www.facebook.com",
+      "uib.ff.avast.com",
       "facebook.com",
-      "scontent.fopo4-2.fna.fbcdn.net",
-      "static.xx.fbcdn.net",
-      "external.fopo4-1.fna.fbcdn.net",
-      "scontent.fopo4-1.fna.fbcdn.net",
-      "www.facebook.com"
+      "static.xx.fbcdn.net"
     ],
     "https://www.youtube.com/watch?v=WhU1ZXLsKCg": [
+      "b'edgedl.me.gvt1.com'",
       "r8---sn-2vgu0b5auxaxjvh-v2vd.googlevideo.com",
-      "i.ytimg.com",
-      "www.youtube.com"
+      "www.youtube.com",
+      "accounts.google.com",
+      "update.googleapis.com",
+      "i.ytimg.com"
     ],
     "https://www.google.de/maps/@49.3428062,6.78282,13z?hl=en": [
       "consent.google.de"
     ],
     "https://twitter.com/josephfcox": [
-      "abs.twimg.com",
-      "api.twitter.com",
-      "video.twimg.com",
-      "t.co",
       "twitter.com",
+      "api.twitter.com",
+      "abs.twimg.com",
+      "t.co",
+      "video.twimg.com",
       "pbs.twimg.com"
     ]
   },
-  "without_extension": {},
+  "without_extension": {
+    "https://en.wikipedia.org/wiki/List_of_wikis": [
+      "en.wikipedia.org",
+      "upload.wikimedia.org"
+    ],
+    "https://www.uni-tuebingen.de": [
+      "www.uni-tuebingen.de",
+      "vitruv.uni-tuebingen.de",
+      "www.google-analytics.com",
+      "uni-tuebingen.de"
+    ],
+    "https://www.uni-sb.de": [
+      "www.uni-sb.de"
+    ],
+    "https://www.eff.org": [
+      "anon-stats.eff.org",
+      "www.eff.org",
+      "b'edgedl.me.gvt1.com'"
+    ],
+    "https://www.mozilla.org": [
+      "www.firefox.com",
+      "firefox.com",
+      "www.mozilla.org",
+      "www.googletagmanager.com"
+    ],
+    "https://www.arbeitsagentur.de": [
+      "api-con.arbeitsagentur.de",
+      "b'ocsp.sectigo.com'",
+      "www.arbeitsagentur.de",
+      "img.arbeitsagentur.de",
+      "con.arbeitsagentur.de",
+      "b'ocsp.usertrust.com'"
+    ],
+    "https://www.tagesschau.de": [
+      "logs1413.xiti.com",
+      "de-config.sensic.net",
+      "player.h-cdn.com",
+      "70c2917d2a37d9a7dace3f513667aa8b54aa2a5fc26051d7ac5f3b61.trk.sensic.net",
+      "script.ioam.de",
+      "www.tagesschau.de"
+    ],
+    "https://www.ptb.de": [
+      "b'edgedl.me.gvt1.com'",
+      "perr.h-cdn.com",
+      "www.ptb.de",
+      "uhr.ptb.de"
+    ],
+    "https://www.inria.fr": [
+      "b'edgedl.me.gvt1.com'",
+      "browser-update.org",
+      "piwik.inria.fr",
+      "www.inria.fr"
+    ],
+    "https://www.google.de/?gfe_rd=cr&ei=dr9fWKHfJc7i8AeutpSwAg#q=test": [
+      "www.gstatic.com",
+      "apis.google.com",
+      "www.google.de"
+    ],
+    "https://www.facebook.com/Speicherstadt-Kaffeer%C3%B6sterei-118962444840064/": [
+      "www.facebook.com",
+      "facebook.com",
+      "static.xx.fbcdn.net"
+    ],
+    "https://www.youtube.com/watch?v=WhU1ZXLsKCg": [
+      "fonts.gstatic.com",
+      "r8---sn-2vgu0b5auxaxjvh-v2vd.googlevideo.com",
+      "www.youtube.com",
+      "accounts.google.com",
+      "i.ytimg.com",
+      "fonts.googleapis.com"
+    ],
+    "https://www.google.de/maps/@49.3428062,6.78282,13z?hl=en": [
+      "b'edgedl.me.gvt1.com'",
+      "consent.google.de"
+    ],
+    "https://twitter.com/josephfcox": [
+      "twitter.com",
+      "api.twitter.com",
+      "abs.twimg.com",
+      "t.co",
+      "video.twimg.com",
+      "pbs.twimg.com"
+    ]
+  },
   "filename": "data/extensions/gomekmidlodglbbmalcneegieacbdmki-7.crx"
 }

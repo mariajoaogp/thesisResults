@@ -103,5 +103,33 @@
       "users": 0
     }, 
     "id": "odpinpbbiiokfhbaboknoiojfbhfhdog"
+  },
+  "Honey": {
+    "rating": {
+      "score": 0, 
+      "users": 0
+    }, 
+    "id": "bmnlcjabgnpnenekpadlanbbkooimhnj"
+  },
+  "DataScraper": {
+    "rating": {
+      "score": 0, 
+      "users": 0
+    }, 
+    "id": "nndknepjnldbdbepjfgmncbggmopgden"
+  },
+  "Scraper": {
+    "rating": {
+      "score": 0, 
+      "users": 0
+    }, 
+    "id": "mbigbapnjcgaffohmbkdlecaccepngjd"
+  },
+  "WebScraper": {
+    "rating": {
+      "score": 0, 
+      "users": 0
+    }, 
+    "id": "agbkcicjfeocekbpjacamnfeglbgmlda"
   }
 }
