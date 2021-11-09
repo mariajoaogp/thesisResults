@@ -6,7 +6,7 @@ Esta ferramenta é dinâmica, abre o *chromium*, navega *websites* e regista tod
 
 A aplicação percorre a *Chrome Web Store* e faz o *download* das extensões a analisar, no entanto como neste estudo estão a ser analisadas sempre as mesmas extensões este passo é feito manualmente e apenas a análise é feita com a ferramenta. Para ser utilizada apenas a análise é necessário primeiro:
 1. Alterar o ficheiro ***data/extensions.json***, de forma a analisar as extensões deste estudo o ficheiro deve ser substituído por aquele presente nesta diretoria;
-2. Colocar os ficheiros *crx* na diretoria ***data/extensions***, o nome dos ficheiros *crx* tem de ser alterado, pois é esperado com a constistuição ***id-timestamp*** (para o *timestamp* foram colados números de 0 a 14). Para analisar as extensões presentes neste estudo, substituir a pasta ***data/reports*** pela ***reports*** presente nesta diretoria;
+2. Colocar os ficheiros *crx* na diretoria ***data/extensions***, o nome dos ficheiros *crx* tem de ser alterado, pois é esperado com a constistuição ***id-timestamp*** (para o *timestamp* foram colados números de 0 a 14). Para analisar as extensões presentes neste estudo, substituir a pasta ***data/extensions*** pela ***extensions*** presente nesta diretoria;
 
 Os *websites* percorridos são aqueles enumerados no ficheiro ***extensions/test.py***:
 - <https://en.wikipedia.org/wiki/List_of_wikis>;
